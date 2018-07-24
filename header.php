@@ -26,8 +26,10 @@
 	<body <?php body_class(); ?>>
 
 		<header>
-      <div class="menu-principal">
-        
+      <div class="main-menu">
+        <nav role="navigation">
+          <?php main_menu_nav(); ?>      
+        </nav>
       </div>
       <div class="social-menu">
         

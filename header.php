@@ -42,9 +42,10 @@
                 <?php main_menu_nav(); ?>
               </nav>
             </div>
+            <i class="fas fa-stroopwafel"></i>
             <div id="menu-terms-main">
               <?php footer_terms(); ?>
-            </div>  
+            </div>
         </div>      
       </div>
  

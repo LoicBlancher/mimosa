@@ -26,12 +26,26 @@
 	<body <?php body_class(); ?>>
 
 		<header>
-      <div class="main-menu">
-        <nav role="navigation">
-          <?php main_menu_nav(); ?>      
-        </nav>
+      
+      <div id="main-menu-btn">
+          <a href="#">
+            <div id="menu-line"></div>
+            <div id="menu-line"></div>
+            <div id="menu-line"></div>
+          </a>
       </div>
-      <div class="social-menu">
-        
-      </div>  
+
+      <div id="external-wrapper-main-menu">
+        <div id="wrapper-main-menu">
+            <div id="main-menu-content">
+              <nav>
+                <?php main_menu_nav(); ?>
+              </nav>
+            </div>
+        </div>      
+      </div>
+ 
     </header>
+
+
+          

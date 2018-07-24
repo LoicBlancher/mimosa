@@ -111,6 +111,30 @@ function main_menu_nav()
     );
 }
 
+function footer_terms()
+{
+    wp_nav_menu(
+    array(
+        'theme_location'  => 'footer-terms',
+        'menu'            => '',
+        'container'       => 'div',
+        'container_class' => 'menu-{menu slug}-container',
+        'container_id'    => '',
+        'menu_class'      => 'menu',
+        'menu_id'         => '',
+        'echo'            => true,
+        'fallback_cb'     => 'wp_page_menu',
+        'before'          => '',
+        'after'           => '',
+        'link_before'     => '',
+        'link_after'      => '',
+        'items_wrap'      => '<ul>%3$s</ul>',
+        'depth'           => 0,
+        'walker'          => ''
+        )
+    );
+}
+
 
 
 // Load HTML5 Blank scripts (header.php)
@@ -163,6 +187,8 @@ function register_html5_menu()
         'header-menu' => __('Header Menu', 'html5blank'), // Main Navigation
         'sidebar-menu' => __('Sidebar Menu', 'html5blank'), // Sidebar Navigation
         'main-menu'=> __('Main', 'html5blank'),
+        //Main menu
+        'footer-terms'=> __('Footer terms Main', 'html5blank'),
     ));
 }
 

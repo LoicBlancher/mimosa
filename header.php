@@ -42,6 +42,9 @@
                 <?php main_menu_nav(); ?>
               </nav>
             </div>
+            <div id="menu-terms-main">
+              <?php footer_terms(); ?>
+            </div>  
         </div>      
       </div>
  

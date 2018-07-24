@@ -29,17 +29,17 @@
   #wrapper-main-menu #main-menu-content {margin: 10% auto;width: 80%;}
   
   /*Menu container items*/
-  #wrapper-main-menu #main-menu-content ul{list-style-type:none ;}
+  #wrapper-main-menu #main-menu-content ul{list-style-type:none ;padding: 0}
   #wrapper-main-menu #main-menu-content ul li{margin:10px 0;}
-  #wrapper-main-menu #main-menu-content ul li a{font-size: 25px;text-transform: uppercase;color:white}
+  #wrapper-main-menu #main-menu-content ul li a{font-size: 25px;text-transform: uppercase;color:white;}
   #wrapper-main-menu #main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
+  
 
-
-  .currentLink{color:#ffbf2c;text-decoration: line-through;}
-
-
-
-
+  /* Menu Main terms footer */
+  #menu-terms-main ul{list-style-type: none;}
+  #menu-terms-main ul li{float: left;padding:0 10px;border-left: 2px solid white;}
+  #menu-terms-main ul li:first-child{border: none;}
+  #menu-terms-main ul li a{color:white;font-weight: bold;}
 
 
 

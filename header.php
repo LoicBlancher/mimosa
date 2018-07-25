@@ -42,10 +42,18 @@
                 <?php main_menu_nav(); ?>
               </nav>
             </div>
-            <i class="fas fa-stroopwafel"></i>
+            <div id="social-main-menu"></div>
             <div id="menu-terms-main">
               <?php footer_terms(); ?>
             </div>
+            <div id="newsletter-main-menu">
+                <p id="newsletter-title">restez en contact</p>
+                <p id="newsletter-subtitle">Inscribez-vous a notre Newsletter</p>
+              <div id="newsletter-form-main">
+                <?php echo do_shortcode('[sibwp_form id=2]'); ?>
+              </div>
+            </div>
+            <div class="close-btn-main-menu"></div>
         </div>      
       </div>
  

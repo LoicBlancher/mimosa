@@ -47,6 +47,7 @@
               <?php footer_terms(); ?>
             </div>
             <div id="newsletter-main-menu">
+                <i class="fas fa-user"></i>
                 <p id="newsletter-title">restez en contact</p>
                 <p id="newsletter-subtitle">Inscribez-vous a notre Newsletter</p>
               <div id="newsletter-form-main">

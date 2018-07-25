@@ -42,12 +42,16 @@
                 <?php main_menu_nav(); ?>
               </nav>
             </div>
-            <div id="social-main-menu"></div>
             <div id="menu-terms-main">
+              <div id="social-main-menu">
+                <i class="fab fa-facebook-f fa-lg"></i>
+                <i class="fab fa-twitter fa-lg"></i>
+                <i class="fab fa-linkedin-in fa-lg"></i>
+                <i class="fab fa-pinterest-p fa-lg"></i>
+              </div>
               <?php footer_terms(); ?>
             </div>
             <div id="newsletter-main-menu">
-                <i class="fas fa-user"></i>
                 <p id="newsletter-title">restez en contact</p>
                 <p id="newsletter-subtitle">Inscribez-vous a notre Newsletter</p>
               <div id="newsletter-form-main">

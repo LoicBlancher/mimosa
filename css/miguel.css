@@ -34,6 +34,8 @@
   #wrapper-main-menu #main-menu-content ul li a{font-size: 25px;text-transform: uppercase;color:white;}
   #wrapper-main-menu #main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
   
+  /*Social icons terms Footer Main Menu*/
+  #menu-terms-main #social-main-menu{padding: 0 50px;color: white;}
 
   /* Menu Main terms footer */
   #menu-terms-main{position: relative;bottom: 2%;padding: 0 85px;}
@@ -42,6 +44,7 @@
   #menu-terms-main ul li:first-child{border: none;}
   #menu-terms-main ul li a{color:white;font-weight: bold;}
 
+
   /*Newsletter Main Menu*/
   #newsletter-main-menu{width: 20%;position: absolute;right: 10%;bottom: 50%;}
   #newsletter-main-menu #newsletter-title{color:white;font-weight: 700;text-align: center;text-transform: uppercase;}
@@ -49,6 +52,18 @@
   #newsletter-form-main{position: relative;width: 100%;}
   #newsletter-form-main .input-email-newsletter{width: 90%;border:transparent;height: 45px;border-radius: 50px;background: #353535;}
   #newsletter-form-main .btn-newsletter{position: absolute;top:0;border:transparent;right: 26px;z-index: 2;height: 45px;border-radius: 50px;background: #ffbf2c;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -13,6 +13,39 @@
 
 		</div>
 		<!-- /wrapper -->
+		
+		<div id="mg-external-wrapper-main-menu">
+		  <div id="mg-wrapper-main-menu">
+		      <span id="mg-close-menu">CLOSE MENU X</span>
+		      <div id="mg-main-menu-content">
+		        <nav>
+		          <?php main_menu_nav(); ?>
+		        </nav>
+		        <div id="mg-newsletter-main-menu">
+		            <p id="mg-newsletter-title">restez en contact</p>
+		            <p id="mg-newsletter-subtitle">Inscribez-vous a notre Newsletter</p>
+		          <div id="mg-newsletter-form-main">
+		            <?php echo do_shortcode('[sibwp_form id=2]'); ?>
+		          </div>
+		        </div>
+		      </div>
+			   <div id="mg-menu-botom-p">
+			      <div id="mg-menu-terms-main">
+			        <div id="mg-social-main-menu">
+			          <i class="fab fa-facebook-f fa-lg"></i>
+			          <i class="fab fa-twitter fa-lg"></i>
+			          <i class="fab fa-linkedin-in fa-lg"></i>
+			          <i class="fab fa-pinterest-p fa-lg"></i>
+			        </div>
+			        <?php footer_terms(); ?>
+			      </div>
+			      <div id="mg-menu-logo-main">
+			        
+			      </div>
+		      </div>
+		      <div class="mg-close-btn-main-menu"></div>
+		  </div>      
+		</div>
 
 		<?php wp_footer(); ?>
 

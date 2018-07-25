@@ -27,39 +27,15 @@
 
 		<header>
       
-      <div id="main-menu-btn">
+      <div id="mg-main-menu-btn">
           <a href="#">
-            <div id="menu-line"></div>
-            <div id="menu-line"></div>
-            <div id="menu-line"></div>
+            <div class="mg-menu-line"></div>
+            <div class="mg-menu-line"></div>
+            <div class="mg-menu-line"></div>
           </a>
       </div>
-
-      <div id="external-wrapper-main-menu">
-        <div id="wrapper-main-menu">
-            <div id="main-menu-content">
-              <nav>
-                <?php main_menu_nav(); ?>
-              </nav>
-            </div>
-            <div id="menu-terms-main">
-              <div id="social-main-menu">
-                <i class="fab fa-facebook-f fa-lg"></i>
-                <i class="fab fa-twitter fa-lg"></i>
-                <i class="fab fa-linkedin-in fa-lg"></i>
-                <i class="fab fa-pinterest-p fa-lg"></i>
-              </div>
-              <?php footer_terms(); ?>
-            </div>
-            <div id="newsletter-main-menu">
-                <p id="newsletter-title">restez en contact</p>
-                <p id="newsletter-subtitle">Inscribez-vous a notre Newsletter</p>
-              <div id="newsletter-form-main">
-                <?php echo do_shortcode('[sibwp_form id=2]'); ?>
-              </div>
-            </div>
-            <div class="close-btn-main-menu"></div>
-        </div>      
+      <div id="mg-info-header">
+        <p>Texto</p>
       </div>
  
     </header>

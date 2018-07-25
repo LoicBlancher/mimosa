@@ -19,50 +19,55 @@
   a {text-decoration: none;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;}
  
   /* Open Close Buttons */
-  #main-menu-btn {position: absolute;top: 50px;left:40px;z-index: 999;display: inline;font-size: 32px;}
-  #menu-line{width: 35px;height: 5px;background-color: #ffbf2c;margin: 6px 0; }
-  #main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
-  
+  header{position: fixed;width: 100%;padding: 30px;}
+  #mg-main-menu-btn {float:left;display: inline;font-size: 32px;}
+  .mg-menu-line{width: 35px;height: 5px;background-color: #ffbf2c;margin: 6px 0; }
+  #mg-main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
+  #mg-info-header{float: right;}
+
   /* Wrapper Menu Items */
-  #external-wrapper-main-menu{width: 100%;height: 100%;position: fixed;top: 0%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.80);}
-  #wrapper-main-menu {width: 90%;height: 90%;position: fixed;top: 5%;left:5%;right: 10%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.68);}
-  #wrapper-main-menu #main-menu-content {margin: 10% auto;width: 80%;}
+  #mg-external-wrapper-main-menu{width: 100%;height: 100%;position: fixed;top: 0%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.80);}
+  #mg-wrapper-main-menu {width: 80%;height: 90%;position: fixed;top: 5%;left:10%;right: 10%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.68);overflow-y: hidden;overflow-x: hidden;padding: 90px;}
+  #mg-wrapper-main-menu #mg-main-menu-content nav{float: left;width: 50%;}
+  #mg-wrapper-main-menu #mg-main-menu-content ul{list-style-type:none ;padding: 0}
+  #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0;}
+  #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 22px;text-transform: uppercase;color:white;font-family: 'Gotham';letter-spacing: 0.15em}
+  #mg-wrapper-main-menu #mg-main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
+  #mg-wrapper-main-menu #mg-close-menu{position: absolute;top: 40px;right: 50px;color:white;}
   
-  /*Menu container items*/
-  #wrapper-main-menu #main-menu-content ul{list-style-type:none ;padding: 0}
-  #wrapper-main-menu #main-menu-content ul li{margin:10px 0;}
-  #wrapper-main-menu #main-menu-content ul li a{font-size: 25px;text-transform: uppercase;color:white;}
-  #wrapper-main-menu #main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
-  
+
+
   /*Social icons terms Footer Main Menu*/
-  #menu-terms-main #social-main-menu{padding: 0 50px;color: white;}
+  #mg-menu-terms-main #mg-social-main-menu{color: white;}
 
   /* Menu Main terms footer */
-  #menu-terms-main{position: relative;bottom: 2%;padding: 0 85px;}
-  #menu-terms-main ul{list-style-type: none;}
-  #menu-terms-main ul li{float: left;padding:0 10px;border-left: 2px solid white;}
-  #menu-terms-main ul li:first-child{border: none;}
-  #menu-terms-main ul li a{color:white;font-weight: bold;}
-
+  #mg-menu-terms-main{float: left;width: 50%;position: relative;bottom: 50px;}
+  #mg-menu-logo-main{float: left;width: 50%;}
+  #mg-menu-terms-main ul{list-style-type: none;padding: 0;}
+  #mg-menu-terms-main ul li{float: left;padding:0;border-left: 2px solid white;}
+  #mg-menu-terms-main ul li:first-child{border: none;padding: 0 10px;}
+  #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';}
+  #mg-social-main-menu svg{margin:0 10px;}
 
   /*Newsletter Main Menu*/
-  #newsletter-main-menu{width: 20%;position: absolute;right: 10%;bottom: 50%;}
-  #newsletter-main-menu #newsletter-title{color:white;font-weight: 700;text-align: center;text-transform: uppercase;}
-  #newsletter-main-menu #newsletter-subtitle{color:white;font-weight: 700;text-align: center;}
-  #newsletter-form-main{position: relative;width: 100%;}
-  #newsletter-form-main .input-email-newsletter{width: 90%;border:transparent;height: 45px;border-radius: 50px;background: #353535;}
-  #newsletter-form-main .input-email-newsletter::placeholder{color:gray;padding: 0 20px;font-size: 13px;}
-  #newsletter-form-main .btn-newsletter{position: absolute;top:3px;border:transparent;right: 32px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
-  #newsletter-form-main .btn-newsletter svg {color:white;}
+  #mg-newsletter-main-menu{float: left;width: 50%;padding: 100px 0;}
+  #mg-newsletter-main-menu #mg-newsletter-title{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;}
+  #mg-newsletter-main-menu #mg-newsletter-subtitle{color:white;font-family: 'Gotham';text-align: center;}
+  #mg-newsletter-form-main{position: relative;width: 100%;}
+  #mg-newsletter-form-main .input-email-newsletter{width: 100%;border:transparent;height: 45px;border-radius: 50px;background: #353535;}
+  #mg-newsletter-form-main .input-email-newsletter::placeholder{color:gray;padding: 0 20px;font-size: 13px;}
+  #mg-newsletter-form-main .btn-newsletter{position: absolute;top:3px;border:transparent;right: 4px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
+  #mg-newsletter-form-main .btn-newsletter svg {color:white;}
+
+  #mg-menu-botom-p{position: absolute;bottom: 0;width: 100%;float: left;}
 
 
 
 
 
 
-
-
-
+  #mg-newsletter-form-main #sib_signup_form_2{width: 100%;position: relative;}
+  #mg-newsletter-form-main .sib_signup_box_inside_2{width: 280px;position: relative;left: 50%;margin-left: -140px;}
 
 
 

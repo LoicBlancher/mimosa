@@ -87,56 +87,6 @@ function html5blank_nav()
 	);
 }
 
-function main_menu_nav()
-{
-    wp_nav_menu(
-    array(
-        'theme_location'  => 'main-menu',
-        'menu'            => '',
-        'container'       => 'div',
-        'container_class' => 'menu-{menu slug}-container',
-        'container_id'    => '',
-        'menu_class'      => 'menu',
-        'menu_id'         => '',
-        'echo'            => true,
-        'fallback_cb'     => 'wp_page_menu',
-        'before'          => '',
-        'after'           => '',
-        'link_before'     => '',
-        'link_after'      => '',
-        'items_wrap'      => '<ul>%3$s</ul>',
-        'depth'           => 0,
-        'walker'          => ''
-        )
-    );
-}
-
-function footer_terms()
-{
-    wp_nav_menu(
-    array(
-        'theme_location'  => 'footer-terms',
-        'menu'            => '',
-        'container'       => 'div',
-        'container_class' => 'menu-{menu slug}-container',
-        'container_id'    => '',
-        'menu_class'      => 'menu',
-        'menu_id'         => '',
-        'echo'            => true,
-        'fallback_cb'     => 'wp_page_menu',
-        'before'          => '',
-        'after'           => '',
-        'link_before'     => '',
-        'link_after'      => '',
-        'items_wrap'      => '<ul>%3$s</ul>',
-        'depth'           => 0,
-        'walker'          => ''
-        )
-    );
-}
-
-
-
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
 {

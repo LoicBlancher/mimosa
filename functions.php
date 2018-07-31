@@ -153,6 +153,9 @@ function html5blank_header_scripts()
 
         wp_register_script('iconsmimosa', get_template_directory_uri() . '/js/all.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('iconsmimosa'); 
+ 
+        wp_register_script('menuSlide', get_template_directory_uri() . '/js/bigSlide.min.js', array('jquery'), '1.0.0',true); 
+        wp_enqueue_script('menuSlide');    
     }
 }
 

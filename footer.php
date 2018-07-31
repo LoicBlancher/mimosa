@@ -40,12 +40,20 @@
 			        <?php footer_terms(); ?>
 			      </div>
 			      <div id="mg-menu-logo-main">
-			        
 			      </div>
 		      </div>
 		      <div class="mg-close-btn-main-menu"></div>
 		  </div>      
 		</div>
+
+		<div id="movilMenu">
+			<a href="#menu" class="menu-link">&#9776;</a>
+		</div>
+
+		<nav id="menu" class="panel" role="navigation">
+			<?php main_menu_nav(); ?>    
+		</nav>
+
 
 		<?php wp_footer(); ?>
 

@@ -2,12 +2,7 @@
 	
 	$(function () {
 		
-		'use strict';
-		
-		
-     
-
-		
+		'use strict';	
 	});
 	
 })(jQuery, this);
@@ -20,14 +15,17 @@ jQuery(function ($) {
          $("#mg-wrapper-main-menu").fadeToggle(200);
      });
 
-     $('#mg-wrapper-main-menu').on('click', function () {
+     $("#mg-close-menu").click(function () {
+         $('#mg-external-wrapper-main-menu').fadeToggle(200); 
          $("#mg-wrapper-main-menu").fadeToggle(200);
-         $('#mg-external-wrapper-main-menu').fadeToggle(200);
      });
 
      $('.mg-menu a').on('click', function () {
          $("#mg-wrapper-main-menu").fadeToggle(200);
          $('#mg-external-wrapper-main-menu').fadeToggle(200);
      });
+
+     $('.menu-link').bigSlide();
+
  }); 
 });

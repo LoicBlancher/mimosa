@@ -35,7 +35,16 @@
           </a>
       </div>
       <div id="mg-info-header">
-        <p>Texto</p>
+        <div id="socialHeader">
+          <i class="fab fa-facebook-f fa-lg"></i>
+          <i class="fab fa-twitter fa-lg"></i>
+          <i class="fab fa-linkedin-in fa-lg"></i>
+          <i class="fab fa-pinterest-p fa-lg"></i>
+        </div>
+        <a class="yellowBtn">
+          <i class="fas fa-phone fa-rotate-90"></i>
+          <span>127-232-2313</span>
+        </a>
       </div>
  
     </header>

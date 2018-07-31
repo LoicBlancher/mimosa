@@ -19,7 +19,7 @@
   a {text-decoration: none;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;}
  
   /* Open Close Buttons */
-  header{position: fixed;width: 100%;padding: 30px;}
+  header{position: fixed;width: 100%;padding: 30px 90px;}
   #mg-main-menu-btn {float:left;display: inline;font-size: 32px;}
   .mg-menu-line{width: 35px;height: 5px;background-color: #ffbf2c;margin: 6px 0; }
   #mg-main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
@@ -28,6 +28,7 @@
   /* Wrapper Menu Items */
   #mg-external-wrapper-main-menu{width: 100%;height: 100%;position: fixed;top: 0%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.80);}
   #mg-wrapper-main-menu {width: 80%;height: 90%;position: fixed;top: 5%;left:10%;right: 10%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.68);overflow-y: hidden;overflow-x: hidden;padding: 90px;}
+  #mg-wrapper-main-menu #mg-close-menu{cursor: pointer;}
   #mg-wrapper-main-menu #mg-main-menu-content nav{float: left;width: 50%;}
   #mg-wrapper-main-menu #mg-main-menu-content ul{list-style-type:none ;padding: 0}
   #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0;}
@@ -44,8 +45,9 @@
   #mg-menu-terms-main{float: left;width: 50%;position: relative;bottom: 50px;}
   #mg-menu-logo-main{float: left;width: 50%;}
   #mg-menu-terms-main ul{list-style-type: none;padding: 0;}
-  #mg-menu-terms-main ul li{float: left;padding:0;border-left: 2px solid white;}
+  #mg-menu-terms-main ul li{float: left;padding:0 10px;border-left: 2px solid white;}
   #mg-menu-terms-main ul li:first-child{border: none;padding: 0 10px;}
+
   #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';}
   #mg-social-main-menu svg{margin:0 10px;}
 
@@ -64,13 +66,15 @@
 
 
 
-
-
   #mg-newsletter-form-main #sib_signup_form_2{width: 100%;position: relative;}
   #mg-newsletter-form-main .sib_signup_box_inside_2{width: 280px;position: relative;left: 50%;margin-left: -140px;}
 
+  /*Others header*/
 
-
+  #socialHeader{float: left;}
+  #socialHeader svg{margin:0 10px;}
+  .yellowBtn {padding: 10px 15px;margin-right: 20px;display: inline-block;border-radius: 50px;background:#ffbf2c;font-size: 15px; }
+  .yellowBtn svg {display: inline-block;vertical-align: middle;}
 
 
 

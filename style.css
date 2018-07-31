@@ -11,10 +11,85 @@
 	License URI: http://opensource.org/licenses/mit-license.php
 */
 
+
+/*------------------------------------*\
+    FONTS
+\*------------------------------------*/
+/* open-sans-300 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/open-sans-v15-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+       url('./fonts/open-sans-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/open-sans-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/open-sans-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/open-sans-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/open-sans-v15-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('./fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/open-sans-v15-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('./fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/open-sans-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/open-sans-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+
+/* Gotham Bold */
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/GothamBold.eot'); /* IE9 Compat Modes */
+  src: local('Gotham'), local('Gotham-bold'),
+       url('./fonts/GothamBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/GothamBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/GothamBold.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/GothamBold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/GothamBold.svg#Gotham') format('svg'); /* Legacy iOS */
+}
+
+
+/* Gotham Ligth */
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/GothamRounded-Book.eot'); /* IE9 Compat Modes */
+  src: local('Gotham'), local('Gotham-rounded'),
+       url('./fonts/GothamRounded-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/GothamRounded-Book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/GothamRounded-Book.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/GothamRounded-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/GothamRounded-Book.svg#Gotham') format('svg'); /* Legacy iOS */
+}
+
+
 /*------------------------------------*\
     MAIN
 \*------------------------------------*/
-
 /* global box-sizing */
 *,
 *:after,
@@ -30,7 +105,7 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font:300 11px/1.4 'Open Sans';
 	color:#444;
 }
 /* clear */
@@ -69,6 +144,9 @@ input:focus {
 	border:1px solid #04A4CC;
 }
 
+h1,h2,h3,h4,h5,h6{
+	font-family:'Gotham';
+}
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
@@ -115,21 +193,6 @@ input:focus {
 \*------------------------------------*/
 
 
-
-/*------------------------------------*\
-	TYPOGRAPHY
-\*------------------------------------*/
-
-@font-face {
-	font-family:'Font-Name';
-	src:url('fonts/font-name.eot');
-	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
-		url('fonts/font-name.woff') format('woff'),
-		url('fonts/font-name.ttf') format('truetype'),
-		url('fonts/font-name.svg#font-name') format('svg');
-    font-weight:normal;
-    font-style:normal;
-}
 
 /*------------------------------------*\
     RESPONSIVE

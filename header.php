@@ -24,27 +24,38 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+    <div class="push wrap">
+  		<header>
+      
+       <div id="mg-main-menu-btn">
+           <a href="#">
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+           </a>
+       </div>
+       <div id="mg-info-header">
+         <div id="socialHeader">
+           <i class="fab fa-facebook-f fa-lg"></i>
+           <i class="fab fa-twitter fa-lg"></i>
+           <i class="fab fa-linkedin-in fa-lg"></i>
+           <i class="fab fa-pinterest-p fa-lg"></i>
+         </div>
+         <a class="yellowBtn" href="tel:12345678">
+           <i class="fas fa-phone fa-rotate-90"></i>
+           <span>127-232-2313</span>
+         </a>
+       </div>
+       <div id="mg-main-menu-btn-movil">
+           <a href="#menu" class="menu-link">
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+           </a>
+       </div>  
+        
+   
+      </header>
 
-		<!-- wrapper -->
-		<div class="wrapper">
 
-			<!-- header -->
-			<header class="header clear" role="banner">
-
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
-
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
-
-			</header>
-			<!-- /header -->
+            

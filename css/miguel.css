@@ -90,6 +90,13 @@
    #mg-main-menu-btn-movil{display: none;} 
 
 
+  #mg-footer-menu-terms ul{list-style-type: none;padding: 0;}
+  #mg-footer-menu-terms ul li{float: left;padding:0 10px;border-left: 2px solid white;}
+  #mg-footer-menu-terms ul li:first-child{border: none;padding: 0 10px;}
+
+  #mg-footer-menu-terms ul li a{color:white;font-family: 'Gotham';}
+
+
   @media only screen and (max-width:992px) {
 
     #mg-main-menu-btn-movil{display: block;position: fixed;right: 10%;}
@@ -97,7 +104,10 @@
     #mg-main-menu-btn{visibility: hidden;}
   }  
 
+footer{background:#353535; }
 
+mg-menu-ser-footer ul li a{}
   
 
-
+#mg-footer-first h6{color:white;text-transform: uppercase;}
+#mg-footer-first

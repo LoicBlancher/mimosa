@@ -1,9 +1,9 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 			<div class="container">
-				<div class="row">
-					<div class="col-12 col-md-6 col-lg-3">
-						<h5>Mimosa Paris</h5>
+				<div class="row" id="mg-footer-first">
+					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+						<h6>Mimosa Paris</h6>
 						<ul>
 							<li><!-- address --></li>
 							<li><!-- address 2 --></li>
@@ -11,11 +11,11 @@
 							<li><!-- mail --></li>
 						</ul>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3">
-						<h6>Services</h6>
-						<?php footer_servicesMenu(); ?>
+					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+							<h6>Services</h6>
+							<?php footer_servicesMenu(); ?>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3">
+					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
 						<h6>Mimosa</h6>
 						<?php footer_mimosaMenu(); ?>
 					</div>
@@ -24,19 +24,25 @@
 						<p>Lorem ipsum dolor sit amet.</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12 col-md-6 col-lg-6"></div>
-					<div class="col-12 col-md-6 col-lg-6"></div>				
+				<div class="row" id="mg-footer-second">
+					<div class="col-12 col-md-6 col-lg-6">
+						<p class="copyright">
+							&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
+							<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+						</p>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6">
+						<div id="mg-footer-menu-terms">
+							<?php footer_terms(); ?>
+						</div>
+					</div>				
 				</div>
 			</div>	
 				
 
 
 				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
+				
 				<!-- /copyright -->
 
 			</footer>

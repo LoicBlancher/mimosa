@@ -1,5 +1,36 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
+						<h5>Mimosa Paris</h5>
+						<ul>
+							<li><!-- address --></li>
+							<li><!-- address 2 --></li>
+							<li><!-- phone --></li>
+							<li><!-- mail --></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<h6>Services</h6>
+						<?php footer_servicesMenu(); ?>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<h6>Mimosa</h6>
+						<?php footer_mimosaMenu(); ?>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<h6>Restez en contact</h6>
+						<p>Lorem ipsum dolor sit amet.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-6"></div>
+					<div class="col-12 col-md-6 col-lg-6"></div>				
+				</div>
+			</div>	
+				
+
 
 				<!-- copyright -->
 				<p class="copyright">

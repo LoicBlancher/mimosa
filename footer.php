@@ -44,14 +44,24 @@
 		      </div>
 		      <div class="mg-close-btn-main-menu"></div>
 		  </div>      
-		</div>
-
-		<div id="movilMenu">
-			<a href="#menu" class="menu-link">&#9776;</a>
+		</div>     
 		</div>
 
 		<nav id="menu" class="panel" role="navigation">
-			<?php main_menu_nav(); ?>    
+		  <div id="logoMovil">
+		  	<img src="https://flaticons.net/gd/makefg.php?i=icons/People/Chef.png&r=255&g=255&b=255" alt="">
+		  </div>
+		  <?php main_menu_nav(); ?>
+		  <div id="mg-social-main-menu-movil">
+		    <i class="fab fa-facebook-f fa-lg"></i>
+		    <i class="fab fa-twitter fa-lg"></i>
+		    <i class="fab fa-linkedin-in fa-lg"></i>
+		    <i class="fab fa-pinterest-p fa-lg"></i>
+		  </div>
+		  <a class="yellowBtn-movile">
+		    <i class="fas fa-phone fa-rotate-90"></i>
+		    <span>127-232-2313</span>
+		  </a>   
 		</nav>
 
 

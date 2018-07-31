@@ -24,30 +24,38 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-
-		<header>
+    <div class="push wrap">
+  		<header>
       
-      <div id="mg-main-menu-btn">
-          <a href="#">
-            <div class="mg-menu-line"></div>
-            <div class="mg-menu-line"></div>
-            <div class="mg-menu-line"></div>
-          </a>
-      </div>
-      <div id="mg-info-header">
-        <div id="socialHeader">
-          <i class="fab fa-facebook-f fa-lg"></i>
-          <i class="fab fa-twitter fa-lg"></i>
-          <i class="fab fa-linkedin-in fa-lg"></i>
-          <i class="fab fa-pinterest-p fa-lg"></i>
-        </div>
-        <a class="yellowBtn">
-          <i class="fas fa-phone fa-rotate-90"></i>
-          <span>127-232-2313</span>
-        </a>
-      </div>
- 
-    </header>
+       <div id="mg-main-menu-btn">
+           <a href="#">
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+           </a>
+       </div>
+       <div id="mg-info-header">
+         <div id="socialHeader">
+           <i class="fab fa-facebook-f fa-lg"></i>
+           <i class="fab fa-twitter fa-lg"></i>
+           <i class="fab fa-linkedin-in fa-lg"></i>
+           <i class="fab fa-pinterest-p fa-lg"></i>
+         </div>
+         <a class="yellowBtn" href="tel:12345678">
+           <i class="fas fa-phone fa-rotate-90"></i>
+           <span>127-232-2313</span>
+         </a>
+       </div>
+       <div id="mg-main-menu-btn-movil">
+           <a href="#menu" class="menu-link">
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+             <div class="mg-menu-line"></div>
+           </a>
+       </div>  
+        
+   
+      </header>
 
 
-          
+            

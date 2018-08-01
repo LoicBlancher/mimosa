@@ -36,19 +36,21 @@
   #mg-wrapper-main-menu #mg-main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
   #mg-wrapper-main-menu #mg-close-menu{position: absolute;top: 40px;right: 50px;color:white;}
   
+  #mg-menu-botom-p
 
 
   /*Social icons terms Footer Main Menu*/
-  #mg-menu-terms-main #mg-social-main-menu{color: white;}
+  #mg-menu-terms-main #mg-social-main-menu{color: white;padding: 0 0 30px 0;}
 
   /* Menu Main terms footer */
-  #mg-menu-terms-main{float: left;width: 50%;position: relative;bottom: 50px;}
+  #mg-menu-terms-main{float: left;width: 50%;bottom: 50px;}
   #mg-menu-logo-main{float: left;width: 50%;}
+  #mg-menu-logo-main .mg-logo-img-menu{max-width: 100px;position: relative;float: right;right: 25%;bottom: 30px;}
   #mg-menu-terms-main ul{list-style-type: none;padding: 0;}
   #mg-menu-terms-main ul li{float: left;padding:0 10px;border-left: 2px solid white;}
   #mg-menu-terms-main ul li:first-child{border: none;padding: 0 10px;}
 
-  #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';}
+  #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';font-size: 12px;}
   #mg-social-main-menu svg{margin:0 10px;}
 
   /*Newsletter Main Menu*/
@@ -126,3 +128,7 @@ footer{background:#353535; }
 #mg-footer-second{padding: 0 0 40px 0;}
 #mg-footer-second .copyright{font-size: 15px;color:#736f6f;}
 #mg-footer-second ul li a{color:#736f6f;font-size: 13px;} 
+
+
+
+.mg-logo-img-menu-movil{max-width: 100px;display: block;margin: 10px auto;}

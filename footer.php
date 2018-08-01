@@ -86,6 +86,7 @@
 			        <?php footer_terms(); ?>
 			      </div>
 			      <div id="mg-menu-logo-main">
+			      	<img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu" alt="">
 			      </div>
 		      </div>
 		      <div class="mg-close-btn-main-menu"></div>
@@ -94,9 +95,7 @@
 		</div>
 
 		<nav id="menu" class="panel" role="navigation">
-		  <div id="logoMovil">
-		  	<img src="https://flaticons.net/gd/makefg.php?i=icons/People/Chef.png&r=255&g=255&b=255" alt="">
-		  </div>
+		  <img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu-movil" alt="">	
 		  <?php main_menu_nav(); ?>
 		  <div id="mg-social-main-menu-movil">
 		    <i class="fab fa-facebook-f fa-lg"></i>

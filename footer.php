@@ -2,26 +2,35 @@
 			<footer class="footer" role="contentinfo">
 			<div class="container">
 				<div class="row" id="mg-footer-first">
-					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+					<div class="col-12 col-md-6 col-lg-3">
 						<h6>Mimosa Paris</h6>
 						<ul>
-							<li><!-- address --></li>
-							<li><!-- address 2 --></li>
-							<li><!-- phone --></li>
-							<li><!-- mail --></li>
+							<li><a href="">15 Rue gourmants</a></li>
+							<li><a href="">Nos chefs</a></li>
+							<li><a href="">Tel:1238-000-5757</a></li>
+							<li><a href="">contact@mimosa-paris.fr</a></li>
 						</ul>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+					<div class="col-12 col-md-6 col-lg-3">
 							<h6>Services</h6>
 							<?php footer_servicesMenu(); ?>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+					<div class="col-12 col-md-6 col-lg-3">
 						<h6>Mimosa</h6>
 						<?php footer_mimosaMenu(); ?>
 					</div>
 					<div class="col-12 col-md-6 col-lg-3">
-						<h6>Restez en contact</h6>
-						<p>Lorem ipsum dolor sit amet.</p>
+						    <h6 id="title-newsletter-footer">restez en contact</h6>
+						    <p id="mg-newsletter-subtitle">Inscribez-vous a notre Newsletter</p>
+						  <div id="mg-newsletter-form-main">
+						    <?php echo do_shortcode('[sibwp_form id=2]'); ?>
+						  </div>
+						  <div id="mg-social-main-menu">
+						    <i class="fab fa-facebook-f fa-lg"></i>
+						    <i class="fab fa-twitter fa-lg"></i>
+						    <i class="fab fa-linkedin-in fa-lg"></i>
+						    <i class="fab fa-pinterest-p fa-lg"></i>
+						  </div>
 					</div>
 				</div>
 				<div class="row" id="mg-footer-second">
@@ -31,7 +40,7 @@
 							<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 						</p>
 					</div>
-					<div class="col-12 col-md-6 col-lg-6">
+					<div class="col-12 col-md-4 col-lg-4 offset-md-2 offset-lg-2">
 						<div id="mg-footer-menu-terms">
 							<?php footer_terms(); ?>
 						</div>

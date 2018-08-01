@@ -20,8 +20,12 @@
 						<?php footer_mimosaMenu(); ?>
 					</div>
 					<div class="col-12 col-md-6 col-lg-3">
-						<h6>Restez en contact</h6>
-						<p>Lorem ipsum dolor sit amet.</p>
+						    <h6 id="title-newsletter-footer">restez en contact</h6>
+						    <p id="mg-newsletter-subtitle">Inscribez-vous a notre Newsletter</p>
+						  <div id="mg-newsletter-form-main">
+						    <?php echo do_shortcode('[sibwp_form id=2]'); ?>
+						  </div>
+						
 					</div>
 				</div>
 				<div class="row" id="mg-footer-second">

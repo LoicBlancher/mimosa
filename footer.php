@@ -40,7 +40,7 @@
 							<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 						</p>
 					</div>
-					<div class="col-12 col-md-6 col-lg-6">
+					<div class="col-12 col-md-4 col-lg-4 offset-md-2 offset-lg-2">
 						<div id="mg-footer-menu-terms">
 							<?php footer_terms(); ?>
 						</div>

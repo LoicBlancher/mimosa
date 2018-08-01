@@ -114,7 +114,7 @@ footer{background:#353535; }
 #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
 #mg-footer-first ul{list-style-type: none;padding: 0;}
 #mg-footer-first ul li{margin:7px 0;}
-#mg-footer-first ul li a{color:#ada8a8;text-decoration: none;font-size: 15px;}
+#mg-footer-first ul li a{color:#736f6f;text-decoration: none;font-size: 15px;}
 
 /* newsletter footer */
 #mg-footer-first .input-email-newsletter{width: 80%;border: transparent;height: 45px;border-radius: 50px;background: #565555;padding: 10px;}
@@ -124,3 +124,5 @@ footer{background:#353535; }
 #mg-footer-first #mg-social-main-menu{color:white;}
 
 #mg-footer-second{padding: 0 0 40px 0;}
+#mg-footer-second .copyright{font-size: 15px;color:#736f6f;}
+#mg-footer-second ul li a{color:white;font-size: 13px;font-family:'Gotham'; } 

@@ -104,10 +104,14 @@
     #mg-main-menu-btn{visibility: hidden;}
   }  
 
+
+
+
+
 footer{background:#353535; }
-
-mg-menu-ser-footer ul li a{}
   
-
-#mg-footer-first h6{color:white;text-transform: uppercase;}
-#mg-footer-first
+#mg-footer-first{padding:80px 0; }
+#mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
+#mg-footer-first ul{list-style-type: none;padding: 0;}
+#mg-footer-first ul li{margin:7px 0;}
+#mg-footer-first ul li a{color:#ada8a8;text-decoration: none;font-size: 15px;}

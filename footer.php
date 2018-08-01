@@ -2,20 +2,20 @@
 			<footer class="footer" role="contentinfo">
 			<div class="container">
 				<div class="row" id="mg-footer-first">
-					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+					<div class="col-12 col-md-6 col-lg-3">
 						<h6>Mimosa Paris</h6>
 						<ul>
-							<li><!-- address --></li>
-							<li><!-- address 2 --></li>
-							<li><!-- phone --></li>
-							<li><!-- mail --></li>
+							<li><a href="">15 Rue gourmants</a></li>
+							<li><a href="">Nos chefs</a></li>
+							<li><a href="">Tel:1238-000-5757</a></li>
+							<li><a href="">contact@mimosa-paris.fr</a></li>
 						</ul>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+					<div class="col-12 col-md-6 col-lg-3">
 							<h6>Services</h6>
 							<?php footer_servicesMenu(); ?>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3 mg-menu-ser-footer">
+					<div class="col-12 col-md-6 col-lg-3">
 						<h6>Mimosa</h6>
 						<?php footer_mimosaMenu(); ?>
 					</div>

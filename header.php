@@ -43,7 +43,8 @@
          </div>
          <a class="yellowBtn" href="tel:12345678">
            <i class="fas fa-phone fa-rotate-90"></i>
-           <span>127-232-2313</span>
+           <?php $phone_mimosa= get_option('test_twitter_url');?>
+           <span><?php echo $phone_mimosa?></span>
          </a>
        </div>
        <div id="mg-main-menu-btn-mobile">

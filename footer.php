@@ -25,7 +25,12 @@
 						  <div id="mg-newsletter-form-main">
 						    <?php echo do_shortcode('[sibwp_form id=2]'); ?>
 						  </div>
-						
+						  <div id="mg-social-main-menu">
+						    <i class="fab fa-facebook-f fa-lg"></i>
+						    <i class="fab fa-twitter fa-lg"></i>
+						    <i class="fab fa-linkedin-in fa-lg"></i>
+						    <i class="fab fa-pinterest-p fa-lg"></i>
+						  </div>
 					</div>
 				</div>
 				<div class="row" id="mg-footer-second">

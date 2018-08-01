@@ -156,15 +156,23 @@
       #mg-main-menu-btn-mobile{display: block;}
       #mg-info-header{visibility: hidden;}
       #mg-main-menu-btn{visibility: hidden;}
+      
+      /*Responsive footer*/
+      #mg-newsletter-form-main #sib_signup_form_2{width: 75%;}
+      #mg-footer-first #mg-social-main-menu{margin-left: 30px;}
+
     }
     
     @media only screen and (max-width: 736px) {
+      /* Responsive footer */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}
       #mg-footer-first #mg-newsletter-subtitle{text-align: center;}
       #mg-footer-first .input-email-newsletter{width: 100%;}
+      #mg-newsletter-form-main #sib_signup_form_2{width: 100%;}
       #mg-footer-first .btn-newsletter{right: 4px;}
       #mg-footer-first #mg-social-main-menu{text-align: center;margin-top: 30px;}
+      #mg-footer-first #mg-social-main-menu{margin-left: 0;}
       #mg-footer-second .copyright{text-align: center;}
       #mg-footer-menu-terms ul{margin-left: 60px;}
     }
@@ -175,8 +183,10 @@
       #mg-footer-first ul{text-align: center;}
       #mg-footer-first #mg-newsletter-subtitle{text-align: center;}
       #mg-footer-first .input-email-newsletter{width:80%;display: block;margin:0 auto;}
+      #mg-newsletter-form-main #sib_signup_form_2{width: 100%;}
       #mg-footer-first .btn-newsletter{right: 32px;}
       #mg-footer-first #mg-social-main-menu{text-align: center;margin-top: 30px;}
+      #mg-footer-first #mg-social-main-menu{margin-left: 0;}
       #mg-footer-second .copyright{text-align: center;font-size: 11px;}
       #mg-footer-menu-terms ul{padding: 10px 0;text-align: center;margin-left: 0;}
       #mg-footer-menu-terms ul li{border: none;padding: 15px;float: initial;}

@@ -75,7 +75,7 @@
 		          </div>
 		        </div>
 		      </div>
-			   <div id="mg-menu-botom-p">
+			   <div id="mg-menu-bottom-p">
 			      <div id="mg-menu-terms-main">
 			        <div id="mg-social-main-menu">
 			          <i class="fab fa-facebook-f fa-lg"></i>
@@ -89,21 +89,20 @@
 			      	<img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu" alt="">
 			      </div>
 		      </div>
-		      <div class="mg-close-btn-main-menu"></div>
 		  </div>      
 		</div>     
 		</div>
 
 		<nav id="menu" class="panel" role="navigation">
-		  <img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu-movil" alt="">	
+		  <img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu-mobile" alt="">	
 		  <?php main_menu_nav(); ?>
-		  <div id="mg-social-main-menu-movil">
+		  <div id="mg-social-main-menu-mobile">
 		    <i class="fab fa-facebook-f fa-lg"></i>
 		    <i class="fab fa-twitter fa-lg"></i>
 		    <i class="fab fa-linkedin-in fa-lg"></i>
 		    <i class="fab fa-pinterest-p fa-lg"></i>
 		  </div>
-		  <a class="yellowBtn-movile">
+		  <a class="yellowBtn-mobile">
 		    <i class="fas fa-phone fa-rotate-90"></i>
 		    <span>127-232-2313</span>
 		  </a>   

@@ -10,125 +10,196 @@
 /*------------------------------------*\
     HEADER
 \*------------------------------------*/
-
-  /*------------------------------------*\
-                MAIN MENU
-  \*------------------------------------*/
-  
-  
-  a {text-decoration: none;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;}
- 
-  /* Open Close Buttons */
   header{position: fixed;width: 100%;padding: 30px 90px;}
   #mg-main-menu-btn {float:left;display: inline;font-size: 32px;}
-  .mg-menu-line{width: 35px;height: 5px;background-color: #ffbf2c;margin: 6px 0; }
   #mg-main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
+  .mg-menu-line{width: 35px;height: 5px;background-color: #ffbf2c;margin: 6px 0; }
   #mg-info-header{float: right;}
-
-  /* Wrapper Menu Items */
-  #mg-external-wrapper-main-menu{width: 100%;height: 100%;position: fixed;top: 0%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.80);}
-  #mg-wrapper-main-menu {width: 80%;height: 90%;position: fixed;top: 5%;left:10%;right: 10%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.68);overflow-y: hidden;overflow-x: hidden;padding: 90px;}
-  #mg-wrapper-main-menu #mg-close-menu{cursor: pointer;}
-  #mg-wrapper-main-menu #mg-main-menu-content nav{float: left;width: 50%;}
-  #mg-wrapper-main-menu #mg-main-menu-content ul{list-style-type:none ;padding: 0}
-  #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0;}
-  #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 22px;text-transform: uppercase;color:white;font-family: 'Gotham';letter-spacing: 0.15em}
-  #mg-wrapper-main-menu #mg-main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
-  #mg-wrapper-main-menu #mg-close-menu{position: absolute;top: 40px;right: 50px;color:white;}
-  
-  #mg-menu-botom-p
-
-
-  /*Social icons terms Footer Main Menu*/
-  #mg-menu-terms-main #mg-social-main-menu{color: white;padding: 0 0 30px 0;}
-
-  /* Menu Main terms footer */
-  #mg-menu-terms-main{float: left;width: 50%;bottom: 50px;}
-  #mg-menu-logo-main{float: left;width: 50%;}
-  #mg-menu-logo-main .mg-logo-img-menu{max-width: 100px;position: relative;float: right;right: 25%;bottom: 30px;}
-  #mg-menu-terms-main ul{list-style-type: none;padding: 0;}
-  #mg-menu-terms-main ul li{float: left;padding:0 10px;border-left: 2px solid white;}
-  #mg-menu-terms-main ul li:first-child{border: none;padding: 0 10px;}
-
-  #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';font-size: 12px;}
-  #mg-social-main-menu svg{margin:0 10px;}
-
-  /*Newsletter Main Menu*/
-  #mg-newsletter-main-menu{float: left;width: 50%;padding: 100px 0;}
-  #mg-newsletter-main-menu #mg-newsletter-title{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;}
-  #mg-newsletter-main-menu #mg-newsletter-subtitle{color:white;font-family: 'Gotham';text-align: center;}
-  #mg-newsletter-form-main{position: relative;width: 100%;}
-  #mg-newsletter-form-main .input-email-newsletter{width: 100%;border:transparent;height: 45px;border-radius: 50px;background: #353535;padding: 10px;}
-  #mg-newsletter-form-main .input-email-newsletter::placeholder{color:gray;padding: 0 20px;font-size: 13px;}
-  #mg-newsletter-form-main .btn-newsletter{position: absolute;top:3px;border:transparent;right: 4px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
-  #mg-newsletter-form-main .btn-newsletter svg {color:white;}
-
-  #mg-menu-botom-p{position: absolute;bottom: 0;width: 100%;float: left;}
-
-  .wrap {position: relative;}
-  .panel {position: fixed;left: -15.625em;width:16.625em;background:#353535}
-
-
-  #menu .logoMovil{}
-  #menu ul{list-style-type: none;padding: 0;}
-  #menu ul li{border-bottom: 1px dotted white;padding: 10px;}  
-  #menu ul li a{color:white;text-decoration: none;font-size: 12px;text-transform: uppercase;font-family: 'Gotham'}  
-  #menu #mg-social-main-menu-movil{color:white;padding: 0 15px;}
-  #menu #mg-social-main-menu-movil svg{margin:0 10px;}
-
-  #mg-newsletter-form-main #sib_signup_form_2{width: 100%;position: relative;}
-  #mg-newsletter-form-main .sib_signup_box_inside_2{width: 280px;position: relative;left: 50%;margin-left: -140px;}
-
-  /*Others header*/
-
   #socialHeader{float: left;line-height: 40px;margin:0 30px;}
   #socialHeader svg{margin:0 10px;}
   .yellowBtn {padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:#ffbf2c;font-size: 15px; }
   .yellowBtn svg {display: inline-block;vertical-align: middle;height: 13px;}
+  /*Menu button Mobile*/
+  #mg-main-menu-btn-mobile{display: none;position: fixed;right: 10%;}
+  a {text-decoration: none;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;}
+
+  /*------------------------------------*\
+                MAIN MENU
+  \*------------------------------------*/
+
+  /* Wrapper Higher Main Menu */
+  #mg-external-wrapper-main-menu{width: 100%;height: 100%;position: fixed;top: 0%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.80);}
+    /* Wrapper inside Higher */
+    #mg-wrapper-main-menu {width: 80%;height: 90%;position: fixed;top: 5%;left:10%;right: 10%;z-index: 99;display: none;overflow: auto;background: rgba(0, 0, 0, 0.68);overflow-y: hidden;overflow-x: hidden;padding: 90px;}
+    #mg-wrapper-main-menu #mg-close-menu{cursor: pointer;position: absolute;top: 40px;right: 50px;color:white;}
+    /* main_menu_nav() */
+    #mg-wrapper-main-menu #mg-main-menu-content nav{float: left;width: 50%;}
+    #mg-wrapper-main-menu #mg-main-menu-content ul{list-style-type:none ;padding: 0}
+    #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0;}
+    #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 22px;text-transform: uppercase;color:white;font-family: 'Gotham';letter-spacing: 0.15em}
+    #mg-wrapper-main-menu #mg-main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
+    /*Newsletter Main Menu*/
+    #mg-newsletter-main-menu{float: left;width: 50%;padding: 100px 0;}
+    #mg-newsletter-main-menu #mg-newsletter-title{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;}
+    #mg-newsletter-main-menu #mg-newsletter-subtitle{color:white;font-family: 'Gotham';text-align: center;}
+    #mg-newsletter-form-main{position: relative;width: 100%;}
+    #mg-newsletter-form-main .input-email-newsletter{width: 100%;border:transparent;height: 45px;border-radius: 50px;background: #353535;padding: 10px;}
+    #mg-newsletter-form-main .input-email-newsletter::placeholder{color:gray;padding: 0 20px;font-size: 13px;}
+    #mg-newsletter-form-main .btn-newsletter{position: absolute;top:3px;border:transparent;right: 4px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
+    #mg-newsletter-form-main .btn-newsletter svg {color:white;}
+    #mg-newsletter-form-main #sib_signup_form_2{width: 100%;position: relative;}
+    #mg-newsletter-form-main .sib_signup_box_inside_2{width: 280px;position: relative;left: 50%;margin-left: -140px;}
+    /* Footer Main Menu */
+    #mg-menu-bottom-p{position: absolute;bottom: 0;width: 100%;float: left;}
+    /* Menu Main terms footer */
+    #mg-menu-terms-main{float: left;width: 50%;bottom: 50px;}
+    /* Menu Main terms Social */
+    #mg-menu-terms-main #mg-social-main-menu{color: white;padding: 0 0 30px 0;}
+    #mg-menu-terms-main #mg-social-main-menu svg{margin:0 10px;}
+    /* Menu Main terms footer_terms() */
+    #mg-menu-terms-main ul{list-style-type: none;padding: 0;}
+    #mg-menu-terms-main ul li{float: left;padding:0 10px;border-left: 2px solid white;}
+    #mg-menu-terms-main ul li:first-child{border: none;padding: 0 10px;}
+    #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';font-size: 12px;}
+    /* Menu Main terms logo Mimosa */
+    #mg-menu-logo-main{float: left;width: 50%;}
+    #mg-menu-logo-main .mg-logo-img-menu{max-width: 100px;position: relative;float: right;right: 25%;bottom: 30px;}
+    /*------------------------------------*\
+                 END MAIN MENU
+    \*------------------------------------*/
+
+    /*------------------------------------*\
+                 MAIN MENU MOBILE
+    \*------------------------------------*/
+     .wrap {position: relative;}
+     .panel {position: fixed;left: -15.625em;width:18.625em;background:#353535}
+     #menu ul{list-style-type: none;padding: 0;}
+     #menu ul li{border-bottom: 1px dotted white;padding: 10px;}  
+     #menu ul li a{color:white;text-decoration: none;font-size: 12px;text-transform: uppercase;font-family: 'Gotham'}  
+     #menu #mg-social-main-menu-mobile{color:white;padding: 0 15px;}
+     #menu #mg-social-main-menu-mobile svg{margin:0 10px;} 
+     .mg-logo-img-menu-mobile{max-width: 100px;display: block;margin: 10px auto;}
+     .yellowBtn-mobile{padding: 10px;margin-left: 20px;margin-top: 20px;display: inline-block;border-radius: 50px;background: #ffbf2c;font-size: 15px;} 
+     .yellowBtn-mobile svg {display: inline-block;vertical-align: middle;height: 13px;} 
+    
+    /*------------------------------------*\
+              END MAIN MENU MOBILE
+    \*------------------------------------*/
+/*------------------------------------*\
+    END HEADER
+\*------------------------------------*/
+
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+  footer{background:#353535;padding: 80px 0; }
+  
+    /* Footer First Row */
+    #mg-footer-first{}
+    #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
+    #mg-footer-first ul{list-style-type: none;padding: 0;}
+    #mg-footer-first ul li{margin:20px 0;}
+    #mg-footer-first ul li a{color:#736f6f;text-decoration: none;font-size: 15px;}
+    /* newsletter footer */
+    #mg-footer-first .input-email-newsletter{width: 80%;border: transparent;height: 45px;border-radius: 50px;background: #565555;padding: 10px;}
+    #mg-footer-first .btn-newsletter{position: absolute;top: 3px;border: transparent;right: 60px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
+    #mg-footer-first #mg-newsletter-subtitle{color:white;font-family: 'Gotham';margin-left:6px;font-weight: bold;}
+    #mg-footer-first #title-newsletter-footer{margin-left:7px;}
+    /* Social Icons Footer */
+    #mg-footer-first #mg-social-main-menu{color:white;}
+    #mg-footer-first #mg-social-main-menu svg{margin:0 10px;}
+    /* Footer Second Row */
+    #mg-footer-second {padding: 30px 0 0 0;}
+    #mg-footer-second .copyright{font-size: 13px;color:#736f6f;}
+    #mg-footer-menu-terms ul{list-style-type: none;padding: 0;}
+    #mg-footer-menu-terms ul li{float: left;padding:0 10px;border-left: 2px solid #736f6f;}
+    #mg-footer-menu-terms ul li:first-child{border: none;padding: 0 10px;}
+    #mg-footer-second ul li a{color:#736f6f;font-size: 13px;font-family: 'Gotham';}
+
+/*------------------------------------*\
+    END FOOTER
+\*------------------------------------*/     
+
   
 
-  .yellowBtn-movile{padding: 10px;margin-left: 20px;margin-top: 20px;display: inline-block;border-radius: 50px;background: #ffbf2c;font-size: 15px;} 
-  .yellowBtn-movile svg {display: inline-block;vertical-align: middle;height: 13px;}
-   #mg-main-menu-btn-movil{display: none;} 
-
-
-  #mg-footer-menu-terms ul{list-style-type: none;padding: 0;}
-  #mg-footer-menu-terms ul li{float: left;padding:0 10px;border-left: 2px solid white;}
-  #mg-footer-menu-terms ul li:first-child{border: none;padding: 0 10px;}
-
-  #mg-footer-menu-terms ul li a{color:white;font-family: 'Gotham';}
-
-
-  @media only screen and (max-width:992px) {
-
-    #mg-main-menu-btn-movil{display: block;position: fixed;right: 10%;}
-    #mg-info-header{visibility: hidden;}
-    #mg-main-menu-btn{visibility: hidden;}
-  }  
 
 
 
 
 
-footer{background:#353535; }
+
+
+
+
+
+
+
+
+
   
-#mg-footer-first{padding:80px 0; }
-#mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
-#mg-footer-first ul{list-style-type: none;padding: 0;}
-#mg-footer-first ul li{margin:20px 0;}
-#mg-footer-first ul li a{color:#736f6f;text-decoration: none;font-size: 15px;}
+/*------------------------------------*\
+    BEGIN RESPONSIVE MG
+\*------------------------------------*/
 
-/* newsletter footer */
-#mg-footer-first .input-email-newsletter{width: 80%;border: transparent;height: 45px;border-radius: 50px;background: #565555;padding: 10px;}
-#mg-footer-first .btn-newsletter{position: absolute;top: 3px;border: transparent;right: 60px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
-#mg-footer-first #mg-newsletter-subtitle{color:white;font-family: 'Gotham';margin-left:6px;font-weight: bold;}
-#mg-footer-first #title-newsletter-footer{margin-left:7px;}
-#mg-footer-first #mg-social-main-menu{color:white;}
-
-#mg-footer-second{padding: 0 0 40px 0;}
-#mg-footer-second .copyright{font-size: 15px;color:#736f6f;}
-#mg-footer-second ul li a{color:#736f6f;font-size: 13px;} 
-
+  /*------------------------------------*\
+      BEGIN Max Width
+  \*------------------------------------*/
+    @media only screen and (max-width:992px) {
+      #mg-main-menu-btn-mobile{display: block;}
+      #mg-info-header{visibility: hidden;}
+      #mg-main-menu-btn{visibility: hidden;}
+    } 
+  /*------------------------------------*\
+      END Max Width
+  \*------------------------------------*/
 
 
-.mg-logo-img-menu-movil{max-width: 100px;display: block;margin: 10px auto;}
+  /*------------------------------------*\
+      BEGIN Min Width
+  \*------------------------------------*/
+
+  /*------------------------------------*\
+      END Min Width
+  \*------------------------------------*/
+
+
+/*------------------------------------*\
+    END RESPONSIVE MG
+\*------------------------------------*/  
+
+
+  
+
+
+  
+
+  
+
+
+  
+  
+
+  
+   
+
+
+ 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -46,7 +46,7 @@
            <span>127-232-2313</span>
          </a>
        </div>
-       <div id="mg-main-menu-btn-movil">
+       <div id="mg-main-menu-btn-mobile">
            <a href="#menu" class="menu-link">
              <div class="mg-menu-line"></div>
              <div class="mg-menu-line"></div>

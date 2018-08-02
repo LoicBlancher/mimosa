@@ -486,6 +486,9 @@ add_action("admin_menu", "add_theme_menu_item");
  /*MS - Add function edit Mail info mimosa*/
   add_settings_field('mail_mimosa','Mail Mimosa','display_mail_mimosa','theme-options-mimosa','first_section');
   register_setting('theme-options-fields','mail');
+  /*MS - Add function edit Social - Twitter mimosa*/
+  add_settings_field('twitter_mimosa','Twitter Mimosa','display_twitter_mimosa','theme-options-mimosa','first_section');
+  register_setting('theme-options-fields','twitter');
  }
 
  function theme_section_description(){
@@ -507,6 +510,14 @@ add_action("admin_menu", "add_theme_menu_item");
  function display_mail_mimosa (){
   ?>
   <input type="text" name="mail" id="mail" value="<?php echo get_option ('mail');?>" />
+  <?php  
+ }
+
+ 
+
+ function display_twitter_mimosa (){
+  ?>
+  <input type="text" name="twitter" id="twitter" value="<?php echo get_option ('twitter');?>" />
   <?php  
  }
 

@@ -36,8 +36,10 @@
        </div>
        <div id="mg-info-header">
          <div id="socialHeader">
-           <i class="fab fa-facebook-f fa-lg"></i>
-           <i class="fab fa-twitter fa-lg"></i>
+
+           <a href=""><i class="fab fa-facebook-f fa-lg"></a></i>
+           <?php $twitter_mimosa= get_option('twitter');?>
+           <a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
            <i class="fab fa-linkedin-in fa-lg"></i>
            <i class="fab fa-pinterest-p fa-lg"></i>
          </div>

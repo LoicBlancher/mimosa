@@ -29,7 +29,8 @@
 						    <?php echo do_shortcode('[sibwp_form id=2]'); ?>
 						  </div>
 						  <div id="mg-social-main-menu">
-						    <i class="fab fa-facebook-f fa-lg"></i>
+						    <?php $facebook_mimosa= get_option('facebook');?>
+						    <a href="<?php echo $facebook_mimosa?>"><i class="fab fa-facebook-f fa-lg"></i></a>
 						    <?php $twitter_mimosa= get_option('twitter');?>
 								<a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
 						    <i class="fab fa-linkedin-in fa-lg"></i>
@@ -82,7 +83,8 @@
 			   <div id="mg-menu-bottom-p">
 			      <div id="mg-menu-terms-main">
 			        <div id="mg-social-main-menu">
-			          <i class="fab fa-facebook-f fa-lg"></i>
+			        	<?php $facebook_mimosa= get_option('facebook');?>
+			          <a href="<?php echo $facebook_mimosa?>"><i class="fab fa-facebook-f fa-lg"></i></a>
 			          <?php $twitter_mimosa= get_option('twitter');?>
 			          <a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
 			          <i class="fab fa-linkedin-in fa-lg"></i>
@@ -102,7 +104,8 @@
 		  <img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu-mobile" alt="">	
 		  <?php main_menu_nav(); ?>
 		  <div id="mg-social-main-menu-mobile">
-		    <i class="fab fa-facebook-f fa-lg"></i>
+		    <?php $twitter_mimosa= get_option('twitter');?>
+		    <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
 		    <?php $twitter_mimosa= get_option('twitter');?>
 		    <a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
 		    <i class="fab fa-linkedin-in fa-lg"></i>

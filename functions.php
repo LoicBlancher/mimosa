@@ -452,7 +452,7 @@ add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [htm
 //add new menu for theme-options page with page callback theme-options-page.
 
 /*------------------------------------*\
-    MS - Template Options Mimosa
+    MS - Theme Options Mimosa
 \*------------------------------------*/
  
 function add_theme_menu_item() {
@@ -489,6 +489,9 @@ add_action("admin_menu", "add_theme_menu_item");
   /*MS - Add function edit Social - Twitter mimosa*/
   add_settings_field('twitter_mimosa','Twitter Mimosa','display_twitter_mimosa','theme-options-mimosa','first_section');
   register_setting('theme-options-fields','twitter');
+  /*MS - Add function edit Social - Facebook mimosa*/
+  add_settings_field('facebook_mimosa','Facebook Mimosa','display_facebook_mimosa','theme-options-mimosa','first_section');
+  register_setting('theme-options-fields','facebook');
  }
 
  function theme_section_description(){
@@ -513,7 +516,6 @@ add_action("admin_menu", "add_theme_menu_item");
   <?php  
  }
 
- 
 
  function display_twitter_mimosa (){
   ?>
@@ -521,6 +523,11 @@ add_action("admin_menu", "add_theme_menu_item");
   <?php  
  }
 
+ function display_facebook_mimosa (){
+  ?>
+  <input type="text" name="facebook" id="facebook" value="<?php echo get_option ('facebook');?>" />
+  <?php  
+ }
  add_action('admin_init','theme_settings');
 
 /*------------------------------------*\

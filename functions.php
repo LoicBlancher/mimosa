@@ -452,9 +452,8 @@ add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [htm
 //add new menu for theme-options page with page callback theme-options-page.
 
 /*------------------------------------*\
-    Template Options
+    MS - Template Options Mimosa
 \*------------------------------------*/
- //this function creates a simple page with title Custom Theme Options Page.
  
 function add_theme_menu_item() {
 add_theme_page("Customize Mimosa", "Customize Mimosa", "manage_options", "theme-options", "theme_option_page", null, 99);}
@@ -466,7 +465,7 @@ add_action("admin_menu", "add_theme_menu_item");
     <h1>Custom Mimosa Theme</h1>
     <form method="post" action="options.php">
  <?php
-    do_settings_sections("theme-options-section");
+    do_settings_sections("theme-options-mimosa");
     settings_fields("theme-options-fields");
     submit_button();
  ?>
@@ -475,11 +474,18 @@ add_action("admin_menu", "add_theme_menu_item");
  <?php
  }
 
- function test_theme_settings(){
+ function theme_settings (){
  add_settings_section( 'first_section', 'Contact Info Mimosa',
- 'theme_section_description','theme-options-section');
- add_settings_field('phone_mimosa','Phone Mimosa','display_phone_mimosa','theme-options-section','first_section');
+ 'theme_section_description','theme-options-mimosa');
+ /* MS- Add function edit phone mimosa*/
+ add_settings_field('phone_mimosa','Phone Mimosa','display_phone_mimosa','theme-options-mimosa','first_section');
  register_setting('theme-options-fields','phone');
+/*MS - Add function edit address mimosa*/
+ add_settings_field('address_mimosa','Address Mimosa','display_address_mimosa','theme-options-mimosa','first_section');
+ register_setting('theme-options-fields','address');
+ /*MS - Add function edit Mail info mimosa*/
+  add_settings_field('mail_mimosa','Mail Mimosa','display_mail_mimosa','theme-options-mimosa','first_section');
+  register_setting('theme-options-fields','mail');
  }
 
  function theme_section_description(){
@@ -492,7 +498,19 @@ add_action("admin_menu", "add_theme_menu_item");
   <?php  
  }
 
- add_action('admin_init','test_theme_settings');
+ function display_address_mimosa (){
+  ?>
+  <input type="text" name="address" id="address" value="<?php echo get_option ('address');?>" />
+  <?php  
+ }
+
+ function display_mail_mimosa (){
+  ?>
+  <input type="text" name="mail" id="mail" value="<?php echo get_option ('mail');?>" />
+  <?php  
+ }
+
+ add_action('admin_init','theme_settings');
 
 /*------------------------------------*\
     ShortCode Functions

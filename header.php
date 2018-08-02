@@ -43,7 +43,7 @@
          </div>
          <a class="yellowBtn" href="tel:12345678">
            <i class="fas fa-phone fa-rotate-90"></i>
-           <?php $phone_mimosa= get_option('test_twitter_url');?>
+           <?php $phone_mimosa= get_option('phone');?>
            <span><?php echo $phone_mimosa?></span>
          </a>
        </div>

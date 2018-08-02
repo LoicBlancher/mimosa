@@ -478,20 +478,20 @@ add_action("admin_menu", "add_theme_menu_item");
  function test_theme_settings(){
  add_settings_section( 'first_section', 'Contact Info Mimosa',
  'theme_section_description','theme-options-section');
- add_settings_field('twitter_url', 'Phone Mimosa', 'display_test_twitter_element', 'theme-options-section', 'first_section');
- register_setting( 'theme-options-fields', 'test_twitter_url');
+ add_settings_field('phone_mimosa','Phone Mimosa','display_phone_mimosa','theme-options-section','first_section');
+ register_setting('theme-options-fields','phone');
  }
 
  function theme_section_description(){
  echo '<p>Change contact info mimosa</p>';
  }
  
- function display_test_twitter_element(){
- //php code to take input from text field for twitter URL.
- ?>
- <input type="text" name="test_twitter_url" id="test_twitter_url" value="<?php echo get_option('test_twitter_url'); ?>" />
- <?php
+ function display_phone_mimosa (){
+  ?>
+  <input type="text" name="phone" id="phone" value="<?php echo get_option ('phone');?>" />
+  <?php  
  }
+
  add_action('admin_init','test_theme_settings');
 
 /*------------------------------------*\

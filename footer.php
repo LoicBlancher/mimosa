@@ -5,10 +5,13 @@
 					<div class="col-12 col-md-6 col-lg-3">
 						<h6>Mimosa Paris</h6>
 						<ul>
-							<li><a href="">15 Rue gourmants</a></li>
+							<?php $address_mimosa= get_option('address');?>
+							<li><a href=""><?php echo $address_mimosa?></a></li>
 							<li><a href="">Nos chefs</a></li>
-							<li><a href="">Tel:1238-000-5757</a></li>
-							<li><a href="">contact@mimosa-paris.fr</a></li>
+							<?php $phone_mimosa= get_option('phone');?>
+							<li><a href="tel:<?php echo $phone_mimosa?>">Tel:<?php echo $phone_mimosa?></a></li>
+							<?php $mail_mimosa= get_option('mail');?>
+							<li><a href="mailto:<?php echo $mail_mimosa?>"><?php echo $mail_mimosa?></a></li>
 						</ul>
 					</div>
 					<div class="col-12 col-md-6 col-lg-3">
@@ -26,10 +29,14 @@
 						    <?php echo do_shortcode('[sibwp_form id=2]'); ?>
 						  </div>
 						  <div id="mg-social-main-menu">
-						    <i class="fab fa-facebook-f fa-lg"></i>
-						    <i class="fab fa-twitter fa-lg"></i>
-						    <i class="fab fa-linkedin-in fa-lg"></i>
-						    <i class="fab fa-pinterest-p fa-lg"></i>
+						    <?php $facebook_mimosa= get_option('facebook');?>
+						    <a href="<?php echo $facebook_mimosa?>"><i class="fab fa-facebook-f fa-lg"></i></a>
+						    <?php $twitter_mimosa= get_option('twitter');?>
+								<a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
+						    <?php $linkedin_mimosa= get_option('linkedin');?>
+						    <a href="<?php echo $linkedin_mimosa?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
+						    <?php $pinterest_mimosa= get_option('pinterest');?>
+						    <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></i></a>
 						  </div>
 					</div>
 				</div>
@@ -78,15 +85,21 @@
 			   <div id="mg-menu-bottom-p">
 			      <div id="mg-menu-terms-main">
 			        <div id="mg-social-main-menu">
-			          <i class="fab fa-facebook-f fa-lg"></i>
-			          <i class="fab fa-twitter fa-lg"></i>
-			          <i class="fab fa-linkedin-in fa-lg"></i>
-			          <i class="fab fa-pinterest-p fa-lg"></i>
+			        	<?php $facebook_mimosa= get_option('facebook');?>
+			          <a href="<?php echo $facebook_mimosa?>"><i class="fab fa-facebook-f fa-lg"></i></a>
+			          <?php $twitter_mimosa= get_option('twitter');?>
+			          <a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
+			          <?php $linkedin_mimosa= get_option('linkedin');?>
+			          <a href="<?php echo $linkedin_mimosa?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
+			          <?php $pinterest_mimosa= get_option('pinterest');?>
+			          <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></i></a>
 			        </div>
 			        <?php footer_terms(); ?>
 			      </div>
 			      <div id="mg-menu-logo-main">
-			      	<img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu" alt="">
+			      	<?php $logo_mimosa= get_option('logo');?>
+			      	<?php echo $logo_mimosa?>
+			      	<img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo $logo_mimosa?>" alt="" class="mg-logo-img-menu">
 			      </div>
 		      </div>
 		  </div>      
@@ -97,10 +110,14 @@
 		  <img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="Logo" class="mg-logo-img-menu-mobile" alt="">	
 		  <?php main_menu_nav(); ?>
 		  <div id="mg-social-main-menu-mobile">
-		    <i class="fab fa-facebook-f fa-lg"></i>
-		    <i class="fab fa-twitter fa-lg"></i>
-		    <i class="fab fa-linkedin-in fa-lg"></i>
-		    <i class="fab fa-pinterest-p fa-lg"></i>
+		    <?php $twitter_mimosa= get_option('twitter');?>
+		    <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
+		    <?php $twitter_mimosa= get_option('twitter');?>
+		    <a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
+				<?php $linkedin_mimosa= get_option('linkedin');?>  
+		    <a href="<?php echo $linkedin_mimosa?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
+		    <?php $pinterest_mimosa= get_option('pinterest');?>
+		    <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></i></a>
 		  </div>
 		  <a class="yellowBtn-mobile">
 		    <i class="fas fa-phone fa-rotate-90"></i>

@@ -36,14 +36,19 @@
        </div>
        <div id="mg-info-header">
          <div id="socialHeader">
-           <i class="fab fa-facebook-f fa-lg"></i>
-           <i class="fab fa-twitter fa-lg"></i>
-           <i class="fab fa-linkedin-in fa-lg"></i>
-           <i class="fab fa-pinterest-p fa-lg"></i>
+           <?php $facebook_mimosa= get_option('facebook');?> 
+           <a href="<?php echo $facebook_mimosa?>"><i class="fab fa-facebook-f fa-lg"></a></i>
+           <?php $twitter_mimosa= get_option('twitter');?>
+           <a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
+           <?php $linkedin_mimosa= get_option('linkedin');?>
+           <a href="<?php echo $linkedin_mimosa?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
+           <?php $pinterest_mimosa= get_option('pinterest');?>
+           <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></a></i>
          </div>
          <a class="yellowBtn" href="tel:12345678">
            <i class="fas fa-phone fa-rotate-90"></i>
-           <span>127-232-2313</span>
+           <?php $phone_mimosa= get_option('phone');?>
+           <span><?php echo $phone_mimosa?></span>
          </a>
        </div>
        <div id="mg-main-menu-btn-mobile">

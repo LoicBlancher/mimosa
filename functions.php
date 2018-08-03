@@ -475,8 +475,13 @@ add_action("admin_menu", "add_theme_menu_item");
  }
 
  function theme_settings (){
+ /* Section custom info mimosa */
  add_settings_section( 'first_section', 'Contact Info Mimosa',
  'theme_section_description','theme-options-mimosa');
+ /* Section custom display */
+ add_settings_section( 'second_section', 'Display settings',
+ 'theme_second_section_description','theme-options-mimosa');
+
  /* MS- Add function edit phone mimosa*/
  add_settings_field('phone_mimosa','Phone Mimosa','display_phone_mimosa','theme-options-mimosa','first_section');
  register_setting('theme-options-fields','phone');
@@ -499,10 +504,17 @@ add_action("admin_menu", "add_theme_menu_item");
   add_settings_field('linkedin_mimosa','Linkedin Mimosa','display_linkedin_mimosa','theme-options-mimosa','first_section');
   register_setting('theme-options-fields','linkedin');
 
+ /*MS - Change logo mimosa */
+  add_settings_field("logo_mimosa", "Logo Mimosa", "logo_display_mimosa", "theme-options-mimosa", "second_section");
+  register_setting( 'theme-options-fields', 'logo');    
  }
 
- function theme_section_description(){
+ function theme_first_section_description(){
  echo '<p>Change contact info mimosa</p>';
+ }
+
+ function theme_second_section_description(){
+ echo '<p>Change display options mimosa</p>';
  }
  
  function display_phone_mimosa (){
@@ -550,6 +562,14 @@ add_action("admin_menu", "add_theme_menu_item");
   <input type="text" name="linkedin" id="linkedin" value="<?php echo get_option ('linkedin');?>" />
   <?php  
  } 
+
+ function logo_display_mimosa ()
+ { 
+ ?>
+ <input type="file" name="logo" />                      
+ <?php echo get_option('logo'); ?>
+ <?php
+ }
  add_action('admin_init','theme_settings');
 
 /*------------------------------------*\

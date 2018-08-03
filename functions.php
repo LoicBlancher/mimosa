@@ -492,6 +492,13 @@ add_action("admin_menu", "add_theme_menu_item");
   /*MS - Add function edit Social - Facebook mimosa*/
   add_settings_field('facebook_mimosa','Facebook Mimosa','display_facebook_mimosa','theme-options-mimosa','first_section');
   register_setting('theme-options-fields','facebook');
+  /*MS - Add function edit Social - Pinterest mimosa*/
+  add_settings_field('pinterest_mimosa','Pinterest Mimosa','display_pinterest_mimosa','theme-options-mimosa','first_section');
+  register_setting('theme-options-fields','pinterest');
+  /*MS - Add function edit Social - Linkedin mimosa*/
+  add_settings_field('linkedin_mimosa','Linkedin Mimosa','display_linkedin_mimosa','theme-options-mimosa','first_section');
+  register_setting('theme-options-fields','linkedin');
+
  }
 
  function theme_section_description(){
@@ -528,6 +535,21 @@ add_action("admin_menu", "add_theme_menu_item");
   <input type="text" name="facebook" id="facebook" value="<?php echo get_option ('facebook');?>" />
   <?php  
  }
+
+ 
+
+ function display_pinterest_mimosa (){
+  ?>
+  <input type="text" name="pinterest" id="pinterest" value="<?php echo get_option ('pinterest');?>" />
+  <?php  
+ } 
+
+
+ function display_linkedin_mimosa (){
+  ?>
+  <input type="text" name="linkedin" id="linkedin" value="<?php echo get_option ('linkedin');?>" />
+  <?php  
+ } 
  add_action('admin_init','theme_settings');
 
 /*------------------------------------*\

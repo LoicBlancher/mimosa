@@ -466,4 +466,10 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 {
     return '<h2>' . $content . '</h2>';
 }
+
+add_shortcode('test','footer_home_template');
+function footer_home_template() // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
+{
+    get_template_part('content','test');
+}
 ?>

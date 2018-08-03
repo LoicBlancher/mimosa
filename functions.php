@@ -180,16 +180,18 @@ function html5blank_header_scripts()
         wp_enqueue_script('iconsmimosa'); 
  
         wp_register_script('menuSlide', get_template_directory_uri() . '/js/bigSlide.min.js', array('jquery'), '1.0.0',true); 
-        wp_enqueue_script('menuSlide');    
+        wp_enqueue_script('menuSlide');
+                  
     }
 }
 // Load HTML5 Blank conditional scripts
 function html5blank_conditional_scripts()
 {
-    if (is_page('pagenamehere')) {
-        wp_register_script('scriptname', get_template_directory_uri() . '/js/scriptname.js', array('jquery'), '1.0.0'); // Conditional script(s)
-        wp_enqueue_script('scriptname'); // Enqueue it!
-    }
+
+    if(is_front_page()){
+         wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.js', array('jquery'), '1.0.0',true); 
+         wp_enqueue_script('onePage');    
+       } 
 }
 // Load HTML5 Blank styles
 function html5blank_styles()
@@ -203,6 +205,9 @@ function html5blank_styles()
     
     wp_enqueue_style('bootstrap',get_template_directory_uri().'/css/bootstrap-grid.min.css');
     wp_enqueue_style('bootstrap'); // Enqueue it!
+
+    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
+    wp_enqueue_style('onepage'); // Enqueue it!
 }
 // Register HTML5 Blank Navigation
 function register_html5_menu()
@@ -467,9 +472,9 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
     return '<h2>' . $content . '</h2>';
 }
 
-add_shortcode('test','footer_home_template');
+add_shortcode('footer','footer_home_template');
 function footer_home_template() // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
 {
-    get_template_part('content','test');
+    get_template_part('partial','footer');
 }
 ?>

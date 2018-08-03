@@ -2,9 +2,10 @@
 
   <main role="main">
     <!-- section -->
-    <section>
+    <div class="main">
       <?php the_content(); ?>
-    </section>
+    </div>
+    
     <!-- /section -->
   </main>
 

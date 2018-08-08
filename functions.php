@@ -7,7 +7,8 @@
 /*------------------------------------*\
     External Modules/Files
 \*------------------------------------*/
-// Load any external files you have here
+/* Charge Theme options Mimosa */
+require_once ( get_stylesheet_directory() . '/theme-options.php' );
 /*------------------------------------*\
     Theme Support
 \*------------------------------------*/
@@ -454,9 +455,7 @@ add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [htm
 // Shortcodes above would be nested like this -
 // [html5_shortcode_demo] [html5_shortcode_demo_2] Here's the page title! [/html5_shortcode_demo_2] [/html5_shortcode_demo]
 
-//add new menu for theme-options page with page callback theme-options-page.
 
-require_once ( get_stylesheet_directory() . '/theme-options.php' );
 
 /*------------------------------------*\
     ShortCode Functions

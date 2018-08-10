@@ -6,7 +6,8 @@
   Author: Miguel Soler
   Tags: Blank, HTML5, CSS3, MIMOSA
 */
-
+/* One page Scroll */
+.home .wrap, .home main{height: 100%;}
 /*------------------------------------*\
     HEADER
 \*------------------------------------*/
@@ -92,6 +93,7 @@
 /*------------------------------------*\
     FOOTER
 \*------------------------------------*/
+  .home footer{position: absolute;width: 100%;bottom: 0;}
   footer{background:#353535;padding: 80px 0; }
   
     /* Footer First Row */
@@ -119,8 +121,6 @@
 /*------------------------------------*\
     END FOOTER
 \*------------------------------------*/     
-#section-active{position: initial!important;}
-.section-scroll{background: white;}
   
 
 

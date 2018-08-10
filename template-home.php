@@ -2,11 +2,12 @@
 
   <main role="main">
     <!-- section -->
-    <section>
+    <div class="main">
       <?php the_content(); ?>
-    </section>
+    </div>
+    
     <!-- /section -->
   </main>
-
-<?php get_footer();?>
+</div>
+<?php get_footer('home');?>
 

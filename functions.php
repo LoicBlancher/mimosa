@@ -7,7 +7,8 @@
 /*------------------------------------*\
     External Modules/Files
 \*------------------------------------*/
-// Load any external files you have here
+/* Charge Theme options Mimosa */
+require_once ( get_stylesheet_directory() . '/theme-options.php' );
 /*------------------------------------*\
     Theme Support
 \*------------------------------------*/
@@ -180,16 +181,18 @@ function html5blank_header_scripts()
         wp_enqueue_script('iconsmimosa'); 
  
         wp_register_script('menuSlide', get_template_directory_uri() . '/js/bigSlide.min.js', array('jquery'), '1.0.0',true); 
-        wp_enqueue_script('menuSlide');    
+        wp_enqueue_script('menuSlide');
+                  
     }
 }
 // Load HTML5 Blank conditional scripts
 function html5blank_conditional_scripts()
 {
-    if (is_page('pagenamehere')) {
-        wp_register_script('scriptname', get_template_directory_uri() . '/js/scriptname.js', array('jquery'), '1.0.0'); // Conditional script(s)
-        wp_enqueue_script('scriptname'); // Enqueue it!
-    }
+
+    if(is_front_page()){
+         wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.js', array('jquery'), '1.0.0',true); 
+         wp_enqueue_script('onePage');    
+       } 
 }
 // Load HTML5 Blank styles
 function html5blank_styles()
@@ -203,6 +206,9 @@ function html5blank_styles()
     
     wp_enqueue_style('bootstrap',get_template_directory_uri().'/css/bootstrap-grid.min.css');
     wp_enqueue_style('bootstrap'); // Enqueue it!
+
+    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
+    wp_enqueue_style('onepage'); // Enqueue it!
 }
 // Register HTML5 Blank Navigation
 function register_html5_menu()
@@ -449,9 +455,7 @@ add_shortcode('html5_shortcode_demo_2', 'html5_shortcode_demo_2'); // Place [htm
 // Shortcodes above would be nested like this -
 // [html5_shortcode_demo] [html5_shortcode_demo_2] Here's the page title! [/html5_shortcode_demo_2] [/html5_shortcode_demo]
 
-//add new menu for theme-options page with page callback theme-options-page.
 
-require_once ( get_stylesheet_directory() . '/theme-options.php' );
 
 /*------------------------------------*\
     ShortCode Functions
@@ -465,5 +469,11 @@ function html5_shortcode_demo($atts, $content = null)
 function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
 {
     return '<h2>' . $content . '</h2>';
+}
+
+add_shortcode('footer','footer_home_template');
+function footer_home_template() // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
+{
+    get_template_part('partial','footer');
 }
 ?>

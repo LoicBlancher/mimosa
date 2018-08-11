@@ -197,7 +197,15 @@
       /* End Responsive footer */
 
       /* ThankYou Page */
-
+      .ms-logTyPage .ms-logo-ty-pg{width: 130px;}
+      .ms-thankyou-header-text{font-size: 55px;padding:180px 50px 40px 50px;}
+      .ms-thankyou-text p{margin-top:-40px;}
+      .ms-thankyou-text{font-size: 16px;padding: 0 50px;}
+      .ms-cta-return-home{font-size:16px;padding: 0 50px;}
+      .ms-footerTyPage #mg-menu-terms-main{width: 100%;float: initial;}
+      .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu{position:relative;left:30%;}
+      .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:23px;}
+      .ms-footerTyPage #mg-menu-terms-main ul{padding: 0;position: relative;left:18%;}
       /* End ThankYou Page */
     }
     

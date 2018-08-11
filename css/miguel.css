@@ -131,10 +131,13 @@
 .ms-logTyPage{position: absolute;left: 2%;}
 .ms-logTyPage .ms-logo-ty-pg{width: 200px;}
 .ms-thankyou-background{height: 100%;}
-.ms-thankyou-header-text{padding: 140px 5px 4px 5px;text-align: right;font-weight: 700;font-size: 70px;font-family: Gotham;color: white;}
+.ms-thankyou-header-text{padding: 140px 5px 4px 5px;text-align: right;font-weight: 700;font-size: 65px;font-family: Gotham;color: white;}
 .ms-thankyou-header-text p{margin-bottom: 0;}
 .ms-thankyou-text{color: #ffbf2c;line-height: 1.8em;font-size: 17px;text-align: right;}
-.ms-cta-return-home{}
+.ms-thankyou-text p{margin-bottom:\ 0;}
+.ms-cta-return-home{color: #ffbf2c;font-size: 17px;font-weight: bold;text-align: right;}
+.ms-cta-return-home p{margin-top:-30px ;}
+.ms-cta-return-home p:after{content:' \2771';color:#ffbf2c;}
 /*------------------------------------*\
     End Thank You Page
 \*------------------------------------*/

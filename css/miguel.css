@@ -166,7 +166,12 @@
     }
 
     @media only screen and (max-width: 1280px) {
-
+      /* ThankYou Page */
+      .ms-thankyou-header-text{font-size: 50px;width: 600px;padding: 200px 100px 40px 40px;}
+      .ms-thankyou-text p{margin-top:-40px;}
+      .ms-thankyou-text{width: 600px;padding: 0 100px;}
+      .ms-cta-return-home{width: 600px;padding: 0 100px;} 
+      /* End ThankYou Page */
     }
     
     @media only screen and (max-width: 992px) {
@@ -180,6 +185,14 @@
       #mg-newsletter-form-main #sib_signup_form_2{width: 75%;}
       #mg-footer-first #mg-social-main-menu{margin-left: 30px;}
       /* End Responsive footer*/
+      
+      /* ThankYou Page */
+      .ms-logTyPage .ms-logo-ty-pg{width: 140px;}
+      .ms-thankyou-header-text{font-size: 50px;width: 600px;padding: 200px 100px 40px 40px;}
+      .ms-thankyou-text p{margin-top:-40px;}
+      .ms-thankyou-text{width: 600px;padding: 0 100px;}
+      .ms-cta-return-home{width: 600px;padding: 0 100px;} 
+      /* End ThankYou Page */
     }
     
     @media only screen and (max-width: 736px) {
@@ -198,10 +211,10 @@
 
       /* ThankYou Page */
       .ms-logTyPage .ms-logo-ty-pg{width: 130px;}
-      .ms-thankyou-header-text{font-size: 55px;padding:180px 50px 40px 50px;}
+      .ms-thankyou-header-text{width: 100%;font-size: 43px;padding:180px 50px 40px 50px;}
       .ms-thankyou-text p{margin-top:-40px;}
-      .ms-thankyou-text{font-size: 16px;padding: 0 50px;}
-      .ms-cta-return-home{font-size:16px;padding: 0 50px;}
+      .ms-thankyou-text{width: 100%;font-size: 16px;padding: 0 50px;}
+      .ms-cta-return-home{width: 100%;font-size:16px;padding: 0 50px;}
       .ms-footerTyPage #mg-menu-terms-main{width: 100%;float: initial;}
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu{position:relative;left:30%;}
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:23px;}
@@ -226,10 +239,10 @@
 
       /* Thank You page */
       .ms-logTyPage .ms-logo-ty-pg{width: 100px;}
-      .ms-thankyou-header-text{font-size: 45px;padding:200px 40px 60px 40px;}
+      .ms-thankyou-header-text{width: 100%;font-size: 40px;padding:200px 40px 60px 40px;}
       .ms-thankyou-text p{margin-top:-40px;}
-      .ms-thankyou-text{font-size: 15px;padding: 0 40px;}
-      .ms-cta-return-home{font-size:15px;padding: 0 40px;}
+      .ms-thankyou-text{width: 100%;font-size: 15px;padding: 0 40px;}
+      .ms-cta-return-home{width: 100%;font-size:15px;padding: 0 40px;}
       .ms-footerTyPage #mg-menu-terms-main{width: 100%;float: initial;}
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu{position:relative;left:25%;}
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:20px;}

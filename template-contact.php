@@ -4,7 +4,6 @@
   <div class="main">
     <?php the_content(); ?>
   </div>
-  
   <!-- /section -->
 </main>
 <?php get_footer('home');?>

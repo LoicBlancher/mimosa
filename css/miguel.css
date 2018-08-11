@@ -56,9 +56,9 @@
     #mg-menu-terms-main{float: left;width: 50%;bottom: 50px;}
     /* Menu Main terms Social */
     #mg-menu-terms-main #mg-social-main-menu{color: white;padding: 0 0 30px 0;}
-    #mg-menu-terms-main #mg-social-main-menu svg{margin:0 10px;}
+    #mg-menu-terms-main #mg-social-main-menu svg{margin:0 10px;color:white;}
     /* Menu Main terms footer_terms() */
-    #mg-menu-terms-main ul{list-style-type: none;padding: 0;}
+    #mg-menu-terms-main ul{list-style-type: none;padding: 0 0 20px 0;}
     #mg-menu-terms-main ul li{float: left;padding:0 10px;border-left: 2px solid white;}
     #mg-menu-terms-main ul li:first-child{border: none;padding: 0 10px;}
     #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';font-size: 12px;}
@@ -128,8 +128,8 @@
 /*------------------------------------*\
     Thank You Page
 \*------------------------------------*/
-.ms-logTyPage{position: absolute;left: 2%;}
-.ms-logTyPage .ms-logo-ty-pg{width: 200px;}
+.ms-logTyPage{position: absolute;top:5%;left: 2%;}
+.ms-logTyPage .ms-logo-ty-pg{width: 140px;}
 .ms-thankyou-background{height: 100%;}
 .ms-thankyou-header-text{padding: 140px 5px 4px 5px;text-align: right;font-weight: 700;font-size: 65px;font-family: Gotham;color: white;}
 .ms-thankyou-header-text p{margin-bottom: 0;}
@@ -138,6 +138,7 @@
 .ms-cta-return-home{color: #ffbf2c;font-size: 17px;font-weight: bold;text-align: right;}
 .ms-cta-return-home p{margin-top:-30px ;}
 .ms-cta-return-home p:after{content:' \2771';color:#ffbf2c;}
+.ms-footerTyPage{position: absolute;width: 100%;bottom:10%;left:10%;}
 /*------------------------------------*\
     End Thank You Page
 \*------------------------------------*/

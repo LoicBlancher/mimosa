@@ -125,7 +125,19 @@
 
 
 
-
+/*------------------------------------*\
+    Thank You Page
+\*------------------------------------*/
+.ms-logTyPage{position: absolute;left: 2%;}
+.ms-logTyPage .ms-logo-ty-pg{width: 200px;}
+.ms-thankyou-background{height: 100%;}
+.ms-thankyou-header-text{padding: 140px 5px 4px 5px;text-align: right;font-weight: 700;font-size: 70px;font-family: Gotham;color: white;}
+.ms-thankyou-header-text p{margin-bottom: 0;}
+.ms-thankyou-text{color: #ffbf2c;line-height: 1.8em;font-size: 17px;text-align: right;}
+.ms-cta-return-home{}
+/*------------------------------------*\
+    End Thank You Page
+\*------------------------------------*/
 
 
 

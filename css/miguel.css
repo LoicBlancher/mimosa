@@ -11,17 +11,37 @@
 
 /* Var colors */
 :root{
-  --mimosa-black-1:#000000;
-  --mimosa-black-2:#2C2C2C;
+  --mimosa-black-dark:#000000;
+  --mimosa-black-semi-dark:#2C2C2C;
   --mimosa-yellow:#FFC80A;
-  --mimosa-gray:#9FA3A7;
+  --mimosa-gray-dark:#9FA3A7;
+  --mimosa-gray-clear:#CCCCCC;
 }
 
 /* Styles Site */
 h1{text-transform: uppercase;font-size: 58px;letter-spacing: -3px;margin-bottom:3px;}
-p.first{color:var(--mimosa-gray);}
-p.second{color:var(--mimosa-black-2);}
+p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
+p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
+.ms-wrapper-contact-form{width: 100%;}
+.ms-wrapper-contact-form label{float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email,.ms-form-mimosa-contact-sujet{position:relative;left:15%;bottom:19px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;}
+/*<label>Lorem ipsum dolor amet pug palo santo</label>
+[acceptance accepte class:ms-form-mimosa-contact-checkbox]
+[submit class:ms-form-mimosa-contact-submit "Envoyer"]
+*/
+#contact input, #contact label {
+    display: inline-block;
+}
 
+#contact label {
+    width: 30%;
+}
+
+#contact input {
+    width: 65%;
+}
 /*------------------------------------*\
     HEADER
 \*------------------------------------*/

@@ -8,6 +8,20 @@
 */
 /* One page Scroll */
 .home .wrap, .home main{height: 100%;}
+
+/* Var colors */
+:root{
+  --mimosa-black-1:#000000;
+  --mimosa-black-2:#2C2C2C;
+  --mimosa-yellow:#FFC80A;
+  --mimosa-gray:#9FA3A7;
+}
+
+/* Styles Site */
+h1{text-transform: uppercase;font-size: 58px;letter-spacing: -3px;margin-bottom:3px;}
+p.first{color:var(--mimosa-gray);}
+p.second{color:var(--mimosa-black-2);}
+
 /*------------------------------------*\
     HEADER
 \*------------------------------------*/
@@ -149,12 +163,11 @@
   /* Header Contact */
   .contact #mg-main-menu-btn{float: right;}
   .ms-left-section-fixed{position: fixed;left: 0;top: 0;bottom: 0;right: 50%;overflow: hidden;}
-  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 110px 90px 0 90px;min-height:1000px;}
+  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 70px 90px 0 90px;min-height:1000px;}
 
 /*------------------------------------*\
     End Contact Page
 \*------------------------------------*/
-
 
 
 

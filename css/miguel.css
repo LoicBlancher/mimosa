@@ -37,9 +37,10 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{position: relative;left:16%;font-size:12px;font-weight: normal;color:#828180;}
 .ms-wrapper-contact-form .ms-footer-form .ms-form-mimosa-contact-checkbox{width: 20px;height: 20px;}
-.ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
+.ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
 /* Button Styles */
-.ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:#ffbf2c;font-size: 15px;}
+.ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;}
+.ms-primary-btn-oylb{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
 
 /*------------------------------------*\
    End Styles Site
@@ -51,11 +52,11 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   header{position: fixed;width: 100%;padding: 30px 90px;z-index: 999;}
   #mg-main-menu-btn {float:left;display: inline;font-size: 32px;}
   #mg-main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
-  .mg-menu-line{width: 35px;height: 5px;background-color: #ffbf2c;margin: 6px 0; }
+  .mg-menu-line{width: 35px;height: 5px;background-color: var(--mimosa-yellow);margin: 6px 0; }
   #mg-info-header{float: right;}
   #socialHeader{float: left;line-height: 40px;margin:0 30px;}
   #socialHeader svg{margin:0 10px;}
-  .yellowBtn {padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:#ffbf2c;font-size: 15px; }
+  .yellowBtn {padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px; }
   .yellowBtn svg {display: inline-block;vertical-align: middle;height: 13px;}
   /*Menu button Mobile*/
   #mg-main-menu-btn-mobile{display: none;position: fixed;right: 10%;}
@@ -186,7 +187,10 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   /* Header Contact */
   .contact #mg-main-menu-btn{float: right;}
   .ms-left-section-fixed{position: fixed;left: 0;top: 0;bottom: 0;right: 50%;overflow: hidden;}
-  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 70px 90px 0 90px;min-height:1000px;}
+  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 70px 90px 0 90px;min-height:800px;}
+  .ms-call-to-action{padding: 70px 90px;width: 100%;position: absolute;left:0;background: var(--mimosa-yellow)}
+  .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
+
 /*------------------------------------*\
     End Contact Page
 \*------------------------------------*/
@@ -330,7 +334,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   #ms-contactInfo-contactP p#ms-phone-contactP{font-size:20px;}
   #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
   #ms-contactInfo-contactP a svg#ms-pin-contactP{margin-right:18px;}
-  .ms-social-infolgcontactP{display: table;margin:0 auto;}
+  .ms-social-infolgcontactP{display: table;margin:0 auto;padding-bottom: 40px;}
   .ms-social-infolgcontactP svg{margin:0 20px;font-size: 52px;color:#7B7B7B;}  
 /*------------------------------------*\
     End Partials

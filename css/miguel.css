@@ -8,17 +8,55 @@
 */
 /* One page Scroll */
 .home .wrap, .home main{height: 100%;}
+
+/* Var colors */
+:root{
+  --mimosa-black-dark:#000000;
+  --mimosa-black-semi-dark:#2C2C2C;
+  --mimosa-yellow:#FFC80A;
+  --mimosa-gray-dark:#9FA3A7;
+  --mimosa-gray-clear:#CCCCCC;
+}
+
+/*------------------------------------*\
+   Begin Styles Site
+\*------------------------------------*/
+/* Text Styles */
+h1{color:var(--mimosa-black-dark);text-transform: uppercase;font-size: 58px;letter-spacing: -3px;margin-bottom:3px;}
+h2{color:var(--mimosa-black-dark);font-size: 48px;}
+p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
+p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
+/* Contact Form Styles */
+.ms-wrapper-contact-form{width: 100%;}
+.ms-wrapper-contact-form label{float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email,.ms-form-mimosa-contact-sujet{position:relative;left:15%;bottom:19px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;}
+.ms-wrapper-contact-form .ms-footer-form{width: 100%;}
+.ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
+.ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
+.ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{position: relative;left:16%;font-size:12px;font-weight: normal;color:#828180;}
+.ms-wrapper-contact-form .ms-footer-form .ms-form-mimosa-contact-checkbox{width: 20px;height: 20px;}
+.ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
+/* Button Styles */
+.ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;}
+.ms-primary-btn-oylb{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
+
+/*------------------------------------*\
+   End Styles Site
+\*------------------------------------*/
+
 /*------------------------------------*\
     HEADER
 \*------------------------------------*/
   header{position: fixed;width: 100%;padding: 30px 90px;z-index: 999;}
   #mg-main-menu-btn {float:left;display: inline;font-size: 32px;}
   #mg-main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
-  .mg-menu-line{width: 35px;height: 5px;background-color: #ffbf2c;margin: 6px 0; }
+  .mg-menu-line{width: 35px;height: 5px;background-color: var(--mimosa-yellow);margin: 6px 0; }
   #mg-info-header{float: right;}
   #socialHeader{float: left;line-height: 40px;margin:0 30px;}
   #socialHeader svg{margin:0 10px;}
-  .yellowBtn {padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:#ffbf2c;font-size: 15px; }
+  .yellowBtn {padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px; }
   .yellowBtn svg {display: inline-block;vertical-align: middle;height: 13px;}
   /*Menu button Mobile*/
   #mg-main-menu-btn-mobile{display: none;position: fixed;right: 10%;}
@@ -143,6 +181,20 @@
     End Thank You Page
 \*------------------------------------*/
 
+/*------------------------------------*\
+    Contact Page
+\*------------------------------------*/
+  /* Header Contact */
+  .contact #mg-main-menu-btn{float: right;}
+  .ms-left-section-fixed{position: fixed;left: 0;top: 0;bottom: 0;right: 50%;overflow: hidden;}
+  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 70px 90px 0 90px;min-height:700px;}
+  .ms-call-to-action{padding: 70px 90px;width: 100%;position: absolute;left:0;background: var(--mimosa-yellow)}
+  .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
+  .ms-responsive-page-layout{}
+/*------------------------------------*\
+    End Contact Page
+\*------------------------------------*/
+
 
 
 
@@ -167,6 +219,8 @@
       .ms-thankyou-text p{margin-top:-20px;} 
       .ms-footerTyPage{left:3%;bottom: 5%;}
       /* End ThankYou Page */
+
+      /* Contact Page */
     }
 
     @media only screen and (max-width: 1280px) {
@@ -252,6 +306,11 @@
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:20px;}
       .ms-footerTyPage #mg-menu-terms-main ul{padding: 0;position: relative;left:3%;}
       /* End Thank You page */
+
+      /* Responsive Contact Page */
+      #contactPageMain{display: none;}
+      #responsiveContact{display: block;}
+
     }
   /*------------------------------------*\
       END Max Width
@@ -272,8 +331,22 @@
 \*------------------------------------*/  
 
 
-  
-
+/*------------------------------------*\
+    Begin Partials
+\*------------------------------------*/  
+  /* Contact Page */
+  #responsiveContact{display: none;}
+  #ms-contactInfo-contactP{padding: 50px 10px;} 
+  #ms-contactInfo-contactP a{display: block;}
+  #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:12px;display: inline;font-weight: bold;}  
+  #ms-contactInfo-contactP p#ms-phone-contactP{font-size:20px;}
+  #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
+  #ms-contactInfo-contactP a svg#ms-pin-contactP{margin-right:18px;}
+  .ms-social-infolgcontactP{display: table;margin:0 auto;padding-bottom: 40px;}
+  .ms-social-infolgcontactP svg{margin:0 20px;font-size: 52px;color:#7B7B7B;}  
+/*------------------------------------*\
+    End Partials
+\*------------------------------------*/  
 
   
 

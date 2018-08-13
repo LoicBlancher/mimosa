@@ -187,10 +187,10 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   /* Header Contact */
   .contact #mg-main-menu-btn{float: right;}
   .ms-left-section-fixed{position: fixed;left: 0;top: 0;bottom: 0;right: 50%;overflow: hidden;}
-  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 70px 90px 0 90px;min-height:800px;}
+  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 70px 90px 0 90px;min-height:700px;}
   .ms-call-to-action{padding: 70px 90px;width: 100%;position: absolute;left:0;background: var(--mimosa-yellow)}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
-
+  .ms-responsive-page-layout{}
 /*------------------------------------*\
     End Contact Page
 \*------------------------------------*/
@@ -219,6 +219,8 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
       .ms-thankyou-text p{margin-top:-20px;} 
       .ms-footerTyPage{left:3%;bottom: 5%;}
       /* End ThankYou Page */
+
+      /* Contact Page */
     }
 
     @media only screen and (max-width: 1280px) {
@@ -304,6 +306,11 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:20px;}
       .ms-footerTyPage #mg-menu-terms-main ul{padding: 0;position: relative;left:3%;}
       /* End Thank You page */
+
+      /* Responsive Contact Page */
+      #contactPageMain{display: none;}
+      #responsiveContact{display: block;}
+
     }
   /*------------------------------------*\
       END Max Width
@@ -328,6 +335,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
     Begin Partials
 \*------------------------------------*/  
   /* Contact Page */
+  #responsiveContact{display: none;}
   #ms-contactInfo-contactP{padding: 50px 10px;} 
   #ms-contactInfo-contactP a{display: block;}
   #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:12px;display: inline;font-weight: bold;}  

@@ -22,7 +22,8 @@
    Begin Styles Site
 \*------------------------------------*/
 /* Text Styles */
-h1{text-transform: uppercase;font-size: 58px;letter-spacing: -3px;margin-bottom:3px;}
+h1{color:var(--mimosa-black-dark);text-transform: uppercase;font-size: 58px;letter-spacing: -3px;margin-bottom:3px;}
+h2{color:var(--mimosa-black-dark);font-size: 48px;}
 p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
 p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
 /* Contact Form Styles */
@@ -329,6 +330,8 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   #ms-contactInfo-contactP p#ms-phone-contactP{font-size:20px;}
   #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
   #ms-contactInfo-contactP a svg#ms-pin-contactP{margin-right:18px;}
+  .ms-social-infolgcontactP{display: table;margin:0 auto;}
+  .ms-social-infolgcontactP svg{margin:0 20px;font-size: 52px;color:#7B7B7B;}  
 /*------------------------------------*\
     End Partials
 \*------------------------------------*/  

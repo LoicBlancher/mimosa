@@ -480,4 +480,9 @@ add_shortcode('contactinfo','contact_info_mimosa');
 function contact_info_mimosa(){
     get_template_part('partial','contactinfo');    
 }
+
+add_shortcode('socialinfolg','social_info_lg');
+function social_info_lg(){
+    get_template_part('partial','socialinfolg');    
+}
 ?>

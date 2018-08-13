@@ -472,8 +472,12 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 }
 
 add_shortcode('footer','footer_home_template');
-function footer_home_template() // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
-{
+function footer_home_template() {
     get_template_part('partial','footer');
+}
+
+add_shortcode('contactinfo','contact_info_mimosa');
+function contact_info_mimosa(){
+    get_template_part('partial','contactinfo');    
 }
 ?>

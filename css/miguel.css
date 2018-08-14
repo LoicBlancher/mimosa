@@ -22,7 +22,7 @@
    Begin Styles Site
 \*------------------------------------*/
 /* Text Styles */
-h1{color:var(--mimosa-black-dark);text-transform: uppercase;font-size: 58px;letter-spacing: -3px;margin-bottom:3px;}
+h1{color:var(--mimosa-black-dark);text-transform: uppercase;font-size: 64px;letter-spacing: -3px;margin-bottom:3px;}
 h2{color:var(--mimosa-black-dark);font-size: 48px;}
 p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
 p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
@@ -41,7 +41,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
 /* Button Styles */
 .ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;}
 .ms-primary-btn-oylb{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
-
+.ms-primary-btn-sw{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;box-shadow:0 3px 15px 5px rgba(0, 0, 0, 0.2);}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/
@@ -191,6 +191,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   .ms-call-to-action{padding: 70px 90px;width: 100%;position: absolute;left:0;background: var(--mimosa-yellow)}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
   .ms-responsive-page-layout{}
+  #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}
 /*------------------------------------*\
     End Contact Page
 \*------------------------------------*/

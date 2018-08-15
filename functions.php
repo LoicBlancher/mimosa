@@ -485,4 +485,9 @@ add_shortcode('socialinfolg','social_info_lg');
 function social_info_lg(){
     get_template_part('partial','socialinfolg');    
 }
+
+add_shortcode('footerpts','footer_pts');
+function footer_pts(){
+    get_template_part('partial','footerpts');    
+}
 ?>

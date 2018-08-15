@@ -22,21 +22,21 @@
    Begin Styles Site
 \*------------------------------------*/
 /* Text Styles */
-h1{color:var(--mimosa-black-dark);text-transform: uppercase;font-size: 64px;letter-spacing: -3px;margin-bottom:3px;}
-h2{color:var(--mimosa-black-dark);font-size: 48px;}
+h1{color:var(--mimosa-black-dark);text-transform: uppercase;font-size: 64px;letter-spacing: -3px;margin-bottom:3px;line-height: 0.9em;}
+h2{color:var(--mimosa-black-dark);font-size: 48px;margin-bottom: 10px;margin-top: 0;}
 p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
 p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
 /* Contact Form Styles */
 .ms-wrapper-contact-form{width: 100%;}
-.ms-wrapper-contact-form label{float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
-.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email,.ms-form-mimosa-contact-sujet{position:relative;left:15%;bottom:19px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);}
+.ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email,.ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;padding: 10px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;}
 .ms-wrapper-contact-form .ms-footer-form{width: 100%;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{position: relative;left:16%;font-size:12px;font-weight: normal;color:#828180;}
-.ms-wrapper-contact-form .ms-footer-form .ms-form-mimosa-contact-checkbox{width: 20px;height: 20px;}
+.ms-wrapper-contact-form .ms-footer-form .ms-form-mimosa-contact-checkbox{position:relative;top:6px;width: 20px;height: 20px;}
 .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
 /* Button Styles */
 .ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;}
@@ -82,7 +82,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
     #mg-newsletter-main-menu #mg-newsletter-title{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;}
     #mg-newsletter-main-menu #mg-newsletter-subtitle{color:white;font-family: 'Gotham';text-align: center;}
     #mg-newsletter-form-main{position: relative;width: 100%;}
-    #mg-newsletter-form-main .input-email-newsletter{width: 100%;border:transparent;height: 45px;border-radius: 50px;background: #353535;padding: 10px;}
+    #mg-newsletter-form-main .input-email-newsletter{width: 100%;border:transparent;height: 45px;border-radius: 50px;background: #353535;padding: 10px 20px;color:#afafaf;font-size:12px;letter-spacing: 0.12em;}
     #mg-newsletter-form-main .input-email-newsletter::placeholder{color:gray;padding: 0 20px;font-size: 13px;}
     #mg-newsletter-form-main .btn-newsletter{position: absolute;top:3px;border:transparent;right: 4px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
     #mg-newsletter-form-main .btn-newsletter svg {color:white;}
@@ -129,7 +129,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
 \*------------------------------------*/
 
 /*------------------------------------*\
-    FOOTER
+    FOOTER'S
 \*------------------------------------*/
   .home footer{position: absolute;width: 100%;bottom: 0;}
   footer{background:#353535;padding: 80px 0; }
@@ -156,10 +156,22 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
     #mg-footer-menu-terms ul li:first-child{border: none;padding: 0 10px;}
     #mg-footer-second ul li a{color:#736f6f;font-size: 13px;font-family: 'Gotham';}
 
+    /* Footer page two sections */
+    .ms-footer-pts{padding:40px 10px 20px 100px;}
+    .ms-footer-pts h6{color: white;font-size: 13px;text-transform: uppercase;letter-spacing: 0.17em;}
+    .ms-footer-pts ul{list-style-type: none;padding: 0;}
+    .ms-footer-pts ul li{margin:15px 0;}
+    .ms-footer-pts ul li a{color: #736f6f;font-size: 12px;text-decoration: none;}
+    .ms-footer-pts  #title-newsletter-footer{margin-bottom: 20px;}
+    .ms-footer-pts #mg-newsletter-subtitle{color: white;font-size: 11px;font-weight: bold;letter-spacing: 0.04em;}
+    .ms-footer-pts #mg-newsletter-form-main #sib_signup_form_2{right: 33px;margin-top:30px;}
+    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{background: #484747;width: 80%;}
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 60px;}
+    .ms-footer-pts #mg-footer-menu-terms{position: relative;right: 10px;}
+    .ms-footer-pts .copyright{color: #736f6f;font-size: 12px;}
 /*------------------------------------*\
     END FOOTER
 \*------------------------------------*/     
-  
 
 
 
@@ -185,10 +197,11 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
     Contact Page
 \*------------------------------------*/
   /* Header Contact */
-  .contact #mg-main-menu-btn{float: right;}
-  .ms-left-section-fixed{position: fixed;left: 0;top: 0;bottom: 0;right: 50%;overflow: hidden;}
-  .ms-right-section-scroll{position: absolute;left: 50%;top: 0;bottom: 0;right: 0;overflow-y: auto;padding: 70px 90px 0 90px;min-height:700px;}
-  .ms-call-to-action{padding: 70px 90px;width: 100%;position: absolute;left:0;background: var(--mimosa-yellow)}
+  .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;}
+  .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
+  .ms-padding-contact{padding:30px 120px;}
+  .ms-call-to-action{padding: 100px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
+  .ms-call-to-action-padding{padding: 60px 30px;}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
   .ms-responsive-page-layout{}
   #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}
@@ -309,9 +322,19 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
       /* End Thank You page */
 
       /* Responsive Contact Page */
-      #contactPageMain{display: none;}
-      #responsiveContact{display: block;}
-
+      .ms-left-section-fixed{display: none;}
+      .ms-right-section-scroll{width: 100%;margin-left: 0;padding: 30px;}
+      h1{font-size:55px;}
+      .ms-right-section-scroll p.first{font-size: 13px;}
+      .ms-right-section-scroll .ms-wrapper-contact-form .ms-form-mimosa-contact-text, .ms-form-mimosa-contact-email, .ms-form-mimosa-contact-sujet{left: 18%;}
+      .ms-right-section-scroll .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 100%;}
+      .ms-right-section-scroll .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{left:9%;}
+      .ms-right-section-scroll .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{left:30%;margin-top:0;width: 40%;}
+      .ms-right-section-scroll #ms-contactInfo-contactP{}
+      .ms-right-section-scroll #ms-contactInfo-contactP a svg{margin: 5px 13px;font-size: 30px}
+      .ms-right-section-scroll #ms-contactInfo-contactP p#ms-phone-contactP{font-size:25px;}
+      .ms-right-section-scroll #ms-contactInfo-contactP p{font-size:14px;}
+      .ms-right-section-scroll h2{font-size:40px;}
     }
   /*------------------------------------*\
       END Max Width
@@ -338,11 +361,11 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   /* Contact Page */
   #responsiveContact{display: none;}
   #ms-contactInfo-contactP{padding: 50px 10px;} 
-  #ms-contactInfo-contactP a{display: block;}
+  #ms-contactInfo-contactP a{display: block;padding: 7px 0;}
   #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:12px;display: inline;font-weight: bold;}  
   #ms-contactInfo-contactP p#ms-phone-contactP{font-size:20px;}
   #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
-  #ms-contactInfo-contactP a svg#ms-pin-contactP{margin-right:18px;}
+  #ms-contactInfo-contactP a svg#ms-pin-contactP{margin:0 18px 0 14px;}
   .ms-social-infolgcontactP{display: table;margin:0 auto;padding-bottom: 40px;}
   .ms-social-infolgcontactP svg{margin:0 20px;font-size: 52px;color:#7B7B7B;}  
 /*------------------------------------*\
@@ -350,10 +373,6 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
 \*------------------------------------*/  
 
   
-
-  
-
-
   
   
 

@@ -188,10 +188,10 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
     Contact Page
 \*------------------------------------*/
   /* Header Contact */
-  .contact #mg-main-menu-btn{float: right;}
-  .ms-left-section-fixed{height: 100%;width: 50%;position: fixed;top: 0;left: 0;}
-  .ms-right-section-scroll{padding: 30px 100px;position: relative;overflow-y: scroll;height: 100%;width: 50%;margin-left: 50%;clear: both;}
-  .ms-call-to-action{padding: 70px 90px;width: 100%;position: absolute;left:0;background: var(--mimosa-yellow)}
+  .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;}
+  .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
+  .ms-padding-contact{}
+  .ms-call-to-action{padding: 70px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
   .ms-responsive-page-layout{}
   #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}

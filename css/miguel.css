@@ -82,7 +82,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
     #mg-newsletter-main-menu #mg-newsletter-title{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;}
     #mg-newsletter-main-menu #mg-newsletter-subtitle{color:white;font-family: 'Gotham';text-align: center;}
     #mg-newsletter-form-main{position: relative;width: 100%;}
-    #mg-newsletter-form-main .input-email-newsletter{width: 100%;border:transparent;height: 45px;border-radius: 50px;background: #353535;padding: 10px;}
+    #mg-newsletter-form-main .input-email-newsletter{width: 100%;border:transparent;height: 45px;border-radius: 50px;background: #353535;padding: 10px 20px;color:#afafaf;font-size:12px;letter-spacing: 0.12em;}
     #mg-newsletter-form-main .input-email-newsletter::placeholder{color:gray;padding: 0 20px;font-size: 13px;}
     #mg-newsletter-form-main .btn-newsletter{position: absolute;top:3px;border:transparent;right: 4px;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
     #mg-newsletter-form-main .btn-newsletter svg {color:white;}

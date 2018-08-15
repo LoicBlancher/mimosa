@@ -23,7 +23,7 @@
 \*------------------------------------*/
 /* Text Styles */
 h1{color:var(--mimosa-black-dark);text-transform: uppercase;font-size: 64px;letter-spacing: -3px;margin-bottom:3px;line-height: 0.9em;}
-h2{color:var(--mimosa-black-dark);font-size: 48px;}
+h2{color:var(--mimosa-black-dark);font-size: 48px;margin-bottom: 10px;margin-top: 0;}
 p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
 p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
 /* Contact Form Styles */
@@ -157,9 +157,18 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
     #mg-footer-second ul li a{color:#736f6f;font-size: 13px;font-family: 'Gotham';}
 
     /* Footer page two sections */
-    .ms-footer-pts{}
-    #ms-footer-first-pts{}
-    #ms-footer-second-pts{}
+    .ms-footer-pts{padding:40px 10px 20px 100px;}
+    .ms-footer-pts h6{color: white;font-size: 13px;text-transform: uppercase;letter-spacing: 0.17em;}
+    .ms-footer-pts ul{list-style-type: none;padding: 0;}
+    .ms-footer-pts ul li{margin:15px 0;}
+    .ms-footer-pts ul li a{color: #736f6f;font-size: 12px;text-decoration: none;}
+    .ms-footer-pts  #title-newsletter-footer{margin-bottom: 20px;}
+    .ms-footer-pts #mg-newsletter-subtitle{color: white;font-size: 11px;font-weight: bold;letter-spacing: 0.04em;}
+    .ms-footer-pts #mg-newsletter-form-main #sib_signup_form_2{right: 33px;margin-top:30px;}
+    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{background: #484747;width: 80%;}
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 60px;}
+    .ms-footer-pts #mg-footer-menu-terms{position: relative;right: 10px;}
+    .ms-footer-pts .copyright{color: #736f6f;font-size: 12px;}
 /*------------------------------------*\
     END FOOTER
 \*------------------------------------*/     
@@ -191,7 +200,8 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;}
   .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
   .ms-padding-contact{padding:30px 120px;}
-  .ms-call-to-action{padding: 70px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
+  .ms-call-to-action{padding: 100px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
+  .ms-call-to-action-padding{padding: 60px 30px;}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
   .ms-responsive-page-layout{}
   #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}
@@ -351,11 +361,11 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   /* Contact Page */
   #responsiveContact{display: none;}
   #ms-contactInfo-contactP{padding: 50px 10px;} 
-  #ms-contactInfo-contactP a{display: block;}
+  #ms-contactInfo-contactP a{display: block;padding: 7px 0;}
   #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:12px;display: inline;font-weight: bold;}  
   #ms-contactInfo-contactP p#ms-phone-contactP{font-size:20px;}
   #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
-  #ms-contactInfo-contactP a svg#ms-pin-contactP{margin-right:18px;}
+  #ms-contactInfo-contactP a svg#ms-pin-contactP{margin:0 18px 0 14px;}
   .ms-social-infolgcontactP{display: table;margin:0 auto;padding-bottom: 40px;}
   .ms-social-infolgcontactP svg{margin:0 20px;font-size: 52px;color:#7B7B7B;}  
 /*------------------------------------*\

@@ -190,7 +190,7 @@ p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;
   /* Header Contact */
   .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;}
   .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
-  .ms-padding-contact{}
+  .ms-padding-contact{padding:30px 120px;}
   .ms-call-to-action{padding: 70px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
   .ms-responsive-page-layout{}

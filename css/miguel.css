@@ -29,7 +29,7 @@ h4{color:var(--mimosa-black-dark);font-size:16px;}
 .ms-mimosa-subtitle{font-family: 'Gotham';font-weight: bold;color: #676767;letter-spacing: 0.2em;}
 p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
 p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
-p.white{color: white;font-size: 15px;line-height: 1.5em;position: relative;left: 50%;bottom: 120px;padding: 0 140px 0 0;}
+p.white{color: white;font-size: 15px;line-height: 1.5em;}
 p.yellow{color:var(--mimosa-yellow);font-size: 15px;line-height: 1.5em;}
 p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /* Contact Form Styles */
@@ -55,6 +55,11 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 .ms-content-bullets{padding: 0 70px;}
 /* Divider gray */
 .ms-divider-gray{background: #dadada;margin-left: 40px;width: 250px;height: 2px;}
+/* Pin Map */
+.ms-map-pin-info{background: white;width: 90%;padding: 18px 10px;border-radius: 50px;position: relative;}
+.ms-map-pin-text{text-transform: uppercase;text-align: center;font-size: 13px;font-weight: bold;letter-spacing: 0.1em;}
+.ms-map-pin-info-triangle{width: 50px;height: 90px;position: relative;overflow: hidden;box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.25);transform: rotate(45deg);position: absolute;left: -5px;bottom: 15px;}
+.ms-map-pin-info-triangle:after{content: "";position: absolute;width: 50px;height: 50px;background: #fff;transform: rotate(45deg);top: 75px;left: 25px;-webkit-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/
@@ -203,7 +208,11 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-second-section-home h2{line-height:0;margin-top: 40px;}
 #ms-second-section-home .ms-primary-btn-bl{margin-top: 35px;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
-#ms-third-section-home .ms-primary-btn-bl{}
+#ms-map-mimosa-home{}
+#ms-wrapper-map-info{margin-top: 240px;margin-left: 8px;}
+#ms-wrapper-map-info p.white{text-align: center;}
+#ms-wrapper-map-info .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 40px;}
+/*position: relative;left: 50%;bottom: 120px;padding: 0 140px 0 0;*/
 /*------------------------------------*\
     END HOME PAGE
 \*------------------------------------*/    

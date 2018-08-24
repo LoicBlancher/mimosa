@@ -202,7 +202,8 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-second-section-home .ms-mimosa-subtitle{}
 #ms-second-section-home h2{line-height:0;margin-top: 40px;}
 #ms-second-section-home .ms-primary-btn-bl{margin-top: 35px;}
-#ms-second-section-home .ms-wrapper-bullet-with-img 
+#ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
+#ms-third-section-home .ms-primary-btn-bl{}
 /*------------------------------------*\
     END HOME PAGE
 \*------------------------------------*/    

@@ -288,6 +288,50 @@ function my_remove_recent_comments_style()
         'recent_comments_style'
     ));
 }
+// MS - Custom Post Clients
+function custom_post_clients() {
+    $labels = array(
+        'name'                => _x( 'Clients', 'Post Type General Name', 'html5blank' ),
+        'singular_name'       => _x( 'Client', 'Post Type Singular Name', 'html5blank' ),
+        'menu_name'           => __( 'Clients', 'html5blank' ),
+        'parent_item_colon'   => __( 'Client parent:', 'html5blank' ),
+        'all_items'           => __( 'All Clients', 'html5blank' ),
+        'view_item'           => __( 'View Client', 'html5blank' ),
+        'add_new_item'        => __( 'Add Client', 'html5blank' ),
+        'add_new'             => __( 'Add New', 'html5blank' ),
+        'edit_item'           => __( 'Edit client', 'html5blank' ),
+        'update_item'         => __( 'Update client', 'html5blank' ),
+        'search_items'        => __( 'Search client', 'html5blank' ),
+        'not_found'           => __( 'Not Found', 'html5blank' ),
+        'not_found_in_trash'  => __( 'Not found in Trash', 'html5blank' ),
+    );
+     
+// Seleccionamos las opciones para el custom post.
+     
+    $args = array(
+        'label'               => __( 'clients', 'html5blank' ),
+        'description'         => __( 'Mimosa Clients', 'html5blank' ),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        'taxonomies'          => array( 'genres' ),
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => false,
+        'capability_type'     => 'page',
+    );
+    
+    register_post_type( 'clients', $args );
+}
+
+
 // Pagination for paged posts, Page 1, Page 2, Page 3, with Next and Previous Links, No plugin
 function html5wp_pagination()
 {
@@ -416,7 +460,10 @@ add_action('get_header', 'enable_threaded_comments'); // Enable Threaded Comment
 add_action('wp_enqueue_scripts', 'html5blank_styles'); // Add Theme Stylesheet
 add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
-add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
+add_action('init', 'html5wp_pagination'); 
+//Add custom post
+add_action('init','custom_post_clients',0);
+// Add our HTML5 Pagination
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
 remove_action('wp_head', 'feed_links', 2); // Display the links to the general feeds: Post and Comment Feed

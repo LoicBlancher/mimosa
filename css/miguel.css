@@ -31,7 +31,6 @@ p.first{color:var(--mimosa-gray-dark);font-size: 15px;line-height: 1.5em;}
 p.second{color:var(--mimosa-black-semi-dark);font-size: 15px;line-height: 1.5em;}
 p.white{color: white;font-size: 15px;line-height: 1.5em;}
 p.yellow{color:var(--mimosa-yellow);font-size: 15px;line-height: 1.5em;}
-p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /* Contact Form Styles */
 .ms-wrapper-contact-form{width: 100%;}
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
@@ -196,24 +195,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /*------------------------------------*\
     HOME PAGE
 \*------------------------------------*/
-.ms-padding-home-section{padding: 140px 210px!important;}
-#ms-left-column-slider{padding: 100px 20px 10px 100px;}
-#ms-left-column-slider #ms-logo-mimosa-home{width: 55%;}
-#ms-right-column-slider{padding: 0 130px 0 30px;}
-#ms-right-column-slider h1{color: white;line-height: 1.3em;text-align: right;font-family: 'Gotham';text-transform: none;letter-spacing: 0.4px;}
-#ms-right-column-slider p.yellow{font-family: 'Gotham';text-align: right;letter-spacing: 0.4px;}
-#ms-second-section-home{position: relative;}
-#ms-second-section-home .ms-img-left-section{height: 100%;position: absolute;top: 0;}
-#ms-second-section-home .ms-mimosa-subtitle{}
-#ms-second-section-home h2{line-height:0;margin-top: 40px;}
-#ms-second-section-home .ms-primary-btn-bl{margin-top: 35px;}
-#ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
-#ms-map-mimosa-home{}
-#ms-wrapper-map-info{margin-top: 240px;margin-left: 8px;}
-#ms-wrapper-map-info p.white{text-align: center;}
-#ms-wrapper-map-info .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 40px;}
-#ms-five-section-home #ms-wrapper-title-five-section{text-align: center;}
-/*position: relative;left: 50%;bottom: 120px;padding: 0 140px 0 0;*/
+
 /*------------------------------------*\
     END HOME PAGE
 \*------------------------------------*/    

@@ -180,12 +180,13 @@ p.yellow{color:var(--mimosa-yellow);font-size: 15px;line-height: 1.5em;}
 /*------------------------------------*\
     HOME PAGE
 \*------------------------------------*/
+.ms-padding-home-section{padding: 140px 210px!important;}
 #ms-left-column-slider{padding: 100px 20px 10px 100px;}
 #ms-left-column-slider #ms-logo-mimosa-home{width: 55%;}
 #ms-right-column-slider{padding: 0 130px 0 30px;}
 #ms-right-column-slider h1{color: white;line-height: 1.3em;text-align: right;font-family: 'Gotham';text-transform: none;letter-spacing: 0.4px;}
 #ms-right-column-slider p.yellow{font-family: 'Gotham';text-align: right;letter-spacing: 0.4px;}
-
+#ms-second-section-home .ms-img-left-section{height: 100%;position: absolute;top: 0;right: 0;}
 
 /*------------------------------------*\
     END HOME PAGE

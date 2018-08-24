@@ -54,7 +54,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 .ms-bullets-mimosa-img{float: left;width: 60px;}
 .ms-content-bullets{padding: 0 70px;}
 /* Divider gray */
-.ms-divider-gray{}
+.ms-divider-gray{background: #dadada;margin-left: 40px;width: 250px;height: 2px;}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/

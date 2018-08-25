@@ -536,4 +536,9 @@ add_shortcode('footerpts','footer_pts');
 function footer_pts(){
     get_template_part('partial','footerpts');    
 }
+
+add_shortcode('clients','carousel_clients');
+function carousel_clients(){
+    get_template_part('loop','clients');
+}
 ?>

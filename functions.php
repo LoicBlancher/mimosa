@@ -306,7 +306,6 @@ function custom_post_clients() {
         'not_found_in_trash'  => __( 'Not found in Trash', 'html5blank' ),
     );
      
-// Seleccionamos las opciones para el custom post.
      
     $args = array(
         'label'               => __( 'clients', 'html5blank' ),

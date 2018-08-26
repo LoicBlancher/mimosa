@@ -213,9 +213,11 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-wrapper-map-info p.white{text-align: center;}
 #ms-wrapper-map-info .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 40px;}
 #ms-five-section-home #ms-wrapper-title-five-section{text-align: center;}
-#ms-wrapper-clients-section{width: 100%;background: rgba(255, 255, 255, 0.63);}
+#ms-wrapper-clients-section{padding: 30px 40px;width: 100%;background: rgba(255, 255, 255, 0.63);}
 #ms-wrapper-clients-section h3{text-align: center;}
 #ms-wrapper-clients-section p {text-align: center;color:var(--mimosa-gray-dark);}
+
+
 /*position: relative;left: 50%;bottom: 120px;padding: 0 140px 0 0;*/
 /*------------------------------------*\
     END HOME PAGE

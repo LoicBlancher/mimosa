@@ -15,6 +15,8 @@ jQuery(function ($) {
          $("#mg-wrapper-main-menu").fadeToggle(200);
          $('#mg-external-wrapper-main-menu').fadeToggle(200);
      });
+
+     
  }); 
 });
 

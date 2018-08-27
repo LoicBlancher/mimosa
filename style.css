@@ -120,10 +120,6 @@ body {
 .clear {
     *zoom:1;
 }
-img {
-	max-width:100%;
-	vertical-align:bottom;
-}
 a {
 	color:#444;
 	text-decoration:none;

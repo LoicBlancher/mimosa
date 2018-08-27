@@ -200,7 +200,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
     HOME PAGE
 \*------------------------------------*/
 .ms-padding-home-section{padding: 180px 210px!important;}
-#ms-left-column-slider #ms-logo-mimosa-home{width: 45%;float:left;}
+#ms-left-column-slider #ms-logo-mimosa-home{width: 250px;float:left;}
 #ms-left-column-slider #ms-slider-white-p{position: relative;top: 160px;}
 #ms-right-column-slider h1{color: white;line-height: 1.3em;text-align: right;font-family: 'Gotham';text-transform: none;letter-spacing: 0.4px;}
 #ms-right-column-slider p.yellow{font-family: 'Gotham';text-align: right;letter-spacing: 0.4px;}
@@ -361,6 +361,9 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
     }
     
     @media only screen and (max-width: 480px) {
+
+      /* Responsive home page */
+
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}

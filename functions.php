@@ -167,6 +167,30 @@ function footer_mimosaMenu()
         )
     );
 }
+
+function lastsection_home_mimosaMenu()
+{
+    wp_nav_menu(
+    array(
+        'theme_location'  => 'home-last-section',
+        'menu'            => '',
+        'container'       => 'div',
+        'container_class' => 'menu-{menu slug}-container',
+        'container_id'    => '',
+        'menu_class'      => 'menu',
+        'menu_id'         => '',
+        'echo'            => true,
+        'fallback_cb'     => 'wp_page_menu',
+        'before'          => '',
+        'after'           => '',
+        'link_before'     => '',
+        'link_after'      => '',
+        'items_wrap'      => '<ul>%3$s</ul>',
+        'depth'           => 0,
+        'walker'          => ''
+        )
+    );
+}
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
 {
@@ -230,8 +254,10 @@ function register_html5_menu()
         'footer-terms'=> __('Footer terms Main', 'html5blank'),
         'footer-services'=> __('Footer services', 'html5blank'),
         'footer-mimosa'=> __('Footer mimosa', 'html5blank'),
+        'home-last-section'=> __('Last section Home', 'html5blank'),
     ));
 }
+
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
 function my_wp_nav_menu_args($args = '')
 {
@@ -549,5 +575,10 @@ function footer_pts(){
 add_shortcode('clients','carousel_clients');
 function carousel_clients(){
     get_template_part('loop','clients');
+}
+
+add_shortcode('menulast_section','show_menu_last_section_home');
+function show_menu_last_section_home(){
+    lastsection_home_mimosaMenu();
 }
 ?>

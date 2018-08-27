@@ -16,7 +16,12 @@ jQuery(function ($) {
          $('#mg-external-wrapper-main-menu').fadeToggle(200);
      });
 
-     
+     $('#ms-slider-clients').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
  }); 
 });
 

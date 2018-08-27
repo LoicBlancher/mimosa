@@ -59,8 +59,8 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /* Divider gray */
 .ms-divider-gray{background: #dadada;margin-left: 40px;width: 250px;height: 2px;}
 /* Pin Map */
-.ms-map-pin-info{background: white;width: 90%;padding: 18px 10px;border-radius: 50px;position: relative;}
-.ms-map-pin-text{text-transform: uppercase;text-align: center;font-size: 13px;font-weight: bold;letter-spacing: 0.1em;}
+.ms-map-pin-info{background: white;width: 100%;padding: 18px 10px;border-radius: 50px;position: relative;}
+.ms-map-pin-text{text-transform: uppercase;text-align: center;font-size: 16px;font-weight: bold;letter-spacing: 0.1em;}
 .ms-map-pin-info-triangle{width: 50px;height: 90px;position: relative;overflow: hidden;box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.25);transform: rotate(45deg);position: absolute;left: -5px;bottom: 15px;}
 .ms-map-pin-info-triangle:after{content: "";position: absolute;width: 50px;height: 50px;background: #fff;transform: rotate(45deg);top: 75px;left: 25px;-webkit-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);}
 /*------------------------------------*\
@@ -211,8 +211,8 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-second-section-home .ms-primary-btn-bl{margin-top: 35px;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
 #ms-map-mimosa-home{}
-#ms-wrapper-map-info{margin-top: 240px;margin-left: 8px;}
-#ms-wrapper-map-info p.white{text-align: center;}
+#ms-wrapper-map-info{padding: 200px 0;margin-left: 20px;}
+#ms-wrapper-map-info p.white{text-align: center;padding: 0 40px;}
 #ms-wrapper-map-info .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 40px;}
 #ms-five-section-home #ms-wrapper-title-five-section{text-align: center;}
 #ms-wrapper-clients-section{padding: 30px 40px;width: 100%;background: rgba(255, 255, 255, 0.63);}

@@ -51,7 +51,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 .ms-primary-btn-sw{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;box-shadow:0 3px 15px 5px rgba(0, 0, 0, 0.2);}
 .ms-transparent-btn-bl{padding: 16px 25px;margin-right: 20px;border:1px solid var(--mimosa-black-dark);display: inline-block;border-radius: 50px;background:transparent;font-size: 11px;color: var(--mimosa-black-dark);font-weight: bold;text-transform: uppercase;}
 /* Bullets */
-.ms-wrapper-bullet-with-img{padding: 35px 0;}
+.ms-wrapper-bullet-with-img{margin-top:50px;}
 .ms-bullets-mimosa-img{float: left;width: 60px;}
 .ms-content-bullets{padding: 0 70px;}
 /* Divider gray */
@@ -197,7 +197,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /*------------------------------------*\
     HOME PAGE
 \*------------------------------------*/
-.ms-padding-home-section{padding: 140px 210px!important;}
+.ms-padding-home-section{padding: 180px 210px!important;}
 #ms-left-column-slider #ms-logo-mimosa-home{width: 45%;float:left;}
 #ms-left-column-slider #ms-slider-white-p{position: relative;top: 160px;}
 #ms-right-column-slider h1{color: white;line-height: 1.3em;text-align: right;font-family: 'Gotham';text-transform: none;letter-spacing: 0.4px;}

@@ -222,7 +222,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-wrapper-clients-section h3{text-align: center;}
 #ms-wrapper-clients-section p {text-align: center;color:var(--mimosa-gray-dark);}
 #ms-six-section-home{padding:90px 210px!important;}
-.ms-six-section-image{width: 67%;display: table;margin:0 auto;}
+.ms-six-section-image{width: 58%;display: table;margin:0 auto;}
 #ms-six-section-home h2, #ms-six-section-home p{text-align: center;}
 #ms-six-section-home .ms-primary-btn-bl{padding: 18px 25px;}
 #ms-wrapper-btns-lastsection, #ms-img-footer-mimosa-home{display: table;margin: 0 auto;}

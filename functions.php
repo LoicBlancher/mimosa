@@ -177,7 +177,7 @@ function lastsection_home_mimosaMenu()
         'container'       => 'div',
         'container_class' => 'menu-{menu slug}-container',
         'container_id'    => '',
-        'menu_class'      => 'menu',
+        'menu_class'      => '',
         'menu_id'         => '',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
@@ -577,8 +577,4 @@ function carousel_clients(){
     get_template_part('loop','clients');
 }
 
-add_shortcode('menulast_section','show_menu_last_section_home');
-function show_menu_last_section_home(){
-    lastsection_home_mimosaMenu();
-}
 ?>

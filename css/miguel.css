@@ -223,6 +223,12 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-last-section-home h2, #ms-last-section-home p{text-align: center;}
 #ms-last-section-home .ms-primary-btn-bl{padding: 18px 25px;}
 #ms-wrapper-btns-lastsection, #ms-img-footer-mimosa-home{display: table;margin: 0 auto;}
+#ms-last-section-home-yl{background: #f2d200;padding: 30px 0;}
+#ms-logo-last-section-home{width: 30%;display: table;margin: 0 auto;}
+#ms-last-section-home-menu ul{list-style-type: none;padding: 0;display: table;margin:20px auto;}
+#ms-last-section-home-menu ul li{float: left;margin:0 20px;}
+#ms-last-section-home-menu ul li a{color: white;text-transform: uppercase;font-size: 14px;font-family: 'Gotham';letter-spacing: 0.15em;}
+#ms-last-section-home-menu ul li a:hover{border-bottom:2px solid var(--mimosa-black-dark);}
 /*position: relative;left: 50%;bottom: 120px;padding: 0 140px 0 0;*/
 /*------------------------------------*\
     END HOME PAGE

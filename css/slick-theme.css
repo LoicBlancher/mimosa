@@ -63,8 +63,8 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 22px;
-    line-height: 1;
+    font-size: 24px;
+    line-height: 0.4em;
 
     opacity: .75;
     color: gray;

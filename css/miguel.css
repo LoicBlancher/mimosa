@@ -221,10 +221,10 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-slider-clients{padding:15px;}
 #ms-wrapper-clients-section h3{text-align: center;}
 #ms-wrapper-clients-section p {text-align: center;color:var(--mimosa-gray-dark);}
-#ms-last-section-home{}
-.ms-last-section-image{width: 67%;display: table;margin:0 auto;}
-#ms-last-section-home h2, #ms-last-section-home p{text-align: center;}
-#ms-last-section-home .ms-primary-btn-bl{padding: 18px 25px;}
+#ms-six-section-home{padding:90px 210px!important;}
+.ms-six-section-image{width: 67%;display: table;margin:0 auto;}
+#ms-six-section-home h2, #ms-six-section-home p{text-align: center;}
+#ms-six-section-home .ms-primary-btn-bl{padding: 18px 25px;}
 #ms-wrapper-btns-lastsection, #ms-img-footer-mimosa-home{display: table;margin: 0 auto;}
 #ms-last-section-home-yl{background: #f2d200;padding: 30px 0;}
 #ms-logo-last-section-home{width: 30%;display: table;margin: 0 auto;}

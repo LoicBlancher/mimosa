@@ -232,7 +232,6 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 #ms-last-section-home-menu ul li{float: left;margin:0 20px;}
 #ms-last-section-home-menu ul li a{color: white;text-transform: uppercase;font-size: 14px;font-family: 'Gotham';letter-spacing: 0.15em;}
 #ms-last-section-home-menu ul li a:hover{border-bottom:2px solid var(--mimosa-black-dark);}
-/*position: relative;left: 50%;bottom: 120px;padding: 0 140px 0 0;*/
 /*------------------------------------*\
     END HOME PAGE
 \*------------------------------------*/    

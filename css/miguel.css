@@ -373,12 +373,24 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
     @media only screen and (max-width: 480px) {
 
       /* Responsive home page */
+      h1{font-size:var(--mimosa-res-title1);}
+      h2{font-size:var(--mimosa-res-title2);}
+      h3{font-size:var(--mimosa-res-title3);}
+      h4{font-size:var(--mimosa-res-title4);}
+      h5{font-size:var(--mimosa-res-title5);}
+      h6{font-size:var(--mimosa-res-title6);}
       .ms-padding-home-section{padding:30px 50px!important;}
       #ms-left-column-slider #ms-logo-mimosa-home{float: initial;width: 200px;position: relative;left: 50%;top: 40px;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{position: relative;top: 30px;text-align: center;}
-      #ms-right-column-slider h1{font-size:var(--mimosa-res-title1);text-align: center;position: relative;top: -50px;}
+      #ms-right-column-slider h1{text-align: center;position: relative;top: -50px;}
       #ms-right-column-slider p.yellow{text-align: center;position: relative;top: -40px;}
       #ms-right-column-slider #ms-know-more{text-align: center;position: relative;top: -20px;}
+      #ms-second-section-home .ms-img-left-section{display: none;}
+      #ms-second-section-home .ms-mimosa-subtitle{text-align: center;display: inherit;margin-top: 30px;}
+      #ms-second-section-home h2{text-align: center;margin-top: 40px;}
+      #ms-second-section-home h4{text-align: center;}
+      #ms-second-section-home p.gray{text-align: center;}      
+      #ms-second-section-home .ms-primary-btn-bl{    display: table;margin: 0 auto;margin-top: 40px;}
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}

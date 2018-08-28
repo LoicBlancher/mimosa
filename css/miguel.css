@@ -9,13 +9,22 @@
 /* One page Scroll */
 .home .wrap, .home main{height: 100%;}
 
-/* Var colors */
+
 :root{
+  /* Var colors */
   --mimosa-black-dark:#000000;
   --mimosa-black-semi-dark:#2C2C2C;
   --mimosa-yellow:#FFC80A;
   --mimosa-gray-dark:#9FA3A7;
   --mimosa-gray-clear:#b3b2b2;
+  /* Responsive Font Size */
+  --mimosa-res-title1:58px;
+  --mimosa-res-title2:46px;
+  --mimosa-res-title3:;
+  --mimosa-res-title4:;
+  --mimosa-res-title5:;
+  --mimosa-res-title6:;
+  --mimosa-res-p:14px;
 }
 
 /*------------------------------------*\
@@ -363,6 +372,10 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
     @media only screen and (max-width: 480px) {
 
       /* Responsive home page */
+      #ms-left-column-slider #ms-logo-mimosa-home{position: relative;bottom: 70px;left: 55%;transform: translateX(-55%);width: 200px;}
+      #ms-left-column-slider #ms-slider-white-p{width: 400px; text-align: center;position: absolute;left: 2%;padding: 0 30px;top: 45%;}
+      #ms-right-column-slider h1{}  
+
 
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}

@@ -406,6 +406,11 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       #ms-five-section-home #ms-wrapper-clients-section{margin-top:60px;}
       #ms-five-section-home #ms-wrapper-clients-section h4, #ms-wrapper-clients-section p{margin-bottom: 10px;}
       #ms-six-section-home{padding: 170px 50px!important}
+      #ms-last-section-home-menu{display: none;}
+      #ms-last-section-home-yl{padding: 0;}
+      .home footer{padding: 10px 0;}
+      .home footer h6{margin:20px 0;}
+      .home footer #mg-footer-first ul li{margin:13px 0;}
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}

@@ -25,6 +25,15 @@
   --mimosa-res-title5:25px;
   --mimosa-res-title6:19px;
   --mimosa-res-p:14px;
+  /* Responsive Large Size */
+  --mimosa-large-title1:70px;
+  --mimosa-large-title2:58px;
+  --mimosa-large-title3:51px;
+  --mimosa-large-title4:40px;
+  --mimosa-large-title5:36px;
+  --mimosa-large-title6:30px;
+  --mimosa-large-p:17px;
+
 }
 
 /*------------------------------------*\
@@ -299,6 +308,23 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /*------------------------------------*\
     BEGIN RESPONSIVE MG
 \*------------------------------------*/
+  /*------------------------------------*\
+      BEGIN Min Width
+  \*------------------------------------*/
+  @media only screen  and (min-width : 1824px) {
+    /* Responsive Home */
+    #ms-left-column-slider #ms-logo-mimosa-home{width: 350px;}
+    #ms-left-column-slider #ms-slider-white-p, #ms-right-column-slider p.yellow, #ms-right-column-slider #ms-know-more{font-size: 17px;}
+    #ms-right-column-slider h1{font-size: var(--mimosa-large-title1);}
+    #ms-second-section-home .ms-mimosa-subtitle{font-size: 14px;}
+    #ms-second-section-home h2{font-size: var(--mimosa-large-title2);line-height: 0.3em;}
+    #ms-second-section-home h4{font-size: var(--mimosa-large-title4);}
+    #ms-second-section-home p{font-size:var(--mimosa-large-p);}
+  }
+  /*------------------------------------*\
+      END Min Width
+  \*------------------------------------*/
+
 
   /*------------------------------------*\
       BEGIN Max Width
@@ -519,15 +545,6 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 
   /*------------------------------------*\
       END Max Width
-  \*------------------------------------*/
-
-
-  /*------------------------------------*\
-      BEGIN Min Width
-  \*------------------------------------*/
-
-  /*------------------------------------*\
-      END Min Width
   \*------------------------------------*/
 
 

@@ -373,6 +373,11 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       #ms-third-section-home h4, #ms-third-section-home span,#ms-third-section-home p{text-align: center;}
       #ms-third-section-home .ms-primary-btn-bl{display: table;margin:0 auto;}
       #ms-wrapper-map-info{padding: 170px 0;}
+      #ms-wrapper-title-five-section h4{margin-top:140px;}
+      #ms-wrapper-clients-section{margin-top: 50px;}
+      
+
+
       /* Responsive footer */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}

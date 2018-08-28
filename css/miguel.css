@@ -341,6 +341,9 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       .ms-divider-gray{margin-left:-20px;}
       #ms-third-section-home h2{margin-top:60px;}
       #ms-third-section-home #ms-third-section-content h4{margin:10px 0;}
+      #ms-wrapper-title-five-section h4{margin-top: 140px;}
+      #ms-six-section-home{padding:90px 80px!important;}
+      .ms-six-section-image{width: 80%;}
       /* Header Responsive */
       #mg-main-menu-btn-mobile{display: block;}
       #mg-info-header{visibility: hidden;}

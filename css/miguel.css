@@ -314,6 +314,21 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
     }
 
     @media only screen and (max-width: 1280px) {
+      /* Responsive Hone page */
+      .ms-padding-home-section{padding:60px 90px!important}
+      #ms-left-column-slider #ms-logo-mimosa-home{float: initial;position: relative;left: 50%;transform: translateX(-50%);}
+      #ms-left-column-slider #ms-slider-white-p{top:10px;text-align: center;}  
+      .ms-wrapper-bullet-with-img{margin-left:70px;}
+      .ms-bullets-mimosa-img{float: initial;display: table;margin: 0 auto;}
+      .ms-content-bullets{padding: 0;}
+      #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{text-align: center;}
+      #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets p{text-align: center;}
+      .ms-divider-gray{margin-left:-20px;}
+      #ms-third-section-home h2{margin-top:60px;}
+      #ms-third-section-home #ms-third-section-content h4{margin:10px 0;}
+      #ms-wrapper-title-five-section h4{margin-top: 140px;}
+      #ms-six-section-home{padding:90px 80px!important;}
+      .ms-six-section-image{width: 80%;}
       /* ThankYou Page */
       .ms-thankyou-header-text{font-size: 50px;padding: 200px 100px 40px 40px;}
       .ms-thankyou-text p{margin-top:-40px;}
@@ -392,7 +407,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       #ms-wrapper-clients-section{margin-top: 50px;}
       #ms-six-section-home{padding: 170px 100px!important;}
       .ms-wrapper-bullet-with-img{margin-left:0;}
-      
+      .ms-six-section-image{width:58%; }
 
 
       /* Responsive footer */

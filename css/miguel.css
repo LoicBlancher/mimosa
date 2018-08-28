@@ -323,12 +323,18 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
     }
     
     @media only screen and (max-width: 992px) {
+      h1{font-size:var(--mimosa-res-title1);}
+      h2{font-size:var(--mimosa-res-title2);}
+      h3{font-size:var(--mimosa-res-title3);}
+      h4{font-size:var(--mimosa-res-title4);}
+      h5{font-size:var(--mimosa-res-title5);}
+      h6{font-size:var(--mimosa-res-title6);}
       /* Header Responsive */
       #mg-main-menu-btn-mobile{display: block;}
       #mg-info-header{visibility: hidden;}
       #mg-main-menu-btn{visibility: hidden;}
       /* End Header Responsive */
-      
+
       /*Responsive footer*/
       #mg-newsletter-form-main #sib_signup_form_2{width: 75%;}
       #mg-footer-first #mg-social-main-menu{margin-left: 30px;}
@@ -339,11 +345,19 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       .ms-thankyou-header-text p{text-align: center;padding:150px 0 30px 0;}
       .ms-thankyou-text{padding: 0;margin-top:50px;}
       .ms-thankyou-text p{text-align: center;}
+      #ms-right-column-slider h1{text-align: center;position: relative;top: -40px;}
       
       /* End ThankYou Page */
     }
     
     @media only screen and (max-width: 736px) {
+      /* Responsive home page */
+      .ms-padding-home-section{padding: 50px 70px!important;}
+      #ms-left-column-slider #ms-logo-mimosa-home{width: 220px;float: initial;position: relative;left: 50%;transform: translateX(-50%);}
+      #ms-left-column-slider #ms-slider-white-p{position: relative;top: 10px;text-align: center;}
+      #ms-right-column-slider p.yellow{text-align: center;position: relative;top: -30px;}  
+      #ms-right-column-slider #ms-know-more{text-align: center;position: relative;top: -20px;}
+
       /* Responsive footer */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}
@@ -374,12 +388,6 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
     @media only screen and (max-width: 480px) {
 
       /* Responsive home page */
-      h1{font-size:var(--mimosa-res-title1);}
-      h2{font-size:var(--mimosa-res-title2);}
-      h3{font-size:var(--mimosa-res-title3);}
-      h4{font-size:var(--mimosa-res-title4);}
-      h5{font-size:var(--mimosa-res-title5);}
-      h6{font-size:var(--mimosa-res-title6);}
       .ms-padding-home-section{padding:30px 50px!important;}
       #ms-left-column-slider #ms-logo-mimosa-home{float: initial;width: 200px;position: relative;left: 50%;top: 40px;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{position: relative;top: 30px;text-align: center;}

@@ -304,6 +304,11 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       BEGIN Max Width
   \*------------------------------------*/
     @media only screen and (max-width: 1400px) {
+      /* Responsive Hone page */
+      .ms-padding-home-section{padding: 110px 130px!important;}
+      .ms-container-bullet{margin-left:30px;}
+      .ms-content-bullets{padding:0 0 0 70px}
+      .home footer{padding:15px 0;}
       /* ThankYou Page */
       .ms-thankyou-header-text{font-size:60px;padding: 185px 0 0 0;}
       .ms-thankyou-text p{margin-top:-20px;} 
@@ -408,7 +413,8 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       #ms-six-section-home{padding: 170px 100px!important;}
       .ms-wrapper-bullet-with-img{margin-left:0;}
       .ms-six-section-image{width:58%; }
-
+      .ms-container-bullet{margin-left:0;}
+      .ms-bullets-mimosa-img{display: initial;}
 
       /* Responsive footer */
       #mg-footer-first h6{text-align: center;}
@@ -484,6 +490,8 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
       #mg-footer-menu-terms ul{padding: 10px 0;text-align: center;margin-left: 0;}
       #mg-footer-menu-terms ul li{border: none;padding: 15px;float: initial;}
       .ms-wrapper-bullet-with-img{margin-left:0;}
+      .ms-container-bullet{margin-left:0;}
+      .ms-bullets-mimosa-img{display: initial;}
       /* End Responsive Footer Mobile */
 
       /* Thank You page */

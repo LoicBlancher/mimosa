@@ -58,8 +58,6 @@
              <div class="mg-menu-line"></div>
            </a>
        </div>  
-        
-   
       </header>
 
 

@@ -282,6 +282,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     Qui sommes nous
 \*------------------------------------*/
 #ms-sommes-first-section h1,#ms-sommes-first-section h2{text-align: center;}
+#ms-sommes-second-section h2{text-transform: uppercase;}
+#ms-sommes-second-section .ms-divider-gray{margin:25px 0;}
 /*------------------------------------*\
     End Qui sommes nous
 \*------------------------------------*/

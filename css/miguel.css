@@ -211,8 +211,10 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /*------------------------------------*\
     END FOOTER
 \*------------------------------------*/     
-
-
+/*.section-scroll{-webkit-box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);
+-moz-box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);
+box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
+*/
 
 /*------------------------------------*\
     HOME PAGE

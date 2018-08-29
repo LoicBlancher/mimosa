@@ -33,7 +33,6 @@
   --mimosa-large-title5:36px;
   --mimosa-large-title6:30px;
   --mimosa-large-p:17px;
-
 }
 
 /*------------------------------------*\
@@ -54,8 +53,12 @@ p.yellow{color:var(--mimosa-yellow);font-size: 15px;line-height: 1.5em;}
 p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /* Contact Form Styles */
 .ms-wrapper-contact-form{width: 100%;}
-.ms-wrapper-contact-form .ms-black-label{}
-.ms-wrapper-contact-form #ms-checkbox-services{}
+.ms-wrapper-contact-form .ms-black-label{color: var(--mimosa-black-dark);font-size: 14px;clear: both;}
+.ms-wrapper-contact-form #ms-wrapper-checkbox-services{width: 100%;float: left;}
+.ms-wrapper-contact-form #ms-wrapper-checkbox-services #ms-label-checkbox-services{width: 40%;float: left;}
+.ms-wrapper-contact-form #ms-checkbox-services .wpcf7-list-item-label{font-size: 14px;color: var(--mimosa-gray-dark);line-height: 2.5em;}
+.ms-wrapper-contact-form #ms-checkbox-services input[type="checkbox"]{width: 20px;height: 20px;}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap.services-int{width: 60%;float: left;}
 .ms-wrapper-contact-form #ms-services-textbox{}
 .ms-wrapper-contact-form #ms-subt-label-form{}
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}

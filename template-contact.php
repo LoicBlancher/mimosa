@@ -1,4 +1,4 @@
-<?php /* Template Name: Page Two Blocks */ wp_head(); ?>
+<?php /* Template Name: Contact Page */ wp_head(); ?>
 
 <div class="ms-left-section-fixed">
   <img src="<?php echo get_template_directory_uri(); ?>/img/contact_map_mimosa.png" alt="" class="test-image">

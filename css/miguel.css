@@ -551,6 +551,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-bullets-mimosa-img{display: initial;}
       /* End Responsive Footer Mobile */
 
+      /* Responsive demander devis*/
+      .ms-wrapper-contact-form #ms-wrapper-checkbox-services{float: initial;}
+      .ms-wrapper-contact-form #ms-wrapper-checkbox-services #ms-label-checkbox-services{float: initial;width: 100%;display:inherit;margin-bottom: 20px;}
+      .ms-wrapper-contact-form .wpcf7-form-control-wrap.services-int{width: 100%;float: initial;}
+      .ms-wrapper-contact-form .ms-black-label{width: 100%;}
+      .ms-wrapper-contact-form #ms-services-textbox{width: 100%;margin:30px 0 60px 0px;}
+
       /* Thank You page */
       .ms-logTyPage .ms-logo-ty-pg{width: 100px;}
       .ms-thankyou-header-text{width: 100%;font-size: 40px;padding:200px 40px 60px 40px;text-align: center;}
@@ -573,6 +580,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 100%;}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{left:11%;}
       .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 60%;left:22%;}
+    
     }
   /*------------------------------------*\
       END Max Width

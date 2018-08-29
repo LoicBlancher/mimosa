@@ -7,7 +7,7 @@
   Tags: Blank, HTML5, CSS3, MIMOSA
 */
 /* One page Scroll */
-.home .wrap, .home main{height: 100%;}
+.home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap{height: 100%;}
 
 
 :root{
@@ -182,7 +182,7 @@ p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /*------------------------------------*\
     FOOTER'S
 \*------------------------------------*/
-  .home footer{position: absolute;width: 100%;}
+  .home footer,.qui-sommes-nous footer{position: absolute;width: 100%;}
   footer{background:#353535;padding: 80px 0; }
   
     /* Footer First Row */
@@ -276,6 +276,16 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
 /*------------------------------------*\
     End Demander Devis Page
+\*------------------------------------*/
+
+/*------------------------------------*\
+    Qui sommes nous
+\*------------------------------------*/
+#ms-sommes-first-section h1,#ms-sommes-first-section h2{text-align: center;}
+#ms-sommes-second-section h2{text-transform: uppercase;}
+#ms-sommes-second-section .ms-divider-gray{margin:25px 0;}
+/*------------------------------------*\
+    End Qui sommes nous
 \*------------------------------------*/
 
 /*------------------------------------*\

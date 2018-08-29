@@ -209,6 +209,9 @@ function html5blank_header_scripts()
 
         wp_register_script('slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('slick');
+
+        wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.min.js', array('jquery'), '1.0.0',true); 
+        wp_enqueue_script('onePage');
                   
     }
 }
@@ -217,8 +220,7 @@ function html5blank_conditional_scripts()
 {
 
     if(is_front_page()){
-         wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.js', array('jquery'), '1.0.0',true); 
-         wp_enqueue_script('onePage');    
+             
        } 
 }
 // Load HTML5 Blank styles

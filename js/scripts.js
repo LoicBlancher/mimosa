@@ -1,10 +1,10 @@
 (function ($, root, undefined) {
-	
-	$(function () {
-		
-		'use strict';	
-	});
-	
+    
+    $(function () {
+        
+        'use strict';   
+    });
+    
 })(jQuery, this);
 
 jQuery(function ($) {

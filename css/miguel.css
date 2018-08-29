@@ -54,9 +54,17 @@ p.yellow{color:var(--mimosa-yellow);font-size: 15px;line-height: 1.5em;}
 p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 /* Contact Form Styles */
 .ms-wrapper-contact-form{width: 100%;}
+.ms-wrapper-contact-form .ms-black-label{}
+.ms-wrapper-contact-form #ms-checkbox-services{}
+.ms-wrapper-contact-form #ms-services-textbox{}
+.ms-wrapper-contact-form #ms-subt-label-form{}
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
 .ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email,.ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;padding: 10px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
-.ms-wrapper-contact-form .wpcf7-form-control-wrap{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap.nom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap.prenom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap.email{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap.sujet{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
+.ms-wrapper-contact-form .wpcf7-form-control-wrap.accepte{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;}
 .ms-wrapper-contact-form .ms-footer-form{width: 100%;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
@@ -258,6 +266,30 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     END HOME PAGE
 \*------------------------------------*/    
 
+/*------------------------------------*\
+    Demander Devis Page
+\*------------------------------------*/
+
+/*------------------------------------*\
+    End Demander Devis Page
+\*------------------------------------*/
+
+/*------------------------------------*\
+    Contact Page
+\*------------------------------------*/
+  /* Header Contact */
+  .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;box-shadow: 4px 2px 30px 10px rgb(0,0,0,0.2);}
+  .ms-left-section-fixed img{width: 100%;}
+  .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
+  .ms-padding-contact{padding:30px 120px;}
+  .ms-call-to-action{padding: 100px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
+  .ms-call-to-action-padding{padding: 60px 30px;}
+  .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
+  .ms-responsive-page-layout{}
+  #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}
+/*------------------------------------*\
+    End Contact Page
+\*------------------------------------*/
 
 
 /*------------------------------------*\
@@ -280,22 +312,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     End Thank You Page
 \*------------------------------------*/
 
-/*------------------------------------*\
-    Contact Page
-\*------------------------------------*/
-  /* Header Contact */
-  .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;box-shadow: 4px 2px 30px 10px rgb(0,0,0,0.2);}
-  .ms-left-section-fixed img{width: 100%;}
-  .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
-  .ms-padding-contact{padding:30px 120px;}
-  .ms-call-to-action{padding: 100px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
-  .ms-call-to-action-padding{padding: 60px 30px;}
-  .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
-  .ms-responsive-page-layout{}
-  #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}
-/*------------------------------------*\
-    End Contact Page
-\*------------------------------------*/
 
 
 

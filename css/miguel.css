@@ -284,6 +284,16 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-sommes-first-section h1,#ms-sommes-first-section h2{text-align: center;}
 #ms-sommes-second-section h2{text-transform: uppercase;}
 #ms-sommes-second-section .ms-divider-gray{margin:25px 0;}
+#ms-img-carousel-with-pagination{padding:10px 80px;position: relative;}
+#ms-img-carousel-with-pagination img{width: 100%;-webkit-box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);-moz-box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);}
+#ms-img-carousel-with-pagination #ms-content-img1,
+#ms-img-carousel-with-pagination #ms-content-img2,
+#ms-img-carousel-with-pagination #ms-content-img3{display: none;}
+#ms-img-carousel-with-pagination #ms-paginator-carousel{position: absolute;bottom: 5%;right: 30%;background: white;padding: 10px 20px;border-radius: 50px;}
+#ms-img-carousel-with-pagination #ms-paginator-carousel ul{list-style-type: none;text-align: center;margin: 0 auto;padding: 0;display: table;}
+#ms-img-carousel-with-pagination #ms-paginator-carousel ul li{float: left;padding: 2px 12px;} 
+#ms-img-carousel-with-pagination #ms-paginator-carousel ul li a{ color: var(--mimosa-gray-clear);font-size: 11px;}
+#ms-img-carousel-with-pagination #ms-paginator-carousel ul li a:active{}
 /*------------------------------------*\
     End Qui sommes nous
 \*------------------------------------*/

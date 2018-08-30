@@ -579,4 +579,26 @@ function carousel_clients(){
     get_template_part('loop','clients');
 }
 
-?>
+add_shortcode('carousel_with_pagination','img_carousel_with_pagination');
+function img_carousel_with_pagination(){?>  
+  <div id="ms-img-carousel-with-pagination">
+    <div  id="ms-content-img1" >
+        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination.png" alt="">
+    </div>
+    <div id="ms-content-img2" >
+        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination2.png" alt="">
+    </div>
+    <div  id="ms-content-img3" >
+        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination3.png" alt="">
+    </div>
+    <div id="ms-paginator-carousel">
+        <ul>
+           <li><a href="#" id="ms-imgc-1">1</a></li>
+           <li><a href="#" id="ms-imgc-2">2</a></li>
+           <li><a href="#" id="ms-imgc-3">3</a></li>
+        </ul>
+    </div>
+  </div>  
+
+<?php } ?>
+

@@ -672,5 +672,11 @@ function img_carousel_with_pagination(){?>
     </div>
   </div>  
 
-<?php } ?>
+<?php }
+
+add_shortcode('team','carousel_members_team');
+function carousel_members_team(){
+    get_template_part('loop','team');
+}
+
 

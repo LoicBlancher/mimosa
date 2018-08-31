@@ -9,7 +9,7 @@
 
 jQuery(function ($) {
  $(document).ready(function () {
-     /* Ms - Main Menu */   
+
      $("#mg-main-menu-btn a").click(function () {
          $('#mg-external-wrapper-main-menu').fadeToggle(200); 
          $("#mg-wrapper-main-menu").fadeToggle(200);
@@ -44,38 +44,43 @@ jQuery(function ($) {
         direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
      });  
 
-      /* MS - Carousel clients logo */  
       $('#ms-slider-clients').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-      });  
-     }); 
+      });
+      
+      /* Ms - Carousel Image Qui Sommes */
+      function paginate_carousel(){
+         let button1 = document.getElementById('ms-imgc-1');
+         let button2 = document.getElementById('ms-imgc-2');
+         let button3 = document.getElementById('ms-imgc-3');
+         let image1 = document.getElementById('ms-content-img1');
+         let image2 = document.getElementById('ms-content-img2');
+         let image3 = document.getElementById('ms-content-img3');
+         button1.addEventListener("click",function(){
+             image1.style.display = "block";
+             image2.style.display = "none";
+             image3.style.display = "none"; 
+         });
+         button2.addEventListener("click",function(){
+             image2.style.display = "block";
+             image1.style.display = "none";
+             image3.style.display = "none"; 
+         });
+         button3.addEventListener("click",function(){
+             image3.style.display = "block";
+             image1.style.display = "none";
+             image2.style.display = "none";  
+         });
+      };
 
-     /* MS - Img carousel with pagination */
-    function paginate_carousel(){
-       let button1 = document.getElementById('ms-imgc-1');
-       let button2 = document.getElementById('ms-imgc-2');
-       let button3 = document.getElementById('ms-imgc-3');
-       let image1 = document.getElementById('ms-content-img1');
-       let image2 = document.getElementById('ms-content-img2');
-       let image3 = document.getElementById('ms-content-img3');
-       button1.addEventListener("click",function(){
-           image1.style.display = "block";
-           image2.style.display = "none";
-           image3.style.display = "none"; 
-       });
-       button2.addEventListener("click",function(){
-           image2.style.display = "block";
-           image1.style.display = "none";
-           image3.style.display = "none"; 
-       });
-       button3.addEventListener("click",function(){
-           image3.style.display = "block";
-           image1.style.display = "none";
-           image2.style.display = "none";  
-       });
-    }
-    paginate_carousel();
+      window.onload = function() {
+        if (window.location.href.indexOf('qui-sommes-nous') > -1) {
+          paginate_carousel();
+        }
+      }
+  
+ }); 
 });

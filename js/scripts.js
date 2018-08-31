@@ -49,6 +49,41 @@ jQuery(function ($) {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-      });  
+      });
+      
+      /* Ms - Carousel Image Qui Sommes */
+      function paginate_carousel(){
+         let button1 = document.getElementById('ms-imgc-1');
+         let button2 = document.getElementById('ms-imgc-2');
+         let button3 = document.getElementById('ms-imgc-3');
+         let image1 = document.getElementById('ms-content-img1');
+         let image2 = document.getElementById('ms-content-img2');
+         let image3 = document.getElementById('ms-content-img3');
+         button1.addEventListener("click",function(){
+             image1.style.display = "block";
+             image2.style.display = "none";
+             image3.style.display = "none"; 
+         });
+         button2.addEventListener("click",function(){
+             image2.style.display = "block";
+             image1.style.display = "none";
+             image3.style.display = "none"; 
+         });
+         button3.addEventListener("click",function(){
+             image3.style.display = "block";
+             image1.style.display = "none";
+             image2.style.display = "none";  
+         });
+
+      };
+
+      
+
+      window.onload = function() {
+        if (window.location.href.indexOf('qui-sommes-nous') > -1) {
+          paginate_carousel();
+        }
+      }
+  
  }); 
 });

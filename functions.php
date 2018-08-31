@@ -366,8 +366,76 @@ function custom_post_clients() {
     
     register_post_type( 'clients', $args );
 }
+// Ms - Custom post Members
+function custom_post_team() {
+    $labels = array(
+        'name'                => _x( 'Team', 'Post Type General Name', 'html5blank' ),
+        'singular_name'       => _x( 'Members', 'Post Type Singular Name', 'html5blank' ),
+        'menu_name'           => __( 'Team', 'html5blank' ),
+        'parent_item_colon'   => __( 'Team parent:', 'html5blank' ),
+        'all_items'           => __( 'All Members', 'html5blank' ),
+        'view_item'           => __( 'View Member', 'html5blank' ),
+        'add_new_item'        => __( 'Add Member', 'html5blank' ),
+        'add_new'             => __( 'Add New', 'html5blank' ),
+        'edit_item'           => __( 'Edit member', 'html5blank' ),
+        'update_item'         => __( 'Update member', 'html5blank' ),
+        'search_items'        => __( 'Search member', 'html5blank' ),
+        'not_found'           => __( 'Not Found', 'html5blank' ),
+        'not_found_in_trash'  => __( 'Not found in Trash', 'html5blank' ),
+    );
+     
+     
+    $args = array(
+        'label'               => __( 'team', 'html5blank' ),
+        'description'         => __( 'Mimosa Members', 'html5blank' ),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        'taxonomies'          => array( 'genres' ),
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => false,
+        'capability_type'     => 'page',
+    );
+    
+    register_post_type( 'team', $args );
+}
 
-
+function team_members_taxonomy() {
+  $labels = array(
+    'name' => _x( 'Skills', 'taxonomy general name' ),
+    'singular_name' => _x( 'Skill', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Skill' ),
+    'popular_items' => __( 'Popular Skills' ),
+    'all_items' => __( 'All Skills' ),
+    'parent_item' => null,
+    'parent_item_colon' => null,
+    'edit_item' => __( 'Edit Skill' ),
+    'update_item' => __( 'Update Skill' ),
+    'add_new_item' => __( 'Add New Skill' ),
+    'new_item_name' => __( 'New Skill Name' ),
+    'separate_items_with_commas' => __( 'Separate skills with commas' ),
+    'add_or_remove_items' => __( 'Add or remove skills' ),
+    'choose_from_most_used' => __( 'Choose from the most used skills' ),
+    'menu_name' => __( 'Skills' ),
+  );
+  register_taxonomy('skills','team',array(
+    'hierarchical' => false,
+    'labels' => $labels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'update_count_callback' => '_update_post_term_count',
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'tag' ),
+  ));
+} 
 // Pagination for paged posts, Page 1, Page 2, Page 3, with Next and Previous Links, No plugin
 function html5wp_pagination()
 {
@@ -499,6 +567,10 @@ add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline 
 add_action('init', 'html5wp_pagination'); 
 //Add custom post
 add_action('init','custom_post_clients',0);
+// Add custom post team
+add_action('init','custom_post_team',0);
+// Add custom taxonomy
+add_action( 'init', 'team_members_taxonomy', 0 );
 // Add our HTML5 Pagination
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
@@ -579,4 +651,32 @@ function carousel_clients(){
     get_template_part('loop','clients');
 }
 
-?>
+add_shortcode('carousel_with_pagination','img_carousel_with_pagination');
+function img_carousel_with_pagination(){?>    
+  <div id="ms-img-carousel-with-pagination">
+    <div  id="ms-content-img1" >
+        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination.png" alt="">
+    </div>
+    <div id="ms-content-img2" >
+        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination2.png" alt="">
+    </div>
+    <div  id="ms-content-img3" >
+        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination3.png" alt="">
+    </div>
+    <div id="ms-paginator-carousel">
+        <ul>
+           <li><a href="#" id="ms-imgc-1">1</a></li>
+           <li><a href="#" id="ms-imgc-2">2</a></li>
+           <li><a href="#" id="ms-imgc-3">3</a></li>
+        </ul>
+    </div>
+  </div>  
+
+<?php }
+
+add_shortcode('team','carousel_members_team');
+function carousel_members_team(){
+    get_template_part('loop','team');
+}
+
+

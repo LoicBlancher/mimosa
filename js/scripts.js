@@ -74,7 +74,10 @@ jQuery(function ($) {
              image1.style.display = "none";
              image2.style.display = "none";  
          });
+
       };
+
+      
 
       window.onload = function() {
         if (window.location.href.indexOf('qui-sommes-nous') > -1) {

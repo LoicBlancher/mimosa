@@ -43,3 +43,4 @@
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sed aspernatur iure explicabo blanditiis, necessitatibus natus eos, quidem veniam beatae.

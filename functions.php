@@ -408,6 +408,48 @@ function custom_post_team() {
     register_post_type( 'team', $args );
 }
 
+// Ms - Custom post Testimonials
+function custom_post_testimonials() {
+    $labels = array(
+        'name'                => _x( 'Testimonials', 'Post Type General Name', 'html5blank' ),
+        'singular_name'       => _x( 'Testimonial', 'Post Type Singular Name', 'html5blank' ),
+        'menu_name'           => __( 'Testimonials', 'html5blank' ),
+        'parent_item_colon'   => __( 'Testimonials parent:', 'html5blank' ),
+        'all_items'           => __( 'All Testimonials', 'html5blank' ),
+        'view_item'           => __( 'View Testimonial', 'html5blank' ),
+        'add_new_item'        => __( 'Add Testimonial', 'html5blank' ),
+        'add_new'             => __( 'Add New', 'html5blank' ),
+        'edit_item'           => __( 'Edit testimonial', 'html5blank' ),
+        'update_item'         => __( 'Update testimonial', 'html5blank' ),
+        'search_items'        => __( 'Search testimonial', 'html5blank' ),
+        'not_found'           => __( 'Not Found', 'html5blank' ),
+        'not_found_in_trash'  => __( 'Not found in Trash', 'html5blank' ),
+    );
+     
+     
+    $args = array(
+        'label'               => __( 'testimonials', 'html5blank' ),
+        'description'         => __( 'Mimosa Testimonials', 'html5blank' ),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        'taxonomies'          => array( 'genres' ),
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => false,
+        'capability_type'     => 'page',
+    );
+    
+    register_post_type( 'testimonials', $args );
+}
+
 function team_members_taxonomy() {
   $labels = array(
     'name' => _x( 'Skills', 'taxonomy general name' ),
@@ -569,6 +611,8 @@ add_action('init', 'html5wp_pagination');
 add_action('init','custom_post_clients',0);
 // Add custom post team
 add_action('init','custom_post_team',0);
+// Add custom post testimonials
+add_action('init','custom_post_testimonials',0);
 // Add custom taxonomy
 add_action( 'init', 'team_members_taxonomy', 0 );
 // Add our HTML5 Pagination
@@ -679,4 +723,9 @@ function carousel_members_team(){
     get_template_part('loop','team');
 }
 
+add_shortcode('testimonials','carousel_testimonials');
+function carousel_testimonials(){
+    get_template_part('loop','testimonials');
+}
 
+?>

@@ -18,13 +18,13 @@
   --mimosa-gray-dark:#9FA3A7;
   --mimosa-gray-clear:#b3b2b2;
   /* Responsive Font Size */
-  --mimosa-res-title1:58px;
-  --mimosa-res-title2:46px;
-  --mimosa-res-title3:39px;
-  --mimosa-res-title4:30px;
-  --mimosa-res-title5:25px;
-  --mimosa-res-title6:19px;
-  --mimosa-res-p:14px;
+  --mimosa-res-title1:48px;
+  --mimosa-res-title2:30px;
+  --mimosa-res-title3:25px;
+  --mimosa-res-title4:23px;
+  --mimosa-res-title5:20px;
+  --mimosa-res-title6:18px;
+  --mimosa-res-p:13px;
   /* Responsive Large Size */
   --mimosa-large-title1:70px;
   --mimosa-large-title2:58px;
@@ -508,6 +508,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
     
     @media only screen and (max-width: 736px) {
+      p{font-size: var(--mimosa-res-p)!important;}
+      /* Hide pagination one page */
+      .onepage-pagination{display: none;}
       /* Responsive home page */
       .ms-padding-home-section{padding: 50px 70px!important;}
       #ms-left-column-slider #ms-logo-mimosa-home{width: 220px;float: initial;position: relative;left: 50%;transform: translateX(-50%);}
@@ -599,6 +602,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .home footer{padding: 10px 0;}
       .home footer h6{margin:20px 0;}
       .home footer #mg-footer-first ul li{margin:13px 0;}
+      
+      /* Responsive Qui Sommes */
+      #ms-sommes-first-section{padding: 230px 0!important;}
+      #ms-sommes-second-section h2{word-wrap: break-word;}
+      #ms-img-carousel-with-pagination{padding: 20px;}
+      #ms-img-carousel-with-pagination img{display: table;margin:0 auto;}
+      #ms-sommes-second-section h4{top:unset;right: unset;bottom:35%;font-size: 19px;}
+      #ms-img-carousel-with-pagination #ms-paginator-carousel ul{bottom: 14px;}
+      #ms-img-carousel-with-pagination #ms-paginator-carousel{height: 40px;padding: 10px 5px;bottom:4%;}
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}
@@ -615,7 +627,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-container-bullet{margin-left:0;}
       .ms-bullets-mimosa-img{display: initial;}
       /* End Responsive Footer Mobile */
-
+      
       /* Responsive demander devis*/
       .ms-wrapper-contact-form #ms-wrapper-checkbox-services{float: initial;}
       .ms-wrapper-contact-form #ms-wrapper-checkbox-services #ms-label-checkbox-services{float: initial;width: 100%;display:inherit;margin-bottom: 20px;}

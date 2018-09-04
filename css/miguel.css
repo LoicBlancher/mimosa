@@ -629,6 +629,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-text-six-section-qui-sommes h3,
       #ms-wrapper-text-six-section-qui-sommes p{text-align: center;} 
       #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:0 auto;}
+      #ms-box-offres{float: initial;width: 100%;position: initial;}
+      .ms-box-container{float: initial;width: 100%;}
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}

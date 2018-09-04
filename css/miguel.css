@@ -309,6 +309,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-sommes-fourth-section .ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
 #ms-sommes-fourth-section .ms-list-check-mimosa li:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: relative;left: -294px;bottom: 6px;font-weight: bold;}
 #ms-sommes-fourth-section .ms-list-check-mimosa p.second{display: inline;}
+ms-title-five-section-qui-sommes
 /*------------------------------------*\
     End Qui sommes nous
 \*------------------------------------*/

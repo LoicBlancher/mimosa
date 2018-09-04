@@ -50,6 +50,11 @@ jQuery(function ($) {
         autoplay: true,
         autoplaySpeed: 2000,
       });
+
+      $('#ms-slider-testimonials').slick({
+        autoplay:false,
+        autoplaySpeed:2000
+      });
       
       /* Ms - Carousel Image Qui Sommes */
       function paginate_carousel(){

@@ -723,4 +723,9 @@ function carousel_members_team(){
     get_template_part('loop','team');
 }
 
+add_shortcode('testimonials','carousel_testimonials');
+function carousel_testimonials(){
+    get_template_part('loop','testimonials');
+}
 
+?>

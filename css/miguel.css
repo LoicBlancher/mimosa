@@ -611,6 +611,16 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-sommes-second-section h4{top:unset;right: unset;bottom:35%;font-size: 19px;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel ul{bottom: 14px;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel{height: 40px;padding: 10px 5px;bottom:4%;}
+      .ms-image-map-qui-sommes{width: 70%;display: table;margin:0 auto;}
+      #ms-sommes-fourth-section #ms-eyelash-selector{text-align: center;}
+      #ms-sommes-fourth-section #ms-eyelash-selector li{margin-right:0;}
+      #ms-sommes-fourth-section h2{text-align: center;}
+      #ms-eyelash-first-qui-sommes, #ms-eyelash-second-qui-sommes, #ms-eyelash-third-qui-sommes{padding: 0;}
+      #ms-eyelash-first-qui-sommes p{margin:0;}
+      #ms-sommes-fourth-section .ms-list-check-mimosa p.second{line-height: 0;font-size: 12px!important;}
+      #ms-sommes-fourth-section .ms-primary-btn-bl{display: table;display: table;margin: 0 auto;}
+      #ms-sommes-fourth-section .ms-list-check-mimosa li:after{left:-240px;}
+      #ms-sommes-fourth-section .ms-list-check-mimosa{margin:0;}
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}
@@ -659,6 +669,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 60%;left:22%;}
     
     }
+
   /*------------------------------------*\
       END Max Width
   \*------------------------------------*/

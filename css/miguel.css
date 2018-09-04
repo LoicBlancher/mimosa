@@ -233,7 +233,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     HOME PAGE
 \*------------------------------------*/
-.ms-padding-home-section{padding: 180px 210px!important;}
+.ms-padding-home-section{padding: 130px 210px!important;}
 #ms-left-column-slider #ms-logo-mimosa-home{width: 250px;float:left;}
 #ms-left-column-slider #ms-slider-white-p{position: relative;top: 160px;}
 #ms-right-column-slider h1{color: white;line-height: 1.3em;text-align: right;font-family: 'Gotham';text-transform: none;letter-spacing: 0.4px;}
@@ -284,6 +284,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     Qui sommes nous
 \*------------------------------------*/
+.home .panel-layout .panel-grid,.qui-sommes-nous .panel-layout .panel-grid{margin-bottom:0px !important;}
 #ms-sommes-first-section h1,#ms-sommes-first-section h2{text-align: center;}
 #ms-sommes-second-section h2{text-transform: uppercase;}
 #ms-sommes-second-section .ms-divider-gray{margin:25px 0;}
@@ -318,12 +319,23 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-quotes-testi:before{content: "\275B";color: var(--mimosa-yellow);display: inline-block;position: relative;left: 50%;font-size: 36px;transform: translateX(-50%);}
 #ms-image-testimonials{display: table;margin: 0 auto;}
 .ms-title-testimonial{display: block;text-align: center;color: var(--mimosa-black-semi-dark);font-size: 12px;font-weight: bold;letter-spacing: 0.2em;}
-.ms-position-testimonial{text-align: center;display: block;line-height: 3em;color: var(--mimosa-gray-dark);text-transform: uppercase;font-family: 'Gotham';letter-spacing: 0.2em;}
+.ms-position-testimonial{text-align: center;display: block;line-height: 3em;color: var(--mimosa-gray-dark);text-transform: uppercase;font-family: 'Gotham';letter-spacing: 0.2em;font-size: 10px;}
 .ms-image-six-section{width: 80%;height: auto;border: 7px solid var(--mimosa-yellow);border-radius: 10px;}
 #ms-wrapper-text-six-section-qui-sommes{padding: 30px 10px;}
 #ms-wrapper-text-six-section-qui-sommes h2{text-transform: uppercase;}
 #ms-wrapper-text-six-section-qui-sommes h3{font-weight: normal;}
 #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{color: white;letter-spacing: 0.2em;margin: 30px 0;}
+#ms-sommes-seven-section h2{text-align: center;margin-bottom: 40px;}
+#ms-box-offres{float: left;width: 90%;position: relative;left: 50%;transform: translateX(-50%);}
+.ms-box-container{float: left;width: 30%;}
+.ms-box-container h6, .ms-box-container p{text-align: center;}
+.ms-box-content{padding: 10px 60px;background: #dedede;}
+#ms-box-container-central{position: relative;bottom:25px;;width: 40%!important;-webkit-box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);-moz-box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);}
+.ms-box-header-image{width: 100%;}
+#ms-box-container-central .ms-box-content{background:white;} 
+.ms-btn-box-offres{display: table;margin:30px auto;padding: 16px 25px;border-radius: 50px;border: 1px solid grey;text-transform: uppercase;font-size: 12px;font-family: 'Gotham';font-weight: bold;}
+#ms-box-container-central .ms-primary-btn-bl{display:table;width: 50%;text-align: center;margin: 20px auto;color:white;}
+#ms-box-container-central .ms-box-content p{margin-bottom: 50px;}
 /*------------------------------------*\
     End Qui sommes nous
 \*------------------------------------*/

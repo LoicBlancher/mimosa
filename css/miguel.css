@@ -370,6 +370,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-concept-third-section-text-column .ms-list-check-mimosa{margin-top:40px;}
 #ms-concept-five-section{}
 #ms-concept-five-section-first-column{}
+#ms-wrapper-recette-section{}
+#ms-scroll-ingredients{}
+#ms-ingredients-card{display: inline-block;
+    padding: 10px;
+    width: 30%;}
+#ms-ingredients-image{    width: 100%;
+    max-height: 300px;position: relative;top:3px;}
+#ms-footer-ingredients-card{background:white;padding: 20px;max-height: 100px;}
+#ms-text-footer{color:var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;}
 /*------------------------------------*\
     End Notre concept
 \*------------------------------------*/

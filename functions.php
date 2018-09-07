@@ -728,4 +728,9 @@ function carousel_testimonials(){
     get_template_part('loop','testimonials');
 }
 
+add_shortcode('recette','carousel_recette');
+function carousel_recette(){
+    get_template_part('loop','recette');
+}
+
 ?>

@@ -375,7 +375,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-ingredients-card{padding: 10px;width: 30%;}
 #ms-ingredients-image{width: 100%;max-height: 300px;position: relative;top:3px;}
 #ms-footer-ingredients-card{background:white;padding: 20px;height: 100px;}
-#ms-text-footer{color:var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;}
+#ms-text-footer{color: var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;display: inherit;margin-top: 10px;}
 #ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
 #ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
 /*------------------------------------*\

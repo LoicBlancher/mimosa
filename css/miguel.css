@@ -95,6 +95,8 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-map-pin-text{text-transform: uppercase;text-align: center;font-size: 16px;font-weight: bold;letter-spacing: 0.1em;}
 .ms-map-pin-info-triangle{width: 50px;height: 90px;position: relative;overflow: hidden;box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.25);transform: rotate(45deg);position: absolute;left: -5px;bottom: 15px;}
 .ms-map-pin-info-triangle:after{content: "";position: absolute;width: 50px;height: 50px;background: #fff;transform: rotate(45deg);top: 75px;left: 25px;-webkit-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);}
+/* Paddings */
+.ms-no-padding-bottom{padding: 130px 210px 0 210px!important;}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/
@@ -267,7 +269,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-last-section-home-menu ul li{float: left;margin:0 20px;}
 #ms-last-section-home-menu ul li a{color: white;text-transform: uppercase;font-size: 14px;font-family: 'Gotham';letter-spacing: 0.15em;}
 #ms-last-section-home-menu ul li a:hover{border-bottom:2px solid var(--mimosa-black-dark);}
-
 /*------------------------------------*\
     END HOME PAGE
 \*------------------------------------*/    
@@ -340,6 +341,29 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-box-container-central .ms-box-content p{margin-bottom: 50px;margin-top: 40px;}
 /*------------------------------------*\
     End Qui sommes nous
+\*------------------------------------*/
+
+/*------------------------------------*\
+    Notre concept
+\*------------------------------------*/
+#ms-concept-first-section{}
+#ms-concept-header-title{}
+#ms-concept-second-section{}
+.ms-no-padding-bottom{}
+#ms-concept-second-first-column{float: left;width: 100%;}
+#ms-concept-second-second-column{float: left;width: 100%;}
+#ms-title-notre-second-section{float: left;width: 30%;}
+#ms-subtitle-notre-second-section{float: left;width: 70%;padding: 70px 0;}
+#ms-concept-second-img{width: 40%;float: left;padding: 10px;}
+#ms-concept-second-img img{width: 500px;height: 500px;}
+#ms-left-bullets{}
+.ms-wrapper-bullets{float: left;width: 30%;padding: 10px 20px;}
+.ms-bullets-mimosa-img-right{float: right;width: 60px;}
+.ms-content-bullets-rigth{padding: 0 70px;}
+.ms-content-bullets-rigth h6, .ms-content-bullets-rigth p{text-align: right;}
+
+/*------------------------------------*\
+    End Notre concept
 \*------------------------------------*/
 
 /*------------------------------------*\

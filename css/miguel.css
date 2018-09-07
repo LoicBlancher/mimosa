@@ -369,16 +369,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-concept-third-section-text-column h2{margin-bottom: 40px;}
 #ms-concept-third-section-text-column .ms-list-check-mimosa{margin-top:40px;}
 #ms-concept-five-section{}
-#ms-concept-five-section-first-column{}
-#ms-wrapper-recette-section{}
+#ms-concept-five-section-first-column{padding: 70px 0;}
+#ms-wrapper-recette-section{padding: 60px 0;}
 #ms-scroll-ingredients{}
-#ms-ingredients-card{display: inline-block;
-    padding: 10px;
-    width: 30%;}
-#ms-ingredients-image{    width: 100%;
-    max-height: 300px;position: relative;top:3px;}
-#ms-footer-ingredients-card{background:white;padding: 20px;max-height: 100px;}
+#ms-ingredients-card{padding: 10px;width: 30%;}
+#ms-ingredients-image{width: 100%;max-height: 300px;position: relative;top:3px;}
+#ms-footer-ingredients-card{background:white;padding: 20px;height: 100px;}
 #ms-text-footer{color:var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;}
+#ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
+#ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
 /*------------------------------------*\
     End Notre concept
 \*------------------------------------*/

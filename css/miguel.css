@@ -7,7 +7,7 @@
   Tags: Blank, HTML5, CSS3, MIMOSA
 */
 /* One page Scroll */
-.home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap{height: 100%;}
+.home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap, .notre-concept main,.notre-concept .wrap{height: 100%;}
 
 
 :root{
@@ -184,11 +184,10 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 /*------------------------------------*\
     FOOTER'S
 \*------------------------------------*/
-  .home footer,.qui-sommes-nous footer{position: absolute;width: 100%;}
+  .home footer,.qui-sommes-nous footer, .notre-concept footer{position: absolute;width: 100%;}
   footer{background:#353535;padding: 80px 0; }
   
     /* Footer First Row */
-    #mg-footer-first{}
     #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
     #mg-footer-first ul{list-style-type: none;padding: 0;}
     #mg-footer-first ul li{margin:20px 0;}
@@ -284,7 +283,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     Qui sommes nous
 \*------------------------------------*/
-.home .panel-layout .panel-grid,.qui-sommes-nous .panel-layout .panel-grid{margin-bottom:0px !important;}
+.home .panel-layout .panel-grid,.qui-sommes-nous .panel-layout .panel-grid, .notre-concept .panel-layout .panel-grid{margin-bottom:0px !important;}
 #ms-sommes-first-section h1,#ms-sommes-first-section h2{text-align: center;}
 #ms-sommes-second-section h2{text-transform: uppercase;}
 #ms-sommes-second-section .ms-divider-gray{margin:25px 0;}

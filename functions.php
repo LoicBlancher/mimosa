@@ -210,8 +210,9 @@ function html5blank_header_scripts()
         wp_register_script('slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('slick');
 
-        wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.min.js', array('jquery'), '1.0.0',true); 
-        wp_enqueue_script('onePage');
+        if(is_page('qui-sommes-nous')){
+            
+        }
                   
     }
 }
@@ -236,8 +237,9 @@ function html5blank_styles()
     wp_enqueue_style('bootstrap',get_template_directory_uri().'/css/bootstrap-grid.min.css');
     wp_enqueue_style('bootstrap'); // Enqueue it!
 
-    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
-    wp_enqueue_style('onepage'); // Enqueue it!
+    if(is_page('qui-sommes-nous')){
+        
+    }
 
     wp_enqueue_style('slick',get_template_directory_uri().'/css/slick.css');
     wp_enqueue_style('slick'); // Enqueue it!
@@ -520,6 +522,17 @@ function team_members_taxonomy() {
     'rewrite' => array( 'slug' => 'tag' ),
   ));
 } 
+
+// Ms - Hide post title
+function ms_hide_post_title($classes) {
+    if (  is_page() ) :
+        $classes[] = 'hidetitle';
+        return $classes;
+    endif;
+return $classes;
+}
+
+add_filter('post_class', 'ala_hidetitle_class');
 // Pagination for paged posts, Page 1, Page 2, Page 3, with Next and Previous Links, No plugin
 function html5wp_pagination()
 {
@@ -777,4 +790,19 @@ function carousel_recette(){
     get_template_part('loop','recette');
 }
 
+
+function ms_enqueue_styles_one_page() {
+  if ( is_page( 'qui-sommes-nous') || is_front_page()) {
+    wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.min.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('onePage');
+
+    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
+    wp_enqueue_style('onepage'); // Enqueue it!
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
+
+
+
 ?>
+

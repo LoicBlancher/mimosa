@@ -429,6 +429,21 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-atelier-secont-section-text h2{margin-bottom: 40px;}
 #ms-italics-p{font-weight: bold;font-style: italic;}
 #ms-video-atelier{display:table ;margin: 0 auto;padding: 40px 10px;}
+#ms-atelier-third-section{padding: 40px 200px;}
+.ms-services-container{width: 100%;float: left;}
+.ms-services-description{width: 30%;float: left;position: relative;}
+.ms-services-description h3{margin-top: 5px;}
+.ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
+.ms-services-line-indicator{width: 70px;height: 2px;background: var(--mimosa-yellow);position: absolute;right: -20px;bottom: 55%;}
+.ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: relative;left: 65px;bottom: 9px;}
+.ms-services-img{width: 70%;float: left;padding: 20px 0 0 200px;}
+#ms-atelier-fourth-section{padding: 130px 200px 130px 0;}
+#ms-services-img-rigth{padding:0;}
+#ms-services-line-indicator-rigth{left:-100px;top:58%;}
+.ms-margin-left-text{display: block;margin-left: 20px;}
+#ms-services-description-last{width: 35%;}
+#ms-services-img-last{width: 65%;}
+#ms-services-line-indicator-last{bottom: 42%;right: -50px;}
 /*------------------------------------*\
     END ATELIER
 \*------------------------------------*/

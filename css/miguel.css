@@ -460,7 +460,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-atelier-services-card{float: left;width: 30%;height: auto;background: #dedede;margin: 7px;padding: 30px 60px;box-sizing: border-box;border-radius: 7px;}
 .ms-img-icon-services-card{display: table;margin:0 auto;}
 .ms-img-icon-services-card svg{font-size: 80px;color: var(--mimosa-black-dark)}
-.ms-content-services-card{text-align: center;}
+.ms-content-services-card{text-align: center;transition: 1s ease}
+.ms-atelier-services-card:hover{webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;background: var(--mimosa-yellow);box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);-moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
 
 /*------------------------------------*\
     END ATELIER

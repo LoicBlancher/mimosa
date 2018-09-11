@@ -423,11 +423,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     ATELIER
 \*------------------------------------*/
-#ms-atelier-first-section{}
-#ms-atelier-first-section-content{}
-#ms-atelier-second-section{}
-#ms-atelier-secont-section-text{}
-#ms-italics-p{}
+#ms-atelier-first-section{padding: 280px;}
+#ms-atelier-second-section{padding: 120px 200px 120px 200px;}
+#ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
+#ms-atelier-secont-section-text h2{margin-bottom: 40px;}
+#ms-italics-p{font-weight: bold;font-style: italic;}
+#ms-video-atelier{display:table ;margin: 0 auto;padding: 40px 10px;}
 /*------------------------------------*\
     END ATELIER
 \*------------------------------------*/

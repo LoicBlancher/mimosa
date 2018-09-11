@@ -444,6 +444,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-services-description-last{width: 35%;}
 #ms-services-img-last{width: 65%;}
 #ms-services-line-indicator-last{bottom: 42%;right: -50px;}
+#ms-atelier-six-section{padding:80px 200px;}
+#ms-atelier-six-section-content{width: 100%;float: left;}
+#ms-six-section-image{float: left;width: 30%;}
+#ms-six-section-text{float: left;width: 70%;padding:70px;}
+.ms-large-p{font-size: 19px;line-height: 1.4em;}
+#ms-cta-atelier-btn{margin-left: 60px;margin-top: 20px;color: white;text-transform: uppercase;font-family: 'Gotham';font-weight: bold;font-size: 12px;padding: 14px 30px;}
 /*------------------------------------*\
     END ATELIER
 \*------------------------------------*/

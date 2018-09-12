@@ -209,20 +209,12 @@ function html5blank_header_scripts()
 
         wp_register_script('slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('slick');
-
-        if(is_page('qui-sommes-nous')){
-            
-        }
                   
     }
 }
 // Load HTML5 Blank conditional scripts
 function html5blank_conditional_scripts()
 {
-
-    if(is_front_page()){
-             
-       } 
 }
 // Load HTML5 Blank styles
 function html5blank_styles()

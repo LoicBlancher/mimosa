@@ -486,6 +486,47 @@ function custom_post_recette() {
     register_post_type( 'recette', $args );
 }
 
+// Ms - Custom post Galerie
+function custom_post_galerie() {
+    $labels = array(
+        'name'                => _x( 'Galerie', 'Post Type General Name', 'html5blank' ),
+        'singular_name'       => _x( 'Galerie', 'Post Type Singular Name', 'html5blank' ),
+        'menu_name'           => __( 'Galerie', 'html5blank' ),
+        'parent_item_colon'   => __( 'Ingredient parent:', 'html5blank' ),
+        'all_items'           => __( 'All Galeries', 'html5blank' ),
+        'view_item'           => __( 'View Galerie', 'html5blank' ),
+        'add_new_item'        => __( 'Add Galerie', 'html5blank' ),
+        'add_new'             => __( 'Add New', 'html5blank' ),
+        'edit_item'           => __( 'Edit Galerie', 'html5blank' ),
+        'update_item'         => __( 'Update Galerie', 'html5blank' ),
+        'search_items'        => __( 'Search Galerie', 'html5blank' ),
+        'not_found'           => __( 'Not Found', 'html5blank' ),
+        'not_found_in_trash'  => __( 'Not found in Trash', 'html5blank' ),
+    );
+     
+     
+    $args = array(
+        'label'               => __( 'galerie', 'html5blank' ),
+        'description'         => __( 'Mimosa Recette', 'html5blank' ),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        'taxonomies'          => array( 'genres' ),
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => false,
+        'capability_type'     => 'page',
+    ); 
+    register_post_type( 'galerie', $args );
+}
+
 function team_members_taxonomy() {
   $labels = array(
     'name' => _x( 'Skills', 'taxonomy general name' ),
@@ -662,6 +703,8 @@ add_action('init','custom_post_team',0);
 add_action('init','custom_post_testimonials',0);
 // Add custom post recette
 add_action('init','custom_post_recette',0);
+// Add custom post galerie
+add_action('init','custom_post_galerie',0);
 // Add custom taxonomy
 add_action( 'init', 'team_members_taxonomy', 0 );
 // Add our HTML5 Pagination

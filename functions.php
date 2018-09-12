@@ -527,6 +527,8 @@ function custom_post_galerie() {
     register_post_type( 'galerie', $args );
 }
 
+
+/* Custom Taxonomy Team Members */
 function team_members_taxonomy() {
   $labels = array(
     'name' => _x( 'Skills', 'taxonomy general name' ),
@@ -555,6 +557,31 @@ function team_members_taxonomy() {
     'rewrite' => array( 'slug' => 'tag' ),
   ));
 } 
+
+function galerie_taxonomy() {
+  $labels = array(
+    'name' => _x( 'Categories', 'taxonomy general name' ),
+    'singular_name' => _x( 'Category', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Category' ),
+    'popular_items' => __( 'Popular Category' ),
+    'all_items' => __( 'All Categories' ),
+    'parent_item' => __( 'Parent Category' ),
+    'edit_item' => __( 'Edit Category' ),
+    'update_item' => __( 'Update Category' ),
+    'add_new_item' => __( 'Add New Category' ),
+    'new_item_name' => __( 'New Skill Category' ),
+    'menu_name' => __( 'Categories' ),
+  );
+  register_taxonomy('categories','galerie',array(
+    'hierarchical' => true,
+    'labels' => $labels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'categories' ),
+  ));
+} 
+
 
 // Ms - Hide post title
 function ms_hide_post_title($classes) {
@@ -705,8 +732,10 @@ add_action('init','custom_post_testimonials',0);
 add_action('init','custom_post_recette',0);
 // Add custom post galerie
 add_action('init','custom_post_galerie',0);
-// Add custom taxonomy
+// Add custom taxonomy Team
 add_action( 'init', 'team_members_taxonomy', 0 );
+// Add custom taxonomy galerie
+add_action( 'init', 'galerie_taxonomy', 0 );
 // Add our HTML5 Pagination
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
@@ -825,6 +854,44 @@ function carousel_recette(){
     get_template_part('loop','recette');
 }
 
+add_shortcode('galerie','galerie_images_mimosa');
+function galerie_images_mimosa($atts){
+    $atts = shortcode_atts(array(
+        'name' => ''
+    ), $atts);
+    $loop = new WP_Query( array(
+            'orderby'           => 'menu_order title',
+            'order'             => 'ASC',
+            'post_type'         => 'galerie',
+            'tax_query'         => array( array(
+                'taxonomy'  => 'categories',
+                'field'     => 'slug',
+                'terms'     => array( sanitize_title( $atts['name'] ) )
+            ) )
+        ) );?>
+        <div id="ms-container-galerie">
+           <?php 
+            if ( $loop->have_posts() ) :
+             while ( $loop->have_posts() ) : $loop->the_post(); 
+               $images = acf_photo_gallery('images_galerie',get_the_ID());
+               if(count($images)):
+                foreach($images as $image):
+                  $caption = $image['caption'];
+                  $full_image_url= $image['full_image_url'];
+                  $thumbnail_image_url= $image['thumbnail_image_url'];
+                ?>
+                <div id="ms-image-galerie-box">
+                  <img src="<?echo $full_image_url;?>" alt="">
+                </div>
+              <?php
+                endforeach;
+               endif; 
+             endwhile;
+            endif; 
+            wp_reset_postdata();?>
+        </div>
+<?php
+}
 
 function ms_enqueue_styles_one_page() {
   if ( is_page( 'qui-sommes-nous') || is_front_page()) {
@@ -840,4 +907,3 @@ add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
 
 
 ?>
-

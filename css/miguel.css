@@ -463,7 +463,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-content-services-card{text-align: center;transition: 1s ease}
 .ms-content-services-card h6{margin-bottom: 10px;}
 .ms-atelier-services-card:hover{webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;background: var(--mimosa-yellow);box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);-moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
+#ms-atelier-eight-section{padding:80px 200px;}
 
+#ms-container-galerie{float: left;width: 100%;}
+#ms-image-galerie-box{float: left;width: 25%;}
+#ms-image-galerie-box img{width: 100%;margin:0 auto;display: inherit;}
 /*------------------------------------*\
     END ATELIER
 \*------------------------------------*/

@@ -878,10 +878,9 @@ function galerie_images_mimosa($atts){
                 foreach($images as $image):
                   $caption = $image['caption'];
                   $full_image_url= $image['full_image_url'];
-                  $thumbnail_image_url= $image['thumbnail_image_url'];
                 ?>
                 <div id="ms-image-galerie-box">
-                  <img src="<?echo $full_image_url;?>" alt="">
+                  <a href="<?php echo $full_image_url ?>" class="ms-lightbox-trigger"><img src="<?echo $full_image_url;?>" alt=""></a>
                 </div>
               <?php
                 endforeach;

@@ -134,10 +134,27 @@ jQuery(function ($) {
       }
 
 
+      /* Ms Galerie */
+      $('.ms-lightbox-trigger').click(function(e){
+        e.preventDefault();
+        let imageHref = $(this).attr("href");
+        if($('#ms-galerie-lightbox').length > 0){
+          $('#ms-content-lightbox').html('<img src="' + imageHref + '" />')
+          $('#ms-galerie-lightbox').show();          
+        }else{
+         let msLightbox = 
+         '<div id="ms-galerie-lightbox">' +
+            '<div id="ms-content-lightbox">' + 
+                '<img src="' + imageHref +'" />' +
+            '</div>' +  
+          '</div>';
+          $('body').append(msLightbox);
+        }
+      });
 
-      /* Ms Add Class for icon Services Card */
-      
-
+      $('#ms-galerie-lightbox').live('click',function(){
+        $(this).hide();
+      });
   
  }); 
 });

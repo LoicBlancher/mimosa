@@ -471,9 +471,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-text-header-eigth-section{float: left;width: 40%;}
 #ms-text-header-eigth-section p{line-height: 1.5em;margin-top:30px;}
 #ms-container-galerie{float: left;width: 100%;}
-#ms-image-galerie-box{float: left;width: 25%;}
-#ms-image-galerie-box img{width: 100%;margin:0 auto;display: inherit;opacity: 0.5;transition: opacity 1.5s;}
-#ms-image-galerie-box img:hover{opacity: 1;}
+#ms-image-galerie-box{float: left;width: 25%;display: inline-block;overflow: hidden;}
+#ms-image-galerie-box img{width: 100%;margin:0 auto;display: block;opacity: 0.8;transition: all 1.5s ease-out;}
+#ms-image-galerie-box:hover img{transform: scale(1.3);transform-origin: 50% 50%;opacity: 1;}
+#ms-galerie-lightbox{position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0, 0, 0, 0.5); text-align:center;}
+#ms-galerie-lightbox #ms-close-galerie{cursor: pointer;text-align: right;color: white;font-size: 20px;color: var(--mimosa-yellow);position: absolute;width: 30px;height: 30px;background: white;padding: 10px;top: 9%;right: 31.5%;display: table;border-radius: 50%;}    
+#ms-galerie-lightbox img{box-shadow:0 0 25px #111;-webkit-box-shadow:0 0 25px #111;-moz-box-shadow:0 0 25px #111;max-width:740px;margin-top:90px;}
 /*------------------------------------*\
     END ATELIER
 \*------------------------------------*/

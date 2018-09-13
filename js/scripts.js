@@ -128,7 +128,7 @@ jQuery(function ($) {
                 '<img src="' + imageHref +'" />' +
             '</div>' +  
           '</div>';
-          $('body').append(msLightbox);
+          $('body').append(msLightbox).fadeIn(1000);
         }
       });
 

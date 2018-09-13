@@ -7,7 +7,7 @@
   Tags: Blank, HTML5, CSS3, MIMOSA
 */
 /* One page Scroll */
-.home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap{height: 100%;}
+.home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap, .notre-concept main,.notre-concept .wrap{height: 100%;}
 
 
 :root{
@@ -80,6 +80,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 /* Button Styles */
 .ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;}
 .ms-primary-btn-bl{padding: 16px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background: var(--mimosa-yellow);font-size: 11px;color: var(--mimosa-black-dark);font-weight: bold;text-transform: uppercase;}
+.ms-secondary-btn{padding: 16px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background: white;font-size: 11px;color: var(--mimosa-black-dark);font-weight: bold;text-transform: uppercase;}
 .ms-primary-btn-oylb{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
 .ms-primary-btn-sw{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;box-shadow:0 3px 15px 5px rgba(0, 0, 0, 0.2);}
 .ms-transparent-btn-bl{padding: 16px 25px;margin-right: 20px;border:1px solid var(--mimosa-black-dark);display: inline-block;border-radius: 50px;background:transparent;font-size: 11px;color: var(--mimosa-black-dark);font-weight: bold;text-transform: uppercase;}
@@ -95,6 +96,13 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-map-pin-text{text-transform: uppercase;text-align: center;font-size: 16px;font-weight: bold;letter-spacing: 0.1em;}
 .ms-map-pin-info-triangle{width: 50px;height: 90px;position: relative;overflow: hidden;box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.25);transform: rotate(45deg);position: absolute;left: -5px;bottom: 15px;}
 .ms-map-pin-info-triangle:after{content: "";position: absolute;width: 50px;height: 50px;background: #fff;transform: rotate(45deg);top: 75px;left: 25px;-webkit-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);}
+/* Paddings */
+.ms-no-padding-bottom{padding: 130px 210px 0 210px!important;}
+/* Check List Mimosa */
+.ms-list-check-mimosa{position: relative;list-style-type: none;padding: 0}
+.ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
+.ms-list-check-mimosa li:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: relative;left: -294px;bottom: 6px;font-weight: bold;}
+.ms-list-check-mimosa p.second{display: inline;}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/
@@ -184,11 +192,10 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 /*------------------------------------*\
     FOOTER'S
 \*------------------------------------*/
-  .home footer,.qui-sommes-nous footer{position: absolute;width: 100%;}
+  .home footer,.qui-sommes-nous footer, .notre-concept footer{position: absolute;width: 100%;}
   footer{background:#353535;padding: 80px 0; }
   
     /* Footer First Row */
-    #mg-footer-first{}
     #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
     #mg-footer-first ul{list-style-type: none;padding: 0;}
     #mg-footer-first ul li{margin:20px 0;}
@@ -268,7 +275,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-last-section-home-menu ul li{float: left;margin:0 20px;}
 #ms-last-section-home-menu ul li a{color: white;text-transform: uppercase;font-size: 14px;font-family: 'Gotham';letter-spacing: 0.15em;}
 #ms-last-section-home-menu ul li a:hover{border-bottom:2px solid var(--mimosa-black-dark);}
-
 /*------------------------------------*\
     END HOME PAGE
 \*------------------------------------*/    
@@ -284,7 +290,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     Qui sommes nous
 \*------------------------------------*/
-.home .panel-layout .panel-grid,.qui-sommes-nous .panel-layout .panel-grid{margin-bottom:0px !important;}
+.home .panel-layout .panel-grid,.qui-sommes-nous .panel-layout .panel-grid, .notre-concept .panel-layout .panel-grid{margin-bottom:0px !important;}
 #ms-sommes-first-section h1,#ms-sommes-first-section h2{text-align: center;}
 #ms-sommes-second-section h2{text-transform: uppercase;}
 #ms-sommes-second-section .ms-divider-gray{margin:25px 0;}
@@ -310,10 +316,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-sommes-fourth-section #ms-eyelash-selector li a:focus{border-bottom: 2px solid var(--mimosa-yellow);padding: 10px 0;}
 #ms-eyelash-first-qui-sommes,#ms-eyelash-second-qui-sommes,#ms-eyelash-third-qui-sommes{padding: 15px 0;}
 #ms-eyelash-second-qui-sommes,#ms-eyelash-third-qui-sommes{display: none;}
-#ms-sommes-fourth-section .ms-list-check-mimosa{position: relative;list-style-type: none;padding: 0}
-#ms-sommes-fourth-section .ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
-#ms-sommes-fourth-section .ms-list-check-mimosa li:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: relative;left: -294px;bottom: 6px;font-weight: bold;}
-#ms-sommes-fourth-section .ms-list-check-mimosa p.second{display: inline;}
 #ms-slider-testimonials .slick-prev, #ms-slider-testimonials .slick-next{display: none!important;}
 #ms_content_testi{margin-top: 20px;}
 #ms-slider-testimonials #ms_content_testi .ms-yellow-line{margin:10px auto;}
@@ -341,6 +343,43 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-box-container-central .ms-box-content p{margin-bottom: 50px;margin-top: 40px;}
 /*------------------------------------*\
     End Qui sommes nous
+\*------------------------------------*/
+
+/*------------------------------------*\
+    Notre concept
+\*------------------------------------*/
+#ms-concept-first-section{}
+#ms-concept-header-title{}
+#ms-concept-second-section{}
+.ms-no-padding-bottom{}
+#ms-concept-second-first-column{float: left;width: 100%;}
+#ms-concept-second-second-column{float: left;width: 100%;}
+#ms-title-notre-second-section{float: left;width: 30%;}
+#ms-subtitle-notre-second-section{float: left;width: 70%;padding: 70px 0;}
+#ms-concept-second-img{width: 40%;float: left;padding: 10px;}
+#ms-concept-second-img img{width: 500px;height: 500px;}
+#ms-left-bullets{}
+.ms-wrapper-bullets{float: left;width: 30%;padding: 10px 20px;}
+.ms-bullets-mimosa-img-right{float: right;width: 60px;}
+.ms-content-bullets-rigth{padding: 0 70px;}
+.ms-content-bullets-rigth h6, .ms-content-bullets-rigth p{text-align: right;}
+#ms-concept-third-section-text-column{width: 50%;}
+#ms-concept-third-section-text-column .ms-list-check-mimosa li:after{left:-303px!important;}
+#ms-concept-third-section-text-column .ms-primary-btn-bl{color:white;margin-top: 20px;}
+#ms-concept-third-section-text-column h2{margin-bottom: 40px;}
+#ms-concept-third-section-text-column .ms-list-check-mimosa{margin-top:40px;}
+#ms-concept-five-section{}
+#ms-concept-five-section-first-column{padding: 70px 0;}
+#ms-wrapper-recette-section{padding: 60px 0;}
+#ms-scroll-ingredients{}
+#ms-ingredients-card{padding: 10px;width: 30%;}
+#ms-ingredients-image{width: 100%;max-height: 300px;position: relative;top:3px;}
+#ms-footer-ingredients-card{background:white;padding: 20px;height: 100px;}
+#ms-text-footer{color: var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;display: inherit;margin-top: 10px;}
+#ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
+#ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
+/*------------------------------------*\
+    End Notre concept
 \*------------------------------------*/
 
 /*------------------------------------*\

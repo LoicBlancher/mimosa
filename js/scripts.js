@@ -48,12 +48,22 @@ jQuery(function ($) {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2000
       });
 
-      $('#ms-slider-testimonials').slick({
-        autoplay:false,
-        autoplaySpeed:2000
+      $('#ms-scroll-ingredients').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 200,
+        infinite:false,
+        arrows:false
+      });
+
+      $('#ms-scroll-tab,#pgc-30-4-1').hover(function(){
+        $('#ms-scroll-ingredients').slick('slickPlay');
+      },function(){
+        $('#ms-scroll-ingredients').slick('slickPause');
       });
       
       /* Ms - Carousel Image Qui Sommes */
@@ -114,6 +124,21 @@ jQuery(function ($) {
           eyelashContent();
         }
       }
+
+      function scrollRecettes(){
+        let scrollBtn = document.getElementById('ms-scroll-tab');    
+        scrollBtn.addEventListener("click",function(){
+            
+        });
+      }
+
+      window.onload = function() {
+        if (window.location.href.indexOf('notre-concept') > -1) {
+          scrollRecettes();
+        }
+      }
+
+
 
       
   

@@ -434,7 +434,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-atelier-third-section{padding: 40px 200px;}
 .ms-services-container{width: 100%;float: left;}
 .ms-services-description{width: 30%;float: left;position: relative;}
-.ms-services-description h3{margin-top: 5px;}
+.ms-services-description h3{margin-top: 5px;margin-bottom: 19px;}
+.ms-title-services-separator{width: 60%;height: 2px;background: var(--mimosa-gray-dark);opacity: 0.2;margin-bottom: 19px;}
 .ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
 .ms-services-line-indicator{width: 70px;height: 2px;background: var(--mimosa-yellow);position: absolute;right: -20px;bottom: 55%;}
 .ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: relative;left: 65px;bottom: 9px;}

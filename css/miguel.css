@@ -422,9 +422,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     End Thank You Page
 \*------------------------------------*/
 
-/*------------------------------------*\
-    ATELIER
-\*------------------------------------*/
+/*--------------------------------------------------------*\
+    ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
+\*--------------------------------------------------------*/
 #ms-atelier-first-section{padding: 280px;}
 #ms-atelier-second-section{padding: 120px 200px 120px 200px;}
 #ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
@@ -485,15 +485,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-wrapper-cta-nine-section-atelier{margin:40px auto;text-align: center;}
 #ms-cta-atelier-nine-section{font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color: var(--mimosa-black-dark);}
 #ms-cta-atelier-nine-section:hover{-webkit-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);-moz-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);}
-/*------------------------------------*\
-    END ATELIER
-\*------------------------------------*/
+/*--------------------------------------------------------*\
+     END ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
+\*--------------------------------------------------------*/
 
 /*------------------------------------*\
     LOGISTIQUE CULINARIE
 \*------------------------------------*/
 .ms-gray-services-bullet{color:#bcbcbc!important;}
-
 /*------------------------------------*\
     END LOGISTIQUE CULINARIE
 \*------------------------------------*/

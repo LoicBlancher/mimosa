@@ -103,6 +103,8 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
 .ms-list-check-mimosa li:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: relative;left: -294px;bottom: 6px;font-weight: bold;}
 .ms-list-check-mimosa p.second{display: inline;}
+/* Icons : Before Content */
+.icon::before {display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;-webkit-font-smoothing: antialiased;}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/
@@ -420,7 +422,64 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     End Thank You Page
 \*------------------------------------*/
 
-
+/*------------------------------------*\
+    ATELIER
+\*------------------------------------*/
+#ms-atelier-first-section{padding: 280px;}
+#ms-atelier-second-section{padding: 120px 200px 120px 200px;}
+#ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
+#ms-atelier-secont-section-text h2{margin-bottom: 40px;}
+#ms-italics-p{font-weight: bold;font-style: italic;}
+#ms-video-atelier{display:table ;margin: 0 auto;padding: 40px 10px;}
+#ms-atelier-third-section{padding: 40px 200px;}
+.ms-services-container{width: 100%;float: left;}
+.ms-services-description{width: 30%;float: left;position: relative;}
+.ms-services-description h3{margin-top: 5px;}
+.ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
+.ms-services-line-indicator{width: 70px;height: 2px;background: var(--mimosa-yellow);position: absolute;right: -20px;bottom: 55%;}
+.ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: relative;left: 65px;bottom: 9px;}
+.ms-services-img{width: 70%;float: left;padding: 20px 0 0 200px;}
+#ms-atelier-fourth-section{padding: 130px 200px 130px 0;}
+#ms-services-img-rigth{padding:0;}
+#ms-services-line-indicator-rigth{left:-100px;top:58%;}
+.ms-margin-left-text{display: block;margin-left: 20px;}
+#ms-services-description-last{width: 35%;}
+#ms-services-img-last{width: 65%;}
+#ms-services-line-indicator-last{bottom: 42%;right: -50px;}
+#ms-atelier-six-section{padding:80px 200px;}
+#ms-atelier-six-section-content{width: 100%;float: left;}
+#ms-six-section-image{float: left;width: 30%;}
+#ms-six-section-text{float: left;width: 70%;padding:70px;}
+.ms-large-p{font-size: 19px;line-height: 1.4em;}
+#ms-cta-atelier-btn{margin-left: 60px;margin-top: 20px;color: white;text-transform: uppercase;font-family: 'Gotham';font-weight: bold;font-size: 12px;padding: 14px 30px;}
+#ms-atelier-seven-section{padding:130px 200px;}
+#ms-atelier-seven-section-left-container{margin-top:130px;}
+#ms-img-header-left-seven-section{}
+#ms-cta-seven-section{margin: 0 auto;display: table;font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color:var(--mimosa-black-dark);}
+#ms-atelier-seven-section-right-container{width: 100%;float: left;padding: 10px 0 10px 50px;}
+.ms-atelier-services-card{float: left;width: 30%;height: auto;background: #dedede;margin: 7px;padding: 20px 60px;box-sizing: border-box;border-radius: 7px;}
+.ms-img-icon-services-card{display: table;margin:0 auto;}
+.ms-img-icon-services-card svg{font-size: 80px;color: var(--mimosa-black-dark);margin-top:40px;}
+.ms-content-services-card{text-align: center;transition: 1s ease}
+.ms-content-services-card h6{margin-bottom: 10px;}
+.ms-atelier-services-card:hover{webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;background: var(--mimosa-yellow);box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);-moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
+#ms-atelier-eight-section{padding:80px 200px;}
+#ms-header-container-eigth-section{float: left;width: 100%;}
+#ms-image-herder-eigth-section{float: left;width: 20%;}
+#ms-title-header-eigth-section h2{line-height: 2em;}
+#ms-title-header-eigth-section{float: left;width: 25%;}
+#ms-text-header-eigth-section{float: left;width: 40%;}
+#ms-text-header-eigth-section p{line-height: 1.5em;margin-top:30px;}
+#ms-container-galerie{float: left;width: 100%;}
+#ms-image-galerie-box{float: left;width: 25%;display: inline-block;overflow: hidden;}
+#ms-image-galerie-box img{width: 100%;margin:0 auto;display: block;opacity: 0.8;transition: all 1.5s ease-out;}
+#ms-image-galerie-box:hover img{transform: scale(1.3);transform-origin: 50% 50%;opacity: 1;}
+#ms-galerie-lightbox{position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0, 0, 0, 0.5); text-align:center;}
+#ms-galerie-lightbox #ms-close-galerie{cursor: pointer;text-align: right;color: white;font-size: 20px;color: var(--mimosa-yellow);position: absolute;width: 30px;height: 30px;background: white;padding: 10px;top: 9%;right: 31.5%;display: table;border-radius: 50%;}    
+#ms-galerie-lightbox img{box-shadow:0 0 25px #111;-webkit-box-shadow:0 0 25px #111;-moz-box-shadow:0 0 25px #111;max-width:740px;margin-top:90px;}
+/*------------------------------------*\
+    END ATELIER
+\*------------------------------------*/
 
 
 

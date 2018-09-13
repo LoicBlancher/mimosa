@@ -209,19 +209,12 @@ function html5blank_header_scripts()
 
         wp_register_script('slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('slick');
-
-        wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.min.js', array('jquery'), '1.0.0',true); 
-        wp_enqueue_script('onePage');
                   
     }
 }
 // Load HTML5 Blank conditional scripts
 function html5blank_conditional_scripts()
 {
-
-    if(is_front_page()){
-             
-       } 
 }
 // Load HTML5 Blank styles
 function html5blank_styles()
@@ -236,8 +229,9 @@ function html5blank_styles()
     wp_enqueue_style('bootstrap',get_template_directory_uri().'/css/bootstrap-grid.min.css');
     wp_enqueue_style('bootstrap'); // Enqueue it!
 
-    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
-    wp_enqueue_style('onepage'); // Enqueue it!
+    if(is_page('qui-sommes-nous')){
+        
+    }
 
     wp_enqueue_style('slick',get_template_directory_uri().'/css/slick.css');
     wp_enqueue_style('slick'); // Enqueue it!
@@ -492,6 +486,49 @@ function custom_post_recette() {
     register_post_type( 'recette', $args );
 }
 
+// Ms - Custom post Galerie
+function custom_post_galerie() {
+    $labels = array(
+        'name'                => _x( 'Galerie', 'Post Type General Name', 'html5blank' ),
+        'singular_name'       => _x( 'Galerie', 'Post Type Singular Name', 'html5blank' ),
+        'menu_name'           => __( 'Galerie', 'html5blank' ),
+        'parent_item_colon'   => __( 'Ingredient parent:', 'html5blank' ),
+        'all_items'           => __( 'All Galeries', 'html5blank' ),
+        'view_item'           => __( 'View Galerie', 'html5blank' ),
+        'add_new_item'        => __( 'Add Galerie', 'html5blank' ),
+        'add_new'             => __( 'Add New', 'html5blank' ),
+        'edit_item'           => __( 'Edit Galerie', 'html5blank' ),
+        'update_item'         => __( 'Update Galerie', 'html5blank' ),
+        'search_items'        => __( 'Search Galerie', 'html5blank' ),
+        'not_found'           => __( 'Not Found', 'html5blank' ),
+        'not_found_in_trash'  => __( 'Not found in Trash', 'html5blank' ),
+    );
+     
+     
+    $args = array(
+        'label'               => __( 'galerie', 'html5blank' ),
+        'description'         => __( 'Mimosa Recette', 'html5blank' ),
+        'labels'              => $labels,
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        'taxonomies'          => array( 'genres' ),
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => false,
+        'capability_type'     => 'page',
+    ); 
+    register_post_type( 'galerie', $args );
+}
+
+
+/* Custom Taxonomy Team Members */
 function team_members_taxonomy() {
   $labels = array(
     'name' => _x( 'Skills', 'taxonomy general name' ),
@@ -520,6 +557,42 @@ function team_members_taxonomy() {
     'rewrite' => array( 'slug' => 'tag' ),
   ));
 } 
+
+function galerie_taxonomy() {
+  $labels = array(
+    'name' => _x( 'Categories', 'taxonomy general name' ),
+    'singular_name' => _x( 'Category', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Category' ),
+    'popular_items' => __( 'Popular Category' ),
+    'all_items' => __( 'All Categories' ),
+    'parent_item' => __( 'Parent Category' ),
+    'edit_item' => __( 'Edit Category' ),
+    'update_item' => __( 'Update Category' ),
+    'add_new_item' => __( 'Add New Category' ),
+    'new_item_name' => __( 'New Skill Category' ),
+    'menu_name' => __( 'Categories' ),
+  );
+  register_taxonomy('categories','galerie',array(
+    'hierarchical' => true,
+    'labels' => $labels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'categories' ),
+  ));
+} 
+
+
+// Ms - Hide post title
+function ms_hide_post_title($classes) {
+    if (  is_page() ) :
+        $classes[] = 'hidetitle';
+        return $classes;
+    endif;
+return $classes;
+}
+
+add_filter('post_class', 'ala_hidetitle_class');
 // Pagination for paged posts, Page 1, Page 2, Page 3, with Next and Previous Links, No plugin
 function html5wp_pagination()
 {
@@ -657,8 +730,12 @@ add_action('init','custom_post_team',0);
 add_action('init','custom_post_testimonials',0);
 // Add custom post recette
 add_action('init','custom_post_recette',0);
-// Add custom taxonomy
+// Add custom post galerie
+add_action('init','custom_post_galerie',0);
+// Add custom taxonomy Team
 add_action( 'init', 'team_members_taxonomy', 0 );
+// Add custom taxonomy galerie
+add_action( 'init', 'galerie_taxonomy', 0 );
 // Add our HTML5 Pagination
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
@@ -776,5 +853,56 @@ add_shortcode('recette','carousel_recette');
 function carousel_recette(){
     get_template_part('loop','recette');
 }
+
+add_shortcode('galerie','galerie_images_mimosa');
+function galerie_images_mimosa($atts){
+    $atts = shortcode_atts(array(
+        'name' => ''
+    ), $atts);
+    $loop = new WP_Query( array(
+            'orderby'           => 'menu_order title',
+            'order'             => 'ASC',
+            'post_type'         => 'galerie',
+            'tax_query'         => array( array(
+                'taxonomy'  => 'categories',
+                'field'     => 'slug',
+                'terms'     => array( sanitize_title( $atts['name'] ) )
+            ) )
+        ) );?>
+        <div id="ms-container-galerie">
+           <?php 
+            if ( $loop->have_posts() ) :
+             while ( $loop->have_posts() ) : $loop->the_post(); 
+               $images = acf_photo_gallery('images_galerie',get_the_ID());
+               if(count($images)):
+                foreach($images as $image):
+                  $caption = $image['caption'];
+                  $full_image_url= $image['full_image_url'];
+                ?>
+                <div id="ms-image-galerie-box">
+                  <a href="<?php echo $full_image_url ?>" class="ms-lightbox-trigger"><img src="<?echo $full_image_url;?>" alt=""></a>
+                </div>
+              <?php
+                endforeach;
+               endif; 
+             endwhile;
+            endif; 
+            wp_reset_postdata();?>
+        </div>
+<?php
+}
+
+function ms_enqueue_styles_one_page() {
+  if ( is_page( 'qui-sommes-nous') || is_front_page()) {
+    wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.min.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('onePage');
+
+    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
+    wp_enqueue_style('onepage'); // Enqueue it!
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
+
+
 
 ?>

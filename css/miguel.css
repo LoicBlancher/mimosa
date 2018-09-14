@@ -531,6 +531,22 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-wrapper-title-five-section h4{margin-top:30px;}
     #ms-wrapper-title-five-section h2{margin-bottom:20px;}  
   }
+
+    @media only screen  and (min-width : 1280px) {
+
+    }
+
+    @media only screen  and (min-width : 992px) {
+      
+    }
+
+    @media only screen  and (min-width : 736px) {
+      .ms-services-img img{width: 90%;}
+    }
+
+    @media only screen  and (min-width : 480px) {
+      .ms-services-img img{width: 100%;}
+    }
   /*------------------------------------*\
       END Min Width
   \*------------------------------------*/
@@ -589,6 +605,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-img-icon-services-card svg{margin-top:30px;}
       #ms-atelier-seven-section-left-container{margin-top: 100px;}
       #ms-text-header-eigth-section{width: 50%;}
+      .ms-services-img img{width: unset;}
+      #ms-services-img-last img{width: 100%;}
 
     }
     
@@ -640,12 +658,10 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-first-section p{text-align: center;}
       #ms-atelier-third-section{padding: 60px 90px;}
       .ms-services-img{padding: 20px 0 0 50px;}
-      #ms-services-img img{width: 90%;}
       .ms-services-line-indicator{top: 160px;right: -50px;}
       #ms-atelier-fourth-section{padding: 60px 90px 50px 0;}
       #ms-services-img-rigth img{width: 80%;}
       #ms-services-img-last{padding: 20px 0 0 90px;}
-      #ms-services-img-last img{width: 90%;}
       #ms-atelier-six-section{padding: 60px 90px;}
       #ms-six-section-image img{width: 270px;}
       #ms-atelier-seven-section{padding: 60px 90px;}
@@ -660,6 +676,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-title-header-nine-section{position: relative;left: 40px;}
       #ms-wrapper-content-nine-section p{display: inline-block;}
       #ms-cta-atelier-nine-section{min-width: 130px;}
+      .ms-services-img img{width: 80%;}
 
       
     }
@@ -731,14 +748,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-second-section{padding: 50px 70px;}
       #ms-atelier-third-section{padding: 50px 70px;}
       .ms-services-description{width: 40%;}
-      .ms-services-img{width: 60%;padding: 10px;position: relative;top:30px;}
-      .ms-services-img img{width: 100%;}
+      .ms-services-img{width: 60%;padding: 10px;position: relative;top:30px;right: -20px;}
       .ms-services-line-indicator{bottom: 50%;right: -26px;}
       #ms-services-img-rigth img{width: 100%;position: relative;left:-90px;}
       #ms-atelier-fourth-section{padding: 50px 70px;}
       #ms-services-description-last{width: 40%;}
       #ms-services-img-last{width: 60%;position: relative;right: -70px;}
-      #ms-services-img-last img{width: 100%;}
       #ms-atelier-six-section{padding: 50px 70px;}
       #ms-six-section-image img{width: 250px;}
       #ms-six-section-text{padding: 50px 30px 0 90px;}
@@ -760,6 +775,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-image-header-nine-section img{position: relative;left:100px;}
       #ms-title-header-nine-section{width: 55%;}
       #ms-title-header-nine-section h2{position: relative;right:40px;}
+      #ms-services-img-last{padding: 0}
+      .ms-services-img img{width: 80%;}
 
     }
     
@@ -921,6 +938,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-title-header-nine-section{float: initial;width: 100%;margin-top: 10px;}
       #ms-title-header-nine-section h2{text-align: center;margin-bottom: 0;}
       #ms-cta-atelier-nine-section{margin-top: 20px;}
+      #ms-image-header-nine-section img{position: static;}
+      #ms-cta-atelier-nine-section{min-width: 180px;}
+      #ms-title-header-eigth-section h2{position: static;}
+      #ms-atelier-seven-section-right-container{position: static;}
+      #ms-services-img-last{padding: 0;}
+      .ms-services-img{top:unset;}
+      #ms-services-img-rigth img{position: static;}
     }
 
   /*------------------------------------*\

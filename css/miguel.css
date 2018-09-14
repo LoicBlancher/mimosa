@@ -429,63 +429,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     End Thank You Page
 \*------------------------------------*/
 
-/*--------------------------------------------------------*\
-    ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
-\*--------------------------------------------------------*/
-  #ms-atelier-first-section{padding: 280px;}
-  #ms-atelier-second-section{padding: 120px 200px 120px 200px;}
-  #ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
-  #ms-atelier-secont-section-text h2{margin-bottom: 40px;}
-  #ms-italics-p{font-weight: bold;font-style: italic;}
-  #ms-video-atelier{display:table ;margin: 0 auto;padding: 40px 10px;}
-  #ms-atelier-third-section{padding: 40px 200px;}
-  .ms-services-container{width: 100%;float: left;}
-  .ms-services-description{width: 30%;float: left;position: relative;}
-  .ms-services-description h3{margin-top: 5px;margin-bottom: 19px;}
-  .ms-title-services-separator{width: 60%;height: 2px;background: var(--mimosa-gray-dark);opacity: 0.2;margin-bottom: 19px;}
-  .ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
-  .ms-services-line-indicator{width: 70px;height: 2px;background: var(--mimosa-yellow);position: absolute;right: -20px;bottom: 55%;}
-  .ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: relative;left: 65px;bottom: 9px;}
-  .ms-services-img{width: 70%;float: left;padding: 20px 0 0 200px;}
-  #ms-atelier-fourth-section{padding: 130px 200px 130px 0;}
-  #ms-services-img-rigth{padding:0;}
-  #ms-services-line-indicator-rigth{left:-100px;top:58%;}
-  .ms-margin-left-text{display: block;margin-left: 20px;}
-  #ms-services-description-last{width: 35%;}
-  #ms-services-img-last{width: 65%;}
-  #ms-services-line-indicator-last{bottom: 42%;right: -50px;}
-  #ms-atelier-six-section{padding:80px 200px;}
-  #ms-atelier-six-section-content{width: 100%;float: left;}
-  #ms-six-section-image{float: left;width: 30%;}
-  #ms-six-section-text{float: left;width: 70%;padding:70px;}
-  .ms-large-p{font-size: 19px;line-height: 1.4em;}
-  #ms-cta-atelier-btn{margin-left: 60px;margin-top: 20px;color: white;text-transform: uppercase;font-family: 'Gotham';font-weight: bold;font-size: 12px;padding: 14px 30px;}
-  #ms-atelier-seven-section{padding:130px 200px;}
-  #ms-atelier-seven-section-left-container{margin-top:130px;}
-  #ms-img-header-left-seven-section{}
-  #ms-cta-seven-section{margin: 0 auto;display: table;font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color:var(--mimosa-black-dark);}
-  #ms-atelier-seven-section-right-container{width: 100%;float: left;padding: 10px 0 10px 50px;}
-  .ms-atelier-services-card{float: left;width: 30%;height: auto;background: #dedede;margin: 7px;padding: 20px 60px;box-sizing: border-box;border-radius: 7px;}
-  .ms-img-icon-services-card{display: table;margin:0 auto;}
-  .ms-img-icon-services-card svg{font-size: 80px;color: var(--mimosa-black-dark);margin-top:40px;}
-  .ms-content-services-card{text-align: center;transition: transform 2s ease;-webkit-transition:transform 2s ease;}
-  .ms-content-services-card h6{margin-bottom: 10px;}
-  .ms-atelier-services-card:hover{-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease-out;background: var(--mimosa-yellow);box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);-moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
-  #ms-atelier-eight-section{padding:80px 200px;}
-  #ms-header-container-eigth-section{float: left;width: 100%;}
-  #ms-image-herder-eigth-section{float: left;width: 20%;}
-  #ms-title-header-eigth-section h2{line-height: 2em;}
-  #ms-title-header-eigth-section{float: left;width: 25%;}
-  #ms-text-header-eigth-section{float: left;width: 40%;}
-  #ms-text-header-eigth-section p{line-height: 1.5em;margin-top:30px;}
-  #ms-header-nine-section{width: 100%;float: left;}
-  #ms-image-header-nine-section{float: left;width: 20%;}
-  #ms-title-header-nine-section{float: left;width: 80%;padding: 20px 40px;margin-top: 70px;}
-  #ms-title-header-nine-section h2{text-align: left;margin-bottom:40px;}
-  #ms-wrapper-content-nine-section p{text-align: center;}
-  #ms-wrapper-cta-nine-section-atelier{margin:40px auto;text-align: center;}
-  #ms-cta-atelier-nine-section{font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color: var(--mimosa-black-dark);width: 180px;transition: box-shadow 1s;}
-  #ms-cta-atelier-nine-section:hover{-webkit-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);-moz-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);}
+
 /*--------------------------------------------------------*\
      END ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
@@ -552,11 +496,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* End ThankYou Page */
 
       /* Contact Page */
+
+      /* Atelier */
+      .ms-services-line-indicator{right: -70px;top: 190px;}
+      .ms-atelier-services-card{width: 32%;margin:4px;padding: 18px 50px;}
+
     }
 
     @media only screen and (max-width: 1280px) {
-      /* Responsive Hone page */
+      /* Responsive Home page */
       .ms-padding-home-section{padding:60px 90px!important}
+      #ms-atelier-second-section{padding: 60px 90px;}
       #ms-left-column-slider #ms-logo-mimosa-home{float: initial;position: relative;left: 50%;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{top:10px;text-align: center;}  
       .ms-wrapper-bullet-with-img{margin-left:70px;}
@@ -576,6 +526,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-thankyou-text{padding: 0 100px;}
       .ms-cta-return-home{padding: 0 100px;} 
       /* End ThankYou Page */
+
+      /* Atelier */  
+      .ms-services-line-indicator{right: -60px;}
+      .ms-atelier-services-card{width: 32%;margin: 3px;padding:17px 35px;}
+      .ms-img-icon-services-card svg{margin-top:30px;}
+      #ms-atelier-seven-section-left-container{margin-top: 100px;}
+      #ms-text-header-eigth-section{width: 50%;}
+
     }
     
     @media only screen and (max-width: 992px) {
@@ -619,6 +577,35 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-right-column-slider h1{text-align: center;position: relative;top: -40px;}
       
       /* End ThankYou Page */
+
+      /* Atelier */
+      #ms-atelier-first-section{padding: 150px;}
+      #ms-atelier-first-section h1,
+      #ms-atelier-first-section p{text-align: center;}
+      #ms-atelier-third-section{padding: 60px 90px;}
+      .ms-services-img{padding: 20px 0 0 50px;}
+      #ms-services-img img{width: 90%;}
+      .ms-services-line-indicator{top: 160px;right: -50px;}
+      #ms-atelier-fourth-section{padding: 60px 90px 50px 0;}
+      #ms-services-img-rigth img{width: 80%;}
+      #ms-services-img-last{padding: 20px 0 0 90px;}
+      #ms-services-img-last img{width: 90%;}
+      #ms-atelier-six-section{padding: 60px 90px;}
+      #ms-six-section-image img{width: 270px;}
+      #ms-atelier-seven-section{padding: 60px 90px;}
+      .ms-atelier-services-card{padding: 15px 20px;width: 32%;margin:7px 3px;}
+      .ms-img-icon-services-card svg{margin-top:20px;}
+      #ms-atelier-seven-section-left-container{margin-top:100px;}
+      #ms-cta-seven-section{padding: 14px 25px;}
+      #ms-atelier-eight-section{padding: 60px 90px;}
+      #ms-text-header-eigth-section{width: 55%;}
+      #ms-title-header-eigth-section h2{line-height: 5em;position: relative;left:30px;}
+      #ms-text-header-eigth-section p{margin-top: 60px;}
+      #ms-title-header-nine-section{position: relative;left: 40px;}
+      #ms-wrapper-content-nine-section p{display: inline-block;}
+      #ms-cta-atelier-nine-section{min-width: 130px;}
+
+      
     }
     
     @media only screen and (max-width: 736px) {
@@ -680,6 +667,44 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:19px;}
       .ms-footerTyPage #mg-menu-terms-main ul{padding: 0;position: relative;left:22%;}
       /* End ThankYou Page */
+
+      /* Atelier */
+      #ms-atelier-first-section{padding: 130px 70px;}
+      #ms-atelier-first-section h1{text-align: center;}
+      #ms-atelier-first-section p{text-align: center;}
+      #ms-atelier-second-section{padding: 50px 70px;}
+      #ms-atelier-third-section{padding: 50px 70px;}
+      .ms-services-description{width: 40%;}
+      .ms-services-img{width: 60%;padding: 10px;position: relative;top:30px;}
+      .ms-services-img img{width: 100%;}
+      .ms-services-line-indicator{bottom: 50%;right: -26px;}
+      #ms-services-img-rigth img{width: 100%;position: relative;left:-90px;}
+      #ms-atelier-fourth-section{padding: 50px 70px;}
+      #ms-services-description-last{width: 40%;}
+      #ms-services-img-last{width: 60%;position: relative;right: -70px;}
+      #ms-services-img-last img{width: 100%;}
+      #ms-atelier-six-section{padding: 50px 70px;}
+      #ms-six-section-image img{width: 250px;}
+      #ms-six-section-text{padding: 50px 30px 0 90px;}
+      #ms-atelier-seven-section{padding: 50px 70px;}
+      #ms-atelier-seven-section-left-container{margin-top:0;}
+      #ms-img-header-left-seven-section img{margin: 0 auto;display: table;}
+      #ms-atelier-seven-section-left-container h2,
+      #ms-atelier-seven-section-left-container p{text-align: center;}
+      #ms-cta-seven-section{margin:30px auto;}
+      #ms-atelier-seven-section-right-container{padding: 30px;position: relative;left:16px;}
+      .ms-atelier-services-card{width: 45%;padding: 15px 50px;}
+      #ms-atelier-eight-section{padding: 50px 70px;}
+      #ms-title-header-eigth-section{width: 30%;text-align: center;}
+      #ms-text-header-eigth-section{width: 50%;}
+      #ms-title-header-eigth-section h2{line-height: 4em;}
+      #ms-text-header-eigth-section p{margin-top:45px;}
+      #ms-header-nine-section p{display: inline-block;}
+      #ms-image-header-nine-section{width: 45%;}
+      #ms-image-header-nine-section img{position: relative;left:100px;}
+      #ms-title-header-nine-section{width: 55%;}
+      #ms-title-header-nine-section h2{position: relative;right:40px;}
+
     }
     
     @media only screen and (max-width: 480px) {
@@ -792,6 +817,54 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{left:11%;}
       .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 60%;left:22%;}
     
+      /* Responsive  Atelier */
+      #ms-atelier-first-section{padding:50px 80px;}
+      #ms-atelier-first-section h1{position: relative;right: 35px;}
+      #ms-atelier-second-section,
+      #ms-atelier-third-section{padding: 30px 50px;}
+      #ms-services-container{float: initial;}
+      .ms-services-description{width: 100%;float: initial;}
+      .ms-services-img{width: 75%;float: initial;padding: 20px;position: relative;bottom: 310px;left: 110px;}
+      .ms-services-img img{width: 80%;}  
+      .ms-services-line-indicator{top: 190px;right: 30px;}
+      #ms-atelier-fourth-section{padding: 30px 50px;position: relative;}
+      #ms-services-img-rigth{position: absolute;top: 0;width: 200px;left: 0;}  
+      #ms-bullet-rigth{position: relative;left: 55%;}
+      #ms-services-line-indicator-rigth{left: 50px;}
+      .ms-services-container{float: initial;}
+      #ms-services-description-last{width: 100%;}
+      #ms-services-line-indicator-last{top: 190px;right: 30px;}
+      #ms-services-img-last{bottom: 360px;left: 150px;}
+      #ms-atelier-six-section{padding: 30px 50px!important;}
+      #ms-six-section-image{float: initial;width: 100%;}
+      #ms-six-section-image img{width: 80%;margin: 0 auto;display: inherit;}
+      #ms-six-section-text{float: initial;width: 100%;padding: 10px;}
+      #ms-six-section-text h2{text-align: center;}
+      #ms-six-section-text .ms-large-p{text-align: center;}
+      #ms-cta-atelier-btn{margin: 40px auto;display: table;}
+      #ms-atelier-seven-section{padding: 30px 50px;}
+      #ms-atelier-seven-section-left-container{margin-top: 0;}
+      #ms-img-header-left-seven-section{margin: 0 auto;display: table;}
+      #ms-atelier-seven-section-left-container h2,
+      #ms-atelier-seven-section-left-container p{text-align: center;}
+      #ms-cta-seven-section{margin:30px auto;}
+      #ms-atelier-seven-section-right-container{float: initial;width: 100%;padding: 10px;}
+      .ms-atelier-services-card{float: initial;width: 100%;margin: 10px auto;padding: 15px 30px;}
+      #ms-atelier-eight-section{padding: 30px 50px;}
+      #ms-header-container-eigth-section{float: initial;margin: 0 auto;display: table;}
+      #ms-image-herder-eigth-section{float: initial;width: 100%;}
+      #ms-image-herder-eigth-section img{margin: 0 auto;display: table;}
+      #ms-title-header-eigth-section{float: initial;width: 100%;text-align: center;}
+      #ms-text-header-eigth-section{float: left;width: 100%;text-align: center;}
+      #ms-text-header-eigth-section p{margin-top:0;}
+      #ms-image-galerie-box{width: 50%;}
+      #ms-header-nine-section{float: initial;}
+      #ms-image-header-nine-section{}
+      #ms-image-header-nine-section{float: initial;width: 100%;}
+      #ms-image-header-nine-section img{margin:0 auto;display: table;}
+      #ms-title-header-nine-section{float: initial;width: 100%;margin-top: 10px;}
+      #ms-title-header-nine-section h2{text-align: center;margin-bottom: 0;}
+      #ms-cta-atelier-nine-section{margin-top: 20px;}
     }
 
   /*------------------------------------*\

@@ -555,7 +555,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
 
     @media only screen and (max-width: 1280px) {
-      /* Responsive Hone page */
+      /* Responsive Home page */
       .ms-padding-home-section{padding:60px 90px!important}
       #ms-left-column-slider #ms-logo-mimosa-home{float: initial;position: relative;left: 50%;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{top:10px;text-align: center;}  
@@ -576,6 +576,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-thankyou-text{padding: 0 100px;}
       .ms-cta-return-home{padding: 0 100px;} 
       /* End ThankYou Page */
+
+      /* Atelier */  
+      .ms-services-line-indicator{right: -60px;}
+      .ms-atelier-services-card{width: 32%;margin: 3px;padding:17px 35px;}
+      .ms-img-icon-services-card svg{margin-top:30px;}
+      #ms-atelier-seven-section-left-container{margin-top: 100px;}
+      #ms-text-header-eigth-section{width: 50%;}
+
     }
     
     @media only screen and (max-width: 992px) {

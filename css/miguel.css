@@ -624,6 +624,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-first-section{padding: 150px;}
       #ms-atelier-first-section h1,
       #ms-atelier-first-section p{text-align: center;}
+      #ms-atelier-third-section{padding: 60px 90px;}
+      .ms-services-img{padding: 20px 0 0 50px;}
+      #ms-services-img img{width: 90%;}
+      .ms-services-line-indicator{top: 160px;right: -50px;}
+      #ms-atelier-fourth-section{padding: 60px 90px 50px 0;}
+      #ms-services-img-rigth img{width: 80%;}
+      #ms-services-img-last{padding: 20px 0 0 90px;}
+      #ms-services-img-last img{width: 90%;}
 
 
       

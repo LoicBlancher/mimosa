@@ -632,7 +632,20 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-services-img-rigth img{width: 80%;}
       #ms-services-img-last{padding: 20px 0 0 90px;}
       #ms-services-img-last img{width: 90%;}
-
+      #ms-atelier-six-section{padding: 60px 90px;}
+      #ms-six-section-image img{width: 270px;}
+      #ms-atelier-seven-section{padding: 60px 90px;}
+      .ms-atelier-services-card{padding: 15px 20px;width: 32%;margin:7px 3px;}
+      .ms-img-icon-services-card svg{margin-top:20px;}
+      #ms-atelier-seven-section-left-container{margin-top:100px;}
+      #ms-cta-seven-section{padding: 14px 25px;}
+      #ms-atelier-eight-section{padding: 60px 90px;}
+      #ms-text-header-eigth-section{width: 55%;}
+      #ms-title-header-eigth-section h2{line-height: 5em;position: relative;left:30px;}
+      #ms-text-header-eigth-section p{margin-top: 60px;}
+      #ms-title-header-nine-section{position: relative;left: 40px;}
+      #ms-wrapper-content-nine-section p{display: inline-block;}
+      #ms-cta-atelier-nine-section{min-width: 130px;}
 
       
     }

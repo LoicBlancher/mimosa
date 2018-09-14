@@ -128,13 +128,22 @@ jQuery(function ($) {
                 '<img src="' + imageHref +'" />' +
             '</div>' +  
           '</div>';
-          $('body').append(msLightbox);
+          $('body').append(msLightbox).fadeIn(1000);
         }
       });
 
       $('#ms-galerie-lightbox').live('click',function(){
         $(this).hide();
       });
+
+      /* Ms - Add transition for header */
+      /*      
+      $(document).on('scroll', function() {
+          if($(this).scrollTop()>=$('#ms-atelier-second-section').position().top){
+              yourActionHere();
+          }
+      })*/
   
+      /*console.log("charge in");*/
  }); 
 });

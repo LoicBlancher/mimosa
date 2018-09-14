@@ -688,7 +688,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-second-section{padding: 50px 70px;}
       #ms-atelier-third-section{padding: 50px 70px;}
       .ms-services-description{width: 40%;}
-      .ms-services-img{width: 60%;padding: 10px;}
+      .ms-services-img{width: 60%;padding: 10px;position: relative;top:30px;}
+      .ms-services-img img{width: 100%;}
       .ms-services-line-indicator{bottom: 50%;right: -26px;}
       #ms-services-img-rigth img{width: 100%;position: relative;left:-90px;}
       #ms-atelier-fourth-section{padding: 50px 70px;}
@@ -698,6 +699,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-six-section{padding: 50px 70px;}
       #ms-six-section-image img{width: 250px;}
       #ms-six-section-text{padding: 50px 30px 0 90px;}
+      #ms-atelier-seven-section{padding: 50px 70px;}
+      #ms-atelier-seven-section-left-container{margin-top:0;}
+      #ms-img-header-left-seven-section img{margin: 0 auto;display: table;}
+      #ms-atelier-seven-section-left-container h2,
+      #ms-atelier-seven-section-left-container p{text-align: center;}
+      #ms-cta-seven-section{margin:30px auto;}
+      #ms-atelier-seven-section-right-container{padding: 30px;position: relative;left:16px;}
+      .ms-atelier-services-card{width: 45%;padding: 15px 50px;}
 
 
 

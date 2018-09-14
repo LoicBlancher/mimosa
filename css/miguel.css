@@ -619,6 +619,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-right-column-slider h1{text-align: center;position: relative;top: -40px;}
       
       /* End ThankYou Page */
+
+      /* Atelier */
+      #ms-atelier-first-section{padding: 150px;}
+      #ms-atelier-first-section h1,
+      #ms-atelier-first-section p{text-align: center;}
+
+
+      
     }
     
     @media only screen and (max-width: 736px) {
@@ -717,8 +725,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-image-header-nine-section img{position: relative;left:100px;}
       #ms-title-header-nine-section{width: 55%;}
       #ms-title-header-nine-section h2{position: relative;right:40px;}
-
-
 
     }
     

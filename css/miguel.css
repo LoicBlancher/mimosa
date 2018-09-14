@@ -483,7 +483,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-title-header-nine-section h2{text-align: left;margin-bottom:40px;}
 #ms-wrapper-content-nine-section p{text-align: center;}
 #ms-wrapper-cta-nine-section-atelier{margin:40px auto;text-align: center;}
-#ms-cta-atelier-nine-section{font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color: var(--mimosa-black-dark);}
+#ms-cta-atelier-nine-section{font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color: var(--mimosa-black-dark);min-width: 200px;}
 #ms-cta-atelier-nine-section:hover{-webkit-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);-moz-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);}
 /*--------------------------------------------------------*\
      END ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
@@ -832,6 +832,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-text-header-eigth-section{float: left;width: 100%;text-align: center;}
       #ms-text-header-eigth-section p{margin-top:0;}
       #ms-image-galerie-box{width: 50%;}
+      #ms-header-nine-section{float: initial;}
+      #ms-image-header-nine-section{}
+      #ms-image-header-nine-section{float: initial;width: 100%;}
+      #ms-image-header-nine-section img{margin:0 auto;display: table;}
+      #ms-title-header-nine-section{float: initial;width: 100%;margin-top: 10px;}
+      #ms-title-header-nine-section h2{text-align: center;margin-bottom: 0;}
+      #ms-cta-atelier-nine-section{margin-top: 20px;}
     }
 
   /*------------------------------------*\

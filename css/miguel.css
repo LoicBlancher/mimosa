@@ -707,7 +707,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-cta-seven-section{margin:30px auto;}
       #ms-atelier-seven-section-right-container{padding: 30px;position: relative;left:16px;}
       .ms-atelier-services-card{width: 45%;padding: 15px 50px;}
-
+      #ms-atelier-eight-section{padding: 50px 70px;}
+      #ms-title-header-eigth-section{width: 30%;text-align: center;}
+      #ms-text-header-eigth-section{width: 50%;}
+      #ms-title-header-eigth-section h2{line-height: 4em;}
+      #ms-text-header-eigth-section p{margin-top:45px;}
 
 
     }

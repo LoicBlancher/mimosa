@@ -712,6 +712,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-text-header-eigth-section{width: 50%;}
       #ms-title-header-eigth-section h2{line-height: 4em;}
       #ms-text-header-eigth-section p{margin-top:45px;}
+      #ms-header-nine-section p{display: inline-block;}
+      #ms-image-header-nine-section{width: 45%;}
+      #ms-image-header-nine-section img{position: relative;left:100px;}
+      #ms-title-header-nine-section{width: 55%;}
+      #ms-title-header-nine-section h2{position: relative;right:40px;}
+
 
 
     }

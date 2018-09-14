@@ -135,6 +135,15 @@ jQuery(function ($) {
       $('#ms-galerie-lightbox').live('click',function(){
         $(this).hide();
       });
+
+      /* Ms - Add transition for header */
+      /*      
+      $(document).on('scroll', function() {
+          if($(this).scrollTop()>=$('#ms-atelier-second-section').position().top){
+              yourActionHere();
+          }
+      })*/
   
+      /*console.log("charge in");*/
  }); 
 });

@@ -809,6 +809,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-services-description-last{width: 100%;}
       #ms-services-line-indicator-last{top: 190px;right: 30px;}
       #ms-services-img-last{bottom: 360px;left: 150px;}
+      #ms-atelier-six-section{padding: 30px 50px!important;}
+      #ms-six-section-image{float: initial;width: 100%;}
+      #ms-six-section-image img{width: 80%;margin: 0 auto;display: inherit;}
+      #ms-six-section-text{float: initial;width: 100%;padding: 10px;}
+      #ms-six-section-text h2{text-align: center;}
+      #ms-six-section-text .ms-large-p{text-align: center;}
+      #ms-cta-atelier-btn{margin: 40px auto;display: table;}
+
 
     }
 

@@ -552,11 +552,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* End ThankYou Page */
 
       /* Contact Page */
+
+      /* Atelier */
+      .ms-services-line-indicator{right: -70px;top: 190px;}
+      .ms-atelier-services-card{width: 32%;margin:4px;padding: 18px 50px;}
+
     }
 
     @media only screen and (max-width: 1280px) {
       /* Responsive Home page */
       .ms-padding-home-section{padding:60px 90px!important}
+      #ms-atelier-second-section{padding: 60px 90px;}
       #ms-left-column-slider #ms-logo-mimosa-home{float: initial;position: relative;left: 50%;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{top:10px;text-align: center;}  
       .ms-wrapper-bullet-with-img{margin-left:70px;}

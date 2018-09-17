@@ -426,13 +426,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
 #ms-atelier-first-section{padding: 280px;}
-#ms-atelier-second-section{padding: 120px 200px 120px 200px;}
+#ms-atelier-second-section{padding: 60px 200px;}
 #ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
 #ms-atelier-secont-section-text p{margin:2px 0;}
 #ms-atelier-secont-section-text h2{margin-bottom: 40px;}
 #ms-italics-p{font-weight: bold;font-style: italic;color:var(--mimosa-black-dark);}
 #ms-video-atelier{display: table;margin: 0 auto;padding: 40px 10px;width: 60%;}
-#ms-atelier-third-section{padding: 40px 200px;}
+#ms-atelier-third-section{padding: 60px 200px;}
 .ms-services-container{width: 100%;float: left;}
 .ms-services-description{width: 30%;float: left;position: relative;}
 .ms-services-description h3{margin-top: 5px;}
@@ -440,20 +440,20 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-services-line-indicator{width: 70px;height: 2px;background: var(--mimosa-yellow);position: absolute;right: -20px;bottom: 55%;}
 .ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: relative;left: 65px;bottom: 9px;}
 .ms-services-img{width: 70%;float: left;padding: 20px 0 0 200px;}
-#ms-atelier-fourth-section{padding: 130px 200px 130px 0;}
+#ms-atelier-fourth-section{padding: 60px 200px;}
 #ms-services-img-rigth{padding:0;}
 #ms-services-line-indicator-rigth{left:-100px;top:58%;}
 .ms-margin-left-text{display: block;margin-left: 20px;}
 #ms-services-description-last{width: 35%;}
 #ms-services-img-last{width: 65%;}
 #ms-services-line-indicator-last{bottom: 42%;right: -50px;}
-#ms-atelier-six-section{padding:80px 200px;}
+#ms-atelier-six-section{padding:60px 200px;}
 #ms-atelier-six-section-content{width: 100%;float: left;}
 #ms-six-section-image{float: left;width: 30%;}
 #ms-six-section-text{float: left;width: 70%;padding:70px;}
 .ms-large-p{font-size: 19px;line-height: 1.4em;}
 #ms-cta-atelier-btn{margin-left: 60px;margin-top: 20px;color: white;text-transform: uppercase;font-family: 'Gotham';font-weight: bold;font-size: 12px;padding: 14px 30px;}
-#ms-atelier-seven-section{padding:130px 200px;}
+#ms-atelier-seven-section{padding:60px 200px;}
 #ms-atelier-seven-section-left-container{margin-top:130px;}
 #ms-img-header-left-seven-section{}
 #ms-cta-seven-section{margin: 0 auto;display: table;font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color:var(--mimosa-black-dark);}
@@ -464,7 +464,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-content-services-card h6{margin-bottom: 10px;}
 .ms-atelier-services-card{float: left;transition: 1s ease;width: 30%;height: auto;background: #dedede;margin: 7px;padding: 20px 60px;box-sizing: border-box;border-radius: 7px;}
 .ms-atelier-services-card:hover{-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;background: var(--mimosa-yellow);box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);-moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
-#ms-atelier-eight-section{padding:80px 200px;}
+#ms-atelier-eight-section{padding:60px 200px;}
 #ms-header-container-eigth-section{float: left;width: 100%;}
 #ms-image-herder-eigth-section{float: left;width: 20%;}
 #ms-title-header-eigth-section h2{line-height: 2em;}
@@ -511,6 +511,76 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     BEGIN RESPONSIVE MG
 \*------------------------------------*/
   /*------------------------------------*\
+      Begin Intervals Responsive
+  \*------------------------------------*/
+  @media only screen and (min-width: 1098px) and (max-width: 1280px){
+
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1098px) {
+    /* Atelier */
+    #ms-atelier-third-section,
+    #ms-atelier-six-section,
+    #ms-services-line-indicator-rigth{top:40%;}
+    #ms-six-section-image{padding: 90px 0;}
+    #ms-six-section-image img{width: 250px;}
+    #ms-cta-seven-section{width: 190px;}
+    #ms-wrapper-cta-nine-section-atelier{width: 450px;}
+    #ms-text-header-eigth-section p{position: relative;left:40px;top:30px;}
+    #ms-title-header-eigth-section h2{position: relative;left: 15px;top: 30px;}
+    #ms-atelier-second-section,#ms-atelier-third-section,
+    #ms-atelier-fourth-section,#ms-atelier-six-section,
+    #ms-atelier-seven-section,#ms-atelier-eight-section{padding: 60px 130px!important;}
+    .ms-services-img{padding: 0;position: relative;left:80px;}
+    #ms-services-img-rigth{position: relative;left: -140px;}
+    #ms-services-line-indicator-rigth{left: -140px!important;}
+    #ms-services-img-last{width: 50%;position: relative;left: 100px!important;}
+  }
+
+  @media only screen and (min-width: 780px) and (max-width: 992px){
+    /* Atelier */
+    .ms-services-img img{width: 100%!important;position: relative;left: 40px;}
+    #ms-services-img-rigth{position: relative;left: -40px;}
+    #ms-services-line-indicator-rigth{top:40%;}
+    #ms-six-section-image img{width: 200px;padding: 90px 0;}
+    .ms-atelier-services-card{padding: 15px 20px!important;width: 48%!important;margin: 7px 3px!important;}
+    #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
+    #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;}
+  }
+
+  @media only screen and (min-width: 736px) and (max-width: 780px){
+    /* Atelier */
+    #ms-img-header-left-seven-section{margin:0 auto;display: table;}
+    #ms-atelier-seven-section-left-container h2,
+    #ms-atelier-seven-section-left-container p{text-align: center;}
+    #ms-cta-seven-section{margin:20px auto;}
+    #ms-text-header-eigth-section p{position: relative;left: 20px;}
+    #ms-title-header-eigth-section h2{left: 40px!important;}
+    #ms-six-section-image img{width: 200px;padding: 90px 0;}
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 736px) {
+   /* Atelier */
+    .ms-services-line-indicator{top: 100px!important;left: 130px;}
+    #ms-services-line-indicator-rigth{left: -90px;top: 120px;}
+    #ms-services-line-indicator-last{left: 120px!important;top:120px!important;}
+    .ms-services-img{right: -50px!important;}
+    #ms-six-section-text{padding: 50px 30px 0 40px;position: relative;left: 30px;}
+    #ms-six-section-image img{width: 200px!important;}
+    #ms-six-section-image{position: relative;left: -50px;}
+    #ms-cta-atelier-btn{width: 200px!important;position: relative;left: -60px;text-align: center;}
+    #ms-image-herder-eigth-section img{width: 120px;}
+    #ms-text-header-eigth-section p{position: relative;left: 50px;margin-top: 40px!important;}
+    #ms-title-header-eigth-section h2{position: relative;left: 42px;}
+  } 
+
+
+  /*------------------------------------*\
+      End Intervals Responsive
+  \*------------------------------------*/
+
+
+  /*------------------------------------*\
       BEGIN Min Width
   \*------------------------------------*/
   @media only screen  and (min-width : 1824px) {
@@ -533,7 +603,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
     @media only screen  and (min-width : 1280px) {
-
+      #ms-services-img-last img{width: 100%;}
     }
 
     @media only screen  and (min-width : 992px) {
@@ -541,7 +611,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
 
     @media only screen  and (min-width : 736px) {
-      .ms-services-img img{width: 90%;}
     }
 
     @media only screen  and (min-width : 480px) {
@@ -605,8 +674,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-img-icon-services-card svg{margin-top:30px;}
       #ms-atelier-seven-section-left-container{margin-top: 100px;}
       #ms-text-header-eigth-section{width: 50%;}
-      .ms-services-img img{width: unset;}
-      #ms-services-img-last img{width: 100%;}
+      .ms-services-img img{width: 100%;}
 
     }
     
@@ -663,20 +731,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-services-img-rigth img{width: 80%;}
       #ms-services-img-last{padding: 20px 0 0 90px;}
       #ms-atelier-six-section{padding: 60px 90px;}
-      #ms-six-section-image img{width: 270px;}
       #ms-atelier-seven-section{padding: 60px 90px;}
-      .ms-atelier-services-card{padding: 15px 20px;width: 32%;margin:7px 3px;}
       .ms-img-icon-services-card svg{margin-top:20px;}
       #ms-atelier-seven-section-left-container{margin-top:100px;}
-      #ms-cta-seven-section{padding: 14px 25px;}
       #ms-atelier-eight-section{padding: 60px 90px;}
       #ms-text-header-eigth-section{width: 55%;}
       #ms-title-header-eigth-section h2{line-height: 5em;position: relative;left:30px;}
       #ms-text-header-eigth-section p{margin-top: 60px;}
       #ms-title-header-nine-section{position: relative;left: 40px;}
       #ms-wrapper-content-nine-section p{display: inline-block;}
-      #ms-cta-atelier-nine-section{min-width: 130px;}
-      .ms-services-img img{width: 80%;}
 
       
     }
@@ -749,14 +812,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-third-section{padding: 50px 70px;}
       .ms-services-description{width: 40%;}
       .ms-services-img{width: 60%;padding: 10px;position: relative;top:30px;right: -20px;}
-      .ms-services-line-indicator{bottom: 50%;right: -26px;}
       #ms-services-img-rigth img{width: 100%;position: relative;left:-90px;}
       #ms-atelier-fourth-section{padding: 50px 70px;}
       #ms-services-description-last{width: 40%;}
       #ms-services-img-last{width: 60%;position: relative;right: -70px;}
       #ms-atelier-six-section{padding: 50px 70px;}
-      #ms-six-section-image img{width: 250px;}
-      #ms-six-section-text{padding: 50px 30px 0 90px;}
       #ms-atelier-seven-section{padding: 50px 70px;}
       #ms-atelier-seven-section-left-container{margin-top:0;}
       #ms-img-header-left-seven-section img{margin: 0 auto;display: table;}
@@ -768,8 +828,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-eight-section{padding: 50px 70px;}
       #ms-title-header-eigth-section{width: 30%;text-align: center;}
       #ms-text-header-eigth-section{width: 50%;}
-      #ms-title-header-eigth-section h2{line-height: 4em;}
-      #ms-text-header-eigth-section p{margin-top:45px;}
       #ms-header-nine-section p{display: inline-block;}
       #ms-image-header-nine-section{width: 45%;}
       #ms-image-header-nine-section img{position: relative;left:100px;}
@@ -898,12 +956,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-services-container{float: initial;}
       .ms-services-description{width: 100%;float: initial;}
       .ms-services-img{width: 75%;float: initial;padding: 20px;position: relative;bottom: 310px;left: 110px;}
-      .ms-services-img img{width: 80%;}  
+      .ms-services-img img{width: 60%;position: relative;bottom: -20px;left: 30px;}  
       .ms-services-line-indicator{top: 190px;right: 30px;}
       #ms-atelier-fourth-section{padding: 30px 50px;position: relative;}
       #ms-services-img-rigth{position: absolute;top: 0;width: 200px;left: 0;}  
       #ms-bullet-rigth{position: relative;left: 55%;}
-      #ms-services-line-indicator-rigth{left: 50px;}
+      #ms-services-line-indicator-rigth{left: 50px;top:190px;}
       .ms-services-container{float: initial;}
       #ms-services-description-last{width: 100%;}
       #ms-services-line-indicator-last{top: 190px;right: 30px;}
@@ -946,6 +1004,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-services-img{top:unset;}
       #ms-services-img-rigth img{position: static;}
     }
+
+     @media only screen and (max-width: 360px) {
+        #ms-atelier-first-section h1{right: 20px;font-size: 38px;}
+        .ms-services-bullet{font-size: 85px;}
+        .ms-services-line-indicator{top:90px;}
+        #ms-services-line-indicator-rigth{top:165px;}
+        #ms-bullet-rigth{left: 65%;}
+        .ms-services-img img{left:10px;}
+     }
 
   /*------------------------------------*\
       END Max Width

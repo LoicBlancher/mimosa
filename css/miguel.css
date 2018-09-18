@@ -615,6 +615,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-wrapper-title-five-section h2{margin-bottom:20px;}  
   }
     @media only screen  and (min-width : 1400px){
+      #mg-wrapper-main-menu #mg-main-menu-content ul li{line-height: 2.7em;}
       #ms-services-img-rigth {position: relative;left: -220px;}
     }
 

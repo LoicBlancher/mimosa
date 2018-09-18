@@ -64,7 +64,8 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form #ms-services-textbox::placeholder{font-size:11px;color:var(--mimosa-gray-dark);position: relative;top:8px;left:5px;}
 .ms-wrapper-contact-form #ms-subt-label-form{}
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
-.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email,.ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;padding: 10px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email{letter-spacing: 0.1em;margin-top:19px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
+.ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.nom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.prenom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.email{float: left;width: 100%;height: 30px;margin-bottom: 20px;}

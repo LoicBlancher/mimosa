@@ -260,8 +260,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-wrapper-map-info p.white{text-align: center;padding: 0 40px;}
 #ms-wrapper-map-info .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 40px;}
 #ms-five-section-home #ms-wrapper-title-five-section{text-align: center;}
-#ms-wrapper-title-five-section h3,#ms-wrapper-title-five-section h4{margin:0;}
-#ms-wrapper-clients-section{padding: 30px 40px;width: 100%;background: rgba(255, 255, 255, 0.75);box-shadow: 2px 10px 30px -10px #7d7676;}
+#ms-wrapper-title-five-section h3{margin:10px 0 0 0;}
+#ms-wrapper-title-five-section h4{margin:30px 0 0 0;}
+#ms-wrapper-clients-section{margin-top: 70px;padding: 30px 40px;width: 100%;background: rgba(255, 255, 255, 0.75);box-shadow: 2px 10px 30px -10px #7d7676;}
 #ms-wrapper-clients-section h4,#ms-wrapper-clients-section p{text-align: center;margin:0;}
 #ms-slider-clients{padding:15px;}
 #ms-wrapper-clients-section h3{text-align: center;}

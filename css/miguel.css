@@ -549,6 +549,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
   @media only screen and (min-width: 780px) and (max-width: 992px){
+    /* Home page */
+
+    .ms-six-section-image{width: 58%;}
+    .ms-map-pin-info{min-width: 400px;}
+
     /* Atelier */
     .ms-services-img img{width: 100%!important;position: relative;left: 40px;}
     #ms-services-img-rigth{position: relative;left: -40px;}
@@ -558,6 +563,23 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
     #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;}
   }
+  
+  @media only screen and (min-width: 737px) and (max-width: 780px){
+    #ms-right-column-slider p.yellow{text-align: center;}
+    #ms-right-column-slider #ms-know-more{text-align: center;}
+    #ms-left-column-slider #ms-slider-white-p{top:-10px!important;}
+    #ms-right-column-slider h1{line-height: 1.1em;}
+    #ms-second-section-home .ms-img-left-section{display: none;}
+    #ms-second-section-home .ms-mimosa-subtitle{display: inherit;text-align: center;}
+    #ms-second-section-home h2,
+    #ms-second-section-home h4,
+    #ms-second-section-home p.gray{text-align: center;}
+    #ms-second-section-home .ms-primary-btn-bl{display: table;margin:30px auto 0 auto;}
+    .ms-wrapper-bullet-with-img{width: 100%;float: left;margin-left: 0!important;}
+    .ms-container-bullet{width: 40%;float: left}
+    #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{display: none;}
+
+  }  
 
   @media only screen and (min-width: 736px) and (max-width: 780px){
     /* Atelier */
@@ -587,7 +609,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-title-header-eigth-section h2{position: relative;left: 42px;}
   } 
 
-
+    @media only screen and (min-width: 360px) and (max-width: 555px){
+      #ms-six-section-home .ms-primary-btn-bl,
+      #ms-six-section-home .ms-transparent-btn-bl{min-width: 130px;max-width: 140px;padding: 15px 13px;font-size: 10.5px;margin-right: 12px;display: inline;}
+      #ms-wrapper-btns-lastsection{margin: 30px auto;}
+      .ms-map-pin-info{height: 55px;padding: 14px 10px;} 
+      .ms-map-pin-text{font-size: 13px;} 
+      #ms-second-section-home h4{font-size: 17px;margin-top: 40px!important;}
+      #ms-six-section-home{padding: 170px 100px 30px 100px!important;}  
+    }
   /*------------------------------------*\
       End Intervals Responsive
   \*------------------------------------*/
@@ -677,7 +707,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-third-section-home #ms-third-section-content h4{margin:10px 0;}
       #ms-wrapper-title-five-section h4{margin-top: 140px;}
       #ms-six-section-home{padding:90px 80px!important;}
-      .ms-six-section-image{width: 80%;}
       /* ThankYou Page */
       .ms-thankyou-header-text{font-size: 50px;padding: 200px 100px 40px 40px;}
       .ms-thankyou-text p{margin-top:-40px;}
@@ -716,7 +745,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-third-section-home #ms-third-section-content h4{margin:10px 0;}
       #ms-wrapper-title-five-section h4{margin-top: 140px;}
       #ms-six-section-home{padding:90px 80px!important;}
-      .ms-six-section-image{width: 80%;}
+       #ms-last-section-home-menu{display: none;}
       /* Header Responsive */
       #mg-main-menu-btn-mobile{display: block;}
       #mg-info-header{visibility: hidden;}
@@ -791,7 +820,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-clients-section{margin-top: 50px;}
       #ms-six-section-home{padding: 170px 100px!important;}
       .ms-wrapper-bullet-with-img{margin-left:0;}
-      .ms-six-section-image{width:58%; }
       .ms-container-bullet{margin-left:0;}
       .ms-bullets-mimosa-img{display: initial;}
 
@@ -884,7 +912,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-five-section-home #ms-wrapper-clients-section{margin-top:60px;}
       #ms-five-section-home #ms-wrapper-clients-section h4, #ms-wrapper-clients-section p{margin-bottom: 10px;}
       #ms-six-section-home{padding: 170px 50px!important}
-      #ms-last-section-home-menu{display: none;}
       #ms-last-section-home-yl{padding: 0;}
       .home footer{padding: 10px 0;}
       .home footer h6{margin:20px 0;}

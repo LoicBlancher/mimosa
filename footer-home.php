@@ -28,9 +28,7 @@
               <?php footer_terms(); ?>
             </div>
             <div id="mg-menu-logo-main">
-              <?php $logo_mimosa= get_option('logo');?>
-              <?php echo $logo_mimosa?>
-              <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo $logo_mimosa?>" alt="" class="mg-logo-img-menu">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-white-logo.png" alt="" class="mg-logo-img-menu">
             </div>
           </div>
       </div>      

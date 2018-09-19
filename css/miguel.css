@@ -64,14 +64,14 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form #ms-services-textbox::placeholder{font-size:11px;color:var(--mimosa-gray-dark);position: relative;top:8px;left:5px;}
 /*[acceptance accepte class:ms-form-mimosa-contact-checkbox "J'accepte le traitement de mes données"]*/
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
-.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email{letter-spacing: 0.1em;margin-top:19px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email{letter-spacing: 0.1em;margin-top:19px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;outline: none;}
 .ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.nom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.prenom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.email{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.sujet{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.accepte{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
-.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;outline:none;}
 .ms-wrapper-contact-form .ms-footer-form{width: 100%;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
@@ -1104,8 +1104,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #responsiveContact{display: none;}
   #ms-contactInfo-contactP{padding: 50px 10px;} 
   #ms-contactInfo-contactP a{display: block;padding: 7px 0;}
-  #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:12px;display: inline;font-weight: bold;}  
+  #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:14px;display: inline;font-weight: bold;letter-spacing: 0.06em;}  
   #ms-contactInfo-contactP p#ms-phone-contactP{font-size:20px;}
+  #ms-text-map-pin-contactinfo-sh{margin-left:3px;}
   #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
   #ms-contactInfo-contactP a svg#ms-pin-contactP{margin:0 18px 0 14px;}
   .ms-social-infolgcontactP{display: table;margin:0 auto;padding-bottom: 40px;}

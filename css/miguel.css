@@ -58,11 +58,11 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form #ms-wrapper-checkbox-services{width: 100%;float: left;margin-bottom: 30px;}
 .ms-wrapper-contact-form #ms-wrapper-checkbox-services #ms-label-checkbox-services{width: 40%;float: left;}
 .ms-wrapper-contact-form #ms-checkbox-services .wpcf7-list-item-label{font-size: 14px;color: var(--mimosa-gray-dark);line-height: 2.5em;}
-.ms-wrapper-contact-form #ms-checkbox-services input[type="checkbox"]{width: 20px;height: 20px;}
+.ms-wrapper-contact-form #ms-checkbox-services input[type="checkbox"]{width: 20px;height: 20px;}*/
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.services-int{width: 60%;float: left;}
 .ms-wrapper-contact-form #ms-services-textbox{margin: 30px 0 60px 150px;width: 70%;background: #f6f6f6;overflow-x: hidden;border: 1px solid #e0e0e0;border-radius: 5px;resize: none;}
 .ms-wrapper-contact-form #ms-services-textbox::placeholder{font-size:11px;color:var(--mimosa-gray-dark);position: relative;top:8px;left:5px;}
-.ms-wrapper-contact-form #ms-subt-label-form{}
+/*[acceptance accepte class:ms-form-mimosa-contact-checkbox "J'accepte le traitement de mes données"]*/
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
 .ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email{letter-spacing: 0.1em;margin-top:19px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
 .ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
@@ -76,8 +76,24 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{position: relative;left:16%;font-size:12px;font-weight: normal;color:#828180;}
-.ms-wrapper-contact-form .ms-footer-form .ms-form-mimosa-contact-checkbox{position:relative;top:6px;width: 20px;height: 20px;}
 .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
+/* Mimosa Checkbox */
+  /* custom checkbox */
+  .checkbox {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;font-size: 22px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+  /* hide the browser's default checkbox */
+  .checkbox input {position: absolute;opacity: 0;cursor: pointer;}
+  /* create custom checkbox */
+  .check {position: absolute;top: 0;left: 0;height: 20px;width: 20px;background-color: #fff;border: 1px solid #ccc;}
+  /* on mouse-over, add border color */
+  .checkbox:hover input ~ .check {border: 2px solid var(--mimosa-yellow);}
+  /* add background color when the checkbox is checked */
+  .checkbox input:checked ~ .check {background-color: #f4f4f8;border:none;}
+  /* create the checkmark and hide when not checked */
+  .check:after {content: "\2713";position: absolute;display: none;}
+  /* show the checkmark when checked */
+  .checkbox input:checked ~ .check:after {display: block;}
+  /* checkmark style */
+  .checkbox .check:after {left: 4px;top: -12px;width: 5px;height: 10px;border: solid white;border-width: 0 3px 3px 0;color:var(--mimosa-yellow);font-size:25px;}
 /* Button Styles */
 .ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;}
 .ms-primary-btn-bl{padding: 16px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background: var(--mimosa-yellow);font-size: 11px;color: var(--mimosa-black-dark);font-weight: bold;text-transform: uppercase;}
@@ -1097,8 +1113,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     End Partials
 \*------------------------------------*/  
 
-  
-  
+
   
 
   

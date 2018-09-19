@@ -79,6 +79,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
 /* Mimosa Checkbox */
   /* custom checkbox */
+  #ms-check-contact-page{text-transform: capitalize;color: var(--mimosa-black-semi-dark);font-weight: normal;font-size: 12px;letter-spacing: 0.1em;top:50px;}
   .checkbox {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;font-size: 22px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
   /* hide the browser's default checkbox */
   .checkbox input {position: absolute;opacity: 0;cursor: pointer;}

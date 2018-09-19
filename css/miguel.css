@@ -76,7 +76,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{position: relative;left:16%;font-size:12px;font-weight: normal;color:#828180;}
-.ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
+.ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:9%;float: left;width: 30%;margin-top: 40px;color:white;}
 /* Mimosa Checkbox */
   /* custom checkbox */
   #ms-check-contact-page{text-transform: capitalize;color: var(--mimosa-black-semi-dark);font-weight: normal;font-size: 12px;letter-spacing: 0.1em;top:50px;}
@@ -409,13 +409,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   /* Header Contact */
   .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;box-shadow: 4px 2px 30px 10px rgb(0,0,0,0.2);}
   .ms-left-section-fixed img{width: 100%;}
+  #ms-header-contact-page p.first{margin-bottom: 50px;}
   .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
   .ms-padding-contact{padding:30px 120px;}
   .ms-call-to-action{padding: 100px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
   .ms-call-to-action-padding{padding: 60px 30px;}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
-  .ms-responsive-page-layout{}
   #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}
+  #ms-contactpage-socials-largest h2{margin-bottom: 30px;}
 /*------------------------------------*\
     End Contact Page
 \*------------------------------------*/
@@ -1109,7 +1110,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #ms-text-map-pin-contactinfo-sh{margin-left:3px;}
   #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
   #ms-contactInfo-contactP a svg#ms-pin-contactP{margin:0 18px 0 14px;}
-  .ms-social-infolgcontactP{display: table;margin:0 auto;padding-bottom: 40px;}
+  .ms-social-infolgcontactP{display: table;margin:0 auto;}
   .ms-social-infolgcontactP svg{margin:0 20px;font-size: 52px;color:#7B7B7B;}  
 /*------------------------------------*\
     End Partials

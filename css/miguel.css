@@ -582,7 +582,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
     #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;}
   }
-  
+
+  @media only screen and (min-width: 768px) and (max-width: 992px){
+    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{width: 80%;position: relative;left:50px;}
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 10px;}
+    .ms-padding-contact img,
+    #ms-contactInfo-contactP{display: table;margin:0 auto;}  
+  }
+
+
   @media only screen and (min-width: 737px) and (max-width: 780px){
     #ms-right-column-slider p.yellow{text-align: center;}
     #ms-right-column-slider #ms-know-more{text-align: center;}
@@ -628,7 +636,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-title-header-eigth-section h2{position: relative;left: 42px;}
   } 
 
-  @media only screen and (min-width: 732px) and (max-width: 768px){
+  @media only screen and (min-width: 732px) and (max-width: 767px){
     /* Contact */
     .ms-padding-contact{padding: 30px 70px;}
     .ms-padding-contact img,
@@ -1047,12 +1055,20 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
       /* Responsive Contact Page */
       .ms-padding-contact{padding: 30px 40px;}
-      .ms-right-section-scroll h1{font-size: 58px;}
+      .ms-right-section-scroll h1{font-size: 50px;}
+      .ms-wrapper-contact-form label{font-size: 11px;}
       .ms-wrapper-contact-form .ms-form-mimosa-contact-text, .ms-form-mimosa-contact-email, .ms-form-mimosa-contact-sujet{left: 19%;}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 100%;}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{left:11%;}
       .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 60%;left:22%;}
       #ms-image-map-contact-responsive img{width: 100%;height:600px; }
+      .ms-footer-pts{padding: 40px;}
+      .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+      #ms-footer-first-pts h6,
+      #ms-footer-first-pts ul li,
+      .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+      .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 60px;}
+      .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -2px;}
       /* Responsive  Atelier */
       #ms-atelier-first-section{padding:50px 80px;}
       #ms-atelier-first-section h1{position: relative;right: 35px;}
@@ -1126,13 +1142,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         .ms-right-section-scroll h1{font-size: 42px;margin:40px 0 20px 0;}
         .ms-wrapper-contact-form label{font-size: 10px;}
         .ms-social-infolgcontactP svg{font-size: 40px!important;}
-        .ms-footer-pts{padding: 40px;}
-        .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
-        #ms-footer-first-pts h6,
-        #ms-footer-first-pts ul li,
-        .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
-        .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 60px;}
-        .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -2px;}
         /* Atelier */
         #ms-atelier-first-section h1{right: 20px;font-size: 38px;}
         .ms-services-bullet{font-size: 85px;}

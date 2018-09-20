@@ -16,7 +16,6 @@ jQuery(function ($) {
          $("#mg-wrapper-main-menu").fadeToggle(200);
      });
 
-      console.log("test12");
 
      $("#mg-close-menu").click(function () {
          $('#mg-external-wrapper-main-menu').fadeToggle(200); 
@@ -120,7 +119,6 @@ jQuery(function ($) {
         }
       }
 
-
       /* Ms Galerie */
       $('.ms-lightbox-trigger').click(function(e){
         e.preventDefault();
@@ -143,14 +141,8 @@ jQuery(function ($) {
         $(this).hide();
       });
 
-      /* Ms - Add transition for header */
-      /*      
-      $(document).on('scroll', function() {
-          if($(this).scrollTop()>=$('#ms-atelier-second-section').position().top){
-              yourActionHere();
-          }
-      })*/
-  
-      /*console.log("charge in");*/
+      //Ms contact form notify
+   
+
  }); 
 });

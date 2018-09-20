@@ -58,25 +58,43 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form #ms-wrapper-checkbox-services{width: 100%;float: left;margin-bottom: 30px;}
 .ms-wrapper-contact-form #ms-wrapper-checkbox-services #ms-label-checkbox-services{width: 40%;float: left;}
 .ms-wrapper-contact-form #ms-checkbox-services .wpcf7-list-item-label{font-size: 14px;color: var(--mimosa-gray-dark);line-height: 2.5em;}
-.ms-wrapper-contact-form #ms-checkbox-services input[type="checkbox"]{width: 20px;height: 20px;}
+.ms-wrapper-contact-form #ms-checkbox-services input[type="checkbox"]{width: 20px;height: 20px;}*/
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.services-int{width: 60%;float: left;}
 .ms-wrapper-contact-form #ms-services-textbox{margin: 30px 0 60px 150px;width: 70%;background: #f6f6f6;overflow-x: hidden;border: 1px solid #e0e0e0;border-radius: 5px;resize: none;}
 .ms-wrapper-contact-form #ms-services-textbox::placeholder{font-size:11px;color:var(--mimosa-gray-dark);position: relative;top:8px;left:5px;}
-.ms-wrapper-contact-form #ms-subt-label-form{}
+/*[acceptance accepte class:ms-form-mimosa-contact-checkbox "J'accepte le traitement de mes données"]*/
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
-.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email,.ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;padding: 10px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email{letter-spacing: 0.1em;margin-top:19px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;outline: none;}
+.ms-form-mimosa-contact-sujet{letter-spacing: 0.1em;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.nom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.prenom{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.email{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.sujet{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.accepte{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
-.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;outline:none;}
 .ms-wrapper-contact-form .ms-footer-form{width: 100%;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{position: relative;left:16%;font-size:12px;font-weight: normal;color:#828180;}
-.ms-wrapper-contact-form .ms-footer-form .ms-form-mimosa-contact-checkbox{position:relative;top:6px;width: 20px;height: 20px;}
-.ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:6%;float: left;width: 30%;margin-top: 40px;color:white;}
+.ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{cursor:pointer;font-weight: bold;position: relative;left:9%;float: left;width: 30%;margin-top: 40px;color:white;}
+/* Mimosa Checkbox */
+  /* custom checkbox */
+  #ms-check-contact-page{text-transform: capitalize;color: var(--mimosa-black-semi-dark);font-weight: normal;font-size: 12px;letter-spacing: 0.1em;top:50px;}
+  .checkbox {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;font-size: 22px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+  /* hide the browser's default checkbox */
+  .checkbox input {position: absolute;opacity: 0;cursor: pointer;}
+  /* create custom checkbox */
+  .check {position: absolute;top: 0;left: 0;height: 20px;width: 20px;background-color: #fff;border: 1px solid #ccc;}
+  /* on mouse-over, add border color */
+  .checkbox:hover input ~ .check {border: 2px solid var(--mimosa-yellow);}
+  /* add background color when the checkbox is checked */
+  .checkbox input:checked ~ .check {background-color: #f4f4f8;border:none;}
+  /* create the checkmark and hide when not checked */
+  .check:after {content: "\2713";position: absolute;display: none;}
+  /* show the checkmark when checked */
+  .checkbox input:checked ~ .check:after {display: block;}
+  /* checkmark style */
+  .checkbox .check:after {left: 4px;top: -12px;width: 5px;height: 10px;border: solid white;border-width: 0 3px 3px 0;color:var(--mimosa-yellow);font-size:25px;}
 /* Button Styles */
 .ms-primary-btn-wt{border:none;padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px;}
 .ms-primary-btn-bl{padding: 16px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background: var(--mimosa-yellow);font-size: 11px;color: var(--mimosa-black-dark);font-weight: bold;text-transform: uppercase;}
@@ -391,13 +409,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   /* Header Contact */
   .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;box-shadow: 4px 2px 30px 10px rgb(0,0,0,0.2);}
   .ms-left-section-fixed img{width: 100%;}
+  #ms-header-contact-page p.first{margin-bottom: 50px;}
   .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
   .ms-padding-contact{padding:30px 120px;}
   .ms-call-to-action{padding: 100px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
   .ms-call-to-action-padding{padding: 60px 30px;}
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
-  .ms-responsive-page-layout{}
   #ms-btn-cta-cp{color: var(--mimosa-black-semi-dark);text-transform: uppercase;border: 1px solid var(--mimosa-yellow);font-family: 'Gotham';font-weight: bold;font-size: 12px;display: table;margin: 0 auto;padding: 20px 60px;}
+  #ms-contactpage-socials-largest h2{margin-bottom: 30px;}
 /*------------------------------------*\
     End Contact Page
 \*------------------------------------*/
@@ -527,6 +546,19 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-cta-seven-section{width: 190px;}
   }
 
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Contact page */
+    .ms-padding-contact{padding: 30px 70px;}
+    .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{position: relative;left: 40%;}
+    #ms-contactInfo-contactP a svg{font-size: 20px;}
+    #ms-contactInfo-contactP p#ms-phone-contactP{font-size: 13px!important;}
+    .ms-padding-contact img{margin-top:60px;}
+    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 25%;width: 70%;}
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 17px;}
+    .ms-footer-pts{padding: 50px;}
+
+  } 
+
   @media only screen and (min-width: 992px) and (max-width: 1098px) {
     /* Atelier */
     #ms-atelier-third-section,
@@ -546,6 +578,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-services-line-indicator-rigth{left: -140px!important;}
     #ms-services-img-last{width: 50%;position: relative;left: 100px!important;}
 
+
+    /* Contact page */
+
   }
 
   @media only screen and (min-width: 780px) and (max-width: 992px){
@@ -563,7 +598,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
     #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;}
   }
-  
+
+  @media only screen and (min-width: 768px) and (max-width: 992px){
+    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{width: 80%;position: relative;left:50px;}
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 10px;}
+    .ms-padding-contact img,
+    #ms-contactInfo-contactP{display: table;margin:0 auto;}  
+  }
+
+
   @media only screen and (min-width: 737px) and (max-width: 780px){
     #ms-right-column-slider p.yellow{text-align: center;}
     #ms-right-column-slider #ms-know-more{text-align: center;}
@@ -609,6 +652,38 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-title-header-eigth-section h2{position: relative;left: 42px;}
   } 
 
+  @media only screen and (min-width: 732px) and (max-width: 767px){
+    /* Contact */
+    .ms-padding-contact{padding: 30px 70px;}
+    .ms-padding-contact img,
+    .ms-contactInfo-contactP{display: table;margin:0 auto;}
+    .ms-footer-pts{padding: 40px;}
+    .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+    #ms-contactInfo-contactP{display: table;margin:0 auto;}
+    #ms-footer-first-pts h6,
+    #ms-footer-first-pts ul li,
+    .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 35%;width: 100%;} 
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -95px;}
+    #mg-footer-menu-terms{display: table;margin:0 auto;}
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 732px){
+    /* Contact */
+    .ms-padding-contact{padding: 40px 60px;}
+    .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 40%;position: relative;left:30%;top:20px;}
+    .ms-padding-contact img,
+    .ms-contactInfo-contactP{display: table;margin:0 auto;}
+    .ms-footer-pts{padding: 40px;}
+    .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+    #ms-contactInfo-contactP{display: table;margin:0 auto;}
+    #ms-footer-first-pts h6,
+    #ms-footer-first-pts ul li,
+    .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 12%;width: 100%;} 
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -30px;}
+  }
+
     @media only screen and (min-width: 360px) and (max-width: 555px){
       #ms-six-section-home .ms-primary-btn-bl,
       #ms-six-section-home .ms-transparent-btn-bl{min-width: 130px;max-width: 140px;padding: 15px 13px;font-size: 10.5px;margin-right: 12px;display: inline;}
@@ -616,7 +691,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-map-pin-info{height: 55px;padding: 14px 10px;} 
       .ms-map-pin-text{font-size: 13px;} 
       #ms-second-section-home h4{font-size: 17px;margin-top: 40px!important;}
-      #ms-six-section-home{padding: 170px 100px 30px 100px!important;}  
+      #ms-six-section-home{padding: 170px 100px 30px 100px!important;}
+      
     }
   /*------------------------------------*\
       End Intervals Responsive
@@ -654,7 +730,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
 
     @media only screen  and (min-width : 992px) {
-      
+      #ms-image-map-contact-responsive{display: none;}
     }
 
     @media only screen  and (min-width : 736px) {
@@ -757,6 +833,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #mg-footer-first #mg-social-main-menu{margin-left: 30px;}
       /* End Responsive footer*/
       
+      /* Responsive contact page */
+      .ms-left-section-fixed{display: none;}
+      .ms-right-section-scroll{width: 100%;}
+      #ms-image-map-contact-responsive{display: block;}
+      #ms-image-map-contact-responsive img{width: 100%;height:1050px; }
+
+
+
       /* ThankYou Page */
       .ms-thankyou-header-text{padding: 0;}
       .ms-thankyou-header-text p{text-align: center;padding:150px 0 30px 0;}
@@ -848,6 +932,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:19px;}
       .ms-footerTyPage #mg-menu-terms-main ul{padding: 0;position: relative;left:22%;}
       /* End ThankYou Page */
+      
+      /* Contact page */
+      #ms-image-map-contact-responsive img{width: 100%;height:900px; }
 
       /* Atelier */
       #ms-atelier-first-section{padding: 130px 70px;}
@@ -983,15 +1070,21 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* End Thank You page */
 
       /* Responsive Contact Page */
-      .ms-left-section-fixed{display: none;}
-      .ms-right-section-scroll{width: 100%;float: initial;}
       .ms-padding-contact{padding: 30px 40px;}
-      .ms-right-section-scroll h1{font-size: 58px;}
+      .ms-right-section-scroll h1{font-size: 50px;}
+      .ms-wrapper-contact-form label{font-size: 11px;}
       .ms-wrapper-contact-form .ms-form-mimosa-contact-text, .ms-form-mimosa-contact-email, .ms-form-mimosa-contact-sujet{left: 19%;}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 100%;}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{left:11%;}
       .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 60%;left:22%;}
-    
+      #ms-image-map-contact-responsive img{width: 100%;height:600px; }
+      .ms-footer-pts{padding: 40px;}
+      .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+      #ms-footer-first-pts h6,
+      #ms-footer-first-pts ul li,
+      .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+      .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 60px;}
+      .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -2px;}
       /* Responsive  Atelier */
       #ms-atelier-first-section{padding:50px 80px;}
       #ms-atelier-first-section h1{position: relative;right: 35px;}
@@ -1060,6 +1153,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{min-width: 40px;max-width: 140px;padding: 13px 20px;font-size: 10px;}
         #ms-six-section-home{padding: 170px 50px 30px 50px!important;}
         #ms-second-section-home h4{font-size: 16px;margin-top: 40px;}
+        
+        /* Responsive contact page */
+        .ms-right-section-scroll h1{font-size: 42px;margin:40px 0 20px 0;}
+        .ms-wrapper-contact-form label{font-size: 10px;}
+        .ms-social-infolgcontactP svg{font-size: 40px!important;}
         /* Atelier */
         #ms-atelier-first-section h1{right: 20px;font-size: 38px;}
         .ms-services-bullet{font-size: 85px;}
@@ -1069,6 +1167,24 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         .ms-services-img img{left:10px;}
      }
 
+      @media only screen and (max-width: 320px){
+
+        /* Contact Page */
+        .ms-padding-contact{padding: 30px;}
+        .ms-wrapper-contact-form label{font-size: 9px;}
+        #ms-check-contact-page{font-size: 10px;}
+        .ms-wrapper-contact-form .ms-form-mimosa-contact-text{font-size: 10px;}
+        #ms-contactInfo-contactP a svg{font-size: 20px;}
+        #ms-contactInfo-contactP{padding: 20px 10px!important;}
+        #ms-contactInfo-contactP p#ms-phone-contactP{font-size: 12px;}
+        .ms-social-infolgcontactP svg{font-size: 30px!important;}
+        .ms-call-to-action-padding{padding: 30px 10px!important;}
+        .ms-call-to-action{padding: 80px 60px;}
+        .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 60px;}
+        .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -1px;}
+
+
+      }
   /*------------------------------------*\
       END Max Width
   \*------------------------------------*/
@@ -1086,19 +1202,41 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #responsiveContact{display: none;}
   #ms-contactInfo-contactP{padding: 50px 10px;} 
   #ms-contactInfo-contactP a{display: block;padding: 7px 0;}
-  #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:12px;display: inline;font-weight: bold;}  
+  #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:14px;display: inline;font-weight: bold;letter-spacing: 0.06em;}  
   #ms-contactInfo-contactP p#ms-phone-contactP{font-size:20px;}
+  #ms-text-map-pin-contactinfo-sh{margin-left:3px;}
   #ms-contactInfo-contactP a svg{color:var(--mimosa-yellow);margin: 3px 13px;}  
   #ms-contactInfo-contactP a svg#ms-pin-contactP{margin:0 18px 0 14px;}
-  .ms-social-infolgcontactP{display: table;margin:0 auto;padding-bottom: 40px;}
+  .ms-social-infolgcontactP{display: table;margin:0 auto;}
   .ms-social-infolgcontactP svg{margin:0 20px;font-size: 52px;color:#7B7B7B;}  
 /*------------------------------------*\
     End Partials
 \*------------------------------------*/  
 
-  
-  
-  
+
+  .wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
+    color: #D8000C;
+    background-color: #FFBABA;
+    border: 0;
+    padding: 10px;
+}
+.wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    border: 0;
+    padding: 10px;
+}
+div.wpcf7-mail-sent-ok:before,div.wpcf7-validation-errors:before {
+    font: 26px/30px dashicons;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+div.wpcf7-mail-sent-ok:before {
+    content: "\f147";
+}
+div.wpcf7-validation-errors:before {
+    content: "\f158";
+}
 
   
    

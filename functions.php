@@ -888,6 +888,7 @@ function galerie_images_mimosa($atts){
 <?php
 }
 
+
 function ms_enqueue_styles_one_page() {
   if ( is_page( 'qui-sommes-nous') || is_front_page() || is_page('notre-concept'))  {
     // One Page Library

@@ -763,7 +763,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
       /* Atelier */
       .ms-services-line-indicator{right: -70px;top: 190px;}
-      .ms-atelier-services-card{width: 32%;margin:4px;padding: 18px 50px;}
+      .ms-atelier-services-card{width: 32%;margin:4px;padding: 8px 3px;}
 
     }
 
@@ -870,6 +870,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-text-header-eigth-section p{margin-top: 60px;}
       #ms-title-header-nine-section{position: relative;left: 40px;}
       #ms-wrapper-content-nine-section p{display: inline-block;}
+      #ms-galerie-lightbox img{width: 650px;position: relative;top:4px;}
 
       
     }
@@ -967,6 +968,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-title-header-nine-section h2{position: relative;right:40px;}
       #ms-services-img-last{padding: 0}
       .ms-services-img img{width: 80%;}
+      #ms-galerie-lightbox img{width: 490px;position: relative;top:50px;}
 
     }
     
@@ -1140,6 +1142,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-services-img-last{padding: 0;}
       .ms-services-img{top:unset;}
       #ms-services-img-rigth img{position: static;}
+      #ms-galerie-lightbox img{width: 390px;position: relative;top:120px;}
+
     }
 
      @media only screen and (max-width: 360px) {
@@ -1165,6 +1169,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-services-line-indicator-rigth{top:165px;}
         #ms-bullet-rigth{left: 65%;}
         .ms-services-img img{left:10px;}
+        #ms-galerie-lightbox img{width: 290px;position: relative;top:100px;}
      }
 
       @media only screen and (max-width: 320px){
@@ -1182,7 +1187,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         .ms-call-to-action{padding: 80px 60px;}
         .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 60px;}
         .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -1px;}
-
+        /* Atelier */
+        #ms-galerie-lightbox img{width: 270px;position: relative;top:90px;}
 
       }
   /*------------------------------------*\

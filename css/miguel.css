@@ -1103,6 +1103,29 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         .ms-services-img img{left:10px;}
      }
 
+      @media only screen and (max-width: 320px){
+
+        /* Contact Page */
+        .ms-padding-contact{padding: 30px;}
+        .ms-wrapper-contact-form label{font-size: 9px;}
+        #ms-check-contact-page{font-size: 10px;}
+        .ms-wrapper-contact-form .ms-form-mimosa-contact-text{font-size: 10px;}
+        #ms-contactInfo-contactP a svg{font-size: 20px;}
+        #ms-contactInfo-contactP{padding: 20px 10px!important;}
+        #ms-contactInfo-contactP p#ms-phone-contactP{font-size: 12px;}
+        .ms-social-infolgcontactP svg{font-size: 30px!important;}
+        .ms-call-to-action-padding{padding: 30px 10px!important;}
+        .ms-call-to-action{padding: 80px 60px;}
+        .ms-footer-pts{padding: 40px;}
+        #ms-footer-first-pts h6,
+        #ms-footer-first-pts ul li,
+        .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
+
+        .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 60px;}
+        .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -1px;}
+
+
+      }
   /*------------------------------------*\
       END Max Width
   \*------------------------------------*/

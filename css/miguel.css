@@ -673,7 +673,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
 
     @media only screen  and (min-width : 992px) {
-      
+      #ms-image-map-contact-responsive{display: none;}
     }
 
     @media only screen  and (min-width : 736px) {
@@ -776,6 +776,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #mg-footer-first #mg-social-main-menu{margin-left: 30px;}
       /* End Responsive footer*/
       
+      /* Responsive contact page */
+      .ms-left-section-fixed{display: none;}
+      .ms-right-section-scroll{width: 100%;}
+      #ms-image-map-contact-responsive{display: block;}
+      #ms-image-map-contact-responsive img{width: 100%;height:1050px; }
+
+
+
       /* ThankYou Page */
       .ms-thankyou-header-text{padding: 0;}
       .ms-thankyou-header-text p{text-align: center;padding:150px 0 30px 0;}
@@ -867,6 +875,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu svg{font-size:19px;}
       .ms-footerTyPage #mg-menu-terms-main ul{padding: 0;position: relative;left:22%;}
       /* End ThankYou Page */
+      
+      /* Contact page */
+      #ms-image-map-contact-responsive img{width: 100%;height:900px; }
 
       /* Atelier */
       #ms-atelier-first-section{padding: 130px 70px;}
@@ -1002,15 +1013,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* End Thank You page */
 
       /* Responsive Contact Page */
-      .ms-left-section-fixed{display: none;}
-      .ms-right-section-scroll{width: 100%;float: initial;}
       .ms-padding-contact{padding: 30px 40px;}
       .ms-right-section-scroll h1{font-size: 58px;}
       .ms-wrapper-contact-form .ms-form-mimosa-contact-text, .ms-form-mimosa-contact-email, .ms-form-mimosa-contact-sujet{left: 19%;}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 100%;}
       .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item-label{left:11%;}
       .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 60%;left:22%;}
-    
+      #ms-image-map-contact-responsive img{width: 100%;height:600px; }
       /* Responsive  Atelier */
       #ms-atelier-first-section{padding:50px 80px;}
       #ms-atelier-first-section h1{position: relative;right: 35px;}
@@ -1079,6 +1088,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{min-width: 40px;max-width: 140px;padding: 13px 20px;font-size: 10px;}
         #ms-six-section-home{padding: 170px 50px 30px 50px!important;}
         #ms-second-section-home h4{font-size: 16px;margin-top: 40px;}
+        /* Responsive contact page */
+
         /* Atelier */
         #ms-atelier-first-section h1{right: 20px;font-size: 38px;}
         .ms-services-bullet{font-size: 85px;}
@@ -1117,7 +1128,29 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 \*------------------------------------*/  
 
 
-  
+  .wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
+    color: #D8000C;
+    background-color: #FFBABA;
+    border: 0;
+    padding: 10px;
+}
+.wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    border: 0;
+    padding: 10px;
+}
+div.wpcf7-mail-sent-ok:before,div.wpcf7-validation-errors:before {
+    font: 26px/30px dashicons;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+div.wpcf7-mail-sent-ok:before {
+    content: "\f147";
+}
+div.wpcf7-validation-errors:before {
+    content: "\f158";
+}
 
   
    

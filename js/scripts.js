@@ -141,6 +141,8 @@ jQuery(function ($) {
         $(this).hide();
       });
 
-      
+      //Ms contact form notify
+   
+
  }); 
 });

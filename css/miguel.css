@@ -735,6 +735,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
     @media only screen  and (min-width : 1280px) {
       #ms-services-img-last img{width: 100%;}
+      #ms-left-column-slider #ms-logo-mimosa-home{width: 290px;}
+
     }
 
     @media only screen  and (min-width : 992px) {

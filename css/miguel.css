@@ -1088,7 +1088,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{min-width: 40px;max-width: 140px;padding: 13px 20px;font-size: 10px;}
         #ms-six-section-home{padding: 170px 50px 30px 50px!important;}
         #ms-second-section-home h4{font-size: 16px;margin-top: 40px;}
+        
         /* Responsive contact page */
+        .ms-right-section-scroll h1{font-size: 42px;margin:40px 0 20px 0;}
+        .ms-wrapper-contact-form label{font-size: 10px;}
+        .ms-social-infolgcontactP svg{font-size: 40px!important;}
 
         /* Atelier */
         #ms-atelier-first-section h1{right: 20px;font-size: 38px;}

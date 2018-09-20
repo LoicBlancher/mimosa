@@ -303,7 +303,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     Demander Devis Page
 \*------------------------------------*/
-
+.ms-wrapper-contact-form #ms-services-textbox{padding: 10px;font-size: 13px;font-weight: bold;}
 /*------------------------------------*\
     End Demander Devis Page
 \*------------------------------------*/
@@ -410,7 +410,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;box-shadow: 4px 2px 30px 10px rgb(0,0,0,0.2);}
   .ms-left-section-fixed img{width: 100%;}
   #ms-header-contact-page p.first{margin-bottom: 50px;}
-  .ms-right-section-scroll{position: relative;overflow-y: scroll;height: 100%;width: 52%;clear: both;float: right;}
+  .ms-right-section-scroll{position: relative;overflow-y: unset;height: 100%;width: 52%;clear: both;float: right;}
   .ms-padding-contact{padding:30px 120px;}
   .ms-call-to-action{padding: 100px 90px;width: 100%;left:0;background: var(--mimosa-yellow)}
   .ms-call-to-action-padding{padding: 60px 30px;}

@@ -195,12 +195,19 @@ function lastsection_home_mimosaMenu()
 function html5blank_header_scripts()
 {
     if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
-        wp_register_script('conditionizr', get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0',false); // Conditionizr
+        wp_register_script('conditionizr', get_template_directory_uri() . '/js/lib/conditionizr-4.3.0.min.js', array(), '4.3.0',false);//Conditionizr
         wp_enqueue_script('conditionizr'); // Enqueue it!
-        wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-2.7.1.min.js', array(), '2.7.1',true); // Modernizr
+        
+        wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-2.7.1.min.js', array(), '2.7.1',true); //Modernizr
         wp_enqueue_script('modernizr'); // Enqueue it!
+
+        wp_register_script('gsap', get_template_directory_uri() . '/js/lib/TweenMax.min.js', array(), '2.7.1',true); //Modernizr
+        wp_enqueue_script('gsap'); // Enqueue it!
+
+
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0',true); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
+
         wp_register_script('iconsmimosa', get_template_directory_uri() . '/js/all.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('iconsmimosa'); 
  
@@ -210,8 +217,6 @@ function html5blank_header_scripts()
         wp_register_script('slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('slick');
 
-        wp_register_script('parallax', get_template_directory_uri() . '/js/parallax.js', array('jquery'), '1.0.0',true); 
-        wp_enqueue_script('parallax');
                   
     }
 }
@@ -910,6 +915,13 @@ function ms_enqueue_styles_one_page() {
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
 
 
+/* Ms Add SVG Support */
+add_filter( 'upload_mimes', 'custom_upload_mimes' );
+function custom_upload_mimes( $existing_mimes = array() ) {
+    // Add the file extension to the array
+    $existing_mimes['svg'] = 'image/svg+xml';
+    return $existing_mimes;
+}
 
 ?>
 

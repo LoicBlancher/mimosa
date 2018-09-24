@@ -56,12 +56,10 @@ jQuery(function ($) {
 
 
       $('#ms-slider-team-members').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 200,
-        infinite:false,
-        arrows:true
+        slidesToShow:3,
+        slidesToScroll:1,
+        centerMode:true,
+        centerPadding:'0',
       });
         
 

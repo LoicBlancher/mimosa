@@ -54,6 +54,17 @@ jQuery(function ($) {
         autoplaySpeed:2000
       });
 
+
+      $('#ms-slider-team-members').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 200,
+        infinite:false,
+        arrows:true
+      });
+        
+
       $('#ms-scroll-tab,#pgc-30-4-1').hover(function(){
         $('#ms-scroll-ingredients').slick('slickPlay');
       },function(){

@@ -451,8 +451,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-atelier-first-section h1{}
 #ms-atelier-second-section{padding: 60px 200px;}
 #ms-atelier-second-section-text{margin: 0 auto;text-align: center;}
-#ms-atelier-secontd-section-text p{margin:2px 0;}
-#ms-atelier-secontd-section-text h2{margin-bottom: 40px;}
+#ms-atelier-second-section-text p{margin:2px 0;}
+#ms-atelier-second-section-text h2{margin-bottom: 40px;}
 #ms-italics-p{font-weight: bold;font-style: italic;color:var(--mimosa-black-dark);}
 #ms-video-atelier{display: table;margin: 0 auto;padding: 40px 10px;width: 60%;}
 #ms-atelier-third-section{padding: 60px 200px;}

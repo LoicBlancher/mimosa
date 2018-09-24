@@ -896,6 +896,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* Hide pagination one page */
       .onepage-pagination{display: none;}
       /* Responsive home page */
+      .home ,.qui-sommes-nous,.notre-concept{overflow: scroll;}
       .ms-padding-home-section{padding: 50px 70px!important;}
       #ms-left-column-slider #ms-logo-mimosa-home{width: 220px;float: initial;position: relative;left: 50%;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{position: relative;top: 10px;text-align: center;}

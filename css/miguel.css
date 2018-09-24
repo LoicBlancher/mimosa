@@ -258,7 +258,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 */
 
 /*------------------------------------*\
-    HOME PAGE
+    HOME PAGE GENERAL
 \*------------------------------------*/
 .ms-padding-home-section{padding: 130px 210px!important;}
 #ms-left-column-slider #ms-logo-mimosa-home{width: 250px;float:left;}
@@ -274,6 +274,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{margin:30px 0 0 0;}
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{margin-bottom: 40px;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
+.ms-first-image-fourth-section{}
+.ms-second-image-fourth-section{}
 #ms-wrapper-map-info{padding: 200px 0;margin-left: 20px;}
 #ms-wrapper-map-info p.white{text-align: center;padding: 0 40px;}
 #ms-wrapper-map-info .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 40px;}
@@ -345,7 +347,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-image-testimonials{display: table;margin: 0 auto;}
 .ms-title-testimonial{display: block;text-align: center;color: var(--mimosa-black-semi-dark);font-size: 12px;font-weight: bold;letter-spacing: 0.2em;}
 .ms-position-testimonial{text-align: center;display: block;line-height: 3em;color: var(--mimosa-gray-dark);text-transform: uppercase;font-family: 'Gotham';letter-spacing: 0.2em;font-size: 10px;}
-.ms-image-six-section{width: 80%;height: auto;border: 7px solid var(--mimosa-yellow);border-radius: 10px;}
+.ms-image-six-section{width: 80%;height: 540px;border: 7px solid var(--mimosa-yellow);border-radius: 10px;}
 #ms-wrapper-text-six-section-qui-sommes{padding: 30px 10px;}
 #ms-wrapper-text-six-section-qui-sommes h2{text-transform: uppercase;}
 #ms-wrapper-text-six-section-qui-sommes h3{font-weight: normal;}
@@ -540,6 +542,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
   @media only screen and (min-width: 1098px) and (max-width: 1280px){
+
+    /*Atelier*/
     .ms-services-img{position: relative;left: 120px;}
     #ms-services-img-rigth{position: relative;left: -220px;}
     #ms-services-line-indicator-rigth{left: -160px;}
@@ -549,6 +553,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Home */
+    #ms-right-column-slider h1{font-size: 58px;}
     /* Contact page */
     .ms-padding-contact{padding: 30px 70px;}
     .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{position: relative;left: 40%;}
@@ -735,6 +741,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
     @media only screen  and (min-width : 1280px) {
       #ms-services-img-last img{width: 100%;}
+      #ms-left-column-slider #ms-logo-mimosa-home{width: 290px;}
+
     }
 
     @media only screen  and (min-width : 992px) {
@@ -984,7 +992,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
       /* Responsive home page */
       .ms-padding-home-section{padding:30px 50px!important;}
-      #ms-left-column-slider #ms-logo-mimosa-home{float: initial;width: 200px;position: relative;left: 50%;top: 40px;transform: translateX(-50%);}
+      #ms-left-column-slider #ms-logo-mimosa-home img{float: initial;width: 200px;position: relative;left: 50%;top: 40px;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{position: relative;top: 30px;text-align: center;}
       #ms-right-column-slider h1{text-align: center;position: relative;top: -50px;}
       #ms-right-column-slider p.yellow{text-align: center;position: relative;top: -40px;}

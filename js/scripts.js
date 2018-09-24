@@ -141,8 +141,7 @@ jQuery(function ($) {
         $(this).hide();
       });
 
-      //Ms contact form notify
-   
-
+      /* MS - Animations general */
+      
  }); 
 });

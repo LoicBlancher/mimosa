@@ -898,11 +898,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* Responsive home page */
       .home ,.qui-sommes-nous,.notre-concept{overflow: scroll;}
       .ms-padding-home-section{padding: 50px 70px!important;}
-      #ms-left-column-slider #ms-logo-mimosa-home{width: 220px;float: initial;position: relative;left: 50%;transform: translateX(-50%);}
+      #ms-left-column-slider #ms-logo-mimosa-home{width: 220px;float: initial;position: relative;left: 50%;transform: translateX(-50%)!important;}
       #ms-left-column-slider #ms-slider-white-p{position: relative;top: 10px;text-align: center;}
       #ms-right-column-slider p.yellow{text-align: center;position: relative;top: -30px;}  
       #ms-right-column-slider #ms-know-more{text-align: center;position: relative;top: -20px;}
-      #ms-second-section-home .ms-img-left-section{display: none;}
+      #ms-second-section-home .ms-img-left-section{position: relative;}
       #ms-second-section-home .ms-mimosa-subtitle{text-align: center;display: inherit;margin-top: 30px;}
       #ms-second-section-home h2, #ms-second-section-home h4,#ms-second-section-home p{text-align: center;}
       #ms-second-section-home .ms-primary-btn-bl{margin-top: 45px;display: table;margin: 0 auto;}
@@ -998,7 +998,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-right-column-slider h1{text-align: center;position: relative;top: -50px;}
       #ms-right-column-slider p.yellow{text-align: center;position: relative;top: -40px;}
       #ms-right-column-slider #ms-know-more{text-align: center;position: relative;top: -20px;}
-      #ms-second-section-home .ms-img-left-section{display: none;}
       #ms-second-section-home .ms-mimosa-subtitle{text-align: center;display: inherit;margin-top: 30px;}
       #ms-second-section-home h2{text-align: center;margin-top: 40px;}
       #ms-second-section-home h4{text-align: center;margin:0 auto;}
@@ -1165,7 +1164,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
      @media only screen and (max-width: 360px) {
         /* Home Page */
-        #ms-right-column-slider h1{line-height: 1em;}
+        #ms-left-column-slider #ms-logo-mimosa-home{width: 190px;}
+        #ms-left-column-slider #ms-slider-white-p{top:-10px;}
+        #ms-right-column-slider h1{line-height: 1em;margin-top: 40px;}
         #ms-second-section-home h2{margin-top:30px;}
         .ms-map-pin-info{height: 50px;padding: 12px 10px;}
         .ms-map-pin-text{font-size: 13px;}

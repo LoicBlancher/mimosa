@@ -871,7 +871,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-thankyou-header-text p{text-align: center;padding:150px 0 30px 0;}
       .ms-thankyou-text{padding: 0;margin-top:50px;}
       .ms-thankyou-text p{text-align: center;}
-      #ms-right-column-slider h1{text-align: center;position: relative;top: -40px;}
+      #ms-right-column-slider h1{text-align: center;position: relative;top: -40px;margin:20px 0 50px 0!important;}
       
       /* End ThankYou Page */
 

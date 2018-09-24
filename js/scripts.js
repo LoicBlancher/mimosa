@@ -60,8 +60,16 @@ jQuery(function ($) {
         slidesToScroll:1,
         centerMode:true,
         centerPadding:'0',
+        focusOnSelect:true,
+        initialSlide:2,
+        autoplay:false,
+        easing:'linear',
       });
         
+      $('#ms-slider-team-members').on('afterChange', function(event, slick, currentSlide, nextSlide){
+        $(".slick-slide").removeClass('works');
+        $('.slick-current').addClass('works');       
+      });
 
       $('#ms-scroll-tab,#pgc-30-4-1').hover(function(){
         $('#ms-scroll-ingredients').slick('slickPlay');

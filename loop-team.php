@@ -3,6 +3,10 @@
         <?php  $loop = new WP_Query( array( 'post_type' => 'team'));
          if ( $loop->have_posts() ) :
           while ( $loop->have_posts() ) : $loop->the_post(); ?> 
+            <div id="ms-info-member">
+              <h4><?php the_field('position') ?></h4>
+              <h3><?php the_field('name') ?></h3>
+            </div>
             <div id="ms-wrapper-members-team">
                <?php 
                $image = get_field('image_member');

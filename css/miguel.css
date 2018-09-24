@@ -329,7 +329,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul li a{ color: var(--mimosa-gray-clear);font-size: 11px;}
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul li a:focus{width: 30px;height: 30px;background: var(--mimosa-yellow);border-radius: 50px;display: inherit;color: white;padding: 8px;font-size: 13px;position: relative;bottom: 10px;}
 #ms-sommes-third-section{}
-.ms-image-team-member{width: 238px!important;}
+.ms-image-team-member{width: 220px!important;}
 #ms-sommes-fourth-section{}
 #ms-sommes-fourth-section #ms-eyelash-selector{list-style-type: none;padding: 0;border-bottom: 2px solid #d2d2d2;}
 #ms-sommes-fourth-section #ms-eyelash-selector li{position: relative;vertical-align: top;display: inline-block;font-family: 'Gotham';text-transform: uppercase;color: var(--mimosa-black-dark);font-weight: bold;font-size: 14px;margin-right: 100px;padding: 10px;}
@@ -1257,7 +1257,9 @@ div.wpcf7-validation-errors:before {
     content: "\f158";
 }
 
-  
+
+.works{width: 320px!important;transform: scale(1.3);position: relative;top: 60px;}
+.inactive{width: unset;transform: unset;position: static;top: 60px;;border:2px solid red;}
    
 
 

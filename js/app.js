@@ -32,7 +32,7 @@ jQuery(function ($) {
          }
       }
 
-      let breakpoint = window.matchMedia("(min-width:736px)");
+      let breakpoint = window.matchMedia("(min-width:768px)");
       removeonePageonResponsive(breakpoint);
       breakpoint.addListener(removeonePageonResponsive);
 

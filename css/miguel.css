@@ -521,16 +521,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 \*------------------------------------*/
 
 
-
-
-
-
-
-
-
   
 /*------------------------------------*\
-    BEGIN RESPONSIVE MG
+    BEGIN RESPONSIVE MS
 \*------------------------------------*/
   /*------------------------------------*\
       Begin Intervals Responsive
@@ -683,6 +676,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
   @media only screen and (min-width: 480px) and (max-width: 732px){
+    /* Home */
+    #ms-right-column-slider h1{position: static!important;margin-bottom: 60px;}
+    #ms-second-section-home .ms-primary-btn-bl{margin:60px auto!important;}
+    #ms-second-section-home .ms-wrapper-bullet-with-img{margin:30px auto!important;}
+    #ms-third-section-home h2{margin-top:0!important;}
+    .ms-map-pin-text{position: relative;top:7px;}
+    #ms-wrapper-title-five-section h4{margin-top:0!important;}
+    #ms-six-section-home{padding: 50px 70px!important;}
+
     /* Contact */
     .ms-padding-contact{padding: 40px 60px;}
     .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 40%;position: relative;left:30%;top:20px;}
@@ -920,7 +922,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-map-info{padding: 170px 0;}
       #ms-wrapper-title-five-section h4{margin-top:140px;}
       #ms-wrapper-clients-section{margin-top: 50px;}
-      #ms-six-section-home{padding: 170px 100px!important;}
       .ms-wrapper-bullet-with-img{margin-left:0;}
       .ms-container-bullet{margin-left:0;}
       .ms-bullets-mimosa-img{display: initial;}
@@ -994,16 +995,16 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* Responsive home page */
       .ms-padding-home-section{padding:30px 50px!important;}
       #ms-left-column-slider #ms-logo-mimosa-home img{float: initial;width: 200px;position: relative;left: 50%;top: 40px;transform: translateX(-50%);}
-      #ms-left-column-slider #ms-slider-white-p{position: relative;top: 30px;text-align: center;}
-      #ms-right-column-slider h1{text-align: center;position: relative;top: -50px;}
+      #ms-left-column-slider #ms-slider-white-p{position: relative;top: -10px;text-align: center;}
+      #ms-right-column-slider h1{text-align: center;margin-top:20px;}
       #ms-right-column-slider p.yellow{text-align: center;position: relative;top: -40px;}
       #ms-right-column-slider #ms-know-more{text-align: center;position: relative;top: -20px;}
       #ms-second-section-home .ms-mimosa-subtitle{text-align: center;display: inherit;margin-top: 30px;}
       #ms-second-section-home h2{text-align: center;margin-top: 40px;}
       #ms-second-section-home h4{text-align: center;margin:0 auto;}
-      #ms-second-section-home p.gray{text-align: center;}      
-      #ms-second-section-home .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 20px;}
-      #ms-second-section-home .ms-wrapper-bullet-with-img{margin-top:0;float: left;width: 100%;}
+      #ms-second-section-home p.gray{text-align: center;margin:30px 0;}      
+      #ms-second-section-home .ms-primary-btn-bl{display: table;margin: 40px auto;margin-top: 20px;}
+      #ms-second-section-home .ms-wrapper-bullet-with-img{margin:40px auto;float: left;width: 100%;}
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-bullets-mimosa-img{float: initial;width: 50px;position: relative;left: 50%;transform:translateX(-50%);}
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{display: none;}
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets{padding: 0;}
@@ -1013,10 +1014,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-third-section-home .ms-mimosa-subtitle{display: inherit;margin-top:50px;}
       #ms-third-section-home span, #ms-third-section-home h4,#ms-third-section-home h2, #ms-third-section-home p{text-align: center;}
       #ms-third-section-home .ms-primary-btn-bl{display: table;margin:0 auto;} 
+      #ms-wrapper-title-five-section h4{margin-top:0;}
       #ms-five-section-home #ms-wrapper-title-five-section{margin-top:50px;}
       #ms-five-section-home #ms-wrapper-clients-section{margin-top:60px;}
       #ms-five-section-home #ms-wrapper-clients-section h4, #ms-wrapper-clients-section p{margin-bottom: 10px;}
-      #ms-six-section-home{padding: 170px 50px!important}
+      #ms-six-section-home{padding: 90px 50px!important}
       #ms-last-section-home-yl{padding: 0;}
       .home footer{padding: 10px 0;}
       .home footer h6{margin:20px 0;}
@@ -1198,6 +1200,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
       @media only screen and (max-width: 320px){
 
+        /* Home page */
+        #ms-left-column-slider #ms-logo-mimosa-home{width: 150px;}
+        #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{font-size: 14px;}
+        #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets p{font-size:11.5px!important;}
+        .ms-map-pin-info{padding: 10px 8px;height: 45px;width: 240px;left: -20px;}
+        #ms-wrapper-btns-lastsection .ms-primary-btn-bl{margin-right: 5px;}
+        #ms-wrapper-btns-lastsection{position: relative;left: -13px;}
         /* Contact Page */
         .ms-padding-contact{padding: 30px;}
         .ms-wrapper-contact-form label{font-size: 9px;}

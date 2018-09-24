@@ -1168,12 +1168,18 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-left-column-slider #ms-slider-white-p{top:-10px;}
         #ms-right-column-slider h1{line-height: 1em;margin-top: 40px;}
         #ms-second-section-home h2{margin-top:30px;}
+        #ms-second-section-home p.gray{margin-top: 30px;}
+        #ms-second-section-home .ms-primary-btn-bl{margin:50px auto;}
+        #ms-second-section-home .ms-wrapper-bullet-with-img{margin-bottom:40px;}
+        #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{font-size: 17px;}
+        #ms-second-section-home .ms-img-left-section{height: auto;width: 300px;margin: 0 auto;top: -30px;left: -30px;max-width: unset!important;}
         .ms-map-pin-info{height: 50px;padding: 12px 10px;}
         .ms-map-pin-text{font-size: 13px;}
+        #ms-wrapper-title-five-section h4{margin-top:0;}
         #ms-wrapper-btns-lastsection{width: 300px;}
         #ms-wrapper-btns-lastsection .ms-primary-btn-bl,
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{min-width: 40px;max-width: 140px;padding: 13px 20px;font-size: 10px;}
-        #ms-six-section-home{padding: 170px 50px 30px 50px!important;}
+        #ms-six-section-home{padding: 90px 50px 90px 50px!important;}
         #ms-second-section-home h4{font-size: 16px;margin-top: 40px;}
         
         /* Responsive contact page */

@@ -141,8 +141,7 @@ jQuery(function ($) {
         $(this).hide();
       });
 
-      //Ms Parallax
- 
-    
+      /* MS - Animations general */
+      
  }); 
 });

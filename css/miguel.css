@@ -992,7 +992,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
       /* Responsive home page */
       .ms-padding-home-section{padding:30px 50px!important;}
-      #ms-left-column-slider #ms-logo-mimosa-home{float: initial;width: 200px;position: relative;left: 50%;top: 40px;transform: translateX(-50%);}
+      #ms-left-column-slider #ms-logo-mimosa-home img{float: initial;width: 200px;position: relative;left: 50%;top: 40px;transform: translateX(-50%);}
       #ms-left-column-slider #ms-slider-white-p{position: relative;top: 30px;text-align: center;}
       #ms-right-column-slider h1{text-align: center;position: relative;top: -50px;}
       #ms-right-column-slider p.yellow{text-align: center;position: relative;top: -40px;}

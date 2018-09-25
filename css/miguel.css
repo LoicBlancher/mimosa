@@ -1197,7 +1197,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-six-section-home{padding: 170px 50px 30px 50px!important;}
         #ms-second-section-home h4{font-size: 16px;margin-top: 40px;}
         /* Responsive qui sommes */
-        .ms-image-team-member{width: 120px!important;}
+        .ms-image-team-member{width: 130px!important;margin-left: 55px;}
+        .ms-footer-info-team{top:320px;}
+        #ms-slider-team-members .slick-prev:before{position:relative;left:40px;}
+        #ms-slider-team-members .slick-prev, 
+        #ms-slider-team-members .slick-next{top:33%;}
         /* Responsive contact page */
         .ms-right-section-scroll h1{font-size: 42px;margin:40px 0 20px 0;}
         .ms-wrapper-contact-form label{font-size: 10px;}

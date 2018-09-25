@@ -1264,7 +1264,7 @@ div.wpcf7-validation-errors:before {
 #ms-slider-info-members{position: relative;}
 .ms-wrapper-info{position: absolute;bottom: 300px;}
 #ms-slider-team-members .slick-list.draggable{padding: 60px 0!important;}
-.ms-wrapper-member-name{}
+.ms-wrapper-member-name{position: absolute;top: -570px;right: -20px;}
 
 
 #ms-slider-team-members  .slick-prev{left:-80px;}
@@ -1274,7 +1274,8 @@ div.wpcf7-validation-errors:before {
 #ms-slider-team-members .slick-prev:before{content:'\279C';font-size: 40px;transform: rotate(180deg);color: var(--mimosa-black-dark);display: inline-block;transition: all 1s;}
 #ms-slider-team-members .slick-next:before{content:'\279C';font-size: 40px;color: var(--mimosa-black-dark);transition: all 1s;display: inline-block;}
 
-
+.ms-name-tmember{margin:0;}
+.ms-name-tposition{font-family: 'Gotham';text-transform: uppercase;font-weight: bold;font-size: 14px;color: var(--mimosa-black-semi-dark);letter-spacing: 0.05em;}
 
   
 

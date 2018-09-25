@@ -26,8 +26,8 @@
                 <?php $current_id_info = get_the_ID(); ?>
                 <div class="ms-wrapper-info <?php if($first){ echo "act"; $first=false;} ?>" id="info_<?php echo $current_id_info; ?>" rel="<?php echo $current_id_info; ?>">
                   <div class="ms-wrapper-member-name">
-                    <?php the_field('position')?>
-                    <?php the_field('name')?>
+                    <span class="ms-name-tposition"><?php the_field('position')?></span>
+                    <h3 class="ms-name-tmember"><?php the_field('name')?></h3>
                   </div>
                   <div class="ms-footer-info-team">
                     <div class="ms-footer-tmembers-social">

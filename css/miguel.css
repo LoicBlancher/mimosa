@@ -1277,7 +1277,11 @@ div.wpcf7-validation-errors:before {
 .ms-name-tmember{margin:0;}
 .ms-name-tposition{font-family: 'Gotham';text-transform: uppercase;font-weight: bold;font-size: 14px;color: var(--mimosa-black-semi-dark);letter-spacing: 0.05em;}
 
-  
+.ms-footer-info-team{float: left;width: 100%;}
+.ms-footer-tmembers-social{float: left;width: 20%;}
+.ms-footer-tmembers-skills{float: left;width: 30%}
+.ms-member-description{float: left;width: 50%;}
+.ms-title-footer{font-family: 'Gotham';color: white;letter-spacing: 0.2em;display: block;text-transform: uppercase;font-size: 10px;text-align: center;}
 
 
 

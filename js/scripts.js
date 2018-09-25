@@ -60,15 +60,11 @@ jQuery(function ($) {
         slidesToScroll:1,
         centerMode:true,
         centerPadding:'0',
-        focusOnSelect:true,
-        initialSlide:2,
-        autoplay:false,
-        easing:'linear',
       });
         
       $('#ms-slider-team-members').on('afterChange', function(event, slick, currentSlide, nextSlide){
-        $(".slick-slide").removeClass('works');
-        $('.slick-current').addClass('works');       
+        $(".slick-slide").removeClass('works').css("opacity","0.7");
+        $('.slick-current').addClass('works').css("opacity","1.0");       
       });
 
       $('#ms-scroll-tab,#pgc-30-4-1').hover(function(){

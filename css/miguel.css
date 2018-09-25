@@ -329,7 +329,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul li a{ color: var(--mimosa-gray-clear);font-size: 11px;}
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul li a:focus{width: 30px;height: 30px;background: var(--mimosa-yellow);border-radius: 50px;display: inherit;color: white;padding: 8px;font-size: 13px;position: relative;bottom: 10px;}
 #ms-sommes-third-section{}
-.ms-image-team-member{width: 220px!important;}
+.ms-image-team-member{width: 190px!important;}
 #ms-sommes-fourth-section{}
 #ms-sommes-fourth-section #ms-eyelash-selector{list-style-type: none;padding: 0;border-bottom: 2px solid #d2d2d2;}
 #ms-sommes-fourth-section #ms-eyelash-selector li{position: relative;vertical-align: top;display: inline-block;font-family: 'Gotham';text-transform: uppercase;color: var(--mimosa-black-dark);font-weight: bold;font-size: 14px;margin-right: 100px;padding: 10px;}
@@ -1264,7 +1264,7 @@ div.wpcf7-validation-errors:before {
 #ms-slider-info-members{position: relative;}
 .ms-wrapper-info{position: absolute;bottom: 300px;}
 #ms-slider-team-members .slick-list.draggable{padding: 60px 0!important;}
-.ms-wrapper-member-name{position: absolute;top: -570px;right: -20px;}
+.ms-wrapper-member-name{position: absolute;top: -470px;right: 100px;}
 
 
 #ms-slider-team-members  .slick-prev{left:-80px;}
@@ -1277,17 +1277,19 @@ div.wpcf7-validation-errors:before {
 .ms-name-tmember{margin:0;}
 .ms-name-tposition{font-family: 'Gotham';text-transform: uppercase;font-weight: bold;font-size: 14px;color: var(--mimosa-black-semi-dark);letter-spacing: 0.05em;}
 
-.ms-footer-info-team{float: left;width: 100%;}
+.ms-footer-info-team{float: left;width: 100%;position: relative;top: 40px;}
 .ms-footer-tmembers-social{float: left;width: 20%;}
-.ms-footer-tmembers-skills{float: left;width: 30%}
-.ms-member-description{float: left;width: 50%;}
-.ms-title-footer{font-family: 'Gotham';color: white;letter-spacing: 0.2em;display: block;text-transform: uppercase;font-size: 10px;text-align: center;}
+.ms-footer-tmembers-skills{text-align: center;float: left;height: 50px;width: 30%;border-left: 2px solid var(--mimosa-gray-clear);border-right: 2px solid var(--mimosa-gray-clear);}
+.ms-footer-tmembers-skills a{color:var(--mimosa-black-dark);font-weight: bold;font-family: 'Gotham';letter-spacing: 0.2em;text-transform: uppercase;font-size: 9.5px;word-break: break-word;}
+.ms-member-description{float: left;width: 50%;text-align: center;position: relative;left: 10px; color: var(--mimosa-black-semi-dark);}
+.ms-title-footer{font-family: 'Gotham';color: white;letter-spacing: 0.2em;display: block;text-transform: uppercase;font-size: 12px;text-align: center;}
+
+.ms-footer-tmembers-social .social-tmembers{}
+#wrapper-icons-mteam{display: table;margin:0 auto;}
+#wrapper-icons-mteam svg{margin:10px 10px 0 10px;color:var(--mimosa-black-dark);text-align: center;}
 
 
-
-
-
-
+#ms-wrapper-header-tmembers{width: 440px;position: absolute;left: 70px;top: 60px;}
 
 
 

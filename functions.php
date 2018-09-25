@@ -557,7 +557,7 @@ function team_members_taxonomy() {
     'show_ui' => true,
     'show_admin_column' => true,
     'update_count_callback' => '_update_post_term_count',
-    'query_var' => true,
+    'query_var' => false,
     'rewrite' => array( 'slug' => 'tag' ),
   ));
 } 

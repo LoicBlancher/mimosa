@@ -32,14 +32,17 @@
                   <div class="ms-footer-info-team">
                     <div class="ms-footer-tmembers-social">
                       <span class="ms-title-footer">social media</span>
-                      <a href="<?php the_field('facebook_member')?>"><i class="fab fa-facebook-f fa-lg"></i></a>
-                      <a href="<?php the_field('twitter_member')?>"><i class="fab fa-twitter fa-lg"></i></a>
-                      <a href="<?php the_field('linkedin_member')?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                      <div id="wrapper-icons-mteam">
+                        <a  href="<?php the_field('facebook_member')?>"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="<?php the_field('twitter_member')?>"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="<?php the_field('linkedin_member')?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                      </div>
                     </div>
                     <div class="ms-footer-tmembers-skills">
                       <span class="ms-title-footer">skills</span>
-                      <?php the_terms( $current_id_info, 'skills', '<span>', ',', '</span>' ) 
-                      ?> 
+                      <?php $terms_as_text =   the_terms( $current_id_info, 'skills', '<span>', ',', '</span>');
+                      echo strip_tags($terms_as_text);
+                      ?>  
                     </div>
                     <div class="ms-member-description">
                       <?php the_field('description_member')?>
@@ -51,6 +54,6 @@
         </div>
      <?php wp_reset_postdata();
     ?>
-
+    <a href="#" class="ms-transparent-btn-bl" id="ms-cta-team">contactez nous</a>
      
 </div>

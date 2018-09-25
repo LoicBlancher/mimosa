@@ -1278,10 +1278,10 @@ div.wpcf7-validation-errors:before {
 .ms-name-tposition{font-family: 'Gotham';text-transform: uppercase;font-weight: bold;font-size: 14px;color: var(--mimosa-black-semi-dark);letter-spacing: 0.05em;}
 
 .ms-footer-info-team{float: left;width: 100%;position: relative;top: 40px;}
-.ms-footer-tmembers-social{float: left;width: 20%;}
-.ms-footer-tmembers-skills{text-align: center;float: left;height: 50px;width: 30%;border-left: 2px solid var(--mimosa-gray-clear);border-right: 2px solid var(--mimosa-gray-clear);}
+.ms-footer-tmembers-social{float: left;width: 20%;padding: 0 20px;}
+.ms-footer-tmembers-skills{text-align: center;float: left;height: 50px;width: 30%;border-left: 2px solid var(--mimosa-gray-clear);border-right: 2px solid var(--mimosa-gray-clear);padding: 0 20px;}
 .ms-footer-tmembers-skills a{color:var(--mimosa-black-dark);font-weight: bold;font-family: 'Gotham';letter-spacing: 0.2em;text-transform: uppercase;font-size: 9.5px;word-break: break-word;}
-.ms-member-description{float: left;width: 50%;text-align: center;position: relative;left: 10px; color: var(--mimosa-black-semi-dark);}
+.ms-member-description{float: left;width: 50%;text-align: left;position: relative;left: 10px; color: var(--mimosa-black-semi-dark);padding: 0 20px;}
 .ms-title-footer{font-family: 'Gotham';color: white;letter-spacing: 0.2em;display: block;text-transform: uppercase;font-size: 12px;text-align: center;}
 
 .ms-footer-tmembers-social .social-tmembers{}
@@ -1289,7 +1289,7 @@ div.wpcf7-validation-errors:before {
 #wrapper-icons-mteam svg{margin:10px 10px 0 10px;color:var(--mimosa-black-dark);text-align: center;}
 
 
-#ms-wrapper-header-tmembers{width: 440px;position: absolute;left: 70px;top: 60px;}
+#ms-wrapper-header-tmembers{width: 440px;position: absolute;left: 130px;top: 80px;}
 
 
 

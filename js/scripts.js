@@ -60,10 +60,9 @@ jQuery(function ($) {
         slidesToScroll:1,
         centerMode:true,
         centerPadding:'0',
-        autoplay:false,
-        autoplaySpeed:4000,
+        autoplay:true,
+        autoplaySpeed:5000,
         infinite:true,
-        adaptiveHeight: true,
       });
 
        $("#ms-slider-team-members .slick-arrow").click(function(){

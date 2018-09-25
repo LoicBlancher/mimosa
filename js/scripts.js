@@ -60,8 +60,6 @@ jQuery(function ($) {
         slidesToScroll:1,
         centerMode:true,
         centerPadding:'0',
-        autoplay:true,
-        autoplaySpeed:5000,
         infinite:true,
       });
 

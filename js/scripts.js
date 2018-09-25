@@ -63,7 +63,7 @@ jQuery(function ($) {
         autoplay:false,
         autoplaySpeed:4000,
         infinite:true,
-        adaptiveHeight: true
+        adaptiveHeight: true,
       });
 
        $("#ms-slider-team-members .slick-arrow").click(function(){

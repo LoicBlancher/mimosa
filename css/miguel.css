@@ -1267,9 +1267,12 @@ div.wpcf7-validation-errors:before {
 .ms-wrapper-member-name{}
 
 
-#ms-slider-team-members .slick-arrow{top:30%!important;}
 #ms-slider-team-members  .slick-prev{left:-80px;}
-
+#ms-slider-team-members .slick-prev, 
+#ms-slider-team-members .slick-next{top: 20%;}
+#ms-slider-team-members .slick-arrow{border:none;}
+#ms-slider-team-members .slick-prev:before{content:'\279C';font-size: 40px;transform: rotate(180deg);color: var(--mimosa-black-dark);display: inline-block;transition: all 1s;}
+#ms-slider-team-members .slick-next:before{content:'\279C';font-size: 40px;color: var(--mimosa-black-dark);transition: all 1s;display: inline-block;}
 
 
 

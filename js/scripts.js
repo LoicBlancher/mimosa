@@ -61,6 +61,50 @@ jQuery(function ($) {
         centerMode:true,
         centerPadding:'0',
         infinite:true,
+        responsive: [
+              {
+                  breakpoint: 1400,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '400px'
+                  }
+              },
+              {
+                  breakpoint: 1200,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '300px'
+                  }
+              },
+              {
+                  breakpoint: 992,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '180px'
+                  }
+              },
+              {
+                  breakpoint: 768,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '80px'
+                  }
+              },
+              {
+                  breakpoint: 480,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '25px'
+                  }
+              },
+              {
+                  breakpoint: 360,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '15px'
+                  }
+              }
+          ]
       });
 
        $("#ms-slider-team-members .slick-arrow").click(function(){

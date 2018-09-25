@@ -1258,7 +1258,7 @@ div.wpcf7-validation-errors:before {
 }
 
 
-.works{width: 320px!important;transform: scale(1.3);position: relative;top: 60px;}
+.works{width: 320px!important;transform: scale(1.3);transition: all 1.2s ease;position: relative;top: 60px;}
 .inactive{width: unset;transform: unset;position: static;top: 60px;;border:2px solid red;}
    
 

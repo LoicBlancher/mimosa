@@ -36,7 +36,8 @@
                       <a href="<?php the_field('linkedin_member')?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
                     </div>
                     <div class="ms-footer-tmembers-skills">
-                      <?php get_taxonomies(); ?>
+                      <?php the_terms( $current_id_info, 'skills', '<span>', ',', '</span>' ) 
+                      ?> 
                     </div>
                     <div class="ms-member-description">
                       <?php the_field('description_member')?>

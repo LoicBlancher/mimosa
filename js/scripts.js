@@ -60,14 +60,20 @@ jQuery(function ($) {
         slidesToScroll:1,
         centerMode:true,
         centerPadding:'0',
-        autoplay:true,
-        autoplaySpeed:4000
+        autoplay:false,
+        autoplaySpeed:4000,
+        infinite:true,
+        adaptiveHeight: true
       });
-        
-      $('#ms-slider-team-members').on('afterChange', function(event, slick, currentSlide, nextSlide){
-        $(".slick-slide").removeClass('works').css("opacity","0.7");
-        $('.slick-current').addClass('works').css("opacity","1.0");      
-      });
+
+       $("#ms-slider-team-members .slick-arrow").click(function(){
+          var currentImg = $(".slick-current").attr("rel");
+          var currentInfo = "#info_" + currentImg;
+          $(".ms-wrapper-info.act").fadeOut(500);
+          $(currentInfo).fadeIn(500);
+          $(currentInfo).addClass("act");
+       }) 
+
 
       $('#ms-scroll-tab,#pgc-30-4-1').hover(function(){
         $('#ms-scroll-ingredients').slick('slickPlay');

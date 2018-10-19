@@ -131,10 +131,10 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     HEADER
 \*------------------------------------*/
   header{position: fixed;width: 100%;padding: 30px 90px;z-index: 999;}
-  #mg-main-menu-btn {float:left;display: inline;font-size: 32px;}
+  #mg-main-menu-btn {float:right;display: inline;font-size: 32px;}
   #mg-main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
   .mg-menu-line{width: 35px;height: 5px;background-color: var(--mimosa-yellow);margin: 6px 0; }
-  #mg-info-header{float: right;}
+  #mg-info-header{float: right;margin-right: 50px;}
   #socialHeader{float: left;line-height: 40px;margin:0 30px;}
   #socialHeader svg{margin:0 10px;}
   .yellowBtn {padding: 10px 25px;margin-right: 20px;display: inline-block;border-radius: 50px;background:var(--mimosa-yellow);font-size: 15px; }
@@ -262,8 +262,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 \*------------------------------------*/
 .ms-padding-home-section{padding: 130px 210px!important;}
 #ms-colum-slide-home{}
-.ms-logo-mimosa-main{width: 200px;position: relative;left: -80px;}
-#ms-slider-home h1{color: white;line-height: 1.3em;text-align: left;font-family: 'Gotham';text-transform: none;letter-spacing: 0.4px;}
+.ms-logo-mimosa-main{width: 180px;position: relative;left: -100px;top:-50px;}
+#ms-slider-home h1{color: white;line-height: 1.3em;text-align: left;font-family: 'Gotham';text-transform: none;letter-spacing: 0.4px;margin-top: 0;}
 #ms-slider-home p.yellow{font-family: 'Gotham';text-align: left;letter-spacing: 0.4px;}
 #ms-slider-home #ms-know-more{font-size: 15px;text-transform: uppercase;letter-spacing: 0.3em;color:var(--mimosa-yellow);text-align: right;display: inherit;margin-right: 84px;}
 #ms-second-section-home{position: relative;}

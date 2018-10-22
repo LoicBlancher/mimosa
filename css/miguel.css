@@ -272,7 +272,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-second-section-home .ms-primary-btn-bl{margin-top: 35px;}
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{margin:30px 0 0 0;}
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{margin-bottom: 40px;}
-#ms-home-demo-culinaire-img-back{background-size: unset!important;background-position: unset!important;position: absolute;height: 100%;top: 0;right: -870px;width: 100%;}
+#ms-second-section-home{background-size:35%!important;background-position:95% -18px!important;}
+.ms-home-demo-culinaire-img-back{}
+#ms-container-bred-home{}
+#ms-container-bred-home img{width: 180px;}
+#ms-container-egg1-home{}
+#ms-container-bacon-home{}
+#ms-container-egg2-home{}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
 .ms-italics{font-weight: bold;font-style: italic;}
 #ms-wrapper-map-info{padding: 200px 0;margin-left: 20px;}

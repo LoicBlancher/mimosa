@@ -273,9 +273,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{margin:30px 0 0 0;}
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{margin-bottom: 40px;}
 #ms-second-section-home{background-size:35%!important;background-position:95% -18px!important;}
-#ms-container-bred-home{position: relative;left: -80px;top: 10px;}
-#ms-container-bred-home img{width: 180px;}
-#ms-container-egg1-home{}
+#ms-container-bred-home{background: url('../img/home-page-img.png') no-repeat 66.353% 2.234%;width: 199px;height: 221px;}
 #ms-container-bacon-home{}
 #ms-container-egg2-home{}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}

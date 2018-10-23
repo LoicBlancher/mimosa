@@ -824,13 +824,13 @@ add_shortcode('carousel_with_pagination','img_carousel_with_pagination');
 function img_carousel_with_pagination(){?>    
   <div id="ms-img-carousel-with-pagination">
     <div  id="ms-content-img1" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" alt="">
     </div>
     <div id="ms-content-img2" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination2.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/2.jpg" alt="">
     </div>
     <div  id="ms-content-img3" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/test_carousel_pagination3.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/3.jpg" alt="">
     </div>
     <div id="ms-paginator-carousel">
         <ul>

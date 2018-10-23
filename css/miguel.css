@@ -289,6 +289,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-container-bacon-home{position: relative;top: -290px;left: 270px;background: url('../img/home-page-img-mimosa.png') no-repeat 2.198% 2.241%;width: 245px;height: 224px;}
 #ms-container-spinach-home{position: relative;top: -280px;right: -170px;;background: url('../img/home-page-img-mimosa.png') no-repeat 91.735% 8.27%;width: 328px;height: 242px;}
 #ms-container-egg2-home{position: relative;top: -580px;left: -110px;background: url('../img/home-page-img-mimosa.png') no-repeat 42.701% 4.602%;width: 237px;height: 270px;}
+#ms-third-section-home{background-position: 50% -160.2827px!important;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
 .ms-italics{font-weight: bold;font-style: italic;}
 #ms-wrapper-map-info{padding: 200px 0;margin-left: 20px;}

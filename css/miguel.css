@@ -298,7 +298,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-onion-five{background: url(../img/home-page-img-mimosa.png) no-repeat -545px -941px;width: 24px;height: 49px;position: relative;top: -168px;left: 350px;}
 #ms-onion-six{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -870px;width: 21px;height: 49px;position: relative;top: -223px;left: 400px;}
 #ms-onion-seven{background: url('../img/home-page-img-mimosa.png') no-repeat -542px -795px;width: 26px;height: 49px;position: relative;top: -267px;left: 440px;}
-#ms-pot-under-onion{background: url('../img/home-page-img-mimosa.png') no-repeat -938px -465px;width: 836px;height: 546px;}
+#ms-pot-under-onion{background: url(../img/home-page-img-mimosa.png) no-repeat -938px -465px;width: 836px;height: 220px;position: relative;top: -280px;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
 .ms-italics{font-weight: bold;font-style: italic;}
 #ms-wrapper-map-info{padding: 200px 0;margin-left: 20px;}

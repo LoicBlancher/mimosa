@@ -290,6 +290,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-container-spinach-home{position: relative;top: -280px;right: -170px;;background: url('../img/home-page-img-mimosa.png') no-repeat 91.735% 8.27%;width: 328px;height: 242px;}
 #ms-container-egg2-home{position: relative;top: -580px;left: -110px;background: url('../img/home-page-img-mimosa.png') no-repeat 42.701% 4.602%;width: 237px;height: 270px;}
 #ms-third-section-home{background-position: 50% -160.2827px!important;}
+#ms-wrapper-img-third-section-home{}
+#ms-onion-one{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 83.587%;width: 351px;height: 330px;position: relative;top: -14px;left: -180px;background-size: 460%;transform: rotate(6deg);}
+#ms-onion-two{background: url(../img/home-page-img-mimosa.png) no-repeat -620px -791px;width: 34px;height: 58px;position: relative;top: -65px;left: 185px;transform: rotate(-6deg);}
+#ms-onion-three{background: url(../img/home-page-img-mimosa.png) no-repeat -544px -1072px;width: 25px;height: 59px;position: relative;top: -80px;left: 250px;}
+#ms-onion-four{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -1012px;width: 23px;height: 51px;position: relative;top: -115px;left: 300px;}
+#ms-onion-five{background: url(../img/home-page-img-mimosa.png) no-repeat -545px -941px;width: 24px;height: 49px;position: relative;top: -168px;left: 350px;}
+#ms-onion-six{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -870px;width: 21px;height: 49px;position: relative;top: -223px;left: 400px;}
+#ms-onion-seven{background: url('../img/home-page-img-mimosa.png') no-repeat -542px -795px;width: 26px;height: 49px;position: relative;top: -267px;left: 440px;}
+#ms-pot-under-onion{background: url('../img/home-page-img-mimosa.png') no-repeat -938px -465px;width: 836px;height: 546px;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
 .ms-italics{font-weight: bold;font-style: italic;}
 #ms-wrapper-map-info{padding: 200px 0;margin-left: 20px;}

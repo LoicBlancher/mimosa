@@ -540,14 +540,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-services-img-last{width: 65%;}
 #ms-services-line-indicator-last{bottom: 42%;right: -50px;}
 #ms-atelier-six-section{padding:60px 200px;}
-#ms-atelier-six-section-content{width: 100%;float: left;}
+#ms-atelier-six-section-content{}
 #ms-six-section-image{float: left;width: 30%;}
 #ms-six-section-text{float: left;width: 70%;padding:70px;}
 .ms-large-p{font-size: 19px;line-height: 1.4em;}
 #ms-cta-atelier-btn{margin-left: 60px;margin-top: 20px;color: white;text-transform: uppercase;font-family: 'Gotham';font-weight: bold;font-size: 12px;padding: 14px 30px;}
 #ms-atelier-seven-section{padding:60px 200px;}
 #ms-atelier-seven-section-left-container{margin-top:130px;}
-#ms-img-header-left-seven-section{}
+#ms-img-header-left-seven-section{background: url('../img/atelier-img-mimosa.png') no-repeat 4.52% 84.407%;width: 181px;height: 143px;}
 #ms-cta-seven-section{margin: 0 auto;display: table;font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color:var(--mimosa-black-dark);}
 #ms-atelier-seven-section-right-container{width: 100%;float: left;padding: 10px 0 10px 50px;}
 .ms-img-icon-services-card{display: table;margin:0 auto;}
@@ -571,11 +571,10 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-galerie-lightbox #ms-close-galerie{cursor: pointer;text-align: right;color: white;font-size: 20px;color: var(--mimosa-yellow);position: absolute;width: 30px;height: 30px;background: white;padding: 10px;top: 9%;right: 31.5%;display: table;border-radius: 50%;}    
 #ms-galerie-lightbox img{box-shadow:0 0 25px #111;-webkit-box-shadow:0 0 25px #111;-moz-box-shadow:0 0 25px #111;max-width:740px;margin-top:90px;}
 #ms-header-nine-section{width: 100%;float: left;}
-#ms-image-header-nine-section{float: left;width: 20%;}
-#ms-title-header-nine-section{float: left;width: 80%;padding: 20px 20px;margin-top: 70px;}
-#ms-title-header-nine-section h2{text-align: left;margin-bottom:40px;}
+#ms-image-header-nine-section{background: url('../img/demostration-img-page-mimosa.png') no-repeat 58.252% 1.176%;width: 171px;height: 196px;display: inline-block;background-size: 600%;}
+#ms-title-intereses{display: inline-block;position: relative;top: -70px;}
 #ms-wrapper-content-nine-section p{text-align: center;}
-#ms-wrapper-cta-nine-section-atelier{margin:40px auto;text-align: center;}
+#ms-wrapper-cta-nine-section-atelier{margin: 40px auto;text-align: center;}
 #ms-cta-atelier-nine-section{font-family: 'Gotham';font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 14px 30px;color: var(--mimosa-black-dark);min-width: 200px;}
 #ms-cta-atelier-nine-section:hover{-webkit-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);-moz-box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);box-shadow: -1px 2px 37px 5px rgba(191,191,191,1);}
 /*--------------------------------------------------------*\
@@ -593,6 +592,20 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-el-dem-serv4{background: url(../img/demostration-img-page-mimosa.png) no-repeat 72.238% 9.256%;width: 104px;height: 128px;position: relative;top: -700px;left: -90px;}
 #ms-el-dem-serv5{background: url(../img/demostration-img-page-mimosa.png) no-repeat 75.036% 98.287%;width: 120px;height: 158px;position: relative;top: -710px;left: -120px;}
 #ms-el-dem-serv6{background: url(../img/demostration-img-page-mimosa.png) no-repeat 96.162% 95.332%;width: 117px;height: 68px;position: relative;top: -1010px;left: 180px;}
+#ms-bacon-services-demo{margin-left:120px;}
+
+
+/*Atelier Images **/
+#ms-atelier-pot1{position: relative;top: 100px;left: 300px;}
+#ms-elementAt1-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 2.453% 11.325%;width: 157px;height: 156px;display: inline-block;;position: relative;left: 70px;}
+#ms-elementAt2-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 74.84% 49.673%;width: 71px;height: 165px;display: inline-block;position: relative;left: 130px;}
+#ms-elementAt3-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 62.547% 85.225%;width: 74px;height: 69px;display: inline-block;position: relative;top: -40px;left: 170px;}
+#ms-elementAt4-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 75.108% 97.19%;width: 95px;height: 197px;display: inline-block;position: relative;left: 200px;}
+#ms-elementAt5-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 47.24% 96.185%;width: 103px;height: 126px;display: inline-block;position: relative;left: 250px;}
+#ms-elementAt6-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 55.146% 96.138%;width: 105px;height: 132px;display: inline-block;position: relative;top: 150px;left: -300px;}
+#ms-elementAt7-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 77.938% 4.176%;width: 147px;height: 169px;display: inline-block;position: relative;left: 400px;;}
+#ms-elementAt8-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 68.733% 94.574%;width: 80px;height: 108px;display: inline-block;position: relative;top: -30px;left: 450px;}
+#ms-elementAt9-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 43.542% 12.623%;width: 116px;height: 117px;display: inline-block;position: relative;top: 130px;left: 140px;}
 /*------------------------------------*\
     LOGISTIQUE CULINARIE
 \*------------------------------------*/

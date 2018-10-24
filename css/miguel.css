@@ -518,23 +518,23 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
 #ms-atelier-first-section{padding: 280px;}
-#ms-atelier-second-section{padding: 60px 200px;}
+#ms-atelier-second-section{padding: 60px 200px;background-position: 50% -240.275px!important;}
 #ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
 #ms-atelier-secont-section-text p{margin:2px 0;}
 #ms-atelier-secont-section-text h2{margin-bottom: 40px;}
 #ms-italics-p{font-weight: bold;font-style: italic;color:var(--mimosa-black-dark);}
 #ms-video-atelier{display: table;margin: 0 auto;padding: 40px 10px;width: 60%;}
-#ms-atelier-third-section{padding: 60px 200px;}
-.ms-services-container{width: 100%;float: left;}
-.ms-services-description{width: 30%;float: left;position: relative;}
+#ms-atelier-third-section{padding: 100px 200px;height: 600px;}
+.ms-services-container{}
+.ms-services-description{}
 .ms-services-description h3{margin-top: 5px;}
 .ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
-.ms-services-line-indicator{width: 70px;height: 2px;background: var(--mimosa-yellow);position: absolute;right: -20px;bottom: 55%;}
+.ms-services-line-indicator{width: 70px;height: 2px;background: var(--mimosa-yellow);position: relative;left: 420px;top: 30px;}
 .ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: relative;left: 65px;bottom: 9px;}
-.ms-services-img{width: 70%;float: left;padding: 20px 0 0 200px;}
+.ms-services-img{float: left;padding: 20px 0 0 200px;}
 #ms-atelier-fourth-section{padding: 60px 200px;}
-#ms-services-img-rigth{padding:0;}
-#ms-services-line-indicator-rigth{left:-100px;top:58%;}
+#ms-services-img-rigth{}
+#ms-services-line-indicator-rigth{left: -100px;top: -80px;}
 .ms-margin-left-text{display: block;margin-left: 20px;}
 #ms-services-description-last{width: 35%;}
 #ms-services-img-last{width: 65%;}
@@ -582,6 +582,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
      END ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
 
+#ms-back-chicken{margin-left: 140px;}
+#ms-chicken1{background: url('../img/demostration-img-page-mimosa.png') no-repeat 57.97% 85.827%;width: 168px;height: 244px;position: relative;top: -370px;left: 50px;}
+#ms-chicken2{background: url('../img/demostration-img-page-mimosa.png') no-repeat 78.814% 52.915%;width: 233px;height: 179px;position: relative;top: -570px;left: 290px;}
+#ms-chicken3{background: url(../img/demostration-img-page-mimosa.png) no-repeat 97.576% 7.692%;width: 178px;height: 261px;position: relative;top: -780px;right: -600px;}
+#ms-demo-serv2{position: relative;left: -190px;top: -80px;}
+#ms-el-dem-serv1{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.214% 16.396%;width: 98px;height: 70px;position: relative;top: -540px;left: -30px;transform: rotate(-15deg);}
+#ms-el-dem-serv2{background: url(../img/demostration-img-page-mimosa.png) no-repeat 1.793% 42.541%;width: 104px;height: 82px;position: relative;bottom: 190px;left: 360px;}
+#ms-el-dem-serv3{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.158% 73.622%;width: 108px;height: 117px;position: relative;top: -350px;left: -70px;}
+#ms-el-dem-serv4{background: url(../img/demostration-img-page-mimosa.png) no-repeat 72.238% 9.256%;width: 104px;height: 128px;position: relative;top: -700px;left: -90px;}
+#ms-el-dem-serv5{background: url(../img/demostration-img-page-mimosa.png) no-repeat 75.036% 98.287%;width: 120px;height: 158px;position: relative;top: -710px;left: -120px;}
+#ms-el-dem-serv6{background: url(../img/demostration-img-page-mimosa.png) no-repeat 96.162% 95.332%;width: 117px;height: 68px;position: relative;top: -1010px;left: 180px;}
 /*------------------------------------*\
     LOGISTIQUE CULINARIE
 \*------------------------------------*/
@@ -606,7 +617,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       Begin Intervals Responsive
   \*------------------------------------*/
   @media only screen and (min-width: 1280px) and (max-width: 1400px){
-    #ms-services-img-rigth{position: relative;left: -25%;}
     #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 20px;line-height: 1.5em;}
     #mg-menu-terms-main #mg-social-main-menu{position: relative;top:10px;}
   }
@@ -615,7 +625,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
     /*Atelier*/
     .ms-services-img{position: relative;left: 120px;}
-    #ms-services-img-rigth{position: relative;left: -220px;}
     #ms-services-line-indicator-rigth{left: -160px;}
     .ms-services-img{left: 10px;}
     #ms-six-section-image img{width: 250px;padding: 90px 0;}
@@ -658,7 +667,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-atelier-fourth-section,#ms-atelier-six-section,
     #ms-atelier-seven-section,#ms-atelier-eight-section{padding: 60px 130px!important;}
     .ms-services-img{padding: 0;position: relative;left:80px;}
-    #ms-services-img-rigth{position: relative;left: -140px;}
     #ms-services-line-indicator-rigth{left: -140px!important;}
     #ms-services-img-last{width: 50%;position: relative;left: 100px!important;}
 
@@ -675,7 +683,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
     /* Atelier */
     .ms-services-img img{width: 100%!important;position: relative;left: 40px;}
-    #ms-services-img-rigth{position: relative;left: -40px;}
     #ms-services-line-indicator-rigth{top:40%;}
     #ms-six-section-image img{width: 200px;padding: 90px 0;}
     .ms-atelier-services-card{padding: 15px 20px!important;width: 48%!important;margin: 7px 3px!important;}
@@ -803,7 +810,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
     @media only screen  and (min-width : 1400px){
       #mg-wrapper-main-menu #mg-main-menu-content ul li{line-height: 2.7em;}
-      #ms-services-img-rigth {position: relative;left: -220px;}
     }
 
     @media only screen  and (min-width : 1280px) {
@@ -1171,7 +1177,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-services-img-rigth{position: absolute;top: 0;width: 200px;left: 0;}  
       #ms-bullet-rigth{position: relative;left: 55%;}
       #ms-services-line-indicator-rigth{left: 50px;top:190px;}
-      .ms-services-container{float: initial;}
+      .ms-services-container{float: initial;height: 500px;}
       #ms-services-description-last{width: 100%;}
       #ms-services-line-indicator-last{top: 190px;right: 30px;}
       #ms-services-img-last{bottom: 360px;left: 150px;}

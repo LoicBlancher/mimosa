@@ -8,9 +8,6 @@ jQuery(function ($) {
          else if(id == 2){
          }
       }
-
-      function removeonePageonResponsive(x){
-         if(x.matches){
              $(".main").onepage_scroll({
                 sectionContainer: ".section-scroll",     // sectionContainer accepts any kind of selector in case you don't want to use section
                 easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
@@ -24,17 +21,11 @@ jQuery(function ($) {
                 },   // This option accepts a callback function. The function will be called after the page moves.
                 loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
                 keyboard: true,                  // You can activate the keyboard controls
-                responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
+                responsiveFallback: 760,        // You can fallback to normal page scroll by defining the width of the browser in which
                                                  // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
                                                  // the browser's width is less than 600, the fallback will kick in.
                 direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
             });       
-         }
-      }
-
-      let breakpoint = window.matchMedia("(min-width:768px)");
-      removeonePageonResponsive(breakpoint);
-      breakpoint.addListener(removeonePageonResponsive);
 
  }); 
 });

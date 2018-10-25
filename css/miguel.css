@@ -1290,9 +1290,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-container-bred-home{top: -200px;transform: rotate(250deg);left: 220px;background-size: 500%;display: inline-block;}
         #ms-container-bacon-home{top: -840px;left: -120px;background-size: 600%;width: 200px;height: 200px;display: inline-block;transform: rotate(310deg);opacity: 0.95;}
         #ms-container-egg1-home{position: relative;background: url(../img/home-page-img-mimosa.png) no-repeat 22.825% 13.602%;width: 206px;height: 242px;display: inline-block;top: -900px;left: 200px;opacity: 0.6;transform: rotate(280deg);}
-        #ms-container-egg2-home{background-size: 500%;top: -960px;opacity: 0.76;}
-        #ms-container-spinach-home{top:-780px;}
-
+        #ms-container-egg2-home{background-size: 500%;top: -960px;opacity: 0.76;display: inline-block;}
+        #ms-container-spinach-home{top:-780px;display: inline-block;}
+        #ms-third-section-home{background-position: 20% -45%!important;}
+        #ms-wrapper-content-third-section-home{transform: translateY(-307%);}
+        #ms-wrapper-img-third-section-home{transform:translateY(50%);}
+        #ms-wrapper-content-third-section-home h3{text-align: center;}
         .ms-map-pin-info{height: 50px;padding: 12px 10px;}
         .ms-map-pin-text{font-size: 13px;}
         #ms-wrapper-btns-lastsection{width: 300px;}

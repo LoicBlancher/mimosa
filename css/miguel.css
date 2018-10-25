@@ -1277,8 +1277,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
      @media only screen and (max-width: 360px) {
         /* Home Page */
-        .ms-logo-mimosa-main{width: 150px;position: initial;display: table;margin: 30px auto 70px auto;}
-        #ms-slider-home h1{line-height: 1em;}
+        .ms-logo-mimosa-main{width: 150px;position: initial;display: table;margin: 10px auto 70px auto;}
+        #ms-slider-home h1{line-height: 1em;margin-bottom: 0;}
         #ms-slider-home p.white{text-align: center;position: relative;top: -30px;}
         #ms-know-more{float: initial;position: initial;display: table;margin: 0 auto 43px auto;}
         #ms-second-section-home h2{margin-top:30px;}

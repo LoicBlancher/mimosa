@@ -20,6 +20,4 @@
         </div>
         <?php footer_terms(); ?>
       </div>    
-
     </div>
-  <?php get_footer();?>

@@ -471,6 +471,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-text-footer{color: var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;display: inherit;margin-top: 10px;}
 #ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
 #ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
+
+
+#ms-concept-second-subsection{}
+#ms-fork-notre-concept{}
+#ms-skill-one-fork{}
+#ms-skill-two-fork{}
+#ms-skill-three-fork{}
+#ms-skill-four-fork{}
+
 /*------------------------------------*\
     End Notre concept
 \*------------------------------------*/
@@ -524,7 +533,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-atelier-secont-section-text h2{margin-bottom: 40px;}
 #ms-italics-p{font-weight: bold;font-style: italic;color:var(--mimosa-black-dark);}
 #ms-video-atelier{display: table;margin: 0 auto;padding: 40px 10px;width: 60%;}
-#ms-atelier-third-section{padding: 100px 200px;height: 600px;}
+#ms-atelier-third-section{padding: 100px 200px;height: 800px;}
 .ms-services-container{}
 .ms-services-description{}
 .ms-services-description h3{margin-top: 5px;}
@@ -614,6 +623,18 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-elementAt4-ser2{background: url(../img/atelier-img-mimosa.png) no-repeat 34.39% 14.147%;width: 122px;height: 108px;display: inline-block;position: relative;top: 160px;left: -100px;}
 #ms-elementAt5-ser2{background: url(../img/atelier-img-mimosa.png) no-repeat 43.542% 12.623%;width: 116px;height: 117px;display: inline-block;position: relative;top: 170px;left: 100px;}
 #ms-elementAt6-ser2{background: url(../img/atelier-img-mimosa.png) no-repeat -1% 11.325%;width: 157px;height: 156px;display: inline-block;position: relative;top: 200px;left: 90px;background-size: 900%;}
+
+
+#ms-plate-atelier-ser{background: url(../img/atelier-img-mimosa.png) no-repeat 62.55% 1.19%;width: 361px;height: 350px;display: inline-block;background-size: 400%;position: relative;top: 30px;left: 240px;}
+#ms-elementAt1-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 68.733% 94.574%;width: 80px;height: 108px;display: inline-block;position: relative;bottom: 350px;left: -100px;}
+#ms-elementAt2-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 62.547% 85.225%;width: 74px;height: 69px;display: inline-block;position: relative;bottom: 350px;}
+#ms-elementAt3-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 75.108% 97.19%;width: 95px;height: 197px;display: inline-block;position: relative;bottom: 160px;left: 50px;}
+#ms-elementAt4-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 47.24% 96.185%;width: 103px;height: 126px;display: inline-block;position: relative;bottom: 190px;left: 580px;}
+#ms-elementAt5-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 74.84% 49.673%;width: 71px;height: 165px;display: inline-block;position: relative;left: 440px;transform: rotate(40deg);}
+#ms-elementAt6-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 2.453% 11.325%;width: 157px;height: 156px;display: inline-block;position: relative;bottom: 10px;left: 140px;}
+#ms-elementAt7-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 43.542% 12.623%;width: 116px;height: 117px;display: inline-block;position: relative;top: -90px;left: -180px;}
+#ms-elementAt8-ser3{left: -370px;background: url(../img/atelier-img-mimosa.png) no-repeat 55.146% 96.138%;width: 105px;height: 132px;display: inline-block;position: relative;bottom: 220px;}
+#ms-elementAt9-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 77.938% 4.176%;width: 147px;height: 169px;display: inline-block;position: relative;top: -560px;left: 100px;}
 
 /*------------------------------------*\
     LOGISTIQUE CULINARIE

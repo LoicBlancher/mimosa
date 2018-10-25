@@ -456,7 +456,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-bullets-mimosa-img-right{float: right;width: 60px;}
 .ms-content-bullets-rigth{padding: 0 70px;}
 .ms-content-bullets-rigth h6, .ms-content-bullets-rigth p{text-align: right;}
-#ms-concept-third-section-text-column{width: 50%;}
+#ms-concept-third-section-text-column{}
 #ms-concept-third-section-text-column .ms-list-check-mimosa li:after{left:-303px!important;}
 #ms-concept-third-section-text-column .ms-primary-btn-bl{color:white;margin-top: 20px;}
 #ms-concept-third-section-text-column h2{margin-bottom: 40px;}
@@ -479,7 +479,24 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-skill-two-fork{}
 #ms-skill-three-fork{}
 #ms-skill-four-fork{}
+#ms-image-base-force-notrec{position: relative;bottom: 40px;}
+/*#ms-part1-force-notrec{}*/
+#ms-part2-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 42.014% 13.693%;width: 122px;height: 99px;display: inline-block;position: relative;top: -430px;}
+#ms-part3-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 41.1% 92.611%;width: 80px;height: 137px;display: inline-block;position: relative;top: -200px;left: -200px;}
+#ms-part4-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 63.84% 13.488%;width: 73px;height: 125px;display: inline-block;position: relative;top: -200px;left: -800px;}
+#ms-part5-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 56.019% 90.87%;width: 75px;height: 110px;display: inline-block;position: relative;top: -230px;left: -780px;transform: rotate(20deg);}
+#ms-part6-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 80.417% 23.457%;width: 75px;height: 97px;display: inline-block;position: relative;top: -270px;left: -400px;}
+#ms-part7-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 69.014% 93.607%;width: 59px;height: 121px;display: inline-block;position: relative;top: -330px;left: -360px;}
+#ms-part8-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 80.417% 23.457%;width: 75px;height: 97px;display: inline-block;position: relative;top: -400px;left: -300px;transform: rotate(280deg);}
+#ms-part9-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 80.417% 23.457%;width: 75px;height: 97px;display: inline-block;position: relative;top: -600px;left: -140px;transform: rotate(-30deg);}
+#ms-part10-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 69.014% 93.607%;width: 59px;height: 121px;display: inline-block;position: relative;top: -800px;left: -110px;}
+#ms-part11-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 96.429% 23.045%;width: 82px;height: 97px;display: inline-block;position: relative;top: -400px;left: -200px;}
+#ms-part12-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 100% 61.024%;width: 87px;height: 86px;display: inline-block;position: relative;top: -630px;left: -140px;}
+#ms-part13-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 99.015% 100%;width: 89px;height: 83px;display: inline-block;position: relative;top: -900px;left: -50px;}
 
+#ms-notre-concept-gallery-header{float: left;width: 100%;}
+#ms-notre-concept-gallery-header-title{float:left;width: 30%;}
+#ms-notre-concept-gallery-des{float:left;width: 70%;border-right: 3px solid var(--mimosa-yellow);}
 /*------------------------------------*\
     End Notre concept
 \*------------------------------------*/

@@ -1354,7 +1354,20 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
      }
 
       @media only screen and (max-width: 320px){
-
+        /* Home Page */
+        h1{font-size: 40px!important;}
+        #ms-third-section-home{background-position: 20% -96%!important;}
+        #ms-onion-one{left:-90px;}
+        #ms-onion-two{left: 80px;top: -110px;}
+        #ms-onion-three{left:30px;}
+        #ms-onion-four{left:-10px;}
+        #ms-onion-five{left:-30px;}
+        #ms-onion-six{top: -124px;left: 150px;}
+        #ms-onion-seven{top: -115px;left: 90px;}
+        #ms-pot-under-onion{top:-90px;}
+        #ms-img-avocado{left:30px;}
+        #ms-wrapper-btns-lastsection .ms-primary-btn-bl{margin-right: 5px;}
+        #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{max-width: 136px;padding: 13px 15px;}
         /* Contact Page */
         .ms-padding-contact{padding: 30px;}
         .ms-wrapper-contact-form label{font-size: 9px;}

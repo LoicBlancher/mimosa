@@ -1302,8 +1302,18 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-onion-five{display: inline-block;left: 60px;width: 37px;height: 26px;background-size: 2198%;background-position: 30% 79%;top: -70px;}
         #ms-onion-six{display: inline-block;left: 40px;width: 37px;height: 24px;background-position: 30% 78%;background-size: 1967%;top: -70px;}
         #ms-onion-seven{display: inline-block;width: 66px;height: 53px;background-size: 950%;background-position: 24% 71%;top: -60px;left: -20px;}
-
         #ms-pot-under-onion{background-size: 165%;width: 478px;height: 89px;background-position: 127% 50%;top: -40px;}
+        #ms-seed-complete{display: none;}  
+        #ms-seed-one{top:-340px;}
+        #ms-seed-two{top: -700px;left: 180px;}
+        #ms-seed-three,#ms-seed-five,#ms-seed-six{display: none;}
+        #ms-seed-four{top: -990px;left: -250px;}  
+        #ms-seed-five{display: none;}
+        #ms-seed-tomato{top: -160px;left: -120px;}
+        #ms-seed-brocoli{top: -390px;left: 70px;}
+
+
+
         #ms-wrapper-content-third-section-home h3{text-align: center;}
         .ms-map-pin-info{height: 50px;padding: 12px 10px;}
         .ms-map-pin-text{font-size: 13px;}

@@ -1292,9 +1292,18 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-container-egg1-home{position: relative;background: url(../img/home-page-img-mimosa.png) no-repeat 22.825% 13.602%;width: 206px;height: 242px;display: inline-block;top: -900px;left: 200px;opacity: 0.6;transform: rotate(280deg);}
         #ms-container-egg2-home{background-size: 500%;top: -960px;opacity: 0.76;display: inline-block;}
         #ms-container-spinach-home{top:-780px;display: inline-block;}
-        #ms-third-section-home{background-position: 20% -45%!important;}
-        #ms-wrapper-content-third-section-home{transform: translateY(-307%);}
-        #ms-wrapper-img-third-section-home{transform:translateY(50%);}
+        #ms-third-section-home{background-position: 20% -126%!important;}
+        #ms-wrapper-content-third-section-home{transform: translateY(-123%);}
+        #ms-wrapper-img-third-section-home{transform:translateY(100%);}
+        #ms-onion-one{background-size: 370%;left: -60px;display: inline-block;background-position: 1.600% 86.587%;width: 180px;height: 160px;transform: rotate(-2deg)}
+        #ms-onion-two{display: inline-block;left: -65px;top: -7px;background-size: 1390%;background-position: 36% 72%;width: 50px;height: 50px;transform: rotate(8deg);}
+        #ms-onion-three{display: inline-block;left: 130px;top: -30px;width: 50px;height: 96px;background-size: 1483%;background-position: 30% 115%;}
+        #ms-onion-four{display: inline-block;left: 85px;top: -80px;width: 50px;height: 30px;background-position: 29% 92%;background-size: 1630%;}
+        #ms-onion-five{display: inline-block;left: 60px;width: 37px;height: 26px;background-size: 2198%;background-position: 30% 79%;top: -70px;}
+        #ms-onion-six{display: inline-block;left: 40px;width: 37px;height: 24px;background-position: 30% 78%;background-size: 1967%;top: -70px;}
+        #ms-onion-seven{display: inline-block;width: 66px;height: 53px;background-size: 950%;background-position: 24% 71%;top: -60px;left: -20px;}
+
+        #ms-pot-under-onion{background-size: 165%;width: 478px;height: 89px;background-position: 127% 50%;top: -40px;}
         #ms-wrapper-content-third-section-home h3{text-align: center;}
         .ms-map-pin-info{height: 50px;padding: 12px 10px;}
         .ms-map-pin-text{font-size: 13px;}

@@ -1276,6 +1276,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
 
      @media only screen and (max-width: 360px) {
+        body{overflow-x: hidden!important;}
         /* Home Page */
         .ms-logo-mimosa-main{width: 150px;position: initial;display: table;margin: 10px auto 70px auto;}
         #ms-slider-home h1{line-height: 1em;margin-bottom: 0;}
@@ -1313,14 +1314,16 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-seed-brocoli{top: -390px;left: 70px;}
         #ms-wrapper-map-info{margin-left:0;}
         #ms-wrapper-map-info p.white{padding: 0 10px;}
-
+        #ms-img-avocado{background-size: 259%;background-position: 106% 80%;top: -120px;left: 50px;width: 200px;height: 300px;display: inline-block;}
+        #ms-img-oats{display: none;}
+        #ms-img-branch2{display: none;}
         #ms-wrapper-content-third-section-home h3{text-align: center;}
         .ms-map-pin-info{height: 50px;padding: 12px 10px;}
         .ms-map-pin-text{font-size: 13px;}
         #ms-wrapper-btns-lastsection{width: 300px;}
         #ms-wrapper-btns-lastsection .ms-primary-btn-bl,
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{min-width: 40px;max-width: 140px;padding: 13px 20px;font-size: 10px;}
-        #ms-six-section-home{padding: 170px 50px 30px 50px!important;}
+        #ms-six-section-home{padding: 170px 50px!important;}
         #ms-second-section-home h4{font-size: 16px;margin-top: 40px;}
         /* Responsive qui sommes */
         header{display: none;}

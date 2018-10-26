@@ -1311,8 +1311,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-seed-five{display: none;}
         #ms-seed-tomato{top: -160px;left: -120px;}
         #ms-seed-brocoli{top: -390px;left: 70px;}
-
-
+        #ms-wrapper-map-info{margin-left:0;}
+        #ms-wrapper-map-info p.white{padding: 0 10px;}
 
         #ms-wrapper-content-third-section-home h3{text-align: center;}
         .ms-map-pin-info{height: 50px;padding: 12px 10px;}

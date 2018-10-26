@@ -8,7 +8,7 @@
 */
 /* One page Scroll */
 .home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap, .notre-concept main,.notre-concept .wrap{height: 100%;}
-
+body{overflow-x: hidden!important;}
 
 :root{
   /* Var colors */
@@ -781,6 +781,22 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
   @media only screen and (min-width: 480px) and (max-width: 736px) {
+   /* Home */
+    .ms-logo-mimosa-main{margin: 0 auto;display: table;position: initial;}
+    #ms-slider-home h1{line-height: 1.1em;margin-top: 50px;}
+    #ms-colum-slide-home p.white{text-align: center;}
+    #ms-know-more{float: initial;display: table;margin: 50px auto;}
+    #ms-second-section-home{background-position: 135% -18px!important;height: 1050px;}
+    #ms-first-column-second-sec h3{text-align: center;}
+    .ms-wrapper-bullet{float: initial;width: unset;margin: 0 auto;display: table;}
+    .ms-content-bullets{float: initial;width: unset;}
+    #ms-container-bred-home{display: inline-block;top: -800px;left: -190px;}
+    #ms-container-egg1-home{display: inline-block;top: -500px;left: 300px;opacity: 0.8;}
+    #ms-container-bacon-home{display: inline-block;top: -720px;left: -230px;transform: rotate(190deg);opacity: 0.7;}
+    #ms-container-egg2-home{display: inline-block;top: -587px;left: -90%;}
+    #ms-container-spinach-home{display: inline-block;top: -590px;left: 340px;}
+
+
    /* Atelier */
     .ms-services-line-indicator{top: 100px!important;left: 130px;}
     #ms-services-line-indicator-rigth{left: -90px;top: 120px;}
@@ -794,6 +810,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-image-herder-eigth-section img{width: 120px;}
     #ms-text-header-eigth-section p{position: relative;left: 50px;margin-top: 40px!important;}
     #ms-title-header-eigth-section h2{position: relative;left: 42px;}
+    }
   } 
 
   @media only screen and (min-width: 732px) and (max-width: 767px){
@@ -813,6 +830,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
   @media only screen and (min-width: 480px) and (max-width: 732px){
+    
+
     /* Contact */
     .ms-padding-contact{padding: 40px 60px;}
     .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 40%;position: relative;left:30%;top:20px;}
@@ -1100,7 +1119,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
     
     @media only screen and (max-width: 480px) {
-      body{overflow-x: hidden!important;}
       h1{font-size: 48px!important;}
       h2{font-size: 30px!important;}
       h3{font-size:23px!important;}

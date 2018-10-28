@@ -752,10 +752,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   }
 
 
-  @media only screen and (min-width: 737px) and (max-width: 780px){
-    #ms-slider-home p.yellow{text-align: center;}
-    #ms-slider-home #ms-know-more{text-align: center;}
-    #ms-slider-home h1{line-height: 1.1em;}
+
+  @media only screen and (min-width: 736px) and (max-width: 780px){
+    /* Home */
+    .ms-logo-mimosa-main{position: initial;margin: 0 auto;display: table;}
+    #ms-colum-slide-home h1{line-height: 0.9em;margin-top: 40px;}  
+    #ms-colum-slide-home p.yellow{transform:translateY(-250%);text-align: center;}
+    #ms-colum-slide-home p.white{transform: translateY(-130%);text-align: center;}
+    #ms-colum-slide-home #ms-know-more{transform: translateY(-150%);float: initial;display: table;margin: 0 auto;}
+    
+    
+
     #ms-second-section-home .ms-img-left-section{display: none;}
     #ms-second-section-home .ms-mimosa-subtitle{display: inherit;text-align: center;}
     #ms-second-section-home h2,
@@ -765,10 +772,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     .ms-wrapper-bullet-with-img{width: 100%;float: left;margin-left: 0!important;}
     .ms-container-bullet{width: 40%;float: left}
     #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{display: none;}
-
-  }  
-
-  @media only screen and (min-width: 736px) and (max-width: 780px){
     /* Atelier */
     #ms-img-header-left-seven-section{margin:0 auto;display: table;}
     #ms-atelier-seven-section-left-container h2,
@@ -793,9 +796,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     .ms-wrapper-bullet{float: initial;width: unset;margin: 0 auto;display: table;}
     .ms-content-bullets{float: initial;width: unset;}
     #ms-container-bred-home{display: inline-block;top: -800px;left: -190px;}
-    #ms-container-egg1-home{display: inline-block;top: -500px;left: 300px;opacity: 0.8;}
+    #ms-container-egg1-home{display: inline-block;top: -500px;left: 350px;opacity: 0.5;}
     #ms-container-bacon-home{display: inline-block;top: -720px;left: -230px;transform: rotate(190deg);opacity: 0.7;}
-    #ms-container-egg2-home{display: inline-block;top: -587px;}
+    #ms-container-egg2-home{display: inline-block;top: -587px;left:-450px;}
     #ms-container-spinach-home{display: inline-block;top: -590px;left: 340px;}
     #ms-third-section-home{background-position: 20% -56%!important;}
     #ms-wrapper-content-third-section-home h3{text-align: center;}
@@ -803,14 +806,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-wrapper-img-third-section-home-res{transform: translateY(100%);}
     #ms-wrapper-img-third-section-home-res img{width: 600px;}
     #ms-seed-complete{display: none;}
-    #ms-seed-one{top: -1003px;}
+    #ms-seed-one{top: -803px;left: -40px;}
     #ms-seed-two{top: -286px;left: -160px;}
     #ms-seed-three{top: -350px;left: 430px;transform: rotate(130deg);}
     #ms-seed-four,#ms-seed-five,#ms-seed-six{display: none;}
     #ms-seed-tomato{display: inline-block;top: -200px;left: -100px;}
     #ms-seed-brocoli{display: inline-block;top: -460px;left: 300px;}
     #ms-img-branch2,#ms-img-oats{display: none;}
-    #ms-img-avocado{top: -30px;left: 0;right: 40px;background-size: 280%;width: 350px;height: 320px;background-position: 102% 90%;}
+    #ms-img-avocado{top: -30px;left: 50%;transform: translateX(-50%);right: 40px;background-size: 280%;width: 350px;height: 320px;background-position: 102% 90%;display: inline-block;}
    /* Atelier */
     .ms-services-line-indicator{top: 100px!important;left: 130px;}
     #ms-services-line-indicator-rigth{left: -90px;top: 120px;}
@@ -1201,7 +1204,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-map-info{margin-left:0;}
       #ms-wrapper-map-info p.white{padding: 0 10px;}
       #ms-wrapper-title-five-section h4{margin-top:0px;}
-      #ms-img-avocado{background-size: 259%;background-position: 106% 80%;top: -120px;left: 96px;width: 200px;height: 300px;display: inline-block;}
+      #ms-img-avocado{background-size: 259%;background-position: 106% 80%;top: -120px;width: 200px;height: 300px;display: inline-block;}
       #ms-img-oats{display: none;}
       #ms-img-branch2{display: none;}
       #ms-wrapper-content-third-section-home h3{text-align: center;}

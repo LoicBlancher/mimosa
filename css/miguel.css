@@ -1598,9 +1598,18 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-galerie-lightbox img{width: 390px;position: relative;top:120px;}
 
       /* Responsive demo culinaire */
+      #ms-atelier-third-section{height: 750px;}
       #ms-video-atelier{width: 100%;padding: 40px 0px;}
-      .ms-services-line-indicator{top:-30px!important;}
+      .ms-services-line-indicator{top:-30px!important;left:160px;}
       #ms-demo-culinaire-serv-1{width: 100%;position: relative;top: -200px;}
+      #ms-vegetables-demo{width: 100%;transform: translateY(40%);}
+      #ms-el-dem-serv1{display: inline-block;top:-580px;}
+      #ms-el-dem-serv2{display: inline-block;bottom: 320px;left: 210px;}
+      #ms-el-dem-serv4{display: inline-block;top: 90px;left: -280px;}
+      #ms-demo-second-service-wrapper{transform: translateY(-250%);}
+      #ms-services-line-indicator-rigth{top: -120px!important;transform: rotate(180deg);left: 110px;}
+      #ms-demo-third-service-wrapper{transform: translateY(-10%);}
+      #ms-bacon-services-demo{width: 100%;transform: translateY(-70%);margin-left: 0;}
 
 
     }

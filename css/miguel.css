@@ -1211,6 +1211,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       h5{font-size:17px!important;}
       h6{font-size:15px!important;}
       /* Responsive home page */
+      #ms-slider-home{background-image: url(http://mimosa.graditest.com/wp-content/uploads/2018/10/slidehome-mimosa.jpg)!important;background-position: 19%!important;background-size: cover!important;}
       .ms-padding-home-section{padding:30px 50px!important;}
       #ms-slider-home h1{text-align: center;position: relative;top: -50px;}
       #ms-slider-home p.yellow{text-align: center;position: relative;top: -40px;}
@@ -1277,7 +1278,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
 
       /* Responsive Qui Sommes */
-      #ms-sommes-first-section{padding: 230px 0!important;}
+      #ms-sommes-first-section{padding: 230px 0!important;background-image: url(http://mimosa.graditest.com/wp-content/uploads/2018/10/Slidefaceaface.jpg)!important;background-position: 76% -210px!important;background-size: 350%!important;}
+      #ms-sommes-first-section h1,
+      #ms-sommes-first-section h2{color:black!important;}
       #ms-sommes-second-section h2{word-wrap: break-word;}
       #ms-img-carousel-with-pagination{padding: 20px;}
       #ms-img-carousel-with-pagination img{display: table;margin:0 auto;}

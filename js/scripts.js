@@ -138,7 +138,9 @@ jQuery(function ($) {
                   breakpoint: 480,
                   settings: {
                       slidesToShow: 1,
-                      centerPadding: '5px'
+                      centerPadding: '5px',
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {
@@ -151,7 +153,8 @@ jQuery(function ($) {
           ]
       });
 
-       $("#ms-slider-team-members .slick-arrow").click(function(){
+
+       $("#ms-slider-team-members").on('afterChange',function(){
           var currentImg = $(".slick-current").attr("rel");
           var currentInfo = "#info_" + currentImg;
           $(".ms-wrapper-info.act").fadeOut(500);

@@ -317,7 +317,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-img-soup{}
 #ms-img-branch1{background: url('../img/home-page-img-mimosa-2.png') no-repeat 44.585% 92%;width: 270px;height: 174px;position: relative;top: -380px;left: -260px;}
 #ms-img-oats{background: url(../img/home-page-img-mimosa-2.png) no-repeat .924% 40.515%;width: 388px;height: 566px;position: relative;top: -440px;background-size: 300%;left: -290px;}
-#ms-img-avocado{background: url(../img/home-page-img-mimosa-2.png) no-repeat 111.811% 67.979%;width: 577px;height: 605px;position: relative;top: -830px;background-size: 240%;left: 100px;}
+#ms-img-avocado{    background: url(../img/home-page-img-mimosa-2.png) no-repeat 111.811% 67.979%;width: 577px;height: 605px;position: relative;top: -830px;background-size: 240%;top: -200px;display: inline-block;left: 50%;transform: translateX(-50%);}
 #ms-img-branch2{background: url('../img/home-page-img-mimosa-2.png') no-repeat 52.113% 15.986%;width: 500px;height: 405px;}
 #ms-wrapper-btns-lastsection, #ms-img-footer-mimosa-home{display: table;margin: 0 auto;}
 #ms-last-section-home-yl{background: #f2d200;padding: 30px 0;}

@@ -1513,6 +1513,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-img-avocado{left:30px;}
         #ms-wrapper-btns-lastsection .ms-primary-btn-bl{margin-right: 5px;}
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{max-width: 136px;padding: 13px 15px;}
+        /* Qui sommes */
+        #ms-slider-team-members{top:50px;}
+        .ms-wrapper-member-name{top:35px;}
+        .ms-image-team-member{width: 110px!important;transform: translateX(-80%);}
+        #ms-sommes-fourth-section .ms-list-check-mimosa p.second{font-size: 10px!important;}
+        #ms-sommes-fourth-section .ms-list-check-mimosa li:after{left: -205px}
         /* Contact Page */
         .ms-padding-contact{padding: 30px;}
         .ms-wrapper-contact-form label{font-size: 9px;}

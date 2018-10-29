@@ -143,7 +143,17 @@ jQuery(function ($) {
               {
                   breakpoint: 360,
                   settings: {
-                      slidesToShow: 1
+                      slidesToShow: 1,
+                      autoplay:true,
+                      autoplaySpeed:4000
+                  }
+              },
+              {
+                  breakpoint: 320,
+                  settings: {
+                      slidesToShow: 1,
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               }
           ]

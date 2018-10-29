@@ -138,7 +138,7 @@ jQuery(function ($) {
                   breakpoint: 480,
                   settings: {
                       slidesToShow: 1,
-                      centerPadding: '25px'
+                      centerPadding: '5px'
                   }
               },
               {

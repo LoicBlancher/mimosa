@@ -1278,15 +1278,19 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
 
       /* Responsive Qui Sommes */
-      #ms-sommes-first-section{padding: 230px 0!important;background-image: url(http://mimosa.graditest.com/wp-content/uploads/2018/10/Slidefaceaface.jpg)!important;background-position: 76% -210px!important;background-size: 350%!important;}
+      #ms-sommes-first-section{padding: 230px 0!important;}
       #ms-sommes-first-section h1,
       #ms-sommes-first-section h2{color:black!important;}
-      #ms-sommes-second-section h2{word-wrap: break-word;}
+      #ms-sommes-second-section h2{;text-align: center;margin-top: 30px;}
+      #ms-first-column-second-sec p.gray{text-align: center;}
+      #ms-sommes-second-section .ms-divider-gray{margin:25px auto;}
       #ms-img-carousel-with-pagination{padding: 20px;}
+      #ms-first-column-second-sec ul{list-style-type: none;padding: 0;}
+      #ms-first-column-second-sec ul li{text-align: center;font-weight: bold;}
       #ms-img-carousel-with-pagination img{display: table;margin:0 auto;}
       #ms-sommes-second-section h4{top:unset;right: unset;bottom:35%;font-size: 19px;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel ul{bottom: 14px;}
-      #ms-img-carousel-with-pagination #ms-paginator-carousel{height: 40px;padding: 10px 5px;bottom:4%;}
+      #ms-img-carousel-with-pagination #ms-paginator-carousel{height: 40px;padding: 10px 5px;bottom:7%;}
       .ms-image-map-qui-sommes{width: 70%;display: table;margin:0 auto;}
       #ms-sommes-fourth-section #ms-eyelash-selector{text-align: center;}
       #ms-sommes-fourth-section #ms-eyelash-selector li{margin-right:0;}
@@ -1307,6 +1311,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:0 auto;}
       #ms-box-offres{float: initial;width: 100%;position: initial;}
       .ms-box-container{float: initial;width: 100%;}
+      .ms-image-team-member{width: 130px!important;}
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}
@@ -1322,6 +1327,24 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-wrapper-bullet-with-img{margin-left:0;}
       .ms-container-bullet{margin-left:0;}
       .ms-bullets-mimosa-img{display: initial;}
+      #ms-sommes-third-section{height: 850px;}
+      .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-50%);}
+      #ms-wrapper-header-tmembers{width: unset;text-align: center;position: initial;}
+      #ms-slider-team-members{top:80px;}
+      .ms-wrapper-member-name{position: relative;top: 170px;left: 50%;transform: translateX(-50%);text-align: center;}
+      #ms-slider-team-members .slick-prev:before{position: relative;left: 60px;top: 80px;}
+      #ms-slider-team-members .slick-next:before{position: relative;top: 80px;right: 10px;}
+      .ms-footer-info-team{float: initial;top: 530px;}
+      .ms-footer-tmembers-social{float: initial;width: 100%;}
+      .ms-footer-tmembers-skills{float: initial;width: 100%;border:none;margin:10px 0;}
+      .ms-member-description{float: initial;width: 100%;text-align: center;}
+      .ms-title-footer{padding: 10px 0;}
+      #ms-cta-team{position: relative;top:250px;display: table;margin:0 auto;}
+      #ms-slider-team-members .slick-list.draggable{padding: 80px 0!important;}
+
+
+
+
       /* End Responsive Footer Mobile */
       
       /* Responsive demander devis*/

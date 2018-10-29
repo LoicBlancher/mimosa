@@ -94,8 +94,8 @@ jQuery(function ($) {
       });
 
       $('#ms-slider-testimonials').slick({
-        autoplay:false,
-        autoplaySpeed:2000
+        autoplay:true,
+        autoplaySpeed:3000
       });
 
 
@@ -109,49 +109,64 @@ jQuery(function ($) {
               {
                   breakpoint: 1400,
                   settings: {
-                      slidesToShow: 1,
+                      slidesToShow: 3,
                       centerPadding: '400px'
                   }
               },
               {
                   breakpoint: 1200,
                   settings: {
-                      slidesToShow: 1,
-                      centerPadding: '300px'
+                      slidesToShow: 3,
+                      centerPadding: '100px',
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {
                   breakpoint: 992,
                   settings: {
                       slidesToShow: 1,
-                      centerPadding: '180px'
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {
-                  breakpoint: 768,
+                  breakpoint: 736,
                   settings: {
                       slidesToShow: 1,
-                      centerPadding: '80px'
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {
                   breakpoint: 480,
                   settings: {
                       slidesToShow: 1,
-                      centerPadding: '25px'
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {
                   breakpoint: 360,
                   settings: {
                       slidesToShow: 1,
-                      centerPadding: '15px'
+                      autoplay:true,
+                      autoplaySpeed:4000
+                  }
+              },
+              {
+                  breakpoint: 320,
+                  settings: {
+                      slidesToShow: 1,
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               }
           ]
       });
 
-       $("#ms-slider-team-members .slick-arrow").click(function(){
+
+       $("#ms-slider-team-members").on('afterChange',function(){
           var currentImg = $(".slick-current").attr("rel");
           var currentInfo = "#info_" + currentImg;
           $(".ms-wrapper-info.act").fadeOut(500);

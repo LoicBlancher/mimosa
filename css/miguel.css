@@ -760,6 +760,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
    #ms-slider-home p.yellow{width: 300px;}
    #ms-slider-home p.white{width: 400px;}
    #ms-know-more{float:initial;}
+   #ms-second-section-home{background-position: 130% -18px!important;}
+   .ms-container-bullet{margin-left: 80px!important;width: 300px;}
+   #ms-container-bred-home{top: -20px;left: 90px;display: inline-block;}
+   #ms-container-egg2-home{left: -370px;top: -510px;opacity: 0.7;}
+   #ms-container-egg1-home{top:60px;}
 
   }
 

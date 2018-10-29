@@ -94,8 +94,8 @@ jQuery(function ($) {
       });
 
       $('#ms-slider-testimonials').slick({
-        autoplay:false,
-        autoplaySpeed:2000
+        autoplay:true,
+        autoplaySpeed:3000
       });
 
 

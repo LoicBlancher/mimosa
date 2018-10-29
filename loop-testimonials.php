@@ -1,5 +1,4 @@
-    <h2>Ils nous font de Confiance</h2>
-    <div id="ms-slider-testimonials">
+   <div id="ms-slider-testimonials">
         <?php  $loop = new WP_Query( array( 'post_type' => 'testimonials'));
          if ( $loop->have_posts() ) :
           while ( $loop->have_posts() ) : $loop->the_post(); ?>

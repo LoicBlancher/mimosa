@@ -408,7 +408,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{color: white;letter-spacing: 0.2em;margin: 30px 0;}
 #ms-sommes-seven-section h2{text-align: center;margin-bottom: 70px;}
 #ms-box-offres{float: left;width: 100%;}
-.ms-box-container{float: left;width: 30%;background: #fff;margin:0 10px;transition: 1s ease;border-radius:;}
+.ms-box-container{float: left;width: 30%;background: #fff;margin:0 10px;transition: 1s ease;border-radius:5px;}
 .ms-box-container:hover{-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1); -moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
 .ms-box-container h6, .ms-box-container p{text-align: center;}
 .ms-box-container h6{margin:10px 0 20px 0;}
@@ -680,9 +680,21 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     .ms-logo-mimosa-main{top: 10px;left:-71px;}
     #ms-container-bred-home{left:-60px;}
     #ms-img-avocado{top: -200px}  
-
     #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 20px;line-height: 1.5em;}
     #mg-menu-terms-main #mg-social-main-menu{position: relative;top:10px;}
+
+    /* Qui sommes */
+    #ms-img-carousel-with-pagination{padding: 0 80px;}
+    #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%!important;right: 20%!important;}
+    .ms-image-team-member{width: 180px!important;}
+    .ms-footer-info-team{top:360px;}
+    #ms-map-qui-sommes img{max-width: 90%!important;}
+    #ms-sommes-five-section h2{text-align: center;}
+    #ms-cela-vous-qui-sommes img{max-width: 90%!important;}
+    #ms-sommes-seven-section{padding: 100px 130px!important;}
+    #ms-sommes-seven-section h2{margin-bottom: 10px;}
+    .ms-box-container{max-width: 460px;}
+    #ms-last-section-home-yl{padding: 10px 0;}
   }
 
   @media only screen and (min-width: 1098px) and (max-width: 1280px){
@@ -714,8 +726,14 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-sommes-second-section .ms-divider-gray{margin:10px 0;}
     #ms-sommes-second-section h3{position: relative;top: 15px;left: 70px;}
     #ms-img-carousel-with-pagination{padding: 0 30px;left: 70px;position: relative;}
-    #ms-paginator-carousel{right: 10%!important;bottom: 10%!important;}
-    #ms-slider-team-members .slick-current{width: 310px!important}
+    #ms-paginator-carousel{right: 20%!important;bottom: 10%!important;}
+    #ms-slider-team-members{position: relative;top:50px;}
+    .ms-image-team-member{width: 160px!important;}
+    #ms-wrapper-header-tmembers{width: 340px;left: 80px;top: 40px;}
+    .ms-wrapper-member-name{top: -10px;right: -90px;}
+    #wrapper-icons-mteam svg{font-size: 15px;margin: 10px 5px 0 5px;}
+    #ms-cta-team{top:110px;}
+    #ms-slider-team-members .slick-prev{left:-90px;}
 
   } 
 

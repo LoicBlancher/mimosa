@@ -117,7 +117,9 @@ jQuery(function ($) {
                   breakpoint: 1200,
                   settings: {
                       slidesToShow: 3,
-                      centerPadding: '100px'
+                      centerPadding: '100px',
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {

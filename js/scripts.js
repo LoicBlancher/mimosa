@@ -109,27 +109,31 @@ jQuery(function ($) {
               {
                   breakpoint: 1400,
                   settings: {
-                      slidesToShow: 1,
+                      slidesToShow: 3,
                       centerPadding: '400px'
                   }
               },
               {
                   breakpoint: 1200,
                   settings: {
-                      slidesToShow: 1,
-                      centerPadding: '300px'
+                      slidesToShow: 3,
+                      centerPadding: '100px'
                   }
               },
               {
                   breakpoint: 992,
                   settings: {
-                      slidesToShow: 3
+                      slidesToShow: 1,
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {
                   breakpoint: 736,
                   settings: {
-                      slidesToShow: 1
+                      slidesToShow: 1,
+                      autoplay:true,
+                      autoplaySpeed:4000
                   }
               },
               {

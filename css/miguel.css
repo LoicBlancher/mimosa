@@ -672,6 +672,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   \*------------------------------------*/
   @media only screen and (min-width: 1280px) and (max-width: 1400px){
     /* Home */
+
     .ms-logo-mimosa-main{top: 10px;left:-71px;}
     #ms-container-bred-home{left:-60px;}
     #ms-img-avocado{top: -200px}  
@@ -936,16 +937,25 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       BEGIN Min Width
   \*------------------------------------*/
   @media only screen  and (min-width : 1824px) {
-    h1{font-size:var(--mimosa-large-title1);}
-    h2{font-size:var(--mimosa-large-title2);}
-    h3{font-size:var(--mimosa-large-title3);}
-    h4{font-size:var(--mimosa-large-title4);}
-    h5{font-size:var(--mimosa-large-title5);}
-    h6{font-size:var(--mimosa-large-title6);}
-    p,p.gray,p.yellow,p.white{font-size: var(--mimosa-large-p);}
+    h1{font-size: 64px!important;}
+    h2{font-size: 52px!important;}
+    h3{font-size:48px!important;}
+    h4{font-size:36px!important;}
+    h5{font-size:30px!important;}
+    h6{font-size:25px!important;}
+    p,p.gray,p.yellow,p.white{font-size: 19px!important;}
     /* Responsive Home */
+    .ms-logo-mimosa-main{width: 220px;}
     .ms-mimosa-subtitle{font-size: 14px;}
-    #ms-second-section-home h2{line-height: 0.3em;}
+    #ms-second-section-home{background-size: 45%!important;background-position: 115% -10px!important;}
+    #ms-second-section-home h2{line-height: 1em;}
+    #ms-container-bred-home{display: inline-block;top: 100px;left: -80px;}
+    #ms-container-egg2-home{top: -340px;}
+    #ms-container-spinach-home{display: inline-block;top: -300px;left: 410px;}
+    #ms-container-egg1-home{display: inline-block;top: 130px;left: -10px;}
+    #ms-container-bacon-home{display: inline-block;top: 140px;left: 380px;}
+    #ms-img-avocado{display: inline-block;top: -200px;left: 50%;transform: translateX(-50%);}
+
     .ms-wrapper-bullet-with-img{margin-top: 100px;}  
     #ms-third-section-home h2{margin-top:80px;}
     #ms-wrapper-title-five-section h4{margin-top:30px;}
@@ -980,7 +990,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       BEGIN Max Width
   \*------------------------------------*/
     @media only screen and (max-width: 1400px) {
-      /* Responsive Hone page */
+      /* Responsive Home page */
       .ms-padding-home-section{padding: 110px 130px!important;}
       .ms-container-bullet{margin-left:30px;}
       .home footer{padding:15px 0;}

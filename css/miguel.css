@@ -469,7 +469,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-skill-three-fork{}
 #ms-skill-four-fork{}
 #ms-image-base-force-notrec{position: relative;bottom: 40px;}
-/*#ms-part1-force-notrec{}*/
 #ms-part2-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 42.014% 13.693%;width: 122px;height: 99px;display: inline-block;position: relative;top: -430px;}
 #ms-part3-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 41.1% 92.611%;width: 80px;height: 137px;display: inline-block;position: relative;top: -200px;left: -200px;}
 #ms-part4-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 63.84% 13.488%;width: 73px;height: 125px;display: inline-block;position: relative;top: -200px;left: -800px;}
@@ -596,6 +595,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
      END ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
 
+
+/* Demo Culinaire */
 #ms-back-chicken{margin-left: 140px;}
 #ms-chicken1{background: url('../img/demostration-img-page-mimosa.png') no-repeat 57.97% 85.827%;width: 168px;height: 244px;position: relative;top: -370px;left: 50px;}
 #ms-chicken2{background: url('../img/demostration-img-page-mimosa.png') no-repeat 78.814% 52.915%;width: 233px;height: 179px;position: relative;top: -570px;left: 290px;}
@@ -608,6 +609,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-el-dem-serv5{background: url(../img/demostration-img-page-mimosa.png) no-repeat 75.036% 98.287%;width: 120px;height: 158px;position: relative;top: -710px;left: -120px;}
 #ms-el-dem-serv6{background: url(../img/demostration-img-page-mimosa.png) no-repeat 96.162% 95.332%;width: 117px;height: 68px;position: relative;top: -1010px;left: 180px;}
 #ms-bacon-services-demo{margin-left:120px;}
+#ms-demo-culinaire-serv-1{display: none;}
+#ms-vegetables-demo{display: none;}
 
 
 /*Atelier Images **/
@@ -1140,6 +1143,25 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
     }
 
+
+
+    @media only screen and (max-width: 1200px) {
+      /* Demo culinaire */
+      #ms-back-chicken,
+      #ms-chicken1,
+      #ms-chicken2,
+      #ms-chicken3{display: none;}
+      #ms-back-depassement{display: none;}
+      #ms-demo-culinaire-serv-1,
+      #ms-el-dem-serv3,
+      #ms-el-dem-serv5,
+      #ms-el-dem-serv6,
+      #ms-back-vegetables-demo{display: none;}
+      #ms-vegetables-demo{display: block;}
+      #ms-demo-culinaire-serv-1{display: block;}
+    }
+   
+
     @media only screen and (max-width: 1280px) {
       /* Responsive Home page */
       .ms-padding-home-section{padding:60px 90px!important}
@@ -1167,6 +1189,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-seven-section-left-container{margin-top: 100px;}
       #ms-text-header-eigth-section{width: 50%;}
       .ms-services-img img{width: 100%;}
+
+
 
     }
     
@@ -1572,6 +1596,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-services-img{top:unset;}
       #ms-services-img-rigth img{position: static;}
       #ms-galerie-lightbox img{width: 390px;position: relative;top:120px;}
+
+      /* Responsive demo culinaire */
+      #ms-video-atelier{width: 100%;padding: 40px 0px;}
+      .ms-services-line-indicator{top:-30px!important;}
+      #ms-demo-culinaire-serv-1{width: 100%;position: relative;top: -200px;}
+
 
     }
 

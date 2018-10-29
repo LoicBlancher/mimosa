@@ -1542,7 +1542,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -2px;}
       /* Responsive  Atelier */
       #ms-atelier-first-section{padding:50px 80px;}
-      #ms-atelier-first-section h1{position: relative;right: 35px;}
       #ms-atelier-second-section,
       #ms-atelier-third-section{padding: 30px 50px;}
       #ms-services-container{float: initial;}
@@ -1597,6 +1596,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-galerie-lightbox img{width: 390px;position: relative;top:120px;}
 
       /* Responsive demo culinaire */
+      #ms-atelier-first-section h1{font-size: 35px!important;}
       #ms-atelier-third-section{height: 700px;}
       #ms-video-atelier{width: 100%;padding: 40px 0px;}
       .ms-services-line-indicator{top:-30px!important;left:160px;}
@@ -1617,7 +1617,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-cta-atelier-nine-section{width: 100px;display: inherit;min-width: 160px;font-size: 10px;padding: 14px 25px;}
       #ms-title-header-eigth-section h2{text-align: center;position: initial;line-height: 2em;}
       #ms-text-header-eigth-section p{text-align: center;position: initial;margin-top: 5px!important;}
-
+    
 
 
     }
@@ -1673,13 +1673,28 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         .ms-wrapper-contact-form label{font-size: 10px;}
         .ms-social-infolgcontactP svg{font-size: 40px!important;}
         /* Atelier */
-        #ms-atelier-first-section h1{right: 20px;font-size: 38px;}
         .ms-services-bullet{font-size: 85px;}
         .ms-services-line-indicator{top:90px;}
         #ms-services-line-indicator-rigth{top:165px;}
         #ms-bullet-rigth{left: 65%;}
         .ms-services-img img{left:10px;}
         #ms-galerie-lightbox img{width: 290px;position: relative;top:100px;}
+        /* Demo culinaire */
+        .ms-services-line-indicator{left:120px;}
+        #ms-chicken1{left: 200px;top: -730px;}
+        #ms-atelier-first-section h1{font-size: 30px!important;}
+        #ms-video-atelier{padding: 10px 0;}
+        #ms-demo-second-service-wrapper{transform: translateY(-140%);}
+        #ms-services-line-indicator-rigth{top: -150px!important;left: 80px;}
+        #ms-el-dem-serv1{top:-450px;}
+        #ms-vegetables-demo{transform: translateY(80%);}
+        #ms-demo-third-service-wrapper{transform: translateY(-20%);}
+        #ms-bacon-services-demo{transform:translateY(-90%);}
+        #ms-atelier-third-section{height: 600px;}
+        #ms-cta-atelier-btn{position: relative;}
+        #ms-cta-atelier-nine-section{min-width: 120px;font-size: 9px;padding: 14px 7px;margin-right: 10px;}
+
+
      }
 
       @media only screen and (max-width: 320px){
@@ -1713,7 +1728,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -1px;}
         /* Atelier */
         #ms-galerie-lightbox img{width: 270px;position: relative;top:90px;}
-
+        /* Demo culinaire */
+        #ms-chicken1{}
       }
   /*------------------------------------*\
       END Max Width

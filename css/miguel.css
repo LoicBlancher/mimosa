@@ -405,8 +405,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-wrapper-text-six-section-qui-sommes h3{font-weight: normal;}
 #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{color: white;letter-spacing: 0.2em;margin: 30px 0;}
 #ms-sommes-seven-section h2{text-align: center;margin-bottom: 70px;}
-#ms-box-offres{float: left;width: 100%;position: relative;left: 50%;transform: translateX(-50%);}
-.ms-box-container{float: left;width: 30%;background: #fff;}
+#ms-box-offres{float: left;width: 100%;}
+.ms-box-container{float: left;width: 30%;background: #fff;margin:0 10px;transition: 1s ease;border-radius:;}
+.ms-box-container:hover{-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1); -moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
 .ms-box-container h6, .ms-box-container p{text-align: center;}
 .ms-box-container h6{margin:10px 0 20px 0;}
 .ms-box-content{padding: 10px 20px;}
@@ -414,9 +415,10 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-box-header-image{width: 100%;}
 #ms-box-container-central .ms-box-content{background:white;} 
 #ms-img-formation-culinaire{background: url(../img/face-a-face-img-mimosa.png) no-repeat 104.438% 6.667%;width: 228px;height: 270px;margin: 0 auto;background-size: 340%;}
-#ms-img-demo-culinaire{background: url(../img/face-a-face-img-mimosa.png) no-repeat -6% 10%;width: 348px;height: 300px;margin: 0 auto;background-size: 230%;}
+#ms-img-demo-culinaire{background: url(../img/face-a-face-img-mimosa.png) no-repeat -1% 10%;width: 228px;height: 270px;margin: 0 auto;background-size: 280%;}
 #ms-img-atelier-culinaire{background: url(../img/face-a-face-img-mimosa.png) no-repeat 56.193% 72.727%;width: 228px;height: 270px;background-size: 300%;margin: 0 auto;}
 .ms-btn-box-offres{display: table;margin:30px auto;padding: 16px 25px;border-radius: 50px;border: 1px solid grey;text-transform: uppercase;font-size: 12px;font-family: 'Gotham';font-weight: bold;}
+.ms-box-container:hover .ms-btn-box-offres{background-color: var(--mimosa-yellow);color:white;border:none;}
 #ms-box-container-central .ms-primary-btn-bl{display:table;width: 50%;text-align: center;margin: 20px auto;color:white;}
 #ms-box-container-central .ms-box-content p{margin-bottom: 50px;margin-top: 40px;}
 /*------------------------------------*\

@@ -123,22 +123,19 @@ jQuery(function ($) {
               {
                   breakpoint: 992,
                   settings: {
-                      slidesToShow: 1,
-                      centerPadding: '180px'
+                      slidesToShow: 1
                   }
               },
               {
                   breakpoint: 768,
                   settings: {
-                      slidesToShow: 1,
-                      centerPadding: '80px'
+                      slidesToShow: 1
                   }
               },
               {
                   breakpoint: 480,
                   settings: {
                       slidesToShow: 1,
-                      centerPadding: '5px',
                       autoplay:true,
                       autoplaySpeed:4000
                   }
@@ -146,8 +143,7 @@ jQuery(function ($) {
               {
                   breakpoint: 360,
                   settings: {
-                      slidesToShow: 1,
-                      centerPadding: '15px'
+                      slidesToShow: 1
                   }
               }
           ]

@@ -123,11 +123,11 @@ jQuery(function ($) {
               {
                   breakpoint: 992,
                   settings: {
-                      slidesToShow: 1
+                      slidesToShow: 3
                   }
               },
               {
-                  breakpoint: 768,
+                  breakpoint: 736,
                   settings: {
                       slidesToShow: 1
                   }

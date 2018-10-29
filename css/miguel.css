@@ -828,6 +828,40 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     .ms-wrapper-bullet-with-img{width: 100%;float: left;margin-left: 0!important;}
     .ms-container-bullet{width: 50%;float: left;margin-left: 0!important;}
     #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{display: none;}
+    /* Qui sommes */
+     #ms-sommes-first-section{padding: 200px 70px!important;}
+     #ms-sommes-second-section h2{text-align: center;}
+     #ms-sommes-second-section h3{text-align: center;margin:30px 0;}
+     #ms-sommes-second-section .ms-divider-gray{display: table;margin:25px auto;}
+     #ms-sommes-second-section p.gray{text-align: center;}
+     #ms-sommes-second-section ul{list-style-type: none;padding: 0;}
+     #ms-sommes-second-section ul li{text-align: center;font-weight: bold;}
+     #ms-img-carousel-with-pagination img{width: 100%;}
+     #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom:11%;}
+     #ms-sommes-third-section{height: 600px;}
+     .ms-image-team-member{width: 160px!important;position: relative;left: 80%;transform: translateX(-50%);}
+     .ms-footer-info-team{top:350px;}
+     #wrapper-icons-mteam svg{margin:10px 2px 0 5px;font-size: 15px;}
+     .ms-footer-tmembers-skills a{font-size:9px;}
+     .ms-member-description{font-size: 12px;}
+     #ms-slider-team-members .slick-prev{left: -10px;top: 230px!important;}
+     #ms-slider-team-members .slick-next{top: 230px;}
+    #ms-wrapper-header-tmembers{left:unset;top:unset;width: 240px;}
+    .ms-wrapper-member-name{right: -10px;top:0;}
+    #ms-cta-team{position: relative;top: 70px;display: table;margin: 0 auto;}
+    #ms-sommes-five-section h2{text-align: center;}
+    #ms-map-qui-sommes img{max-width: 90%!important;}
+    #ms-notre-reseau-qui-sommes h2{text-align: center;margin-top: 30px;}
+    #ms-sommes-fourth-section #ms-eyelash-selector{margin-top: 30px;}
+    #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 55px;}
+    #ms-notre-reseau-qui-sommes .ms-primary-btn-bl{display: table;margin: 0 auto;}
+    #ms-sommes-six-section img{max-width: 90%!important;height: auto;margin: 0 auto;display: table;}
+    #ms-wrapper-text-six-section-qui-sommes h2,
+    #ms-wrapper-text-six-section-qui-sommes h3,
+    #ms-wrapper-text-six-section-qui-sommes p{text-align: center;}
+    #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:0 auto;}
+    .ms-box-container{float: initial;width: 70%;display: table;margin: 20px auto;}
+
     /* Atelier */
     #ms-img-header-left-seven-section{margin:0 auto;display: table;}
     #ms-atelier-seven-section-left-container h2,
@@ -870,6 +904,40 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-seed-brocoli{display: inline-block;top: -460px;left: 300px;}
     #ms-img-branch2,#ms-img-oats{display: none;}
     #ms-img-avocado{top: -30px;left: 50%;transform: translateX(-50%);right: 40px;background-size: 280%;width: 350px;height: 320px;background-position: 102% 90%;display: inline-block;}
+   /* Qui sommes */
+   #ms-sommes-first-section{padding: 200px 70px!important;}
+   #ms-sommes-second-section h2{text-align: center;}
+   #ms-sommes-second-section h3{text-align: center;margin:30px 0;}
+   #ms-sommes-second-section .ms-divider-gray{display: table;margin:25px auto;}
+   #ms-sommes-second-section p.gray{text-align: center;}
+   #ms-sommes-second-section ul{list-style-type: none;padding: 0;}
+   #ms-sommes-second-section ul li{text-align: center;font-weight: bold;}
+   #ms-img-carousel-with-pagination img{width: 100%;}
+   #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom:11%;}
+   #ms-sommes-third-section{height: 600px;}
+   .ms-image-team-member{width: 160px!important;position: relative;left: 80%;transform: translateX(-50%);}
+   .ms-footer-info-team{top:350px;}
+   #wrapper-icons-mteam svg{margin:10px 2px 0 5px;font-size: 15px;}
+   .ms-footer-tmembers-skills a{font-size:9px;}
+   .ms-member-description{font-size: 12px;}
+   #ms-slider-team-members .slick-prev{left: -10px;top: 230px!important;}
+   #ms-slider-team-members .slick-next{top: 230px;}
+  #ms-wrapper-header-tmembers{left:unset;top:unset;width: 240px;}
+  .ms-wrapper-member-name{right: -10px;top:0;}
+  #ms-cta-team{position: relative;top: 70px;display: table;margin: 0 auto;}
+  #ms-sommes-five-section h2{text-align: center;}
+  #ms-map-qui-sommes img{max-width: 90%!important;}
+  #ms-notre-reseau-qui-sommes h2{text-align: center;margin-top: 30px;}
+  #ms-sommes-fourth-section #ms-eyelash-selector{margin-top: 30px;}
+  #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 55px;}
+  #ms-notre-reseau-qui-sommes .ms-primary-btn-bl{display: table;margin: 0 auto;}
+  #ms-sommes-six-section img{max-width: 90%!important;height: auto;margin: 0 auto;display: table;}
+  #ms-wrapper-text-six-section-qui-sommes h2,
+  #ms-wrapper-text-six-section-qui-sommes h3,
+  #ms-wrapper-text-six-section-qui-sommes p{text-align: center;}
+  #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:0 auto;}
+  .ms-box-container{float: initial;width: 70%;display: table;margin: 20px auto;}
+
    /* Atelier */
     .ms-services-line-indicator{top: 100px!important;left: 130px;}
     #ms-services-line-indicator-rigth{left: -90px;top: 120px;}
@@ -1311,9 +1379,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:30px auto;}
       #ms-box-offres{float: initial;width: 100%;position: initial;}
       .ms-box-container{float: initial;width: 100%;}
-      .ms-image-team-member{width: 130px!important;}
       #ms-sommes-third-section{height: 850px;}
-      .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-50%);}
+      .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-40%);}
       #ms-wrapper-header-tmembers{width: unset;text-align: center;position: initial;}
       #ms-slider-team-members{top:80px;}
       .ms-wrapper-member-name{position: relative;top: 170px;left: 50%;transform: translateX(-50%);text-align: center;}

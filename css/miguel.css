@@ -1740,23 +1740,28 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-text-header-eigth-section p{text-align: center;position: initial;margin-top: 5px!important;}
     
       /* Notre concept */
-      .ms-no-padding-bottom{padding: 50px 70px!important;height: 950px;}
+      .ms-no-padding-bottom{padding: 50px 70px!important;}
       #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
       #ms-subtitle-notre-second-section{float: initial;width: 100%;padding: 0;margin-top: 40px;text-align: center;}
       #ms-skill-three-fork .ms-content-bullets{text-align: center;}
       #ms-bullet-right{transform: unset;}
-      #ms-concept-third-section{padding: 80px 50px!important;}
+      #ms-concept-third-section{padding: 80px 50px!important;height: 950px}
       #ms-skill-four-fork{text-align: center;}
       #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
       #ms-skill-one-fork{text-align: center;width: unset;}
       #ms-skill-two-fork{text-align: center;width: unset;}
       #ms-image-base-force-notrec-res{width: 100%;position: relative;top: -160px;left: 40px;transform: rotate(20deg);}
-
-
-
-
       #ms-part12-force-notrec{left: 360px;top: -400px;}
       #ms-part13-force-notrec{top: 130px;left: -110px;}
+      .ms-item-list-notre-concept{font-size: 13px;}
+      #ms-notre-concept-gallery-header-title{float: initial;width: 100%;}
+      #ms-notre-concept-gallery-des{border-left: none;float: initial;width: 100%;margin-top:20px;text-align: center;}
+      #ms-concept-five-section-first-column{padding: 70px 0 30px 0;text-align: center;}
+      #ms-footer-ingredients-card{width: 89.6%;}
+      #ms-text-footer{padding: 10px;}
+      #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
+
+
 
 
 

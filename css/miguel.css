@@ -456,13 +456,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-concept-five-section-first-column{padding: 70px 0;}
 #ms-wrapper-recette-section{padding: 60px 0;}
 #ms-scroll-ingredients{}
-#ms-ingredients-card{padding: 10px;width: 30%;}
-#ms-ingredients-image{width: 100%;max-height: 300px;position: relative;top:3px;}
-#ms-footer-ingredients-card{background:white;padding: 20px;height: 100px;}
-#ms-text-footer{color: var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;display: inherit;margin-top: 10px;}
+#ms-ingredients-card{padding: 10px;width: 30%;position: relative;}
+#ms-ingredients-image{width: 100%;max-height: 350px;position: relative;top:3px;}
+#ms-footer-ingredients-card{position: absolute;bottom: 0;background-color: #fff;overflow: hidden;width: 92.4%;height: 20%;transition: .5s ease;}
+#ms-text-footer{color: var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;display: inherit;padding: 20px 10px;transition: .2s ease}
 #ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
 #ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
-
+#ms-ingredients-card:hover #ms-footer-ingredients-card{height: 100%;}
+#ms-ingredients-card:hover #ms-text-footer{border-bottom: 2px solid var(--mimosa-yellow);transition: .20s ease;}
+.ms-recette-description{color: var(--mimosa-black-semi-dark);font-size: 12px;text-align: center;padding: 20px;}
 .ms-list-notre-concept{position: relative;list-style-type: none;padding: 0;}
 .ms-item-list-notre-concept{position: relative;}
 .ms-item-list-notre-concept:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
@@ -492,6 +494,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-notre-concept-gallery-header-title h2{ margin-top: 0;font-size: 34px;}
 #ms-notre-concept-gallery-des{float:left;width: 70%;border-left: 3px solid var(--mimosa-yellow);}
 #ms-notre-concept-gallery-des p{padding: 10px;}
+
 
 /*------------------------------------*\
     End Notre concept

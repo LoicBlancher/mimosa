@@ -11,7 +11,10 @@
                      <?php endif; ?>
                      <div id="ms-footer-ingredients-card">
                        <span id="ms-text-footer"><?php the_title()?></span>
-                     </div> 
+                       <div class="ms-recette-overlay">
+                            <div class="ms-recette-description"><?php the_field('description') ;?></div>
+                            </div>  
+                     </div>
                  </div>  
             <?php endwhile;
          endif;?>   

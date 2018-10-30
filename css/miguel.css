@@ -738,6 +738,23 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-cta-team{top:110px;}
     #ms-slider-team-members .slick-prev{left:-90px;}
 
+    /* Demo culinaire */
+    #ms-video-atelier{width: 100%;padding: 40px 0;}
+    #ms-demo-culinaire-serv-1{position: relative;width: 100%;left: 40px;}
+    .ms-services-line-indicator{top: -50px!important;left: 240px!important;}
+    #ms-atelier-third-section{height: 500px;}
+    #ms-vegetables-demo{width: 100%;}
+    #ms-services-rigth{text-align: right;}
+    #ms-services-line-indicator-rigth{top: -140px!important;left: 50px!important;}
+    #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
+    #ms-bacon-services-demo{width: 100%;margin-left: 0;}
+    #ms-atelier-seven-section-left-container{margin-top:200px!important;}
+    #ms-image-header-nine-section{display: table;margin:0 auto;}
+    #ms-title-intereses{ top: unset;position: initial;display: inherit!important;text-align: center;}
+    #ms-wrapper-cta-nine-section-atelier{display: table;margin: 30px auto;position: initial;width: 100%;}
+    #ms-cta-atelier-nine-section{min-width: 180px;padding: 14px 20px;font-size: 11px;margin-right: 10px;}
+    .ms-atelier-services-card{width: 30%!important;margin: 8px!important;padding: 17px 10px!important;}
+
   } 
 
   @media only screen and (min-width: 992px) and (max-width: 1098px) {
@@ -855,6 +872,22 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
    .ms-atelier-services-card{padding: 15px 20px!important;width: 48%!important;margin: 7px 3px!important;}
    #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
    #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;} 
+  /* Demo culinaire */
+  #ms-video-atelier{width: 100%;padding: 40px 0;}
+  #ms-demo-culinaire-serv-1{position: relative;width: 100%;left: 40px;}
+  .ms-services-line-indicator{top: -50px!important;left: 240px!important;}
+  #ms-atelier-third-section{height: 500px;}
+  #ms-vegetables-demo{width: 100%;}
+  #ms-services-rigth{text-align: right;}
+  #ms-services-line-indicator-rigth{top: -140px!important;left: 50px!important;}
+  #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
+  #ms-bacon-services-demo{width: 100%;margin-left: 0;}
+  #ms-atelier-seven-section-left-container{margin-top:300px!important;}
+  #ms-image-header-nine-section{display: table;margin:0 auto;}
+  #ms-title-intereses{ top: unset;position: initial;display: inherit!important;text-align: center;}
+  #ms-wrapper-cta-nine-section-atelier{display: table;margin: 30px auto;position: initial;width: 100%;}
+  #ms-cta-atelier-nine-section{min-width: 180px;padding: 14px 20px;font-size: 11px;margin-right: 10px;}
+  
 
   }
 

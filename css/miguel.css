@@ -462,6 +462,10 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
 #ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
 
+.ms-list-notre-concept{position: relative;list-style-type: none;padding: 0;}
+.ms-item-list-notre-concept{position: relative;}
+.ms-item-list-notre-concept:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
+.ms-item-list-notre-concept:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: absolute;font-weight: bold;left: 3px;bottom: 7px;}
 
 #ms-concept-second-subsection{}
 #ms-fork-notre-concept{}

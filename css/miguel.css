@@ -1211,6 +1211,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     @media only screen  and (min-width : 992px) {
       #ms-image-map-contact-responsive{display: none;}
       #ms-wrapper-img-third-section-home-res{display: none;}
+      #ms-image-base-force-notrec-res{display: none;}
     }
 
     
@@ -1369,7 +1370,19 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-content-nine-section p{display: inline-block;}
       #ms-galerie-lightbox img{width: 650px;position: relative;top:4px;}
 
-      
+      /* Notre concept */
+      #ms-part1-force-notrec,
+      #ms-part2-force-notrec,
+      #ms-part3-force-notrec,
+      #ms-part4-force-notrec,
+      #ms-part5-force-notrec,
+      #ms-part6-force-notrec,
+      #ms-part7-force-notrec,
+      #ms-part8-force-notrec,
+      #ms-part9-force-notrec,
+      #ms-part10-force-notrec,
+      #ms-part11-force-notrec,
+      #ms-image-base-force-notrec{display: none;}
     }
     
     @media only screen and (max-width: 736px) {
@@ -1726,6 +1739,26 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-title-header-eigth-section h2{text-align: center;position: initial;line-height: 2em;}
       #ms-text-header-eigth-section p{text-align: center;position: initial;margin-top: 5px!important;}
     
+      /* Notre concept */
+      .ms-no-padding-bottom{padding: 50px 70px!important;height: 950px;}
+      #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
+      #ms-subtitle-notre-second-section{float: initial;width: 100%;padding: 0;margin-top: 40px;text-align: center;}
+      #ms-skill-three-fork .ms-content-bullets{text-align: center;}
+      #ms-bullet-right{transform: unset;}
+      #ms-concept-third-section{padding: 80px 50px!important;}
+      #ms-skill-four-fork{text-align: center;}
+      #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+      #ms-skill-one-fork{text-align: center;width: unset;}
+      #ms-skill-two-fork{text-align: center;width: unset;}
+      #ms-image-base-force-notrec-res{width: 100%;position: relative;top: -160px;left: 40px;transform: rotate(20deg);}
+
+
+
+
+      #ms-part12-force-notrec{left: 360px;top: -400px;}
+      #ms-part13-force-notrec{top: 130px;left: -110px;}
+
+
 
 
     }

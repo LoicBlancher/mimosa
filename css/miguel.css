@@ -1860,11 +1860,21 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-services-img{top:unset;}
       #ms-services-img-rigth img{position: static;}
       #ms-galerie-lightbox img{width: 390px;position: relative;top:120px;}
+      #ms-elementAt9-ser1{top: -360px;left: 250px;}
+      #ms-atelier-serv1-res{width: 100%;position: relative;top: -160px;}
+      #ms-wrapper-serv2-atelier{transform:translateY(-230%);}
+      #ms-atelier-serv2-res{width: 100%;position: relative;top: 180px;left: 40px;}
+      #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:unset;}
+      #ms-elementAt6-ser2{left: -60px;top: 10px;}
+      #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{transform: rotate(360deg);}
+      #ms-wrapper-serv3-atelier{transform:translateY(20%);}
+      #ms-elementAt9-ser3{    top: -240px;left: 240px;}
+      #ms-atelier-serv3-res{width: 100%;position: relative;top: -120px;}
 
       /* Responsive demo culinaire */
       #ms-atelier-first-section h1{font-size: 35px!important;}
       #ms-atelier-third-section{height: 700px;}
-      #ms-atelier-third-section-atelier{height: 700px;}
+      #ms-atelier-third-section-atelier{height: 750px;}
       #ms-video-atelier{width: 100%;padding: 40px 0px;}
       .ms-services-line-indicator{top:-30px!important;left:160px;}
       #ms-chicken1{display: inline-block;width: 70px;height: 180px;background-size: 900%;background-position: 58% 150%;top: -780px;left: 280px;transform: rotate(180deg);}
@@ -1906,7 +1916,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-footer-ingredients-card{width: 89.6%;}
       #ms-text-footer{padding: 10px;}
       #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
-
+      
+      /* Atelier */
 
     }
 

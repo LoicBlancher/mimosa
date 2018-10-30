@@ -412,7 +412,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-box-container{float: left;width: 30%;background: #fff;margin:0 10px;transition: 1s ease;border-radius:5px;}
 .ms-box-container:hover{-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1); -moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
 .ms-box-container h6, .ms-box-container p{text-align: center;}
-.ms-box-container h6{margin:10px 0 20px 0;}
+.ms-box-container h6{margin:0 10px;}
 .ms-box-content{padding: 10px 20px;}
 #ms-box-container-central{position: relative;bottom:23px;;width: 40%!important;-webkit-box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);-moz-box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);}
 .ms-box-header-image{width: 100%;}
@@ -738,15 +738,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-part13-force-notrec{top: 10px;left: -130px;}
     #ms-image-base-force-notrec-res{position: relative;top: -70px;}
     #ms-concept-third-section{height: 700px;}
-    #ms-footer-ingredients-card{width: 88.5%;}
-    #ms-text-footer{padding: 10px;}
-    #ms-scroll-tab{transform: translateX(120%) translateY(570%);}
+    #ms-footer-ingredients-card{width: 91.8%;}
+    #ms-text-footer{padding: 20px;}
+    #ms-scroll-tab{transform:unset;}
     #ms-part2-force-notrec{transform: rotate(90deg);left: -50px;top: -410px;}
     #ms-part5-force-notrec{left: -740px;top: -260px;}
     #ms-part4-force-notrec{left:-760px;}
-    #ms-part10-force-notrec{left:-290px}
-    #ms-part11-force-notrec{top:-580px;}
-    #ms-footer-ingredients-card{width: 90.8%;}
+    #ms-part10-force-notrec{left:-330px;}
+    #ms-notre-concept-gallery-header{padding: 0;}
+    #ms-notre-concept-gallery-header-title h2{font-size: 33px;}
+    #ms-notre-concept-gallery-des p{padding: 7px;}
+    #ms-container-galerie{width: 90%;position: relative;left: 50%;transform: translateX(-50%);margin-top: 30px;}
     #ms-sommes-seven-section h2{text-align: center;margin-bottom: 30px;}
     .ms-box-container{max-height: 480px;}
     .ms-btn-box-offres{margin:20px auto;}
@@ -808,44 +810,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-cta-atelier-nine-section{min-width: 180px;padding: 14px 20px;font-size: 11px;margin-right: 10px;}
     .ms-atelier-services-card{width: 30%!important;margin: 8px!important;padding: 17px 10px!important;}
 
-    /* Notre concept */
-    .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
-    .ms-no-padding-bottom h3{font-size: 22px!important;margin: 2px;}
-    #ms-title-notre-second-section{width: 40%;}
-    #ms-title-notre-second-section h2{font-size: 30px;margin-top: 10px;}
-    #ms-subtitle-notre-second-section{width: 60%;padding: 0 16px;}
-    #ms-skill-three-fork,
-    #ms-skill-four-fork{margin-left:0!important;}
-    #ms-skill-one-fork,
-    #ms-skill-two-fork{width: 310px;margin-left: 0!important;transform: translateX(-13%);}
-    #ms-skill-one-fork .ms-wrapper-bullet,
-    #ms-skill-two-fork .ms-wrapper-bullet{transform: translateX(-20%);}
-    #ms-fork-notre-concept{width: 90%;transform: translateY(10%);}
-    #ms-part12-force-notrec{top: 480px;left: -168px;}
-    #ms-part13-force-notrec{top: 10px;left: -130px;}
-    #ms-image-base-force-notrec-res{position: relative;right: 120px;}
-    #ms-concept-third-section{height: 700px;}
-    #ms-footer-ingredients-card{width: 88.5%;}
-    #ms-text-footer{padding: 10px;}
-    #ms-scroll-tab{transform: translateX(120%) translateY(570%);}
-    #ms-part1-force-notrec,
-    #ms-part2-force-notrec,
-    #ms-part3-force-notrec,
-    #ms-part10-force-notrec,
-    #ms-part11-force-notrec,
-    #ms-part8-force-notrec,
-    #ms-part12-force-notrec{display: none;}
-    #ms-part5-force-notrec{left:-540px;}
-    #ms-part4-force-notrec{left:-760px;}
-    #ms-notre-concept-gallery-header{padding: 0;}
-    #ms-notre-concept-gallery-header-title h2{font-size: 33px;}
-    #ms-notre-concept-gallery-des p{padding: 7px;}
-    #ms-container-galerie{width: 90%;position: relative;left: 50%;transform: translateX(-50%);margin-top: 30px;}
-    #ms-footer-ingredients-card{width: 90.8%;}
-    #ms-sommes-seven-section h2{text-align: center;margin-bottom: 30px;}
-    .ms-box-container{max-height: 480px;}
-    .ms-btn-box-offres{margin:20px auto;}
-    #ms-last-section-home-yl{padding: 20px 0;}
 
 
   

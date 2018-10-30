@@ -1893,6 +1893,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-vegetables-demo{transform: translateY(120%);}
         #ms-demo-third-service-wrapper{transform: translateY(-5%);}
         #ms-cta-atelier-nine-section{min-width: 110px;font-size: 8px;padding: 14px 4px;margin-right: 5px;}
+        /* Notre concept */
+        #ms-title-notre-second-section{word-break: break-all;}
+        #ms-skill-one-fork h3,
+        #ms-skill-two-fork h3,
+        #ms-skill-three-fork h3,
+        #ms-skill-four-fork h3{font-size: 20px!important;}
+        #ms-footer-ingredients-card{width: 91.6%;}
+
+
       }
   /*------------------------------------*\
       END Max Width

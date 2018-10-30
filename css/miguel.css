@@ -1016,7 +1016,28 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-image-herder-eigth-section img{width: 120px;}
     #ms-text-header-eigth-section p{position: relative;left: 50px;margin-top: 40px!important;}
     #ms-title-header-eigth-section h2{position: relative;left: 42px;}
-    }
+  /* Demo culinaire */
+  #ms-video-atelier{width: 100%;padding: 40px 0;}
+  #ms-atelier-third-section{height: 700px;}
+  .ms-services-line-indicator{top: -50px!important;left: 200px;}
+  #ms-chicken1{display: inline-block;top: -670px;left: 330px;background-size: 590%;background-position: 79% 50%;width: 190px;height: 200px;}
+  #ms-demo-culinaire-serv-1{width: 90%;display: table;margin: 0 auto;}
+  #ms-demo-second-service-wrapper{transform: translateY(-250%);}
+  #ms-services-rigth{text-align: right;}
+  #ms-services-line-indicator-rigth{left: 280px;top: -140px!important;}
+  #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
+  #ms-el-dem-serv1{display: inline-block;left: 40px;}
+  #ms-vegetables-demo{width: 90%;transform: translateY(40%);display: table;margin: 0 auto;}
+  #ms-bacon-services-demo{width: 70%;position: relative;top: -20px;display: table;margin: 0 auto;}
+  #ms-avocado-demo{display: table;margin: 0 auto;}
+  #ms-atelier-six-section-content{text-align: center;margin-top: 0;}
+  #ms-cta-atelier-btn{display: table;margin: 0 auto;left: unset;}
+  #ms-img-header-left-seven-section{display: table;margin: 20px auto;}
+  #ms-title-header-eigth-section h2{line-height: 3.2em!important;}
+  #ms-image-header-nine-section{width: 170px!important;height: 300px;background-position: 56% -20%;background-size: 700%;display: table;margin: 0 auto;}
+  #ms-title-intereses{position: initial;text-align: center;display: inherit;}
+  #ms-wrapper-content-nine-section p{text-align: center;display: inherit!important;}
+
   } 
 
   @media only screen and (min-width: 732px) and (max-width: 767px){
@@ -1111,6 +1132,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     }
 
     @media only screen  and (min-width : 736px) {
+      #ms-chicken1,
+      #ms-el-dem-serv1{display: none;}
     }
 
     @media only screen  and (min-width : 480px) {
@@ -1328,11 +1351,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-first-section p{text-align: center;}
       #ms-atelier-second-section{padding: 50px 70px;}
       #ms-atelier-third-section{padding: 50px 70px;}
-      .ms-services-description{width: 40%;}
       .ms-services-img{width: 60%;padding: 10px;position: relative;top:30px;right: -20px;}
       #ms-services-img-rigth img{width: 100%;position: relative;left:-90px;}
       #ms-atelier-fourth-section{padding: 50px 70px;}
-      #ms-services-description-last{width: 40%;}
       #ms-services-img-last{width: 60%;position: relative;right: -70px;}
       #ms-atelier-six-section{padding: 50px 70px;}
       #ms-atelier-seven-section{padding: 50px 70px;}

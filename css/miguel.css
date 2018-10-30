@@ -1271,6 +1271,21 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-back-vegetables-demo{display: none;}
       #ms-vegetables-demo{display: block;}
       #ms-demo-culinaire-serv-1{display: block;}
+
+      /* Notre - concept */
+      /* Notre concept */
+      #ms-part1-force-notrec,
+      #ms-part2-force-notrec,
+      #ms-part3-force-notrec,
+      #ms-part4-force-notrec,
+      #ms-part5-force-notrec,
+      #ms-part6-force-notrec,
+      #ms-part7-force-notrec,
+      #ms-part8-force-notrec,
+      #ms-part9-force-notrec,
+      #ms-part10-force-notrec,
+      #ms-part11-force-notrec,
+      #ms-image-base-force-notrec{display: none;}
     }
    
 
@@ -1370,19 +1385,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-content-nine-section p{display: inline-block;}
       #ms-galerie-lightbox img{width: 650px;position: relative;top:4px;}
 
-      /* Notre concept */
-      #ms-part1-force-notrec,
-      #ms-part2-force-notrec,
-      #ms-part3-force-notrec,
-      #ms-part4-force-notrec,
-      #ms-part5-force-notrec,
-      #ms-part6-force-notrec,
-      #ms-part7-force-notrec,
-      #ms-part8-force-notrec,
-      #ms-part9-force-notrec,
-      #ms-part10-force-notrec,
-      #ms-part11-force-notrec,
-      #ms-image-base-force-notrec{display: none;}
     }
     
     @media only screen and (max-width: 736px) {
@@ -1762,10 +1764,6 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
 
 
-
-
-
-
     }
 
      @media only screen and (max-width: 360px) {
@@ -1840,7 +1838,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-cta-atelier-btn{position: relative;}
         #ms-cta-atelier-nine-section{min-width: 120px;font-size: 9px;padding: 14px 7px;margin-right: 10px;}
 
-
+        /* Notre concept */
+        #ms-skill-one-fork .ms-content-bullets,
+        #ms-skill-two-fork .ms-content-bullets,
+        #ms-skill-three-fork .ms-content-bullets,
+        #ms-skill-four-fork .ms-content-bullets{width: 100%;}
+        .ms-item-list-notre-concept{font-size: 0.89em;display: inline-flex;}
+        #ms-part12-force-notrec{left: 200px;top: -420px;}
+        #ms-image-base-force-notrec-res{top:-120px;}
+        #ms-part13-force-notrec{top:80px;}
+        #ms-footer-ingredients-card{width: 93%;}
+        #ms-text-footer{padding: 30px;}
      }
 
       @media only screen and (max-width: 320px){

@@ -698,6 +698,20 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-sommes-seven-section h2{margin-bottom: 10px;}
     .ms-box-container{max-width: 460px;}
     #ms-last-section-home-yl{padding: 10px 0;}
+    /* Demo culinaire */
+    #ms-video-atelier{width: 100%;padding: 40px 0;}
+    #ms-chicken1,
+    #ms-chicken2,
+    #ms-chicken3{display: inline-block;}
+    #ms-chicken3{right: -530px;top: -640px;}
+    #ms-chicken2{left: 120px;top: -410px;}
+    .ms-services-line-indicator{top: -50px;left: 250px;}
+    #ms-services-rigth{text-align: right;}
+    .ms-services-line-indicator{top: -50px!important;left: 240px!important;}
+    #ms-services-line-indicator-rigth{top: -140px!important;left: 50px!important;}
+    #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
+    .ms-atelier-services-card{width: 31%!important;margin: 6px!important;padding: 8px 18px!important;}
+
   }
 
   @media only screen and (min-width: 1098px) and (max-width: 1280px){
@@ -873,6 +887,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
    #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
    #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;} 
   /* Demo culinaire */
+  #ms-chicken1,
+  #ms-el-dem-serv1{display: none;}
   #ms-video-atelier{width: 100%;padding: 40px 0;}
   #ms-demo-culinaire-serv-1{position: relative;width: 100%;left: 40px;}
   .ms-services-line-indicator{top: -50px!important;left: 240px!important;}
@@ -1188,8 +1204,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
     
     @media only screen  and (min-width : 780px) {
-      #ms-chicken1,
-      #ms-el-dem-serv1{display: none;}
+
     }
 
 

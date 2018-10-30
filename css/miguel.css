@@ -1120,6 +1120,29 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #ms-title-intereses{position: initial;text-align: center;display: inherit;}
   #ms-wrapper-content-nine-section p{text-align: center;display: inherit!important;}
 
+
+  /* Notre concept */
+  .ms-no-padding-bottom{padding: 50px 70px!important;}
+  #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
+  #ms-subtitle-notre-second-section{float: initial;width: 100%;padding: 0;margin-top: 40px;text-align: center;}
+  #ms-skill-three-fork .ms-content-bullets{text-align: center;}
+  #ms-bullet-right{transform: unset;}
+  #ms-concept-third-section{padding: 80px 50px!important;height: 1100px}
+  #ms-skill-four-fork{text-align: center;}
+  #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+  #ms-skill-one-fork{text-align: center;width: unset;}
+  #ms-skill-two-fork{text-align: center;width: unset;}
+  #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -210px;left: 90px;}
+  #ms-part12-force-notrec{top: -340px;left: 590px;}
+  #ms-part13-force-notrec{top: 180px;left: -73px;}
+  .ms-item-list-notre-concept{font-size: unset;}
+  #ms-notre-concept-gallery-header-title{float: initial;width: 100%;}
+  #ms-notre-concept-gallery-des{border-left: none;float: initial;width: 100%;margin-top:20px;text-align: center;}
+  #ms-concept-five-section-first-column{padding: 70px 0 30px 0;text-align: center;}
+  #ms-footer-ingredients-card{width: 93.3%;}
+  #ms-text-footer{padding: 30px;}
+  #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
+  
   } 
 
   @media only screen and (min-width: 732px) and (max-width: 767px){

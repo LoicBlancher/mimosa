@@ -837,11 +837,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-part12-force-notrec{display: none;}
     #ms-part5-force-notrec{left:-540px;}
     #ms-part4-force-notrec{left:-760px;}
+    #ms-notre-concept-gallery-header{padding: 0;}
+    #ms-notre-concept-gallery-header-title h2{font-size: 33px;}
+    #ms-notre-concept-gallery-des p{padding: 7px;}
+    #ms-container-galerie{width: 90%;position: relative;left: 50%;transform: translateX(-50%);margin-top: 30px;}
     #ms-footer-ingredients-card{width: 90.8%;}
     #ms-sommes-seven-section h2{text-align: center;margin-bottom: 30px;}
     .ms-box-container{max-height: 480px;}
     .ms-btn-box-offres{margin:20px auto;}
     #ms-last-section-home-yl{padding: 20px 0;}
+
+
   
   } 
 

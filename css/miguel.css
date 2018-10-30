@@ -99,7 +99,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-map-pin-info-triangle{width: 50px;height: 90px;position: relative;overflow: hidden;box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.25);transform: rotate(45deg);position: absolute;left: -5px;bottom: 15px;}
 .ms-map-pin-info-triangle:after{content: "";position: absolute;width: 50px;height: 50px;background: #fff;transform: rotate(45deg);top: 75px;left: 25px;-webkit-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);}
 /* Paddings */
-.ms-no-padding-bottom{padding: 130px 210px 0 210px!important;}
+.ms-no-padding-bottom{padding: 110px 210px 0 210px!important;}
 /* Check List Mimosa */
 .ms-list-check-mimosa{position: relative;list-style-type: none;padding: 0}
 .ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
@@ -430,17 +430,18 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     Notre concept
 \*------------------------------------*/
+.ms-logo-notre-concept{width: 180px;display: table;margin: 0 auto;}
 #ms-concept-first-section{}
 #ms-concept-header-title{}
 #ms-concept-second-section{}
 .ms-no-padding-bottom{}
 #ms-concept-second-first-column{float: left;width: 100%;}
 #ms-concept-second-second-column{float: left;width: 100%;}
-#ms-title-notre-second-section{float: left;width: 30%;}
-#ms-subtitle-notre-second-section{float: left;width: 70%;padding: 70px 0;}
+#ms-title-notre-second-section{float: left;width: 30%;word-break: break-all;}
+#ms-subtitle-notre-second-section{float: left;width: 70%;padding: 40px 90px;}
 #ms-concept-second-img{width: 40%;float: left;padding: 10px;}
 #ms-concept-second-img img{width: 500px;height: 500px;}
-#ms-left-bullets{}
+#ms-bullet-right{transform: translateX(70%);}
 .ms-wrapper-bullets{float: left;width: 30%;padding: 10px 20px;}
 .ms-bullets-mimosa-img-right{float: right;width: 60px;}
 .ms-content-bullets-rigth{padding: 0 70px;}
@@ -464,10 +465,10 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
 #ms-concept-second-subsection{}
 #ms-fork-notre-concept{}
-#ms-skill-one-fork{}
-#ms-skill-two-fork{}
-#ms-skill-three-fork{}
-#ms-skill-four-fork{}
+#ms-skill-one-fork{padding: 10px;width: 380px;}
+#ms-skill-two-fork{padding: 10px;width: 400px;}
+#ms-skill-three-fork{padding: 10px;}
+#ms-skill-four-fork{padding: 10px;}
 #ms-image-base-force-notrec{position: relative;bottom: 40px;}
 #ms-part2-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 42.014% 13.693%;width: 122px;height: 99px;display: inline-block;position: relative;top: -430px;}
 #ms-part3-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 41.1% 92.611%;width: 80px;height: 137px;display: inline-block;position: relative;top: -200px;left: -200px;}

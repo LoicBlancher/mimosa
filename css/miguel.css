@@ -37,6 +37,7 @@ p.white{color: white;font-size: 15px;line-height: 1.5em;}
 p.yellow{color:var(--mimosa-yellow);font-size: 15px;line-height: 1.5em;}
 p.gray{color:var(--mimosa-gray-clear);font-size: 15px;line-height: 1.5em;}
 p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
+.ms-yellow-text{color:var(--mimosa-yellow);}
 /* Contact Form Styles */
 .ms-wrapper-contact-form{width: 100%;}
 .ms-wrapper-contact-form .ms-black-label{color: var(--mimosa-black-dark);font-size: 14px;width: 50%;}
@@ -99,7 +100,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-map-pin-info-triangle{width: 50px;height: 90px;position: relative;overflow: hidden;box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.25);transform: rotate(45deg);position: absolute;left: -5px;bottom: 15px;}
 .ms-map-pin-info-triangle:after{content: "";position: absolute;width: 50px;height: 50px;background: #fff;transform: rotate(45deg);top: 75px;left: 25px;-webkit-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);}
 /* Paddings */
-.ms-no-padding-bottom{padding: 130px 210px 0 210px!important;}
+.ms-no-padding-bottom{padding: 110px 210px 0 210px!important;}
 /* Check List Mimosa */
 .ms-list-check-mimosa{position: relative;list-style-type: none;padding: 0}
 .ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
@@ -411,7 +412,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 .ms-box-container{float: left;width: 30%;background: #fff;margin:0 10px;transition: 1s ease;border-radius:5px;}
 .ms-box-container:hover{-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1); -moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
 .ms-box-container h6, .ms-box-container p{text-align: center;}
-.ms-box-container h6{margin:10px 0 20px 0;}
+.ms-box-container h6{margin:0 10px;}
 .ms-box-content{padding: 10px 20px;}
 #ms-box-container-central{position: relative;bottom:23px;;width: 40%!important;-webkit-box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);-moz-box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);box-shadow: -2px -1px 41px 6px rgba(153,151,153,1);}
 .ms-box-header-image{width: 100%;}
@@ -430,17 +431,18 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 /*------------------------------------*\
     Notre concept
 \*------------------------------------*/
+.ms-logo-notre-concept{width: 180px;display: table;margin: 0 auto;}
 #ms-concept-first-section{}
 #ms-concept-header-title{}
 #ms-concept-second-section{}
 .ms-no-padding-bottom{}
 #ms-concept-second-first-column{float: left;width: 100%;}
 #ms-concept-second-second-column{float: left;width: 100%;}
-#ms-title-notre-second-section{float: left;width: 30%;}
-#ms-subtitle-notre-second-section{float: left;width: 70%;padding: 70px 0;}
+#ms-title-notre-second-section{float: left;width: 30%;word-break: break-all;}
+#ms-subtitle-notre-second-section{float: left;width: 70%;padding: 40px 90px;}
 #ms-concept-second-img{width: 40%;float: left;padding: 10px;}
 #ms-concept-second-img img{width: 500px;height: 500px;}
-#ms-left-bullets{}
+#ms-bullet-right{transform: translateX(70%);}
 .ms-wrapper-bullets{float: left;width: 30%;padding: 10px 20px;}
 .ms-bullets-mimosa-img-right{float: right;width: 60px;}
 .ms-content-bullets-rigth{padding: 0 70px;}
@@ -454,20 +456,26 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-concept-five-section-first-column{padding: 70px 0;}
 #ms-wrapper-recette-section{padding: 60px 0;}
 #ms-scroll-ingredients{}
-#ms-ingredients-card{padding: 10px;width: 30%;}
-#ms-ingredients-image{width: 100%;max-height: 300px;position: relative;top:3px;}
-#ms-footer-ingredients-card{background:white;padding: 20px;height: 100px;}
-#ms-text-footer{color: var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;display: inherit;margin-top: 10px;}
+#ms-ingredients-card{padding: 10px;width: 30%;position: relative;}
+#ms-ingredients-image{width: 100%;max-height: 350px;position: relative;top:3px;}
+#ms-footer-ingredients-card{position: absolute;bottom: 0;background-color: #fff;overflow: hidden;width: 92.4%;height: 20%;transition: .5s ease;}
+#ms-text-footer{color: var(--mimosa-black-dark);font-weight: bold;text-align: center;text-transform: capitalize;display: inherit;padding: 20px 10px;transition: .2s ease}
 #ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
 #ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
-
+#ms-ingredients-card:hover #ms-footer-ingredients-card{height: 100%;}
+#ms-ingredients-card:hover #ms-text-footer{border-bottom: 2px solid var(--mimosa-yellow);transition: .20s ease;}
+.ms-recette-description{color: var(--mimosa-black-semi-dark);font-size: 12px;text-align: center;padding: 20px;}
+.ms-list-notre-concept{position: relative;list-style-type: none;padding: 0;}
+.ms-item-list-notre-concept{position: relative;}
+.ms-item-list-notre-concept:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
+.ms-item-list-notre-concept:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: absolute;font-weight: bold;left: 3px;bottom: 7px;}
 
 #ms-concept-second-subsection{}
 #ms-fork-notre-concept{}
-#ms-skill-one-fork{}
-#ms-skill-two-fork{}
-#ms-skill-three-fork{}
-#ms-skill-four-fork{}
+#ms-skill-one-fork{padding: 10px;width: 380px;}
+#ms-skill-two-fork{padding: 10px;width: 400px;}
+#ms-skill-three-fork{padding: 10px;}
+#ms-skill-four-fork{padding: 10px;}
 #ms-image-base-force-notrec{position: relative;bottom: 40px;}
 #ms-part2-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 42.014% 13.693%;width: 122px;height: 99px;display: inline-block;position: relative;top: -430px;}
 #ms-part3-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 41.1% 92.611%;width: 80px;height: 137px;display: inline-block;position: relative;top: -200px;left: -200px;}
@@ -481,10 +489,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-part11-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 96.429% 23.045%;width: 82px;height: 97px;display: inline-block;position: relative;top: -400px;left: -200px;}
 #ms-part12-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 100% 61.024%;width: 87px;height: 86px;display: inline-block;position: relative;top: -630px;left: -140px;}
 #ms-part13-force-notrec{background: url(../img/notre-concept-img-mimosa.png) no-repeat 99.015% 100%;width: 89px;height: 83px;display: inline-block;position: relative;top: -900px;left: -50px;}
+#ms-notre-concept-gallery-header{float: left;width: 100%;padding: 0 0 30px 0;}
+#ms-notre-concept-gallery-header-title{float:left;width: 30%;padding: 0 5px 0 0;}
+#ms-notre-concept-gallery-header-title h2{ margin-top: 0;font-size: 34px;}
+#ms-notre-concept-gallery-des{float:left;width: 70%;border-left: 3px solid var(--mimosa-yellow);}
+#ms-notre-concept-gallery-des p{padding: 10px;}
 
-#ms-notre-concept-gallery-header{float: left;width: 100%;}
-#ms-notre-concept-gallery-header-title{float:left;width: 30%;}
-#ms-notre-concept-gallery-des{float:left;width: 70%;border-right: 3px solid var(--mimosa-yellow);}
+
 /*------------------------------------*\
     End Notre concept
 \*------------------------------------*/
@@ -711,7 +722,37 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-services-line-indicator-rigth{top: -140px!important;left: 50px!important;}
     #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
     .ms-atelier-services-card{width: 31%!important;margin: 6px!important;padding: 8px 18px!important;}
-
+    /* Notre concept */
+    .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
+    .ms-no-padding-bottom h3{font-size: 22px!important;margin: 2px;}
+    #ms-title-notre-second-section{width: 30%;transform: translateX(20%);}
+    #ms-title-notre-second-section h2{font-size: 30px;margin-top: 10px;}
+    #ms-subtitle-notre-second-section{width: 70%;padding: 0 100px;}
+    #ms-skill-one-fork,
+    #ms-skill-two-fork{width: 310px;margin-left: 0!important;transform: translateX(-13%);}
+    #ms-skill-one-fork .ms-wrapper-bullet,
+    #ms-skill-two-fork .ms-wrapper-bullet{transform: translateX(-20%);}
+    #ms-bullet-right{transform: unset;}
+    #ms-fork-notre-concept{width: 80%;}
+    #ms-part12-force-notrec{top: 480px;left: -168px;}
+    #ms-part13-force-notrec{top: 10px;left: -130px;}
+    #ms-image-base-force-notrec-res{position: relative;top: -70px;}
+    #ms-concept-third-section{height: 700px;}
+    #ms-footer-ingredients-card{width: 91.8%;}
+    #ms-text-footer{padding: 20px;}
+    #ms-scroll-tab{transform:unset;}
+    #ms-part2-force-notrec{transform: rotate(90deg);left: -50px;top: -410px;}
+    #ms-part5-force-notrec{left: -740px;top: -260px;}
+    #ms-part4-force-notrec{left:-760px;}
+    #ms-part10-force-notrec{left:-330px;}
+    #ms-notre-concept-gallery-header{padding: 0;}
+    #ms-notre-concept-gallery-header-title h2{font-size: 33px;}
+    #ms-notre-concept-gallery-des p{padding: 7px;}
+    #ms-container-galerie{width: 90%;position: relative;left: 50%;transform: translateX(-50%);margin-top: 30px;}
+    #ms-sommes-seven-section h2{text-align: center;margin-bottom: 30px;}
+    .ms-box-container{max-height: 480px;}
+    .ms-btn-box-offres{margin:20px auto;}
+    #ms-last-section-home-yl{padding: 20px 0;}
   }
 
   @media only screen and (min-width: 1098px) and (max-width: 1280px){
@@ -769,6 +810,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-cta-atelier-nine-section{min-width: 180px;padding: 14px 20px;font-size: 11px;margin-right: 10px;}
     .ms-atelier-services-card{width: 30%!important;margin: 8px!important;padding: 17px 10px!important;}
 
+
+
+  
   } 
 
   @media only screen and (min-width: 992px) and (max-width: 1098px) {
@@ -904,6 +948,24 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #ms-wrapper-cta-nine-section-atelier{display: table;margin: 30px auto;position: initial;width: 100%;}
   #ms-cta-atelier-nine-section{min-width: 180px;padding: 14px 20px;font-size: 11px;margin-right: 10px;}
   
+  /* Notre concept */
+  .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
+  .ms-no-padding-bottom h3{font-size: 22px!important}
+  #ms-title-notre-second-section{width: 40%;}
+  #ms-title-notre-second-section h2{font-size: 30px;margin-top: 10px;}
+  #ms-subtitle-notre-second-section{width: 60%;padding: 0 16px;}
+  #ms-skill-three-fork,
+  #ms-skill-four-fork{margin-left:0!important;}
+  #ms-skill-one-fork,
+  #ms-skill-two-fork{width: 310px;margin-left: 0!important;transform: translateX(-13%);}
+  #ms-fork-notre-concept{width: 90%;transform: translateY(50%) translateX(18%);}
+  #ms-part12-force-notrec{top: 480px;left: -168px;}
+  #ms-part13-force-notrec{top: 10px;left: -130px;}
+  #ms-image-base-force-notrec-res{position: relative;right: 120px;}
+  #ms-concept-third-section{height: 700px;}
+  #ms-footer-ingredients-card{width: 88.5%;}
+  #ms-text-footer{padding: 10px;}
+  #ms-scroll-tab{transform: translateX(130%);}
 
   }
 
@@ -1007,6 +1069,29 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-title-intereses{position: initial;text-align: center;display: inherit;}
     #ms-wrapper-content-nine-section p{text-align: center;display: inherit!important;}
     .ms-atelier-services-card{width: 35%;margin: 30px;padding: 17px 35px;}
+  
+    /* Notre concept */
+    .ms-no-padding-bottom{padding: 50px 70px!important;}
+    #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
+    #ms-subtitle-notre-second-section{float: initial;width: 100%;padding: 0;margin-top: 40px;text-align: center;}
+    #ms-skill-three-fork .ms-content-bullets{text-align: center;}
+    #ms-bullet-right{transform: unset;}
+    #ms-concept-third-section{padding: 80px 50px!important;height: 1100px}
+    #ms-skill-four-fork{text-align: center;}
+    #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+    #ms-skill-one-fork{text-align: center;width: unset;}
+    #ms-skill-two-fork{text-align: center;width: unset;}
+    #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -210px;left: 90px;}
+    #ms-part12-force-notrec{top: -340px;left: 590px;}
+    #ms-part13-force-notrec{top: 180px;left: -73px;}
+    .ms-item-list-notre-concept{font-size: unset;}
+    #ms-notre-concept-gallery-header-title{float: initial;width: 100%;}
+    #ms-notre-concept-gallery-des{border-left: none;float: initial;width: 100%;margin-top:20px;text-align: center;}
+    #ms-concept-five-section-first-column{padding: 70px 0 30px 0;text-align: center;}
+    #ms-footer-ingredients-card{width: 93.3%;}
+    #ms-text-footer{padding: 30px;}
+    #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
+
   }
 
  
@@ -1109,6 +1194,29 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #ms-title-intereses{position: initial;text-align: center;display: inherit;}
   #ms-wrapper-content-nine-section p{text-align: center;display: inherit!important;}
 
+
+  /* Notre concept */
+  .ms-no-padding-bottom{padding: 50px 70px!important;}
+  #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
+  #ms-subtitle-notre-second-section{float: initial;width: 100%;padding: 0;margin-top: 40px;text-align: center;}
+  #ms-skill-three-fork .ms-content-bullets{text-align: center;}
+  #ms-bullet-right{transform: unset;}
+  #ms-concept-third-section{padding: 80px 50px!important;height: 1100px}
+  #ms-skill-four-fork{text-align: center;}
+  #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+  #ms-skill-one-fork{text-align: center;width: unset;}
+  #ms-skill-two-fork{text-align: center;width: unset;}
+  #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -210px;left: 90px;}
+  #ms-part12-force-notrec{top: -340px;left: 590px;}
+  #ms-part13-force-notrec{top: 180px;left: -73px;}
+  .ms-item-list-notre-concept{font-size: unset;}
+  #ms-notre-concept-gallery-header-title{float: initial;width: 100%;}
+  #ms-notre-concept-gallery-des{border-left: none;float: initial;width: 100%;margin-top:20px;text-align: center;}
+  #ms-concept-five-section-first-column{padding: 70px 0 30px 0;text-align: center;}
+  #ms-footer-ingredients-card{width: 93.3%;}
+  #ms-text-footer{padding: 30px;}
+  #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
+  
   } 
 
   @media only screen and (min-width: 732px) and (max-width: 767px){
@@ -1197,6 +1305,10 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
     }
 
+
+    @media only screen  and (min-width : 1200px) {
+    }
+
     @media only screen  and (min-width : 992px) {
       #ms-image-map-contact-responsive{display: none;}
       #ms-wrapper-img-third-section-home-res{display: none;}
@@ -1259,6 +1371,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-back-vegetables-demo{display: none;}
       #ms-vegetables-demo{display: block;}
       #ms-demo-culinaire-serv-1{display: block;}
+
+      /* Notre - concept */
     }
    
 
@@ -1358,7 +1472,21 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-wrapper-content-nine-section p{display: inline-block;}
       #ms-galerie-lightbox img{width: 650px;position: relative;top:4px;}
 
-      
+      /* Notre concept */
+      /* Notre concept */
+      #ms-part1-force-notrec,
+      #ms-part2-force-notrec,
+      #ms-part3-force-notrec,
+      #ms-part4-force-notrec,
+      #ms-part5-force-notrec,
+      #ms-part6-force-notrec,
+      #ms-part7-force-notrec,
+      #ms-part8-force-notrec,
+      #ms-part9-force-notrec,
+      #ms-part10-force-notrec,
+      #ms-part11-force-notrec,
+      #ms-image-base-force-notrec{display: none;}
+
     }
     
     @media only screen and (max-width: 736px) {
@@ -1715,6 +1843,27 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-title-header-eigth-section h2{text-align: center;position: initial;line-height: 2em;}
       #ms-text-header-eigth-section p{text-align: center;position: initial;margin-top: 5px!important;}
     
+      /* Notre concept */
+      .ms-no-padding-bottom{padding: 50px 70px!important;}
+      #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
+      #ms-subtitle-notre-second-section{float: initial;width: 100%;padding: 0;margin-top: 40px;text-align: center;}
+      #ms-skill-three-fork .ms-content-bullets{text-align: center;}
+      #ms-bullet-right{transform: unset;}
+      #ms-concept-third-section{padding: 80px 50px!important;height: 950px}
+      #ms-skill-four-fork{text-align: center;}
+      #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+      #ms-skill-one-fork{text-align: center;width: unset;}
+      #ms-skill-two-fork{text-align: center;width: unset;}
+      #ms-image-base-force-notrec-res{width: 100%;position: relative;top: -160px;left: 40px;transform: rotate(20deg);}
+      #ms-part12-force-notrec{left: 360px;top: -400px;}
+      #ms-part13-force-notrec{top: 130px;left: -110px;}
+      .ms-item-list-notre-concept{font-size: 13px;}
+      #ms-notre-concept-gallery-header-title{float: initial;width: 100%;}
+      #ms-notre-concept-gallery-des{border-left: none;float: initial;width: 100%;margin-top:20px;text-align: center;}
+      #ms-concept-five-section-first-column{padding: 70px 0 30px 0;text-align: center;}
+      #ms-footer-ingredients-card{width: 89.6%;}
+      #ms-text-footer{padding: 10px;}
+      #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
 
 
     }
@@ -1791,7 +1940,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-cta-atelier-btn{position: relative;}
         #ms-cta-atelier-nine-section{min-width: 120px;font-size: 9px;padding: 14px 7px;margin-right: 10px;}
 
-
+        /* Notre concept */
+        #ms-skill-one-fork .ms-content-bullets,
+        #ms-skill-two-fork .ms-content-bullets,
+        #ms-skill-three-fork .ms-content-bullets,
+        #ms-skill-four-fork .ms-content-bullets{width: 100%;}
+        .ms-item-list-notre-concept{font-size: 0.89em;display: inline-flex;}
+        #ms-part12-force-notrec{left: 200px;top: -420px;}
+        #ms-image-base-force-notrec-res{top:-120px;}
+        #ms-part13-force-notrec{top:80px;}
+        #ms-footer-ingredients-card{width: 93%;}
+        #ms-text-footer{padding: 30px;}
      }
 
       @media only screen and (max-width: 320px){
@@ -1836,6 +1995,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-vegetables-demo{transform: translateY(120%);}
         #ms-demo-third-service-wrapper{transform: translateY(-5%);}
         #ms-cta-atelier-nine-section{min-width: 110px;font-size: 8px;padding: 14px 4px;margin-right: 5px;}
+        /* Notre concept */
+        #ms-title-notre-second-section{word-break: break-all;}
+        #ms-skill-one-fork h3,
+        #ms-skill-two-fork h3,
+        #ms-skill-three-fork h3,
+        #ms-skill-four-fork h3{font-size: 20px!important;}
+        #ms-footer-ingredients-card{width: 91.6%;}
+
+
       }
   /*------------------------------------*\
       END Max Width

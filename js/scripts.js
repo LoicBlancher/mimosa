@@ -90,7 +90,51 @@ jQuery(function ($) {
         autoplay: false,
         autoplaySpeed: 200,
         infinite:false,
-        arrows:false
+        arrows:false,
+        responsive: [
+              {
+                  breakpoint: 1400,
+                  settings: {
+                      slidesToShow: 3,
+                      centerPadding: '400px'
+                  }
+              },
+              {
+                  breakpoint: 1200,
+                  settings: {
+                      slidesToShow: 3,
+                      centerPadding: '300px'
+                  }
+              },
+              {
+                  breakpoint: 992,
+                  settings: {
+                      slidesToShow: 3,
+                      centerPadding: '180px'
+                  }
+              },
+              {
+                  breakpoint: 768,
+                  settings: {
+                      slidesToShow: 2,
+                      centerPadding: '80px'
+                  }
+              },
+              {
+                  breakpoint: 480,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '25px'
+                  }
+              },
+              {
+                  breakpoint: 360,
+                  settings: {
+                      slidesToShow: 1,
+                      centerPadding: '15px'
+                  }
+              }
+          ]
       });
 
       $('#ms-slider-testimonials').slick({

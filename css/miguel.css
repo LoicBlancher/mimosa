@@ -100,6 +100,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-map-pin-info-triangle{width: 50px;height: 90px;position: relative;overflow: hidden;box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.25);transform: rotate(45deg);position: absolute;left: -5px;bottom: 15px;}
 .ms-map-pin-info-triangle:after{content: "";position: absolute;width: 50px;height: 50px;background: #fff;transform: rotate(45deg);top: 75px;left: 25px;-webkit-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);box-shadow: 10px 1px 10px 0px rgba(50, 50, 50, 0.25);}
 /* Paddings */
+.ms-logistique-nine{padding: 40px 210px!important} 
 .ms-no-padding-bottom{padding: 110px 210px 0 210px!important;}
 /* Check List Mimosa */
 .ms-list-check-mimosa{position: relative;list-style-type: none;padding: 0}
@@ -674,103 +675,27 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-logistique-ser2-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 60.327% 20.645%;width: 330px;height: 90px;display: inline-block;position: relative;top: -50px;}
 #ms-logistique-ser2-tool3{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 77.327% 4.645%;width: 180px;height: 180px;display: inline-block;position: relative;top: 60px;left: -340px;}
 #ms-logistique-ser2-tool4{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 90% 100%;width: 400px;height: 240px;background-size: 330%;display: inline-block;position: relative;top: -100px;left: 100px;}
-#ms-logistique-ser2-tool5{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 98.516% 4.177%;width: 300px;height: 218px;background-size: 500%;display: inline-block;position: relative;top: -130px;}
+#ms-logistique-ser2-tool5{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 98.516% 4.177%;width: 300px;height: 218px;background-size: 520%;display: inline-block;position: relative;top: -130px;}
 #ms-logistique-ser3-tool1{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 57% 63%;width: 350px;height: 390px;background-size: 400%;}
 #ms-logistique-ser3-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 99% 44%;width: 610px;height: 520px;background-size: 320%;display: inline-block;position: relative;top: -390px;left: 170px;}
-.ms-logistique-nine{padding: 40px 210px!important} 
 .ms-logistique-intereses{text-align: center;}
-#ms-image-header-nine-section-1{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 4.365% 94.245%;
-    width: 72px;
-    height: 95px;
-    display: inline-block;
-    position: relative;
-    left: 200px;
-    top: 126px;}
-#ms-image-header-nine-section-2{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.056% 47.099%;
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    position: relative;
-    top: -50px;
-    left: 90px;}
-#ms-image-header-nine-section-3{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.083% 42.761%;
-    width: 96px;
-    height: 76px;
-    display: inline-block;
-    position: relative;
-    top: -140px;
-    left: -40px;}
-#ms-image-header-nine-section-4{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 99.338% 4.054%;
-    width: 123px;
-    display: inline-block;
-    height: 77px;
-    position: relative;
-    left: -260px;
-    top: -148px;}
-#ms-image-header-nine-section-5{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 90.021% 93.515%;
-    width: 105px;
-    height: 80px;
-    display: inline-block;
-    position: relative;
-    left: -327px;
-    top: -60px;}
-#ms-image-header-nine-section-6{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.895% 91.333%;
-    width: 120px;
-    height: 73px;
-    display: inline-block;
-    position: relative;
-    left: -60px;
-    top: -140px;}
-#ms-image-header-nine-section-7{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 87.891% 45.522%;
-    width: 97px;
-    height: 105px;
-    display: inline-block;
-    position: relative;
-    left: -255px;
-    top: -180px;}
-#ms-image-header-nine-section-8{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 68.725% 0;
-    width: 74px;
-    height: 102px;
-    display: inline-block;
-    position: relative;
-    left: -340px;
-    top: -40px;}
-#ms-image-header-nine-section-9{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 28.6% 96.825%;
-    width: 76px;
-    height: 121px;
-    display: inline-block;
-    position: relative;
-    top: -30px;
-    left: -520px;}
-#ms-image-header-nine-section-10{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 41.6% 0;
-    width: 76px;
-    height: 122px;
-    display: inline-block;
-    position: relative;
-    bottom: -100px;
-    left: -500px;}
-#ms-image-header-nine-section-11{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 32.329% 46.57%;
-    width: 78px;
-    height: 96px;
-    display: inline-block;
-    position: relative;
-    bottom: -100px;
-    left: -680px;}
-#ms-image-header-nine-section-12{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.37% 4.762%;
-    width: 154px;
-    height: 100px;
-    display: inline-block;
-    position: relative;
-    left: -120px;
-    top: 120px;}
-    #ms-wrapper-image-nine-section-logistique{position: relative;
-    top: 120px;}
-    #ms-wrapper-content-nine-logistique{transform: translateY(-50%);}
+#ms-image-header-nine-section-1{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 4.365% 94.245%;width: 72px;height: 95px;display: inline-block;position: relative;left: 200px;top: 126px;}
+#ms-image-header-nine-section-2{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.056% 47.099%;width: 80px;height: 80px;display: inline-block;position: relative;top: -50px;left: 90px;}
+#ms-image-header-nine-section-3{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.083% 42.761%;width: 96px;height: 76px;display: inline-block;position: relative;top: -140px;left: -40px;}
+#ms-image-header-nine-section-4{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 99.338% 4.054%;width: 123px;display: inline-block;height: 77px;position: relative;left: -260px;top: -148px;}
+#ms-image-header-nine-section-5{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 90.021% 93.515%;width: 105px;height: 80px;display: inline-block;position: relative;left: -327px;top: -60px;}
+#ms-image-header-nine-section-6{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.895% 91.333%;width: 120px;height: 73px;display: inline-block;position: relative;left: -60px;top: -140px;}
+#ms-image-header-nine-section-7{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 87.891% 45.522%;width: 97px;height: 105px;display: inline-block;position: relative;left: -255px;top: -180px;}
+#ms-image-header-nine-section-8{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 68.725% 0;width: 74px;height: 102px;display: inline-block;position: relative;left: -340px;top: -40px;}
+#ms-image-header-nine-section-9{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 28.6% 96.825%;width: 76px;height: 121px;display: inline-block;position: relative;top: -30px;left: -520px;}
+#ms-image-header-nine-section-10{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 41.6% 0;width: 76px;height: 122px;display: inline-block;position: relative;bottom: -100px;left: -500px;}
+#ms-image-header-nine-section-11{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 32.329% 46.57%;width: 78px;height: 96px;display: inline-block;position: relative;bottom: -100px;left: -680px;}
+#ms-image-header-nine-section-12{    background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.37% 4.762%;width: 154px;height: 100px;display: inline-block;position: relative;left: -120px;top: 120px;}
+#ms-wrapper-image-nine-section-logistique{position: relative;top: 120px;}
+#ms-wrapper-content-nine-logistique{transform: translateY(-50%);}
 /*------------------------------------*\
     END LOGISTIQUE CULINARIE
 \*------------------------------------*/
-
-
 
 
 
@@ -1513,6 +1438,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-serv1-res,
       #ms-atelier-serv2-res,
       #ms-atelier-serv3-res{display: none;}
+      #ms-interesses-logistique-res,
+      #ms-services-logistique-2{display: none;}
     }
 
     @media only screen  and (min-width : 992px) {
@@ -1605,7 +1532,22 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-atelier-serv2-res,
       #ms-atelier-serv3-res{display: block;}
 
-      /* Notre - concept */
+      /* Logistique */
+      #ms-logistique-ser2-tool1,
+      #ms-logistique-ser2-tool3,
+      #ms-image-header-nine-section-1,
+      #ms-image-header-nine-section-2,
+      #ms-image-header-nine-section-3,
+      #ms-image-header-nine-section-4,
+      #ms-image-header-nine-section-5,
+      #ms-image-header-nine-section-6,
+      #ms-image-header-nine-section-7,
+      #ms-image-header-nine-section-8,
+      #ms-image-header-nine-section-9,
+      #ms-image-header-nine-section-10,
+      #ms-image-header-nine-section-11,
+      #ms-image-header-nine-section-12{display: none;}
+    
     }
    
     
@@ -2117,6 +2059,47 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-image-header-nine-section-atelier-1{margin-top: 20px;}
       #ms-wrapper-cta-nine-section-atelier{margin:20px auto;}
       /* Atelier */
+
+      /* Logistique */
+      #ms-camion-logistique{width: 100%;
+    position: initial;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-180px) translateX(-14%);}
+    #ms-services-logistique-2{width: 100%;transform:translateY(80%);}
+    #ms-services-logistique-3{width: 100%;position: relative;top: -150px;}
+    #ms-interesses-logistique-res{width: 100%;}
+    #ms-logistique-ser2-tool2{    top: -1000px;
+    background-size: 400%;
+    width: 230px;
+    height: 50px;
+    background-position: 60.327% 20.645%;
+    left: 180px;
+    transform: rotate(50deg);}
+    #ms-logistique-ser2-tool4{    position: relative;
+    top: -550px;
+    left: -30px;
+    background-size: 380%;
+    width: 160px;
+    height: 135px;
+    background-position: 89% 110%;
+    transform: rotate(250deg);}
+    #ms-logistique-ser2-tool5{background-size: 330%;
+    width: 170px;
+    height: 88px;
+    background-position: 114.516% 1.177%;
+    position: relative;
+    top: 260px;
+    left: 90px;}
+    #ms-service-container-logistique-1{}
+    .ms-service-container-logistique-2{transform: translateY(-200%);
+    text-align: right;}
+    .ms-service-container-logistique-3{width: 100%;}
+    .ms-logistique-nine{padding: 30px 50px!important;
+    height: 450px;}
+    #ms-wrapper-content-nine-logistique{transform:translateY(-170%);}
+    #ms-interesses-logistique-res{width: 100%;position: relative;top: -130px;left: -140px;}
+    
 
     }
 

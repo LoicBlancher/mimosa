@@ -1056,10 +1056,23 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-atelier-seven-section-left-container{margin-top:0!important;}
     #ms-title-header-eigth-section h2{left: 40px!important;}
     #ms-six-section-image img{width: 200px;padding: 90px 0;}
+    #ms-atelier-third-section-atelier{height: 900px;}
+    #ms-elementAt9-ser1{top: -320px;left: 390px;}
+    #ms-atelier-serv1-res{width: 100%;position: relative;top: -160px;}
+    #ms-wrapper-serv2-atelier{transform: translateY(-250%);text-align: right;}
+    #ms-atelier-serv2-res{width: 80%;position: relative;top: 190px;left: 100px;}
+    #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:unset;}
+    #ms-elementAt6-ser2{left: -20px;top: 90px;}
+    #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{transform: rotate(360deg);}
+    #ms-wrapper-serv3-atelier{transform:translateY(20%);}
+    #ms-elementAt9-ser3{top: -240px;left: 440px;}
+    #ms-atelier-serv3-res{width: 90%;position: relative;top: -120px;}
+    #ms-image-header-nine-section-atelier-1{display: table;margin: 0 auto;}
+    #ms-image-header-nine-section-atelier-2{top: 20px;left: 260px;}
+    #ms-image-header-nine-section-atelier-3{top: 10px;left: 340px;}
     /* Demo culinaire */
     #ms-video-atelier{width: 100%;padding: 40px 0;}
     #ms-atelier-third-section{height: 700px;}
-    #ms-atelier-third-section-atelier{height: 700px;}
     .ms-services-line-indicator{top: -50px!important;left: 200px;}
     #ms-chicken1{display: inline-block;top: -670px;left: 330px;background-size: 590%;background-position: 79% 50%;width: 190px;height: 200px;}
     #ms-demo-culinaire-serv-1{width: 90%;display: table;margin: 0 auto;}

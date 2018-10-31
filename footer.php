@@ -43,8 +43,7 @@
 				<div class="row" id="mg-footer-second">
 					<div class="col-12 col-md-6 col-lg-6">
 						<p class="copyright">
-							&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-							<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+							&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <span id="ms-copyright-gr">Fait avec amour et café par <a href="https://www.gradiweb.com">Gradiweb</a></span>
 						</p>
 					</div>
 					<div class="col-12 col-md-4 col-lg-4 offset-md-2 offset-lg-2">

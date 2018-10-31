@@ -2061,42 +2061,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* Atelier */
 
       /* Logistique */
-      #ms-camion-logistique{width: 100%;
-    position: initial;
-    display: table;
-    margin: 0 auto;
-    transform: translateY(-180px) translateX(-14%);}
+      #ms-camion-logistique{width: 100%;position: initial;display: table;margin: 0 auto;transform: translateY(-180px) translateX(-14%);}
     #ms-services-logistique-2{width: 100%;transform:translateY(80%);}
     #ms-services-logistique-3{width: 100%;position: relative;top: -150px;}
     #ms-interesses-logistique-res{width: 100%;}
-    #ms-logistique-ser2-tool2{    top: -1000px;
-    background-size: 400%;
-    width: 230px;
-    height: 50px;
-    background-position: 60.327% 20.645%;
-    left: 180px;
-    transform: rotate(50deg);}
-    #ms-logistique-ser2-tool4{    position: relative;
-    top: -550px;
-    left: -30px;
-    background-size: 380%;
-    width: 160px;
-    height: 135px;
-    background-position: 89% 110%;
-    transform: rotate(250deg);}
-    #ms-logistique-ser2-tool5{background-size: 330%;
-    width: 170px;
-    height: 88px;
-    background-position: 114.516% 1.177%;
-    position: relative;
-    top: 260px;
-    left: 90px;}
+    #ms-logistique-ser2-tool2{top: -1000px;background-size: 400%;width: 230px;height: 50px;background-position: 60.327% 20.645%;left: 180px;transform: rotate(50deg);}
+    #ms-logistique-ser2-tool4{position: relative;top: -550px;left: -30px;background-size: 380%;width: 160px;height: 135px;background-position: 89% 110%;transform: rotate(250deg);}
+    #ms-logistique-ser2-tool5{background-size: 330%;width: 170px;height: 88px;background-position: 114.516% 1.177%;position: relative;top: 260px;left: 90px;}
     #ms-service-container-logistique-1{}
-    .ms-service-container-logistique-2{transform: translateY(-200%);
-    text-align: right;}
+    .ms-service-container-logistique-2{transform: translateY(-200%);text-align: right;}
     .ms-service-container-logistique-3{width: 100%;}
-    .ms-logistique-nine{padding: 30px 50px!important;
-    height: 450px;}
+    .ms-logistique-nine{padding: 30px 50px!important;height: 450px;}
     #ms-wrapper-content-nine-logistique{transform:translateY(-170%);}
     #ms-interesses-logistique-res{width: 100%;position: relative;top: -130px;left: -140px;}
     
@@ -2201,7 +2176,22 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-image-header-nine-section-atelier-2{top: -90px;left: 100px;}
         #ms-image-header-nine-section-atelier-3{top: -100px;left: 175px;}
         #ms-wrapper-cta-nine-section-atelier{margin:0 auto;}
+
+        /* Logistique */
+    #ms-logistique-ser2-tool2{background-size: 400%;width: 130px;height: 50px;background-position: 61.327% 20.645%;top: -848px;left: 160px;}
+    #ms-logistique-ser2-tool4{top: -370px;left: -170px;background-size: 380%;width: 100px;height: 85px;background-position: 89% 110%;}
+
+    .ms-service-container-logistique-2{transform:translateY(-160%);}
+    #ms-services-logistique-2{transform:translateY(120%);}
+    #ms-logistique-ser2-tool5{background-size: 439%;width: 100px;height: 58px;background-position: 100.516% 4.177%;position: relative;top: 280px;left: 190px;}
+    #ms-services-logistique-3{top:-180px;}
+    .ms-logistique-nine{height: 350px;}
+    #ms-interesses-logistique-res{top:-160px;left:-120px;}
+    #ms-wrapper-content-nine-logistique{transform:translateY(-150%);}
+
+
      }
+      
 
       @media only screen and (max-width: 320px){
         /* Home Page */

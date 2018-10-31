@@ -765,7 +765,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     .ms-services-img img{width: 100%!important;position: relative;left: 40px;}
     #ms-services-line-indicator-rigth{top:40%;}
     #ms-six-section-image img{width: 200px;padding: 90px 0;}
-    .ms-atelier-services-card{padding: 15px 20px!important;width: 48%!important;margin: 7px 3px!important;}
+    .ms-atelier-services-card{padding: 15px 14px!important;width: 32%!important;margin: 7px 4px!important;}
     #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
     #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;} 
     #ms-atelier-third-section-atelier{height: 750px;}
@@ -816,10 +816,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 
 
     #ms-wrapper-serv2-atelier{text-align: right;}
-    #ms-image-header-nine-section-atelier-1{position: relative;left: 15%;margin-top:30px;}
-    #ms-image-header-nine-section-atelier-3{position: relative;left: 56%;top: -130px;}
-    #ms-image-header-nine-section-atelier-2{position: relative;left: 40%;}
+    #ms-image-header-nine-section-atelier-1{position: relative;
+    left: -10%;
+    margin-top: 30px;}
+    #ms-image-header-nine-section-atelier-3{position: relative;left: 29%;top: -130px;}
+    #ms-image-header-nine-section-atelier-2{position: relative;left: 13%;}
     #ms-wrapper-cta-nine-section-atelier{position:initial;}
+    #ms-title-intereses{display: inline-block;
+    position: relative;
+    left: -8%;top:unset;}
 
 
 

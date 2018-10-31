@@ -1554,7 +1554,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   \*------------------------------------*/
     @media only screen and (max-width: 1400px) {
       /* Responsive Home page */
-      .ms-padding-home-section{padding: 110px 130px!important;}
+      .ms-padding-home-section{padding: 110px 130px!important;box-shadow: unset;}
       .ms-container-bullet{margin-left:30px;}
       .home footer{padding:15px 0;}
       /* ThankYou Page */
@@ -1637,7 +1637,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     
     @media only screen and (max-width: 1280px) {
       /* Responsive Home page */
-      .ms-padding-home-section{padding:60px 90px!important}
+      .ms-padding-home-section{padding:60px 90px!important;box-shadow: unset;}
       #ms-atelier-second-section{padding: 60px 90px;}
       .ms-wrapper-bullet-with-img{margin-left:70px;}
       .ms-bullets-mimosa-img{float: initial;display: table;margin: 0 auto;}
@@ -1668,7 +1668,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     
     @media only screen and (max-width: 992px) {
       /* Responsive home */
-      .ms-padding-home-section{padding:60px 90px!important}
+      .ms-padding-home-section{padding:60px 90px!important;box-shadow: unset;}
       .ms-wrapper-bullet-with-img{margin-left:70px;}
       .ms-bullets-mimosa-img{float: initial;display: table;margin: 0 auto;}
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{text-align: center;}
@@ -1756,7 +1756,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .onepage-pagination{display: none;}
       /* Responsive home page */
       .home ,.qui-sommes-nous,.notre-concept{overflow: scroll;}
-      .ms-padding-home-section{padding: 50px 70px!important;}
+      .ms-padding-home-section{padding: 50px 70px!important;box-shadow: unset;}
       #ms-slider-home p.yellow{text-align: center;position: relative;top: -30px;}  
       #ms-slider-home #ms-know-more{text-align: center;position: relative;top: -20px;}
       #ms-second-section-home .ms-img-left-section{display: none;}
@@ -1854,7 +1854,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       h6{font-size:15px!important;}
       /* Responsive home page */
       #ms-slider-home{background-image: url(http://mimosa.graditest.com/wp-content/uploads/2018/10/slidehome-mimosa.jpg)!important;background-position: 19%!important;background-size: cover!important;}
-      .ms-padding-home-section{padding:30px 50px!important;}
+      .ms-padding-home-section{padding:30px 50px!important;box-shadow: unset;}
       #ms-slider-home h1{text-align: center;position: relative;top: -50px;}
       #ms-slider-home p.yellow{text-align: center;position: relative;top: -40px;}
       #ms-slider-home #ms-know-more{text-align: center;position: relative;top: -20px;}
@@ -1897,7 +1897,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-container-bacon-home{top: -840px;left: -120px;background-size: 600%;width: 200px;height: 200px;display: inline-block;transform: rotate(310deg);opacity: 0.95;}
       #ms-container-egg2-home{background-size: 500%;top: -960px;opacity: 0.76;display: inline-block;}
       #ms-container-spinach-home{top:-780px;display: inline-block;}
-      #ms-third-section-home{background-position: 20% -166%!important;}
+      #ms-third-section-home{background-position: 20% -246%!important;height: 700px;}
       #ms-wrapper-content-third-section-home{transform: translateY(-143%);}
       #ms-wrapper-img-third-section-home-res{transform: translateY(90%);position: relative;left: -50px;}
       #ms-wrapper-img-third-section-home-res img{width: 500px;}
@@ -1917,6 +1917,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-img-branch2{display: none;}
       #ms-wrapper-content-third-section-home h3{text-align: center;}
       #ms-logo-last-section-home{padding: 30px 0;}
+      #ms-five-section-home{height: 600px;}
 
 
       /* Responsive Qui Sommes */
@@ -2160,17 +2161,28 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-wrapper-content-nine-logistique{transform:translateY(-170%);}
     #ms-interesses-logistique-res{width: 100%;position: relative;top: -130px;left: -140px;}
     
+    }
 
+    @media only screen and (max-width: 420px){
+      /* Home */
+      #ms-third-section-home{background-position: 20% -196%!important;height: 740px;}
+      #ms-third-section-home h2{margin-top:170px;}
+    }
+
+    @media only screen and (max-width: 380px){
+      /* Home */
+      #ms-third-section-home{background-position: 20% -246%!important;height: 720px;}
+      #ms-third-section-home h2{margin-top:120px;}
     }
 
      @media only screen and (max-width: 360px) {
-        .ms-padding-home-section{padding: 30px 40px!important;}
+        .ms-padding-home-section{padding: 30px 40px!important;box-shadow: unset;}
         /* Home Page */
         #ms-container-bred-home{left: 230px;}
         #ms-container-egg1-home{left: 200px;}
         #ms-container-egg2-home{background-size: 500%;top: -960px;opacity: 0.76;display: inline-block;}
         #ms-second-section-home{height: 1100px;}
-        #ms-third-section-home{background-position: 20% -186%!important;}
+        #ms-third-section-home{background-position: 20% -226%!important;}
         #ms-wrapper-content-third-section-home{transform: translateY(-110%);}
         #ms-wrapper-img-third-section-home-res{transform: translateY(140%);position: relative;left: -50px;}
         #ms-wrapper-img-third-section-home-res img{width: 400px;}
@@ -2184,7 +2196,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-seed-brocoli{top: -480px;left: 120px;}
         #ms-wrapper-map-info{margin-left:0;}
         #ms-wrapper-map-info p.white{padding: 0 10px;}
-        #ms-img-avocado{background-size: 259%;background-position: 106% 80%;top: -120px;left: 50px;width: 200px;height: 300px;display: inline-block;}
+        #ms-img-avocado{background-size: 259%;background-position: 106% 80%;top: -120px;left: 50%;width: 200px;height: 300px;display: inline-block;transform: translateX(-50%);}
         #ms-img-oats{display: none;}
         #ms-img-branch2{display: none;}
         #ms-wrapper-content-third-section-home h3{text-align: center;} 
@@ -2194,6 +2206,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-wrapper-btns-lastsection .ms-primary-btn-bl,
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{min-width: 40px;max-width: 140px;padding: 13px 20px;font-size: 10px;}
         #ms-second-section-home h4{font-size: 16px;margin-top: 40px;}
+        #ms-five-section-home{height: 630px;}
         /* Responsive qui sommes */
         .ms-image-team-member{width: 120px!important;transform:translateX(-50%);}
         .ms-wrapper-member-name{top:230px;}
@@ -2281,13 +2294,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       @media only screen and (max-width: 320px){
         /* Home Page */
         h1{font-size: 40px!important;}
-        #ms-third-section-home{background-position:20% -196%!important;}
+        #ms-third-section-home{background-position:20% -226%!important;}
+        #ms-third-section-home h2{margin-top:-10px;}
+        #ms-wrapper-img-third-section-home-res img{transform:translateY(-40%);}
         #ms-wrapper-content-third-section-home{transform: translateY(-63%);}
         #ms-wrapper-img-third-section-home-res{transform: translateY(180%);}
         #ms-seed-four{top: -1010px;}
-        #ms-img-avocado{left:30px;}
         #ms-wrapper-btns-lastsection .ms-primary-btn-bl{margin-right: 5px;}
         #ms-wrapper-btns-lastsection .ms-transparent-btn-bl{max-width: 136px;padding: 13px 15px;}
+        
         /* Qui sommes */
         #ms-slider-team-members{top:50px;}
         .ms-wrapper-member-name{top:260px;}

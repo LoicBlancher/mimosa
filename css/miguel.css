@@ -938,9 +938,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
    .ms-atelier-services-card{padding: 15px 20px!important;width: 48%!important;margin: 7px 3px!important;}
    #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
    #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;} 
-   
    #ms-atelier-third-section-atelier{height: 900px;}
-    
+   #ms-elementAt9-ser1,
+   #ms-elementAt9-ser3,#ms-elementAt6-ser2{display: none;}
+   #ms-atelier-serv1-res{width: 100%;}
+   #ms-atelier-serv2-res{width: 100%;}
+   #ms-atelier-serv3-res{width: 100%;} 
+   #ms-wrapper-serv2-atelier{text-align: right;}
 
   /* Demo culinaire */
   #ms-chicken1,

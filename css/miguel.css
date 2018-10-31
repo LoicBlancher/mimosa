@@ -2114,7 +2114,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-image-header-nine-section-atelier-1{display: table;margin: 0 auto;}
         #ms-image-header-nine-section-atelier-2{top: 20px;left: 80px;}
         #ms-image-header-nine-section-atelier-3{top: 10px;left: 160px;}
-
+        #ms-bullet-rigth{position: relative;left: 15%;}
       }
   /*------------------------------------*\
       END Max Width

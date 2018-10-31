@@ -899,12 +899,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-logistique-ser2-tool2,
     #ms-logistique-ser2-tool4,
     #ms-logistique-ser2-tool5{display: none;}
-    #ms-camion-logistique{width: 90%;display: inline-block;} 
-    #ms-services-logistique-2{width: 90%;}
-    #ms-services-logistique-3{ width: 90%;position: relative;left: 40px;}
+    #ms-camion-logistique{width: 100%;display: inline-block;} 
+    #ms-services-logistique-2{width: 100%;}
+    #ms-services-logistique-3{ width: 100%;position: relative;left: 50px;}
     .ms-logistique-nine{padding: 30px 50px!important;height: 520px;}
     #ms-interesses-logistique-res{position: relative;top: -160px;left: -50%;}
-    #ms-wrapper-content-nine-logistique{transform: translateY(-190%);text-align: center;}    
+    #ms-wrapper-content-nine-logistique{transform: translateY(-240%);text-align: center;}    
 
   } 
 

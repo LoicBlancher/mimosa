@@ -1182,10 +1182,25 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-image-herder-eigth-section img{width: 120px;}
     #ms-text-header-eigth-section p{position: relative;left: 50px;margin-top: 40px!important;}
     #ms-title-header-eigth-section h2{position: relative;left: 42px;}
+    #ms-atelier-third-section-atelier{height: 900px;}
+    #ms-elementAt9-ser1{top: -320px;left: 390px;}
+    #ms-atelier-serv1-res{width: 100%;position: relative;top: -160px;}
+    #ms-wrapper-serv2-atelier{transform: translateY(-250%);text-align: right;}
+    #ms-atelier-serv2-res{width: 80%;position: relative;top: 190px;left: 100px;}
+    #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:unset;}
+    #ms-elementAt6-ser2{left: -20px;top: 90px;}
+    #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{transform: rotate(360deg);}
+    #ms-wrapper-serv3-atelier{transform:translateY(20%);}
+    #ms-elementAt9-ser3{top: -240px;left: 440px;}
+    #ms-atelier-serv3-res{width: 90%;position: relative;top: -120px;}
+    #ms-image-header-nine-section-atelier-1{display: table;margin: 0 auto;}
+    #ms-image-header-nine-section-atelier-2{top: 20px;left: 260px;}
+    #ms-image-header-nine-section-atelier-3{top: 10px;left: 340px;}
+  
+
   /* Demo culinaire */
   #ms-video-atelier{width: 100%;padding: 40px 0;}
   #ms-atelier-third-section{height: 700px;}
-  #ms-atelier-third-section-atelier{height: 700px;}
   .ms-services-line-indicator{top: -50px!important;left: 200px;}
   #ms-chicken1{display: inline-block;top: -670px;left: 330px;background-size: 590%;background-position: 79% 50%;width: 190px;height: 200px;}
   #ms-demo-culinaire-serv-1{width: 90%;display: table;margin: 0 auto;}
@@ -1228,6 +1243,9 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #ms-text-footer{padding: 30px;}
   #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
   
+  /* Atelier */
+
+
   } 
 
   @media only screen and (min-width: 732px) and (max-width: 767px){
@@ -1916,7 +1934,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-footer-ingredients-card{width: 89.6%;}
       #ms-text-footer{padding: 10px;}
       #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
-      
+      #ms-image-header-nine-section-atelier-1{margin-top: 20px;}
+      #ms-wrapper-cta-nine-section-atelier{margin:20px auto;}
       /* Atelier */
 
     }
@@ -2005,6 +2024,19 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-part13-force-notrec{top:80px;}
         #ms-footer-ingredients-card{width: 93%;}
         #ms-text-footer{padding: 30px;}
+
+        /* Atelier formation */
+        #ms-atelier-third-section-atelier{height: 650px;}
+        #ms-elementAt9-ser1{background-size: 1300%;width: 100px;height: 100px;top: -390px;left: 200px;}
+        #ms-wrapper-serv2-atelier{transform:translateY(-140%);}
+        #ms-elementAt6-ser2{ background-size: 900%;width: 130px;height: 140px;top: 70px;}
+        #ms-atelier-serv2-res{top:240px;}
+        #ms-atelier-serv3-res{top:-80px;}
+        #ms-elementAt9-ser3{background-size: 1100%;left: 180px;width: 120px;height: 120px;}
+        #ms-image-header-nine-section-atelier-1{width: 100px;height: 110px;background-size: 1100%;margin-top:30px;}
+        #ms-image-header-nine-section-atelier-2{top: -90px;left: 100px;}
+        #ms-image-header-nine-section-atelier-3{top: -100px;left: 175px;}
+        #ms-wrapper-cta-nine-section-atelier{margin:0 auto;}
      }
 
       @media only screen and (max-width: 320px){
@@ -2057,6 +2089,15 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-skill-four-fork h3{font-size: 20px!important;}
         #ms-footer-ingredients-card{width: 91.6%;}
 
+        /* Atelier */
+        #ms-elementAt9-ser1{background-size: 1300%;width: 80px;height: 80px;top: -410px;left: 190px;}
+        #ms-atelier-serv1-res{top:-130px;}
+        #ms-elementAt6-ser2{background-size: 900%;width: 110px;height: 120px;top: -10px;}
+        #ms-elementAt9-ser3{background-size: 1100%;width: 80px;height: 80px;left: 182px;}
+        #ms-atelier-serv3-res{top:-40px;}
+        #ms-image-header-nine-section-atelier-1{display: table;margin: 0 auto;}
+        #ms-image-header-nine-section-atelier-2{top: 20px;left: 80px;}
+        #ms-image-header-nine-section-atelier-3{top: 10px;left: 160px;}
 
       }
   /*------------------------------------*\

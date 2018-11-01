@@ -1292,7 +1292,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
     #ms-skill-one-fork{text-align: center;width: unset;}
     #ms-skill-two-fork{text-align: center;width: unset;}
-    #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -210px;left: 90px;}
+    #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -100px;left: 90px;}
     #ms-part12-force-notrec{top: -340px;left: 590px;}
     #ms-part13-force-notrec{top: 180px;left: -73px;}
     .ms-item-list-notre-concept{font-size: unset;}
@@ -1302,7 +1302,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-footer-ingredients-card{width: 93.3%;}
     #ms-text-footer{padding: 30px;}
     #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
-
+    .ms-gallery-notre-concept{height: 550px!important;}
+    
 
       /* Logistique */
     #ms-atelier-third-section-logistique{padding: 60px 90px;height: 800px;}  
@@ -1456,7 +1457,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
   #ms-skill-one-fork{text-align: center;width: unset;}
   #ms-skill-two-fork{text-align: center;width: unset;}
-  #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -210px;left: 90px;}
+  #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -100px;left: 90px;}
   #ms-part12-force-notrec{top: -340px;left: 590px;}
   #ms-part13-force-notrec{top: 180px;left: -73px;}
   .ms-item-list-notre-concept{font-size: unset;}
@@ -1466,7 +1467,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   #ms-footer-ingredients-card{width: 93.3%;}
   #ms-text-footer{padding: 30px;}
   #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
-  
+  .ms-gallery-notre-concept{height: 500px!important;}
     /* Logistique */
   #ms-atelier-third-section-logistique{padding: 60px 90px;height: 800px;}  
     #ms-camion-logistique{width: 100%;position: initial;display: table;margin: 0 auto;transform: translateY(-50px) translateX(-14%);;}
@@ -1541,11 +1542,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
   \*------------------------------------*/
   @media only screen  and (min-width : 1824px) {
     h1{font-size: 64px!important;}
-    h2{font-size: 52px!important;}
-    h3{font-size:48px!important;}
-    h4{font-size:36px!important;}
-    h5{font-size:30px!important;}
-    h6{font-size:25px!important;}
+    h2{font-size: 50px!important;}
+    h3{font-size:40px!important;}
+    h4{font-size:30px!important;}
+    h5{font-size:25px!important;}
+    h6{font-size:20px!important;}
     p,p.gray,p.yellow,p.white{font-size: 19px!important;}
     /* Responsive Home */
     .ms-logo-mimosa-main{width: 220px;}
@@ -1586,6 +1587,36 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-demo-second-service-wrapper{text-align: right;}
     #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
     #ms-galerie-lightbox img{max-width: 940px;margin-top:6%;}
+
+    /* Notre concept */
+    #ms-skill-one-fork h3,
+    #ms-skill-two-fork h3,
+    #ms-skill-three-fork h3,
+    #ms-skill-four-fork{font-size: 35px!important;margin:0 0;}
+    #ms-title-notre-second-section{width: 40%;}
+    #ms-title-notre-second-section h2{font-size: 45px!important;}
+    #ms-subtitle-notre-second-section{width: 60%;padding: 10px 90px 60px 90px;}
+    #ms-fork-notre-concept{transform: translateY(12%) translateX(10%);}
+    #ms-concept-third-section-text-column h2{margin-top:2%;}
+    #ms-image-base-force-notrec-res{width: 100%;}
+    #ms-part4-force-notrec{top:40px;}
+    #ms-part6-force-notrec{top: -100px;}
+    #ms-part11-force-notrec{top:-100px;}
+    #ms-part2-force-notrec{top: 30px;left: -900px;}
+    #ms-part7-force-notrec{top: -230px;left: 100px;}
+    #ms-notre-concept-gallery-header-title h2{font-size: 45px!important;}
+    #ms-notre-concept-gallery-header-title{margin-bottom:30px;}
+    #ms-ingredients-image{max-height: 450px;}
+    #ms-footer-ingredients-card{width: 94%;}
+    #ms-text-footer{padding: 40px;}
+    #ms-box-offres{margin-top:70px;}
+
+
+
+
+
+
+
 
   }
     @media only screen  and (min-width : 1400px){
@@ -2216,8 +2247,8 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
       #ms-skill-one-fork{text-align: center;width: unset;}
       #ms-skill-two-fork{text-align: center;width: unset;}
-      #ms-image-base-force-notrec-res{width: 100%;position: relative;top: -160px;left: 40px;transform: rotate(20deg);}
-      #ms-part12-force-notrec{left: 360px;top: -400px;}
+      #ms-image-base-force-notrec-res{width: 100%;position: relative;top: -100px;left: 40px;transform: rotate(20deg);}
+      #ms-part12-force-notrec{left: -10px;top: -400px;}
       #ms-part13-force-notrec{top: 130px;left: -110px;}
       .ms-item-list-notre-concept{font-size: 13px;}
       #ms-notre-concept-gallery-header-title{float: initial;width: 100%;}
@@ -2228,6 +2259,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
       #ms-image-header-nine-section-atelier-1{margin-top: 20px;}
       #ms-wrapper-cta-nine-section-atelier{margin:20px auto;}
+      .ms-gallery-notre-concept{height: 800px!important;}
       /* Atelier */
 
       /* Logistique */
@@ -2264,6 +2296,13 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       #ms-vegetables-demo{transform: translateY(80%);}
       #ms-demo-third-service-wrapper{transform: translateY(-10%);}
 
+      /* Notre concept */
+      #ms-image-base-force-notrec-res{top:-60px;}
+      .ms-gallery-notre-concept{height: : 850px!important;}
+      #ms-footer-ingredients-card{width: : 93.6%;}
+      #ms-text-footer{padding: 30px;}
+      .ms-item-list-notre-concept{display: flex;}
+
     }
 
     @media only screen and (max-width: 380px){
@@ -2284,7 +2323,12 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       .ms-services-line-indicator{left:140px;}
       #ms-galerie-lightbox img{width: 320px;}
       #ms-cta-atelier-nine-section{min-width: 131px;padding: 14px 1px;margin-right: 6px;}
-
+      
+      /* Notre concept */
+      #ms-image-base-force-notrec-res{top:-40px;}
+      .ms-item-list-notre-concept{display: inline-flex;}
+      #ms-footer-ingredients-card{width: 92.9%;}
+      #ms-text-footer{padding: 30px;}
 
     }
 
@@ -2366,7 +2410,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-skill-four-fork .ms-content-bullets{width: 100%;}
         .ms-item-list-notre-concept{font-size: 0.89em;display: inline-flex;}
         #ms-part12-force-notrec{left: 200px;top: -420px;}
-        #ms-image-base-force-notrec-res{top:-120px;}
+        #ms-image-base-force-notrec-res{top:-20px;}
         #ms-part13-force-notrec{top:80px;}
         #ms-footer-ingredients-card{width: 93%;}
         #ms-text-footer{padding: 30px;}
@@ -2453,6 +2497,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
         #ms-skill-three-fork h3,
         #ms-skill-four-fork h3{font-size: 20px!important;}
         #ms-footer-ingredients-card{width: 91.6%;}
+        .ms-no-padding-bottom{padding: 50px 40px!important;}
 
         /* Atelier */
         #ms-elementAt9-ser1{background-size: 1300%;width: 80px;height: 80px;top: -410px;left: 190px;}

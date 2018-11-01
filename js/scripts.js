@@ -144,6 +144,8 @@ jQuery(function ($) {
 
 
       $('#ms-slider-team-members').slick({
+        autoplay:true,
+        autoplaySpeed:4000,
         slidesToShow:3,
         slidesToScroll:1,
         centerMode:true,
@@ -161,49 +163,37 @@ jQuery(function ($) {
                   breakpoint: 1200,
                   settings: {
                       slidesToShow: 3,
-                      centerPadding: '100px',
-                      autoplay:true,
-                      autoplaySpeed:4000
+                      centerPadding: '100px'
                   }
               },
               {
                   breakpoint: 992,
                   settings: {
-                      slidesToShow: 1,
-                      autoplay:true,
-                      autoplaySpeed:4000
+                      slidesToShow: 1
                   }
               },
               {
                   breakpoint: 736,
                   settings: {
-                      slidesToShow: 1,
-                      autoplay:true,
-                      autoplaySpeed:4000
+                      slidesToShow: 1
                   }
               },
               {
                   breakpoint: 480,
                   settings: {
-                      slidesToShow: 1,
-                      autoplay:true,
-                      autoplaySpeed:4000
+                      slidesToShow: 1
                   }
               },
               {
                   breakpoint: 360,
                   settings: {
-                      slidesToShow: 1,
-                      autoplay:true,
-                      autoplaySpeed:4000
+                      slidesToShow: 1
                   }
               },
               {
                   breakpoint: 320,
                   settings: {
-                      slidesToShow: 1,
-                      autoplay:true,
-                      autoplaySpeed:4000
+                      slidesToShow: 1
                   }
               }
           ]

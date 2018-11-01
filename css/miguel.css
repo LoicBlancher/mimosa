@@ -1278,7 +1278,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-slider-home h1{line-height: 1.1em;margin-top: 50px;}
     #ms-colum-slide-home p.white{text-align: center;}
     #ms-know-more{float: initial;display: table;margin: 50px auto;}
-    #ms-second-section-home{background-position: 135% -18px!important;height: 1050px;}
+    #ms-second-section-home{background-position: 135% -18px!important;height: 900px;}
     #ms-first-column-second-sec h3{text-align: center;}
     .ms-wrapper-bullet{float: initial;width: unset;margin: 0 auto;display: table;}
     .ms-content-bullets{float: initial;width: unset;}
@@ -1287,7 +1287,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-container-bacon-home{display: inline-block;top: -720px;left: -230px;transform: rotate(190deg);opacity: 0.7;}
     #ms-container-egg2-home{display: inline-block;top: -587px;left:-450px;}
     #ms-container-spinach-home{display: inline-block;top: -590px;left: 340px;}
-    #ms-third-section-home{background-position: 20% -56%!important;}
+    #ms-third-section-home{background-position: 20% -76%!important;height: 900px;}
     #ms-wrapper-content-third-section-home h3{text-align: center;}
     #ms-wrapper-content-third-section-home{transform: translateY(-158%);}
     #ms-wrapper-img-third-section-home-res{transform: translateY(100%);}
@@ -1297,9 +1297,11 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
     #ms-seed-two{top: -286px;left: -160px;}
     #ms-seed-three{top: -350px;left: 430px;transform: rotate(130deg);}
     #ms-seed-four,#ms-seed-five,#ms-seed-six{display: none;}
-    #ms-seed-tomato{display: inline-block;top: -200px;left: -100px;}
-    #ms-seed-brocoli{display: inline-block;top: -460px;left: 300px;}
+    #ms-seed-tomato{display: inline-block;top: -250px;left: -100px;}
+    #ms-seed-brocoli{display: inline-block;top: -520px;left: 300px;}
     #ms-img-branch2,#ms-img-oats{display: none;}
+    #ms-five-section-home{height: 750px;}
+    #ms-wrapper-title-five-section h3{margin:50px 0 0 0;}
     #ms-img-avocado{top: -30px;left: 50%;transform: translateX(-50%);right: 40px;background-size: 280%;width: 350px;height: 320px;background-position: 102% 90%;display: inline-block;}
    /* Qui sommes */
    #ms-sommes-first-section{padding: 200px 70px!important;}

@@ -2253,6 +2253,17 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
       /* Qui sommes */
       .ms-wrapper-member-name{left:-2%;}
       #ms-cta-team{top:280px;}
+      /* Demo culinaire */
+      #ms-atelier-third-section{height: 600px;}
+      #ms-chicken1{left: 218px;top: -720px;}
+      #ms-demo-second-service-wrapper{transform: translateY(-140%);}
+      #ms-services-line-indicator-rigth{left:60px;}
+      #ms-el-dem-serv1{top:-360px;}
+      #ms-vegetables-demo{transform: translateY(90%);}
+      #ms-demo-third-service-wrapper{transform: translateY(-10%);}
+      .ms-services-line-indicator{left:140px;}
+      #ms-galerie-lightbox img{width: 320px;}
+      #ms-cta-atelier-nine-section{min-width: 131px;padding: 14px 1px;margin-right: 6px;}
 
 
     }

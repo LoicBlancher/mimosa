@@ -31,7 +31,7 @@ body, .onepage-wrapper, html {
 .onepage-pagination {
   position: absolute;
   left: 30px;
-  top: 34%;
+  top: 37%;
   z-index: 5;
   list-style: none;
   margin: 0;

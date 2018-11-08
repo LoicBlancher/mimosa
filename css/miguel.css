@@ -280,11 +280,36 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{margin-bottom: 40px;}
 #ms-wrapper-img-second-section-home{position: relative;}
 #ms-second-section-home{background-size:35%!important;background-position:95% -18px!important;}
-#ms-container-bred-home{position: relative;left: -120px;top: 14px;background: url('../img/home-page-img-mimosa.png') no-repeat 65.443% 8.308%;width: 199px;height: 221px;}
-#ms-container-egg1-home{position: relative;top: -260px;left: 115px;background: url('../img/home-page-img-mimosa.png') no-repeat 22.825% 13.602%;width: 206px;height: 242px;}
-#ms-container-bacon-home{position: relative;top: -290px;left: 270px;background: url('../img/home-page-img-mimosa.png') no-repeat 2.198% 2.241%;width: 245px;height: 224px;}
-#ms-container-spinach-home{position: relative;top: -280px;right: -170px;;background: url('../img/home-page-img-mimosa.png') no-repeat 91.735% 8.27%;width: 328px;height: 242px;}
-#ms-container-egg2-home{position: relative;top: -580px;left: -110px;background: url('../img/home-page-img-mimosa.png') no-repeat 42.701% 4.602%;width: 237px;height: 270px;}
+#ms-container-bred-home{    position: absolute;
+    left: -10%;
+    top: 3%;
+    background: url(../img/home-page-img-mimosa.png) no-repeat 65.443% 8.308%;
+    width: 199px;
+    height: 221px;}
+#ms-container-egg1-home{position: absolute;
+    top: 14%;
+    left: 35%;
+    background: url(../img/home-page-img-mimosa.png) no-repeat 22.825% 13.602%;
+    width: 206px;
+    height: 242px;}
+#ms-container-bacon-home{position: absolute;
+    top: 160px;
+    right: -30%;
+    background: url(../img/home-page-img-mimosa.png) no-repeat 2.198% 2.241%;
+    width: 245px;
+    height: 224px;}
+#ms-container-spinach-home{position: absolute;
+    top: 450px;
+    right: -18%;
+    background: url(../img/home-page-img-mimosa.png) no-repeat 91.735% 8.27%;
+    width: 328px;
+    height: 242px;}
+#ms-container-egg2-home{    position: absolute;
+    top: 380px;
+    left: -110px;
+    background: url(../img/home-page-img-mimosa.png) no-repeat 42.701% 4.602%;
+    width: 237px;
+    height: 270px;}
 #ms-third-section-home{background-position: 50% -230.2827px!important;}
 #ms-wrapper-img-third-section-home{}
 #ms-onion-one{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 83.587%;width: 351px;height: 330px;position: relative;top: -14px;left: -180px;background-size: 460%;transform: rotate(6deg);}

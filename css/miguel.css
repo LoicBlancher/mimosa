@@ -322,16 +322,71 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 .ms-italics{font-weight: bold;font-style: italic;}
 #ms-bullet-point-egg{background: url(../img/notre-concept-img-mimosa.png) no-repeat 28.307% 72%;width: 62px;height: 62px;}
 #ms-bullet-point-knife{ background: url(../img/notre-concept-img-mimosa.png) no-repeat 20.607% 97%;width: 62px;height: 62px;}
-#ms-seed-complete{background: url('../img/home-page-img-mimosa.png') no-repeat 73.684% 75.662%;width: 519px;height: 179px;position: relative;top: -70px;}
-#ms-seeds-wrapper{width:550px;}
-#ms-seed-one{display: inline-block;width:15%;background: url('../img/home-page-img-mimosa.png') no-repeat 35.359% 85.352%;width: 64px;height: 137px;position: relative;top: -90px;}
-#ms-seed-two{display: inline-block;background: url('../img/home-page-img-mimosa.png') no-repeat 41.943% 79.026%;width: 73px;height: 155px;margin:0 20px;position: relative;top: -90px;}
-#ms-seed-three{display: inline-block;background: url('../img/home-page-img-mimosa.png') no-repeat 48.109% 80.793%;width: 73px;height: 177px;position: relative;top: -90px;}
-#ms-seed-four{display: inline-block;background: url('../img/home-page-img-mimosa.png') no-repeat 35.383% 99.805%;width: 68px;height: 136px;margin:0 20px;position: relative;top: -90px;}
-#ms-seed-five{display: inline-block;background: url('../img/home-page-img-mimosa.png') no-repeat 35.383% 99.805%;width: 68px;height: 136px;position: relative;top: -90px;}
-#ms-seed-six{display: inline-block;background: url('../img/home-page-img-mimosa.png') no-repeat 35.383% 99.805%;width: 68px;height: 136px;position: relative;top: -90px;}
-#ms-seed-tomato{background: url('../img/home-page-img-mimosa.png') no-repeat 98.78% 82.517%;width: 316px;height: 303px;position: relative;top: -70px;position: relative;top: -70px;}
-#ms-seed-brocoli{background: url('../img/home-page-img-mimosa.png') no-repeat 2.446% 43.24%;width: 402px;height: 229px;    position: relative;top: -280px;left: 130px;}
+#ms-wrapper-images-fourth-section{position: relative;}
+#ms-seed-complete{    background: url(../img/home-page-img-mimosa.png) no-repeat 72.684% 73.662%;
+    background-size: 330%;
+    width: 410px;
+    height: 169px;
+    position: absolute;
+    top: -300px;
+    left: -10%;}
+#ms-seeds-wrapper{width: 100%;position: relative;}
+#ms-seed-one{background: url(../img/home-page-img-mimosa.png) no-repeat 35.359% 85.352%;
+    width: 64px;
+    height: 137px;
+    position: absolute;
+    top: -130px;
+    left: -5%;}
+#ms-seed-two{    background: url(../img/home-page-img-mimosa.png) no-repeat 41.943% 79.026%;
+    width: 73px;
+    height: 155px;
+    margin: 0 20px;
+    position: absolute;
+    top: -130px;
+    left: 36%;}
+#ms-seed-three{    background: url(../img/home-page-img-mimosa.png) no-repeat 48.109% 80.793%;
+    background-size: 1700%;
+    width: 73px;
+    height: 130px;
+    position: absolute;
+    top: -130px;
+    left: 27%;}
+#ms-seed-four{    background: url(../img/home-page-img-mimosa.png) no-repeat 35.383% 99.805%;
+    width: 68px;
+    height: 136px;
+    margin: 0 20px;
+    position: absolute;
+    top: -130px;
+    left: 6%;}
+#ms-seed-five{    display: inline-block;
+    background: url(../img/home-page-img-mimosa.png) no-repeat 35.383% 99.805%;
+    width: 68px;
+    height: 136px;
+    position: absolute;
+    top: -130px;
+    right: 28%;}
+#ms-seed-six{display: inline-block;
+    background: url(../img/home-page-img-mimosa.png) no-repeat 35.383% 99.805%;
+    width: 68px;
+    height: 136px;
+    position: absolute;
+    top: -130px;
+    right: 13%;
+    transform: rotateX(30deg);}
+#ms-seed-tomato{    background: url(../img/home-page-img-mimosa.png) no-repeat 100.78% 82.517%;
+    background-size: 500%;
+    width: 300px;
+    height: 270px;
+    position: absolute;
+    top: 10px;
+    left: -12%;}
+#ms-seed-brocoli{    background: url(../img/home-page-img-mimosa.png) no-repeat -4.446% 43.24%;
+    background-size: 360%;
+    width: 380px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 10%;}
 #ms-wrapper-map-info{padding: 200px 0;margin-left: 20px;}
 #ms-wrapper-map-info p.white{text-align: center;padding: 0 40px;}
 #ms-wrapper-map-info .ms-primary-btn-bl{display: table;margin: 0 auto;margin-top: 40px;}

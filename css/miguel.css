@@ -109,6 +109,8 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-no-padding-bottom{padding: 110px 210px 0 210px!important;}
 /* Vertical Alignement */
 .ms-vertical-align{align-items: center!important;}
+/* Margin */
+.ms-margin-bottom{margin-bottom:70px;}
 /* Check List Mimosa */
 .ms-list-check-mimosa{position: relative;list-style-type: none;padding: 0}
 .ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
@@ -282,30 +284,41 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 #ms-second-section-home .ms-wrapper-bullet-with-img .ms-divider-gray{margin-bottom: 40px;}
 #ms-wrapper-img-second-section-home{position: relative;}
 #ms-second-section-home{background-size:35%!important;background-position:95% -18px!important;}
-#ms-container-bred-home{position: absolute;left: -10%;top: 3%;background: url(../img/home-page-img-mimosa.png) no-repeat 65.443% 8.308%;width: 199px;height: 221px;}
-#ms-container-egg1-home{position: absolute;top: 14%;left: 35%;background: url(../img/home-page-img-mimosa.png) no-repeat 22.825% 13.602%;width: 206px;height: 242px;}
-#ms-container-bacon-home{position: absolute;top: 160px;right: -30%;background: url(../img/home-page-img-mimosa.png) no-repeat 2.198% 2.241%;width: 245px;height: 224px;}
-#ms-container-spinach-home{position: absolute;top: 450px;right: -18%;background: url(../img/home-page-img-mimosa.png) no-repeat 91.735% 8.27%;width: 328px;height: 242px;}
-#ms-container-egg2-home{position: absolute;top: 380px;left: -110px;background: url(../img/home-page-img-mimosa.png) no-repeat 42.701% 4.602%;width: 237px;height: 270px;}
-#ms-third-section-home{background-position: 50% -230.2827px!important;}
+#ms-container-bred-home{position: absolute;left: -10%;top: -230px;background: url(../img/home-page-img-mimosa.png) no-repeat 65.443% 8.308%;width: 199px;height: 221px;}
+#ms-container-egg1-home{position: absolute;top: -250px;left: 40%;background: url(../img/home-page-img-mimosa.png) no-repeat 22.825% 13.602%;width: 206px;height: 242px;}
+#ms-container-bacon-home{position: absolute;top: -85px;right: -32%;background: url(../img/home-page-img-mimosa.png) no-repeat 2.198% 2.241%;width: 245px;height: 224px;}
+#ms-container-spinach-home{position: absolute;top: 150px;right: -18%;background: url(../img/home-page-img-mimosa.png) no-repeat 91.735% 8.27%;width: 328px;height: 242px;}
+#ms-container-egg2-home{position: absolute;top: 80px;left: -20%;background: url(../img/home-page-img-mimosa.png) no-repeat 42.701% 4.602%;width: 237px;height: 270px;}
+#ms-third-section-home{background-position: 50% -190.2827px!important;}
 #ms-wrapper-img-third-section-home{position: relative;}
 #ms-onion-one{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 87.587%;
     width: 351px;
     height: 330px;
     position: absolute;
-    top: -5%;
+    top: -290px;
     left: -18%;
     background-size: 390%;
     transform: rotate(6deg);}
-#ms-onion-two{background: url(../img/home-page-img-mimosa.png) no-repeat -620px -791px;width: 34px;height: 58px;position: relative;top: -65px;left: 185px;transform: rotate(-6deg);}
-#ms-onion-three{background: url(../img/home-page-img-mimosa.png) no-repeat -544px -1072px;width: 25px;height: 59px;position: relative;top: -80px;left: 250px;}
-#ms-onion-four{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -1012px;width: 23px;height: 51px;position: relative;top: -115px;left: 300px;}
-#ms-onion-five{background: url(../img/home-page-img-mimosa.png) no-repeat -545px -941px;width: 24px;height: 49px;position: relative;top: -168px;left: 350px;}
-#ms-onion-six{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -870px;width: 21px;height: 49px;position: relative;top: -223px;left: 400px;}
-#ms-onion-seven{background: url('../img/home-page-img-mimosa.png') no-repeat -542px -795px;width: 26px;height: 49px;position: relative;top: -267px;left: 440px;}
-#ms-pot-under-onion{background: url(../img/home-page-img-mimosa.png) no-repeat 100% 50%;background-size: 200%;width: 636px;height: 180px;position: relative;top: -280px;left: 120px;}
+#ms-onion-two{background: url(../img/home-page-img-mimosa.png) no-repeat -620px -791px;
+    width: 34px;
+    height: 58px;
+    position: absolute;
+    top: -12px;
+    left: 185px;
+    transform: rotate(-6deg);}
+#ms-onion-three{background: url(../img/home-page-img-mimosa.png) no-repeat -544px -1072px;width: 25px;height: 59px;position: absolute;top: -5px;left: 250px;}
+#ms-onion-four{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -1012px;width: 23px;height: 51px;position: absolute;top: 10px;left: 300px;}
+#ms-onion-five{background: url(../img/home-page-img-mimosa.png) no-repeat -545px -941px;width: 24px;height: 49px;position: absolute;top: 15px;left: 350px;}
+#ms-onion-six{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -870px;width: 21px;height: 49px;position: absolute;top: 19px;left: 400px;}
+#ms-onion-seven{background: url('../img/home-page-img-mimosa.png') no-repeat -542px -795px;width: 26px;height: 49px;position: relative;top: 15px;left: 440px;}
+#ms-pot-under-onion{    background: url(../img/home-page-img-mimosa.png) no-repeat 100% 50%;
+    background-size: 210%;
+    width: 736px;
+    height: 220px;
+    position: absolute;
+    top: 90%;
+    left: 9%;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
-#ms-wrapper-home-formation-atelier-text{margin-top:70px;}
 .ms-italics{font-weight: bold;font-style: italic;}
 #ms-bullet-point-egg{background: url(../img/notre-concept-img-mimosa.png) no-repeat 28.307% 72%;width: 62px;height: 62px;}
 #ms-bullet-point-knife{ background: url(../img/notre-concept-img-mimosa.png) no-repeat 20.607% 97%;width: 62px;height: 62px;}
@@ -1039,6 +1052,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
    #ms-wrapper-img-third-section-home-res img{width: 600px;}
    #ms-third-section-home{background-position: 50% -260.2827px!important;}
    #ms-wrapper-content-third-section-home{width: 300px;}
+   #ms-wrapper-content-third-section-home h2{margin-bottom:70px;}
    #ms-seed-complete{left:80px;}
    #ms-seed-one{left:20px;margin-left:20px;}
    #ms-seed-two,

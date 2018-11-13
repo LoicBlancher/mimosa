@@ -418,7 +418,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 #ms-slider-testimonials .slick-prev, #ms-slider-testimonials .slick-next{display: none!important;}
 #ms_content_testi{margin-top: 20px;}
 #ms-slider-testimonials #ms_content_testi .ms-yellow-line{margin:10px auto;}
-#ms-testi-des{text-align: center;}
+#ms-testi-des{text-align: center;font-size: 19px;}
 #ms-quotes-testi:before{content: "\275B";color: var(--mimosa-yellow);display: inline-block;position: relative;left: 50%;font-size: 36px;transform: translateX(-50%);}
 #ms-image-testimonials{display: table;margin: 0 auto;}
 .ms-title-testimonial{display: block;text-align: center;color: var(--mimosa-black-semi-dark);font-size: 12px;font-weight: bold;letter-spacing: 0.2em;}

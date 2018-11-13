@@ -48,7 +48,7 @@
         <?php $pinterest_mimosa= get_option('pinterest');?>
         <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></i></a>
       </div>
-      <a class="yellowBtn-mobile">
+      <a class="yellowBtn-mobile" id="ms-btn-contact-responsive-menu">
         <i class="fas fa-phone fa-rotate-90"></i>
         <span>127-232-2313</span>
       </a>   

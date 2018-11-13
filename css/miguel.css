@@ -115,7 +115,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 /* Check List Mimosa */
 .ms-list-check-mimosa{position: relative;list-style-type: none;padding: 0}
 .ms-list-check-mimosa li:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
-.ms-list-check-mimosa li:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: relative;left: -294px;bottom: 6px;font-weight: bold;}
+.ms-list-check-mimosa li:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: relative;left: -280px;bottom: 6px;font-weight: bold;}
 .ms-list-check-mimosa p.second{display: inline;}
 /* Icons : Before Content */
 .icon::before {display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;-webkit-font-smoothing: antialiased;}
@@ -405,13 +405,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 #wrapper-icons-mteam{display: table;margin:0 auto;}
 #wrapper-icons-mteam svg{margin:10px 10px 0 10px;color:var(--mimosa-black-dark);text-align: center;}
 #ms-wrapper-header-tmembers{width: 440px;position: absolute;left: 130px;top: 80px;}
-#ms-cta-team{position: relative;top: 120px;display: table;margin: 0 auto;border:1px solid white;}
+#ms-cta-team{position: relative;top: 120px;display: table;margin: 0 auto;border:2px solid white;}
 #ms-sommes-fourth-section{}
 #ms-sommes-fourth-section #ms-eyelash-selector{list-style-type: none;padding: 0;border-bottom: 2px solid #d2d2d2;}
 #ms-sommes-fourth-section #ms-eyelash-selector li{position: relative;vertical-align: top;display: inline-block;font-family: 'Gotham';text-transform: uppercase;color: var(--mimosa-black-dark);font-weight: bold;font-size: 14px;margin-right: 100px;padding: 10px;}
 #ms-sommes-fourth-section #ms-eyelash-selector li a:focus{border-bottom: 2px solid var(--mimosa-yellow);padding: 10px 0;}
 #ms-eyelash-first-qui-sommes,#ms-eyelash-second-qui-sommes,#ms-eyelash-third-qui-sommes{padding: 15px 0;}
 #ms-eyelash-second-qui-sommes,#ms-eyelash-third-qui-sommes{display: none;}
+#ms-map-qui-sommes{padding:10px;}
+#ms-notre-reseau-qui-sommes .ms-primary-btn-bl{color: white;font-family: 'Gotham';letter-spacing: 0.3em;}
 .slick-list{width: 98%;left: 1%;}
 #ms-slider-testimonials .slick-prev, #ms-slider-testimonials .slick-next{display: none!important;}
 #ms_content_testi{margin-top: 20px;}

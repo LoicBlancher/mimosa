@@ -413,7 +413,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 #ms-eyelash-first-qui-sommes,#ms-eyelash-second-qui-sommes,#ms-eyelash-third-qui-sommes{padding: 15px 0;}
 #ms-eyelash-second-qui-sommes,#ms-eyelash-third-qui-sommes{display: none;}
 #ms-map-qui-sommes{padding:10px;}
-#ms-notre-reseau-qui-sommes .ms-primary-btn-bl{color: white;font-family: 'Gotham';letter-spacing: 0.3em;}
+#ms-notre-reseau-qui-sommes .ms-primary-btn-bl{color: white;font-family: 'Gotham';letter-spacing: 0.3em;margin:10px 0;}
 .slick-list{width: 98%;left: 1%;}
 #ms-slider-testimonials .slick-prev, #ms-slider-testimonials .slick-next{display: none!important;}
 #ms_content_testi{margin-top: 20px;}
@@ -423,10 +423,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 #ms-image-testimonials{display: table;margin: 0 auto;}
 .ms-title-testimonial{display: block;text-align: center;color: var(--mimosa-black-semi-dark);font-size: 12px;font-weight: bold;letter-spacing: 0.2em;}
 .ms-position-testimonial{text-align: center;display: block;line-height: 3em;color: var(--mimosa-gray-dark);text-transform: uppercase;font-family: 'Gotham';letter-spacing: 0.2em;font-size: 10px;}
-.ms-image-six-section{width: 80%;height: 540px;border: 7px solid var(--mimosa-yellow);border-radius: 10px;}
 #ms-wrapper-text-six-section-qui-sommes{padding: 30px 10px;}
+#ms-cela-vous-qui-sommes{padding:40px;}
 #ms-wrapper-text-six-section-qui-sommes h2{text-transform: uppercase;}
-#ms-wrapper-text-six-section-qui-sommes h3{font-weight: normal;}
+#ms-wrapper-text-six-section-qui-sommes h3{font-weight: normal;font-size: 28px;}
 #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{color: white;letter-spacing: 0.2em;margin: 30px 0;}
 #ms-sommes-seven-section h2{text-align: center;margin-bottom: 70px;}
 #ms-box-offres{float: left;width: 100%;}

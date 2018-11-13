@@ -377,6 +377,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul li a:focus{width: 30px;height: 30px;background: var(--mimosa-yellow);border-radius: 50px;display: inherit;color: white;padding: 8px;font-size: 13px;position: relative;bottom: 10px;}
 #ms-first-column-second-sec ul li{color:#b3b2b2;}
 #ms-sommes-third-section{}
+#ms-header-team-mimosa{position: relative;}
 #ms-team-section{margin-top:30px;}
 .ms-image-team-member{width: 170px!important;}
 #ms-slider-team-members{margin-left: 110px;}
@@ -404,7 +405,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 .ms-footer-tmembers-social .social-tmembers{}
 #wrapper-icons-mteam{display: table;margin:0 auto;}
 #wrapper-icons-mteam svg{margin:10px 10px 0 10px;color:var(--mimosa-black-dark);text-align: center;}
-#ms-wrapper-header-tmembers{width: 440px;position: absolute;left: 130px;top: 80px;}
+#ms-wrapper-header-tmembers{width: 440px;position: absolute;left: -20%;top: -10px;}
 #ms-cta-team{position: relative;top: 120px;display: table;margin: 0 auto;border:2px solid white;}
 #ms-sommes-fourth-section{}
 #ms-sommes-fourth-section #ms-eyelash-selector{list-style-type: none;padding: 0;border-bottom: 2px solid #d2d2d2;}
@@ -758,11 +759,17 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     #ms-sommes-second-section h2{font-size: 46px;margin-top: 30px;line-height: 1em;}
     #ms-img-carousel-with-pagination{padding: unset;margin-left: 90px;margin-top: 50px;}
     #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%!important;right: 6%!important;}
-    .ms-image-team-member{width: 180px!important;}
-    .ms-footer-info-team{top:360px;}
+    .ms-wrapper-member-name{top:-45px!important;}
+    .ms-name-tmember{font-size: 30px;}
+    .ms-image-team-member{width: 150px!important;}
+    .ms-footer-info-team{top:350px;}
+    #ms-cta-team{top:65px;}
     #ms-map-qui-sommes img{max-width: 90%!important;}
+    #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 70px 0 10px;}
+    #ms-map-qui-sommes{padding:unset;}
+    #ms-testi-des{font-size: 17px;}
     #ms-sommes-five-section h2{text-align: center;}
-    #ms-cela-vous-qui-sommes img{max-width: 90%!important;}
+    #ms-cela-vous-qui-sommes{padding:10px;}
     #ms-sommes-seven-section{padding: 100px 130px!important;}
     #ms-sommes-seven-section h2{margin-bottom: 10px;}
     .ms-box-container{max-width: 460px;}

@@ -16,7 +16,7 @@ body{overflow-x: hidden!important;}
   --mimosa-black-semi-dark:#2C2C2C;
   --mimosa-yellow:#ffcf01;
   --mimosa-gray-dark:#9FA3A7;
-  --mimosa-gray-clear:#b3b2b2;
+  --mimosa-gray-clear:#8e8e8e;
 
 }
 
@@ -360,17 +360,17 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 \*------------------------------------*/
 .home .panel-layout .panel-grid,.qui-sommes-nous .panel-layout .panel-grid, .notre-concept .panel-layout .panel-grid{margin-bottom:0px !important;}
 #ms-sommes-first-section h1,#ms-sommes-first-section h2{text-align: center;}
-#ms-sommes-second-section h2{text-transform: uppercase;}
+#ms-sommes-second-section h2{text-transform: uppercase;font-size: 47px;}
 #ms-sommes-second-section .ms-divider-gray{margin:25px 0;}
 #ms-sommes-second-section h4{position: absolute;top: 13%;right: 26%;}
 #ms-first-column-second-sec p.gray{display: inline-block!important;margin:0;}
 #ms-team-of-list:after{left:-100px;}
-#ms-img-carousel-with-pagination{padding:50px 80px;}
-#ms-img-carousel-with-pagination img{position: relative;width: 90%;-webkit-box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);-moz-box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);}
+#ms-img-carousel-with-pagination{padding:50px 80px;position: relative;}
+#ms-img-carousel-with-pagination img{width: 100%;-webkit-box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);-moz-box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);box-shadow: 0px -1px 42px 7px rgba(194,194,194,1);}
 #ms-img-#ms-img-carousel-with-pagination #ms-paginator-carouselcarousel-with-pagination #mds-content-img2,
 #ms-img-carousel-with-pagination #ms-content-img2,
 #ms-img-carousel-with-pagination #ms-content-img3{display: none;}
-#ms-img-carousel-with-pagination #ms-paginator-carousel{height: 50px;position: absolute;bottom: 20%;right: 24%;background: white;padding: 10px 20px;border-radius: 50px;}
+#ms-img-carousel-with-pagination #ms-paginator-carousel{height: 50px;position: absolute;bottom: 12%;right: 15%;background: white;padding: 10px 20px;border-radius: 50px;}
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul{list-style-type: none;text-align: center;padding: 0;position: relative;bottom: 10px;}
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul li{vertical-align: top;display: inline-block;padding: 2px 12px;} 
 #ms-img-carousel-with-pagination #ms-paginator-carousel ul li a{ color: var(--mimosa-gray-clear);font-size: 11px;}

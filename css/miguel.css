@@ -30,6 +30,7 @@ h3{color:var(--mimosa-black-dark);font-size:22px;}
 h4{color:var(--mimosa-black-dark);font-size:21px;}
 h5{color:var(--mimosa-black-dark);font-size:18px;}
 h6{color:var(--mimosa-black-dark);font-size:16px;}
+.ms-header-title{text-transform: unset!important;color:white;}
 .ms-mimosa-subtitle{font-family: 'Gotham';font-weight: bold;color: #676767;letter-spacing: 0.2em;}
 p{font-size: 14px;}
 p.first{color:var(--mimosa-gray-dark);line-height: 1.5em;}

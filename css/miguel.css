@@ -210,7 +210,6 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 \*------------------------------------*/
   .home footer,.qui-sommes-nous footer, .notre-concept footer{position: absolute;width: 100%;}
   footer{background:#353535;padding: 80px 0; }
-  
     /* Footer First Row */
     #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
     #mg-footer-first ul{list-style-type: none;padding: 0;}
@@ -247,6 +246,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     .ms-footer-pts .copyright{color: #736f6f;font-size: 12px;}
 
     /* Copyrigth */
+    #ms-copyright-gr a:hover{color:var(--mimosa-yellow);}
 
 /*------------------------------------*\
     END FOOTER
@@ -759,8 +759,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     #ms-sommes-second-section h2{font-size: 46px;margin-top: 30px;line-height: 1em;}
     #ms-img-carousel-with-pagination{padding: unset;margin-left: 90px;margin-top: 50px;}
     #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%!important;right: 6%!important;}
-    .ms-wrapper-member-name{top:-45px!important;}
-    .ms-name-tmember{font-size: 30px;}
+    .ms-wrapper-member-name{top:-45px!important;left:65%!important;}
+    .ms-name-tmember{font-size: 27px;}
     .ms-image-team-member{width: 150px!important;}
     .ms-footer-info-team{top:350px;}
     #ms-cta-team{top:65px;}
@@ -1640,19 +1640,27 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
       #mg-footer-first #mg-newsletter-subtitle{font-size: 15px!important;}
       #mg-footer-first .input-email-newsletter{width: 95%;}
       #mg-footer-first .btn-newsletter{right: 7%;}
-      footer{padding: 110px 0;}
+      footer{padding: 120px 0;}
       /* Qui sommes nous */
-      #ms-img-carousel-with-pagination{padding: 10px 100px;}
-      #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 9%;right: 22%;}
-      #ms-first-column-second-sec ul li{font-size: 19px;}  
-      #ms-slider-team-members{margin-top:100px;}
-      .ms-wrapper-member-name{top: -150px;right: -50px;}
+      #ms-sommes-second-section h2{font-size: 55px!important;}
+      #ms-img-carousel-with-pagination{padding:10px 120px;}
+      #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%;right: 15%;}
+      #ms-first-column-second-sec ul li{font-size: 19px;} 
+      #ms-wrapper-header-tmembers{left: -10%;top: 20px;} 
+      #ms-slider-team-members{margin-top:100px;margin-left: 120px;}
+      #ms-slider-team-members .slick-current{width: 372px;}
+      .ms-wrapper-member-name{top: -110px;right: -50px;}
       .ms-name-tposition{font-size: 16px;}
       .ms-name-tmember{font-size: 45px!important;}
-      .ms-list-check-mimosa li:after{left:-364px;}
+      #ms-cta-team{margin:30px auto;}
+      .ms-list-check-mimosa li:after{left:-334px;}
+      #ms-testi-des{font-size: 21px!important;}
       .ms-testimonials-title-header{margin-top:140px;}
       .ms-title-footer{font-size: 15px;}
       .ms-member-description{font-size: 17px;}
+      .ms-box-content{padding:10px 60px;}
+      .ms-box-container{width: 27%!important;margin:0 30px!important;}
+      #mg-footer-second .copyright{font-size: 16px!important;}
 
       /* Demo culinaire */
       .ms-services-line-indicator{top:-40px;}
@@ -1681,9 +1689,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
       #ms-ingredients-image{max-height: 450px;}
       #ms-footer-ingredients-card{width: 94%;}
       #ms-text-footer{padding: 40px;}
-      #ms-box-offres{margin-top:70px;}
+      #ms-box-offres{margin-top:70px;padding:0 0 0 70px;}
+      #ms-sommes-seven-section h2{margin-top:50px;}
       #mg-wrapper-main-menu #mg-main-menu-content ul li{line-height: 2.7em;}
-      }
+
     }
 
     @media only screen  and (min-width : 1280px) {

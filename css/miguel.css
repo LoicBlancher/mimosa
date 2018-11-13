@@ -755,8 +755,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     .ms-six-section-image{width: 48%;}
 
     /* Qui sommes */
-    #ms-img-carousel-with-pagination{padding: 0 80px;}
-    #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%!important;right: 20%!important;}
+    #ms-sommes-second-section h2{font-size: 46px;margin-top: 30px;line-height: 1em;}
+    #ms-img-carousel-with-pagination{padding: unset;margin-left: 90px;margin-top: 50px;}
+    #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%!important;right: 6%!important;}
     .ms-image-team-member{width: 180px!important;}
     .ms-footer-info-team{top:360px;}
     #ms-map-qui-sommes img{max-width: 90%!important;}

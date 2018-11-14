@@ -2138,17 +2138,18 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
       .ms-wrapper-info{height: 500px;}
       .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-50%);}
       #ms-wrapper-header-tmembers{width: unset;text-align: center;position: initial;}
-      #ms-slider-team-members{top:80px;}
+      .ms-wrapper-member-name{top:80%!important;}
+      #ms-slider-team-members{top:40px;margin-left:0;}
       .ms-wrapper-member-name{top: 90%;left: 10%;text-align: center;width: 300px;}
       #ms-slider-team-members .slick-prev{left: -10px;}
       #ms-slider-team-members .slick-prev:before{position: relative;left: -10px;top: 80px;}
       #ms-slider-team-members .slick-next:before{position: relative;top: 80px;right: 10px;}
-      .ms-footer-info-team{float: initial;top: 170%;position: absolute;}
+      .ms-footer-info-team{float: initial;top: 160%;position: absolute;}
       .ms-footer-tmembers-social{float: initial;width: 100%;}
       .ms-footer-tmembers-skills{float: initial;width: 100%;border:none;margin:10px 0;}
       .ms-member-description{float: initial;width: 100%;text-align: center;}
       .ms-title-footer{padding: 10px 0;}
-      #ms-cta-team{position: relative;top:250px;display: table;margin:0 auto;}
+      #ms-cta-team{position: relative;top:210px;display: table;margin:0 auto;}
       #ms-slider-team-members .slick-list.draggable{padding: 80px 0!important;}
       #ms-sommes-second-section h3{text-align: center;}
       .ms-box-container{margin:20px 0;}

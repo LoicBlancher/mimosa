@@ -1090,14 +1090,13 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
 
     /* Qui sommes */
      #ms-sommes-first-section{padding: 130px 70px!important;}
-     #ms-sommes-first-section h2,
-     #ms-sommes-first-section h3{width: 300px;}
-     #ms-sommes-second-section h2{    width: 400px;text-align: left;}
+     #ms-sommes-second-section h2{text-align: left;}
      #ms-sommes-second-section h3{text-align: center;position: relative;top: 60px;left: 40px;}
      #ms-sommes-second-section .ms-divider-gray{display: table;margin:25px auto;}
-     #ms-sommes-second-section p.gray{text-align: left;}
+     #ms-sommes-second-section p {text-align: left;}
+     #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{display: table;margin:0 auto;}
      #ms-img-carousel-with-pagination img{width: 100%;}
-     #ms-img-carousel-with-pagination{padding: 50px 20px;position: relative;left: 50px;}
+     #ms-img-carousel-with-pagination{padding: 50px;}
      #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 15%;right: 10%;}
      #ms-sommes-third-section{height: 650px;}
      .ms-image-team-member{width: 160px!important;position: relative;left: 50%;transform: translateX(-50%);}
@@ -1249,8 +1248,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     .footer{text-align: center;}
     #mg-footer-first h6{text-align: center;}
     #mg-newsletter-form-main #sib_signup_form_2{width: 100%;}
-    #mg-footer-first .input-email-newsletter{width: 100%;}
+    #mg-footer-first .input-email-newsletter{margin-left:20%;}
+    #mg-footer-first .btn-newsletter{right: -8%;}
+    
     /* Qui sommes */
+    #ms-wrapper-title-with-background{background: rgba(0, 0, 0, 0.50);padding: 5px 0;-webkit-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);-moz-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);}
      #ms-sommes-first-section{padding: 200px 70px!important;}
      #ms-sommes-second-section h2{text-align: center;}
      #ms-sommes-second-section h3{text-align: center;margin:30px 0;}
@@ -1263,16 +1265,16 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
      #ms-sommes-third-section{height: 600px;}
      .ms-name-tposition{font-size: 13px;}
      .ms-name-tmember{font-size: 23px;}
-     .ms-wrapper-member-name{left:70%;}
-     .ms-image-team-member{width: 160px!important;position: relative;left: 50%;transform: translateX(-50%);}
+     .ms-wrapper-member-name{left: 70%;top: 20%;}
+     .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-50%);}
      .ms-footer-info-team{top:350px;}
-     #wrapper-icons-mteam svg{margin:10px 2px 0 5px;font-size: 15px;}
-     .ms-footer-tmembers-skills a{font-size:9px;}
+     #wrapper-icons-mteam svg{margin:10px 2px 0 5px;font-size: 12px;}
+     .ms-footer-tmembers-skills a{font-size:0.5em;}
      .ms-member-description{font-size: 12px;}
      #ms-slider-team-members .slick-prev{left: -10px;top: 230px!important;}
      #ms-slider-team-members .slick-next{top: 230px;}
-    #ms-wrapper-header-tmembers{left:unset;top:unset;width: 240px;}
-    #ms-cta-team{position: relative;top: 70px;display: table;margin: 0 auto;}
+    #ms-wrapper-header-tmembers{left:unset;top:unset;width: 35%;}
+    #ms-cta-team{position: relative;top: 70px;display: table;margin: 0 auto;padding: 14px 20px;font-size: 0.6em;}
     #ms-sommes-five-section h2{text-align: center;}
     #ms-map-qui-sommes img{max-width: 90%!important;}
     #ms-notre-reseau-qui-sommes h2{text-align: center;margin-top: 30px;}
@@ -1285,7 +1287,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     #ms-wrapper-text-six-section-qui-sommes p{text-align: center;}
     #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:0 auto;}
     .ms-box-container{float: initial;width: 70%;display: table;margin: 20px auto;}
-    #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{font-size: inherit;display: block;}
+    #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{display:table;margin:0 auto;}
+    #ms-slider-team-members{margin-left:0!important;}
+    .ms-title-footer{font-size: 10px;}
+    #ms-map-qui-sommes{padding: 40px;}
+    #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{margin:40px auto 0 auto;}
     /* Atelier */
     #ms-img-header-left-seven-section{margin:0 auto;display: table;}
     #ms-atelier-seven-section-left-container h2,
@@ -1373,6 +1379,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     .ms-logistique-nine{padding: 30px 50px!important;height: 450px;}
     #ms-wrapper-content-nine-logistique{transform: translateY(-210%);text-align: center;}
     #ms-interesses-logistique-res{width: 70%;position: relative;top: -180px;left: -140px;}  
+    
+    /* Footer */
+
+
   }
 
  

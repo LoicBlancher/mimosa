@@ -1420,17 +1420,19 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
    #ms-sommes-second-section ul{list-style-type: none;padding: 0;}
    #ms-sommes-second-section ul li{font-weight: bold;}
    #ms-img-carousel-with-pagination img{width: 100%;}
-   #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom:11%;}
+   #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom:13%;}
    #ms-sommes-third-section{height: 600px;}
-   .ms-image-team-member{width: 160px!important;position: relative;left: 50%;transform: translateX(-50%);}
+   #ms-slider-team-members{margin-left: 0px!important;}
+   .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-50%);}
    .ms-footer-info-team{top:350px;}
-   #wrapper-icons-mteam svg{margin:10px 2px 0 5px;font-size: 15px;}
-   .ms-footer-tmembers-skills a{font-size:9px;}
+   #wrapper-icons-mteam svg{margin:10px 2px 0 5px;font-size: 13px;}
+   .ms-footer-tmembers-skills a{font-size:0.5em;}
    .ms-member-description{font-size: 12px;}
    #ms-slider-team-members .slick-prev{left: -10px;top: 230px!important;}
    #ms-slider-team-members .slick-next{top: 230px;}
-  #ms-wrapper-header-tmembers{left:unset;top:unset;width: 240px;}
+  #ms-wrapper-header-tmembers{left:unset;top:unset;width: 35%;}
   .ms-wrapper-member-name{top:0;left:70%;}
+  .ms-title-footer{font-size: 10px;}
   #ms-cta-team{position: relative;top: 70px;display: table;margin: 0 auto;}
   #ms-sommes-five-section h2{text-align: center;}
   #ms-map-qui-sommes img{max-width: 90%!important;}
@@ -1442,11 +1444,13 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
   #ms-wrapper-text-six-section-qui-sommes h2,
   #ms-wrapper-text-six-section-qui-sommes h3,
   #ms-wrapper-text-six-section-qui-sommes p{text-align: center;}
-  #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:0 auto;}
+  #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin: 40px auto 0 auto;}
   .ms-box-container{float: initial;width: 70%;display: table;margin: 20px auto;}
-  #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{font-size: inherit;display: block;}
+  #ms-first-column-second-sec p{text-align: center;}
+  #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{display: table;margin: 0 auto;}
   .ms-name-tposition{font-size: 12px;}
   .ms-name-tmember{font-size: 23px;}
+  #ms-testi-des{font-size: 18px;}
 
    /* Atelier */
     .ms-services-line-indicator{top: 100px!important;left: 130px;}
@@ -1933,6 +1937,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     }
     
     @media only screen and (max-width: 736px) {
+      #ms-wrapper-title-with-background{background: rgba(0, 0, 0, 0.50);padding: 5px 0;-webkit-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);-moz-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);}
       p{font-size: 13px;}
       /* Hide pagination one page */
       .onepage-pagination{display: none;}
@@ -2100,9 +2105,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
       #ms-title-clients-large{font-size: 27px!important;}
 
       /* Responsive Qui Sommes */
+      #ms-sommes-first-section h1{margin:15px 0;}
       #ms-sommes-first-section{padding: 230px 0!important;}
       #ms-sommes-first-section h1,
-      #ms-sommes-first-section h2{color:black!important;}
+      #ms-sommes-first-section h2{color:white!important;}
       #ms-sommes-second-section h2{;text-align: center;margin-top: 30px;}
       .ms-align-center{text-align: center;}
       #ms-sommes-second-section .ms-divider-gray{margin:25px auto;}
@@ -2399,7 +2405,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
       .ms-footer-tmembers-skills{font-size: 8px!important;}
       .ms-member-description{font-size: 13px!important;}
       #ms-cta-team{top:215px;}
-      #ms-notre-reseau-qui-sommes ul li{font-size: 12.8px;}
+      #ms-notre-reseau-qui-sommes ul li{font-size: 12.8px;display: inline-flex;margin-top: 10px;}
       /* Demo culinaire */
       #ms-atelier-third-section{height: 600px;}
       #ms-chicken1{left: 218px;top: -720px;}

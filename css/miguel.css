@@ -906,6 +906,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
   }
 
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    p{font-size: 13.5px;}
     /* Home */
     #ms-slider-home h1{font-size: 58px;}
     /* Contact page */
@@ -919,8 +920,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     .ms-footer-pts{padding: 50px;}
 
     /* Qui sommes */
+    #ms-sommes-second-section h2{font-size: 35px;}
     #ms-img-carousel-with-pagination{padding: 10px 30px;}
-    #ms-first-column-second-sec p.gray{width: 400px;}
     #ms-sommes-second-section .ms-divider-gray{margin:10px 0;}
     #ms-sommes-second-section h3{position: relative;top: 15px;left: 70px;}
     #ms-img-carousel-with-pagination{padding: 0 30px;left: 70px;position: relative;}
@@ -1000,6 +1001,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 10%;content: "";dis
     #ms-wrapper-map-info p.white{padding: 0 20px;}
     #ms-title-clients-mini{margin-top: 60px!important;}
     /* Qui sommes nous */
+    #ms-sommes-second-section h2{font-size: 35px;}
     #ms-sommes-fourth-section #ms-eyelash-selector li{margin-right: 40px;}
     .ms-wrapper-member-name{left: 60%;top: 8%;}
     /* Demo culinaire */

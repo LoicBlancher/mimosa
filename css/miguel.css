@@ -1260,7 +1260,13 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #mg-newsletter-form-main #sib_signup_form_2{width: 100%;}
     #mg-footer-first .input-email-newsletter{margin-left:20%;}
     #mg-footer-first .btn-newsletter{right: -8%;}
-    
+    #cta-second-section-home{display: table;margin:30px auto;}
+    #ms-wrapper-content-third-section-home{transform: translateY(-190%);}
+    #ms-wrapper-content-third-section-home .ms-yellow-btn-black-text{background: transparent;border: 1px solid var(--mimosa-black-dark);}
+    #ms-first-column-second-sec .ms-yellow-btn-black-text{display: table;margin:30px auto;}
+    #ms-wrapper-img-third-section-home-res img{transform: translateY(20%);width: 105%;position: relative;left: 7%;}
+    #ms-five-section-home #ms-wrapper-title-five-section{margin-top:0;}
+    #ms-img-avocado{background-size: 260%;background-position: 105.811% 67.979%;width: 300px;height: 500px;top: 30%;}
     /* Qui sommes */
     #ms-wrapper-title-with-background{background: rgba(0, 0, 0, 0.50);padding: 5px 0;-webkit-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);-moz-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);}
      #ms-sommes-first-section{padding: 200px 70px!important;}
@@ -1399,13 +1405,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
   @media only screen and (min-width: 481px) and (max-width: 736px) {
    /* Home */
-   .ms-padding-header-pages{padding:90px 50px;}
-   .ms-padding-general{padding:90px 70px!important;}
     .ms-logo-mimosa-main{width: 25%;margin: 0 auto;display: table;position: initial;}
     #ms-slider-home h1{line-height: 1.1em;margin-top: 40px;margin-bottom: 0px;}
     #ms-colum-slide-home p.white{text-align: center;}
-    #ms-know-more{float: initial;display: table;margin: 50px auto;}
-    #ms-second-section-home{background-position: 135% -18px!important;height: 900px;}
+    #ms-know-more{float: initial;display: table;margin: 30px auto;}
+    #ms-second-section-home{background-position: 135% -18px!important;}
+    #ms-second-section-home .ms-yellow-btn-black-text{display: table;margin: 30px auto;}
     #ms-first-column-second-sec h3{text-align: center;}
     .ms-wrapper-bullet{float: initial;width: unset;margin: 0 auto;display: table;}
     .ms-content-bullets{float: initial;width: unset;}
@@ -1414,14 +1419,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-container-bacon-home{top: -520px;left: -48%;transform: rotate(190deg);opacity: 0.7;}
     #ms-container-egg2-home{top: -587px;left: 96%;}
     #ms-container-spinach-home{top: -60px;left: 80%;}
+    #ms-wrapper-home-formation-atelier-text .ms-yellow-btn-black-text{background: transparent;border: 1px solid var(--mimosa-black-dark);}
     #ms-third-section-home h2{margin-top:0!important;}
-    #ms-third-section-home{background-position: 20% -116%!important;}
-    #ms-third-section-home .ms-primary-btn-bl{margin-top:50px;}
-    #ms-wrapper-content-third-section-home{transform: translateY(-144%);text-align: center;}
+    #ms-third-section-home p{color:white;}
+    #ms-wrapper-content-third-section-home{transform: translateY(-134%);text-align: center;}
     #ms-wrapper-img-third-section-home-res{transform: translateY(100%);}
-    #ms-wrapper-img-third-section-home-res img{width: 600px;position: relative;top: -100px;left: -5%;}
+    #ms-wrapper-img-third-section-home-res img{width: 100%;position: relative;top: -100px;left: -1%;}
     #ms-seed-complete{display: none;}
-    #ms-seed-one{top: -795px;left: -10%;}
+    #ms-seed-one{top: -745px;left: -10%;}
     #ms-seed-two{top: -286px;left: -160px;}
     #ms-seed-three{top: -350px;left: 98%;}
     #ms-seed-four,#ms-seed-five,#ms-seed-six{display: none;}
@@ -1429,8 +1434,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-seed-brocoli{top: -20px;left: 60%;}
     #ms-img-branch2,#ms-img-oats{display: none;}
     #ms-five-section-home{height: 750px;}
-    #ms-wrapper-title-five-section h3{margin:50px 0 0 0;}
-    #ms-img-avocado{top: -30px;left: 50%;transform: translateX(-50%);right: 40px;background-size: 280%;width: 350px;height: 320px;background-position: 102% 90%;display: inline-block;}
+    #ms-wrapper-title-five-section h3{margin:10px 0 0 0;}
+    #ms-img-avocado{top: 60%;left: 50%;transform: translateX(-50%);right: 40px;background-size: 280%;width: 350px;height: 320px;background-position: 102% 90%;display: inline-block;}
+   
    /* Qui sommes */
    #ms-sommes-first-section{padding: 200px 70px!important;}
    #ms-sommes-second-section h2{text-align: center;}
@@ -1602,11 +1608,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -30px;}
   }
 
-    @media only screen and (min-width: 360px) and (max-width: 555px){
-      #ms-six-section-home .ms-primary-btn-bl,
-      #ms-six-section-home .ms-transparent-btn-bl{min-width: 130px;max-width: 140px;padding: 15px 13px;font-size: 10.5px;margin-right: 12px;display: inline;}
-      #ms-second-section-home h4{font-size: 17px;margin-top: 40px!important;}
-      #ms-six-section-home{padding: 170px 100px 30px 100px!important;}
+    @media only screen and (min-width: 555px) and (max-width: 700px){
+      #ms-wrapper-content-third-section-home{transform: translateY(-114%);}
+      #ms-wrapper-img-third-section-home-res img{top:-30px;}
+      
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 555px){
+      #ms-wrapper-content-third-section-home{transform: translateY(-94%);}
+      #ms-wrapper-img-third-section-home-res img{top:10px;}
       
     }
   /*------------------------------------*\
@@ -1981,7 +1991,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-wrapper-bullet-with-img{margin-left:0;}
       .ms-container-bullet{margin-left:0;}
       .ms-bullets-mimosa-img{display: initial;}
-
+      #ms-wrapper-content-third-section-home .ms-yellow-btn-black-text{display: table;margin: 30px auto;background: transparent;border: 1px solid var(--mimosa-black-dark);}
+      #ms-third-section-home p{color:white;}
       /* Responsive footer */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}
@@ -2115,10 +2126,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-wrapper-content-third-section-home h3{text-align: center;}
       #ms-logo-last-section-home{padding: 30px 0;}
       #ms-title-clients-large{font-size: 27px!important;}
-      #ms-wrapper-content-third-section-home .ms-yellow-btn-black-text{display: table;margin: 30px auto;background: transparent;border: 1px solid var(--mimosa-black-dark);}
       #ms-slider-clients .slick-next{right: -18%;}
       #ms-slider-clients .slick-prev{left:-17%;}
-      #ms-third-section-home p{color:white;}
       /* Responsive Qui Sommes */
       #ms-sommes-first-section h1{margin:15px 0;}
       #ms-sommes-first-section{padding: 230px 0!important;}
@@ -2152,7 +2161,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-wrapper-text-six-section-qui-sommes h2,
       #ms-wrapper-text-six-section-qui-sommes h3,
       #ms-wrapper-text-six-section-qui-sommes p{text-align: center;} 
-      #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{display: table;margin:30px auto;}
       #ms-box-offres{float: initial;width: 100%;position: initial;}
       .ms-box-container{float: initial;width: 100%;}
       #ms-sommes-third-section{height: 850px;}
@@ -2461,11 +2469,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         /* Home Page */
         #ms-slider-home p.white{margin: 0;top: -50px;}
         #ms-container-bacon-home{left:-55%;}
-          #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{min-width: 35%;
-    font-size: 0.56em;
-    max-width: 45%;
-    padding: 7% 5%;
-    margin-left: 6%;}
+          #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{min-width: 35%;font-size: 0.56em;max-width: 45%;padding: 7% 5%;margin-left: 6%;}
         #ms-wrapper-btns-lastsection .ms-transparent-btn-black-text{font-size: 0.52em;
     padding: 6% 3%;
     max-width: 45%;}

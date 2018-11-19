@@ -1041,12 +1041,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   }
 
 
-  @media only screen and (min-width: 768px) and (max-width: 992px){
-    .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{width: 80%;position: relative;left:50px;}
-    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 10px;}
-    .ms-padding-contact img,
-    #ms-contactInfo-contactP{display: table;margin:0 auto;}  
-  }
+
 
 
   @media only screen and (min-width: 780px) and (max-width: 992px){
@@ -1198,6 +1193,23 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
   }
 
+
+  @media only screen and (min-width: 880px) and (max-width: 992px){
+   #ms-slider-home h1{font-size: 49px!important;margin-bottom: 0;margin-top:20px;}
+   h2{font-size:37px;}
+   .ms-logo-mimosa-main{top: -50px;left: -20px;width: 50%;}
+   .ms-yellow-btn-black-text{font-size: 0.7em;margin: 10px 0 50px 0;}
+   #ms-know-more{float: right;}
+   #ms-responsive-onion-home{width: 110%;left: 10%;position: relative;top: -50px;}
+   #ms-seed-complete{left:40%;}
+   #ms-seeds-wrapper{left:20%;}
+   #ms-seed-brocoli{left:60%;}
+   #ms-seed-tomato{left:50%;}
+   .ms-map-pin-info-triangle:after{left:40%;} 
+   #ms-img-avocado{left: 50%;transform: translateX(-50%);background-size: 290%;width: 300px;height: 400px;background-position: 99.811% 67.979%;} 
+   .ms-map-pin-text{font-size: 14px;}
+  }
+
   @media only screen and (min-width: 780px) and (max-width: 880px){
     p{font-size: 13.5px!important;}
     h1{font-size: 50px!important;}
@@ -1218,7 +1230,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-seed-tomato{left:60%;}
     .ms-map-pin-text{font-size: 13px;}
     #ms-img-avocado{left: 50%;transform: translateX(-50%);background-size: 290%;width: 300px;height: 400px;background-position: 99.811% 67.979%;}
-    
+    .ms-map-pin-info-triangle:after{left:27%;}
   }
 
   @media only screen and (min-width: 736px) and (max-width: 780px){

@@ -1053,14 +1053,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
     /* Home page */
   p{font-size: 13.5px!important;}
-  .ms-padding-header-pages{padding:90px 50px;}
-  .ms-padding-general{padding:90px 70px!important;}
   .ms-six-section-image{width: 58%;}
   .ms-map-pin-info{min-width: 400px;}
   .ms-logo-mimosa-main{top: 30px;left: -20px;}
-   #ms-colum-slide-home h1{line-height: 0.9em;top: 30px!important;}
-   #ms-slider-home p.yellow{width: 300px;}
-   #ms-slider-home p.white{width: 400px;}
    #ms-know-more{float:initial;}
    #ms-second-section-home{background-position: 130% -18px!important;height: 620px;}
    .ms-container-bullet{margin-left: 40px!important;width: 300px;}
@@ -1075,9 +1070,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-seed-brocoli{left:30%;}
    #ms-seed-tomato{left:30%;}
    #ms-wrapper-img-third-section-home-res{left: -130px;top: 80px;position: relative;}
-   #ms-wrapper-img-third-section-home-res img{width: 600px;position: relative;left: 20%;}
    #ms-third-section-home{background-position: 50% -260.2827px!important;}
-   #ms-wrapper-content-third-section-home{width: 300px;}
    #ms-wrapper-content-third-section-home h2{margin-bottom:70px;}
    #ms-seed-complete{left:80px;}
    #ms-seed-five,
@@ -1090,7 +1083,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-wrapper-map-info{padding: 80px 0;}
    #ms-wrapper-map-info p.white{padding: 0;}
    #ms-wrapper-title-five-sec991tion h4{margin-top:50px!important;}
-   #ms-img-avocado{left: 50%;transform: translateX(-50%);top:-160px;}
+   #ms-img-avocado{left: 50%;transform: translateX(-50%);}
    #ms-last-section-home-yl{padding: 2px 0;}
    #ms-five-section-home{height: 620px;}
 
@@ -1205,6 +1198,28 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
   }
 
+  @media only screen and (min-width: 780px) and (max-width: 880px){
+    p{font-size: 13.5px!important;}
+    h1{font-size: 50px!important;}
+    h2{font-size:36px!important;}
+    .ms-yellow-btn-black-text{font-size: 0.65em;margin: 10px 0 50px 0;}
+    .ms-logo-mimosa-main{top: -30px;left: -10%;width: 55%;}
+    #ms-slider-home h1{line-height: 0.9em;top: 10px!important;}
+    #ms-know-more{float: right;}
+    #ms-container-bred-home{left:50%;}
+    #ms-container-egg1-home{left:80%;}
+    #ms-container-bacon-home{left: 110%;}
+    .ms-container-bullet{margin-left:30%!important;}
+    #ms-wrapper-img-third-section-home-res img{width: 110%!important;left: 10%!important;position: relative;top: -30px;}
+    #ms-wrapper-content-third-section-home h2{margin-top:0;margin-bottom: 0;}
+    #ms-seed-complete{left:50%;}
+    #ms-seeds-wrapper{left:30%;}
+    #ms-seed-brocoli{left:40%;}
+    #ms-seed-tomato{left:60%;}
+    .ms-map-pin-text{font-size: 13px;}
+    #ms-img-avocado{left: 50%;transform: translateX(-50%);background-size: 290%;width: 300px;height: 400px;background-position: 99.811% 67.979%;}
+    
+  }
 
   @media only screen and (min-width: 736px) and (max-width: 780px){
     /* Home */
@@ -1663,7 +1678,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-seed-six{right: 28%;}
       #ms-img-avocado{top:-160px;}
       .ms-wrapper-bullet-with-img{margin-top: 100px;}  
-      #ms-third-section-home h2{margin-top:80px;}
       #ms-wrapper-title-five-section h4{margin-top:30px;}
       #ms-wrapper-title-five-section h2{margin-bottom:20px;}
       #ms-title-clients-mini{font-size: 40px!important;margin-top: 80px!important;}
@@ -1887,7 +1901,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{text-align: center;}
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets p{text-align: center;}
       .ms-divider-gray{margin-left:-20px;}
-      #ms-third-section-home h2{margin-top:60px;}
       #ms-third-section-home #ms-third-section-content h4{margin:10px 0;}
       #ms-wrapper-img-third-section-home-res{display: block;}
       #ms-wrapper-img-third-section-home{display: none;}

@@ -1327,10 +1327,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
      #ms-sommes-second-section .ms-divider-gray{display: table;margin:25px auto;}
      #ms-sommes-second-section p.gray{text-align: center;}
      #ms-sommes-second-section ul{list-style-type: none;padding: 0;}
-     #ms-sommes-second-section ul li{font-weight: bold;}
      #ms-img-carousel-with-pagination img{width: 100%;}
      #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom:11%;}
-     #ms-sommes-third-section{height: 600px;}
      .ms-name-tposition{font-size: 13px;}
      .ms-name-tmember{font-size: 23px;}
      .ms-wrapper-member-name{left: 70%;top: 20%;}
@@ -1342,7 +1340,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
      #ms-slider-team-members .slick-prev{left: -10px;top: 230px!important;}
      #ms-slider-team-members .slick-next{top: 230px;}
     #ms-wrapper-header-tmembers{left:unset;top:unset;width: 35%;}
-    #ms-cta-team{position: relative;top: 70px;display: table;margin: 0 auto;padding: 14px 20px;font-size: 0.6em;}
+    #ms-cta-team{display: table;margin: 0 auto 10% auto;padding: 14px 20px;font-size: 0.6em;}
     #ms-sommes-five-section h2{text-align: center;}
     #ms-map-qui-sommes img{max-width: 90%!important;}
     #ms-notre-reseau-qui-sommes h2{text-align: center;margin-top: 30px;}
@@ -1358,8 +1356,16 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{display:table;margin:0 auto;}
     #ms-slider-team-members{margin-left:0!important;}
     .ms-title-footer{font-size: 10px;}
-    #ms-map-qui-sommes{padding: 40px;}
+    #ms-map-qui-sommes{margin:0 auto;padding: 0;}
     #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{margin:40px auto 0 auto;}
+    .ms-wrapper-info{height: 100%;}
+    .ms-wrapper-member-name{top:-90px;}
+    .ms-footer-info-team{top:280px;}
+    #ms-first-column-second-sec p.gray{display: block!important;}
+    #ms-img-carousel-with-pagination{width: 80%;margin: 6% auto 3% auto;}
+    #ms-map-qui-sommes{margin:0 auto;}
+    #ms-cta-cela-vous{display: table;margin:7% auto 0 auto;}
+    #ms-cela-vous-qui-sommes{margin:0 auto;}
     /* Atelier */
     #ms-img-header-left-seven-section{margin:0 auto;display: table;}
     #ms-atelier-seven-section-left-container h2,
@@ -1384,6 +1390,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-atelier-1{display: table;margin: 0 auto;}
     #ms-image-header-nine-section-atelier-2{top: 20px;left: 260px;}
     #ms-image-header-nine-section-atelier-3{top: 10px;left: 340px;}
+    #ms-cta-notre-reseau{display: table;margin:0 auto;}
     /* Demo culinaire */
     #ms-video-atelier{width: 100%;padding: 40px 0;}
     #ms-atelier-third-section{height: 700px;}

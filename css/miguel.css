@@ -1102,7 +1102,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
      #ms-img-carousel-with-pagination img{margin-left: 5%;width: 100%;}
      #ms-img-carousel-with-pagination{padding: 50px;}
      #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 13%;right: 8%;}
-     #ms-sommes-third-section{height: 650px;}
      .ms-image-team-member{width: 150px!important;position: relative;left: 50%;transform: translateX(-50%);}
      .ms-footer-info-team{top:350px;}
      #ms-slider-team-members{margin-left: 0!important;}
@@ -1225,7 +1224,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   }
 
   @media only screen and (min-width: 780px) and (max-width: 880px){
-    p{font-size: 13.5px!important;}
+    p{font-size: 13px!important;}
     h1{font-size: 50px!important;}
     h2{font-size:36px!important;}
     .ms-yellow-btn-black-text{font-size: 0.65em;margin: 10px 0 50px 0;}
@@ -1247,12 +1246,34 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-map-pin-info-triangle:after{left:27%;}
     #ms-img-soup{width: 50%;height: 100%;left: -8%;top: 24%;}
     #ms-img-branch1{background-size: 100%;transform: rotate(-20deg);bottom: -15%;left: 10%;}
-    #ms-img-branch2{    width: 20%;
-    height: 20%;
-    background-size: 80%;
-    top: 7%;
-    transform: rotate(-20deg);
-    left: 11%;}
+    #ms-img-branch2{width: 20%;height: 20%;background-size: 80%;top: 7%;transform: rotate(-20deg);left: 11%;}
+    /* Qui sommes */
+    #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{font-size: 13px;}
+    #ms-sommes-second-section h2{font-size:32px!important;margin:0;}
+    .ms-item-list-notre-concept:before{font-size: 22px;}
+    .ms-item-list-notre-concept:after{font-size: 20px;}
+    #ms-img-carousel-with-pagination{padding: 0;width: 88%;margin-left: 5%;}
+    #ms-sommes-second-section .ms-divider-gray{margin:5% 0;}
+    #ms-first-column-second-sec p{margin-top:0;}
+    #ms-img-carousel-with-pagination img{margin-left: 8%;}
+    #ms-img-carousel-with-pagination #ms-paginator-carousel{display: none;}
+    .ms-wrapper-info{height: 100%;}
+    .ms-wrapper-member-name{left: 80%;top: -120px;}
+    .ms-name-tmember{font-size: 31px;}
+    .ms-footer-info-team{top:290px;}
+    #ms-cta-team{margin:5% auto 12% auto;}
+    #ms-notre-reseau-qui-sommes h2{font-size: 32px!important;}
+    #ms-eyelash-selector li a{font-size: 0.8em;}
+    #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 2px;}
+    .ms-list-check-mimosa .ms-checkbox-list{font-size: 13px;}
+    #ms-cela-vous-qui-sommes{width: 100%;padding: 0;}
+    #ms-cta-cela-vous{display: table;margin:0 auto;}
+    .ms-image-team-member{width: 140px!important;}
+    #ms-team-section{margin-top:10%;}
+    #ms-img-formation-culinaire,
+    #ms-img-demo-culinaire,
+    #ms-img-atelier-culinaire{width: unset;}
+    .ms-box-container{min-height: 470px;}
   }
 
   @media only screen and (min-width: 736px) and (max-width: 780px){

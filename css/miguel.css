@@ -382,16 +382,16 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-first-column-second-sec ul li{color:var(--mimosa-gray-clear);display: flex;align-items: center;}
 #ms-sommes-third-section{}
 #ms-header-team-mimosa{position: relative;}
-#ms-team-section{margin-top:5%;}
+#ms-team-section{margin-top:-2%;}
 .ms-image-team-member{width: 170px!important;}
 #ms-slider-team-members{margin-left: 110px;}
 #ms-slider-team-members .slick-slide{opacity:0.57;transition: all 1.2s ease;-o-transition: all 1.2s ease;-webkit-transition: all 1.2s ease;-moz-transition: all 1.2s ease;}
 #ms-slider-team-members .slick-current{opacity:1;transform: scale(1.3);top: 60px;}
 .ms-wrapper-info{display: none;} 
 #ms-slider-info-members{position: relative;}
-.ms-wrapper-info{position: absolute;bottom: 300px;width: 100%;}
+.ms-wrapper-info{position: absolute;bottom: 300px;width: 100%;height: 100%;}
 #ms-slider-team-members .slick-list.draggable{padding: 60px 0!important;}
-.ms-wrapper-member-name{position: absolute;top: -90px;left:57%;}
+.ms-wrapper-member-name{position: absolute;top: -130px;left:67%;}
 #ms-slider-team-members  .slick-prev{left:-120px;}
 #ms-slider-team-members .slick-prev, 
 #ms-slider-team-members .slick-next{top: 60%;}
@@ -400,7 +400,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-slider-team-members .slick-next:before{content:'\279C';font-size: 40px;color: var(--mimosa-black-dark);transition: all 1s;display: inline-block;}
 .ms-name-tmember{margin:0;font-size: 33px;}
 .ms-name-tposition{font-family: 'Gotham';text-transform: uppercase;font-weight: bold;font-size: 14px;color: var(--mimosa-black-semi-dark);letter-spacing: 0.05em;}
-.ms-footer-info-team{float: left;width: 100%;position: relative;top: 360px;}
+.ms-footer-info-team{float: left;width: 100%;position: relative;top: 300px;}
 .ms-footer-tmembers-social{float: left;width: 20%;padding: 0 20px;}
 .ms-footer-tmembers-skills{text-align: center;float: left;height: 50px;width: 30%;border-left: 2px solid var(--mimosa-gray-clear);border-right: 2px solid var(--mimosa-gray-clear);padding: 0 20px;}
 .ms-footer-tmembers-skills a{color:var(--mimosa-black-dark);font-weight: bold;font-family: 'Gotham';letter-spacing: 0.2em;text-transform: uppercase;font-size: 9.5px;word-break: break-word;}
@@ -453,6 +453,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-list-check-mimosa .ms-checkbox-list{display: flex;align-items: center;position: relative;}
 #ms-cta-notre-reseau{margin-top: 2%;}
 .ms-cta-offres-card{display: table;margin:0 auto 5% auto;}
+#ms-title-tmembers{margin:0;}
+
 /*------------------------------------*\
     End Qui sommes nous
 \*------------------------------------*/
@@ -774,13 +776,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-sommes-second-section h2{font-size: 46px;margin-top: 30px;line-height: 1em;}
     #ms-img-carousel-with-pagination{padding: unset;margin-left: 90px;margin-top: 50px;}
     #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%!important;right: 6%!important;}
-    .ms-wrapper-member-name{top:-45px!important;left:65%!important;}
     .ms-name-tmember{font-size: 27px;}
+    #ms-wrapper-header-tmembers{top:-40px;}
     .ms-image-team-member{width: 150px!important;}
-    .ms-footer-info-team{top:350px;}
     #ms-cta-team{top:65px;}
     #ms-map-qui-sommes img{max-width: 90%!important;}
-    #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 70px 0 10px;}
+    #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 50px 0 10px;}
     #ms-map-qui-sommes{padding:unset;}
     #ms-testi-des{font-size: 17px;}
     #ms-sommes-five-section h2{text-align: center;}
@@ -790,6 +791,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-box-container{max-width: 460px;}
     #ms-last-section-home-yl{padding: 10px 0;}
     .ms-wrapper-member-name{top: -100px;left: 60%;}
+    #ms-team-section{margin-top:-5%;}
+    #ms-eyelash-selector li a{font-size: 0.9em;}
     footer{padding: 50px 0;}
     /* Demo culinaire */
     #ms-video-atelier{width: 100%;padding: 40px 0;}
@@ -1015,6 +1018,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-notre-reseau-qui-sommes h2{font-size: 36px!important;}
     #ms-cela-vous-qui-sommes{padding: 0;}
     #ms-sommes-seven-section h2{margin-bottom: 3%;margin-top: 5%;}
+    .ms-footer-info-team{top:350px;}
     footer{padding: 30px 0;}
 
     /* Demo culinaire */
@@ -1245,7 +1249,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-img-carousel-with-pagination img{margin-left: 8%;}
     #ms-img-carousel-with-pagination #ms-paginator-carousel{display: none;}
     .ms-wrapper-info{height: 100%;}
-    .ms-wrapper-member-name{left: 70%;top: -120px;}
+    .ms-wrapper-member-name{left: 70%;top: -90px;}
     .ms-name-tmember{font-size: 31px;}
     .ms-footer-info-team{top:290px;}
     #ms-cta-team{margin:5% auto 12% auto;}
@@ -1262,6 +1266,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-img-atelier-culinaire{width: unset;}
     .ms-box-container{min-height: 470px;}
     #ms-map-qui-sommes{padding: 0;} 
+    #ms-team-section{margin-top:0;}
   }
 
   @media only screen and (min-width: 780px) and (max-width: 880px){
@@ -1315,6 +1320,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-img-demo-culinaire,
     #ms-img-atelier-culinaire{width: unset;}
     .ms-box-container{min-height: 470px;}
+    #ms-team-section{margin-top:0;}
   }
 
   @media only screen and (min-width: 736px) and (max-width: 780px){
@@ -1428,6 +1434,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-map-qui-sommes{margin:0 auto;}
     #ms-cta-cela-vous{display: table;margin:7% auto 0 auto;}
     #ms-cela-vous-qui-sommes{margin:0 auto;}
+    #ms-team-section{margin-top:0;}
     /* Atelier */
     #ms-img-header-left-seven-section{margin:0 auto;display: table;}
     #ms-atelier-seven-section-left-container h2,
@@ -1569,7 +1576,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-sommes-second-section ul li{font-weight: normal;}
    #ms-img-carousel-with-pagination img{width: 100%;}
    #ms-paginator-carousel{bottom:5%;}
-   #ms-slider-team-members{margin-left: 0px!important;}
+   #ms-slider-team-members{margin-left: 0px!important;margin-top:5%;}
    .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-50%);}
    .ms-footer-info-team{top:290px;}
    #wrapper-icons-mteam svg{margin:10px 2px 0 5px;font-size: 13px;}
@@ -1578,9 +1585,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-slider-team-members .slick-prev{left: -10px;top: 230px!important;}
    #ms-slider-team-members .slick-next{top: 230px;}
   #ms-wrapper-header-tmembers{width: 100%;position: relative;left: 50%;transform: translateX(-50%);text-align: center;}
-  .ms-wrapper-member-name{left: 50%;transform: translateX(-50%);text-align: center;}
+  .ms-wrapper-member-name{left: 50%;transform: translateX(-50%);text-align: center;top:-90px;}
   .ms-title-footer{font-size: 10px;}
-  #ms-cta-team{top: unset;display: table;margin: 13% auto 2% auto;position: initial;}
+  #ms-cta-team{top: unset;display: table;margin: 13% auto 0 auto;position: initial;}
   #ms-sommes-five-section h2{text-align: center;}
   #ms-map-qui-sommes img{max-width: 90%!important;}
   #ms-notre-reseau-qui-sommes h2{text-align: center;margin-top: 30px;}
@@ -1609,7 +1616,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   .ms-footer-tmembers-social{padding: 0 5px;}
   #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 35px;}
   #ms-cta-notre-reseau{display: table;margin:2% auto 0 auto;}
-  #ms-map-qui-sommes{padding: 0;}  
+  #ms-map-qui-sommes{padding: 0;}
+  #ms-team-section{margin-top:0;}
+  
    /* Atelier */
     .ms-services-line-indicator{top: 100px!important;left: 130px;}
     #ms-services-line-indicator-rigth{left: -90px;top: 120px;}
@@ -2321,7 +2330,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-cta-cela-vous{display: table;margin:30px auto 0 auto;}
       #ms-slider-info-members{top:300px;}
       #ms-slider-team-members .slick-list.draggable{padding: 40px 0!important;}
-
+      #ms-team-section{margin-top:0;}
 
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}

@@ -45,7 +45,7 @@
                       ?>  
                     </div>
                     <div class="ms-member-description">
-                      <?php the_field('description_member')?>
+                      <p><?php the_field('description_member')?></p>
                     </div>
                   </div>
                 </div>
@@ -54,6 +54,6 @@
         </div>
      <?php wp_reset_postdata();
     ?>
-    <a href="#" class="ms-transparent-btn-bl" id="ms-cta-team">contactez nous</a>
+    <a href="#" class="ms-transparent-btn-black-text" id="ms-cta-team">contactez nous</a>
      
 </div>

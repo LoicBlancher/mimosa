@@ -705,9 +705,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-elementAt9-ser3{background: url(../img/atelier-img-mimosa.png) no-repeat 77.938% 4.176%;background-size: 1150%;width: 127px;height: 149px;display: inline-block;position: absolute;top: 14%;left: 53%;}
 
 
-#ms-image-header-nine-section-atelier-1{background: url(../img/atelier-img-mimosa.png) no-repeat 84.287% 95.355%;width: 120px;height: 135px;display: inline-block;background-size: 1100%;}
-#ms-image-header-nine-section-atelier-2{background: url(../img/atelier-img-mimosa.png) no-repeat 62.414% 99.643%;width: 24px;height: 33px;display: inline-block;background-size: 4900%;position: relative;top: -120px;left: 110px;}
-#ms-image-header-nine-section-atelier-3{background: url(../img/atelier-img-mimosa.png) no-repeat 38.128% 93.322%;width: 61px;height: 55px;display: inline-block;background-size: 2200%;position: relative;top: -120px;left: 190px;}
+#ms-image-header-nine-section-atelier-1{background: url(../img/atelier-img-mimosa.png) no-repeat 84.287% 95.355%;width: 120px;height: 135px;background-size: 1100%;position: absolute;left:35%;top:23%;}
+#ms-image-header-nine-section-atelier-2{background: url(../img/atelier-img-mimosa.png) no-repeat 62.414% 99.643%;width: 24px;height: 33px;background-size: 4900%;position: absolute;top: 20%;left: 40.4%;}
+#ms-image-header-nine-section-atelier-3{background: url(../img/atelier-img-mimosa.png) no-repeat 38.128% 93.322%;width: 61px;height: 55px;background-size: 2200%;position: absolute;top: 13%;left: 41%;}
 /*------------------------------------*\
     LOGISTIQUE CULINARIE
 \*------------------------------------*/
@@ -1054,9 +1054,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-atelier-serv2-res{width: 100%;}
     #ms-atelier-serv3-res{width: 100%;} 
     #ms-wrapper-serv2-atelier{text-align: right;}
-    #ms-image-header-nine-section-atelier-1{position: relative;left: 15%;margin-top:30px;}
-    #ms-image-header-nine-section-atelier-3{position: relative;left: 56%;top: -130px;}
-    #ms-image-header-nine-section-atelier-2{position: relative;left: 40%;}
     #ms-wrapper-cta-nine-section-atelier{position:initial;}
 
     /* Logistique */

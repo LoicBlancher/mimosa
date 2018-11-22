@@ -1615,7 +1615,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   
    /* Atelier */
     .ms-services-line-indicator{width: 10%;top: 13%!important;left: 45%;}
-    #ms-services-line-indicator-rigth{left: 50%;top: 20%!important;}
+    #ms-services-line-indicator-rigth{left: 50%;top: 26.7%!important;}
     #ms-services-line-indicator-last{left: 120px!important;top:120px!important;}
     .ms-services-img{right: -50px!important;}
     #ms-six-section-text{padding: 50px 30px 0 40px;position: relative;left: 30px;}
@@ -1628,7 +1628,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-title-header-eigth-section h2{position: relative;left: 42px;}
     #ms-elementAt9-ser1{top: -320px;left: 390px;}
     #ms-atelier-serv1-res{width: 100%;position: relative;top: -160px;}
-    #ms-wrapper-serv2-atelier{transform: translateY(-250%);text-align: right;}
     #ms-atelier-serv2-res{width: 80%;position: relative;top: 190px;left: 100px;}
     #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:unset;}
     #ms-elementAt6-ser2{left: -20px;top: 90px;}
@@ -1646,12 +1645,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-atelier-secont-section-text p{color:white;}
   #ms-video-atelier{width: 100%;padding: 40px 0;}
   #ms-chicken1{background-size: 810%;background-position: 57.34% 85.827%;width: 137px;height: 190px;top: 1%;left: 70%;}
-  #ms-demo-culinaire-serv-1{margin-top:10%;}
-  #ms-demo-second-service-wrapper{transform:translateY(-190%);}
-  #ms-demo-third-service-wrapper{transform:translateY(-20%);}
+  #ms-demo-culinaire-serv-1{margin-top:10%;width: 90%;position: relative;left: 50%;transform: translateX(-50%);}
   #ms-services-rigth{text-align: right;}
-  #ms-vegetables-demo{width: 100%;transform: translateY(60%);display: table;margin: 0 auto;}
-  #ms-bacon-services-demo{width: 70%;position: relative;top: -20px;display: table;margin: 0 auto;}
   #ms-cta-atelier-btn{display: table;margin: 0 auto;left: unset;}
   #ms-img-header-left-seven-section{display: table;margin: 20px auto;}
   #ms-image-header-nine-section{width: 170px!important;height: 300px;background-position: 56% -20%;background-size: 700%;display: table;margin: 0 auto;}
@@ -1664,8 +1659,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   .ms-atelier-services-card{padding: 10px 30px!important;}
   #ms-header-container-eigth-section{width: 100%;}
   #ms-title-header-eigth-section h2{font-size: 39px;margin-left: 20%;line-height: 3.2em!important;}
-  #ms-image-header-nine-section{background-size: 700%;width: 100px!important;height: 160px;left: 16%;top: 6%;}
-  #ms-demo-culinaire-serv-1{width: 90%;position: relative;left: 50%;transform: translateX(-50%);}
+  #ms-image-header-nine-section{background-size: 700%;width: 100px!important;height: 160px;left: 20%;top: 6%;}
+  #ms-demo-culinaire-serv-1{width: 100%;}
+  #ms-el-dem-serv3-res{top: 26%;left: 14%;}
+  #ms-vegetables-demo{position: relative;top: 40px;left: 50%;transform: translateX(-50%);}
+  #ms-bacon-services-demo{margin-left: 0;position: relative;left: 50%;transform: translateX(-50%);}
+
   /* Notre concept */
   .ms-no-padding-bottom{padding: 50px 70px!important;}
   #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
@@ -1751,9 +1750,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-wrapper-content-third-section-home{transform: translateY(-94%);}
       #ms-wrapper-img-third-section-home-res img{top:10px;}
       /*Demo Culinaire*/
-      #ms-demo-second-service-wrapper{transform:translateY(-140%);}
-      #ms-vegetables-demo{transform:translateY(80%);}
+      #ms-vegetables-demo{width: 95%;}
+      #ms-bacon-services-demo{width: 90%;}
       .ms-atelier-services-card{padding: 10px!important;}
+      #ms-el-dem-serv3-res{top:25.6%;}
       .ms-img-icon-services-card img{width: 80%;display: table;margin: 0 auto;}
       #ms-header-container-eigth-section{float: initial;width: 100%;}
       #ms-image-herder-eigth-section{float: initial;width: 100%;}

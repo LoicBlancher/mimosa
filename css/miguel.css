@@ -2519,15 +2519,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-cta-team{margin:60% auto 26% auto;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel ul{bottom:230%;}
       /* Demo culinaire */
-      #ms-demo-culinaire-serv-1{top:-60px;}
-      #ms-el-dem-serv1{top:1%;left:5%;}
-      #ms-services-line-indicator-rigth{left:25%;}
-      #ms-demo-second-service-wrapper{transform:translateY(-140%);}
-      #ms-vegetables-demo{transform: translateY(55%) translateX(-50%);width: 120%;position: relative;left: 50%;}
-      #ms-el-dem-serv3{top: 85%;z-index: 99999;left: 68%;}
-      #ms-demo-third-service-wrapper{transform: translateY(-33%);}
+      #ms-el-dem-serv3-res{top:21.6%;}
+      #ms-services-line-indicator-rigth{top:22.2%;}
       .ms-services-line-indicator{left:48%;}
-      #ms-bacon-services-demo{transform: translateY(-95%);}
       #ms-cta-atelier-nine-section{margin-left:4%!important;}
       #ms-image-header-nine-section{left:5%;}
       /* Notre concept */
@@ -2565,19 +2559,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-notre-reseau-qui-sommes ul li{font-size: 12.8px;display: inline-flex;margin-top: 10px;}
       /* Demo culinaire */
       .ms-services-bullet{font-size: 5.5em;}
-      .ms-services-line-indicator{left: 40%;top: 12%;}
+      #ms-el-dem-serv3-res{top: 20.8%;left: 12%;width: 90px;height: 100px;background-size: 1200%;}
+      #ms-services-line-indicator-rigth{top:21.4%;}
       #ms-chicken1{top:-2%;}
-      #ms-services-line-indicator-rigth{left: 39%;top: 14%;}
       #ms-el-dem-serv1{top:-13%;}
       #ms-atelier-secont-section-text h2{margin-bottom: 2%;}
-      #ms-bacon-services-demo{width: 95%;left: 50%;transform: translateY(-95%) translateX(-50%);}
-      #ms-vegetables-demo{width: 120%;top:unset;transform:translateY(50%) translateX(-50%);}
       #ms-galerie-lightbox img{width: 320px;}
       #ms-cta-atelier-nine-section{min-width: 131px;padding: 14px 1px;margin-right: 6px;}
       #ms-image-header-nine-section{width: 100px;height: 120px;}
       #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{margin-left:0;}
-      #ms-demo-second-service-wrapper{transform:translateY(-170%);}
-      #ms-demo-culinaire-serv-1{top:-130px;}
       /* Notre concept */
       #ms-image-base-force-notrec-res{top:-40px;}
       .ms-item-list-notre-concept{display: inline-flex;}
@@ -2626,10 +2616,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         #ms-galerie-lightbox img{width: 290px;position: relative;top:100px;}
         .ms-atelier-gallery {height: 800px;}
         /* Demo culinaire */
-        #ms-demo-second-service-wrapper{transform:translateY(-140%);}
-        #ms-services-line-indicator-rigth{top: 55px;left: 35%;}
-        #ms-vegetables-demo{width: 110%;transform:translateY(70%) translateX(-50%);top:unset;}
-        #ms-el-dem-serv3{top:80%;left:64%;}
+        #ms-demo-culinaire-serv-1{top:40px;}
         /* Notre concept */
         #ms-skill-one-fork .ms-content-bullets,
         #ms-skill-two-fork .ms-content-bullets,
@@ -2714,14 +2701,13 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         /* Atelier */
         #ms-galerie-lightbox img{width: 270px;position: relative;top:90px;}
         /* Demo culinaire */
-        #ms-demo-second-service-wrapper{transform:translateY(-130%);}
-        #ms-vegetables-demo{width: 120%;transform:translateY(80%) translateX(-50%);top:unset;}
-        #ms-el-dem-serv1{left:2%;}
-        #ms-demo-third-service-wrapper{transform:translateY(-27%);}
-        #ms-el-dem-serv3{top:85%;}
+        #ms-services-line-indicator-rigth{top: 20.9%;left: 37%;}
+        #ms-el-dem-serv3-res{top: 20.4%;left: 7%;}
+        #ms-vegetables-demo{top:40px;}
+        #ms-el-dem-serv1-res{left:67%;}
+        #ms-bacon-services-demo{top:30px;}
         #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{min-width: 48%;}
         #ms-image-header-nine-section{width: 90px;height: 100px;left: 5%;}
-        .ms-services-line-indicator{left:44%;}
         /* Notre concept */
         #ms-title-notre-second-section{word-break: break-all;}
         #ms-skill-one-fork h3,

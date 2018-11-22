@@ -1029,22 +1029,26 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
     /* Demo culinaire */
     #ms-video-atelier{width: 100%;padding: 40px 0;}
-    #ms-demo-culinaire-serv-1{position: relative;width: 100%;left: 40px;}
-    .ms-services-line-indicator{top: -50px!important;left: 240px!important;}
-    #ms-vegetables-demo{width: 100%;}
+    /* Demo culinaire */
+    #ms-atelier-secont-section-text p{color:white;}
+    .ms-services-line-indicator{top: 26%!important;left: 22%;}
+    #ms-services-line-indicator-rigth{top: 26%!important;left: 63%!important;}
+    #ms-vegetables-demo{width: 92%;}
+    #ms-bacon-services-demo{margin-left: 5%;}
+    #ms-header-container-eigth-section{width: 100%;}
+    #ms-image-header-nine-section{width: 131px;height: 146px;top: 10%;left: 24%;background-size: 550%;}
+    #ms-title-header-eigth-section h2{font-size: 43px;margin-left: 5%;line-height: 3.4em;}
     #ms-services-rigth{text-align: right;}
-    #ms-services-line-indicator-rigth{top: -140px!important;left: 50px!important;}
-    #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
-    #ms-bacon-services-demo{width: 100%;margin-left: 0;}
-    #ms-atelier-seven-section-left-container{margin-top:300px!important;}
-    #ms-image-header-nine-section{display: table;margin:0 auto;}
-    #ms-title-intereses{ top: unset;position: initial;display: inherit!important;text-align: center;}
-    #ms-wrapper-cta-nine-section-atelier{display: table;margin: 30px auto;position: initial;width: 100%;}
     #ms-cta-atelier-nine-section{min-width: 180px;padding: 14px 20px;font-size: 11px;margin-right: 10px;}
     .ms-atelier-services-card{width: 30%!important;margin: 8px!important;padding: 17px 10px!important;}
     #ms-chicken1,
     #ms-el-dem-serv1{display: none;}
+    .ms-img-icon-services-card img{width: 110px;display: table;margin: 0 auto;}
+    #ms-title-header-eigth-section h2{line-height: 3em;}
+    #ms-text-header-eigth-section p{margin-top:10%;}
      /* Atelier */
+   
+    }
     .ms-services-img img{width: 100%!important;position: relative;left: 40px;}
     #ms-services-line-indicator-rigth{top:40%;}
     #ms-six-section-image img{width: 200px;padding: 90px 0;}
@@ -1175,7 +1179,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-vegetables-demo{width: 100%;}
   #ms-services-rigth{text-align: right;}
   #ms-services-line-indicator-rigth{top: -140px!important;left: 50px!important;}
-  #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
   #ms-bacon-services-demo{width: 100%;margin-left: 0;}
   #ms-atelier-seven-section-left-container{margin-top:300px!important;}
   #ms-image-header-nine-section{display: table;margin:0 auto;}
@@ -1265,6 +1268,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-box-container{min-height: 470px;}
     #ms-map-qui-sommes{padding: 0;} 
     #ms-team-section{margin-top:0;}
+    /* Demo culinaire */
+    #ms-atelier-secont-section-text p{color:white;}
+    .ms-services-line-indicator{top:26%!important;}
+    #ms-services-line-indicator-rigth{top: 26%!important;left: 57%!important;}
+    #ms-bacon-services-demo{margin-left: 5%;}
+    #ms-header-container-eigth-section{width: 100%;}
+    #ms-image-header-nine-section{width: 131px;height: 146px;top: 10%;left: 24%;background-size: 550%;}
+    #ms-title-header-eigth-section h2{font-size: 43px;margin-left: 5%;line-height: 3.4em;}
   }
 
   @media only screen and (min-width: 780px) and (max-width: 880px){
@@ -1319,6 +1330,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-img-atelier-culinaire{width: unset;}
     .ms-box-container{min-height: 470px;}
     #ms-team-section{margin-top:0;}
+
+    /* Demo Culinaire */
+    #ms-atelier-secont-section-text p{color:white;}
+    .ms-services-line-indicator{top:26%!important;}
+    #ms-services-line-indicator-rigth{top: 26%!important;left: 57%!important;}
+    #ms-bacon-services-demo{margin-left: 5%;}
+    #ms-header-container-eigth-section{width: 100%;}
+    #ms-image-header-nine-section{width: 131px;height: 146px;top: 10%;left: 24%;background-size: 550%;}
   }
 
   @media only screen and (min-width: 736px) and (max-width: 780px){
@@ -1457,17 +1476,13 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-atelier-3{top: 10px;left: 340px;}
     #ms-cta-notre-reseau{display: table;margin:0 auto;}
     /* Demo culinaire */
+    #ms-atelier-secont-section-text p{color:white;}
+    #ms-chicken1{background-size: 830%;background-position: 57.4% 85.827%;width: 110px;height: 160px;top: 1%;left: 70%;}
     #ms-video-atelier{width: 100%;padding: 40px 0;}
-    .ms-services-line-indicator{top: -50px!important;left: 200px;}
-    #ms-chicken1{display: inline-block;top: -670px;left: 330px;background-size: 590%;background-position: 79% 50%;width: 190px;height: 200px;}
-    #ms-demo-culinaire-serv-1{width: 90%;display: table;margin: 0 auto;}
-    #ms-demo-second-service-wrapper{transform: translateY(-250%);}
+    #ms-el-dem-serv3-res{top: 26%;left: 13%;}
+    #ms-bacon-services-demo{display: table;margin: 0 auto;}
     #ms-services-rigth{text-align: right;}
-    #ms-services-line-indicator-rigth{left: 280px;top: -140px!important;}
-    #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
-    #ms-el-dem-serv1{display: inline-block;left: 40px;}
-    #ms-vegetables-demo{width: 90%;transform: translateY(40%);display: table;margin: 0 auto;}
-    #ms-bacon-services-demo{width: 70%;position: relative;top: -20px;display: table;margin: 0 auto;}
+    #ms-services-line-indicator-rigth{left: 40%;top: 27%!important;}
     #ms-avocado-demo{display: table;margin: 0 auto;}
     #ms-atelier-six-section-content{text-align: center;margin-top: 0;}
     #ms-cta-atelier-btn{display: table;margin: 0 auto;left: unset;}
@@ -1479,6 +1494,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-atelier-services-card{width: 35%;margin: 30px;padding: 17px 35px;}
     #ms-atelier-seven-section-right-container{padding: 0;}
     .ms-img-icon-services-card img{width: 100px;}
+    #ms-image-header-nine-section{width: 130px!important;height: 220px;background-position: 56% -20%;background-size: 700%;top: -2%;left: 17%;}
+    #ms-vegetables-demo{display: table;margin:0 auto;}
+    #ms-header-container-eigth-section{width: 100%;}
     /* Notre concept */
     .ms-no-padding-bottom{padding: 50px 70px!important;}
     #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
@@ -1891,7 +1909,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
     
     @media only screen  and (min-width : 780px) {
-
+      #ms-el-dem-serv3{display: none;}
     }
 
 

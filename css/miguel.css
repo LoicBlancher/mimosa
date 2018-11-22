@@ -461,6 +461,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-title-tmembers{margin:0;}
 .ms-title-services-separator{border-bottom: 1px solid #e9e9e9;width: 50%;}
 
+/* Atelier Template services */
+#ms-atelier-second-service-responsive{display: none;}
+#ms-atelier-third-service-responsive{display: none;}
+#ms-back-vegetables-demo{margin-left:12%;}
+.ms-services-description h2{margin:4% 0;}
 /*------------------------------------*\
     End Qui sommes nous
 \*------------------------------------*/
@@ -594,11 +599,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-testimonials-title-header{text-align: center;}
 .ms-services-description h3{margin-top: 5px;}
 .ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
-.ms-services-line-indicator{width: 4%;height: 2px;background: var(--mimosa-yellow);position: absolute;left: 38%;top: 45%;}
+.ms-services-line-indicator{width: 120px;height: 2px;background: var(--mimosa-yellow);position: absolute;left: 38%;top: 43%;}
 .ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: absolute;left: 99%;bottom: -6px;}
 .ms-services-img{float: left;padding: 20px 0 0 200px;}
 #ms-services-img-rigth{}
-#ms-services-line-indicator-rigth{left: 45%;top: 40%;transform: rotate(180deg);}
+#ms-services-line-indicator-rigth{left: 48%;top: 40%;transform: rotate(180deg);}
 .ms-margin-left-text{display: block;margin-left: 20px;}
 #ms-services-description-last{width: 35%;}
 #ms-services-img-last{width: 65%;}
@@ -653,8 +658,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-chicken3{background: url(../img/demostration-img-page-mimosa.png) no-repeat 97.576% 7.692%;width: 178px;height: 261px;position: absolute;top: 24%;right: 10%;}
 #ms-demo-serv2{position: relative;left: -190px;top: -80px;}
 #ms-el-dem-serv1{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.214% 16.396%;width: 98px;height: 70px;position: absolute;top: 10%;left: 10%;transform: rotate(-15deg);}
+#ms-el-dem-serv1-res{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.214% 16.396%;width: 98px;height: 70px;position: absolute;top: 10%;left: 65%;transform: rotate(-15deg);display: none;}
 #ms-el-dem-serv2{background: url(../img/demostration-img-page-mimosa.png) no-repeat 1.793% 42.541%;width: 104px;height: 82px;position: absolute;bottom: 10%;left: 35%;}
 #ms-el-dem-serv3{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.158% 73.622%;width: 108px;height: 117px;position: absolute;top: 24%;left: 7%;}
+#ms-el-dem-serv3-res{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.158% 73.622%;width: 108px;height: 117px;position: absolute;top: 21.5%;left: 7%;}
 #ms-el-dem-serv4{background: url(../img/demostration-img-page-mimosa.png) no-repeat 72.238% 9.256%;width: 104px;height: 128px;position: absolute;top: 70%;left: 8%;}
 #ms-el-dem-serv5{background: url(../img/demostration-img-page-mimosa.png) no-repeat 75.036% 98.287%;width: 120px;height: 158px;position: absolute;top: 45%;left: 7%;}
 #ms-el-dem-serv6{background: url(../img/demostration-img-page-mimosa.png) no-repeat 96.162% 95.332%;width: 117px;height: 68px;position: absolute;top: 10%;left: 35%;}
@@ -1743,7 +1750,19 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     @media only screen and (min-width: 481px) and (max-width: 555px){
       #ms-wrapper-content-third-section-home{transform: translateY(-94%);}
       #ms-wrapper-img-third-section-home-res img{top:10px;}
-      
+      /*Demo Culinaire*/
+      #ms-demo-second-service-wrapper{transform:translateY(-140%);}
+      #ms-vegetables-demo{transform:translateY(80%);}
+      .ms-atelier-services-card{padding: 10px!important;}
+      .ms-img-icon-services-card img{width: 80%;display: table;margin: 0 auto;}
+      #ms-header-container-eigth-section{float: initial;width: 100%;}
+      #ms-image-herder-eigth-section{float: initial;width: 100%;}
+      #ms-image-herder-eigth-section img{width: 150px;display: table;margin: 0 auto;}
+      #ms-title-header-eigth-section{float: initial;width: 100%!important;}
+      #ms-title-header-eigth-section h2{    position: initial!important;margin-left: 0;line-height: 0.5em!important;}
+      #ms-text-header-eigth-section{float: initial;width: 100%!important;}
+      #ms-text-header-eigth-section p{position: initial;text-align: center;margin-top:0;}
+      #ms-image-header-nine-section{top: -3%;left: 6%;}
     }
   /*------------------------------------*\
       End Intervals Responsive
@@ -2075,6 +2094,13 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-image-base-force-notrec{display: none;}
 
     }
+  
+    @media only screen and (max-width: 780px) {
+      #ms-atelier-fourth-section{display: none;}
+      #ms-atelier-second-service-responsive{display: block;}
+      #ms-el-dem-serv1-res{display: block;}
+    }
+
     
     @media only screen and (max-width: 736px) {
       p{font-size: 13px;}
@@ -2366,7 +2392,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-services-line-indicator{top: 14%;left: 43%;width: 50px;}
       .ms-services-line-indicator:after{left:95%;}
       #ms-services-img-rigth{position: absolute;top: 0;width: 200px;left: 0;}  
-      .ms-services-container{float: initial;height: 500px;}
       #ms-services-description-last{width: 100%;}
       #ms-services-line-indicator-last{top: 190px;right: 30px;}
       #ms-services-img-last{bottom: 360px;left: 150px;}
@@ -2420,14 +2445,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-atelier-first-section h1{font-size: 35px!important;}
       #ms-video-atelier{width: 100%;padding: 40px 0px;}
       #ms-chicken1{width: 70px;height: 180px;background-size: 900%;background-position: 58% 150%;top: 1%;left: 70%;transform: rotate(180deg);}
-      #ms-demo-culinaire-serv-1{width: 100%;position: relative;top: -140px;}
-      #ms-vegetables-demo{width: 120%;position: relative;left: 50%;transform: translateY(30%) translateX(-50%);top: 70px;}
+      #ms-demo-culinaire-serv-1{width: 100%;position: relative;top:50px;}
+      #ms-vegetables-demo{width: 100%;position: relative;top:50px;}
       #ms-el-dem-serv1{top:-10%;}
       #ms-el-dem-serv3{top:85%;left:65%;}
       #ms-demo-second-service-wrapper{transform: translateY(-190%);}
-      #ms-services-line-indicator-rigth{top: 20%;left: 35%;}
+      #ms-services-line-indicator-rigth{top: 22%;left: 39%;}
       #ms-demo-third-service-wrapper{transform: translateY(-40%);}
-      #ms-bacon-services-demo{width: 90%;transform: translateY(-90%);margin-left: 0;position: absolute;}
+      #ms-bacon-services-demo{width: 100%;margin-left:0;position: relative;top:50px;}
       #ms-avocado-demo{display: table;margin:0 auto;}
       #ms-atelier-six-section-content h2,
       #ms-atelier-six-section-content p.ms-large-p{text-align: center;}

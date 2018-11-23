@@ -600,7 +600,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: absolute;left: 99%;bottom: -6px;}
 .ms-services-img{float: left;padding: 20px 0 0 200px;}
 #ms-services-img-rigth{}
-#ms-services-line-indicator-rigth{left: 48%;top: 40%;transform: rotate(180deg);}
+.ms-services-line-indicator-rigth{left: 48%;top: 40%;transform: rotate(180deg);}
 .ms-margin-left-text{display: block;margin-left: 20px;}
 #ms-services-description-last{width: 35%;}
 #ms-services-img-last{width: 65%;}
@@ -1467,11 +1467,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-cta-notre-reseau{display: table;margin:0 auto;}
     #ms-atelier-serv1-res{width: 95%;position: relative;display: table!important;margin: 0 auto;}
     #ms-wrapper-serv1-atelier .ms-services-line-indicator{top:12%;}
-    #ms-elementAt5-ser2-res{top: -179%!important;left: 70%!important;}
     #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{top:26.7%;}
-    #ms-elementAt6-ser2-res{top: -50%!important;left: 1%!important;}
+    #ms-elementAt5-ser2-res{top: 7%!important;left: 70%!important;}
+    #ms-elementAt6-ser2-res{top: 7%!important;left: 70%!important;}
+    #ms-elementAt4-ser2-res{top: 7%!important;left: 10%!important;}
     #ms-atelier-serv2-res{width: 95%;}
-    #ms-elementAt4-ser2-res{top: 120%!important;left: 70%!important;z-index: 999;}
     #ms-image-header-nine-section-atelier-1{left: 14%;top: 13%;}
     #ms-image-header-nine-section-atelier-2{top: 10%;left: 28%;}
     #ms-image-header-nine-section-atelier-3{top: 4%;left: 30%;}
@@ -1483,7 +1483,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-atelier-secont-section-text p{color:white;}
     #ms-chicken1{background-size: 830%;background-position: 57.4% 85.827%;width: 110px;height: 160px;top: 1%;left: 70%;}
     #ms-video-atelier{width: 100%;padding: 40px 0;}
-    #ms-el-dem-serv3-res{top: 26%;left: 13%;}
+    #ms-el-dem-serv3-res{top: 7%;left: 13%;}
     #ms-bacon-services-demo{display: table;margin: 0 auto;}
     #ms-services-rigth{text-align: right;}
     #ms-services-line-indicator-rigth{left: 40%;top: 27%!important;}
@@ -1636,11 +1636,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    /* Atelier */
    #ms-atelier-serv1-res{width: 95%;position: relative;display: table!important;margin: 0 auto;}
    #ms-wrapper-serv1-atelier .ms-services-line-indicator{top:12%;}
-   #ms-elementAt5-ser2-res{top: -199%!important;left: 70%!important;}
    #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{top:26.7%;}
-   #ms-elementAt6-ser2-res{top: -50%!important;left: 1%!important;}
+   #ms-elementAt5-ser2-res{top: 7%!important;left: 70%!important;}
+   #ms-elementAt6-ser2-res{top: 7%!important;left: 70%!important;}
+   #ms-elementAt4-ser2-res{top: 7%!important;left: 10%!important;}
    #ms-atelier-serv2-res{width: 95%;}
-   #ms-elementAt4-ser2-res{top: 120%!important;left: 70%!important;z-index: 999;}
    #ms-image-header-nine-section-atelier-1{left: 14%;top: 13%;}
    #ms-image-header-nine-section-atelier-2{top: 10%;left: 28%;}
    #ms-image-header-nine-section-atelier-3{top: 4%;left: 30%;}
@@ -1674,7 +1674,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-title-header-eigth-section h2{font-size: 39px;margin-left: 20%;line-height: 3.2em!important;}
   #ms-image-header-nine-section{background-size: 700%;width: 100px!important;height: 160px;left: 20%;top: 6%;}
   #ms-demo-culinaire-serv-1{width: 100%;}
-  #ms-el-dem-serv3-res{top: 26%;left: 14%;}
+  #ms-el-dem-serv3-res{top: 7%;left: 14%;}
   #ms-vegetables-demo{position: relative;top: 40px;left: 50%;transform: translateX(-50%);}
   #ms-bacon-services-demo{margin-left: 0;position: relative;left: 50%;transform: translateX(-50%);}
 
@@ -1762,7 +1762,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-vegetables-demo{width: 95%;}
       #ms-bacon-services-demo{width: 90%;}
       .ms-atelier-services-card{padding: 10px!important;}
-      #ms-el-dem-serv3-res{top:25.6%;}
+      #ms-el-dem-serv3-res{top:7%;}
       .ms-img-icon-services-card img{width: 80%;display: table;margin: 0 auto;}
       #ms-header-container-eigth-section{float: initial;width: 100%;}
       #ms-image-herder-eigth-section{float: initial;width: 100%;}
@@ -1773,13 +1773,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-text-header-eigth-section p{position: initial;text-align: center;margin-top:0;}
       #ms-image-header-nine-section{top: -3%;left: 6%;}
       /* Atelier */
+      #ms-elementAt5-ser2-res{top: 6%!important;left: 70%!important;}
+      #ms-elementAt6-ser2-res{top: 7%!important;left: 56%!important;}
+      #ms-elementAt4-ser2-res{top: 6%!important;left: 10%!important;}
       #ms-atelier-serv1-res{width: 95%;position: relative;display: table!important;margin: 0 auto;}
       #ms-wrapper-serv1-atelier .ms-services-line-indicator{top:12%;}
-      #ms-elementAt5-ser2-res{top: -239%!important;left: 70%!important;}
       #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{top: 25.3%;left: 34%;}
-      #ms-elementAt6-ser2-res{top: -80%!important;left: -9%!important;}
       #ms-atelier-serv2-res{width: 95%;}
-      #ms-elementAt4-ser2-res{top: 120%!important;left: 70%!important;z-index: 999;}
+      #ms-indicator-atelier-right{top: 10%;left: 40%;}
+
       #ms-image-header-nine-section-atelier-1{background-size: 1060%;width: 90px;height: 100px;top: 16%;left: 12%;}
       #ms-image-header-nine-section-atelier-2{background-size: 5200%;width: 18px;height: 25px;left: 26%;top: 14%;}
       #ms-image-header-nine-section-atelier-3{background-size: 2000%;width: 50px;height: 25px;left: 28%;top: 11%;}
@@ -1919,6 +1921,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     
     @media only screen  and (min-width : 780px) {
       #ms-el-dem-serv3{display: none;}
+      #ms-elementAt5-ser2-res,
+      #ms-elementAt6-ser2-res{display: none;}
     }
 
 
@@ -1957,6 +1961,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
     @media only screen and (max-width: 1200px) {
       /* Demo culinaire */
+      #ms-bacon-services-demo{width: 90%!important;}
+      #ms-demo-culinaire-serv-1{width: 95%!important;}
       #ms-back-chicken,
       #ms-chicken2,
       #ms-chicken3{display: none;}
@@ -2130,7 +2136,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-atelier-fourth-section{display: none;}
       #ms-atelier-second-service-responsive{display: block;position: relative;text-align: right;}
       #ms-el-dem-serv1-res{display: block;}
-      #ms-responsive-atelier-service{position: relative;}
       #ms-logistique-ser2-tool1-res,
       #ms-logistique-ser2-tool2-res,
       #ms-logistique-ser2-tool3-res{display: block;}
@@ -2473,13 +2478,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{top:22.5%;}
       #ms-elementAt9-ser3{top: -240px;left: 240px;}
       .ms-atelier-gallery {height: 1000px;}
-      #ms-elementAt5-ser2-res{background-size: 1400%;width: 90px;height: 90px;top: -250%;left: 70%;}
-      #ms-elementAt6-ser2-res{background-size: 1000%;background-position: 1% 11.325%;top: -70%;left: 1%;width: 90px;height: 100px;}
-      #ms-elementAt4-ser2-res{background-size: 1400%;width: 90px;height: 100px;top: 130%;left: 70%;z-index: 999;}
+      #ms-elementAt5-ser2-res{background-size: 1400%;width: 90px;height: 90px;top: 10%;left: 70%;}
+      #ms-elementAt6-ser2-res{background-size: 1000%;background-position: 1% 11.325%;top: 10%;left: 70%;width: 90px;height: 100px;}
+      #ms-elementAt4-ser2-res{background-size: 1400%;width: 90px;height: 100px;top: 10%;left: 10%;}
       #ms-atelier-serv1-res, 
       #ms-atelier-serv2-res, 
       #ms-atelier-serv3-res{width: 100%;display: table;margin:0 auto;}
       #ms-wrapper-serv2-atelier{text-align: right;}
+
       /* Responsive demo culinaire */
       .ms-container-services-demo-rigth{text-align: right;}
       #ms-atelier-first-section h1{font-size: 35px!important;}
@@ -2558,7 +2564,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-cta-team{margin:60% auto 26% auto;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel ul{bottom:230%;}
       /* Demo culinaire */
-      #ms-el-dem-serv3-res{top:21.6%;}
+      #ms-el-dem-serv3-res{top:7%;}
       #ms-services-line-indicator-rigth{top:22.2%;}
       .ms-services-line-indicator{left:48%;}
       #ms-cta-atelier-nine-section{margin-left:4%!important;}
@@ -2570,11 +2576,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-text-footer{padding: 30px;}
       .ms-item-list-notre-concept{display: flex;}
       /* Atelier */
-      #ms-elementAt5-ser2-res{top:-280%;}
-      #ms-elementAt6-ser2-res{top:-74%;}
       #ms-image-header-nine-section-atelier-1{left:8%;}
       #ms-image-header-nine-section-atelier-2{left:24%;}
       #ms-image-header-nine-section-atelier-3{left:25%;}
+      #ms-indicator-atelier-right{left:37%;}
       /* Logistique */
       #ms-logistique-ser2-tool1-res{left:50%;}
       #ms-interesses-logistique-res{left:-17%;}
@@ -2619,11 +2624,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Atelier */
       #ms-wrapper-serv1-atelier .ms-services-line-indicator{left:43%;}
       #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{top:21.9%;}
-      #ms-elementAt6-ser2-res{top:-86%;}
       #ms-image-header-nine-section-atelier-1{background-size: 1150%;width: 70px;left: 6%;top: 11%;}
       #ms-image-header-nine-section-atelier-2{background-size: 5000%;width: 15px;height: 21px;left: 20%;}
       #ms-image-header-nine-section-atelier-3{background-size: 2000%;width: 40px;height: 20px;left: 21%;}
-    
+      #ms-indicator-atelier-right{top: 11%;left: 40%;}
+      #ms-elementAt4-ser2-res{top:6%;}
     }
 
      @media only screen and (max-width: 360px) {
@@ -2667,8 +2672,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         #ms-text-footer{padding: 30px;}
 
         /* Atelier formation */
-       #ms-elementAt5-ser2-res{top:-300%;}
-       #ms-elementAt6-ser2-res{top:-88%;}
+
 
         /* Logistique */
         #ms-camion-logistique{height: 200px;}
@@ -2720,9 +2724,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 60px;}
         .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -1px;}
         /* Atelier */
-        #ms-elementAt5-ser2-res{top:-320%;}
-        #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{top:21.2%;}
-        #ms-elementAt6-ser2-res{top: -97%;left: -7%;}
         #ms-galerie-lightbox img{width: 270px;position: relative;top:90px;}
         #ms-image-header-nine-section-atelier-1{left: 4%;top: 6%;}
         #ms-image-header-nine-section-atelier-2{top: 10%;left: 21%;}

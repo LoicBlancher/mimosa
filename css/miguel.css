@@ -1047,16 +1047,16 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-atelier-2{background-size: 5200%;width: 18px;height: 25px;left: 37%;top: 18%;}
     #ms-image-header-nine-section-atelier-3{background-size: 2000%;width: 50px;height: 25px;left: 38%;top: 15%;}
     #ms-elementAt6-ser2{display: none;}
-    /* Logistique */
+        /*Loguistique*/
     #ms-logistique-ser2-tool2,
     #ms-logistique-ser2-tool4,
     #ms-logistique-ser2-tool5{display: none;}
-    #ms-camion-logistique{width: 100%;display: inline-block;} 
-    #ms-services-logistique-2{width: 100%;}
-    #ms-services-logistique-3{ width: 100%;position: relative;left: 50px;}
-    .ms-logistique-nine{padding: 30px 50px!important;height: 520px;}
-    #ms-interesses-logistique-res{position: relative;top: -160px;left: -50%;}
-    #ms-wrapper-content-nine-logistique{transform: translateY(-240%);text-align: center;}    
+    #ms-camion-logistique{width: 90%!important;margin-left:0;}
+    #ms-services-logistique-3{width: 80%!important;}
+    #ms-services-logistique-2{width: 80%!important;position: relative;top: 40px;}
+    #ms-interesses-logistique-res{width: 32%;position: absolute;top: -2%;left: 9%;}
+    #ms-text-header-eigth-section p{margin-left:15%!important;}
+    #ms-title-header-eigth-section h2{margin-left:30%;}
 
   } 
 
@@ -1189,9 +1189,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-footer-ingredients-card{width: 88.5%;}
   #ms-text-footer{padding: 10px;}
   #ms-scroll-tab{transform: translateX(130%);}
-
-
-
+  
 
   }
 
@@ -1338,6 +1336,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-header-container-eigth-section{width: 100%;}
     #ms-image-header-nine-section{width: 131px;height: 146px;top: 10%;left: 24%;background-size: 550%;}
     /* Logistique */
+    #ms-logistique-ser2-tool2,
+    #ms-logistique-ser2-tool4,
+    #ms-logistique-ser2-tool5{display: none;}
     #ms-camion-logistique{width: 90%!important;margin-left:0;}
     #ms-services-logistique-3{width: 80%!important;}
     #ms-services-logistique-2{width: 80%!important;position: relative;top: 40px;}

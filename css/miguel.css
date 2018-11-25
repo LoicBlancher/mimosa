@@ -362,7 +362,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     Demander Devis Page
 \*------------------------------------*/
 .ms-wrapper-contact-form #ms-services-textbox{padding: 10px;font-size: 13px;font-weight: bold;}
-#ms-wrapper-checkbox-devis #ms-check-contact-page{}
+#ms-wrapper-checkbox-devis{float: left;width: 55%;padding: 0 17px;}
+#ms-wrapper-checkbox-devis #ms-check-contact-page{top: 0;margin-left: 4%;font-size: 14px;color: var(--mimosa-gray-dark);letter-spacing: 0;}
+#ms-fixed-logo-devis{position: fixed;z-index: 15;margin-top: 2%;margin-left: 2%;width: 80%;}
 
 /*------------------------------------*\
     End Demander Devis Page
@@ -515,7 +517,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 #ms-concept-second-subsection{}
 #ms-container-plants-notre-concept{position: relative;}
-#ms-fork-notre-concept{position: absolute;bottom: 0;}
+#ms-fork-notre-concept{position: absolute;top:0;}
 #ms-skill-one-fork{padding: 10px;width: 380px;}
 #ms-skill-two-fork{padding: 10px;width: 400px;}
 #ms-skill-three-fork{padding: 10px;text-align: right;}
@@ -534,7 +536,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-notre-concept-gallery-header-title h2{ margin-top: 0;font-size: 34px;}
 #ms-notre-concept-gallery-des{float:left;width: 70%;border-left: 3px solid var(--mimosa-yellow);}
 #ms-notre-concept-gallery-des p{padding: 10px;}
-
+#ms-wrapper-fork-notre-concept{position: relative;}
 
 /*------------------------------------*\
     End Notre concept
@@ -546,7 +548,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   /* Header Contact */
   .ms-left-section-fixed{height: 100%;width: 48%;position: fixed;top: 0;left: 0;float:left;box-shadow: 4px 2px 30px 10px rgb(0,0,0,0.2);}
   .ms-left-section-fixed img{width: 100%;}
-  #ms-header-contact-page h1{text-transform: uppercase;}
+  #ms-header-contact-page h1{text-transform: uppercase;line-height: 0.9em;}
   #ms-header-contact-page p.first{margin-bottom: 50px;}
   .ms-right-section-scroll{position: relative;overflow-y: unset;height: 100%;width: 52%;clear: both;float: right;}
   .ms-padding-contact{padding:10% 15%;}
@@ -629,6 +631,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-title-header-eigth-section{float: left;width: 35%;}
 #ms-text-header-eigth-section{float: left;width: 55%;}
 #ms-text-header-eigth-section p{line-height: 1.5em;margin-top:30px;}
+#ms-container-galerie-notre-concept{float: left;width: 100%;}
+#ms-container-galerie-notre-concept #ms-image-galerie-box{float: left;width: 12.5%!important;}
 #ms-container-galerie{float: left;width: 100%;}
 #ms-image-galerie-box{float: left;width: 25%;display: inline-block;overflow: hidden;}
 #ms-image-galerie-box img{width: 100%;margin:0 auto;display: block;opacity: 0.8;transition: all 1.5s ease-out;}
@@ -835,6 +839,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-title-notre-second-section{width: 30%;transform: translateX(20%);}
     #ms-title-notre-second-section h2{font-size: 30px;}
     #ms-subtitle-notre-second-section{width: 70%;}
+    #ms-fork-notre-concept{width: 90%;}
     #ms-skill-three-fork #ms-bullet-point-roller{margin-left:35%;}
     #ms-skill-fourth-fork #ms-bullet-point-spoon{margin-left:35%;}
     #ms-skill-one-fork,
@@ -842,7 +847,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-skill-one-fork .ms-wrapper-bullet,
     #ms-skill-two-fork .ms-wrapper-bullet{transform: translateX(-20%);}
     #ms-bullet-right{transform: unset;}
-    #ms-fork-notre-concept{width: 30%;}
     #ms-footer-ingredients-card{width: 91.8%;}
     #ms-text-footer{padding: 20px;}
     #ms-scroll-tab{transform:unset;}

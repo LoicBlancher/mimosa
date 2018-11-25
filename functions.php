@@ -873,26 +873,51 @@ function galerie_images_mimosa($atts){
                 'terms'     => array( sanitize_title( $atts['name'] ) )
             ) )
         ) );?>
-        <div id="ms-container-galerie">
-           <?php 
-            if ( $loop->have_posts() ) :
-             while ( $loop->have_posts() ) : $loop->the_post(); 
-               $images = acf_photo_gallery('images_galerie',get_the_ID());
-               if(count($images)):
-                foreach($images as $image):
-                  $caption = $image['caption'];
-                  $full_image_url= $image['full_image_url'];
-                ?>
-                <div id="ms-image-galerie-box">
-                  <a href="<?php echo $full_image_url ?>" class="ms-lightbox-trigger"><img src="<?echo $full_image_url;?>" alt=""></a>
-                </div>
-              <?php
-                endforeach;
-               endif; 
-             endwhile;
-            endif; 
-            wp_reset_postdata();?>
-        </div>
+        <?php 
+            if ($atts['name'] == 'atelier' || $atts['name'] == 'qui-sommes' ) {?>
+                <div id="ms-container-galerie">
+                           <?php 
+                            if ( $loop->have_posts() ) :
+                             while ( $loop->have_posts() ) : $loop->the_post(); 
+                               $images = acf_photo_gallery('images_galerie',get_the_ID());
+                               if(count($images)):
+                                foreach($images as $image):
+                                  $caption = $image['caption'];
+                                  $full_image_url= $image['full_image_url'];
+                                ?>
+                                <div id="ms-image-galerie-box">
+                                  <a href="<?php echo $full_image_url ?>" class="ms-lightbox-trigger"><img src="<?echo $full_image_url;?>" alt=""></a>
+                                </div>
+                              <?php
+                                endforeach;
+                               endif; 
+                             endwhile;
+                            endif; 
+                            wp_reset_postdata();?>
+                        </div>
+            <?php } 
+                if ($atts['name'] == 'notre-concept') {?>
+                    <div id="ms-container-galerie-notre-concept">
+                               <?php 
+                                if ( $loop->have_posts() ) :
+                                 while ( $loop->have_posts() ) : $loop->the_post(); 
+                                   $images = acf_photo_gallery('images_galerie',get_the_ID());
+                                   if(count($images)):
+                                    foreach($images as $image):
+                                      $caption = $image['caption'];
+                                      $full_image_url= $image['full_image_url'];
+                                    ?>
+                                    <div id="ms-image-galerie-box">
+                                      <a href="<?php echo $full_image_url ?>" class="ms-lightbox-trigger"><img src="<?echo $full_image_url;?>" alt=""></a>
+                                    </div>
+                                  <?php
+                                    endforeach;
+                                   endif; 
+                                 endwhile;
+                                endif; 
+                                wp_reset_postdata();?>
+                            </div>
+                <?php } ?>
 <?php
 }
 

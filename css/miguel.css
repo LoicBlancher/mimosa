@@ -1840,17 +1840,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       footer{padding: 120px 0;}
       /* Qui sommes nous */
       #ms-sommes-second-section h2{font-size: 55px!important;}
-      #ms-img-carousel-with-pagination{padding:10px 120px;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%;right: 15%;}
-      #ms-first-column-second-sec ul li{font-size: 19px;} 
+      #ms-first-column-second-sec ul li{font-size: 17px;} 
       #ms-wrapper-header-tmembers{left: -10%;top: 20px;} 
       #ms-slider-team-members{margin-top:100px;margin-left: 120px;}
       #ms-slider-team-members .slick-current{width: 372px;}
-      .ms-wrapper-member-name{top: -110px;right: -50px;}
+      .ms-wrapper-member-name{top: -150px;right: -80px;}
       .ms-name-tposition{font-size: 16px;}
       .ms-name-tmember{font-size: 45px!important;}
       #ms-cta-team{margin:30px auto;}
-      .ms-list-check-mimosa li:after{left:-334px;}
       #ms-testi-des{font-size: 21px!important;}
       .ms-testimonials-title-header{margin-top:140px;}
       .ms-title-footer{font-size: 15px;}

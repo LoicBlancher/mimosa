@@ -1187,7 +1187,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-fork-notre-concept{width: 90%;transform: translateY(50%) translateX(18%);}
   #ms-part12-force-notrec{top: 480px;left: -168px;}
   #ms-part13-force-notrec{top: 10px;left: -130px;}
-  #ms-image-base-force-notrec-res{position: relative;right: 120px;}
+  #ms-image-base-force-notrec-res{position: relative;right: 120px;top:0;}
   #ms-concept-third-section{height: 700px;}
   #ms-footer-ingredients-card{width: 88.5%;}
   #ms-text-footer{padding: 10px;}
@@ -1706,7 +1706,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-footer-ingredients-card{width: 93.3%;}
   #ms-text-footer{padding: 30px;}
   #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
-  .ms-gallery-notre-concept{height: 500px!important;}
   /* Logistique */
   #ms-camion-logistique{width: 90%!important;}
   #ms-logistique-ser2-tool1-res{top: 10%;left: 55%;transform: rotate(50deg);}  
@@ -1718,7 +1717,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-text-header-eigth-section p{margin-left:15%!important;}
   #ms-title-header-eigth-section h2{margin-left:30%;}
   #ms-line-indicator-rigth-logistique{top: 13%!important;left: 50%!important;}
-
+  /* Notre Concept */
+  #ms-container-galerie-notre-concept #ms-image-galerie-box{width: 25%!important;}
 
   } 
 
@@ -1796,6 +1796,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-services-logistique-2{width: 90%;position: relative;top: 40px;}
       #ms-logistique-ser2-tool3-res{top: 7%;left: 70%;}
       #ms-interesses-logistique-res{width: 45%;position: absolute;top: -2%;left: -10%;}
+      /* Notre Concept */
+      #ms-footer-ingredients-card{width: 90%;}
+      #ms-text-footer{padding: 20px;}
+
     }
   /*------------------------------------*\
       End Intervals Responsive
@@ -2514,24 +2518,24 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-bullet-right{transform: unset;}
       #ms-concept-third-section{padding: 80px 50px!important;height: 950px}
       #ms-skill-fourth-fork{text-align: center;}
-      #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+      #ms-fork-notre-concept{position: relative;width: 100%;}
       #ms-skill-one-fork{text-align: center;width: unset;}
       #ms-skill-two-fork{text-align: center;width: unset;}
-      #ms-image-base-force-notrec-res{width: 100%;position: relative;top: -100px;left: 40px;transform: rotate(20deg);}
-      #ms-part12-force-notrec{left: -10px;top: -400px;}
+      #ms-image-base-force-notrec-res{width: 100%;position: relative;top: -80px;left: 40px;transform: rotate(20deg);}
+      #ms-part12-force-notrec{left: 70%;top: -200px;}
       #ms-part13-force-notrec{top: 130px;left: -110px;}
       .ms-item-list-notre-concept{font-size: 13px;}
       #ms-notre-concept-gallery-header-title{float: initial;width: 100%;}
       #ms-notre-concept-gallery-des{border-left: none;float: initial;width: 100%;margin-top:20px;text-align: center;}
       #ms-concept-five-section-first-column{padding: 70px 0 30px 0;text-align: center;}
-      #ms-footer-ingredients-card{width: 89.6%;}
+      #ms-footer-ingredients-card{width: 87.6%;}
       #ms-text-footer{padding: 10px;}
       #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
       #ms-image-header-nine-section-atelier-1{background-size: 1060%;width: 90px;height: 100px;top: 16%;left: 12%;}
       #ms-image-header-nine-section-atelier-2{background-size: 5200%;width: 18px;height: 25px;left: 26%;top: 14%;}
       #ms-image-header-nine-section-atelier-3{background-size: 2000%;width: 50px;height: 25px;left: 28%;top: 11%;}
       #ms-wrapper-cta-nine-section-atelier{margin:20px auto;}
-      .ms-gallery-notre-concept{height: 800px!important;}
+      #ms-container-galerie-notre-concept #ms-image-galerie-box{width: 33.33%!important;}
       /* Atelier */
 
       /* Logistique */
@@ -2567,7 +2571,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Notre concept */
       #ms-image-base-force-notrec-res{top:-60px;}
       .ms-gallery-notre-concept{height: : 850px!important;}
-      #ms-footer-ingredients-card{width: : 93.6%;}
+      #ms-footer-ingredients-card{width: : 93%;}
       #ms-text-footer{padding: 30px;}
       .ms-item-list-notre-concept{display: flex;}
       /* Atelier */
@@ -2609,9 +2613,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-image-header-nine-section{width: 100px;height: 120px;}
       #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{margin-left:0;}
       /* Notre concept */
+      #ms-part12-force-notrec{left:90%;}
       #ms-image-base-force-notrec-res{top:-40px;}
       .ms-item-list-notre-concept{display: inline-flex;}
-      #ms-footer-ingredients-card{width: 92.9%;}
+      #ms-footer-ingredients-card{width: 92.5%;}
       #ms-text-footer{padding: 30px;}
 
 
@@ -2662,7 +2667,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         #ms-part12-force-notrec{left: 200px;top: -420px;}
         #ms-image-base-force-notrec-res{top:-20px;}
         #ms-part13-force-notrec{top:80px;}
-        #ms-footer-ingredients-card{width: 93%;}
+        #ms-footer-ingredients-card{width: 90.8%;}
         #ms-text-footer{padding: 30px;}
 
         /* Atelier formation */

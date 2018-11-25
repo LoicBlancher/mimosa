@@ -1347,6 +1347,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   }
 
   @media only screen and (min-width: 736px) and (max-width: 780px){
+
     /* Home */
     .ms-padding-header-pages{padding:90px 50px;}
     .ms-padding-general{padding:90px 70px!important;}
@@ -1356,17 +1357,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-colum-slide-home p.white{transform: translateY(-130%);text-align: center;}
     #ms-colum-slide-home #ms-know-more{float: initial;display: table;margin: 0 auto;}
     #ms-second-section-home{background-size: 25%!important;background-position: 110% -28px!important;height: 750px;}
+    #ms-wrapper-content-third-section-home{text-align: center;}
     #ms-bullet-first{border-bottom: none;}
     #ms-container-egg1-home{top: -390px;left: 98%;}
     #ms-container-bacon-home{top: -430px;left: -40%;}
     #ms-container-bred-home{top: -630px;left: -30%;}
-    #ms-container-egg2-home{top: -10px;left: -20%;}
-    #ms-container-spinach-home{top: -90px;left: 70%;}
+    #ms-container-egg2-home{top: -200px;left: -40%;}
+    #ms-container-spinach-home{top: -1800px;left: 100%;}
     div#ms-bullet-first:after{display: none;}
     #ms-third-section-home h2{margin-top:0!important;}
-    #ms-wrapper-content-third-section-home{transform: translateY(-140%);text-align: center;}
-    #ms-wrapper-img-third-section-home-res img{transform: translateY(40%);width: 660px;}
-    #ms-wrapper-img-third-section-home-res{transform: translate(-10%,30%);}
     #ms-seed-one{top:-620px;}
     #ms-seed-two{top: -330px;left: 90%;}
     #ms-seed-three{top: -230px;left: -10%;}
@@ -1561,7 +1560,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-container-egg1-home{top: -190px;left: -30%;opacity: 0.5;}
     #ms-container-bacon-home{top: -520px;left: -45%;transform: rotate(190deg);opacity: 0.7;}
     #ms-container-egg2-home{top: -587px;left: 96%;}
-    #ms-container-spinach-home{top: -180px;left: 100%;}
+    #ms-container-spinach-home{top: -700px;left: 100%;}
     #ms-wrapper-home-formation-atelier-text .ms-yellow-btn-black-text{background: transparent;border: 1px solid var(--mimosa-black-dark);}
     #ms-third-section-home h2{margin-top:0!important;}
     #ms-third-section-home p{color:white;}
@@ -1571,7 +1570,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-seed-two{top: -286px;left: -160px;}
     #ms-seed-three{top: -350px;left: 98%;}
     #ms-seed-four,#ms-seed-five,#ms-seed-six{display: none;}
-    #ms-seed-tomato{top: -70px;left: -30%;}
+    #ms-seed-tomato{top: -70px;left: -40%;background-size:300%;}
     #ms-seed-brocoli{top: -20px;left: 60%;}
     #ms-img-branch2,#ms-img-oats{display: none;}
     #ms-five-section-home{height: 750px;}
@@ -1831,7 +1830,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-seed-two{left:27%;}
       #ms-seed-five{right: 41%;}
       #ms-seed-six{right: 28%;}
-      #ms-img-avocado{top:-160px;}
       .ms-wrapper-bullet-with-img{margin-top: 100px;}  
       #ms-wrapper-title-five-section h4{margin-top:30px;}
       #ms-wrapper-title-five-section h2{margin-bottom:20px;}

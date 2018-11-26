@@ -585,9 +585,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 /*--------------------------------------------------------*\
     ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
-#ms-wrapper-header-atelier p{color:white;margin-top:0;}
+#ms-wrapper-header-atelier p{color:black;margin-top:0;}
 #ms-wrapper-header-atelier h2{margin-top:0;}
 #ms-title-testimonials-all{text-align: center;}
+#ms-container-services-atelier-template{position: relative;}
 #ms-atelier-second-section{background-position: 50% -200.275px!important;}
 #ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
 #ms-atelier-secont-section-text p{margin:2px 0;color:white;}
@@ -749,6 +750,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-image-header-nine-section-11{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 32.329% 46.57%;background-size: 600%;width: 78px;height: 86px;position: absolute;bottom: 25%;left: 24%;}
 #ms-image-header-nine-section-12{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.37% 4.762%;background-size: 310%;width: 154px;height: 90px;position: absolute;left: 32%;top: 80%;}
 #ms-wrapper-content-nine-logistique p{text-align: center;}
+#ms-indicator-first-left-demo{left: 70%;top: 45%;}
+#ms-indicator-right-demo{left: -30%;top: 60%;}
+#ms-indicator-last-demo{top: 55%;left: 80%;}
+
 #ms-line-indicator-left-logistique{top: 50%;left: 40%;}
 #ms-line-indicator-rigth-logistique{left: 48%;top: 46%;transform: rotate(180deg);}
 #ms-line-indicator-last-logistique{top:38%;}
@@ -1545,9 +1550,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-interesses-logistique-res{width: 39%;position: absolute;top: -2%;left: -10%;}
     #ms-text-header-eigth-section p{margin-left:15%!important;}
     #ms-title-header-eigth-section h2{margin-left:30%;}
-    #ms-line-indicator-rigth-logistique{top: 13%!important;left: 50%!important;}
-    
+    #ms-line-indicator-rigth-logistique{top: 13%!important;left: 50%!important;}  
     /* Footer */
+
+    /* Notre Concept */
+
+
 
 
   }
@@ -1951,7 +1959,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Contact Page */
 
       /* Atelier */
-      .ms-services-line-indicator{right: -70px;top: 190px;}
       .ms-atelier-services-card{width: 32%;margin:4px;padding: 8px 3px;}
     }
 
@@ -2486,6 +2493,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-atelier-serv3-res{width: 100%;display: table;margin:0 auto;}
       #ms-wrapper-serv2-atelier{text-align: right;}
 
+
       /* Responsive demo culinaire */
       .ms-container-services-demo-rigth{text-align: right;}
       #ms-atelier-first-section h1{font-size: 35px!important;}
@@ -2510,6 +2518,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-atelier-secont-section-text p{color:white;}
       #ms-header-container-eigth-section{position: initial;left:unset;transform: unset;}  
       #ms-wrapper-content-nine-section #ms-title-intereses{margin:10% 0;}  
+      #ms-indicator-first-left-demo{left: 40%;top: 25%;}
       /* Notre concept */
       .ms-no-padding-bottom{padding: 50px 70px!important;}
       #ms-title-notre-second-section{float: initial;width: 100%;word-break: unset;text-align: center;}
@@ -2548,7 +2557,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-line-indicator-left-logistique{top: 18%;left: 42%;}
       #ms-line-indicator-rigth-logistique{top: 14%;left: 40%;}
       #ms-line-indicator-last-logistique{top: 16%;left: 42%;}
-
+      
 
     }
 

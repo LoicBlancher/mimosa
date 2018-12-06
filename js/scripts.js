@@ -138,8 +138,7 @@ jQuery(function ($) {
       });
 
       $('#ms-slider-testimonials').slick({
-        autoplay:true,
-        autoplaySpeed:3000
+        waitForAnimate:true  
       });
 
 

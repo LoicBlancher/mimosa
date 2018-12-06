@@ -250,8 +250,9 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     .ms-footer-pts #mg-footer-menu-terms{position: relative;right: 10px;}
     .ms-footer-pts .copyright{color: #736f6f;font-size: 12px;}
 
-    /* Copyrigth */
-    #ms-copyright-gr a:hover{color:var(--mimosa-yellow);}
+    /* Copyrigth Mimosa Gradi */
+    #ms-copyright-gr a{color:#ffcf01;}
+    #ms-copyright-gr a:hover{color:#b5b3ac;}
 
 /*------------------------------------*\
     END FOOTER
@@ -588,10 +589,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-wrapper-header-atelier p{color:black;margin-top:0;}
 #ms-wrapper-header-atelier h2{margin-top:0;}
 #ms-title-testimonials-all{text-align: center;}
-#ms-container-services-atelier-template{position: relative;}
 #ms-atelier-second-section{background-position: 50% -200.275px!important;}
 #ms-atelier-secont-section-text{margin: 0 auto;text-align: center;}
-#ms-atelier-secont-section-text p{margin:2px 0;color:white;}
+#ms-atelier-secont-section-text p{margin:2px 0;color:black;}
 #ms-atelier-secont-section-text h2{margin-bottom: 40px;}
 .ms-gray{color:var(--mimosa-gray-dark)!important;}
 #ms-italics-p{font-weight: bold;font-style: italic;color:var(--mimosa-black-dark);}
@@ -602,8 +602,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-testimonials-title-header{text-align: center;}
 .ms-services-description h3{margin-top: 5px;}
 .ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
-.ms-services-line-indicator{width: 120px;height: 2px;background: var(--mimosa-yellow);position: absolute;left: 38%;top: 43%;}
-.ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: absolute;left: 99%;bottom: -6px;}
+.ms-services-line-indicator{width: 90px;height: 2px;background: var(--mimosa-yellow);position: absolute;left: 38%;top: 43%;}
+.ms-services-line-indicator:after{content: '\25CF';font-size: 14px;color: #ffc80a;position: absolute;left: 97%;bottom: -7px;}
 .ms-services-img{float: left;padding: 20px 0 0 200px;}
 #ms-services-img-rigth{}
 .ms-services-line-indicator-rigth{left: 48%;top: 40%;transform: rotate(180deg);}
@@ -655,7 +655,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-atelier-second-service-responsive{display: none;}
 #ms-atelier-third-service-responsive{display: none;}
 #ms-back-vegetables-demo{margin-left:12%;}
-.ms-services-description h2{margin:4% 0;}
+.ms-services-description h2{margin:4% 0;position: relative;}
 /*--------------------------------------------------------*\
      END ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
@@ -750,9 +750,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-image-header-nine-section-11{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 32.329% 46.57%;background-size: 600%;width: 78px;height: 86px;position: absolute;bottom: 25%;left: 24%;}
 #ms-image-header-nine-section-12{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.37% 4.762%;background-size: 310%;width: 154px;height: 90px;position: absolute;left: 32%;top: 80%;}
 #ms-wrapper-content-nine-logistique p{text-align: center;}
-#ms-indicator-first-left-demo{left: 70%;top: 45%;}
-#ms-indicator-right-demo{left: -30%;top: 60%;}
-#ms-indicator-last-demo{top: 55%;left: 80%;}
+#ms-indicator-first-left-demo{left: 90%;top: 55%;}
+#ms-indicator-right-demo{left: -25%;top: 60%;}
+#ms-indicator-last-demo{top: 55%;left: 90%;}
+#ms-indicator-second-responsive-demo{}
 
 #ms-line-indicator-left-logistique{top: 50%;left: 40%;}
 #ms-line-indicator-rigth-logistique{left: 48%;top: 46%;transform: rotate(180deg);}
@@ -2795,6 +2796,4 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 
 #ms-img-oats{display: none;}
-
-
 

@@ -758,7 +758,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-indicator-last-demo{top: 55%;left: 90%;}
 #ms-indicator-first-left-log{left:100%;}
 #ms-indicator-right-log{left:-30%;}
-#ms-indicator-second-responsive-log{}
 #ms-indicator-last-log{left:90%;}
 /*------------------------------------*\
     END LOGISTIQUE CULINARIE
@@ -2597,9 +2596,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-services-logistique-2{position: relative;top:40px;}
       #ms-logistique-ser2-tool3-res{background-size: 1100%;width: 80px;height: 100px;top: 10%;left: 70%;}
       #ms-interesses-logistique-res{width: 50%;position: absolute;top: -1%;left: -13%;}
-      #ms-line-indicator-left-logistique{top: 18%;left: 42%;}
-      #ms-line-indicator-rigth-logistique{top: 14%;left: 40%;}
-      #ms-line-indicator-last-logistique{top: 16%;left: 42%;}
+      #ms-indicator-first-left-log{left: 40%;top: -110%;}
+      #ms-indicator-second-responsive-log{top: -60%;left: 36%;}
+      #ms-indicator-last-log{left: 45%;top: -110%;}
       
 
     }

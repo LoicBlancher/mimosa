@@ -901,8 +901,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-9{left:23%;}
     #ms-image-header-nine-section-8{left:28%;}
     #ms-image-header-nine-section-12{top:78%;}
-    #ms-line-indicator-last-logistique{top: 35%;left: 38%;}
-    #ms-line-indicator-left-logistique{top:44%;}
+    #ms-indicator-last-log{left:98%;}
 
   
 
@@ -1053,7 +1052,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-services-img img{width: 100%!important;position: relative;left: 40px;}
     #ms-services-line-indicator-rigth{top:40%;}
     #ms-six-section-image img{width: 200px;padding: 90px 0;}
-    #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
+    #ms-cta-seven-section{position: relative!important;left: -2px!important;}
     #ms-atelier-serv1-res{width: 100%;}
     #ms-atelier-serv2-res{width: 100%;}
     #ms-atelier-serv3-res{width: 100%;} 
@@ -1170,7 +1169,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-services-line-indicator-rigth{top:40%;}
    #ms-six-section-image img{width: 200px;padding: 90px 0;}
    .ms-atelier-services-card{padding: 15px 20px!important;width: 48%!important;margin: 7px 3px!important;}
-   #ms-cta-seven-section{min-width: 182px!important;position: relative!important;left: -2px!important;}
+   #ms-cta-seven-section{position: relative!important;left: -2px!important;}
    #ms-wrapper-cta-nine-section-atelier{width: 450px;position: relative;left: -70px;} 
    #ms-elementAt9-ser1,
    #ms-atelier-serv1-res{width: 100%;}
@@ -1211,6 +1210,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-footer-ingredients-card{width: 88.5%;}
   #ms-text-footer{padding: 10px;}
   #ms-scroll-tab{transform: translateX(130%);}
+  
+  /* Logistique */
 
   
 
@@ -1221,7 +1222,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-slider-home h1{font-size: 49px!important;margin-bottom: 0;margin-top:20px;}
    h2{font-size:37px;}
    .ms-logo-mimosa-main{top: -50px;left: -20px;width: 50%;}
-   .ms-yellow-btn-black-text{font-size: 0.7em;}
    #ms-know-more{float: right;}
    #ms-responsive-onion-home{width: 110%;left: 10%;position: relative;top: -50px;}
    #ms-seed-complete{left:40%;}
@@ -1284,20 +1284,21 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-logistique-ser2-tool2,
     #ms-logistique-ser2-tool4,
     #ms-logistique-ser2-tool5{display: none;}
-    #ms-camion-logistique{width: 90%!important;margin-left:0;}
+    #ms-camion-logistique{width: 90%!important;margin-left:0;position: relative;top:80px;}
     #ms-services-logistique-3{width: 80%!important;}
-    #ms-services-logistique-2{width: 80%!important;position: relative;top: 40px;}
-    #ms-interesses-logistique-res{width: 36%;position: absolute;top: -2%;left: 5%;}
+    #ms-services-logistique-2{width: 80%!important;position: relative;top: 50px;}
+    #ms-interesses-logistique-res{width: 34%;position: absolute;top: -2%;left: 5%;}
     #ms-text-header-eigth-section p{margin-left:15%!important;}
     #ms-title-header-eigth-section h2{margin-left:30%;}
-    #ms-line-indicator-rigth-logistique{top: 23%!important;left: 60%!important;}
+    #ms-indicator-first-left-log{top:50%;}
+    #ms-indicator-right-log{top:60%;}
+    #ms-indicator-last-log{top:50%;}
   }
 
   @media only screen and (min-width: 780px) and (max-width: 880px){
     p{font-size: 13px!important;}
     h1{font-size: 50px!important;}
     h2{font-size:36px!important;}
-    .ms-yellow-btn-black-text{font-size: 0.65em;}
     .ms-logo-mimosa-main{top: -30px;left: -10%;width: 55%;}
     #ms-slider-home h1{line-height: 0.9em;top: 10px!important;}
     #ms-know-more{float: right;}
@@ -1368,13 +1369,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-logistique-ser2-tool2,
     #ms-logistique-ser2-tool4,
     #ms-logistique-ser2-tool5{display: none;}
-    #ms-camion-logistique{width: 90%!important;margin-left:0;}
+    #ms-camion-logistique{width: 90%!important;margin-left:0;position: relative;top:100px;}
     #ms-services-logistique-3{width: 80%!important;}
-    #ms-services-logistique-2{width: 80%!important;position: relative;top: 40px;}
+    #ms-services-logistique-2{width: 80%!important;position: relative;top: 80px;}
     #ms-interesses-logistique-res{width: 37%;position: absolute;top: -2%;left: 3%;}
     #ms-text-header-eigth-section p{margin-left:15%!important;}
     #ms-title-header-eigth-section h2{margin-left:30%;}
-    #ms-line-indicator-rigth-logistique{top: 23%!important;left: 50%!important;}
+    #ms-indicator-first-left-log{top:40%;}
+    #ms-indicator-right-log{top:40%;}
+    #ms-indicator-last-log{top:40%;}
 
   }
 
@@ -1574,7 +1577,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-interesses-logistique-res{width: 39%;position: absolute;top: -2%;left: -10%;}
     #ms-text-header-eigth-section p{margin-left:15%!important;}
     #ms-title-header-eigth-section h2{margin-left:30%;}
-    #ms-line-indicator-rigth-logistique{top: 13%!important;left: 50%!important;}  
+    #ms-line-indicator-rigth-logistique{top: 13%!important;left: 50%!important;}
+    #ms-indicator-first-left-log{left:40%;top:-100%;}
+    #ms-indicator-second-responsive-log{top:-100%;}
+    #ms-indicator-last-log{top:-100%;left:40%;}  
     /* Footer */
 
     /* Notre Concept */
@@ -1755,8 +1761,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-text-header-eigth-section p{margin-left:15%!important;}
   #ms-title-header-eigth-section h2{margin-left:30%;}
   #ms-line-indicator-rigth-logistique{top: 13%!important;left: 50%!important;}
-  /* Notre Concept */
+  #ms-indicator-first-left-log{left: 40%;top: -90%;}
   #ms-container-galerie-notre-concept #ms-image-galerie-box{width: 25%!important;}
+  #ms-indicator-second-responsive-log{top:-60%;}
+  #ms-indicator-last-log{top: -75%;left: 40%;}
+  /* Notre Concept */
 
   } 
 
@@ -1840,6 +1849,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-services-logistique-2{width: 90%;position: relative;top: 40px;}
       #ms-logistique-ser2-tool3-res{top: 7%;left: 70%;}
       #ms-interesses-logistique-res{width: 45%;position: absolute;top: -2%;left: -10%;}
+      #ms-indicator-first-left-log{left: 38%;top: -85%;}
+      #ms-indicator-second-responsive-log{top: -55%;left: 45%;}
+      #ms-indicator-last-log{left: 38%;top: -85%;}
       /* Notre Concept */
       #ms-footer-ingredients-card{width: 90%;}
       #ms-text-footer{padding: 20px;}
@@ -2639,9 +2651,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-logistique-ser2-tool1-res{left:50%;}
       #ms-interesses-logistique-res{left:-17%;}
       .ms-services-line-indicator{width: 55px;}
-      #ms-line-indicator-left-logistique{left:40%;top:16%;}
-      #ms-line-indicator-rigth-logistique{top:15%;left:38%;}
-      #ms-line-indicator-last-logistique{left:46%;}
+      #ms-indicator-first-left-log{top:-70%;}
 
 
     }
@@ -2688,14 +2698,20 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-image-header-nine-section-atelier-3{background-size: 2000%;width: 40px;height: 20px;left: 21%;}
       #ms-indicator-atelier-right{top: 11%;left: 40%;}
       #ms-elementAt4-ser2-res{top:6%;}
+
+      /* Logistique */
+      #ms-indicator-first-left-log{top: -40%;left: 30%;}
+      #ms-indicator-second-responsive-log{top: -40%;left: 40%;}
+      #ms-indicator-last-log{top:-55%;}
+      #ms-logistique-ser2-tool3-res{top:5%;}
+
     }
 
      @media only screen and (max-width: 360px) {
-        .ms-yellow-btn-black-text{font-size: 0.6em;}
         /* Home Page */
         #ms-slider-home p.white{margin: 0;top: -50px;}
         #ms-container-bacon-home{left:-55%;}
-          #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{min-width: 45%;font-size: 0.56em;max-width: 45%;padding: 6% 5%;}
+          #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{min-width: 45%;max-width: 45%;padding: 6% 5%;}
         #ms-wrapper-btns-lastsection .ms-transparent-btn-black-text{font-size: 0.52em;padding: 6% 3%;max-width: 45%;}
         /* Responsive qui sommes */
         #ms-img-carousel-with-pagination #ms-paginator-carousel ul{bottom:430%;}
@@ -2714,7 +2730,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         .ms-wrapper-contact-form label{font-size: 10px;}
         .ms-social-infolgcontactP svg{font-size: 40px!important;}
         /* Atelier */
-        
         #ms-galerie-lightbox img{width: 290px;position: relative;top:100px;}
         /* Demo culinaire */
         #ms-demo-culinaire-serv-1{top:40px;}
@@ -2735,7 +2750,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
         /* Logistique */
         #ms-camion-logistique{height: 200px;}
-        #ms-logistique-ser2-tool1-res{background-size: 540%;width: 120px;height: 55px;left: 57%;}       
+        #ms-logistique-ser2-tool1-res{background-size: 540%;width: 120px;height: 55px;left: 57%;} 
+        #ms-indicator-first-left-log{left:33%;}
+        #ms-logistique-ser2-tool2-res{top:11%;}
+
 
      }
       
@@ -2793,7 +2811,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         #ms-vegetables-demo{top:40px;}
         #ms-el-dem-serv1-res{left:67%;}
         #ms-bacon-services-demo{top:30px;}
-        #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{min-width: 48%;}
+        #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{min-width: 48%;font-size:0.59em;}
         #ms-image-header-nine-section{width: 90px;height: 100px;left: 5%;}
         /* Notre concept */
         #ms-title-notre-second-section{word-break: break-all;}
@@ -2807,9 +2825,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         /* Logistique */
         #ms-interesses-logistique-res{width: 55%;top:-2%;}
         .ms-services-line-indicator{width: 50px;}
-        #ms-line-indicator-left-logistique{top:17.5%;}
-        #ms-line-indicator-rigth-logistique{top:16.6%;}
-        #ms-line-indicator-last-logistique{top:18.6%;}
+        #ms-indicator-first-left-log{left:35%;}
+        #ms-indicator-second-responsive-log{top:-35%;left:36%;}
+
         
 
 

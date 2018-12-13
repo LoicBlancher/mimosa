@@ -2658,7 +2658,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       
 
       /* Responsive devis */
-      
+      #ms-header-contact-page p.first{margin-bottom: 0;}
+      #ms-wrapper-checkbox-devis{float: initial;width: 70%;padding: unset;}
 
     }
 
@@ -2702,6 +2703,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
       /* Contact */
       .ms-social-infolgcontactP svg{font-size:2em!important;}
+      #ms-header-contact-page h1{font-size: 40px!important;text-align: center;}
+      #ms-header-contact-page p.first{text-align: center;}
 
 
     }
@@ -2756,7 +2759,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-logistique-ser2-tool3-res{top:5%;}
 
       /* Contact */
-      #ms-header-contact-page h1{font-size:40px!important;}
+      #ms-header-contact-page h1{font-size:40px!important;margin-top:20%;}
       .ms-wrapper-contact-form .ms-form-mimosa-contact-text, 
       .ms-form-mimosa-contact-email,
       .ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{width: 70%;left:28%;}
@@ -2888,7 +2891,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         #ms-indicator-second-responsive-log{top:-35%;left:36%;}
 
         
-
+        /* Devis */
+        .devis #ms-check-contact-page{top:20px;}
 
 
 

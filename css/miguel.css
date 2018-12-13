@@ -364,7 +364,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     Demander Devis Page
 \*------------------------------------*/
 .ms-wrapper-contact-form #ms-services-textbox{padding: 10px;font-size: 13px;font-weight: bold;}
-#ms-wrapper-checkbox-devis{float: left;width: 55%;padding: 0 17px;}
+#ms-wrapper-checkbox-devis{float: left;width: 45%;padding: 0 17px;}
 #ms-wrapper-checkbox-devis #ms-check-contact-page{top: 0;margin-left: 4%;font-size: 14px;color: var(--mimosa-gray-dark);letter-spacing: 0;}
 #ms-fixed-logo-devis{position: fixed;z-index: 15;margin-top: 2%;margin-left: 2%;width: 80%;}
 
@@ -2182,10 +2182,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Responsive contact page */
       .ms-left-section-fixed{display: none;}
       .ms-right-section-scroll{width: 100%;}
-      #ms-image-map-contact-responsive{display: block;}
+      #ms-image-map-contact-responsive{display: block;position: relative;}
       #ms-image-map-contact-responsive img{width: 100%;height:1050px; }
-
-
 
       /* ThankYou Page */
       .ms-thankyou-header-text{padding: 0;}
@@ -2213,7 +2211,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-galerie-lightbox img{width: 650px;position: relative;top:4px;}
 
       /* Notre concept */
-      /* Notre concept */
       #ms-part1-force-notrec,
       #ms-part2-force-notrec,
       #ms-part3-force-notrec,
@@ -2226,6 +2223,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-part10-force-notrec,
       #ms-part11-force-notrec,
       #ms-image-base-force-notrec{display: none;}
+
+      /* Devis */
+      #ms-fixed-logo-devis{display: none;}
+      #ms-responsive-mimosa-logo-devis{position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);}
 
     }
   
@@ -2654,6 +2655,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-indicator-first-left-log{left: 40%;top: -110%;}
       #ms-indicator-second-responsive-log{top: -60%;left: 36%;}
       #ms-indicator-last-log{left: 45%;top: -110%;}
+      
+
+      /* Responsive devis */
       
 
     }

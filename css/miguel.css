@@ -756,10 +756,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-indicator-first-left-demo{left: 90%;top: 55%;}
 #ms-indicator-right-demo{left: -25%;top: 60%;}
 #ms-indicator-last-demo{top: 55%;left: 90%;}
-#ms-indicator-first-left-log{}
-#ms-indicator-right-log{}
+#ms-indicator-first-left-log{left:100%;}
+#ms-indicator-right-log{left:-30%;}
 #ms-indicator-second-responsive-log{}
-#ms-indicator-last-log{}
+#ms-indicator-last-log{left:90%;}
 /*------------------------------------*\
     END LOGISTIQUE CULINARIE
 \*------------------------------------*/

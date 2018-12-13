@@ -270,7 +270,7 @@ box-shadow: inset 0px 15px 39px 1px rgba(208,208,210,0.75);}
 #ms-bullet-first{position: relative;}
 div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";display: block;margin: 0 auto;width: 70%;border-bottom: 1px solid #dfdfdf;}
 #ms-bullet-point-roller{background: url('../img/home-page-img-mimosa.png') no-repeat 54.965% 84.378%;width: 60px;height: 60px;}
-#ms-bullet-point-spoon{background: url('../img/home-page-img-mimosa.png') no-repeat -1069px -936px;width: 60px;height: 60px;}
+#ms-bullet-point-spoon{background: url('../img/home-page-img-mimosa.png') no-repeat 61.721% 85.014%;width: 60px;height: 60px;}
 .ms-content-bullets{float: left;width: 70%;}
 
 
@@ -1202,7 +1202,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-skill-fourth-fork{margin-left:0!important;}
   #ms-skill-one-fork,
   #ms-skill-two-fork{width: 310px;margin-left: 0!important;transform: translateX(-13%);}
-  #ms-fork-notre-concept{width: 90%;transform: translateY(50%) translateX(18%);}
+  #ms-fork-notre-concept{width: 90%;transform: translateY(42%) translateX(18%);}
   #ms-part12-force-notrec{top: 480px;left: -168px;}
   #ms-part13-force-notrec{top: 10px;left: -130px;}
   #ms-image-base-force-notrec-res{position: relative;right: 120px;top:0;}
@@ -1264,6 +1264,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-box-container{min-height: 470px;}
     #ms-map-qui-sommes{padding: 0;} 
     #ms-team-section{margin-top:0;}
+    /* Notre concept */
+    #ms-skill-three-fork #ms-bullet-point-roller{background-size: 2700%;width: 50px;height: 50px}
+    #ms-skill-fourth-fork #ms-bullet-point-spoon{background-size: 2700%;width: 50px;height: 50px;}
+    #ms-skill-one-fork #ms-bullet-point-egg{background-size: 1100%;width: 50px;height: 50px;}  
+    #ms-skill-two-fork #ms-bullet-point-knife{background-size: 1180%;width: 50px;height: 50px;}
+    #ms-bullet-point-egg,
+    #ms-bullet-point-knife{right: unset;}
+    .ms-item-list-notre-concept{display: flex;}
     /* Atelier */
     #ms-elementAt6-ser2{display: none;}
     .ms-img-icon-services-card img{width: 90%;display: table;margin:0 auto;}
@@ -1293,6 +1301,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-indicator-first-left-log{top:50%;}
     #ms-indicator-right-log{top:60%;}
     #ms-indicator-last-log{top:50%;}
+    footer{padding: 80px 0;}
   }
 
   @media only screen and (min-width: 780px) and (max-width: 880px){

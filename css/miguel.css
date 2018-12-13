@@ -903,8 +903,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-12{top:78%;}
     #ms-indicator-last-log{left:98%;}
 
-    /* Contact */
-
+    /* Devis */
+    #ms-wrapper-checkbox-devis{padding: 0;margin-left:5%;}
 
   }
 
@@ -940,6 +940,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-contactInfo-contactP{padding: 50px 0;}
     #ms-contactInfo-contactP p{letter-spacing: 0;}
     #ms-wrapper-img-contact-info{margin-top:40%;}
+    /* Devis */
+    .devis .ms-wrapper-contact-form label{margin-bottom:0;}
+    .devis #ms-check-contact-page{top:20px;}
   }
 
 
@@ -1218,7 +1221,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-text-footer{padding: 10px;}
   #ms-scroll-tab{transform: translateX(130%);}
   
-  /* Logistique */
 
   
 
@@ -1314,6 +1316,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     /* Contact */
     .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{left:20%;}
     #ms-wrapper-img-contact-info{margin-top:10%!important;}
+    /* Devis */
+    #ms-wrapper-checkbox-devis{width: 29%;}
+    .devis .ms-wrapper-contact-form .ms-footer-form{padding: 15% 0;}
   }
 
   @media only screen and (min-width: 780px) and (max-width: 880px){
@@ -1410,6 +1415,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
     /* Contact */
     #ms-image-map-contact-responsive img{height: auto!important;}
+    /* Devis */
+    #ms-wrapper-checkbox-devis{width: 40%;}
 
   }
 
@@ -1624,7 +1631,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-wrapper-img-contact-info{display: table;margin:5% auto 0 auto!important;}
     #ms-image-map-contact-responsive img{height: auto!important;}
     #ms-contactInfo-contactP{display: table;margin:0 auto;}
-
+  
 
   }
 
@@ -1806,6 +1813,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-header-contact-page h1{text-align: center;}
   #ms-wrapper-img-contact-info{display: table;margin:5% auto 0 auto!important;}
   #ms-image-map-contact-responsive img{height: auto!important;}
+  /* Devis */
+  .devis .ms-wrapper-contact-form .ms-footer-form{padding: 20% 0;}
 
   } 
 
@@ -1877,7 +1886,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-wrapper-serv2-atelier #ms-services-line-indicator-rigth{top: 25.3%;left: 34%;}
       #ms-atelier-serv2-res{width: 95%;}
       #ms-indicator-atelier-right{top: 10%;left: 40%;}
-
       #ms-image-header-nine-section-atelier-1{background-size: 1060%;width: 90px;height: 100px;top: 16%;left: 12%;}
       #ms-image-header-nine-section-atelier-2{background-size: 5200%;width: 18px;height: 25px;left: 26%;top: 14%;}
       #ms-image-header-nine-section-atelier-3{background-size: 2000%;width: 50px;height: 25px;left: 28%;top: 11%;}
@@ -1899,7 +1907,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Contact */
       #ms-wrapper-img-contact-info{display: table;margin:10% auto 0 auto;}
       #ms-image-map-contact-responsive img{height: auto!important;}
-
+      /* Devis */
+      .devis #ms-header-contact-page p.first{text-align: center;}
     }
   /*------------------------------------*\
       End Intervals Responsive

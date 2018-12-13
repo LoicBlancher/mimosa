@@ -59,7 +59,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.email{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.sujet{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.accepte{float: left;width: 100%;height: 30px;margin-bottom: 20px;}
-.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{ background-image: -webkit-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;outline:none;}
+.ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{background-image: -webkit-linear-gradient(white, white 30px, #8e8e8e 30px, #8e8e8e 31px, white 31px);background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);background-image: linear-gradient(white, white 30px, #8e8e8e 30px, #8e8e8e 31px, white 31px);background-size: 100% 31px;border-bottom: 0;line-height: 31px;padding: 8px;resize: none;position: relative;bottom: 40px;outline: none;}
 .ms-wrapper-contact-form .ms-footer-form{width: 100%;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-form-control-wrap{width: 60%;margin-top: 40px;line-height: 3.5em;}
 .ms-wrapper-contact-form .ms-footer-form .wpcf7-list-item label{width: 100%;text-transform: initial;}
@@ -895,7 +895,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-atelier-3{top: 10%;left: 40%;}
     .ms-box-container{margin:0 10px;}
   
-
     /* Logistique */
     
     #ms-services-logistique-3{width: 90%;}
@@ -904,7 +903,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-12{top:78%;}
     #ms-indicator-last-log{left:98%;}
 
-  
+    /* Contact */
+
 
   }
 
@@ -935,6 +935,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-six-section-image img{width: 250px;padding: 90px 0;}
     #ms-cta-seven-section{width: 190px;}
     .ms-box-container{margin:0 10px;}
+    /* Contact */
+    #ms-header-contact-page h1{font-size: 50px!important;margin-top: 16%;}
+    #ms-contactInfo-contactP{padding: 50px 0;}
+    #ms-contactInfo-contactP p{letter-spacing: 0;}
+    #ms-wrapper-img-contact-info{margin-top:40%;}
   }
 
 
@@ -1306,6 +1311,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-indicator-right-log{top:60%;}
     #ms-indicator-last-log{top:50%;}
     footer{padding: 80px 0;}
+    /* Contact */
+    .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{left:20%;}
+    #ms-wrapper-img-contact-info{margin-top:10%!important;}
   }
 
   @media only screen and (min-width: 780px) and (max-width: 880px){
@@ -1399,6 +1407,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-skill-two-fork{transform:translateX(-24%);}
     .ms-box-container{height: 500px;}
     #ms-notre-concept-gallery-header-title h2{font-size:30px!important;}
+
+    /* Contact */
+    #ms-image-map-contact-responsive img{height: auto!important;}
 
   }
 
@@ -1608,9 +1619,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-indicator-last-log{top:-100%;left:40%;}  
     /* Footer */
 
-    /* Notre Concept */
-
-
+    /* Contact */
+    #ms-header-contact-page h1{text-align: center;}
+    #ms-wrapper-img-contact-info{display: table;margin:5% auto 0 auto!important;}
+    #ms-image-map-contact-responsive img{height: auto!important;}
+    #ms-contactInfo-contactP{display: table;margin:0 auto;}
 
 
   }
@@ -1720,11 +1733,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-atelier-serv3-res{width: 100%;display: table;margin:0 auto;}
    #ms-wrapper-serv2-atelier{text-align: right;}
    #ms-indicator-second-responsive-atelier{top:10%;}
-   #ms-indicator-last-atelier{top:11%;}
-
-   
-    
-  
+   #ms-indicator-last-atelier{top:11%;}  
 
   /* Demo culinaire */
   #ms-indicator-first-left-demo{top: -80px;left: 40%;}
@@ -1792,6 +1801,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-indicator-first-left-log{left: 40%;top: -90%;}
   #ms-indicator-second-responsive-log{top:-60%;}
   #ms-indicator-last-log{top: -75%;left: 40%;}
+
+  /* Contact */
+  #ms-header-contact-page h1{text-align: center;}
+  #ms-wrapper-img-contact-info{display: table;margin:5% auto 0 auto!important;}
+  #ms-image-map-contact-responsive img{height: auto!important;}
 
   } 
 
@@ -1882,6 +1896,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-text-footer{padding: 20px;}
       #ms-fork-notre-concept{width: 80%;top: unset;left: 48%;transform: translateX(-50%);}
       #ms-image-base-force-notrec-res{width:100%;}
+      /* Contact */
+      #ms-wrapper-img-contact-info{display: table;margin:10% auto 0 auto;}
+      #ms-image-map-contact-responsive img{height: auto!important;}
 
     }
   /*------------------------------------*\

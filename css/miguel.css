@@ -448,7 +448,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-wrapper-text-six-section-qui-sommes .ms-primary-btn-bl{color: white;letter-spacing: 0.2em;margin: 30px 0;}
 #ms-sommes-seven-section h2{text-align: center;margin-bottom: 70px;}
 #ms-box-offres{float: left;width: 100%;}
-.ms-box-container{float: left;width: 30%;background: #fff;margin:0 10px;transition: 1s ease;border-radius:5px;}
+.ms-box-container{float: left;width: 30%;background: #fff;margin:0 20px;transition: 1s ease;border-radius:5px;}
 .ms-box-container:hover{-webkit-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);transition: 1s ease;box-shadow: -webkit-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1); -moz-box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);box-shadow: 2px 0px 28px 12px rgba(217,217,217,1);}
 .ms-box-container h6, .ms-box-container p{text-align: center;}
 .ms-box-container h6{margin:0 10px;}
@@ -519,7 +519,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 #ms-concept-second-subsection{}
 #ms-container-plants-notre-concept{position: relative;}
-#ms-fork-notre-concept{position: absolute;top:0;}
+#ms-fork-notre-concept{position: absolute;top:0;left:7%;}
 #ms-skill-one-fork{padding: 10px;width: 380px;}
 #ms-skill-two-fork{padding: 10px;width: 400px;}
 #ms-skill-three-fork{padding: 10px;text-align: right;}
@@ -1272,6 +1272,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-bullet-point-egg,
     #ms-bullet-point-knife{right: unset;}
     .ms-item-list-notre-concept{display: flex;}
+    #ms-skill-one-fork,
+    #ms-skill-two-fork{transform:translateX(-20%);}
     /* Atelier */
     #ms-elementAt6-ser2{display: none;}
     .ms-img-icon-services-card img{width: 90%;display: table;margin:0 auto;}
@@ -1387,6 +1389,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-indicator-first-left-log{top:40%;}
     #ms-indicator-right-log{top:40%;}
     #ms-indicator-last-log{top:40%;}
+
+    /* Notre concept */
+    #ms-title-notre-second-section h2{font-size: 30px!important;}
+    #ms-fork-notre-concept{width: 70%;transform: translateY(91%) translateX(33%)}
+    #ms-skill-one-fork,
+    #ms-skill-two-fork{transform:translateX(-24%);}
+    .ms-box-container{height: 500px;}
+    #ms-notre-concept-gallery-header-title h2{font-size:30px!important;}
 
   }
 
@@ -1559,7 +1569,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-bullet-right{transform: unset;}
     #ms-concept-third-section{padding: 80px 50px!important;height: 1100px}
     #ms-skill-fourth-fork{text-align: center;}
-    #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+    #ms-fork-notre-concept{position: relative;width: 70%;left: 47%;transform: translateY(2%) translateX(-50%);}
     #ms-skill-one-fork{text-align: center;width: unset;}
     #ms-skill-two-fork{text-align: center;width: unset;}
     #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -100px;left: 90px;}
@@ -1573,7 +1583,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-text-footer{padding: 30px;}
     #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
     .ms-gallery-notre-concept{height: 550px!important;}
-    
+    #ms-skill-three-fork,
+    #ms-skill-fourth-fork{float: initial;width:unset;}
+    #ms-skill-one-fork, 
+    #ms-skill-two-fork{transform:unset;}
+
 
     /* Logistique */
     #ms-camion-logistique{width: 80%!important;}
@@ -1746,7 +1760,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-bullet-right{transform: unset;}
   #ms-concept-third-section{padding: 80px 50px!important;height: 1100px}
   #ms-skill-fourth-fork{text-align: center;}
-  #ms-fork-notre-concept{position: relative;width: 100%;top:-100px;}
+  #ms-fork-notre-concept{position: relative;width: 70%;left: 47%;transform: translateX(-50%);top: 10px;}
   #ms-skill-one-fork{text-align: center;width: unset;}
   #ms-skill-two-fork{text-align: center;width: unset;}
   #ms-image-base-force-notrec-res{position: relative;transform: rotate(20deg);width: unset;top: -100px;left: 90px;}
@@ -1759,6 +1773,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-footer-ingredients-card{width: 93.3%;}
   #ms-text-footer{padding: 30px;}
   #ms-scroll-tab{transform: translateY(550%) translateX(-50%);position: relative;left: 50%;text-align: center;}
+  #ms-skill-three-fork,
+  #ms-skill-fourth-fork{float: initial;width:unset;}
+  #ms-image-base-force-notrec-res{width:80%;}
   /* Logistique */
   #ms-camion-logistique{width: 90%!important;}
   #ms-logistique-ser2-tool1-res{top: 10%;left: 55%;transform: rotate(50deg);}  
@@ -1771,10 +1788,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-title-header-eigth-section h2{margin-left:30%;}
   #ms-line-indicator-rigth-logistique{top: 13%!important;left: 50%!important;}
   #ms-indicator-first-left-log{left: 40%;top: -90%;}
-  #ms-container-galerie-notre-concept #ms-image-galerie-box{width: 25%!important;}
   #ms-indicator-second-responsive-log{top:-60%;}
   #ms-indicator-last-log{top: -75%;left: 40%;}
-  /* Notre Concept */
 
   } 
 
@@ -1864,6 +1879,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Notre Concept */
       #ms-footer-ingredients-card{width: 90%;}
       #ms-text-footer{padding: 20px;}
+      #ms-fork-notre-concept{width: 80%;top: unset;left: 48%;transform: translateX(-50%);}
+      #ms-image-base-force-notrec-res{width:100%;}
 
     }
   /*------------------------------------*\

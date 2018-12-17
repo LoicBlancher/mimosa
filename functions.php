@@ -243,7 +243,7 @@ function html5blank_styles()
     wp_enqueue_style('slickTheme',get_template_directory_uri().'/css/slick-theme.css');
     wp_enqueue_style('slickTheme'); // Enqueue it!
 
-    wp_enqueue_style('hoverMin',get_template_directory_uri().'/css/hover-min.css');
+    wp_enqueue_style('hoverMin',get_template_directory_uri().'/css/hover.css');
     wp_enqueue_style('hoverMin'); // Enqueue it!
 }
 // Register HTML5 Blank Navigation

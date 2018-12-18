@@ -12,8 +12,9 @@ jQuery(function ($) {
 
     /* Main Menú */
      $("#mg-main-menu-btn a").click(function () {
-         $('#mg-external-wrapper-main-menu').fadeToggle(200); 
-         $("#mg-wrapper-main-menu").fadeToggle(200);
+        $('#mg-external-wrapper-main-menu').fadeToggle(200); 
+        let mainMenu = document.getElementById("mg-wrapper-main-menu");
+        mainMenu.style.display = "block";
      });
 
 
@@ -28,7 +29,7 @@ jQuery(function ($) {
     
      $('#mg-wrapper-main-menu').click(function(e){
       e.stopPropagation();
-     })   
+     });   
 
 
      $('.menu-link').bigSlide();
@@ -295,17 +296,16 @@ jQuery(function ($) {
         $(this).hide();
       });
 
+
+
+      /*
+      window.onscroll = function hasClass(ele,cls) {
+      return ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+      if(hasClass(document.querySelector("body"), "viewing-page-3")){
+        console.log("Ok");
+      };
+     }
+    */
       
-      $(window).scroll(function(){
-         var windowHeight = $(window).scrollTop();
-         var position = $("#ms-second-section-home").offset();
-         position = position.top;
-         console.log(position);
-
-         if(windowHeight >= position){
-          console.log("Ok this is second section home");
-         }
-
-      });
  }); 
 });

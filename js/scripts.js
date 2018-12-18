@@ -295,7 +295,17 @@ jQuery(function ($) {
         $(this).hide();
       });
 
-      /* MS - Animations general */
       
+      $(window).scroll(function(){
+         var windowHeight = $(window).scrollTop();
+         var position = $("#ms-second-section-home").offset();
+         position = position.top;
+         console.log(position);
+
+         if(windowHeight >= position){
+          console.log("Ok this is second section home");
+         }
+
+      });
  }); 
 });

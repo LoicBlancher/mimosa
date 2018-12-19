@@ -129,7 +129,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 /* Icons : Before Content */
 .icon::before {display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;-webkit-font-smoothing: antialiased;}
 /* Paginator One Page Bubble */
-#ms-bubble-paginator{position:fixed;top:30%;left: 10%;background: gray;width: 10%;height: auto;padding: 10px;display: none;}
+#ms-bubble-paginator{position: absolute;top: 13%;left: 25%;}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/

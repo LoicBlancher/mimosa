@@ -12,8 +12,12 @@ jQuery(function ($) {
 
       function drawBubble(id){
         if(id==2){
-          let bubble = document.getElementById('ms-bubble-paginator');
-          bubble.style.display = "block";  
+          let paginator = document.querySelector(".onepage-pagination");
+          let bubble = document.createElement("DIV");
+          bubble.setAttribute("id","ms-bubble-paginator");
+          let bubbleText = document.createTextNode("Démonstration");
+          bubble.appendChild(bubbleText);
+          paginator.appendChild(bubble);
         }
       }
 

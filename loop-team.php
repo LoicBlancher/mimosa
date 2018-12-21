@@ -54,6 +54,6 @@
         </div>
      <?php wp_reset_postdata();
     ?>
-    <a href="#" class="ms-transparent-btn-black-text" id="ms-cta-team">contactez nous</a>
+    <a href="http://mimosa.graditest.com/contact/" class="ms-transparent-btn-black-text hvr-float-shadow" id="ms-cta-team">contactez nous</a>
      
 </div>

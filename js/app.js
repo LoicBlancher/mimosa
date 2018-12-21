@@ -7,39 +7,68 @@ jQuery(function ($) {
          }
          else if(id == 2){
          }
-      }
+      }      
 
-
-      function drawBubble(id){
+      function menuTransform(id){
         if(id==2){
-          let paginator = document.querySelector(".onepage-pagination");
-          let bubble = document.createElement("DIV");
-          bubble.setAttribute("id","ms-bubble-paginator");
-          let bubbleText = document.createTextNode("Démonstration");
-          bubble.appendChild(bubbleText);
-          paginator.appendChild(bubble);
+          let button = $('#socialHeader a.yellowBtn');
+          console.log(button);
         }
       }
 
+       /* function showbubble(id){
+                      let paginator = document.querySelector(".onepage-pagination li a[href='#"+ id + "']");
+                       
+                       if(id==1){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Mimosa</span>';           
+                         bubble.style.display = "block";   
+                       }    
+                       else if(id==2){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Démonstration</span>';
+                         bubble.style.display = "block";      
+                       }
+                       else if(id==3){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Formation</span>';
+                         bubble.style.display = "block";      
+                       }
+                       else if(id==4){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Logistique</span>';
+                         bubble.style.display = "block";      
+                       }
+                       else if(id==5){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Contact</span>';
+                         bubble.style.display = "block";      
+                       }
+                       else if(id==6){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Clients</span>';
+                         bubble.style.display = "block";      
+                       }
+                       else if(id==7){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Interesses?</span>';
+                         bubble.style.display = "block";      
+                       }
+                       else if(id==8){
+                         let bubble = paginator.innerHTML = '<span class="ms-bubble-paginator" rel="'+ id +'">Mimosa</span>';
+                         bubble.style.display = "block";      
+                       }
+                    }*/
 
              $(".main").onepage_scroll({
-                sectionContainer: ".section-scroll",     // sectionContainer accepts any kind of selector in case you don't want to use section
-                easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
-                                                 // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-                animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
-                pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
-                updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-                beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+                sectionContainer: ".section-scroll",     
+                easing: "ease",                                                                   
+                animationTime: 1000,             
+                pagination: true,                
+                updateURL: false,                
+                beforeMove: function(index) {
+                    menuTransform(index);
+                },  
                 afterMove: function(index) {
-                          animateHome(index);
-                          drawBubble(index);
-                },   // This option accepts a callback function. The function will be called after the page moves.
-                loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-                keyboard: true,                  // You can activate the keyboard controls
-                responsiveFallback: 992,        // You can fallback to normal page scroll by defining the width of the browser in which
-                                                 // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
-                                                 // the browser's width is less than 600, the fallback will kick in.
-                direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+                    animateHome(index);
+                },   
+                loop: false,                     
+                keyboard: true,                  
+                responsiveFallback: 992,                                                                                                      
+                direction: "vertical"              
             });       
 
  }); 

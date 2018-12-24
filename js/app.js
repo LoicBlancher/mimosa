@@ -97,7 +97,86 @@ jQuery(function ($) {
           yoyo: true
         }).progress(0.5);*/
       })();
-          
+      
+
+      (function animateLogistique(){
+        /* Seeds Movement */
+        let seedOne = document.getElementById("ms-seed-one");
+        let seedTwo = document.getElementById("ms-seed-two");
+        let seedThree = document.getElementById("ms-seed-three");
+        let seedFour = document.getElementById("ms-seed-four");
+        let seedFive = document.getElementById("ms-seed-five");
+        let seedSix = document.getElementById("ms-seed-six");
+        TweenMax.fromTo(seedOne, 0.8, {
+              x: -1,
+            }, {
+              x: 1,
+              repeat: -1,
+              yoyo: true,
+              ease: SlowMo.easeInOut
+            });
+        TweenMax.fromTo(seedTwo, 3, {
+              x: -1,
+            }, {
+              x: 2,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
+        TweenMax.fromTo(seedThree, 3, {
+              x: -1,
+            }, {
+              x: 3,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
+        TweenMax.fromTo(seedFour, 2, {
+              x: -1,
+            }, {
+              x: 4,
+              repeat: -1,
+              yoyo: true,
+              ease: SlowMo.easeInOut
+            });
+        TweenMax.fromTo(seedFive, 5, {
+              x: -1,
+            }, {
+              x: 2,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
+        TweenMax.fromTo(seedSix, 5, {
+              x: -1,
+            }, {
+              x: 3,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
+      })(); 
+
+      function animateCustomersHome(id){
+        if(id==6){
+          let soup = document.getElementById("ms-img-soup");
+          TweenMax.fromTo(soup, 5, {
+                x: -190,
+              }, {
+                onComplete:moveAvocado,
+                x: 0,
+                ease: Power4.easeInOut
+              });
+          function moveAvocado(){
+            let avocado = document.getElementById("ms-img-avocado");
+            TweenMax.to(avocado , 5, {
+                  y: -230,
+                  ease: Power4.easeInOut
+                });
+
+          }
+        }
+      }
 
 
        /* function showbubble(id){
@@ -144,10 +223,9 @@ jQuery(function ($) {
                 pagination: true,                
                 updateURL: false,                
                 beforeMove: function(index) {
+                  animateCustomersHome(index);
                 },  
                 afterMove: function(index) {
-                    animateHome(index);
-                    animateDemoHome(index);
                 },   
                 loop: false,                     
                 keyboard: true,                  

@@ -169,9 +169,8 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     /* main_menu_nav() */
     #mg-wrapper-main-menu #mg-main-menu-content nav{float: left;width: 50%;}
     #mg-wrapper-main-menu #mg-main-menu-content ul{list-style-type:none ;padding: 0}
-    #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0;}
-    #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 22px;text-transform: uppercase;color:white;font-family: 'Gotham';letter-spacing: 0.15em}
-    #mg-wrapper-main-menu #mg-main-menu-content ul li a:hover{color:#edac21;text-decoration: none;border-bottom: 4px solid #ffbf2c;}
+    #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0 25px 0;display: block;}
+    #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 22px;text-transform: uppercase;color:white;font-family: 'Gotham';letter-spacing: 0.15em;}
     /*Newsletter Main Menu*/
     #mg-newsletter-main-menu{float: left;width: 50%;padding: 100px 0;}
     #mg-newsletter-main-menu #mg-newsletter-title{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;}

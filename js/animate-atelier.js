@@ -115,7 +115,69 @@ jQuery(function ($) {
 
               installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
                 if (matches) {
-                   
+                   let pot = document.getElementById("ms-atelier-pot2");
+                   TweenLite.fromTo(pot, 0.8, {
+                     x:-1}, {
+                       x:1, 
+                       ease:RoughEase.ease.config({
+                         strength:8, 
+                         points:20, 
+                         template:Linear.easeNone, 
+                         randomize:false}) , 
+                     clearProps:"x"})
+                   let el1 = document.getElementById("ms-elementAt6-ser2");
+                   TweenMax.to(el1, 6, {
+                         y:-135,
+                         x:35,
+                         ease: Elastic.easeOut.config(1, 0.3),
+                         onComplete:animateElement2()
+                       });
+                       function animateElement2(){
+                        let el2 = document.getElementById("ms-elementAt5-ser2");
+                        TweenMax.to(el2, 6, {
+                              delay:2,
+                              y:-135,
+                              x:-45,
+                              ease: Elastic.easeOut.config(1, 0.3),
+                              onComplete:animateElement3()
+                            });
+                        }
+                        function animateElement3(){
+                         let el3 = document.getElementById("ms-elementAt4-ser2");
+                         TweenMax.to(el3, 6, {
+                               delay:2,
+                               y:-280,
+                               x:35,
+                               ease: Elastic.easeOut.config(1, 0.3),
+                               onComplete:animateElement4()
+                             });
+                         }
+                         function animateElement4(){
+                          let el4 = document.getElementById("ms-elementAt3-ser2");
+                          TweenMax.to(el4, 6, {
+                                delay:2,
+                                y:-280,
+                                x:-45,
+                                ease: Elastic.easeOut.config(1, 0.3),
+                                onComplete:animateElement5()
+                              });
+                          }
+                         function animateElement5(){
+                          let el5 = document.getElementById("ms-elementAt2-ser2");
+                          let el6 = document.getElementById("ms-elementAt1-ser2");
+                          TweenMax.to(el5, 6, {
+                                delay:3,
+                                x:-580,
+                                rotation:360,
+                                ease:Bounce.easeOut  
+                              });
+                          TweenMax.to(el6, 4, {
+                                delay:3,
+                                x:420,
+                                rotation:360,
+                                ease:Bounce.easeOut  
+                              });
+                          }              
                 } else {
                  
                 }

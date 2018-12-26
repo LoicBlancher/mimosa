@@ -170,7 +170,7 @@ jQuery(function ($) {
                 template:Linear.easeNone, 
                 randomize:false}) , 
             clearProps:"x"})
-        }) 
+        }); 
 
         let imageTopCta = document.getElementById("ms-img-header-left-seven-section");
         let radiusImageTop = 20;

@@ -207,6 +207,73 @@ jQuery(function ($) {
           .time(dur);
         })();
 
+        let ctaControlez = document.getElementById("ms-cta-atelier-btn");
+        ctaControlez.addEventListener("mouseover",function(){
+          let light = document.getElementById("ms-avocado-demo");
+          TweenLite.fromTo(light, 0.3, {
+            x:-1}, {
+              x:1, 
+              ease:RoughEase.ease.config({
+                strength:8, 
+                points:20, 
+                template:Linear.easeNone, 
+                randomize:false}) , 
+            clearProps:"x"})
+        }); 
+
+
+        let imageTopCta = document.getElementById("ms-img-header-left-seven-section");
+        let radiusImageTop = 20;
+        TweenLite.set(imageTopCta,{ 
+          x: 0, 
+          y: -radiusImageTop
+        });
+        TweenMax.to(imageTopCta, 7, {
+          y: radiusImageTop,
+          ease: Sine.easeInOut,
+          repeat: -1,
+          yoyo: true
+        });
+        TweenMax.to(imageTopCta, 6, {
+          x: radiusImageTop,
+          ease: Sine.easeInOut,
+          repeat: -1,
+          yoyo: true
+        }).progress(0.5);
+
+        (function animateCtaDemo(){
+          let devisCtaDemo = document.getElementById("ms-cta-devis-atelier");
+          let contactCtaDemo = document.getElementById("ms-cta-contact-atelier");
+          devisCtaDemo.addEventListener("mouseover",function(event){
+            let el2 = document.getElementById("ms-image-header-nine-section-atelier-2");
+            let el3 = document.getElementById("ms-image-header-nine-section-atelier-3");
+            TweenMax.to(el2, 6, {
+                  y:-4,
+                  x:23,
+                  ease: Elastic.easeOut.config(1, 0.3),
+                });
+            TweenMax.to(el3, 6, {
+                  y:-10,
+                  x:32,
+                  ease: Elastic.easeOut.config(1, 0.3),
+                });
+          });
+          contactCtaDemo.addEventListener("mouseover",function(event){
+            let el2 = document.getElementById("ms-image-header-nine-section-atelier-2");
+            let el3 = document.getElementById("ms-image-header-nine-section-atelier-3");
+            TweenMax.to(el2, 6, {
+                  y:-4,
+                  x:23,
+                  ease: Elastic.easeOut.config(1, 0.3),
+                });
+            TweenMax.to(el3, 6, {
+                  y:-10,
+                  x:32,
+                  ease: Elastic.easeOut.config(1, 0.3),
+                });
+          });
+        })();      
+
       /*------------------------------------*\
           End Animations Demo Culinaire
       \*------------------------------------*/   

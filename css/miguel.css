@@ -717,6 +717,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-wrapper-cta-atelier-nine-section{display: inline-block;}
 #ms-cta-atelier-nine-section{margin-left:2%;}
 #ms-atelier-nine-section{position: relative;}
+#ms-cta-contact-atelier{margin-left:2%;}
 /* Atelier Template services */
 #ms-indicator-first-left-atelier{top:50%;}
 #ms-indicator-right-atelier{top:55%;}
@@ -2053,6 +2054,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-box-container{width: 27%!important;margin:0 30px!important;}
       /* Atelier */
       #ms-atelier-pot2{width: 25%;}
+      #ms-image-header-nine-section-atelier-2{top: 21%;left: 39%;}
+      #ms-image-header-nine-section-atelier-3{top: 16%;left: 39%;}
       /* Demo culinaire */
       .ms-services-line-indicator{top:-40px;}
       #ms-demo-second-service-wrapper{text-align: right;}

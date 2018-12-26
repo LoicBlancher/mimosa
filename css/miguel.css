@@ -2250,7 +2250,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-part9-force-notrec,
       #ms-part10-force-notrec,
       #ms-part11-force-notrec,
-      #ms-image-base-force-notrec{display: none;}
+      #ms-image-base-force-notrec,
+      #ms-seeds-wrapper-top{display: none;}
 
       /* Devis */
       #ms-fixed-logo-devis{display: none;}

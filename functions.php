@@ -943,6 +943,15 @@ function ms_enqueue_styles_one_page() {
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
 
 
+function ms_enqueue_animations_mimosa() {
+  if ( is_page( 'demo-culinaire'))  {
+    // Animations No One Page Template
+    wp_register_script('animationsGeneral', get_template_directory_uri() . '/js/animate.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsGeneral');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_mimosa' );
+
 /* Ms Add SVG Support */
 add_filter( 'upload_mimes', 'custom_upload_mimes' );
 function custom_upload_mimes( $existing_mimes = array() ) {

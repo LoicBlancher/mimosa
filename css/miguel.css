@@ -618,6 +618,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-gray{color:var(--mimosa-gray-dark)!important;}
 #ms-italics-p{font-weight: bold;font-style: italic;color:var(--mimosa-black-dark);}
 #ms-video-atelier{display: table;margin: 18% auto 0 auto;width: 80%;}
+#ms-demo-third-section,
+#ms-demo-fourth-section,
+#ms-demo-five-section,
 #ms-atelier-third-section,
 #ms-atelier-fourth-section,
 #ms-atelier-five-section{position: relative;}
@@ -690,14 +693,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-chicken2{background: url('../img/demostration-img-page-mimosa.png') no-repeat 78.814% 52.915%;width: 233px;height: 179px;position: absolute;top: 36%;left: 60%;}
 #ms-chicken3{background: url(../img/demostration-img-page-mimosa.png) no-repeat 97.576% 7.692%;width: 178px;height: 261px;position: absolute;top: 24%;right: 10%;}
 #ms-demo-serv2{position: relative;left: -190px;top: -80px;}
-#ms-el-dem-serv1{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.214% 16.396%;width: 98px;height: 70px;position: absolute;top: 10%;left: 10%;transform: rotate(-15deg);}
+#ms-el-dem-serv1{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.214% 16.396%;width: 98px;height: 70px;position: absolute;top: 10%;left: -10%;transform: rotate(-15deg);}
 #ms-el-dem-serv1-res{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.214% 16.396%;width: 98px;height: 70px;position: absolute;top: 10%;left: 65%;transform: rotate(-15deg);display: none;}
-#ms-el-dem-serv2{background: url(../img/demostration-img-page-mimosa.png) no-repeat 1.793% 42.541%;width: 104px;height: 82px;position: absolute;bottom: 10%;left: 35%;}
+#ms-el-dem-serv2{background: url(../img/demostration-img-page-mimosa.png) no-repeat 1.793% 42.541%;width: 104px;height: 82px;position: absolute;bottom: 10%;left: 75%;}
 #ms-el-dem-serv3{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.158% 73.622%;width: 108px;height: 117px;position: absolute;top: 24%;left: 7%;}
 #ms-el-dem-serv3-res{background: url(../img/demostration-img-page-mimosa.png) no-repeat 2.158% 73.622%;width: 108px;height: 117px;position: absolute;top: 21.5%;left: 7%;}
-#ms-el-dem-serv4{background: url(../img/demostration-img-page-mimosa.png) no-repeat 72.238% 9.256%;width: 104px;height: 128px;position: absolute;top: 70%;left: 8%;}
-#ms-el-dem-serv5{background: url(../img/demostration-img-page-mimosa.png) no-repeat 75.036% 98.287%;width: 120px;height: 158px;position: absolute;top: 45%;left: 7%;}
-#ms-el-dem-serv6{background: url(../img/demostration-img-page-mimosa.png) no-repeat 96.162% 95.332%;width: 117px;height: 68px;position: absolute;top: 10%;left: 35%;}
+#ms-el-dem-serv4{background: url(../img/demostration-img-page-mimosa.png) no-repeat 72.238% 9.256%;width: 104px;height: 128px;position: absolute;top: 70%;left: -10%;}
+#ms-el-dem-serv5{background: url(../img/demostration-img-page-mimosa.png) no-repeat 75.036% 98.287%;width: 120px;height: 158px;position: absolute;top: 45%;left: -10%;}
+#ms-el-dem-serv6{background: url(../img/demostration-img-page-mimosa.png) no-repeat 96.162% 95.332%;width: 117px;height: 68px;position: absolute;top: 10%;left: -10%;}
 #ms-bacon-services-demo{margin-left:120px;}
 #ms-demo-culinaire-serv-1{display: none;}
 #ms-vegetables-demo{display: none;}
@@ -856,12 +859,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     /* Demo culinaire */
     .ms-services-line-indicator{left: 30%;top: 40%;}
     #ms-services-line-indicator-rigth{left:50%;}
-    #ms-el-dem-serv6{left:40%;}
-    #ms-el-dem-serv2{bottom: 15%;left: 40%;}
+    #ms-el-dem-serv2{bottom: 15%;}
     .ms-atelier-services-card{padding: 8px 15px!important;min-height: 300px;}
     .ms-img-icon-services-card img{width: 130px;}
     #ms-title-header-eigth-section h2{font-size: 51px;margin-left:18%;}
-
+    #ms-el-dem-serv6{top:4%;}
     /* Notre concept */
     .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
     .ms-no-padding-bottom h3{font-size: 22px!important;margin: 2px;}

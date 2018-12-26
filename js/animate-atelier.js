@@ -105,6 +105,24 @@ jQuery(function ($) {
            }
         });
         
+        
+        $(window).scroll(function() {
+           var hT = $('#ms-atelier-fourth-section').offset().top,
+               hH = $('#ms-atelier-fourth-section').outerHeight(),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           if (wS > (hT+hH-wH)){
+
+              installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
+                if (matches) {
+                   
+                } else {
+                 
+                }
+              }); 
+           }
+        });
+        
 
       /*------------------------------------*\
           End Animations Demo Culinaire

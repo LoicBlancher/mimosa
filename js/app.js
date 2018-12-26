@@ -220,8 +220,29 @@ jQuery(function ($) {
               ease: Power4.easeInOut
             });            
 
-        }
-      }
+        };
+      };
+
+      (function animateCheeseHome(){
+        let devisCtaHome = document.getElementById("ms-cta-devis-home");
+        let contactCtaHome = document.getElementById("ms-cta-contact-home");
+        devisCtaHome.addEventListener("mouseover",function(event){
+          let cheese = document.getElementById("ms-cta-cheese-home");
+          TweenMax.to(cheese , 5, {
+                opacity: 0.5,
+                ease: SlowMo.ease.config(0.7, 0.7, false),
+              });
+        });
+        contactCtaHome.addEventListener("mouseover",function(event){
+          let cheese = document.getElementById("ms-cta-cheese-home");
+          TweenMax.to(cheese , 5, {
+                opacity: 0.5,
+                ease: SlowMo.ease.config(0.7, 0.7, false),
+              });
+        });
+      })();
+      
+
 
 
        /* function showbubble(id){

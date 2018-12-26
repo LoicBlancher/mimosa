@@ -98,6 +98,47 @@ jQuery(function ($) {
         }).progress(0.5);*/
       })();
       
+      function amiateOnionHome(id){
+        if(id==3){
+          let fragmentOnion1 = document.getElementById("ms-onion-seven");
+          let fragmentOnion2 = document.getElementById("ms-onion-six");
+          let fragmentOnion3 = document.getElementById("ms-onion-five");
+          let fragmentOnion4 = document.getElementById("ms-onion-four");
+          let fragmentOnion5 = document.getElementById("ms-onion-three");
+          let fragmentOnion6 = document.getElementById("ms-onion-two");
+          let fragmentOnion7 = document.getElementById("ms-onion-one");
+          let animation = new TimelineMax({delay:0.2})
+          animation.to(fragmentOnion1, 0.9, {
+            y:140,
+            ease: Bounce.easeOut  
+          });
+          animation.to(fragmentOnion2, 0.7, {
+            y:140,
+            ease: Bounce.easeOut  
+          });
+          animation.to(fragmentOnion3, 0.7, {
+            y:147,
+            ease: Bounce.easeOut  
+          });
+          animation.to(fragmentOnion4, 0.7, {
+            y:150,
+            ease: Bounce.easeOut  
+          });
+          animation.to(fragmentOnion5, 0.7, {
+            y:167,
+            ease: Bounce.easeOut  
+          });
+          animation.to(fragmentOnion6, 0.7, {
+            y:170,
+            ease: Bounce.easeOut 
+          });
+          animation.to(fragmentOnion7, 0.7, {
+            y:160,
+            x:150,
+            rotation:34,
+          });
+        }
+      }
 
       (function animateLogistique(){
         /* Seeds Movement */
@@ -224,6 +265,7 @@ jQuery(function ($) {
                 updateURL: false,                
                 beforeMove: function(index) {
                   animateCustomersHome(index);
+                  amiateOnionHome(index);
                 },  
                 afterMove: function(index) {
                 },   

@@ -1986,8 +1986,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #mg-footer-first .btn-newsletter{right: 7%;}
       #mg-footer-menu-terms ul{position: relative;left: 14%;}
       #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0 20px 0;}
-      #mg-newsletter-main-menu{margin-top:7%;}
+      #mg-newsletter-main-menu{margin-top:7%;width: 70%;position: relative;left:18%;}
       footer{padding: 130px 0;}
+      #mg-wrapper-main-menu #mg-main-menu-content nav{width: 30%;}
+
       /* Qui sommes nous */
       #ms-sommes-second-section h2{font-size: 55px!important;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%;right: 15%;}

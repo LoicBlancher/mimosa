@@ -208,14 +208,13 @@ jQuery(function ($) {
         if(id==6){
         let soup = document.getElementById("ms-img-soup");
         let avocado = document.getElementById("ms-img-avocado");
-        let animation = new TimelineMax({delay:0.3});
-        animation.fromTo(soup, 3, {
+        TweenMax.fromTo(soup, 3, {
               x: -190,
             }, {
               x: 0,
               ease: Power4.easeInOut
             });  
-        animation.to(avocado , 2, {
+        TweenMax.to(avocado , 3, {
               y: -230,
               ease: Power4.easeInOut
             });            
@@ -228,17 +227,27 @@ jQuery(function ($) {
         let contactCtaHome = document.getElementById("ms-cta-contact-home");
         devisCtaHome.addEventListener("mouseover",function(event){
           let cheese = document.getElementById("ms-cta-cheese-home");
-          TweenMax.to(cheese , 5, {
-                opacity: 0.5,
-                ease: SlowMo.ease.config(0.7, 0.7, false),
-              });
+          TweenLite.fromTo(cheese, 0.3, {
+            x:-1}, {
+              x:1, 
+              ease:RoughEase.ease.config({
+                strength:8, 
+                points:20, 
+                template:Linear.easeNone, 
+                randomize:false}) , 
+            clearProps:"x"})
         });
         contactCtaHome.addEventListener("mouseover",function(event){
           let cheese = document.getElementById("ms-cta-cheese-home");
-          TweenMax.to(cheese , 5, {
-                opacity: 0.5,
-                ease: SlowMo.ease.config(0.7, 0.7, false),
-              });
+          TweenLite.fromTo(cheese, 0.3, {
+            x:-1}, {
+              x:1, 
+              ease:RoughEase.ease.config({
+                strength:8, 
+                points:20, 
+                template:Linear.easeNone, 
+                randomize:false}) , 
+            clearProps:"x"})
         });
       })();
       

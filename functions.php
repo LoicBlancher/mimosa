@@ -943,15 +943,24 @@ function ms_enqueue_styles_one_page() {
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
 
 
-function ms_enqueue_animations_mimosa() {
+function ms_enqueue_animations_demo() {
   if ( is_page( 'demo-culinaire'))  {
     // Animations No One Page Template
-    wp_register_script('animationsGeneral', get_template_directory_uri() . '/js/animate.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('animationsGeneral');
+    wp_register_script('animationsDemo', get_template_directory_uri() . '/js/animate-demo.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsDemo');
   } 
 }
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_mimosa' );
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_demo' );
 
+
+function ms_enqueue_animations_atelier() {
+  if ( is_page( 'atelier-formation'))  {
+    // Animations No One Page Template
+    wp_register_script('animationsAtelier', get_template_directory_uri() . '/js/animate-atelier.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsAtelier');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_atelier' );
 /* Ms Add SVG Support */
 add_filter( 'upload_mimes', 'custom_upload_mimes' );
 function custom_upload_mimes( $existing_mimes = array() ) {

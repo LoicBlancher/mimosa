@@ -220,8 +220,6 @@ jQuery(function ($) {
           });
         })();      
 
-        /* Animation CTA Demo */
-
       /*------------------------------------*\
           End Animations Demo Culinaire
       \*------------------------------------*/   

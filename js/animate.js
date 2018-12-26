@@ -51,7 +51,7 @@ jQuery(function ($) {
           }).progress(0.5);
 
         })();
-
+        /* IF Scroll ID == ms-demo-fourth-section */
         $(window).scroll(function() {
            var hT = $('#ms-demo-fourth-section').offset().top,
                hH = $('#ms-demo-fourth-section').outerHeight(),
@@ -78,6 +78,7 @@ jQuery(function ($) {
               }).progress(0.5);
               installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
                 if (matches) {
+                  /* Animation second section demo if min width > 1800*/
                   (function animateDemo02Large(){
                                     let el6 = document.getElementById("ms-el-dem-serv6");
                                     TweenMax.to(el6, 0.8, {
@@ -106,6 +107,7 @@ jQuery(function ($) {
                                         });
                                  })();     
                 } else {
+                  /* Animation second section demo if max width < 1800*/
                   (function animateDemo02(){
                                     let el6 = document.getElementById("ms-el-dem-serv6");
                                     TweenMax.to(el6, 0.8, {
@@ -137,6 +139,24 @@ jQuery(function ($) {
               }); 
            }
         });
+        let bacon = document.getElementById("ms-bacon-services-demo"); 
+          let radiusBackon = 10;
+          TweenLite.set(bacon, { 
+            x: -radiusBackon, 
+            y: -radiusBackon
+          });
+          TweenMax.to(bacon, 7, {
+            y: radiusBackon,
+            ease: Sine.easeInOut,
+            repeat: -1,
+            yoyo: true
+          });
+          TweenMax.to(bacon, 6, {
+            x: radiusBackon,
+            ease: Sine.easeInOut,
+            repeat: -1,
+            yoyo: true
+          }).progress(0.5);
       /*------------------------------------*\
           End Animations Demo Culinaire
       \*------------------------------------*/   

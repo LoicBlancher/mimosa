@@ -141,7 +141,7 @@ jQuery(function ($) {
         });
         let bacon = document.getElementById("ms-bacon-services-demo"); 
           let radiusBackon = 10;
-          TweenLite.set(bacon, { 
+          TweenLite.set(bacon,{ 
             x: -radiusBackon, 
             y: -radiusBackon
           });
@@ -170,7 +170,58 @@ jQuery(function ($) {
                 template:Linear.easeNone, 
                 randomize:false}) , 
             clearProps:"x"})
-        })  
+        }) 
+
+        let imageTopCta = document.getElementById("ms-img-header-left-seven-section");
+        let radiusImageTop = 20;
+        TweenLite.set(imageTopCta,{ 
+          x: 0, 
+          y: -radiusImageTop
+        });
+        TweenMax.to(imageTopCta, 7, {
+          y: radiusImageTop,
+          ease: Sine.easeInOut,
+          repeat: -1,
+          yoyo: true
+        });
+        TweenMax.to(imageTopCta, 6, {
+          x: radiusImageTop,
+          ease: Sine.easeInOut,
+          repeat: -1,
+          yoyo: true
+        }).progress(0.5); 
+        
+        (function animateCtaDemo(){
+          let devisCtaDemo = document.getElementById("ms-cta-devis-demo");
+          let contactCtaDemo = document.getElementById("ms-cta-contact-demo");
+          devisCtaDemo.addEventListener("mouseover",function(event){
+            let onion = document.getElementById("ms-image-header-nine-section");
+            TweenLite.fromTo(onion, 0.3, {
+              x:-1}, {
+                x:1, 
+                ease:RoughEase.ease.config({
+                  strength:8, 
+                  points:20, 
+                  template:Linear.easeNone, 
+                  randomize:false}) , 
+              clearProps:"x"})
+          });
+          contactCtaDemo.addEventListener("mouseover",function(event){
+            let onion = document.getElementById("ms-image-header-nine-section");
+            TweenLite.fromTo(onion, 0.3, {
+              x:-1}, {
+                x:1, 
+                ease:RoughEase.ease.config({
+                  strength:8, 
+                  points:20, 
+                  template:Linear.easeNone, 
+                  randomize:false}) , 
+              clearProps:"x"})
+          });
+        })();      
+
+        /* Animation CTA Demo */
+
       /*------------------------------------*\
           End Animations Demo Culinaire
       \*------------------------------------*/   

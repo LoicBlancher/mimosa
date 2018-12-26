@@ -134,8 +134,8 @@ jQuery(function ($) {
           });
           animation.to(fragmentOnion7, 0.7, {
             y:160,
-            x:150,
-            rotation:34,
+            x:180,
+            rotation:36,
           });
         }
       }

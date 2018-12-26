@@ -226,7 +226,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     FOOTER'S
 \*------------------------------------*/
   .home footer,.qui-sommes-nous footer, .notre-concept footer{position: absolute;width: 100%;}
-  footer{background:#353535;padding: 80px 0; }
+  footer{background:#353535;padding: 120px 0; }
     /* Footer First Row */
     #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
     #mg-footer-first ul{list-style-type: none;padding: 0;}
@@ -317,7 +317,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-onion-six{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -870px;width: 21px;height: 49px;position: absolute;top: 19px;left: 400px;z-index:14;}
 #ms-onion-seven{background: url('../img/home-page-img-mimosa.png') no-repeat -542px -795px;width: 26px;height: 49px;position: absolute;top: 15px;left: 440px;z-index: 14;}
 #ms-pot-under-onion{background: url(../img/home-page-img-mimosa.png) no-repeat 126.449% 38.178%;background-size: 160%;width: 975px;height: 155px;position: absolute;top: 60px;left: -4%;z-index: 13;}
-#ms-pot-internal-onion{background: url(../img/home-page-img-mimosa.png) no-repeat 73.453% 63.403%;background-size: 404%;width: 390px;height: 180px;position: absolute;top: 146px;left: 18%;z-index: 15;}
+#ms-pot-internal-onion{background: url(../img/home-page-img-mimosa.png) no-repeat 73.453% 63.403%;background-size: 404%;width: 390px;height: 180px;position: absolute;top: 146px;left: 13%;z-index: 15;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
 #ms-wrapper-content-third-section-home .ms-primary-btn-bl{margin-top:35px;}
 .ms-italics{font-weight: bold;font-style: italic;}
@@ -809,7 +809,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-onion-one{top:-310px;}
     #ms-onion-two{left:28%;}
     #ms-third-section-home{background-position: 50% -200.2827px!important;}
-    #ms-pot-internal-onion{top:147px;}
+    #ms-pot-internal-onion{top:147px;left:17.6%;}
     #ms-seed-three{left:33%;}  
     #ms-seed-two{left:46%;}
     #ms-seed-five{right: 10%;}
@@ -817,16 +817,19 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-five-section-home #ms-wrapper-title-five-section{margin-top:50px;}
     #ms-img-avocado{background-size: 280%;background-position: 100.811% 67.979%;width: 370px;height: 500px;}  
     #mg-wrapper-main-menu #mg-main-menu-content ul li a{font-size: 20px;line-height: 1.5em;}
-    #mg-menu-terms-main #mg-social-main-menu{position: relative;top:10px;}
+    #mg-menu-terms-main #mg-social-main-menu{position: relative;top:25px;}
     #ms-wrapper-map-info{padding: 120px 0;}
     .ms-six-section-image{width: 48%;}
     #ms-six-section-home h2,
     #ms-six-section-home p{margin:0 0 2% 0;}
     .home footer{padding: 55px 0!important;}
+    #mg-footer-second{padding: 10px 0 0 0;}
     #ms-img-soup{top: 12%;width: 41%;height: 70%;}
     #ms-img-branch1{background-size: 100%;bottom: -10%;left: 13%;}
     #ms-img-branch2{background-size: 100%;width: 12%;transform: rotate(-20deg);}
-
+    #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0 10px 0;}
+    #mg-wrapper-main-menu #mg-main-menu-content nav{width: 34%;}
+    #mg-newsletter-main-menu{width: 66%;position: relative;left: 8%;}
 
     /* Qui sommes */
     #ms-sommes-second-section h2{font-size: 46px;margin-top: 30px;line-height: 1em;}
@@ -1944,7 +1947,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       h4{font-size:30px!important;}
       h5{font-size:25px!important;}
       h6{font-size:20px!important;}
-      p{font-size: 17px!important;}
       /* Responsive Home */
       .ms-logo-mimosa-main{left:-20%;}
       .ms-mimosa-subtitle{font-size: 14px;}
@@ -1965,12 +1967,15 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-onion-six{left: 39%;top: 39px;}
       #ms-onion-seven{top: 43px;left: 43%;}
       #ms-pot-under-onion{top: 70px;}
+      #ms-pot-internal-onion{top: 155.8px;left: 11.3%;}
+      #ms-seed-brocoli{left:17%;}
+      #ms-seed-tomato{left:-3%;}
       #ms-wrapper-images-fourth-section{margin-left:40px;}
-      #ms-seed-four{left:2%;}
-      #ms-seed-three{left:18%;}
-      #ms-seed-two{left:27%;}
-      #ms-seed-five{right: 41%;}
-      #ms-seed-six{right: 28%;}
+      #ms-seed-four{left:8%;}
+      #ms-seed-three{left:33%;}
+      #ms-seed-two{left:47%;}
+      #ms-seed-five{right: 15%;}
+      #ms-seed-six{right: -1%;}
       .ms-wrapper-bullet-with-img{margin-top: 100px;}  
       #ms-wrapper-title-five-section h4{margin-top:30px;}
       #ms-wrapper-title-five-section h2{margin-bottom:20px;}
@@ -1979,7 +1984,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #mg-footer-first #mg-newsletter-subtitle{font-size: 15px!important;}
       #mg-footer-first .input-email-newsletter{width: 95%;}
       #mg-footer-first .btn-newsletter{right: 7%;}
-      footer{padding: 120px 0;}
+      #mg-footer-menu-terms ul{position: relative;left: 14%;}
+      #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0 20px 0;}
+      #mg-newsletter-main-menu{margin-top:7%;}
+      footer{padding: 130px 0;}
       /* Qui sommes nous */
       #ms-sommes-second-section h2{font-size: 55px!important;}
       #ms-img-carousel-with-pagination #ms-paginator-carousel{bottom: 6%;right: 15%;}
@@ -1997,7 +2005,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-member-description{font-size: 17px;}
       .ms-box-content{padding:10px 60px;}
       .ms-box-container{width: 27%!important;margin:0 30px!important;}
-      #mg-footer-second .copyright{font-size: 16px!important;}
 
       /* Demo culinaire */
       .ms-services-line-indicator{top:-40px;}

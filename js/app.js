@@ -141,7 +141,67 @@ jQuery(function ($) {
       }
 
       (function animateLogistique(){
-        console.log("hola pepi");
+        /* Seeds Movement */
+        let seedOne = document.getElementById("ms-seed-one");
+        let seedTwo = document.getElementById("ms-seed-two");
+        let seedThree = document.getElementById("ms-seed-three");
+        let seedFour = document.getElementById("ms-seed-four");
+        let seedFive = document.getElementById("ms-seed-five");
+        let seedSix = document.getElementById("ms-seed-six");
+        let seedOneTop = document.getElementById("ms-seed-one-top");
+        let seedTwoTop = document.getElementById("ms-seed-two-top");
+        let seedThreeTop = document.getElementById("ms-seed-three-top");
+        let seedFourTop = document.getElementById("ms-seed-four-top");
+        let seedFiveTop = document.getElementById("ms-seed-five-top");
+        let seedSixTop = document.getElementById("ms-seed-six-top");
+        TweenMax.fromTo([seedOne,seedSixTop], 0.8, {
+              x: -1,
+            }, {
+              x: 1,
+              repeat: -1,
+              yoyo: true,
+              ease: SlowMo.easeInOut
+            });
+        TweenMax.fromTo([seedTwo,seedFiveTop], 3, {
+              x: -1,
+            }, {
+              x: 2,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
+        TweenMax.fromTo([seedThree,seedFourTop], 3, {
+              x: -1,
+            }, {
+              x: 3,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
+        TweenMax.fromTo([seedFour,seedThreeTop], 2, {
+              x: -1,
+            }, {
+              x: 4,
+              repeat: -1,
+              yoyo: true,
+              ease: SlowMo.easeInOut
+            });
+        TweenMax.fromTo([seedFive,seedTwoTop], 5, {
+              x: -1,
+            }, {
+              x: 2,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
+        TweenMax.fromTo([seedOneTop,seedSix], 5, {
+              x: -1,
+            }, {
+              x: 3,
+              repeat: -1,
+              yoyo: true,
+              ease: Bounce.easeInOut
+            });
       })(); 
 
       function animateCustomersHome(id){

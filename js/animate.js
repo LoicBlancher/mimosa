@@ -157,6 +157,20 @@ jQuery(function ($) {
             repeat: -1,
             yoyo: true
           }).progress(0.5);
+
+        let ctaControlez = document.getElementById("ms-cta-atelier-btn");
+        ctaControlez.addEventListener("mouseover",function(){
+          let light = document.getElementById("ms-avocado-demo");
+          TweenLite.fromTo(light, 0.3, {
+            x:-1}, {
+              x:1, 
+              ease:RoughEase.ease.config({
+                strength:8, 
+                points:20, 
+                template:Linear.easeNone, 
+                randomize:false}) , 
+            clearProps:"x"})
+        })  
       /*------------------------------------*\
           End Animations Demo Culinaire
       \*------------------------------------*/   

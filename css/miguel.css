@@ -2015,7 +2015,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-demo-second-service-wrapper{text-align: right;}
       #ms-services-line-indicator-rigth.ms-services-line-indicator:after{left:-65px;}
       #ms-galerie-lightbox img{max-width: 940px;margin-top:6%;}
-
+      #ms-avocado-demo{margin-left:30%;}
       /* Notre concept */
       #ms-skill-one-fork h3,
       #ms-skill-two-fork h3,

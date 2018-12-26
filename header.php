@@ -45,7 +45,7 @@
            <?php $pinterest_mimosa= get_option('pinterest');?>
            <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></a></i>
          </div>
-         <a class="yellowBtn" href="tel:12345678">
+         <a class="yellowBtn hvr-ripple-out" href="tel:12345678">
            <i class="fas fa-phone fa-rotate-90"></i>
            <?php $phone_mimosa= get_option('phone');?>
            <span><?php echo $phone_mimosa?></span>

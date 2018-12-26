@@ -206,22 +206,20 @@ jQuery(function ($) {
 
       function animateCustomersHome(id){
         if(id==6){
-          let soup = document.getElementById("ms-img-soup");
-          TweenMax.fromTo(soup, 5, {
-                x: -190,
-              }, {
-                onComplete:moveAvocado,
-                x: 0,
-                ease: Power4.easeInOut
-              });
-          function moveAvocado(){
-            let avocado = document.getElementById("ms-img-avocado");
-            TweenMax.to(avocado , 5, {
-                  y: -230,
-                  ease: Power4.easeInOut
-                });
+        let soup = document.getElementById("ms-img-soup");
+        let avocado = document.getElementById("ms-img-avocado");
+        let animation = new TimelineMax({delay:0.3});
+        animation.fromTo(soup, 3, {
+              x: -190,
+            }, {
+              x: 0,
+              ease: Power4.easeInOut
+            });  
+        animation.to(avocado , 2, {
+              y: -230,
+              ease: Power4.easeInOut
+            });            
 
-          }
         }
       }
 

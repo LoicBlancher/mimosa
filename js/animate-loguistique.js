@@ -86,9 +86,79 @@ jQuery(function ($) {
               }); 
            }
         });
-        
-       
-        
+        /*
+        (function animate03Loguistique(){
+          let image = document.getElementById("ms-services-logistique-3");
+            let radiusImage = 10;
+            TweenLite.set(image,{ 
+              x: -radiusImage, 
+              y: -radiusImage
+            });
+            TweenMax.to(image, 7, {
+              y: radiusImage,
+              ease: Sine.easeInOut,
+              repeat: -1,
+              yoyo: true
+            });
+            TweenMax.to(image, 6, {
+              x: radiusImage,
+              ease: Sine.easeInOut,
+              repeat: -1,
+              yoyo: true
+            }).progress(0.5);
+        })();
+       */
+
+        (function animateAvocado(){
+          let ctaControlez = document.getElementById("ms-cta-atelier-btn");
+          ctaControlez.addEventListener("mouseover",function(){
+            let light = document.getElementById("ms-avocado-demo");
+            TweenLite.fromTo(light, 0.3, {
+              x:-1}, {
+                x:1, 
+                ease:RoughEase.ease.config({
+                  strength:8, 
+                  points:20, 
+                  template:Linear.easeNone, 
+                  randomize:false}) , 
+              clearProps:"x"})
+          }); 
+        })();
+
+        (function animateSevenSection(){
+          let imageTopCta = document.getElementById("ms-img-header-left-seven-section");
+          let radiusImageTop = 20;
+          TweenLite.set(imageTopCta,{ 
+            x: 0, 
+            y: -radiusImageTop
+          });
+          TweenMax.to(imageTopCta, 7, {
+            y: radiusImageTop,
+            ease: Sine.easeInOut,
+            repeat: -1,
+            yoyo: true
+          });
+          TweenMax.to(imageTopCta, 6, {
+            x: radiusImageTop,
+            ease: Sine.easeInOut,
+            repeat: -1,
+            yoyo: true
+          }).progress(0.5); 
+        })();
+
+
+        (function animationPlantsLastSection(){
+          let devisCtaLoguistique = document.getElementById("ms-cta-devis-loguistique");
+          let contactCtaLoguistique = document.getElementById("ms-cta-contact-loguistique");
+          devisCtaLoguistique.addEventListener("mouseover",function(){
+            let img1 = document.getElementById("ms-image-header-nine-section-1");
+            let pathImg1 = [{x:"200",y:"100"},
+                {x:"100",y:"300"},
+                {x:"-1170",y:"0"}
+                ];
+            TweenMax.to(img1,3,{bezier:{curviness:2,values:pathImg1}},"");
+          });  
+        })();
        
 
       /*------------------------------------*\

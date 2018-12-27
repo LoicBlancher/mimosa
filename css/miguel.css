@@ -852,7 +852,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-logistique-ser3-tool1{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 57% 63%;width: 350px;height: 390px;background-size: 400%;}
 #ms-logistique-ser3-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 99% 44%;width: 610px;height: 520px;background-size: 320%;display: inline-block;position: absolute;top: -390px;left: 170px;}
 .ms-logistique-intereses{text-align: center;}
-#ms-image-header-nine-section-1{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 4.365% 94.245%;background-size: 600%;width: 62px;height: 75px;position: absolute;left: 45%;top: 49%;}
+#ms-image-header-nine-section-1{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 4.365% 94.245%;background-size: 600%;width: 62px;height: 75px;position: absolute;right:-10%;top: 49%;}
 #ms-image-header-nine-section-2{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.056% 47.099%;background-size: 600%;width: 70px;height: 70px;display: inline-block;position: absolute;top: 16%;left: 44%;}
 #ms-image-header-nine-section-3{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.083% 42.761%;background-size: 500%;width: 96px;height: 66px;display: inline-block;position: absolute;top: 2%;left: 40%;}
 #ms-image-header-nine-section-4{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 99.338% 4.054%;background-size: 400%;width: 103px;height: 77px;position: absolute;left: 33%;top: 1%;}
@@ -871,6 +871,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-indicator-first-left-log{left:100%;}
 #ms-indicator-right-log{left:-30%;}
 #ms-indicator-last-log{left:90%;}
+#ms-cta-contact-loguistique{margin-left:2%;}
 /*------------------------------------*\
     END LOGISTIQUE CULINARIE
 \*------------------------------------*/

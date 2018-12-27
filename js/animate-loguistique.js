@@ -153,6 +153,7 @@ jQuery(function ($) {
           devisCtaLoguistique.addEventListener("mouseover",function(){
             let img1 = document.getElementById("ms-image-header-nine-section-1");
             let img2 = document.getElementById("ms-image-header-nine-section-2");
+            let img3 = document.getElementById("ms-image-header-nine-section-3");            
             let pathImg1 = [{x:"200",y:"100"},
                 {x:"100",y:"300"},
                 {x:"-1170",y:"0"}
@@ -160,9 +161,14 @@ jQuery(function ($) {
             let pathImg2 = [{x:"200",y:"100"},
                 {x:"300",y:"500"},
                 {x:"-1175",y:"-5"}
-                ];    
+                ];
+            let pathImg3 = [{x:"200",y:"100"},
+                {x:"-200",y:"300"},
+                {x:"-1245",y:"5"}
+                ];         
             TweenMax.to(img1,3,{bezier:{curviness:2,values:pathImg1}},"");
             TweenMax.to(img2,3,{bezier:{curviness:2,values:pathImg2}},"");
+            TweenMax.to(img3,3,{bezier:{curviness:2,values:pathImg3}},"");  
           });  
         })();
        

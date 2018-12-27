@@ -961,6 +961,16 @@ function ms_enqueue_animations_atelier() {
   } 
 }
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_atelier' );
+
+
+function ms_enqueue_animations_loguistique() {
+  if ( is_page( 'logistique-culinaire'))  {
+    // Animations No One Page Template
+    wp_register_script('animationsLoguistique', get_template_directory_uri() . '/js/animate-loguistique.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsLoguistique');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_loguistique' );
 /* Ms Add SVG Support */
 add_filter( 'upload_mimes', 'custom_upload_mimes' );
 function custom_upload_mimes( $existing_mimes = array() ) {

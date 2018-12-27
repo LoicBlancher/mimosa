@@ -608,7 +608,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 /*--------------------------------------------------------*\
     ATELIER | LOGISTIQUE CULINARIE   | DEMO CULINAIRE
 \*--------------------------------------------------------*/
-/* Smoke */
+/* Smoke Pot Atelier */
 .ms-container-smoke{position: absolute;bottom: 20%;left: 20%;margin: 0;padding: 0;}
 .ms-smoke-point{position: absolute;list-style: none;width: 30px;height: 30px;background: #d3d3d3;border-radius: 50%;}
 .ms-smoke-point:nth-child(even){animation:animateEven 2.8s linear infinite;}
@@ -651,6 +651,60 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   }
 }
 
+/* Smoke Pot Atelier */
+.ms-container-smoke-car{    position: absolute;
+    bottom: 40%;
+    right: -35%;
+    margin: 0;
+    padding: 0;
+    transform: rotate(80deg);
+    z-index: 14;}
+.ms-smoke-point-car{    position: absolute;
+    list-style: none;
+    width: 50px;
+    height: 30px;
+    background: #a0a0a0;
+    border-radius: 60%;}
+.ms-smoke-point-car:nth-child(even){animation:animateEvenCar 2.8s linear infinite;}
+.ms-smoke-point-car:nth-child(odd){animation:animateOddCar 2.8s linear infinite;}
+.ms-smoke-point-car:nth-child(1){animation-delay: 0s;}
+.ms-smoke-point-car:nth-child(2){animation-delay:.4s;}
+.ms-smoke-point-car:nth-child(3){animation-delay:.8s;}
+.ms-smoke-point-car:nth-child(4){animation-delay:1.2s;}
+.ms-smoke-point-car:nth-child(5){animation-delay:1.6s;}
+.ms-smoke-point-car:nth-child(6){animation-delay:2s;}
+.ms-smoke-point-car:nth-child(7){animation-delay:2.4s;}
+.ms-smoke-point-car:nth-child(8){animation-delay:2.8s;}
+.ms-smoke-point-car:nth-child(9){animation:none;filter:blur(15px);}
+@keyframes animateEvenCar{
+  0%
+  {
+    transform:translate(0,0) scale(1);
+    opacity: 1;
+    filter:blur(5px);
+  }
+  100%
+  {
+    transform:translate(100px,-500px) scale(3);
+    opacity: 1;
+    filter:blur(10px);
+  }
+}
+@keyframes animateOddCar{
+  0%
+  {
+    transform:translate(0,0) scale(1);
+    opacity: 1;
+    filter:blur(5px);
+  }
+  100%
+  {
+    transform:translate(-100px,-500px) scale(3);
+    opacity: 1;
+    filter:blur(10px);
+  }
+}
+
 
 #ms-wrapper-header-atelier p{color:black;margin-top:0;}
 #ms-wrapper-header-atelier h2{margin-top:0;}
@@ -667,7 +721,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-demo-five-section,
 #ms-atelier-third-section,
 #ms-atelier-fourth-section,
-#ms-atelier-five-section{position: relative;}
+#ms-atelier-five-section,
+#ms-loguistique-third-section,
+#ms-loguistique-fourth-section,
+#ms-loguistique-five-section{position: relative;}
 .ms-testimonials-title-header{text-align: center;}
 .ms-services-description h3{margin-top: 5px;}
 .ms-services-bullet{font-size: 110px;color: var(--mimosa-yellow);font-weight: bold;font-family: 'Gotham';margin-left:-5px;}
@@ -793,7 +850,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 \*------------------------------------*/
 
 .ms-gray-services-bullet{color:#bcbcbc!important;}
-#ms-camion-logistique{background: url(../img/loguistique-img-page-mimosa.png) no-repeat -12% 0;width: 590px;height: 300px;background-size: 204%;margin-left:10%;}
+#ms-camion-logistique{background: url(../img/loguistique-img-page-mimosa.png) no-repeat -12% 0;width: 590px;height: 300px;background-size: 204%;z-index: 999999;position: absolute;right: -25%;}
 #ms-logistique-ser2-tool1{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 61.327% 4.645%;width: 220px;height: 70px;background-size: 460%;position: absolute;left: 10%;top: 15%;}
 #ms-logistique-ser2-tool1-res{display: none;background: url(../img/loguistique-img-page-mimosa.png) no-repeat 61.327% 4.645%;width: 220px;height: 70px;background-size: 460%;position: absolute;left: 10%;top: 15%;}
 #ms-logistique-ser2-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 60.327% 20.645%;background-size: 500%;width: 250px;height: 60px;display: inline-block;position: absolute;top: 30%;left: 10.2%;}

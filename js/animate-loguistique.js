@@ -152,11 +152,17 @@ jQuery(function ($) {
           let contactCtaLoguistique = document.getElementById("ms-cta-contact-loguistique");
           devisCtaLoguistique.addEventListener("mouseover",function(){
             let img1 = document.getElementById("ms-image-header-nine-section-1");
+            let img2 = document.getElementById("ms-image-header-nine-section-2");
             let pathImg1 = [{x:"200",y:"100"},
                 {x:"100",y:"300"},
                 {x:"-1170",y:"0"}
                 ];
+            let pathImg2 = [{x:"200",y:"100"},
+                {x:"300",y:"500"},
+                {x:"-1175",y:"-5"}
+                ];    
             TweenMax.to(img1,3,{bezier:{curviness:2,values:pathImg1}},"");
+            TweenMax.to(img2,3,{bezier:{curviness:2,values:pathImg2}},"");
           });  
         })();
        

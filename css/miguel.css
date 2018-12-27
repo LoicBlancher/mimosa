@@ -853,17 +853,17 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-logistique-ser3-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 99% 44%;width: 610px;height: 520px;background-size: 320%;display: inline-block;position: absolute;top: -390px;left: 170px;}
 .ms-logistique-intereses{text-align: center;}
 #ms-image-header-nine-section-1{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 4.365% 94.245%;background-size: 600%;width: 62px;height: 75px;position: absolute;right:-10%;top: 49%;}
-#ms-image-header-nine-section-2{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.056% 47.099%;background-size: 600%;width: 70px;height: 70px;display: inline-block;position: absolute;top: 16%;left: 44%;}
-#ms-image-header-nine-section-3{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.083% 42.761%;background-size: 500%;width: 96px;height: 66px;display: inline-block;position: absolute;top: 2%;left: 40%;}
-#ms-image-header-nine-section-4{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 99.338% 4.054%;background-size: 400%;width: 103px;height: 77px;position: absolute;left: 33%;top: 1%;}
-#ms-image-header-nine-section-5{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 90.021% 93.515%;background-size: 400%;width: 95px;height: 70px;position: absolute;left: 37%;top: 15%;}
-#ms-image-header-nine-section-6{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.895% 91.333%;background-size: 400%;width: 100px;height: 73px;position: absolute;left: 32%;top: 17%;}
-#ms-image-header-nine-section-7{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 87.891% 45.522%;background-size: 450%;width: 87px;height: 90px;position: absolute;left: 27%;top: 7%;}
-#ms-image-header-nine-section-8{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 68.725% 0;background-size: 700%;width: 64px;height: 102px;position: absolute;left: 30%;top: 34%;}
-#ms-image-header-nine-section-9{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 28.6% 96.825%;background-size: 580%;width: 76px;height: 100px;position: absolute;top: 29%;left: 25%;}
-#ms-image-header-nine-section-10{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 41.6% 0;background-size: 650%;width: 76px;height: 100px;position: absolute;bottom: 20%;left: 29%;}
-#ms-image-header-nine-section-11{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 32.329% 46.57%;background-size: 600%;width: 78px;height: 86px;position: absolute;bottom: 25%;left: 24%;}
-#ms-image-header-nine-section-12{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.37% 4.762%;background-size: 310%;width: 154px;height: 90px;position: absolute;left: 32%;top: 80%;}
+#ms-image-header-nine-section-2{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.056% 47.099%;background-size: 600%;width: 70px;height: 70px;position: absolute;top: 16%;right:-10%;}
+#ms-image-header-nine-section-3{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.083% 42.761%;background-size: 500%;width: 96px;height: 66px;position: absolute;top: 2%;right:-10%;}
+#ms-image-header-nine-section-4{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 99.338% 4.054%;background-size: 400%;width: 103px;height: 77px;position: absolute;right:-10%;top: 1%;}
+#ms-image-header-nine-section-5{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 90.021% 93.515%;background-size: 400%;width: 95px;height: 70px;position: absolute;right:-10%;top: 15%;}
+#ms-image-header-nine-section-6{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 57.895% 91.333%;background-size: 400%;width: 100px;height: 73px;position: absolute;right:-10%;top: 17%;}
+#ms-image-header-nine-section-7{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 87.891% 45.522%;background-size: 450%;width: 87px;height: 90px;position: absolute;right:-10%;top: 7%;}
+#ms-image-header-nine-section-8{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 68.725% 0;background-size: 700%;width: 64px;height: 102px;position: absolute;right:-10%;top: 34%;}
+#ms-image-header-nine-section-9{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 28.6% 96.825%;background-size: 580%;width: 76px;height: 100px;position: absolute;top: 29%;right:-10%;}
+#ms-image-header-nine-section-10{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 41.6% 0;background-size: 650%;width: 76px;height: 100px;position: absolute;bottom: 20%;right:-10%;}
+#ms-image-header-nine-section-11{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 32.329% 46.57%;background-size: 600%;width: 78px;height: 86px;position: absolute;bottom: 25%;right:-10%;}
+#ms-image-header-nine-section-12{background: url(../img/loguistique-img-page-2-mimosa.png) no-repeat 2.37% 4.762%;background-size: 310%;width: 154px;height: 90px;position: absolute;right:-10%;top: 80%;}
 #ms-wrapper-content-nine-logistique p{text-align: center;}
 #ms-indicator-first-left-demo{left: 90%;top: 55%;}
 #ms-indicator-right-demo{left: -25%;top: 60%;}

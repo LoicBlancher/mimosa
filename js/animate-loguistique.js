@@ -212,17 +212,17 @@ jQuery(function ($) {
                 {x:"-1280",y:"14"}
                 ];                                                      
             TweenMax.to(img1,3,{bezier:{curviness:4,values:pathImg1}},"");
-            TweenMax.to(img2,3,{bezier:{curviness:4,values:pathImg2}},"");
-            TweenMax.to(img3,3,{bezier:{curviness:3,values:pathImg3}},"");  
-            TweenMax.to(img4,3,{bezier:{curviness:3,values:pathImg4}},"");
-            TweenMax.to(img5,3,{bezier:{curviness:3,values:pathImg5}},"");    
-            TweenMax.to(img6,3,{bezier:{curviness:3,values:pathImg6}},"");
-            TweenMax.to(img7,3,{bezier:{curviness:5,values:pathImg7}},"");        
-            TweenMax.to(img8,3,{bezier:{curviness:6,values:pathImg8}},""); 
-            TweenMax.to(img9,3,{bezier:{curviness:6,values:pathImg9}},"");
-            TweenMax.to(img10,3,{bezier:{curviness:5,values:pathImg10}},"");                
-            TweenMax.to(img11,3,{bezier:{curviness:6,values:pathImg11}},"");
-            TweenMax.to(img12,3,{bezier:{curviness:6,values:pathImg12}},"");                                      
+            TweenMax.to(img2,3.2,{bezier:{curviness:4,values:pathImg2}},"");
+            TweenMax.to(img3,3.5,{bezier:{curviness:3,values:pathImg3}},"");  
+            TweenMax.to(img4,4,{bezier:{curviness:3,values:pathImg4}},"");
+            TweenMax.to(img5,5,{bezier:{curviness:3,values:pathImg5}},"");    
+            TweenMax.to(img6,6,{bezier:{curviness:3,values:pathImg6}},"");
+            TweenMax.to(img7,7,{bezier:{curviness:5,values:pathImg7}},"");        
+            TweenMax.to(img8,8,{bezier:{curviness:6,values:pathImg8}},""); 
+            TweenMax.to(img9,8.7,{bezier:{curviness:6,values:pathImg9}},"");
+            TweenMax.to(img10,9,{bezier:{curviness:5,values:pathImg10}},"");                
+            TweenMax.to(img11,9.5,{bezier:{curviness:6,values:pathImg11}},"");
+            TweenMax.to(img12,10,{bezier:{curviness:6,values:pathImg12}},"");                                      
           });  
         })();
        

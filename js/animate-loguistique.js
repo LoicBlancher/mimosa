@@ -155,7 +155,8 @@ jQuery(function ($) {
             let img2 = document.getElementById("ms-image-header-nine-section-2");
             let img3 = document.getElementById("ms-image-header-nine-section-3");            
             let img4 = document.getElementById("ms-image-header-nine-section-4");  
-            let img5 = document.getElementById("ms-image-header-nine-section-5");                      
+            let img5 = document.getElementById("ms-image-header-nine-section-5");
+            let img6 = document.getElementById("ms-image-header-nine-section-6");                                            
             let pathImg1 = [{x:"200",y:"100"},
                 {x:"100",y:"300"},
                 {x:"-1170",y:"0"}
@@ -175,13 +176,17 @@ jQuery(function ($) {
             let pathImg5 = [{x:"200",y:"100"},
                 {x:"-100",y:"300"},
                 {x:"-1295",y:"14"}
-                ];                   
+                ];
+            let pathImg6 = [{x:"200",y:"100"},
+                {x:"200",y:"600"},
+                {x:"-1395",y:"14"}
+                ];                       
             TweenMax.to(img1,3,{bezier:{curviness:2,values:pathImg1}},"");
             TweenMax.to(img2,3,{bezier:{curviness:2,values:pathImg2}},"");
             TweenMax.to(img3,3,{bezier:{curviness:2,values:pathImg3}},"");  
             TweenMax.to(img4,3,{bezier:{curviness:2,values:pathImg4}},"");
             TweenMax.to(img5,3,{bezier:{curviness:2,values:pathImg5}},"");    
-    
+            TweenMax.to(img6,3,{bezier:{curviness:3,values:pathImg6}},"");        
           });  
         })();
        

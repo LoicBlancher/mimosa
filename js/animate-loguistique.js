@@ -154,6 +154,7 @@ jQuery(function ($) {
             let img1 = document.getElementById("ms-image-header-nine-section-1");
             let img2 = document.getElementById("ms-image-header-nine-section-2");
             let img3 = document.getElementById("ms-image-header-nine-section-3");            
+            let img4 = document.getElementById("ms-image-header-nine-section-4");            
             let pathImg1 = [{x:"200",y:"100"},
                 {x:"100",y:"300"},
                 {x:"-1170",y:"0"}
@@ -165,10 +166,15 @@ jQuery(function ($) {
             let pathImg3 = [{x:"200",y:"100"},
                 {x:"-200",y:"300"},
                 {x:"-1245",y:"5"}
-                ];         
+                ];
+            let pathImg4 = [{x:"200",y:"100"},
+                {x:"-100",y:"300"},
+                {x:"-1375",y:"14"}
+                ];               
             TweenMax.to(img1,3,{bezier:{curviness:2,values:pathImg1}},"");
             TweenMax.to(img2,3,{bezier:{curviness:2,values:pathImg2}},"");
             TweenMax.to(img3,3,{bezier:{curviness:2,values:pathImg3}},"");  
+            TweenMax.to(img4,3,{bezier:{curviness:2,values:pathImg4}},"");    
           });  
         })();
        

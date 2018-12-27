@@ -652,19 +652,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 }
 
 /* Smoke Pot Atelier */
-.ms-container-smoke-car{    position: absolute;
-    bottom: 40%;
-    right: -35%;
-    margin: 0;
-    padding: 0;
-    transform: rotate(80deg);
-    z-index: 14;}
-.ms-smoke-point-car{    position: absolute;
-    list-style: none;
-    width: 50px;
-    height: 30px;
-    background: #a0a0a0;
-    border-radius: 60%;}
+.ms-container-smoke-car{position: absolute;bottom: 40%;right: -35%;margin: 0;padding: 0;transform: rotate(80deg);z-index: 14;}
+.ms-smoke-point-car{position: absolute;list-style: none;width: 50px;height: 30px;background: #a0a0a0;border-radius: 60%;}
 .ms-smoke-point-car:nth-child(even){animation:animateEvenCar 2.8s linear infinite;}
 .ms-smoke-point-car:nth-child(odd){animation:animateOddCar 2.8s linear infinite;}
 .ms-smoke-point-car:nth-child(1){animation-delay: 0s;}
@@ -851,14 +840,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 .ms-gray-services-bullet{color:#bcbcbc!important;}
 #ms-camion-logistique{background: url(../img/loguistique-img-page-mimosa.png) no-repeat -12% 0;width: 590px;height: 300px;background-size: 204%;z-index: 999999;position: absolute;right: -25%;}
-#ms-logistique-ser2-tool1{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 61.327% 4.645%;width: 220px;height: 70px;background-size: 460%;position: absolute;left: 10%;top: 15%;}
+#ms-logistique-ser2-tool1{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 61.327% 4.645%;width: 220px;height: 70px;background-size: 460%;position: absolute;left: -12%;top: 15%;z-index: 15;}
 #ms-logistique-ser2-tool1-res{display: none;background: url(../img/loguistique-img-page-mimosa.png) no-repeat 61.327% 4.645%;width: 220px;height: 70px;background-size: 460%;position: absolute;left: 10%;top: 15%;}
-#ms-logistique-ser2-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 60.327% 20.645%;background-size: 500%;width: 250px;height: 60px;display: inline-block;position: absolute;top: 30%;left: 10.2%;}
+#ms-logistique-ser2-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 60.327% 20.645%;background-size: 500%;width: 250px;height: 60px;position: absolute;top: 10%;left: 10.2%;transform: rotate(40deg);}
 #ms-logistique-ser2-tool2-res{display:none;background: url(../img/loguistique-img-page-mimosa.png) no-repeat 60.327% 20.645%;background-size: 500%;width: 250px;height: 60px;display: inline-block;position: absolute;top: 30%;left: 10.2%;}
-#ms-logistique-ser2-tool3{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 76.327% 7.645%;background-size: 1200%;width: 100px;height: 120px;position: absolute;top: 34%;left: 11%;}
+#ms-logistique-ser2-tool3{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 76.327% 7.645%;background-size: 1200%;width: 100px;height: 120px;position: absolute;top: 10%;left:-10%;z-index:14;}
 #ms-logistique-ser2-tool3-res{display:none;background: url(../img/loguistique-img-page-mimosa.png) no-repeat 76.327% 7.645%;background-size: 1200%;width: 100px;height: 120px;position: absolute;top: 34%;left: 11%;}
-#ms-logistique-ser2-tool4{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 90% 100%;width: 300px;height: 200px;background-size: 370%;display: inline-block;position: absolute;top: 30%;left: 17%;;}
-#ms-logistique-ser2-tool5{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 98.516% 1.177%;width: 200px;height: 150px;background-size: 500%;display: inline-block;position: absolute;top: 55%;left: 10%;}
+#ms-logistique-ser2-tool4{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 90% 100%;width: 300px;height: 200px;background-size: 370%;position: absolute;top: 40%;left: 27%;}
+#ms-logistique-ser2-tool5{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 98.516% 1.177%;width: 200px;height: 150px;background-size: 500%;position: absolute;top: 58%;left: 10%;transform:rotate(50deg);}
 #ms-services-logistique-3{margin-left:10%;}    
 #ms-logistique-ser3-tool1{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 57% 63%;width: 350px;height: 390px;background-size: 400%;}
 #ms-logistique-ser3-tool2{background: url(../img/loguistique-img-page-mimosa.png) no-repeat 99% 44%;width: 610px;height: 520px;background-size: 320%;display: inline-block;position: absolute;top: -390px;left: 170px;}

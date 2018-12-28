@@ -1,6 +1,6 @@
 .DS_Store
-js/lib
+.jpg
+.png
+.svg
+js/lib/
 fonts/
-*.jpg
-*.png
-*.svg

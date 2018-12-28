@@ -201,29 +201,105 @@ function html5blank_header_scripts()
         wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-2.7.1.min.js', array(), '2.7.1',true); //Modernizr
         wp_enqueue_script('modernizr'); // Enqueue it!
 
-        wp_register_script('gsap', get_template_directory_uri() . '/js/TweenMax.min.js',true); //Modernizr
+        wp_register_script('gsap', get_template_directory_uri() . '/js/lib/TweenMax.min.js',true); //Modernizr
         wp_enqueue_script('gsap'); // Enqueue it!
 
 
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0',true); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
 
-        wp_register_script('iconsmimosa', get_template_directory_uri() . '/js/all.js', array('jquery'), '1.0.0',true); 
+        wp_register_script('iconsmimosa', get_template_directory_uri() . '/js/lib/all.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('iconsmimosa'); 
  
-        wp_register_script('menuSlide', get_template_directory_uri() . '/js/bigSlide.min.js', array('jquery'), '1.0.0',true); 
+        wp_register_script('menuSlide', get_template_directory_uri() . '/js/lib/bigSlide.min.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('menuSlide');
 
-        wp_register_script('slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '1.0.0',true); 
+        wp_register_script('slick', get_template_directory_uri() . '/js/lib/slick.min.js', array('jquery'), '1.0.0',true); 
         wp_enqueue_script('slick');
 
                   
     }
 }
-// Load HTML5 Blank conditional scripts
-function html5blank_conditional_scripts()
-{
+
+
+function ms_enqueue_styles_one_page() {
+  if ( is_page( 'qui-sommes-nous') || is_front_page() || is_page('notre-concept'))  {
+    // One Page Library
+    wp_register_script('onePage', get_template_directory_uri() . '/js/lib/jquery.onepage-scroll.min.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('onePage');
+
+    // One 
+    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
+    wp_enqueue_style('onepage'); // Enqueue it!
+  } 
 }
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
+
+
+function ms_enqueue_animations_home() {
+  if ( is_front_page())  {
+    // Animations Home
+    wp_register_script('animationsHome', get_template_directory_uri() . '/js/animate-home.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsHome');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_home' );
+
+
+function ms_enqueue_animations_demo() {
+  if ( is_page( 'demo-culinaire'))  {
+    // Animations Demo Culinaire
+    wp_register_script('animationsDemo', get_template_directory_uri() . '/js/animate-demo.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsDemo');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_demo' );
+
+
+function ms_enqueue_animations_atelier() {
+  if ( is_page( 'atelier-formation'))  {
+    // Animations Atelier
+    wp_register_script('animationsAtelier', get_template_directory_uri() . '/js/animate-atelier.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsAtelier');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_atelier' );
+
+
+function ms_enqueue_animations_loguistique() {
+  if ( is_page( 'logistique-culinaire'))  {
+    // Animations Loguistique Culinaire
+    wp_register_script('animationsLoguistique', get_template_directory_uri() . '/js/animate-loguistique.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsLoguistique');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_loguistique' );
+
+
+function ms_enqueue_animations_concept() {
+  if ( is_page( 'notre-concept'))  {
+    // Animations Notre Concept
+    wp_register_script('animationsConcept', get_template_directory_uri() . '/js/animate-concept.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsConcept');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_concept' );
+
+
+function ms_enqueue_animations_qui_sommes() {
+  if ( is_page( 'qui-sommes-nous'))  {
+    // Animations Qui Sommes
+    wp_register_script('animationsQuiSommes', get_template_directory_uri() . '/js/animate-qui-sommes.js', array('jquery'), '1.0.0',true); 
+    wp_enqueue_script('animationsQuiSommes');
+  } 
+}
+add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_qui_sommes' );
+
+
+
+
+
+
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
@@ -924,79 +1000,6 @@ function galerie_images_mimosa($atts){
 <?php
 }
 
-
-function ms_enqueue_styles_one_page() {
-  if ( is_page( 'qui-sommes-nous') || is_front_page() || is_page('notre-concept'))  {
-    // One Page Library
-    wp_register_script('onePage', get_template_directory_uri() . '/js/jquery.onepage-scroll.min.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('onePage');
-
-    // One 
-    wp_enqueue_style('onepage',get_template_directory_uri().'/css/onepage-scroll.css');
-    wp_enqueue_style('onepage'); // Enqueue it!
-  } 
-}
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_styles_one_page' );
-
-
-function ms_enqueue_animations_home() {
-  if ( is_front_page())  {
-    // Animations Home
-    wp_register_script('animationsHome', get_template_directory_uri() . '/js/animate-home.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('animationsHome');
-  } 
-}
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_home' );
-
-
-function ms_enqueue_animations_demo() {
-  if ( is_page( 'demo-culinaire'))  {
-    // Animations No One Page Template
-    wp_register_script('animationsDemo', get_template_directory_uri() . '/js/animate-demo.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('animationsDemo');
-  } 
-}
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_demo' );
-
-
-function ms_enqueue_animations_atelier() {
-  if ( is_page( 'atelier-formation'))  {
-    // Animations No One Page Template
-    wp_register_script('animationsAtelier', get_template_directory_uri() . '/js/animate-atelier.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('animationsAtelier');
-  } 
-}
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_atelier' );
-
-
-function ms_enqueue_animations_loguistique() {
-  if ( is_page( 'logistique-culinaire'))  {
-    // Animations No One Page Template
-    wp_register_script('animationsLoguistique', get_template_directory_uri() . '/js/animate-loguistique.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('animationsLoguistique');
-  } 
-}
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_loguistique' );
-
-
-function ms_enqueue_animations_concept() {
-  if ( is_page( 'notre-concept'))  {
-    // Animations Notre Concept
-    wp_register_script('animationsConcept', get_template_directory_uri() . '/js/animate-concept.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('animationsConcept');
-  } 
-}
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_concept' );
-
-
-function ms_enqueue_animations_qui_sommes() {
-  if ( is_page( 'qui-sommes-nous'))  {
-    // Animations Notre Concept
-    wp_register_script('animationsQuiSommes', get_template_directory_uri() . '/js/animate-qui-sommes.js', array('jquery'), '1.0.0',true); 
-    wp_enqueue_script('animationsQuiSommes');
-  } 
-}
-add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_qui_sommes' );
 
 /* Ms Add SVG Support */
 add_filter( 'upload_mimes', 'custom_upload_mimes' );

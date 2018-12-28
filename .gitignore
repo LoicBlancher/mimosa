@@ -1,1 +1,6 @@
 .DS_Store
+js/lib
+fonts/
+*.jpg
+*.png
+*.svg

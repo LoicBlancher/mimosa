@@ -1,8 +1,12 @@
 <?php
-/*
- *  Author: Todd Motto | @toddmotto
- *  URL: html5blank.com | @html5blank
- *  Custom functions, support, custom post types and more.
+/**
+ * Settings for Mimosa Theme
+ *
+ * @developer @msoler18
+ * @author Gradiweb, All rights reserved
+ * @link https:www.gradiweb.com
+ * @license private
+ * @copyright 2018 Gradiweb.
  */
 /*------------------------------------*\
     External Modules/Files
@@ -203,6 +207,9 @@ function html5blank_header_scripts()
 
         wp_register_script('gsap', get_template_directory_uri() . '/js/lib/TweenMax.min.js',true); //Modernizr
         wp_enqueue_script('gsap'); // Enqueue it!
+
+        wp_register_script('morphSvgGsap', get_template_directory_uri() . '/js/lib/MorphSVGPlugin.min',true); //Modernizr
+        wp_enqueue_script('morphSvgGsap'); // Enqueue it!
 
 
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0',true); // Custom scripts

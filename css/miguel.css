@@ -32,7 +32,6 @@ h5{color:var(--mimosa-black-dark);font-size:18px;}
 h6{color:var(--mimosa-black-dark);font-size:16px;}
 .ms-header-title{text-transform: unset!important;color:white;}
 .ms-mimosa-subtitle{font-family: 'Gotham';font-weight: bold;color: #676767;letter-spacing: 0.2em;}
-p{font-size: 14px;}
 p.first{color:var(--mimosa-gray-dark);}
 p.second{color:var(--mimosa-black-semi-dark);}
 p.white{color: white;margin:0;}
@@ -231,12 +230,13 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
     #mg-footer-first ul{list-style-type: none;padding: 0;}
     #mg-footer-first ul li{margin:20px 0;font-family: 'Gotham';}
-    #mg-footer-first ul li a{display: inherit;color:#736f6f;text-decoration: none;font-size: 15px;-webkit-transition: all 0.1s linear;transition: all 0.1s linear;}
+    #mg-footer-first ul li a{display: inherit;color:#736f6f;text-decoration: none;-webkit-transition: all 0.1s linear;transition: all 0.1s linear;}
     #mg-footer-first ul li a:hover{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);-o-transform: scale(1.05);transform: scale(1.05);color:white;}
+    #mg-footer-menu-terms{font-family: 'Gotham';}
     /* newsletter footer */
     #mg-footer-first .input-email-newsletter{width: 90%;border: transparent;height: 45px;border-radius: 50px;background: #565555;padding: 10px;}
     #mg-footer-first .btn-newsletter{position: absolute;top: 3px;border: transparent;right: 12%;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}
-    #mg-footer-first #mg-newsletter-subtitle{color:white;font-family: 'Gotham';margin-left:-2%;font-weight: bold;font-size:14px;}
+    #mg-footer-first #mg-newsletter-subtitle{color:white;font-family: 'Gotham';margin-left:-2%;font-weight: bold;}
     #mg-footer-first #title-newsletter-footer{margin-left:-2%;}
     /* Social Icons Footer */
     #mg-footer-first #mg-social-main-menu{color:white;margin-left:-4%;}
@@ -247,7 +247,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     #mg-footer-menu-terms ul{list-style-type: none;padding: 0;}
     #mg-footer-menu-terms ul li{float: left;padding:0 10px;border-left: 2px solid #736f6f;}
     #mg-footer-menu-terms ul li:first-child{border: none;padding: 0 10px;}
-    #mg-footer-second ul li a{display: inherit;color:#736f6f;text-decoration: none;font-size: 15px;-webkit-transition: all 0.1s linear;transition: all 0.1s linear;}
+    #mg-footer-second ul li a{display: inherit;color:#736f6f;text-decoration: none;-webkit-transition: all 0.1s linear;transition: all 0.1s linear;}
     #mg-footer-second ul li a:hover{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);-o-transform: scale(1.05);transform: scale(1.05);color:white;}
 
     /* Footer page two sections */

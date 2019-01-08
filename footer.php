@@ -46,7 +46,7 @@
 							&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <span id="ms-copyright-gr">Fait avec amour et café par <a href="https://www.gradiweb.com">Gradiweb</a></span>
 						</p>
 					</div>
-					<div class="col-12 col-md-4 col-lg-4 offset-md-2 offset-lg-2">
+					<div class="col-12 col-md-5 col-lg-5 offset-md-1 offset-lg-1">
 						<div id="mg-footer-menu-terms">
 							<?php footer_terms(); ?>
 						</div>

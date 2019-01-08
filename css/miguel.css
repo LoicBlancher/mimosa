@@ -232,7 +232,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     #mg-footer-first ul li{margin:20px 0;font-family: 'Gotham';}
     #mg-footer-first ul li a{display: inherit;color:#736f6f;text-decoration: none;-webkit-transition: all 0.1s linear;transition: all 0.1s linear;}
     #mg-footer-first ul li a:hover{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);-o-transform: scale(1.05);transform: scale(1.05);color:white;}
-    #mg-footer-menu-terms{font-family: 'Gotham';}
+    #mg-footer-menu-terms{font-family: 'Gotham';margin-left:15%;}
     /* newsletter footer */
     #mg-footer-first .input-email-newsletter{width: 90%;border: transparent;height: 45px;border-radius: 50px;background: #565555;padding: 10px;}
     #mg-footer-first .btn-newsletter{position: absolute;top: 3px;border: transparent;right: 12%;z-index: 2;width: 38px;height: 38px;border-radius: 50%;background: #ffbf2c;}

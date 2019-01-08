@@ -11,6 +11,10 @@ jQuery(function ($) {
  $(document).ready(function () {
 
     /* Main Menú */
+    (function addHoverForMainMenuItems(){
+      $("#mg-wrapper-main-menu #mg-main-menu-content ul li a").addClass("hvr-underline-from-left");
+    })();
+
      $("#mg-main-menu-btn a").click(function () {
         $('#mg-external-wrapper-main-menu').fadeToggle(200); 
         let mainMenu = document.getElementById("mg-wrapper-main-menu");

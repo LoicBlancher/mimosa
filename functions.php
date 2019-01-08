@@ -195,6 +195,13 @@ function lastsection_home_mimosaMenu()
         )
     );
 }
+
+
+/* Add Menu Class for menus 
+add_filter( 'nav_menu_link_attributes', function($atts) {
+        $atts['class'] = "hvr-underline-from-left";
+        return $atts;
+}, 100, 1 );*/
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
 {

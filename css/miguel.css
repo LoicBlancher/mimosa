@@ -137,7 +137,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
     HEADER
 \*------------------------------------*/
   header{position: fixed;width: 100%;padding: 30px 90px;z-index: 999;}
-  #mg-main-menu-btn {float:right;display: inline;font-size: 32px;}
+  #mg-main-menu-btn {float:right;display: inline;font-size: 32px;cursor:pointer;}
   #mg-main-menu-btn a {display: inline-block;text-decoration: none;/* safari hack */}
   .mg-menu-line{width: 35px;height: 5px;background-color: var(--mimosa-yellow);margin: 6px 0; }
   #mg-info-header{float: right;margin-right: 50px;}
@@ -374,7 +374,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-last-section-home-menu ul{list-style-type: none;padding: 0;display: table;margin:20px auto;}
 #ms-last-section-home-menu ul li{float: left;margin:0 20px;}
 #ms-last-section-home-menu ul li a{color: white;text-transform: uppercase;font-size: 14px;font-family: 'Gotham';letter-spacing: 0.15em;}
-#ms-last-section-home-menu ul li a:hover{border-bottom:2px solid var(--mimosa-black-dark);}
 .ms-responsive-home-formation-et-atelier{display: none;}
 
 /*------------------------------------*\

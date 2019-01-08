@@ -309,6 +309,11 @@ jQuery(function ($) {
       };
      }
     */
+
+    /* Add hover effect for items Last Section One Page Footer */
+    (function addHoverForLastSectionMenuItems(){
+      $("#ms-last-section-home-menu ul li a").addClass("hvr-underline-from-left-last-section");
+    })();
       
  }); 
 });

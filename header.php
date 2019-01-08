@@ -28,7 +28,7 @@
   		<header>
       
        <div id="mg-main-menu-btn">
-           <a href="#">
+           <a>
              <div class="mg-menu-line"></div>
              <div class="mg-menu-line"></div>
              <div class="mg-menu-line"></div>

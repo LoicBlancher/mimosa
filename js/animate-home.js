@@ -7,6 +7,25 @@ jQuery(function ($) {
         TweenMax.to(this, duration / 2, {y:0, ease:Bounce.easeOut, delay:duration / 4});
       });   
 
+      /* Scroll Button First Section Home */
+      $('a[href^="#2"]').on('click', function(event) {
+
+          var target = $(this.getAttribute('href'));
+
+          if( target.length ) {
+              event.preventDefault();
+              $('html, body').stop().animate({
+                  scrollTop: target.offset().top
+              }, 1000);
+          }
+
+      });
+      $("#ms-know-more").click(function(){
+        $('html,body').animate({
+          scrollTop:$("#ms-second-section-home").offset().top},
+          1000);
+      });
+
       (function animateDemoHome(){
         egg1 = document.getElementById("ms-container-egg1-home");
         TweenMax.fromTo(egg1, 0.1, {
@@ -256,7 +275,7 @@ jQuery(function ($) {
           easing: "ease",                                                                   
           animationTime: 1000,             
           pagination: true,                
-          updateURL: false,                
+          updateURL: true,                
           beforeMove: function(index) {
             animateCustomersHome(index);
             amiateOnionHome(index);

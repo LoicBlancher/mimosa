@@ -19,7 +19,9 @@ body{overflow-x: hidden!important;}
   --mimosa-gray-clear:#8e8e8e;
 
 }
-
+.ms-test a .mg-menu-line{
+  background: red;
+}
 /*------------------------------------*\
    Begin Styles Site
 \*------------------------------------*/
@@ -137,7 +139,6 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
 .icon::before {display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;-webkit-font-smoothing: antialiased;}
 /* Paginator One Page Bubble */
 .ms-bubble-paginator{position: absolute;left: 25%;display: none;}
-.ms-erase-bubble{color:red;display: none;}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/

@@ -241,6 +241,17 @@ jQuery(function ($) {
         };
       };
 
+
+
+      function test(idx){
+        let $header = $('header');
+        $header.removeClass('ms-test');
+
+        if(idx==7){
+          $header.addClass("ms-test");
+        }
+      }
+
       (function animateCheeseHome(){
         let devisCtaHome = document.getElementById("ms-cta-devis-home");
         let contactCtaHome = document.getElementById("ms-cta-contact-home");
@@ -279,6 +290,7 @@ jQuery(function ($) {
           beforeMove: function(index) {
             animateCustomersHome(index);
             amiateOnionHome(index);
+            test(index);
           },  
           afterMove: function(index) {
           },   

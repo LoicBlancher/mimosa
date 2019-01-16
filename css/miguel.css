@@ -22,6 +22,10 @@ body{overflow-x: hidden!important;}
 .ms-test a .mg-menu-line{
   background: red;
 }
+
+.ms-white-background-social-icons #socialHeader svg{
+  color:#ffcf01;
+}
 /*------------------------------------*\
    Begin Styles Site
 \*------------------------------------*/

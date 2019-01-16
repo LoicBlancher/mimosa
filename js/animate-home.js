@@ -243,12 +243,12 @@ jQuery(function ($) {
 
 
 
-      function test(idx){
+      function white_background(id){
         let $header = $('header');
-        $header.removeClass('ms-test');
+        $header.removeClass('ms-white-background-social-icons');
 
-        if(idx==7){
-          $header.addClass("ms-test");
+        if(id==2){
+          $header.addClass("ms-white-background-social-icons");
         }
       }
 
@@ -290,7 +290,7 @@ jQuery(function ($) {
           beforeMove: function(index) {
             animateCustomersHome(index);
             amiateOnionHome(index);
-            test(index);
+            white_background(index);
           },  
           afterMove: function(index) {
           },   

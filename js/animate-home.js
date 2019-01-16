@@ -246,7 +246,7 @@ jQuery(function ($) {
       function header_section_two_home(id){
         let $header = $('header');
         $header.removeClass('ms-white-background-social-icons');
-        if(id==2){
+        if( id==2 || id == 4 || id == 7 ){
           $header.addClass("ms-white-background-social-icons");
         }
       }
@@ -257,13 +257,13 @@ jQuery(function ($) {
         $button.removeClass('hvr-ripple-out-wt');
         $button.addClass('hvr-ripple-out');
         $header.removeClass('ms-yellow-background-btns');
-        if(id==3){
+        if( id==3 || id == 8 ){
           $button.addClass('hvr-ripple-out-wt');
           $button.removeClass('hvr-ripple-out');
           $header.addClass('ms-yellow-background-btns');
         }
       }
-      
+
 
       (function animateCheeseHome(){
         let devisCtaHome = document.getElementById("ms-cta-devis-home");

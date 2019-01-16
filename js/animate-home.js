@@ -246,9 +246,20 @@ jQuery(function ($) {
       function white_background(id){
         let $header = $('header');
         $header.removeClass('ms-white-background-social-icons');
-
         if(id==2){
           $header.addClass("ms-white-background-social-icons");
+        }
+      }
+
+      function yellow_background(id){
+        let $header = $('header');
+        let $button = $('header a.yellowBtn');
+        $button.removeClass('hvr-ripple-out-wt');
+        $header.removeClass('ms-yellow-background-btns');
+        if(id==3){
+          $button.addClass('hvr-ripple-out-wt');
+          $button.removeClass('hvr-ripple-out');
+          $header.addClass('ms-yellow-background-btns');
         }
       }
 
@@ -291,6 +302,7 @@ jQuery(function ($) {
             animateCustomersHome(index);
             amiateOnionHome(index);
             white_background(index);
+            yellow_background(index);
           },  
           afterMove: function(index) {
           },   

@@ -26,6 +26,10 @@ body{overflow-x: hidden!important;}
 .ms-white-background-social-icons #socialHeader svg{
   color:#ffcf01;
 }
+
+.ms-yellow-background-btns a.yellowBtn{
+  background:white;
+}
 /*------------------------------------*\
    Begin Styles Site
 \*------------------------------------*/

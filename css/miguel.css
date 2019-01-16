@@ -30,6 +30,11 @@ body{overflow-x: hidden!important;}
 .ms-yellow-background-btns a.yellowBtn{
   background:white;
 }
+
+
+.ms-yellow-background-btns #mg-main-menu-btn a div.mg-menu-line{
+  background-color: white;
+}
 /*------------------------------------*\
    Begin Styles Site
 \*------------------------------------*/

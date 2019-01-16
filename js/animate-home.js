@@ -243,7 +243,7 @@ jQuery(function ($) {
 
 
 
-      function white_background(id){
+      function header_section_two_home(id){
         let $header = $('header');
         $header.removeClass('ms-white-background-social-icons');
         if(id==2){
@@ -251,10 +251,11 @@ jQuery(function ($) {
         }
       }
 
-      function yellow_background(id){
+      function header_section_three_home(id){
         let $header = $('header');
         let $button = $('header a.yellowBtn');
         $button.removeClass('hvr-ripple-out-wt');
+        $button.addClass('hvr-ripple-out');
         $header.removeClass('ms-yellow-background-btns');
         if(id==3){
           $button.addClass('hvr-ripple-out-wt');
@@ -262,6 +263,7 @@ jQuery(function ($) {
           $header.addClass('ms-yellow-background-btns');
         }
       }
+      
 
       (function animateCheeseHome(){
         let devisCtaHome = document.getElementById("ms-cta-devis-home");
@@ -301,8 +303,8 @@ jQuery(function ($) {
           beforeMove: function(index) {
             animateCustomersHome(index);
             amiateOnionHome(index);
-            white_background(index);
-            yellow_background(index);
+            header_section_two_home(index);
+            header_section_three_home(index);
           },  
           afterMove: function(index) {
           },   

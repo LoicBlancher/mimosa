@@ -59,7 +59,7 @@ jQuery(function ($) {
           1000);
       });
 */
-      /*(function animateDemoHome(){
+      (function animateDemoHome(){
         egg1 = document.getElementById("ms-container-egg1-home");
         TweenMax.fromTo(egg1, 0.1, {
               x: -1,
@@ -150,7 +150,8 @@ jQuery(function ($) {
         }).progress(0.5);
         
       })();
-      */
+
+      
       function amiateOnionHome(id){
         if(id==3){
           let fragmentOnion1 = document.getElementById("ms-onion-seven");

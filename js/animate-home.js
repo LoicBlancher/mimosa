@@ -332,7 +332,12 @@ jQuery(function ($) {
         };
       };
 
+      // Write Javascript code!
+      
 
+      $(window).scroll(function() {
+         console.log("Scrolling"); 
+      });
 
 
       (function animateCheeseHome(){
@@ -369,13 +374,13 @@ jQuery(function ($) {
       installMediaQueryWatcher("(max-width: 480px)", function(matches) { 
         if (matches) {
           $onePage = $('div.section-scroll');
-          console.log($onePage);
           $onePage.removeClass('section-scroll');
+          $('link[rel=stylesheet][href~="http://mimosa.graditest.com/wp-content/themes/mimosa/css/onepage-scroll.css?ver=4.9.8"]').remove();
         } else {
          
         }
       }); 
-      
+    
 
        $(".main").onepage_scroll({
           sectionContainer: ".section-scroll",     

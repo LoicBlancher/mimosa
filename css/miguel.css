@@ -2547,7 +2547,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-img-soup{width: 80%;height: 100%;left: -35%;top: 20%;}
        /* Responsive Onion */
       #ms-third-section-home{position: relative;}
-      #ms-onion-one{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 87.587%;
+      #ms-onion-one-res{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 87.587%;
           width: 151px;
           height: 130px;
           position: relative;
@@ -2556,7 +2556,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           background-size: 400%;
           transform: rotate(6deg);
           z-index: 14;}
-      #ms-onion-two{    background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;
+      #ms-onion-two-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;
           width: 24px;
           height: 38px;
           position: absolute;
@@ -2565,7 +2565,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           background-size: 3300%;
           transform: rotate(-6deg);
           z-index: 14;}
-      #ms-onion-three{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 100.278%;
+      #ms-onion-three-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 100.278%;
           width: 24px;
           height: 39px;
           position: absolute;
@@ -2573,7 +2573,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           top: 75%;
           left: 38%;
           z-index: 14;}
-      #ms-onion-four{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;
+      #ms-onion-four-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;
           width: 23px;
           height: 31px;
           position: absolute;
@@ -2581,7 +2581,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           background-size: 3500%;
           left: 43%;
           z-index: 14;}
-      #ms-onion-five{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 85.622%;
+      #ms-onion-five-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 85.622%;
           width: 21px;
           height: 39px;
           position: absolute;
@@ -2589,7 +2589,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           top: 75%;
           left: 47%;
           z-index: 14;}
-      #ms-onion-six{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 79.537%;
+      #ms-onion-six-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 79.537%;
           width: 21px;
           height: 39px;
           position: absolute;
@@ -2597,7 +2597,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           background-size: 3400%;
           left: 51%;
           z-index: 14;}
-      #ms-onion-seven{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.691% 71.493%;
+      #ms-onion-seven-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.691% 71.493%;
           width: 26px;
           height: 39px;
           position: absolute;
@@ -2605,7 +2605,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           top: 75%;
           left: 54%;
           z-index: 14;}
-      #ms-pot-under-onion{    background: url(../img/home-page-img-mimosa.png) no-repeat 110.449% 38.178%;
+      #ms-pot-under-onion-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 110.449% 38.178%;
           background-size: 200%;
           width: 395px;
           height: 55px;
@@ -2613,7 +2613,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
           top: 79%;
           left: 20%;
           z-index: 13;}
-      #ms-pot-internal-onion{    background: url(../img/home-page-img-mimosa.png) no-repeat 77.453% 59.403%;
+      #ms-pot-internal-onion-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 77.453% 59.403%;
     background-size: 370%;
     width: 220px;
     height: 60px;

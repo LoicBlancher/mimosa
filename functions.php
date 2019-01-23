@@ -215,9 +215,11 @@ function html5blank_header_scripts()
         wp_register_script('gsap', get_template_directory_uri() . '/js/lib/TweenMax.min.js',true); //Modernizr
         wp_enqueue_script('gsap'); // Enqueue it!
 
-        wp_register_script('morphSvgGsap', get_template_directory_uri() . '/js/lib/MorphSVGPlugin.min',true); //Modernizr
+        wp_register_script('morphSvgGsap', get_template_directory_uri() . '/js/lib/MorphSVGPlugin.min.js',true); //Morph SVG
         wp_enqueue_script('morphSvgGsap'); // Enqueue it!
 
+        wp_register_script('shapeIndex', get_template_directory_uri() . '/js/lib/findShapeIndex.js',true); //Morph SVG
+        wp_enqueue_script('shapeIndex'); // Enqueue it!
 
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0',true); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
@@ -916,21 +918,23 @@ function carousel_clients(){
 add_shortcode('carousel_with_pagination','img_carousel_with_pagination');
 function img_carousel_with_pagination(){?>    
   <div id="ms-img-carousel-with-pagination">
-    <div  id="ms-content-img1" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/2.jpg" alt="">
+    <div id="ms-content-img1" class="active-img-qs">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_1.jpg" alt="">
     </div>
-    <div id="ms-content-img2" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/1.jpg" alt="">
+    <div id="ms-content-img2" class="inactive-img-qs">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_2.jpg" alt="">
     </div>
-    <div  id="ms-content-img3" >
-        <img src="<?php echo get_template_directory_uri(); ?>/img/3.jpg" alt="">
+    <div id="ms-content-img3" class="inactive-img-qs">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_3.jpg" alt="">
     </div>
-    <div id="ms-paginator-carousel">
-        <ul>
-           <li><a href="#" id="ms-imgc-1">1</a></li>
-           <li><a href="#" id="ms-imgc-2">2</a></li>
-           <li><a href="#" id="ms-imgc-3">3</a></li>
-        </ul>
+    <div id="ms-wrapper-paginator">
+        <div id="ms-paginator-right">
+            <div id="ms-paginator">
+                <a id="ms-pag-round" class="round-active">1</a>
+                <a id="ms-pag-round2">2</a>
+                <a id="ms-pag-round3">3</a>
+            </div>
+        </div>
     </div>
   </div>  
 

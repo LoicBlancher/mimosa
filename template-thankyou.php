@@ -20,4 +20,5 @@
         </div>
         <?php footer_terms(); ?>
       </div>    
+
     </div>

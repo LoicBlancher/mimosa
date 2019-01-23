@@ -1,31 +1,59 @@
 jQuery(function ($) {
  $(document).ready(function () {
-      /* Animations One page template */
-      $(".ms-logo-mimosa-main").on("mouseenter", function() {
-        var duration = 1;
-        TweenMax.to(this, duration / 4, {y:-50, ease:Power2.easeOut});
-        TweenMax.to(this, duration / 2, {y:0, ease:Bounce.easeOut, delay:duration / 4});
-      });   
 
-      /* Scroll Button First Section Home */
-      $('a[href^="#2"]').on('click', function(event) {
 
-          var target = $(this.getAttribute('href'));
 
-          if( target.length ) {
-              event.preventDefault();
-              $('html, body').stop().animate({
-                  scrollTop: target.offset().top
-              }, 1000);
-          }
+      function header_section_two_home(id){
+        let $header = $('header');
+        $header.removeClass('ms-white-background-social-icons');
+        if( id==2 || id == 4 || id == 7 ){
+          $header.addClass("ms-white-background-social-icons");
+        }
+      }
 
-      });
+      function header_section_three_home(id){
+        let $header = $('header');
+        let $button = $('header a.yellowBtn');
+        $button.removeClass('hvr-ripple-out-wt');
+        $button.addClass('hvr-ripple-out');
+        $header.removeClass('ms-yellow-background-btns');
+        if( id==3 || id == 8 ){
+          $button.addClass('hvr-ripple-out-wt');
+          $button.removeClass('hvr-ripple-out');
+          $header.addClass('ms-yellow-background-btns');
+        }
+      }
+
+      /* Logo Animation */
+      (function animateLogo(){
+        let logopart1 = document.getElementById("ms-logo-main-1");
+        let logopart2 = document.getElementById("ms-logo-main-2");
+        let logopart3 = document.getElementById("ms-logo-main-3");
+        let logopart4 = document.getElementById("ms-logo-main-4");
+        let logopart5 = document.getElementById("ms-logo-main-5");
+        let logopart6 = document.getElementById("ms-logo-main-6");
+        let logopart7 = document.getElementById("ms-logo-main-7");
+        let logopart8 = document.getElementById("ms-logo-main-8");
+        let logopart9 = document.getElementById("ms-logo-main-9");
+        let logopart10 = document.getElementById("ms-logo-main-10");
+        let logopart11 = document.getElementById("ms-logo-main-11");
+        let logopart12 = document.getElementById("ms-logo-main-12");
+        let logopart13 = document.getElementById("ms-logo-main-13");
+        let logopart14 = document.getElementById("ms-logo-main-14");
+        TweenLite.to([logopart1,logopart2,logopart3,
+          logopart4,logopart5,logopart6,logopart7
+          ,logopart8,logopart9,logopart10,logopart11,
+          logopart12,logopart13,logopart14
+          ],1,{morphSVG:"#cuchara"}); 
+      })(); 
+
+ /*
       $("#ms-know-more").click(function(){
         $('html,body').animate({
           scrollTop:$("#ms-second-section-home").offset().top},
           1000);
       });
-
+*/
       (function animateDemoHome(){
         egg1 = document.getElementById("ms-container-egg1-home");
         TweenMax.fromTo(egg1, 0.1, {
@@ -94,27 +122,28 @@ jQuery(function ($) {
           repeat: -1,
           yoyo: true
         }).progress(0.5);
+
+        bacon = document.getElementById("ms-container-bacon-home");
+        let radiusBacon = 7;
+        TweenLite.set(bacon, { 
+          x: -radiusBacon, 
+          y: -radiusBacon
+        });
+
+        TweenMax.to(bacon, 5, {
+          y: radiusBacon,
+          ease: Sine.easeInOut,
+          repeat: -1,
+          yoyo: true
+        });
+
+        TweenMax.to(bacon, 5, {
+          x: radiusBacon,
+          ease: Sine.easeInOut,
+          repeat: -1,
+          yoyo: true
+        }).progress(0.5);
         
-        /*let demoBackground = $("[background-image=url("'http://mimosa.graditest.com/wp-content/uploads/2018/10/Fondo-2.png'")]");
-        let radiusBack = 20;
-        TweenLite.set(demoBackground, { 
-          x: -radiusBack, 
-          y: -radiusBack
-        });
-
-        TweenMax.to(demoBackground, 6, {
-          y: radiusBack,
-          ease: Sine.easeInOut,
-          repeat: -1,
-          yoyo: true
-        });
-
-        TweenMax.to(demoBackground, 6, {
-          x: radiusBack,
-          ease: Sine.easeInOut,
-          repeat: -1,
-          yoyo: true
-        }).progress(0.5);*/
       })();
       
       function amiateOnionHome(id){
@@ -127,34 +156,56 @@ jQuery(function ($) {
           let fragmentOnion6 = document.getElementById("ms-onion-two");
           let fragmentOnion7 = document.getElementById("ms-onion-one");
           let animation = new TimelineMax({delay:0.2})
-          animation.to(fragmentOnion1, 0.9, {
-            y:140,
-            ease: Bounce.easeOut  
+          animation.fromTo(fragmentOnion1, 0.9, {
+              x:0,
+              y:0
+            },{
+              y:140,
+              ease: Bounce.easeOut
           });
-          animation.to(fragmentOnion2, 0.7, {
-            y:140,
-            ease: Bounce.easeOut  
+          animation.fromTo(fragmentOnion2, 0.7, {
+              x:0,
+              y:0
+            },{  
+              y:140,
+              ease: Bounce.easeOut  
           });
-          animation.to(fragmentOnion3, 0.7, {
-            y:147,
-            ease: Bounce.easeOut  
+          animation.fromTo(fragmentOnion3, 0.7, {
+              x:0,
+              y:0
+            },{  
+              y:147,
+              ease: Bounce.easeOut  
           });
-          animation.to(fragmentOnion4, 0.7, {
-            y:150,
-            ease: Bounce.easeOut  
+          animation.fromTo(fragmentOnion4, 0.7, {
+              x:0,
+              y:0
+            },{
+              y:150,
+              ease: Bounce.easeOut  
           });
-          animation.to(fragmentOnion5, 0.7, {
-            y:167,
-            ease: Bounce.easeOut  
+          animation.fromTo(fragmentOnion5, 0.7, {
+              x:0,
+              y:0   
+          },{
+              y:167,
+              ease: Bounce.easeOut  
           });
-          animation.to(fragmentOnion6, 0.7, {
-            y:170,
-            ease: Bounce.easeOut 
+          animation.fromTo(fragmentOnion6, 0.7, {
+              x:0,
+              y:0
+          },{
+              y:170,
+              ease: Bounce.easeOut 
           });
-          animation.to(fragmentOnion7, 0.7, {
-            y:160,
-            x:180,
-            rotation:36,
+          animation.fromTo(fragmentOnion7, 0.7, {
+              x:0,
+              y:0,
+              rotation:0
+          },{  
+              y:160,
+              x:180,
+              rotation:36,
           });
         }
       }
@@ -173,14 +224,27 @@ jQuery(function ($) {
         let seedFourTop = document.getElementById("ms-seed-four-top");
         let seedFiveTop = document.getElementById("ms-seed-five-top");
         let seedSixTop = document.getElementById("ms-seed-six-top");
-        TweenMax.fromTo([seedOne,seedSixTop], 0.8, {
-              x: -1,
-            }, {
-              x: 1,
-              repeat: -1,
-              yoyo: true,
-              ease: SlowMo.easeInOut
-            });
+        let tl = new TimelineMax({repeatDelay:1,repeat:-1});
+        tl.fromTo(seedOne, 3, {
+            x:-1,
+          }, {
+            x:1,
+            ease:RoughEase.ease.config({
+              strength:8, 
+              points:10, 
+              template:Linear.easeNone, 
+              randomize:false})
+          });
+        tl.fromTo(seedSixTop, 2, {
+            x:-2,
+          }, {
+            x:1,
+            ease:RoughEase.ease.config({
+              strength:8, 
+              points:10, 
+              template:Linear.easeNone, 
+              randomize:false})
+          });
         TweenMax.fromTo([seedTwo,seedFiveTop], 3, {
               x: -1,
             }, {
@@ -225,64 +289,62 @@ jQuery(function ($) {
 
       function animateCustomersHome(id){
         if(id==6){
-        let soup = document.getElementById("ms-img-soup");
-        let avocado = document.getElementById("ms-img-avocado");
-        TweenMax.fromTo(soup, 3, {
-              x: -190,
-            }, {
-              x: 0,
-              ease: Power4.easeInOut
+          let soup = document.getElementById("ms-img-soup");
+          let avocado = document.getElementById("ms-img-avocado");
+          let branch1 = document.getElementById("ms-img-branch1");
+          let branch2 = document.getElementById("ms-img-branch2");
+            TweenMax.fromTo(soup, 3, {
+                x: -190,
+              }, {
+                x: 0,
+                ease: Power4.easeInOut
             });  
-        TweenMax.to(avocado , 3, {
-              y: -230,
-              ease: Power4.easeInOut
-            });            
-
+            TweenMax.fromTo(avocado , 3, {
+                y: 0
+              },{
+                y: -230, 
+                ease: Power4.easeInOut             
+            });
+            TweenMax.fromTo(branch1, 3,{
+                x:-40,
+                y:30
+              },{
+                x:0,
+                y:0,
+                ease: Power4.easeInOut
+            });
+            TweenMax.fromTo(branch2, 3,{
+                y:-10
+              },{
+                y:20,
+                ease: SteppedEase.config(12)
+              });            
         };
       };
 
 
 
-      function header_section_two_home(id){
-        let $header = $('header');
-        $header.removeClass('ms-white-background-social-icons');
-        if( id==2 || id == 4 || id == 7 ){
-          $header.addClass("ms-white-background-social-icons");
-        }
-      }
-
-      function header_section_three_home(id){
-        let $header = $('header');
-        let $button = $('header a.yellowBtn');
-        $button.removeClass('hvr-ripple-out-wt');
-        $button.addClass('hvr-ripple-out');
-        $header.removeClass('ms-yellow-background-btns');
-        if( id==3 || id == 8 ){
-          $button.addClass('hvr-ripple-out-wt');
-          $button.removeClass('hvr-ripple-out');
-          $header.addClass('ms-yellow-background-btns');
-        }
-      }
-
 
       (function animateCheeseHome(){
         let devisCtaHome = document.getElementById("ms-cta-devis-home");
         let contactCtaHome = document.getElementById("ms-cta-contact-home");
+        let tl = new TimelineMax({repeatDelay:1});
         devisCtaHome.addEventListener("mouseover",function(event){
           let cheese = document.getElementById("ms-cta-cheese-home");
-          TweenLite.fromTo(cheese, 0.3, {
-            x:-1}, {
-              x:1, 
+          tl.fromTo(cheese, 0.7, {
+            x:-1,
+            yoyo:true}, {
+              x:1,
               ease:RoughEase.ease.config({
                 strength:8, 
                 points:20, 
                 template:Linear.easeNone, 
-                randomize:false}) , 
-            clearProps:"x"})
+                randomize:false})
+            });
         });
         contactCtaHome.addEventListener("mouseover",function(event){
           let cheese = document.getElementById("ms-cta-cheese-home");
-          TweenLite.fromTo(cheese, 0.3, {
+          tl.fromTo(cheese, 0.7, {
             x:-1}, {
               x:1, 
               ease:RoughEase.ease.config({
@@ -290,7 +352,7 @@ jQuery(function ($) {
                 points:20, 
                 template:Linear.easeNone, 
                 randomize:false}) , 
-            clearProps:"x"})
+            });
         });
       })();
 

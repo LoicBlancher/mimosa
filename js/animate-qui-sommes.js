@@ -1,31 +1,40 @@
 jQuery(function ($) {
  $(document).ready(function () {
             
- 	(function paginate_carousel(){
- 	   let button1 = document.getElementById('ms-imgc-1');
- 	   let button2 = document.getElementById('ms-imgc-2');
- 	   let button3 = document.getElementById('ms-imgc-3');
- 	   let image1 = document.getElementById('ms-content-img1');
- 	   let image2 = document.getElementById('ms-content-img2');
- 	   let image3 = document.getElementById('ms-content-img3');
- 	   button1.addEventListener("click",function(){
- 	       image1.style.display = "block";
- 	       image2.style.display = "none";
- 	       image3.style.display = "none"; 
- 	   });
- 	   button2.addEventListener("click",function(){
- 	       image2.style.display = "block";
- 	       image1.style.display = "none";
- 	       image3.style.display = "none"; 
- 	   });
- 	   button3.addEventListener("click",function(){
- 	       image3.style.display = "block";
- 	       image1.style.display = "none";
- 	       image2.style.display = "none";  
- 	   });
+ 	
+  (function paginator_second_section(){
+    let $imgQs1 = $('#ms-content-img1');
+    let $imgQs2 = $('#ms-content-img2');
+    let $imgQs3 = $('#ms-content-img3');
+    let $btnQs1 = $('#ms-pag-round');
+    let $btnQs2 = $('#ms-pag-round2');
+    let $btnQs3 = $('#ms-pag-round3');
+    $btnQs1.on("click",function(){
+      $(this).addClass('round-active');
+      $btnQs2.removeClass('round-active');
+      $btnQs3.removeClass('round-active');
+      $imgQs1.css("display","block");
+      $imgQs2.css("display","none");
+      $imgQs3.css("display","none");
+    });
+    $btnQs2.on("click",function(){
+      $(this).addClass('round-active');
+      $btnQs1.removeClass('round-active');
+      $btnQs3.removeClass('round-active');
+      $imgQs1.css("display","none");
+      $imgQs2.css("display","block");
+      $imgQs3.css("display","none");
+    });
+    $btnQs3.on("click",function(){
+      $(this).addClass('round-active');
+      $btnQs1.removeClass('round-active');
+      $btnQs2.removeClass('round-active');
+      $imgQs1.css("display","none");
+      $imgQs2.css("display","none");
+      $imgQs3.css("display","block");
+    });
 
- 	})();
-
+  })();
 
 
  	(function eyelashContent(){
@@ -51,7 +60,7 @@ jQuery(function ($) {
  	      content3.style.display = "block";
  	  });
  	})();
- 	
+
                 
  	 $(".main").onepage_scroll({
  	    sectionContainer: ".section-scroll",     

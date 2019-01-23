@@ -1,7 +1,11 @@
 jQuery(function ($) {
  $(document).ready(function () {
 
-
+      function installMediaQueryWatcher(mediaQuery, layoutChangedCallback) {
+        var mql = window.matchMedia(mediaQuery);
+        mql.addListener(function (e) { return layoutChangedCallback(e.matches); });
+        layoutChangedCallback(mql.matches);
+      }
 
       function header_section_two_home(id){
         let $header = $('header');
@@ -151,7 +155,7 @@ jQuery(function ($) {
         
       })();
 
-      
+
       function amiateOnionHome(id){
         if(id==3){
           let fragmentOnion1 = document.getElementById("ms-onion-seven");
@@ -362,36 +366,16 @@ jQuery(function ($) {
         });
       })();
 
-      /* Animation Large Devices 
-      installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
+      installMediaQueryWatcher("(max-width: 480px)", function(matches) { 
         if (matches) {
-          (function animateDemoHomeLargeDv(){
-            let spinach = document.getElementById("ms-container-spinach-home");
-            spinach = document.getElementById("ms-container-spinach-home");
-            let radiusSpinach = 10;
-            TweenLite.set(spinach, { 
-              x: -radiusSpinach, 
-              y: -radiusSpinach
-            });
-
-            TweenMax.to(spinach, 6, {
-              y: radiusSpinach,
-              ease: Sine.easeInOut,
-              repeat: -1,
-              yoyo: true
-            });
-
-            TweenMax.to(spinach, 6, {
-              x: radiusSpinach,
-              ease: Sine.easeInOut,
-              repeat: -1,
-              yoyo: true
-            }).progress(0.5);
-          })();
+          $onePage = $('div.section-scroll');
+          console.log($onePage);
+          $onePage.removeClass('section-scroll');
         } else {
          
         }
-      }); */
+      }); 
+      
 
        $(".main").onepage_scroll({
           sectionContainer: ".section-scroll",     

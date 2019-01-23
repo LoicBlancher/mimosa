@@ -59,7 +59,7 @@ jQuery(function ($) {
           1000);
       });
 */
-      (function animateDemoHome(){
+      /*(function animateDemoHome(){
         egg1 = document.getElementById("ms-container-egg1-home");
         TweenMax.fromTo(egg1, 0.1, {
               x: -1,
@@ -150,7 +150,7 @@ jQuery(function ($) {
         }).progress(0.5);
         
       })();
-      
+      */
       function amiateOnionHome(id){
         if(id==3){
           let fragmentOnion1 = document.getElementById("ms-onion-seven");
@@ -360,6 +360,37 @@ jQuery(function ($) {
             });
         });
       })();
+
+      /* Animation Large Devices 
+      installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
+        if (matches) {
+          (function animateDemoHomeLargeDv(){
+            let spinach = document.getElementById("ms-container-spinach-home");
+            spinach = document.getElementById("ms-container-spinach-home");
+            let radiusSpinach = 10;
+            TweenLite.set(spinach, { 
+              x: -radiusSpinach, 
+              y: -radiusSpinach
+            });
+
+            TweenMax.to(spinach, 6, {
+              y: radiusSpinach,
+              ease: Sine.easeInOut,
+              repeat: -1,
+              yoyo: true
+            });
+
+            TweenMax.to(spinach, 6, {
+              x: radiusSpinach,
+              ease: Sine.easeInOut,
+              repeat: -1,
+              yoyo: true
+            }).progress(0.5);
+          })();
+        } else {
+         
+        }
+      }); */
 
        $(".main").onepage_scroll({
           sectionContainer: ".section-scroll",     

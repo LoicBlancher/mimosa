@@ -24,7 +24,7 @@ jQuery(function ($) {
         }
       }
 
-      /* Logo Animation */
+      /* Logo Animation 
       (function animateLogo(){
         var tl = new TimelineLite({onUpdate:updateSlider}),
             circle = document.getElementById("circle");
@@ -33,7 +33,6 @@ jQuery(function ($) {
           .to(circle, 1, {morphSVG:"#star"}, "+=1")
           .to(circle, 1, {morphSVG:"#elephant"}, "+=1")
           .to(circle, 1, {morphSVG:circle}, "+=1");
-        /* controls */
 
         $("#slider").slider({
           range: false,
@@ -51,7 +50,7 @@ jQuery(function ($) {
         function updateSlider() {
           $("#slider").slider("value", tl.progress());
         } 
-      })(); 
+      })(); */
 
  /*
       $("#ms-know-more").click(function(){

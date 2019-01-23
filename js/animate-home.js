@@ -26,25 +26,31 @@ jQuery(function ($) {
 
       /* Logo Animation */
       (function animateLogo(){
-        let logopart1 = document.getElementById("ms-logo-main-1");
-        let logopart2 = document.getElementById("ms-logo-main-2");
-        let logopart3 = document.getElementById("ms-logo-main-3");
-        let logopart4 = document.getElementById("ms-logo-main-4");
-        let logopart5 = document.getElementById("ms-logo-main-5");
-        let logopart6 = document.getElementById("ms-logo-main-6");
-        let logopart7 = document.getElementById("ms-logo-main-7");
-        let logopart8 = document.getElementById("ms-logo-main-8");
-        let logopart9 = document.getElementById("ms-logo-main-9");
-        let logopart10 = document.getElementById("ms-logo-main-10");
-        let logopart11 = document.getElementById("ms-logo-main-11");
-        let logopart12 = document.getElementById("ms-logo-main-12");
-        let logopart13 = document.getElementById("ms-logo-main-13");
-        let logopart14 = document.getElementById("ms-logo-main-14");
-        TweenLite.to([logopart1,logopart2,logopart3,
-          logopart4,logopart5,logopart6,logopart7
-          ,logopart8,logopart9,logopart10,logopart11,
-          logopart12,logopart13,logopart14
-          ],1,{morphSVG:"#cuchara"}); 
+        var tl = new TimelineLite({onUpdate:updateSlider}),
+            circle = document.getElementById("circle");
+
+        tl.to(circle, 1, {morphSVG:"#hippo"}, "+=1")
+          .to(circle, 1, {morphSVG:"#star"}, "+=1")
+          .to(circle, 1, {morphSVG:"#elephant"}, "+=1")
+          .to(circle, 1, {morphSVG:circle}, "+=1");
+        /* controls */
+
+        $("#slider").slider({
+          range: false,
+          min: 0,
+          max: 1,
+          step:.001,
+          slide: function ( event, ui ) {
+            tl.progress( ui.value ).pause();
+          },
+          stop: function () {
+            tl.play();
+          }
+        }); 
+
+        function updateSlider() {
+          $("#slider").slider("value", tl.progress());
+        } 
       })(); 
 
  /*

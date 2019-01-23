@@ -3060,6 +3060,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 
 #ms-img-oats{display: none;}
-
+#hippo, #elephant, #star{
+  visibility:hidden;
+}
 
 

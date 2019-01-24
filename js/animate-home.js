@@ -335,9 +335,6 @@ jQuery(function ($) {
       // Write Javascript code!
       
 
-      $(window).scroll(function() {
-         console.log("Scrolling"); 
-      });
 
 
       (function animateCheeseHome(){
@@ -380,6 +377,76 @@ jQuery(function ($) {
          
         }
       }); 
+
+      
+        (function animateFormationRes(){
+          let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
+          let fragmentOnion2 = document.getElementById("ms-onion-six-res");
+          let fragmentOnion3 = document.getElementById("ms-onion-five-res");
+          let fragmentOnion4 = document.getElementById("ms-onion-four-res");
+          let fragmentOnion5 = document.getElementById("ms-onion-three-res");
+          let fragmentOnion6 = document.getElementById("ms-onion-two-res");
+          let fragmentOnion7 = document.getElementById("ms-onion-one-res");
+          let animation = new TimelineMax({delay:2,repeat:-1})
+          animation.fromTo(fragmentOnion1, 0.9,{
+              x:0,
+              y:0,
+              delay:0.9
+            },{
+              y:75,
+              ease: Bounce.easeOut
+          });
+          animation.fromTo(fragmentOnion2, 0.7, {
+              x:0,
+              y:0,
+              delay:0.9
+            },{  
+              y:70,
+              ease: Bounce.easeOut  
+          });
+          animation.fromTo(fragmentOnion3, 0.7, {
+              x:0,
+              y:0,
+              delay:0.9
+            },{  
+              y:70,
+              ease: Bounce.easeOut  
+          });
+          animation.fromTo(fragmentOnion4, 0.7, {
+              x:0,
+              y:0,
+              delay:0.9
+            },{
+              y:70,
+              ease: Bounce.easeOut  
+          });
+          animation.fromTo(fragmentOnion5, 0.7, {
+              x:0,
+              y:0,
+              delay:0.9   
+          },{
+              y:70,
+              ease: Bounce.easeOut  
+          });
+          animation.fromTo(fragmentOnion6, 0.7, {
+              x:0,
+              y:0,
+              delay:0.9
+          },{
+              y:80,
+              ease: Bounce.easeOut 
+          });
+          animation.fromTo(fragmentOnion7, 1.2, {
+              x:0,
+              y:0,
+              rotation:0,
+              delay:0.9
+          },{  
+              y:80,
+              x:75,
+              rotation:55,
+          });
+        })();
     
 
        $(".main").onepage_scroll({

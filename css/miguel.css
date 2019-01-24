@@ -2546,81 +2546,16 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-slider-clients .slick-prev{left:-17%;}
       #ms-img-soup{width: 80%;height: 100%;left: -35%;top: 20%;}
        /* Responsive Onion */
-      #ms-third-section-home{position: relative;}
-      #ms-onion-one-res{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 87.587%;
-          width: 151px;
-          height: 130px;
-          position: relative;
-          top: -80px;
-          left: -18%;
-          background-size: 400%;
-          transform: rotate(6deg);
-          z-index: 14;}
-      #ms-onion-two-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;
-          width: 24px;
-          height: 38px;
-          position: absolute;
-          top: 72%;
-          left: 33%;
-          background-size: 3300%;
-          transform: rotate(-6deg);
-          z-index: 14;}
-      #ms-onion-three-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 100.278%;
-          width: 24px;
-          height: 39px;
-          position: absolute;
-          background-size: 3100%;
-          top: 75%;
-          left: 38%;
-          z-index: 14;}
-      #ms-onion-four-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;
-          width: 23px;
-          height: 31px;
-          position: absolute;
-          top: 75%;
-          background-size: 3500%;
-          left: 43%;
-          z-index: 14;}
-      #ms-onion-five-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 85.622%;
-          width: 21px;
-          height: 39px;
-          position: absolute;
-          background-size: 4300%;
-          top: 75%;
-          left: 47%;
-          z-index: 14;}
-      #ms-onion-six-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 79.537%;
-          width: 21px;
-          height: 39px;
-          position: absolute;
-          top: 76%;
-          background-size: 3400%;
-          left: 51%;
-          z-index: 14;}
-      #ms-onion-seven-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 30.691% 71.493%;
-          width: 26px;
-          height: 39px;
-          position: absolute;
-          background-size: 3000%;
-          top: 75%;
-          left: 54%;
-          z-index: 14;}
-      #ms-pot-under-onion-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 110.449% 38.178%;
-          background-size: 200%;
-          width: 395px;
-          height: 55px;
-          position: absolute;
-          top: 79%;
-          left: 20%;
-          z-index: 13;}
-      #ms-pot-internal-onion-res{    background: url(../img/home-page-img-mimosa.png) no-repeat 77.453% 59.403%;
-    background-size: 370%;
-    width: 220px;
-    height: 60px;
-    position: absolute;
-    top: 85.5%;
-    left: 26.4%;
-    z-index: 15;}
+      #ms-third-section-home-res{position: relative;background-position: 50% -120.2827px!important;}
+      #ms-onion-one-res{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 87.587%;width: 151px;height: 130px;position: relative;top: -80px;left: -18%;background-size: 400%;transform: rotate(6deg);z-index: 14;}
+      #ms-onion-two-res{background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;width: 24px;height: 38px;position: absolute;top: 72%;left: 33%;background-size: 3300%;transform: rotate(-6deg);z-index: 14;}
+      #ms-onion-three-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 100.278%;width: 24px;height: 39px;position: absolute;background-size: 3100%;top: 75%;left: 38%;z-index: 14;}
+      #ms-onion-four-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;width: 23px;height: 31px;position: absolute;top: 75%;background-size: 3500%;left: 43%;z-index: 14;}
+      #ms-onion-five-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 85.622%;width: 21px;height: 39px;position: absolute;background-size: 4300%;top: 75%;left: 47%;z-index: 14;}
+      #ms-onion-six-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 79.537%;width: 21px;height: 39px;position: absolute;top: 76%;background-size: 3400%;left: 51%;z-index: 14;}
+      #ms-onion-seven-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.691% 71.493%;width: 26px;height: 39px;position: absolute;background-size: 3000%;top: 75%;left: 54%;z-index: 14;}
+      #ms-pot-under-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 110.449% 38.178%;background-size: 200%;width: 395px;height: 55px;position: absolute;top: 79%;left: 20%;z-index: 13;}
+      #ms-pot-internal-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 77.453% 59.403%;background-size: 356%;width: 220px;height: 60px;position: absolute;top: 84.9%;left: 25.4%;z-index: 15;}
       /* Responsive Qui Sommes */
       #ms-wrapper-title-with-background{background: rgba(0, 0, 0, 0.50);padding: 5px 0;-webkit-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);-moz-box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);box-shadow: 1px -2px 31px 0px rgba(255,255,255,1);}
       #ms-sommes-first-section h1{margin:15px 0;}

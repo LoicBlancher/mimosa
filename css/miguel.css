@@ -1950,7 +1950,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   }
 
   @media only screen and (min-width: 480px) and (max-width: 732px){
-    
+    /* Home Page */
+    #ms-container-bred-home{top: -230px;transform: rotate(250deg);left: 88%;background-size: 1100%;width: 70px;height: 70px;}
+    #ms-container-egg1-home{position: absolute;background: url(../img/home-page-img-mimosa.png) no-repeat 22.825% 13.602%;background-size: 800%;width: 86px;height: 100px;top: -90px;left: -10%;opacity: 0.6;transform: rotate(280deg);}
+    #ms-container-bacon-home{top: -670px;left: -12%;background-size: 700%;width: 60px;height: 50px;transform: rotate(310deg);opacity: 0.95;}
+    #ms-container-egg2-home{background-size: 600%;width: 120px;height: 120px;top: -460px;left: 80%;opacity: 0.76;transform: rotate(180deg);}
+    #ms-container-spinach-home{top: -40px;left: 80%;background-size: 550%;width: 100px;height: 100px;}
+    #ms-seed-tomato{top: -40px;left: -16%;background-size: 360%;width: 170px;height: 100px;}
+    #ms-seed-brocoli{top: -30px;left: 65%;background-size: 350%;width: 180px;height: 100px;}
 
     /* Contact */
     .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 40%;position: relative;left:30%;top:20px;}
@@ -1971,7 +1978,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     }
 
     @media only screen and (min-width: 481px) and (max-width: 555px){
-      #ms-responsive-onion-home{width: 130%;position: relative;left: 50%;transform: translateX(-50%);}
+            
+      /* Home Page */
+      
+
       /*Demo Culinaire*/
       #ms-indicator-first-left-demo{top: -60px;left: 40%;}
       #ms-chicken1{background-size: 770%;top: 1%;width: 120px;height: 170px;}
@@ -2524,7 +2534,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-container-bacon-home{top: -670px;left: -12%;background-size: 700%;width: 60px;height: 50px;transform: rotate(310deg);opacity: 0.95;}
       #ms-container-egg2-home{background-size: 600%;width: 120px;height: 120px;top: -460px;left: 80%;opacity: 0.76;transform: rotate(180deg);}
       #ms-container-spinach-home{top: -40px;left: 80%;background-size: 550%;width: 100px;height: 100px;}
-      #ms-wrapper-img-third-section-home-res img{width: 135%;position: relative;left: 50%;transform: translateX(-50%);}
       #ms-seed-complete{display: none;}  
       #ms-seed-one{top: -303px;left: 90%;}
       #ms-seed-two{top: -600px;left: -35%;}

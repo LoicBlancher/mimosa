@@ -819,16 +819,16 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 
 /*Atelier Images **/
-#ms-atelier-pot1{position: absolute;top: 80%;right: -28%;}
-#ms-elementAt1-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 2.8% 11.325%;background-size: 1250%;width: 127px;height: 136px;position: absolute;left: 20%;}
-#ms-elementAt2-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 74.84% 49.673%;width: 71px;height: 165px;display: inline-block;position: absolute;left: 62%;top:16%;}
-#ms-elementAt3-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 62.547% 85.225%;width: 74px;height: 69px;display: inline-block;position: absolute;top: 24%;left: 69%;}
-#ms-elementAt4-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 75.108% 97.19%;width: 95px;height: 197px;display: inline-block;position: absolute;left: 77%;top:14%;}
-#ms-elementAt5-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 47.24% 96.185%;width: 103px;height: 126px;display: inline-block;position: absolute;right:-10%}
-#ms-elementAt6-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 55.146% 96.138%;width: 105px;height: 132px;display: inline-block;position: absolute;top: 65%;left: 60%;}
-#ms-elementAt7-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 77.938% 4.176%;width: 147px;height: 169px;display: inline-block;position: absolute;left: 45%;top:40%;}
-#ms-elementAt8-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 68.733% 94.574%;width: 80px;height: 108px;display: inline-block;position: absolute;top: 67%;left: 78%;}
-#ms-elementAt9-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 43.542% 12.623%;width: 116px;height: 117px;display: inline-block;position: absolute;top:69%;right: -3%;}
+#ms-atelier-pot1{position: absolute;top: 80%;right: 14%}
+#ms-elementAt1-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 2.8% 11.325%;background-size: 1250%;width: 127px;height: 136px;position: absolute;left: 68%;top:100%;}
+#ms-elementAt2-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 74.84% 49.673%;width: 71px;height: 165px;position: absolute;left: 70%;top:116%;}
+#ms-elementAt3-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 62.547% 85.225%;width: 74px;height: 69px;position: absolute;top: 100%;left: 69%;}
+#ms-elementAt4-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 75.108% 97.19%;width: 95px;height: 197px;position: absolute;left: 69%;top:114%;}
+#ms-elementAt5-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 47.24% 96.185%;width: 103px;height: 126px;position: absolute;right:26%;top:140%;}
+#ms-elementAt6-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 55.146% 96.138%;width: 105px;height: 132px;position: absolute;top: 125%;left: 67%;}
+#ms-elementAt7-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 77.938% 4.176%;width: 147px;height: 169px;position: absolute;left: 40%;top:137%;}
+#ms-elementAt8-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 68.733% 94.574%;width: 80px;height: 108px;position: absolute;top: 127%;left: 68%;}
+#ms-elementAt9-ser1{background: url(../img/atelier-img-mimosa.png) no-repeat 43.542% 12.623%;width: 116px;height: 117px;position: absolute;top:90%;}
 
 #ms-atelier-pot2{position: absolute;top: 75%;left: 15%;width: 30%;z-index:15;}
 #ms-elementAt1-ser2{background: url(../img/atelier-img-mimosa.png) no-repeat 12.083% 13.465%;width: 122px;height: 119px;display: inline-block;position: absolute;top: 10%;left: -6%;z-index: 14;}
@@ -2113,6 +2113,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-box-content{padding:10px 60px;}
       .ms-box-container{width: 27%!important;margin:0 30px!important;}
       /* Atelier */
+      #ms-atelier-pot1{top: 82.9%;z-index: 999;right:10%;}
+      #ms-elementAt9-ser1{left:68%;}
+      #ms-elementAt7-ser1{left: 66%;top: 127%;}
+
       #ms-atelier-pot2{width: 25%;}
       #ms-image-header-nine-section-atelier-2{top: 21%;left: 39%;}
       #ms-image-header-nine-section-atelier-3{top: 16%;left: 39%;}

@@ -81,28 +81,38 @@ jQuery(function ($) {
                   /* Animation second section demo if min width > 1800*/
                   (function animateDemo02Large(){
                                     let el6 = document.getElementById("ms-el-dem-serv6");
-                                    TweenMax.to(el6, 0.8, {
-                                          x: 850,
+                                    TweenMax.fromTo(el6, 0.8, {
+                                          x: 0,
+                                        },{
+                                          x:850,
                                           ease: SteppedEase.config(9)
                                         });
                                     let el2 = document.getElementById("ms-el-dem-serv2");
-                                    TweenMax.to(el2, 0.8, {
-                                          x: -810,
+                                    TweenMax.fromTo(el2, 0.8, {
+                                          x: 0,
+                                        },{
+                                          x:-810,
                                           ease: SteppedEase.config(7)
                                         });
                                     let el4 = document.getElementById("ms-el-dem-serv4");
-                                    TweenMax.to(el4, 0.8, {
-                                          x: 320,
+                                    TweenMax.fromTo(el4, 0.8, {
+                                          x: 0,
+                                        },{
+                                          x:320,
                                           ease: SteppedEase.config(6)
                                         });
                                     let el5 = document.getElementById("ms-el-dem-serv5");
-                                    TweenMax.to(el5, 0.8, {
-                                          x: 350,
+                                    TweenMax.fromTo(el5, 0.8, {
+                                          x: 0,
+                                        },{
+                                          x:350,
                                           ease: SteppedEase.config(10)
                                         });
                                     let el1 = document.getElementById("ms-el-dem-serv1");
-                                    TweenMax.to(el1, 0.8, {
-                                          x: 340,
+                                    TweenMax.fromTo(el1, 0.8, {
+                                          x: 0,
+                                        },{
+                                          x:340,
                                           ease: SteppedEase.config(7)
                                         });
                                  })();     
@@ -130,7 +140,7 @@ jQuery(function ($) {
                                           ease: SteppedEase.config(10)
                                         });
                                     let el1 = document.getElementById("ms-el-dem-serv1");
-                                    TweenMax.to(el1, 0.8, {
+                                    TweenMax.fromTo(el1, 0.8, {
                                           x: 210,
                                           ease: SteppedEase.config(7)
                                         });
@@ -161,15 +171,17 @@ jQuery(function ($) {
         let ctaControlez = document.getElementById("ms-cta-atelier-btn");
         ctaControlez.addEventListener("mouseover",function(){
           let light = document.getElementById("ms-avocado-demo");
-          TweenLite.fromTo(light, 0.3, {
-            x:-1}, {
-              x:1, 
+          let tl = new TimelineMax({repeatDelay:1});
+          tl.fromTo(light, 0.7, {
+            x:-1,
+            yoyo:true}, {
+              x:1,
               ease:RoughEase.ease.config({
                 strength:8, 
                 points:20, 
                 template:Linear.easeNone, 
-                randomize:false}) , 
-            clearProps:"x"})
+                randomize:false})
+            });
         }); 
 
         let imageTopCta = document.getElementById("ms-img-header-left-seven-section");
@@ -196,27 +208,31 @@ jQuery(function ($) {
           let contactCtaDemo = document.getElementById("ms-cta-contact-demo");
           devisCtaDemo.addEventListener("mouseover",function(event){
             let onion = document.getElementById("ms-image-header-nine-section");
-            TweenLite.fromTo(onion, 0.3, {
-              x:-1}, {
-                x:1, 
+            let tl = new TimelineMax({repeatDelay:1});
+            tl.fromTo(onion, 0.7, {
+              x:-1,
+              yoyo:true}, {
+                x:1,
                 ease:RoughEase.ease.config({
                   strength:8, 
                   points:20, 
                   template:Linear.easeNone, 
-                  randomize:false}) , 
-              clearProps:"x"})
+                  randomize:false})
+              });
           });
           contactCtaDemo.addEventListener("mouseover",function(event){
             let onion = document.getElementById("ms-image-header-nine-section");
-            TweenLite.fromTo(onion, 0.3, {
-              x:-1}, {
-                x:1, 
+            let tl = new TimelineMax({repeatDelay:1});
+            tl.fromTo(onion, 0.7, {
+              x:-1,
+              yoyo:true}, {
+                x:1,
                 ease:RoughEase.ease.config({
                   strength:8, 
                   points:20, 
                   template:Linear.easeNone, 
-                  randomize:false}) , 
-              clearProps:"x"})
+                  randomize:false})
+              });
           });
         })();      
 

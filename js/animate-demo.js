@@ -5,6 +5,90 @@ jQuery(function ($) {
         mql.addListener(function (e) { return layoutChangedCallback(e.matches); });
         layoutChangedCallback(mql.matches);
       }
+
+      /* Header transition Demo Culinaire */
+      (function transitionMenuDemo(){
+        $(window).scroll(function() {
+           var hT = $('#ms-atelier-second-section').offset().top,
+               hH = $('#ms-atelier-second-section').outerHeight(),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           let $header = $('header');
+           let $button = $('header a.yellowBtn');
+           if (wS > (hT+hH-wH)){
+            $header.removeClass('ms-yellow-background-btns');
+            $button.removeClass('hvr-ripple-out-wt');
+            $header.addClass('ms-white-background-social-icons');
+            $button.addClass('hvr-ripple-out');
+           }
+        }); 
+
+        $(window).scroll(function() {
+           var hT = $('#ms-atelier-six-section').offset().top,
+               hH = $('#ms-atelier-six-section').outerHeight(),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           let $header = $('header');
+           let $button = $('header a.yellowBtn');
+           if (wS > (hT+hH-wH)){
+            $header.removeClass('ms-white-background-social-icons');
+            $button.removeClass('hvr-ripple-out');
+            $header.addClass('ms-yellow-background-btns');
+            $button.addClass('hvr-ripple-out-wt');
+           }
+        }); 
+
+
+        $(window).scroll(function() {
+           var hT = $('#ms-atelier-seven-section').offset().top,
+               hH = $('#ms-atelier-seven-section').outerHeight(),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           let $header = $('header');
+           let $button = $('header a.yellowBtn');
+           if (wS > (hT+hH-wH)){
+            $header.removeClass('ms-yellow-background-btns');
+            $button.removeClass('hvr-ripple-out-wt');
+            $header.addClass('ms-white-background-social-icons');
+            $button.addClass('hvr-ripple-out');
+           }
+        }); 
+
+        $(window).scroll(function() {
+           var hT = $('#ms-atelier-eight-section').offset().top,
+               hH = $('#ms-atelier-eight-section').outerHeight(),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           let $header = $('header');
+           let $button = $('header a.yellowBtn');
+           if (wS > (hT+hH-wH)){
+            $header.removeClass('ms-yellow-background-btns');
+            $button.removeClass('hvr-ripple-out-wt');
+            $header.addClass('ms-white-background-social-icons');
+            $button.addClass('hvr-ripple-out');
+           }
+        }); 
+
+        $(window).scroll(function() {
+           var hT = $('#ms-atelier-nine-section').offset().top,
+               hH = $('#ms-atelier-nine-section').outerHeight(),
+               wH = $(window).height(),
+               wS = $(this).scrollTop();
+           let $header = $('header');
+           let $button = $('header a.yellowBtn');
+           if (wS > (hT+hH-wH)){
+            $header.removeClass('ms-yellow-background-btns');
+            $button.removeClass('hvr-ripple-out-wt');
+            $header.addClass('ms-white-background-social-icons');
+            $button.addClass('hvr-ripple-out');
+           }
+        }); 
+      })();
+
+
+
+      
+
       /*------------------------------------*\
           BEGIN Animations Demo Culinaire
       \*------------------------------------*/

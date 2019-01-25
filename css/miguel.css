@@ -963,7 +963,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-team-section{margin-top:-5%;}
     #ms-eyelash-selector li a{font-size: 0.9em;}
     footer{padding: 50px 0;}
-    #ms-wrapper-paginator{bottom:62px;}
+
     /* Demo culinaire */
     .ms-services-line-indicator{left: 30%;top: 40%;}
     #ms-services-line-indicator-rigth{left:50%;}
@@ -2098,7 +2098,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
       /* Qui sommes nous */
       #ms-sommes-second-section h2{font-size: 55px!important;}
-      #ms-first-column-second-sec ul li{font-size: 17px;} 
       #ms-wrapper-header-tmembers{left: -10%;top: 20px;} 
       #ms-slider-team-members{margin-top:100px;margin-left: 120px;}
       #ms-slider-team-members .slick-current{width: 372px;}
@@ -2112,6 +2111,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-member-description{font-size: 17px;}
       .ms-box-content{padding:10px 60px;}
       .ms-box-container{width: 27%!important;margin:0 30px!important;}
+      #ms-wrapper-paginator{bottom:70px;}
+      #ms-paginator-right{margin-right: 29%;}
       /* Atelier */
       #ms-atelier-pot1{top: 82.9%;z-index: 999;right:10%;}
       #ms-elementAt9-ser1{left:68%;}

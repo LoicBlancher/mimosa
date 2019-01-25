@@ -333,18 +333,25 @@ jQuery(function ($) {
                   ease: Elastic.easeOut.config(1, 0.3),
                 });
           });
+
           contactCtaDemo.addEventListener("mouseover",function(event){
             let el2 = document.getElementById("ms-image-header-nine-section-atelier-2");
             let el3 = document.getElementById("ms-image-header-nine-section-atelier-3");
-            TweenMax.to(el2, 6, {
+            TweenMax.fromTo(el2, 6, {
+                  y:0,
+                  x:0
+                },{
                   y:-4,
                   x:23,
-                  ease: Elastic.easeOut.config(1, 0.3),
+                  ease: Elastic.easeOut.config(1, 0.3)
                 });
-            TweenMax.to(el3, 6, {
+            TweenMax.fromTo(el3, 6, {
+                  y:0,
+                  x:0,
+                },{
                   y:-10,
                   x:32,
-                  ease: Elastic.easeOut.config(1, 0.3),
+                  ease: Elastic.easeOut.config(1, 0.3)
                 });
           });
         })();      

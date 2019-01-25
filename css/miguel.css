@@ -972,6 +972,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-img-icon-services-card img{width: 130px;}
     #ms-title-header-eigth-section h2{font-size: 51px;margin-left:18%;}
     #ms-el-dem-serv6{top:4%;}
+    #ms-galerie-lightbox img{max-width: 640px;}
     /* Notre concept */
     .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
     .ms-no-padding-bottom h3{font-size: 22px!important;margin: 2px;}

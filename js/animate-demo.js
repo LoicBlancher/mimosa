@@ -140,7 +140,7 @@ jQuery(function ($) {
                                           ease: SteppedEase.config(10)
                                         });
                                     let el1 = document.getElementById("ms-el-dem-serv1");
-                                    TweenMax.fromTo(el1, 0.8, {
+                                    TweenMax.to(el1, 0.8, {
                                           x: 210,
                                           ease: SteppedEase.config(7)
                                         });

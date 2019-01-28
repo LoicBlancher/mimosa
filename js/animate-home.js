@@ -63,8 +63,6 @@ jQuery(function ($) {
           1000);
       });
 */
-
-/*
       (function animateDemoHome(){
         egg1 = document.getElementById("ms-container-egg1-home");
         TweenMax.fromTo(egg1, 0.1, {
@@ -157,74 +155,77 @@ jQuery(function ($) {
         
       })();
 
-/*
+
       function amiateOnionHome(id){
         if(id==3){
-          let fragmentOnion1 = document.getElementById("ms-onion-seven");
-          let fragmentOnion2 = document.getElementById("ms-onion-six");
-          let fragmentOnion3 = document.getElementById("ms-onion-five");
-          let fragmentOnion4 = document.getElementById("ms-onion-four");
-          let fragmentOnion5 = document.getElementById("ms-onion-three");
-          let fragmentOnion6 = document.getElementById("ms-onion-two");
-          let fragmentOnion7 = document.getElementById("ms-onion-one");
-          let animation = new TimelineMax({delay:0.2})
-          animation.fromTo(fragmentOnion1, 0.9, {
-              x:0,
-              y:0
+          /* Animate Onion For All Devices when One Page Scroll JS id == 3*/
+          (function animateOnionAllDevices(){
+            let fragmentOnion1 = document.getElementById("ms-onion-seven");
+            let fragmentOnion2 = document.getElementById("ms-onion-six");
+            let fragmentOnion3 = document.getElementById("ms-onion-five");
+            let fragmentOnion4 = document.getElementById("ms-onion-four");
+            let fragmentOnion5 = document.getElementById("ms-onion-three");
+            let fragmentOnion6 = document.getElementById("ms-onion-two");
+            let fragmentOnion7 = document.getElementById("ms-onion-one");
+            let animation = new TimelineMax({delay:0.2})
+            animation.fromTo(fragmentOnion1, 0.9, {
+                x:0,
+                y:0
+              },{
+                y:140,
+                ease: Bounce.easeOut
+            });
+            animation.fromTo(fragmentOnion2, 0.7, {
+                x:0,
+                y:0
+              },{  
+                y:140,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion3, 0.7, {
+                x:0,
+                y:0
+              },{  
+                y:147,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion4, 0.7, {
+                x:0,
+                y:0
+              },{
+                y:150,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion5, 0.7, {
+                x:0,
+                y:0   
             },{
-              y:140,
-              ease: Bounce.easeOut
-          });
-          animation.fromTo(fragmentOnion2, 0.7, {
-              x:0,
-              y:0
-            },{  
-              y:140,
-              ease: Bounce.easeOut  
-          });
-          animation.fromTo(fragmentOnion3, 0.7, {
-              x:0,
-              y:0
-            },{  
-              y:147,
-              ease: Bounce.easeOut  
-          });
-          animation.fromTo(fragmentOnion4, 0.7, {
-              x:0,
-              y:0
+                y:167,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion6, 0.7, {
+                x:0,
+                y:0
             },{
-              y:150,
-              ease: Bounce.easeOut  
-          });
-          animation.fromTo(fragmentOnion5, 0.7, {
-              x:0,
-              y:0   
-          },{
-              y:167,
-              ease: Bounce.easeOut  
-          });
-          animation.fromTo(fragmentOnion6, 0.7, {
-              x:0,
-              y:0
-          },{
-              y:170,
-              ease: Bounce.easeOut 
-          });
-          animation.fromTo(fragmentOnion7, 0.7, {
-              x:0,
-              y:0,
-              rotation:0
-          },{  
-              y:160,
-              x:180,
-              rotation:36,
-          });
+                y:170,
+                ease: Bounce.easeOut 
+            });
+            animation.fromTo(fragmentOnion7, 0.7, {
+                x:0,
+                y:0,
+                rotation:0
+            },{  
+                y:160,
+                x:180,
+                rotation:36,
+            });
+          })();
+
         }
       }
-*/
 
-/*
       (function animateLogistique(){
+        /* Seeds Movement */
         let seedOne = document.getElementById("ms-seed-one");
         let seedTwo = document.getElementById("ms-seed-two");
         let seedThree = document.getElementById("ms-seed-three");
@@ -338,7 +339,7 @@ jQuery(function ($) {
       // Write Javascript code!
       
 
-*/
+
 
       (function animateCheeseHome(){
         let devisCtaHome = document.getElementById("ms-cta-devis-home");
@@ -384,7 +385,7 @@ jQuery(function ($) {
         }
       }); 
 
- /*
+ 
         (function animateFormationRes(){
           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
@@ -453,6 +454,7 @@ jQuery(function ($) {
               rotation:55,
           });
         })();
+    
 
         installMediaQueryWatcher("(max-width: 380px)", function(matches) { 
           if (matches) {
@@ -527,7 +529,7 @@ jQuery(function ($) {
           }
         }); 
 
-*/
+
         $(() => {
           $(window).scroll(function () {
             var hT = $('#ms-five-section-home').offset().top,
@@ -571,8 +573,8 @@ jQuery(function ($) {
           pagination: true,                
           updateURL: true,                
           beforeMove: function(index) {
-            /*animateCustomersHome(index);*/
-            /*amiateOnionHome(index);*/
+            animateCustomersHome(index);
+            amiateOnionHome(index);
             header_section_two_home(index);
             header_section_three_home(index);
           },  

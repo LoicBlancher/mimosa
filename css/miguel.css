@@ -2169,8 +2169,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-onion-five{left: 35%;top: 35px;}
       #ms-onion-six{left: 39%;top: 39px;}
       #ms-onion-seven{top: 43px;left: 43%;}
-      #ms-pot-under-onion{top: 70px;}
-      #ms-pot-internal-onion{top: 155.8px;left: 11.3%;}
+      #ms-pot-under-onion{top: 70px;left:-2%;}
+      #ms-pot-internal-onion{top: 155.8px;left: 13.3%;}
       #ms-seed-brocoli{left:17%;}
       #ms-seed-tomato{left:-3%;}
       #ms-wrapper-images-fourth-section{margin-left:40px;}

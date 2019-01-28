@@ -154,8 +154,8 @@ jQuery(function ($) {
         }).progress(0.5);
         
       })();
-/*
 
+/*
       function amiateOnionHome(id){
         if(id==3){
           let fragmentOnion1 = document.getElementById("ms-onion-seven");
@@ -450,8 +450,7 @@ jQuery(function ($) {
               rotation:55,
           });
         })();
-*/    
-/*
+
         installMediaQueryWatcher("(max-width: 380px)", function(matches) { 
           if (matches) {
            let fragmentOnion1 = document.getElementById("ms-onion-seven-res");

@@ -1080,14 +1080,19 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 
   @media only screen and (min-width: 992px) and (max-width: 1098px){
-    #ms-pot-under-onion{left: -5%!important;background-size: 200%!important;background-position: 100% 49%!important;width: 610px!important;height: 180px!important;}
-    #ms-onion-one{left:-39%!important;}
-    #ms-onion-two{left:20%!important;}
-    #ms-onion-three{left:27%!important;}
-    #ms-onion-four{left:34%!important;}
-    #ms-onion-five{left:40%!important;}
-    #ms-onion-six{left:46%!important;}
-    #ms-onion-seven{left:52%!important;}
+    /* Home */
+    #ms-third-section-home{background-position: 50% -180.2827px!important;}
+    #ms-onion-one{width: 300px;height: 250px;background-position: 1.600% 85.587%;top: -180px;left: -20%;}
+    #ms-onion-two{width: 30px;height: 45px;background-size: 4500%;top: 60px;left: 29%;}
+    #ms-onion-three{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 36%;}
+    #ms-onion-four{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 42%;}
+    #ms-onion-five{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 47%;}
+    #ms-onion-six{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 53%;}
+    #ms-onion-seven{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 58%;}
+    #ms-pot-under-onion{left: -6%!important;background-size: 180%!important;background-position: 102% 38%!important;width: 670px!important;height: 100px!important;top:75px;}
+    #ms-pot-internal-onion{width: 380px;height: 130px;background-size: 320%;left: 9.1%;top: 101px;background-position: 73.453% 57.403%;}
+    #ms-container-bacon-home{right: -42%;top: -60px;}
+
     .ms-container-bullet{margin-left:12%!important;}
     .ms-content-bullets{margin-left:5%;}
     #ms-bullet-point-egg{right: 60%;position: relative;}
@@ -1108,19 +1113,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     /* Home */
     #ms-slider-home h1{font-size: 50px!important;}
     .ms-logo-mimosa-main{top: -30px;width: 50%;}
-    #ms-container-bacon-home{right: -62%;}
-    #ms-container-egg1-home{left:60%;}
-    #ms-container-bred-home{left:5%;}
-    #ms-container-egg2-home{left:-10%;}
     .ms-container-bullet{margin-left: 20%;}
-    #ms-onion-one{left:-33%};  
-    #ms-pot-under-onion{left: 3%;background-size: 200%;background-position: 100% 49%;width: 610px;height: 180px;}
-    #ms-onion-two{left: 22%;top: 10px;}
-    #ms-onion-three{left: 29%;top: 17px;}
-    #ms-onion-four{left: 36%;top: 18px;}
-    #ms-onion-five{left: 42%;top: 25px;}
-    #ms-onion-six{top: 20px;left: 49%;}
-    #ms-onion-seven{top: 25px;left: 55%;}
     .home footer{padding: 40px 0!important;}
     #ms-img-soup{width: 40%;height: 100%;left: -4%;top: 24%;}
     #ms-img-branch2{width: 20%;height: 20%;background-size: 70%;top: 7%;transform: rotate(-20deg);left: 20%;}

@@ -1092,7 +1092,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-pot-under-onion{left: -6%!important;background-size: 180%!important;background-position: 102% 38%!important;width: 670px!important;height: 100px!important;top:75px;}
     #ms-pot-internal-onion{width: 380px;height: 130px;background-size: 320%;left: 9.1%;top: 101px;background-position: 73.453% 57.403%;}
     #ms-container-bacon-home{right: -42%;top: -60px;}
-
+    #ms-seed-six-top{left:110%;}
+    #ms-seed-five-top{left:90%;}
+    #ms-seed-four-top{left:70%;}
+    #ms-seed-three-top{left:44%;}
+    #ms-seed-one-top,
+    #ms-seed-three{display: none;}
     .ms-container-bullet{margin-left:12%!important;}
     .ms-content-bullets{margin-left:5%;}
     #ms-bullet-point-egg{right: 60%;position: relative;}
@@ -1132,7 +1137,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-sommes-second-section h2{font-size: 35px;}
     #ms-sommes-second-section .ms-divider-gray{margin:10px 0;}
     #ms-sommes-second-section h3{position: relative;top: 15px;left: 70px;}
-    #l{right: 20%!important;bottom: 10%!important;}
     #ms-slider-team-members{position: relative;top:50px;}
     .ms-image-team-member{width: 130px!important;}
     #ms-wrapper-header-tmembers{width: 100%;left: -20%;}
@@ -1145,7 +1149,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-team-section{margin-top:-3%;}
     #ms-slider-team-members .slick-list.draggable{padding: 40px 0!important;}
     .ms-name-tmember{font-size: 30px;}
-    .ms-transparent-btn-black-text{font-size:0.6em;}
     .ms-member-description p{margin:0;}
     #ms-eyelash-selector li a{font-size: 0.8em;}
     #ms-sommes-fourth-section #ms-eyelash-selector li{margin-right: 4%;}

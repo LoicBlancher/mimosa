@@ -393,7 +393,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-img-footer-mimosa-home{display: table;margin: 0 auto;}
 #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{}
 #ms-wrapper-btns-lastsection .ms-transparent-btn-black-text{margin-left: 2%;display: inline;}
-#ms-last-section-home-yl{background: #f2d200;padding: 30px 0;-webkit-box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);-moz-box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);}
+#ms-last-section-home-yl{background: #f2d200;padding: 30px 0;-webkit-box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);-moz-box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);overflow: hidden;}
 #ms-logo-last-section-home{width: 30%;display: table;margin: 0 auto;}
 #ms-last-section-home-menu ul{list-style-type: none;padding: 0;display: table;margin:20px auto;}
 #ms-last-section-home-menu ul li{float: left;margin:0 20px;}
@@ -3048,6 +3048,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-form-mimosa-contact-email,
       .ms-wrapper-contact-form .ms-form-mimosa-contact-sujet{width: 70%;left:28%;}
       #ms-wrapper-img-contact-info{margin-top:10%;}
+      
 
     }
 
@@ -3099,6 +3100,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         #ms-logistique-ser2-tool1-res{background-size: 540%;width: 120px;height: 55px;left: 57%;} 
         #ms-indicator-first-left-log{left:33%;}
         #ms-logistique-ser2-tool2-res{top:11%;}
+        
 
 
      }
@@ -3108,7 +3110,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         /* Home Page */
         h1{font-size: 40px!important;}
         h2{font-size: 28px!important;}
-        #ms-container-egg2-home{background-size: 500%;top: -460px;}
+        #ms-container-egg2-home{top: -430px;width: 80px;background-size: 400%;background-position: 42.701% -60.602%;}
         #ms-container-bred-home{top:-410px;}
         #ms-container-egg1-home{top: -60px;left: -20%;}
         #ms-container-spinach-home{left:69%;}
@@ -3121,8 +3123,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         #ms-onion-five-res{left:51%;}
         #ms-onion-six-res{left:55%;}
         #ms-onion-seven-res{left:58%;}
-
-
+        #ms-seed-brocoli{left: 51%;background-size: 330%;width: 150px;height: 80px;top: -30px;}
         #ms-title-clients-large{font-size: 25px!important;}
         #ms-five-section-home #ms-wrapper-clients-section{padding:40px;}
         #ms-slider-clients .slick-next{right: -20%;}
@@ -3186,9 +3187,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         
         /* Devis */
         .devis #ms-check-contact-page{top:20px;}
-
-
-
+  
+    
       }
   /*------------------------------------*\
       END Max Width

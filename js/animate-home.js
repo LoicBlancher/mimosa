@@ -457,7 +457,7 @@ jQuery(function ($) {
           });
         })();
  
-        
+
         installMediaQueryWatcher("(min-width: 555px) and (max-width: 736px)", function(matches) { 
           if (matches) {
            let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
@@ -473,7 +473,7 @@ jQuery(function ($) {
                y:0,
                delay:0.9
              },{
-               y:55,
+               y:85,
                ease: Bounce.easeOut
            });
            animation.fromTo(fragmentOnion2, 0.7, {
@@ -481,7 +481,7 @@ jQuery(function ($) {
                y:0,
                delay:0.9
              },{  
-               y:60,
+               y:90,
                ease: Bounce.easeOut  
            });
            animation.fromTo(fragmentOnion3, 0.7, {
@@ -489,7 +489,7 @@ jQuery(function ($) {
                y:0,
                delay:0.9
              },{  
-               y:60,
+               y:90,
                ease: Bounce.easeOut  
            });
            animation.fromTo(fragmentOnion4, 0.7, {
@@ -497,7 +497,7 @@ jQuery(function ($) {
                y:0,
                delay:0.9
              },{
-               y:60,
+               y:90,
                ease: Bounce.easeOut  
            });
            animation.fromTo(fragmentOnion5, 0.7, {
@@ -505,7 +505,7 @@ jQuery(function ($) {
                y:0,
                delay:0.9   
            },{
-               y:65,
+               y:95,
                ease: Bounce.easeOut  
            });
            animation.fromTo(fragmentOnion6, 0.7, {
@@ -513,7 +513,7 @@ jQuery(function ($) {
                y:0,
                delay:0.9
            },{
-               y:73,
+               y:93,
                ease: Bounce.easeOut 
            });
            animation.fromTo(fragmentOnion7, 1.2, {
@@ -522,8 +522,8 @@ jQuery(function ($) {
                rotation:0,
                delay:0.9
            },{  
-               y:43,
-               x:60,
+               y:70,
+               x:100,
                rotation:45,
            });
           } else {

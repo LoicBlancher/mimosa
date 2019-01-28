@@ -2051,18 +2051,19 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
     @media only screen and (min-width: 555px) and (max-width: 736px){
       /* Home */
+
       #ms-pot-under-onion-res{left:32%;}
-      #ms-pot-internal-onion-res{left: 35%;top: 84.5%;}
+      #ms-pot-internal-onion-res{left: 33.4%;top: 77%;}
       #ms-onion-seven-res{left:55%;}
       #ms-onion-six-res{left:52%;}
       #ms-onion-five-res{left:49%;}
       #ms-onion-four-res{left:46%;}
       #ms-onion-three-res{left:43%;}
       #ms-onion-two-res{left:40%;}
-      #ms-onion-one-res{left:10%;}
+      #ms-container-egg2-home{top:-387px;transform:rotate(180deg);}
       footer #mg-newsletter-form-main{display: table;margin:0 auto;}
-      #ms-seed-tomato{top: -100px;width: 230px;height: 200px;background-size: 420%;}
-      #ms-seed-brocoli{left:80%;}
+      #ms-seed-tomato{top: -100px;width: 230px;height: 200px;background-size: 420%;left:-20%;}
+      #ms-seed-brocoli{left:50%;}
     }
 
     @media only screen and (min-width: 481px) and (max-width: 555px){
@@ -2413,6 +2414,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Responsive home */
       .ms-padding-home-section{padding:60px 90px!important;box-shadow: unset;}
       .ms-wrapper-bullet-with-img{margin-left:70px;}
+      #ms-second-section-home{overflow: hidden;}
       .ms-bullets-mimosa-img{float: initial;display: table;margin: 0 auto;}
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets h6{text-align: center;}
       #ms-second-section-home .ms-wrapper-bullet-with-img .ms-content-bullets p{text-align: center;}
@@ -2421,7 +2423,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-wrapper-img-third-section-home-res{display: block;}
       #ms-wrapper-title-five-section h4{margin-top: 140px;}
       #ms-six-section-home{padding:90px 80px!important;}
-       #ms-last-section-home-menu{display: none;}
+      #ms-last-section-home-menu{display: none;}
       /* Header Responsive */
       #mg-main-menu-btn-mobile{display: block;}
       #mg-info-header{visibility: hidden;}

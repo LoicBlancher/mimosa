@@ -2078,6 +2078,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-onion-three-res{left:42%;}
       #ms-onion-two-res{left:38%;}
       #ms-onion-one-res{left:1%;}
+      #ms-seed-brocoli{left: 70%;top: -45px;}
+      #ms-seed-tomato{top: -140px;left: -30%;}
+      #ms-seed-three{left: 95%;}
       /*Demo Culinaire*/
       #ms-indicator-first-left-demo{top: -60px;left: 40%;}
       #ms-chicken1{background-size: 770%;top: 1%;width: 120px;height: 170px;}

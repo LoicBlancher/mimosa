@@ -1796,7 +1796,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-sommes-second-section .ms-divider-gray{display: table;margin:25px auto;}
    #ms-sommes-second-section ul{list-style-type: none;padding: 0;}
    #ms-sommes-second-section ul li{font-weight: normal;}
-   #l{bottom:5%;}
    #ms-slider-team-members{margin-left: 0px!important;margin-top:5%;}
    .ms-image-team-member{width: 130px!important;position: relative;left: 50%;transform: translateX(-50%);}
    .ms-footer-info-team{top:290px;}
@@ -1959,7 +1958,17 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-container-spinach-home{top: -40px;left: 80%;background-size: 550%;width: 100px;height: 100px;}
     #ms-seed-tomato{top: -40px;left: -16%;background-size: 360%;width: 170px;height: 100px;}
     #ms-seed-brocoli{top: -30px;left: 65%;background-size: 350%;width: 180px;height: 100px;}
-
+     /* Responsive Onion */
+    #ms-third-section-home-res{position: relative;background-position: 50% -120.2827px!important;}
+    #ms-onion-one-res{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 87.587%;width: 151px;height: 130px;position: relative;top: -80px;left: -18%;background-size: 400%;transform: rotate(6deg);z-index: 14;}
+    #ms-onion-two-res{background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;width: 24px;height: 38px;position: absolute;top: 72%;left: 33%;background-size: 3300%;transform: rotate(-6deg);z-index: 14;}
+    #ms-onion-three-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 100.278%;width: 24px;height: 39px;position: absolute;background-size: 3100%;top: 75%;left: 38%;z-index: 14;}
+    #ms-onion-four-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;width: 23px;height: 31px;position: absolute;top: 75%;background-size: 3500%;left: 43%;z-index: 14;}
+    #ms-onion-five-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 85.622%;width: 21px;height: 39px;position: absolute;background-size: 4300%;top: 75%;left: 47%;z-index: 14;}
+    #ms-onion-six-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 79.537%;width: 21px;height: 39px;position: absolute;top: 76%;background-size: 3400%;left: 51%;z-index: 14;}
+    #ms-onion-seven-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.691% 71.493%;width: 26px;height: 39px;position: absolute;background-size: 3000%;top: 75%;left: 54%;z-index: 14;}
+    #ms-pot-under-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 97.449% 38.178%;background-size: 230%;width: 330px;height: 55px;position: absolute;top: 79%;left: 20%;z-index: 13;}
+    #ms-pot-internal-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 77.453% 59.403%;background-size: 356%;width: 220px;height: 60px;position: absolute;top: 84.9%;left: 25.4%;z-index: 15;}
     /* Contact */
     .ms-wrapper-contact-form #ms-form-mimosa-contact-submit-rigth{width: 40%;position: relative;left:30%;top:20px;}
     .ms-padding-contact img,
@@ -1981,8 +1990,16 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     @media only screen and (min-width: 481px) and (max-width: 555px){
             
       /* Home Page */
-      
-
+      .ms-responsive-home-formation-et-atelier{background-position: 50% -123.5329px!important;}    
+      #ms-pot-under-onion-res{left:27%;}
+      #ms-pot-internal-onion-res{left: 31%;top: 84.6%;}
+      #ms-onion-seven-res{left:56%;}
+      #ms-onion-six-res{left:53%;}
+      #ms-onion-five-res{left:49.2%;}
+      #ms-onion-four-res{left:45%;}
+      #ms-onion-three-res{left:42%;}
+      #ms-onion-two-res{left:38%;}
+      #ms-onion-one-res{left:1%;}
       /*Demo Culinaire*/
       #ms-indicator-first-left-demo{top: -60px;left: 40%;}
       #ms-chicken1{background-size: 770%;top: 1%;width: 120px;height: 170px;}
@@ -2035,6 +2052,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-image-map-contact-responsive img{height: auto!important;}
       /* Devis */
       .devis #ms-header-contact-page p.first{text-align: center;}
+      /* Footer */
+      footer #mg-newsletter-form-main{display: table;margin:0 auto;}
+      #mg-footer-menu-terms{margin-left: 0;}
     }
   /*------------------------------------*\
       End Intervals Responsive

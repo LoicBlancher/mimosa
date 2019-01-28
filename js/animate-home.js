@@ -154,7 +154,7 @@ jQuery(function ($) {
         }).progress(0.5);
         
       })();
-
+/*
 
       function amiateOnionHome(id){
         if(id==3){
@@ -219,7 +219,7 @@ jQuery(function ($) {
           });
         }
       }
-
+*/
       (function animateLogistique(){
         /* Seeds Movement */
         let seedOne = document.getElementById("ms-seed-one");
@@ -381,7 +381,7 @@ jQuery(function ($) {
         }
       }); 
 
- 
+ /*
         (function animateFormationRes(){
           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
@@ -450,8 +450,8 @@ jQuery(function ($) {
               rotation:55,
           });
         })();
-    
-
+*/    
+/*
         installMediaQueryWatcher("(max-width: 380px)", function(matches) { 
           if (matches) {
            let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
@@ -525,7 +525,7 @@ jQuery(function ($) {
           }
         }); 
 
-
+*/
         $(() => {
           $(window).scroll(function () {
             var hT = $('#ms-five-section-home').offset().top,

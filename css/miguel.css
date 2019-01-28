@@ -336,12 +336,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-third-section-home{background-position: 50% -140.2827px!important;}
 #ms-wrapper-img-third-section-home{position: relative;}
 #ms-onion-one{background: url(../img/home-page-img-mimosa.png) no-repeat 1.600% 87.587%;width: 351px;height: 330px;position: absolute;top: -290px;left: -18%;background-size: 390%;transform: rotate(6deg);z-index:14;}
-#ms-onion-two{background: url(../img/home-page-img-mimosa.png) no-repeat -620px -791px;width: 34px;height: 58px;position: absolute;top: -12px;left: 22%;transform: rotate(-6deg);z-index:14;}
-#ms-onion-three{background: url(../img/home-page-img-mimosa.png) no-repeat -544px -1072px;width: 25px;height: 59px;position: absolute;top: -5px;left: 250px;z-index:14;}
-#ms-onion-four{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -1012px;width: 23px;height: 51px;position: absolute;top: 10px;left: 300px;z-index:14;}
-#ms-onion-five{background: url(../img/home-page-img-mimosa.png) no-repeat -545px -941px;width: 24px;height: 49px;position: absolute;top: 15px;left: 350px;z-index:14;}
-#ms-onion-six{background: url(../img/home-page-img-mimosa.png) no-repeat -546px -870px;width: 21px;height: 49px;position: absolute;top: 19px;left: 400px;z-index:14;}
-#ms-onion-seven{background: url('../img/home-page-img-mimosa.png') no-repeat -542px -795px;width: 26px;height: 49px;position: absolute;top: 15px;left: 440px;z-index: 14;}
+#ms-onion-two{background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;width: 34px;height: 58px;position: absolute;top: -12px;left: 22%;transform: rotate(-6deg);z-index:14;}
+#ms-onion-three{background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 97.278%;width: 25px;height: 59px;position: absolute;top: -5px;left: 250px;z-index:14;}
+#ms-onion-four{background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;width: 23px;height: 51px;position: absolute;top: 10px;left: 300px;z-index:14;}
+#ms-onion-five{background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 84.622%;width: 24px;height: 49px;position: absolute;top: 15px;left: 350px;z-index:14;}
+#ms-onion-six{background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 78.237%;width: 21px;height: 49px;position: absolute;top: 19px;left: 400px;z-index:14;}
+#ms-onion-seven{background: url('../img/home-page-img-mimosa.png') no-repeat 30.691% 71.493%;width: 26px;height: 49px;position: absolute;top: 15px;left: 440px;z-index: 14;}
 #ms-pot-under-onion{background: url(../img/home-page-img-mimosa.png) no-repeat 126.449% 38.178%;background-size: 160%;width: 975px;height: 155px;position: absolute;top: 60px;left: -4%;z-index: 13;}
 #ms-pot-internal-onion{background: url(../img/home-page-img-mimosa.png) no-repeat 73.453% 63.403%;background-size: 404%;width: 390px;height: 180px;position: absolute;top: 146px;left: 13%;z-index: 15;}
 #ms-third-section-home #ms-third-section-content{padding: 40px 0 15px 0;}
@@ -1370,7 +1370,17 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-img-soup{width: 45%;height: 100%;left: -4%;top: 24%;}
    #ms-img-branch1{background-size: 100%;transform: rotate(-20deg);bottom: -15%;left: 10%;}
    #ms-img-branch2{width: 20%;height: 20%;background-size: 80%;top: 7%;transform: rotate(-20deg);left: 15%;}
-   #ms-responsive-onion-home{width: 130%;position: relative;left: 50%;transform: translateX(-50%);}
+   #ms-onion-one{width: 300px;height: 250px;background-position: 1.600% 85.587%;top: -180px;left: -24%;}
+   #ms-onion-two{width: 30px;height: 45px;background-size: 4500%;top: 60px;left: 29%;}
+   #ms-onion-three{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 36%;}
+   #ms-onion-four{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 42%;}
+   #ms-onion-five{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 47%;}
+   #ms-onion-six{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 53%;}
+   #ms-onion-seven{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 58%;}
+   #ms-pot-under-onion{width: 700px;height: 120px;top: 80px;left: -2%;}
+   #ms-pot-internal-onion{ width: 350px;height: 130px;background-size: 320%;left: 10%;top: 109px;background-position: 73.453% 57.403%;}
+   #mg-footer-menu-terms{margin-left:0;    text-align: center;position: relative;left: -30%;}
+   #mg-footer-menu-terms ul li{border-left: unset;float: initial;} 
   /* Qui sommes */
    #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{font-size: 13px;}
     #ms-sommes-second-section h2{font-size:35px!important;margin:0;}
@@ -1461,13 +1471,25 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-seed-complete{left:50%;}
     #ms-seeds-wrapper{left:30%;}
     #ms-seed-brocoli{left:40%;}
-    #ms-seed-tomato{left:60%;}
+    #ms-seed-tomato{background-size: 450%;background-position: 100.78% 82.517%;width: 100%;height: 180px;left: 50%;}
     .ms-map-pin-text{font-size: 13px;}
     #ms-img-avocado{left: 50%;transform: translateX(-50%);background-size: 290%;width: 300px;height: 400px;background-position: 99.811% 67.979%;}
     .ms-map-pin-info-triangle:after{left:27%;}
     #ms-img-soup{width: 50%;height: 100%;left: -8%;top: 24%;}
     #ms-img-branch1{background-size: 100%;transform: rotate(-20deg);bottom: -15%;left: 10%;}
     #ms-img-branch2{width: 20%;height: 20%;background-size: 80%;top: 7%;transform: rotate(-20deg);left: 11%;}
+    #ms-onion-one{width: 300px;height: 250px;background-position: 1.600% 85.587%;top: -180px;left: -40%;}
+    #ms-onion-two{width: 30px;height: 45px;background-size: 4500%;top: 60px;left: 26%;}
+    #ms-onion-three{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 34%;}
+    #ms-onion-four{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 42%;}
+    #ms-onion-five{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 49%;}
+    #ms-onion-six{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 56%;}
+    #ms-onion-seven{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 63%;}
+    #ms-pot-under-onion{width: 700px;height: 120px;top: 80px;left: -12%;}
+    #ms-pot-internal-onion{width: 350px;height: 130px;background-size: 320%;left: 3%;top: 110px;background-position: 73.453% 57.403%;}
+    #mg-footer-menu-terms{margin-left:0;}
+    #mg-footer-menu-terms ul li{border-left: unset;float: initial;}
+
     /* Qui sommes */
     #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{font-size: 13px;}
     #ms-sommes-second-section h2{font-size:32px!important;margin:0;}
@@ -1608,13 +1630,13 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
     /* Responsive Onion */
     #ms-third-section-home-res{position: relative;background-position: 50% -120.2827px!important;}
-    #ms-onion-one-res{background: url(../img/home-page-img-mimosa.png) no-repeat -4.600% 87.587%;width: 231px;height: 160px;position: relative;top: -130px;left: 1%;background-size: 320%;transform: rotate(6deg);z-index: 14;margin-top: 15%;}
-    #ms-onion-two-res{background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;width: 24px;height: 38px;position: absolute;top: 66%;left: 39%;background-size: 3300%;transform: rotate(-6deg);z-index: 14;}
-    #ms-onion-three-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 100.278%;width: 24px;height: 39px;position:absolute;background-size: 3100%;top: 68%;left: 43%;z-index: 14;}
-    #ms-onion-four-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;width: 23px;height: 31px;position: absolute;top: 67%;background-size: 3500%;left: 47%;z-index: 14;}
-    #ms-onion-five-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 85.622%;width: 21px;height: 39px;position: absolute;background-size: 4300%;top: 67%;left: 51%;z-index: 14;}
-    #ms-onion-six-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 79.537%;width: 21px;height: 39px;position: absolute;top: 68%;background-size: 3400%;left: 54%;z-index: 14;}
-    #ms-onion-seven-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.691% 71.493%;width: 26px;height: 39px;position: absolute;background-size: 3000%;top: 67%;left: 57%;z-index: 14;}
+    #ms-onion-one-res{background: url(../img/home-page-img-mimosa.png) no-repeat -4.600% 87.587%;width: 231px;height: 160px;position: relative;top: -90px;left: 2%;background-size: 320%;transform: rotate(6deg);z-index: 14;margin-top: 15%;}
+    #ms-onion-two-res{background: url(../img/home-page-img-mimosa.png) no-repeat 35.267% 71.714%;width: 24px;height: 38px;position: absolute;top: 69%;left: 39%;background-size: 3300%;transform: rotate(-6deg);z-index: 14;}
+    #ms-onion-three-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.787% 100.278%;width: 24px;height: 39px;position:absolute;background-size: 3100%;top: 71%;left: 43%;z-index: 14;}
+    #ms-onion-four-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.865% 91.171%;width: 23px;height: 31px;position: absolute;top: 70%;background-size: 3500%;left: 47%;z-index: 14;}
+    #ms-onion-five-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.826% 85.622%;width: 21px;height: 39px;position: absolute;background-size: 4300%;top: 70%;left: 51%;z-index: 14;}
+    #ms-onion-six-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.83% 79.537%;width: 21px;height: 39px;position: absolute;top: 70%;background-size: 3400%;left: 54%;z-index: 14;}
+    #ms-onion-seven-res{background: url(../img/home-page-img-mimosa.png) no-repeat 30.691% 71.493%;width: 26px;height: 39px;position: absolute;background-size: 3000%;top: 70%;left: 57%;z-index: 14;}
     #ms-pot-under-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 97.449% 38.178%;background-size: 230%;width: 420px;height: 85px;position: absolute;top: 72%;left: 30%;z-index: 13;}
     #ms-pot-internal-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 77.453% 58.403%;background-size: 320%;width: 300px;height: 90px;position: absolute;top: 77.2%;left: 31%;z-index: 15;}
     
@@ -2384,7 +2406,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-divider-gray{margin-left:-20px;}
       #ms-third-section-home #ms-third-section-content h4{margin:10px 0;}
       #ms-wrapper-img-third-section-home-res{display: block;}
-      #ms-wrapper-img-third-section-home{display: none;}
       #ms-wrapper-title-five-section h4{margin-top: 140px;}
       #ms-six-section-home{padding:90px 80px!important;}
        #ms-last-section-home-menu{display: none;}
@@ -2450,8 +2471,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-responsive-mimosa-logo-devis{position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);}
 
     }
+
   
     @media only screen and (max-width: 780px) {
+      /* Home */
+      #ms-wrapper-img-third-section-home{display: none;}
       #ms-atelier-fourth-section{display: none;}
       #ms-atelier-second-service-responsive{display: block;position: relative;text-align: right;}
       #ms-el-dem-serv1-res{display: block;}

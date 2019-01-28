@@ -571,8 +571,8 @@ jQuery(function ($) {
           pagination: true,                
           updateURL: true,                
           beforeMove: function(index) {
-            animateCustomersHome(index);
-            amiateOnionHome(index);
+            /*animateCustomersHome(index);*/
+            /*amiateOnionHome(index);*/
             header_section_two_home(index);
             header_section_three_home(index);
           },  

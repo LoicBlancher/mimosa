@@ -456,8 +456,82 @@ jQuery(function ($) {
               rotation:55,
           });
         })();
- 
 
+        
+        /* Animation Interval */
+        installMediaQueryWatcher("(min-width: 780px) and (max-width: 880px)", function(matches) { 
+          if (matches) {
+           let fragmentOnion1 = document.getElementById("ms-onion-seven");
+           let fragmentOnion2 = document.getElementById("ms-onion-six");
+           let fragmentOnion3 = document.getElementById("ms-onion-five");
+           let fragmentOnion4 = document.getElementById("ms-onion-four");
+           let fragmentOnion5 = document.getElementById("ms-onion-three");
+           let fragmentOnion6 = document.getElementById("ms-onion-two");
+           let fragmentOnion7 = document.getElementById("ms-onion-one");
+           let animation = new TimelineMax({delay:2,repeat:-1})
+           animation.fromTo(fragmentOnion1, 0.9,{
+               x:0,
+               y:0,
+               delay:0.9
+             },{
+               y:85,
+               ease: Bounce.easeOut
+           });
+           animation.fromTo(fragmentOnion2, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{  
+               y:90,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion3, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{  
+               y:90,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion4, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{
+               y:90,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion5, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9   
+           },{
+               y:95,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion6, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+           },{
+               y:93,
+               ease: Bounce.easeOut 
+           });
+           animation.fromTo(fragmentOnion7, 1.2, {
+               x:0,
+               y:0,
+               rotation:0,
+               delay:0.9
+           },{  
+               y:70,
+               x:150,
+               rotation:45,
+           });
+          } else {
+           
+          }
+        }); 
+       
         /* Animation Interval */
         installMediaQueryWatcher("(min-width: 736px) and (max-width: 780px)", function(matches) { 
           if (matches) {
@@ -601,6 +675,10 @@ jQuery(function ($) {
                x:100,
                rotation:45,
            });
+
+           /* Animation Customers */
+
+
           } else {
            
           }

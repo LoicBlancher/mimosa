@@ -1489,14 +1489,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-img-branch1{background-size: 100%;transform: rotate(-20deg);bottom: -15%;left: 10%;}
     #ms-img-branch2{width: 20%;height: 20%;background-size: 80%;top: 7%;transform: rotate(-20deg);left: 11%;}
     #ms-onion-one{width: 300px;height: 250px;background-position: 1.600% 85.587%;top: -180px;left: -40%;}
-    #ms-onion-two{width: 30px;height: 45px;background-size: 4500%;top: 60px;left: 26%;}
-    #ms-onion-three{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 34%;}
-    #ms-onion-four{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 42%;}
-    #ms-onion-five{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 49%;}
-    #ms-onion-six{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 56%;}
-    #ms-onion-seven{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 63%;}
+    #ms-onion-two{width: 30px;height: 45px;background-size: 4500%;top: 60px;left: 23%;}
+    #ms-onion-three{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 31%;}
+    #ms-onion-four{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 39%;}
+    #ms-onion-five{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 46%;}
+    #ms-onion-six{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 53%;}
+    #ms-onion-seven{width: 30px;height: 45px;background-size: 4500%;top: 70px;left: 58%;}
     #ms-pot-under-onion{width: 700px;height: 120px;top: 80px;left: -12%;}
-    #ms-pot-internal-onion{width: 350px;height: 130px;background-size: 320%;left: 3%;top: 110px;background-position: 73.453% 57.403%;}
+    #ms-pot-internal-onion{width: 350px;height: 130px;background-size: 320%;left: 1.9%;top: 109px;background-position: 73.453% 57.403%;}
     #mg-footer-menu-terms{margin-left:0;}
     #mg-footer-menu-terms ul li{border-left: unset;float: initial;}
 
@@ -1633,7 +1633,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-img-avocado{background-size: 260%;background-position: 105.811% 67.979%;width: 300px;height: 500px;top: 30%;}
     #ms-img-soup{width: 60%;height: 100%;left: -20%;top: 20%;}
     #ms-img-branch2{width: 20%;height: 20%;background-size: 90%;top: 7%;transform: rotate(-20deg);left: 6%;}
-    #ms-img-branch1{background-size: 100%;transform: rotate(-20deg);bottom: -15%;left: 10%;}
+    #ms-img-branch1{background-size: 100%;transform: rotate(-20deg);bottom: -5%;left: 10%;}
     /* Footer Home */
     #mg-footer-menu-terms ul li{float: initial;border-left: unset;}
     #mg-footer-menu-terms{margin-left:0;}

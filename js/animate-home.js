@@ -458,6 +458,81 @@ jQuery(function ($) {
         })();
  
 
+        /* Animation Interval */
+        installMediaQueryWatcher("(min-width: 736px) and (max-width: 780px)", function(matches) { 
+          if (matches) {
+           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
+           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
+           let fragmentOnion3 = document.getElementById("ms-onion-five-res");
+           let fragmentOnion4 = document.getElementById("ms-onion-four-res");
+           let fragmentOnion5 = document.getElementById("ms-onion-three-res");
+           let fragmentOnion6 = document.getElementById("ms-onion-two-res");
+           let fragmentOnion7 = document.getElementById("ms-onion-one-res");
+           let animation = new TimelineMax({delay:2,repeat:-1})
+           animation.fromTo(fragmentOnion1, 0.9,{
+               x:0,
+               y:0,
+               delay:0.9
+             },{
+               y:85,
+               ease: Bounce.easeOut
+           });
+           animation.fromTo(fragmentOnion2, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{  
+               y:90,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion3, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{  
+               y:90,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion4, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{
+               y:90,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion5, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9   
+           },{
+               y:95,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion6, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+           },{
+               y:93,
+               ease: Bounce.easeOut 
+           });
+           animation.fromTo(fragmentOnion7, 1.2, {
+               x:0,
+               y:0,
+               rotation:0,
+               delay:0.9
+           },{  
+               y:70,
+               x:100,
+               rotation:45,
+           });
+          } else {
+           
+          }
+        }); 
+
+        /* Animation Interval */
         installMediaQueryWatcher("(min-width: 555px) and (max-width: 736px)", function(matches) { 
           if (matches) {
            let fragmentOnion1 = document.getElementById("ms-onion-seven-res");

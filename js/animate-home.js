@@ -63,6 +63,8 @@ jQuery(function ($) {
           1000);
       });
 */
+
+/*
       (function animateDemoHome(){
         egg1 = document.getElementById("ms-container-egg1-home");
         TweenMax.fromTo(egg1, 0.1, {
@@ -220,8 +222,9 @@ jQuery(function ($) {
         }
       }
 */
+
+/*
       (function animateLogistique(){
-        /* Seeds Movement */
         let seedOne = document.getElementById("ms-seed-one");
         let seedTwo = document.getElementById("ms-seed-two");
         let seedThree = document.getElementById("ms-seed-three");
@@ -335,7 +338,7 @@ jQuery(function ($) {
       // Write Javascript code!
       
 
-
+*/
 
       (function animateCheeseHome(){
         let devisCtaHome = document.getElementById("ms-cta-devis-home");

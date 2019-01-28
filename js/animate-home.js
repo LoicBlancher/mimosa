@@ -7,6 +7,18 @@ jQuery(function ($) {
         layoutChangedCallback(mql.matches);
       }
 
+      /* Deregister JS and CSS One Page Scroll For Mobile Devices*/
+      installMediaQueryWatcher("(max-width: 992px)", function(matches) { 
+        if (matches) {
+          $onePage = $('div.section-scroll');
+          $onePage.removeClass('section-scroll');
+          $('link[rel=stylesheet][href~="http://mimosa.graditest.com/wp-content/themes/mimosa/css/onepage-scroll.css?ver=4.9.8"]').remove();
+        } else {
+         
+        }
+      }); 
+
+
       function header_section_two_home(id){
         let $header = $('header');
         $header.removeClass('ms-white-background-social-icons');
@@ -375,16 +387,6 @@ jQuery(function ($) {
 
 
 
-      installMediaQueryWatcher("(max-width: 480px)", function(matches) { 
-        if (matches) {
-          $onePage = $('div.section-scroll');
-          $onePage.removeClass('section-scroll');
-          $('link[rel=stylesheet][href~="http://mimosa.graditest.com/wp-content/themes/mimosa/css/onepage-scroll.css?ver=4.9.8"]').remove();
-        } else {
-         
-        }
-      }); 
-
  
         (function animateFormationRes(){
           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
@@ -454,7 +456,80 @@ jQuery(function ($) {
               rotation:55,
           });
         })();
-    
+        
+
+        installMediaQueryWatcher("(min-width: 481px) and (max-width: 555px)", function(matches) { 
+          if (matches) {
+           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
+           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
+           let fragmentOnion3 = document.getElementById("ms-onion-five-res");
+           let fragmentOnion4 = document.getElementById("ms-onion-four-res");
+           let fragmentOnion5 = document.getElementById("ms-onion-three-res");
+           let fragmentOnion6 = document.getElementById("ms-onion-two-res");
+           let fragmentOnion7 = document.getElementById("ms-onion-one-res");
+           let animation = new TimelineMax({delay:2,repeat:-1})
+           animation.fromTo(fragmentOnion1, 0.9,{
+               x:0,
+               y:0,
+               delay:0.9
+             },{
+               y:55,
+               ease: Bounce.easeOut
+           });
+           animation.fromTo(fragmentOnion2, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{  
+               y:60,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion3, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{  
+               y:60,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion4, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+             },{
+               y:60,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion5, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9   
+           },{
+               y:65,
+               ease: Bounce.easeOut  
+           });
+           animation.fromTo(fragmentOnion6, 0.7, {
+               x:0,
+               y:0,
+               delay:0.9
+           },{
+               y:73,
+               ease: Bounce.easeOut 
+           });
+           animation.fromTo(fragmentOnion7, 1.2, {
+               x:0,
+               y:0,
+               rotation:0,
+               delay:0.9
+           },{  
+               y:43,
+               x:60,
+               rotation:45,
+           });
+          } else {
+           
+          }
+        }); 
 
         installMediaQueryWatcher("(max-width: 380px)", function(matches) { 
           if (matches) {

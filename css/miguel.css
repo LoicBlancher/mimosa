@@ -1592,8 +1592,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .footer{text-align: center;}
     #mg-footer-first h6{text-align: center;}
     #mg-newsletter-form-main #sib_signup_form_2{width: 100%;}
-    #mg-footer-first .input-email-newsletter{margin-left:20%;}
-    #mg-footer-first .btn-newsletter{right: -8%;}
+    #mg-footer-first .btn-newsletter{right: 6%;}
     #ms-responsive-onion-home{width: 100%;position: relative;left: 50%;transform: translateX(-50%);}
     #cta-second-section-home{display: table;margin:30px auto;}
     #ms-wrapper-content-third-section-home .ms-yellow-btn-black-text{background: transparent;border: 1px solid var(--mimosa-black-dark);}
@@ -1961,6 +1960,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-pot-under-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 97.449% 38.178%;background-size: 230%;width: 420px;height: 85px;position: absolute;top: 72%;left: 30%;z-index: 13;}
     #ms-pot-internal-onion-res{background: url(../img/home-page-img-mimosa.png) no-repeat 77.453% 58.403%;background-size: 320%;width: 300px;height: 90px;position: absolute;top: 77.2%;left: 31%;z-index: 15;}
     
+    #ms-seed-tomato{height: 200px;background-size: 300%;width: 70%;left: -40%;}
+    footer #mg-newsletter-form-main{display: table;margin:0 auto;}
     /* Contact */
     .ms-padding-contact{padding: 30px 70px;}
     .ms-padding-contact img,

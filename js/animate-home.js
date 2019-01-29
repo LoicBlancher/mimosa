@@ -458,72 +458,94 @@ jQuery(function ($) {
         /* Animation Interval */
         installMediaQueryWatcher("(min-width: 880px) and (max-width: 992px)", function(matches) { 
           if (matches) {
-           let fragmentOnion1 = document.getElementById("ms-onion-seven");
-           let fragmentOnion2 = document.getElementById("ms-onion-six");
-           let fragmentOnion3 = document.getElementById("ms-onion-five");
-           let fragmentOnion4 = document.getElementById("ms-onion-four");
-           let fragmentOnion5 = document.getElementById("ms-onion-three");
-           let fragmentOnion6 = document.getElementById("ms-onion-two");
-           let fragmentOnion7 = document.getElementById("ms-onion-one");
-           let animation = new TimelineMax({delay:2,repeat:-1})
-           animation.fromTo(fragmentOnion1, 0.9,{
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:85,
-               ease: Bounce.easeOut
+           $(() => {
+            let fragmentOnion1 = document.getElementById("ms-onion-seven");
+            let fragmentOnion2 = document.getElementById("ms-onion-six");
+            let fragmentOnion3 = document.getElementById("ms-onion-five");
+            let fragmentOnion4 = document.getElementById("ms-onion-four");
+            let fragmentOnion5 = document.getElementById("ms-onion-three");
+            let fragmentOnion6 = document.getElementById("ms-onion-two");
+            let fragmentOnion7 = document.getElementById("ms-onion-one");
+            let animation = new TimelineMax({delay:2,repeat:4})
+            animation.fromTo(fragmentOnion1, 0.9,{
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:85,
+                ease: Bounce.easeOut
+            });
+            animation.fromTo(fragmentOnion2, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion3, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion4, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion5, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9   
+            },{
+                y:95,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion6, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+            },{
+                y:93,
+                ease: Bounce.easeOut 
+            });
+            animation.fromTo(fragmentOnion7, 1.2, {
+                x:0,
+                y:0,
+                rotation:0,
+                delay:0.9
+            },{  
+                y:70,
+                x:150,
+                rotation:45,
+            });
            });
-           animation.fromTo(fragmentOnion2, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion3, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion4, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion5, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9   
-           },{
-               y:95,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion6, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-           },{
-               y:93,
-               ease: Bounce.easeOut 
-           });
-           animation.fromTo(fragmentOnion7, 1.2, {
-               x:0,
-               y:0,
-               rotation:0,
-               delay:0.9
-           },{  
-               y:70,
-               x:150,
-               rotation:45,
-           });
+
+           /* Animation Customers */
+           $(() => {
+            let soupRes = document.getElementById("ms-img-soup");
+            let avocadoRes = document.getElementById("ms-img-avocado");
+            let animationCustomers = new TimelineMax({repeat:4})
+              animationCustomers.fromTo(soupRes, 3, {
+                  x: 0,
+                }, {
+                  x: 55,
+                  ease: Power4.easeInOut
+              });  
+              animationCustomers.fromTo(avocadoRes , 3, {
+                  y: 0
+                },{
+                  y: -18, 
+                  ease: Power4.easeInOut             
+              });
+           }); 
+
           } else {
            
           }
@@ -532,72 +554,95 @@ jQuery(function ($) {
         /* Animation Interval */
         installMediaQueryWatcher("(min-width: 780px) and (max-width: 880px)", function(matches) { 
           if (matches) {
-           let fragmentOnion1 = document.getElementById("ms-onion-seven");
-           let fragmentOnion2 = document.getElementById("ms-onion-six");
-           let fragmentOnion3 = document.getElementById("ms-onion-five");
-           let fragmentOnion4 = document.getElementById("ms-onion-four");
-           let fragmentOnion5 = document.getElementById("ms-onion-three");
-           let fragmentOnion6 = document.getElementById("ms-onion-two");
-           let fragmentOnion7 = document.getElementById("ms-onion-one");
-           let animation = new TimelineMax({delay:2,repeat:-1})
-           animation.fromTo(fragmentOnion1, 0.9,{
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:85,
-               ease: Bounce.easeOut
-           });
-           animation.fromTo(fragmentOnion2, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion3, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion4, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion5, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9   
-           },{
-               y:95,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion6, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-           },{
-               y:93,
-               ease: Bounce.easeOut 
-           });
-           animation.fromTo(fragmentOnion7, 1.2, {
-               x:0,
-               y:0,
-               rotation:0,
-               delay:0.9
-           },{  
-               y:70,
-               x:150,
-               rotation:45,
-           });
+            /* Animation Onion */
+            $(() => {
+              let fragmentOnion1 = document.getElementById("ms-onion-seven");
+              let fragmentOnion2 = document.getElementById("ms-onion-six");
+              let fragmentOnion3 = document.getElementById("ms-onion-five");
+              let fragmentOnion4 = document.getElementById("ms-onion-four");
+              let fragmentOnion5 = document.getElementById("ms-onion-three");
+              let fragmentOnion6 = document.getElementById("ms-onion-two");
+              let fragmentOnion7 = document.getElementById("ms-onion-one");
+              let animation = new TimelineMax({delay:2,repeat:-1})
+              animation.fromTo(fragmentOnion1, 0.9,{
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{
+                  y:85,
+                  ease: Bounce.easeOut
+              });
+              animation.fromTo(fragmentOnion2, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{  
+                  y:90,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion3, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{  
+                  y:90,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion4, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{
+                  y:90,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion5, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9   
+              },{
+                  y:95,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion6, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+              },{
+                  y:93,
+                  ease: Bounce.easeOut 
+              });
+              animation.fromTo(fragmentOnion7, 1.2, {
+                  x:0,
+                  y:0,
+                  rotation:0,
+                  delay:0.9
+              },{  
+                  y:70,
+                  x:150,
+                  rotation:45,
+              });
+            });
+
+            /* Animation Customers */
+            $(() => {
+             let soupRes = document.getElementById("ms-img-soup");
+             let avocadoRes = document.getElementById("ms-img-avocado");
+             let animationCustomers = new TimelineMax({repeat:4})
+               animationCustomers.fromTo(soupRes, 3, {
+                   x: 0,
+                 }, {
+                   x: 60,
+                   ease: Power4.easeInOut
+               });  
+               animationCustomers.fromTo(avocadoRes , 3, {
+                   y: 0
+                 },{
+                   y: -20, 
+                   ease: Power4.easeInOut             
+               });
+            }); 
+
           } else {
            
           }
@@ -606,72 +651,95 @@ jQuery(function ($) {
         /* Animation Interval */
         installMediaQueryWatcher("(min-width: 736px) and (max-width: 780px)", function(matches) { 
           if (matches) {
-           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
-           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
-           let fragmentOnion3 = document.getElementById("ms-onion-five-res");
-           let fragmentOnion4 = document.getElementById("ms-onion-four-res");
-           let fragmentOnion5 = document.getElementById("ms-onion-three-res");
-           let fragmentOnion6 = document.getElementById("ms-onion-two-res");
-           let fragmentOnion7 = document.getElementById("ms-onion-one-res");
-           let animation = new TimelineMax({delay:2,repeat:-1})
-           animation.fromTo(fragmentOnion1, 0.9,{
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:85,
-               ease: Bounce.easeOut
+           /* Animation Onion */
+           $(() => {
+            let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
+            let fragmentOnion2 = document.getElementById("ms-onion-six-res");
+            let fragmentOnion3 = document.getElementById("ms-onion-five-res");
+            let fragmentOnion4 = document.getElementById("ms-onion-four-res");
+            let fragmentOnion5 = document.getElementById("ms-onion-three-res");
+            let fragmentOnion6 = document.getElementById("ms-onion-two-res");
+            let fragmentOnion7 = document.getElementById("ms-onion-one-res");
+            let animation = new TimelineMax({delay:2,repeat:-1})
+            animation.fromTo(fragmentOnion1, 0.9,{
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:85,
+                ease: Bounce.easeOut
+            });
+            animation.fromTo(fragmentOnion2, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion3, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion4, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion5, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9   
+            },{
+                y:95,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion6, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+            },{
+                y:93,
+                ease: Bounce.easeOut 
+            });
+            animation.fromTo(fragmentOnion7, 1.2, {
+                x:0,
+                y:0,
+                rotation:0,
+                delay:0.9
+            },{  
+                y:70,
+                x:100,
+                rotation:45,
+            });
            });
-           animation.fromTo(fragmentOnion2, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion3, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion4, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion5, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9   
-           },{
-               y:95,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion6, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-           },{
-               y:93,
-               ease: Bounce.easeOut 
-           });
-           animation.fromTo(fragmentOnion7, 1.2, {
-               x:0,
-               y:0,
-               rotation:0,
-               delay:0.9
-           },{  
-               y:70,
-               x:100,
-               rotation:45,
-           });
+
+           /* Customers Animation */
+           $(() => {
+            let soupRes = document.getElementById("ms-img-soup");
+            let avocadoRes = document.getElementById("ms-img-avocado");
+            let animationCustomers = new TimelineMax({repeat:4})
+              animationCustomers.fromTo(soupRes, 3, {
+                  x: 0,
+                }, {
+                  x: 65,
+                  ease: Power4.easeInOut
+              });  
+              animationCustomers.fromTo(avocadoRes , 3, {
+                  y: 0
+                },{
+                  y: -20, 
+                  ease: Power4.easeInOut             
+              });
+           }); 
+
           } else {
            
           }
@@ -680,75 +748,95 @@ jQuery(function ($) {
         /* Animation Interval */
         installMediaQueryWatcher("(min-width: 555px) and (max-width: 736px)", function(matches) { 
           if (matches) {
-           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
-           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
-           let fragmentOnion3 = document.getElementById("ms-onion-five-res");
-           let fragmentOnion4 = document.getElementById("ms-onion-four-res");
-           let fragmentOnion5 = document.getElementById("ms-onion-three-res");
-           let fragmentOnion6 = document.getElementById("ms-onion-two-res");
-           let fragmentOnion7 = document.getElementById("ms-onion-one-res");
-           let animation = new TimelineMax({delay:2,repeat:-1})
-           animation.fromTo(fragmentOnion1, 0.9,{
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:85,
-               ease: Bounce.easeOut
-           });
-           animation.fromTo(fragmentOnion2, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion3, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion4, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:90,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion5, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9   
-           },{
-               y:95,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion6, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-           },{
-               y:93,
-               ease: Bounce.easeOut 
-           });
-           animation.fromTo(fragmentOnion7, 1.2, {
-               x:0,
-               y:0,
-               rotation:0,
-               delay:0.9
-           },{  
-               y:70,
-               x:100,
-               rotation:45,
+           /* Animation Onion */
+           $(() => {
+            let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
+            let fragmentOnion2 = document.getElementById("ms-onion-six-res");
+            let fragmentOnion3 = document.getElementById("ms-onion-five-res");
+            let fragmentOnion4 = document.getElementById("ms-onion-four-res");
+            let fragmentOnion5 = document.getElementById("ms-onion-three-res");
+            let fragmentOnion6 = document.getElementById("ms-onion-two-res");
+            let fragmentOnion7 = document.getElementById("ms-onion-one-res");
+            let animation = new TimelineMax({delay:2,repeat:-1})
+            animation.fromTo(fragmentOnion1, 0.9,{
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:85,
+                ease: Bounce.easeOut
+            });
+            animation.fromTo(fragmentOnion2, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion3, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion4, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:90,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion5, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9   
+            },{
+                y:95,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion6, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+            },{
+                y:93,
+                ease: Bounce.easeOut 
+            });
+            animation.fromTo(fragmentOnion7, 1.2, {
+                x:0,
+                y:0,
+                rotation:0,
+                delay:0.9
+            },{  
+                y:70,
+                x:100,
+                rotation:45,
+            });
            });
 
-           /* Animation Customers */
-
+           
+            /* Customers Animation */
+            $(() => {
+             let soupRes = document.getElementById("ms-img-soup");
+             let avocadoRes = document.getElementById("ms-img-avocado");
+             let animationCustomers = new TimelineMax({repeat:4})
+               animationCustomers.fromTo(soupRes, 3, {
+                   x: 0,
+                 }, {
+                   x: 70,
+                   ease: Power4.easeInOut
+               });  
+               animationCustomers.fromTo(avocadoRes , 3, {
+                   y: 0
+                 },{
+                   y: -23, 
+                   ease: Power4.easeInOut             
+               });
+            }); 
 
           } else {
            
@@ -759,72 +847,97 @@ jQuery(function ($) {
         /* Animation Interval */
         installMediaQueryWatcher("(min-width: 481px) and (max-width: 555px)", function(matches) { 
           if (matches) {
-           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
-           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
-           let fragmentOnion3 = document.getElementById("ms-onion-five-res");
-           let fragmentOnion4 = document.getElementById("ms-onion-four-res");
-           let fragmentOnion5 = document.getElementById("ms-onion-three-res");
-           let fragmentOnion6 = document.getElementById("ms-onion-two-res");
-           let fragmentOnion7 = document.getElementById("ms-onion-one-res");
-           let animation = new TimelineMax({delay:2,repeat:-1})
-           animation.fromTo(fragmentOnion1, 0.9,{
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:55,
-               ease: Bounce.easeOut
+           /* Animation Onion */
+           $(() => {
+            let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
+            let fragmentOnion2 = document.getElementById("ms-onion-six-res");
+            let fragmentOnion3 = document.getElementById("ms-onion-five-res");
+            let fragmentOnion4 = document.getElementById("ms-onion-four-res");
+            let fragmentOnion5 = document.getElementById("ms-onion-three-res");
+            let fragmentOnion6 = document.getElementById("ms-onion-two-res");
+            let fragmentOnion7 = document.getElementById("ms-onion-one-res");
+            let animation = new TimelineMax({delay:2,repeat:3})
+            animation.fromTo(fragmentOnion1, 0.9,{
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:55,
+                ease: Bounce.easeOut
+            });
+            animation.fromTo(fragmentOnion2, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:60,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion3, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{  
+                y:60,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion4, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+              },{
+                y:60,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion5, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9   
+            },{
+                y:65,
+                ease: Bounce.easeOut  
+            });
+            animation.fromTo(fragmentOnion6, 0.7, {
+                x:0,
+                y:0,
+                delay:0.9
+            },{
+                y:73,
+                ease: Bounce.easeOut 
+            });
+            animation.fromTo(fragmentOnion7, 1.2, {
+                x:0,
+                y:0,
+                rotation:0,
+                delay:0.9
+            },{  
+                y:43,
+                x:60,
+                rotation:45,
+            });
            });
-           animation.fromTo(fragmentOnion2, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:60,
-               ease: Bounce.easeOut  
+
+           $(() => {
+            /* Customers Animation */
+            $(() => {
+             let soupRes = document.getElementById("ms-img-soup");
+             let avocadoRes = document.getElementById("ms-img-avocado");
+             let animationCustomers = new TimelineMax({repeat:4})
+               animationCustomers.fromTo(soupRes, 3, {
+                   x: 0,
+                 }, {
+                   x: 80,
+                   ease: Power4.easeInOut
+               });  
+               animationCustomers.fromTo(avocadoRes , 3, {
+                   y: 0
+                 },{
+                   y: -25, 
+                   ease: Power4.easeInOut             
+               });
+            }); 
            });
-           animation.fromTo(fragmentOnion3, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:60,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion4, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:60,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion5, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9   
-           },{
-               y:65,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion6, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-           },{
-               y:73,
-               ease: Bounce.easeOut 
-           });
-           animation.fromTo(fragmentOnion7, 1.2, {
-               x:0,
-               y:0,
-               rotation:0,
-               delay:0.9
-           },{  
-               y:43,
-               x:60,
-               rotation:45,
-           });
+
           } else {
            
           }

@@ -1376,10 +1376,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
    #ms-seed-brocoli{left:60%;}
    #ms-seed-tomato{left:50%;}
    .ms-map-pin-info-triangle:after{left:40%;} 
-   #ms-img-avocado{left: 50%;transform: translateX(-50%);background-size: 290%;width: 300px;height: 400px;background-position: 99.811% 67.979%;} 
+   #ms-img-avocado{top:45%;left: 50%;background-size: 290%;width: 300px;height: 400px;background-position: 99.811% 67.979%;} 
    .ms-map-pin-text{font-size: 14px;}
    #ms-img-soup{width: 45%;height: 100%;left: -4%;top: 24%;}
-   #ms-img-branch1{background-size: 100%;transform: rotate(-20deg);bottom: -15%;left: 10%;}
+   #ms-img-branch1{background-size: 70%;transform: rotate(-20deg);bottom: -10%;left: 10%;}
    #ms-img-branch2{width: 20%;height: 20%;background-size: 80%;top: 7%;transform: rotate(-20deg);left: 15%;}
    #ms-onion-one{width: 300px;height: 250px;background-position: 1.600% 85.587%;top: -180px;left: -24%;}
    #ms-onion-two{width: 30px;height: 45px;background-size: 4500%;top: 60px;left: 29%;}

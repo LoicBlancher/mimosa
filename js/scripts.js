@@ -44,7 +44,7 @@ jQuery(function ($) {
 
      /* Animate PopUp menu logo */
      let animationLogoMainPopup = $(() =>{
-      TweenMax.staggerFrom(".st0", 4, {drawSVG:0,repeat:-1}, 0.3);
+      TweenMax.staggerFrom(".st0", 2, {drawSVG:0,repeat:-1}, 0.1);
      });
      
       $('#ms-slider-clients').slick({

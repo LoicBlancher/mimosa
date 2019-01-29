@@ -44,7 +44,14 @@ jQuery(function ($) {
 
      /* Animate PopUp menu logo */
      let animationLogoMainPopup = $(() =>{
-      TweenMax.staggerFrom(".st0", 2, {drawSVG:0,repeat:-1}, 0.1);
+      let animationLogo = new TimelineLite();
+      animationLogo.staggerFrom(".st0", 3, {drawSVG:0,repeat:-1}, 0.1);
+      $("#mg-menu-logo-main").mouseover(function(){
+        animationLogo.pause();
+      });
+      $("#mg-menu-logo-main").mouseout(function(){
+        animationLogo.play();
+      });
      });
      
       $('#ms-slider-clients').slick({

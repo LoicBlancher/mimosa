@@ -7,8 +7,9 @@
   Tags: Blank, HTML5, CSS3, MIMOSA
 */
 /* One page Scroll */
+html{overflow-x: hidden;}
 .home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap, .notre-concept main,.notre-concept .wrap{height: 100%;}
-body{overflow-x: hidden!important;}
+/*body{overflow-x: hidden!important;}*/
 
 :root{
   /* Var colors */
@@ -2511,7 +2512,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Hide pagination one page */
       .onepage-pagination{display: none;}
       /* Responsive home page */
-      .home ,.qui-sommes-nous,.notre-concept{overflow: scroll;}
+      /*.home ,.qui-sommes-nous,.notre-concept{overflow: scroll;}*/
       .ms-padding-home-section{padding: 50px 70px!important;box-shadow: unset;}
       #ms-slider-home p.yellow{text-align: center;position: relative;top: -30px;}  
       #ms-second-section-home .ms-img-left-section{display: none;}

@@ -36,7 +36,11 @@ jQuery(function ($) {
      });   
 
 
-     $('.menu-link').bigSlide();
+     $('.menu-link').bigSlide({
+       'side': 'left',
+       'speed': '550',
+       'easyClose' :true 
+     });
      
       $('#ms-slider-clients').slick({
         slidesToShow: 3,

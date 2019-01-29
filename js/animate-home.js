@@ -916,7 +916,7 @@ jQuery(function ($) {
               wS = $(this).scrollTop();
             if ( wS > Math.floor((hT + hH - wH)) ) {
               (function animateCustomersResp(){
-                installMediaQueryWatcher("(max-width: 480px)", function(matches) { 
+                installMediaQueryWatcher("(max-width: 992px)", function(matches) { 
                   if (matches) {
                     let soupRes = document.getElementById("ms-img-soup");
                     let avocadoRes = document.getElementById("ms-img-avocado");

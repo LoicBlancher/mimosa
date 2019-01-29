@@ -384,9 +384,6 @@ jQuery(function ($) {
         });
       })();
 
-
-
-
  
         (function animateFormationRes(){
           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
@@ -833,115 +830,108 @@ jQuery(function ($) {
           }
         }); 
 
-        /* Animation for Max Width 380px */
-        installMediaQueryWatcher("(max-width: 380px)", function(matches) { 
-          if (matches) {
-           let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
-           let fragmentOnion2 = document.getElementById("ms-onion-six-res");
-           let fragmentOnion3 = document.getElementById("ms-onion-five-res");
-           let fragmentOnion4 = document.getElementById("ms-onion-four-res");
-           let fragmentOnion5 = document.getElementById("ms-onion-three-res");
-           let fragmentOnion6 = document.getElementById("ms-onion-two-res");
-           let fragmentOnion7 = document.getElementById("ms-onion-one-res");
-           let animation = new TimelineMax({delay:2,repeat:-1})
-           animation.fromTo(fragmentOnion1, 0.9,{
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:55,
-               ease: Bounce.easeOut
-           });
-           animation.fromTo(fragmentOnion2, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:60,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion3, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{  
-               y:60,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion4, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-             },{
-               y:60,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion5, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9   
-           },{
-               y:60,
-               ease: Bounce.easeOut  
-           });
-           animation.fromTo(fragmentOnion6, 0.7, {
-               x:0,
-               y:0,
-               delay:0.9
-           },{
-               y:60,
-               ease: Bounce.easeOut 
-           });
-           animation.fromTo(fragmentOnion7, 1.2, {
-               x:0,
-               y:0,
-               rotation:0,
-               delay:0.9
-           },{  
-               y:43,
-               x:60,
-               rotation:45,
-           });
-          } else {
-           
-          }
-        }); 
+        
+        (function animateCustomersResp(){
+          /* Animation for Max Width 380px */
+          installMediaQueryWatcher("(max-width: 380px)", function(matches) { 
+            if (matches) {
+            /* Onion Animation */
+             $(() => {
+              let fragmentOnion1 = document.getElementById("ms-onion-seven-res");
+              let fragmentOnion2 = document.getElementById("ms-onion-six-res");
+              let fragmentOnion3 = document.getElementById("ms-onion-five-res");
+              let fragmentOnion4 = document.getElementById("ms-onion-four-res");
+              let fragmentOnion5 = document.getElementById("ms-onion-three-res");
+              let fragmentOnion6 = document.getElementById("ms-onion-two-res");
+              let fragmentOnion7 = document.getElementById("ms-onion-one-res");
+              let animation = new TimelineMax({delay:2,repeat:3})
+              animation.fromTo(fragmentOnion1, 0.9,{
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{
+                  y:55,
+                  ease: Bounce.easeOut
+              });
+              animation.fromTo(fragmentOnion2, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{  
+                  y:60,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion3, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{  
+                  y:60,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion4, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+                },{
+                  y:60,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion5, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9   
+              },{
+                  y:60,
+                  ease: Bounce.easeOut  
+              });
+              animation.fromTo(fragmentOnion6, 0.7, {
+                  x:0,
+                  y:0,
+                  delay:0.9
+              },{
+                  y:60,
+                  ease: Bounce.easeOut 
+              });
+              animation.fromTo(fragmentOnion7, 1.2, {
+                  x:0,
+                  y:0,
+                  rotation:0,
+                  delay:0.9
+              },{  
+                  y:43,
+                  x:60,
+                  rotation:45,
+              });   
+             });
 
-
-        $(() => {
-          $(window).scroll(function () {
-            var hT = $('#ms-five-section-home').offset().top,
-              hH = $('#ms-five-section-home').outerHeight(),
-              wH = $(window).height(),
-              wS = $(this).scrollTop();
-            if ( wS > Math.floor((hT + hH - wH)) ) {
-              (function animateCustomersResp(){
-                installMediaQueryWatcher("(max-width: 992px)", function(matches) { 
-                  if (matches) {
-                    let soupRes = document.getElementById("ms-img-soup");
-                    let avocadoRes = document.getElementById("ms-img-avocado");
-                    let animationCustomers = new TimelineMax({repeat:-1})
-                      animationCustomers.fromTo(soupRes, 3, {
-                          x: 0,
-                        }, {
-                          x: 120,
-                          ease: Power4.easeInOut
-                      });  
-                      animationCustomers.fromTo(avocadoRes , 3, {
-                          y: 0
-                        },{
-                          y: -30, 
-                          ease: Power4.easeInOut             
-                      });
-                  } else {
-                   
-                  }
+             /* Customers Animation */
+             $(() => {
+              let soupRes = document.getElementById("ms-img-soup");
+              let avocadoRes = document.getElementById("ms-img-avocado");
+              let animationCustomers = new TimelineMax({repeat:4})
+                animationCustomers.fromTo(soupRes, 3, {
+                    x: 0,
+                  }, {
+                    x: 105,
+                    ease: Power4.easeInOut
+                });  
+                animationCustomers.fromTo(avocadoRes , 3, {
+                    y: 0
+                  },{
+                    y: -25, 
+                    ease: Power4.easeInOut             
                 });
-              })();
-            }
-          });
-        });
+             }); 
 
+            } else {
+             
+            }
+          }); 
+        })();
+
+
+   
         
 
        $(".main").onepage_scroll({

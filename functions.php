@@ -221,6 +221,10 @@ function html5blank_header_scripts()
         wp_register_script('shapeIndex', get_template_directory_uri() . '/js/lib/findShapeIndex.js',true); //Morph SVG
         wp_enqueue_script('shapeIndex'); // Enqueue it!
 
+        wp_register_script('drawSVG', get_template_directory_uri() . '/js/lib/DrawSVGPlugin.min.js',true); //Morph SVG
+        wp_enqueue_script('drawSVG'); // Enqueue it!
+
+
         wp_register_script('html5blankscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0',true); // Custom scripts
         wp_enqueue_script('html5blankscripts'); // Enqueue it!
 

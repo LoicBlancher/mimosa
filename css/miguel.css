@@ -218,7 +218,8 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
     #mg-menu-terms-main ul li:first-child{border: none;padding: 0 10px;}
     #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';font-size: 12px;}
     /* Menu Main terms logo Mimosa */
-    #mg-menu-logo-main{float: left;width: 50%;}
+    #mg-menu-logo-main{width: 20%;position: absolute;right: 0;bottom: 0;}
+    .st0{fill:transparent;stroke-width: 2px;stroke: white;}
     #mg-menu-logo-main .mg-logo-img-menu{max-width: 100px;position: relative;float: right;right: 25%;bottom: 30px;}
     /*------------------------------------*\
                  END MAIN MENU
@@ -3227,10 +3228,5 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     End Partials
 \*------------------------------------*/  
 
-
-#ms-img-oats{display: none;}
-#hippo, #elephant, #star{
-  visibility:hidden;
-}
 
 

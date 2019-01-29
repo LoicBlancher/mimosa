@@ -41,6 +41,11 @@ jQuery(function ($) {
        'speed': '550',
        'easyClose' :true 
      });
+
+     /* Animate PopUp menu logo */
+     let animationLogoMainPopup = $(() =>{
+      TweenMax.staggerFrom(".st0", 4, {drawSVG:0,repeat:-1}, 0.3);
+     });
      
       $('#ms-slider-clients').slick({
         slidesToShow: 3,
@@ -269,6 +274,10 @@ jQuery(function ($) {
     (function addHoverForLastSectionMenuItems(){
       $("#ms-last-section-home-menu ul li a").addClass("hvr-underline-from-left-last-section");
     })();
+
+
+
+
       
  }); 
 });

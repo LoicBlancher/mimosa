@@ -186,42 +186,42 @@ jQuery(function ($) {
               },{
                 y:140,
                 ease: Bounce.easeOut
-            });
+            },{clearProps:"all"});
             animation.fromTo(fragmentOnion2, 0.7, {
                 x:0,
                 y:0
               },{  
                 y:140,
                 ease: Bounce.easeOut  
-            });
+            }),{clearProps:"all"};
             animation.fromTo(fragmentOnion3, 0.7, {
                 x:0,
                 y:0
               },{  
                 y:147,
                 ease: Bounce.easeOut  
-            });
+            }),{clearProps:"all"};
             animation.fromTo(fragmentOnion4, 0.7, {
                 x:0,
                 y:0
               },{
                 y:150,
                 ease: Bounce.easeOut  
-            });
+            }),{clearProps:"all"};
             animation.fromTo(fragmentOnion5, 0.7, {
                 x:0,
                 y:0   
             },{
                 y:167,
                 ease: Bounce.easeOut  
-            });
+            }),{clearProps:"all"};
             animation.fromTo(fragmentOnion6, 0.7, {
                 x:0,
                 y:0
             },{
                 y:170,
                 ease: Bounce.easeOut 
-            });
+            }),{clearProps:"all"};
             animation.fromTo(fragmentOnion7, 0.7, {
                 x:0,
                 y:0,
@@ -230,7 +230,7 @@ jQuery(function ($) {
                 y:160,
                 x:180,
                 rotation:36,
-            });
+            }),{clearProps:"all"};
           })();
 
         }

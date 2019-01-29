@@ -42,17 +42,19 @@ jQuery(function ($) {
        'easyClose' :true 
      });
 
+
      /* Animate PopUp menu logo */
      let animationLogoMainPopup = $(() =>{
-      let animationLogo = new TimelineLite();
-      animationLogo.staggerFrom(".st0", 3, {drawSVG:0,repeat:-1}, 0.1);
-      $("#mg-menu-logo-main").mouseover(function(){
-        animationLogo.pause();
-      });
-      $("#mg-menu-logo-main").mouseout(function(){
-        animationLogo.play();
-      });
+        $('#mg-main-menu-btn').on("click",function(){
+          let animationLogo = new TimelineMax();
+          /*animationLogo.staggerFrom(".st0", 3, {drawSVG:0,repeat:-1}, 0.1);*/
+          animationLogo.fromTo(".st0", 4, {drawSVG:"10% 10%",fill:"none",opacity:0.1}, {drawSVG:"true", ease:Linear.easeNone,fill:"white",opacity:1});
+          animationLogo.repeat(0);
+        });
      });
+
+
+     let animate
      
       $('#ms-slider-clients').slick({
         slidesToShow: 3,

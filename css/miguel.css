@@ -7,9 +7,9 @@
   Tags: Blank, HTML5, CSS3, MIMOSA
 */
 /* One page Scroll */
-html{overflow-x: hidden;}
+html,
+body{overflow-x: hidden!important;}
 .home .wrap, .home main,.qui-sommes-nous main,.qui-sommes-nous .wrap, .notre-concept main,.notre-concept .wrap{height: 100%;}
-/*body{overflow-x: hidden!important;}*/
 
 :root{
   /* Var colors */

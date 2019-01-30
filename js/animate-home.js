@@ -21,9 +21,46 @@ jQuery(function ($) {
 
       /* Scroll Button Know More First Section */ 
       $("#ms-know-more").click(function(){
-        $('html,body').animate({
-          scrollTop:$("#ms-second-section-home").offset().top},
-          1000);
+        $(".section-scroll").moveTo(2);
+      });
+
+      let menuFooterScrool = $(() => {
+        
+        let $home = $('.home-scroll');
+        $home.click(function(){
+         $(this).moveTo(1);
+        });
+
+        let $demo = $('.demo-scroll');
+        $demo.click(function(){
+          $(this).moveTo(2);
+        });
+
+        let $formation = $('.formation-scroll');
+        $formation.click(function(){
+          $(this).moveTo(3);
+        });
+
+        let $logistique = $('.loguistique-scroll');
+        $logistique.click(function(){
+          $(this).moveTo(4);
+        });
+
+        let $concept = $('.concept-scroll');
+        $concept.click(function(){
+          $(this).moveTo(5);
+        });
+
+        let $clients = $('.clients-scroll');
+        $clients.click(function(){
+          $(this).moveTo(6);
+        });
+
+        let $contact = $('.contact-scroll');
+        $contact.click(function(){
+          $(this).moveTo(7);
+        });
+
       });
 
       function header_section_two_home(id){

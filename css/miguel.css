@@ -318,7 +318,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-bullet-point-spoon{background: url('../img/home-page-img-mimosa.png') no-repeat 61.721% 85.014%;width: 60px;height: 60px;}
 .ms-content-bullets{float: left;width: 70%;}
 
-.ms-second-section-home
 
 /*------------------------------------*\
     HOME PAGE GENERAL
@@ -398,6 +397,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-img-avocado{background: url(../img/home-page-img-mimosa-2.png) no-repeat 105.811% 67.979%;width: 460px;height: 580px;position: absolute;background-size: 260%;top: 81%;left: 50%;transform: translateX(-50%);}
 #ms-wrapper-btns-lastsection{display: flex;justify-content: center;}
 #ms-img-footer-mimosa-home{display: table;margin: 0 auto;}
+.ms-footer-links{cursor:pointer;}
 #ms-wrapper-btns-lastsection .ms-yellow-btn-black-text{}
 #ms-wrapper-btns-lastsection .ms-transparent-btn-black-text{margin-left: 2%;display: inline;}
 #ms-last-section-home-yl{background: #f2d200;padding: 30px 0;-webkit-box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);-moz-box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);box-shadow: inset 1px 13px 50px -8px rgba(128,128,128,0.65);overflow: hidden;}

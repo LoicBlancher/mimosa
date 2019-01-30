@@ -1043,7 +1043,14 @@ jQuery(function ($) {
           }); 
         })();
 
-
+        $(() => {
+          var tl = new TimelineMax({repeat:-1,repeatDelay:0.3,yoyo:true})
+          MorphSVGPlugin.convertToPath("circle , rect , polygon");
+          let eggMimosa = document.getElementById("mimosa-egg");
+          tl.to(eggMimosa, 0.3,{morphSVG:"#mimosa-fork"},"+=1")
+            .to(eggMimosa, 0.3,{morphSVG:"#mimosa-spoon"},"+=1")
+            .to(eggMimosa, 0.3,{morphSVG:eggMimosa},"+=1");
+        });
    
         
 

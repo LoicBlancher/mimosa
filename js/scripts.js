@@ -48,7 +48,7 @@ jQuery(function ($) {
         $('#mg-main-menu-btn').on("click",function(){
           let animationLogo = new TimelineMax();
           /*animationLogo.staggerFrom(".st0", 3, {drawSVG:0,repeat:-1}, 0.1);*/
-          animationLogo.fromTo(".st0", 4, {drawSVG:"10% 10%",fill:"none",opacity:0.1}, {drawSVG:"true", ease:Linear.easeNone,fill:"white",opacity:1});
+          animationLogo.fromTo(".st0", 4, {drawSVG:"0% 0%",fill:"none",opacity:0.1}, {drawSVG:"true", ease:Linear.easeNone,fill:"white",opacity:1});
           animationLogo.repeat(0);
         });
      });

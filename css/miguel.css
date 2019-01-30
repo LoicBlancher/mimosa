@@ -219,7 +219,12 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
     #mg-menu-terms-main ul li a{color:white;font-family: 'Gotham';font-size: 12px;}
     /* Menu Main terms logo Mimosa */
     #mg-menu-logo-main{width: 20%;position: absolute;right: 0;bottom: 0;}
+    #ms-logo-main-home{width: 50%;margin-bottom: 10%;position: relative;top: -60px;}
     .st0{stroke-width:1 ;stroke: white;}
+    .st1{fill:#FFFFFF;}
+    .st2{fill:#FFCF01;}
+    #mimosa-fork,
+    #mimosa-spoon{visibility: hidden;}
     #mg-menu-logo-main .mg-logo-img-menu{max-width: 100px;position: relative;float: right;right: 25%;bottom: 30px;}
     /*------------------------------------*\
                  END MAIN MENU

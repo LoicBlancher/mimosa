@@ -1,6 +1,6 @@
 <div id="ms-wrapper-clients-section">
-      <h4>Some of our Clients</h4>
-      <p class="gray">Some Featured Sponsor Brands</p>
+      <h4>Découvrez ici quelques-uns de nos clients fidèles</h4>
+      <!--<p class="gray">Some Featured Sponsor Brands</p>-->
     <div id="ms-slider-clients">
         <?php  $loop = new WP_Query( array( 'post_type' => 'clients'));
          if ( $loop->have_posts() ) :

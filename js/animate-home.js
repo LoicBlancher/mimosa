@@ -19,6 +19,13 @@ jQuery(function ($) {
       }); 
 
 
+      /* Scroll Button Know More First Section */ 
+      $("#ms-know-more").click(function(){
+        $('html,body').animate({
+          scrollTop:$("#ms-second-section-home").offset().top},
+          1000);
+      });
+
       function header_section_two_home(id){
         let $header = $('header');
         $header.removeClass('ms-white-background-social-icons');
@@ -68,13 +75,9 @@ jQuery(function ($) {
         } 
       })(); */
 
- /*
-      $("#ms-know-more").click(function(){
-        $('html,body').animate({
-          scrollTop:$("#ms-second-section-home").offset().top},
-          1000);
-      });
-*/
+
+
+
       (function animateDemoHome(){
         egg1 = document.getElementById("ms-container-egg1-home");
         TweenMax.fromTo(egg1, 0.1, {

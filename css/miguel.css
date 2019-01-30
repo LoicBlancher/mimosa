@@ -257,6 +257,7 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
   .home footer,.qui-sommes-nous footer, .notre-concept footer{position: absolute;width: 100%;}
   footer{background:#353535;padding: 120px 0; }
     /* Footer First Row */
+    .ms-footer-menu-items{color:#736f6f;}
     #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
     #mg-footer-first ul{list-style-type: none;padding: 0;}
     #mg-footer-first ul li{margin:20px 0;font-family: 'Gotham';}
@@ -2202,7 +2203,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #mg-footer-menu-terms ul{position: relative;left: 14%;}
       #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0 20px 0;}
       #mg-newsletter-main-menu{margin-top:7%;width: 70%;position: relative;left:18%;}
-      footer{padding: 130px 0;}
+      footer{padding: 140px 0;}
       #mg-wrapper-main-menu #mg-main-menu-content nav{width: 30%;}
 
       /* Qui sommes nous */

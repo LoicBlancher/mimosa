@@ -165,37 +165,27 @@ jQuery(function ($) {
                   /* Animation second section demo if min width > 1800*/
                   (function animateDemo02Large(){
                                     let el6 = document.getElementById("ms-el-dem-serv6");
-                                    TweenMax.fromTo(el6, 0.8, {
-                                          x: 0,
-                                        },{
+                                    TweenMax.to(el6, 0.8, {
                                           x:850,
                                           ease: SteppedEase.config(9)
                                         });
                                     let el2 = document.getElementById("ms-el-dem-serv2");
-                                    TweenMax.fromTo(el2, 0.8, {
-                                          x: 0,
-                                        },{
+                                    TweenMax.to(el2, 0.8, {
                                           x:-810,
                                           ease: SteppedEase.config(7)
                                         });
                                     let el4 = document.getElementById("ms-el-dem-serv4");
-                                    TweenMax.fromTo(el4, 0.8, {
-                                          x: 0,
-                                        },{
+                                    TweenMax.to(el4, 0.8, {
                                           x:320,
                                           ease: SteppedEase.config(6)
                                         });
                                     let el5 = document.getElementById("ms-el-dem-serv5");
-                                    TweenMax.fromTo(el5, 0.8, {
-                                          x: 0,
-                                        },{
+                                    TweenMax.to(el5, 0.8, {
                                           x:350,
                                           ease: SteppedEase.config(10)
                                         });
                                     let el1 = document.getElementById("ms-el-dem-serv1");
-                                    TweenMax.fromTo(el1, 0.8, {
-                                          x: 0,
-                                        },{
+                                    TweenMax.to(el1, 0.8, {
                                           x:340,
                                           ease: SteppedEase.config(7)
                                         });

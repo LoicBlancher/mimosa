@@ -961,8 +961,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-map-qui-sommes img{max-width: 90%!important;}
     #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 50px 0 10px;}
     #ms-map-qui-sommes{padding:unset;}
-    #ms-testi-des{font-size: 17px;}
-    #ms-sommes-five-section h2{text-align: center;}
+    #ms-testi-des{font-size: 15px;margin-top:0;}
+    #ms-sommes-five-section h2{text-align: center;margin-bottom: 0;margin-top:30%;}
     #ms-cela-vous-qui-sommes{padding:10px;}
     #ms-sommes-seven-section{padding: 100px 130px!important;}
     #ms-sommes-seven-section h2{margin-bottom: 10px;}
@@ -977,6 +977,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #mg-newsletter-main-menu #mg-newsletter-form-main #sib_signup_form_2{left:-16%;}
     #ms-wrapper-paginator{bottom:80px;}
     #ms-paginator-right{margin-right: 5%;}
+
     /* Demo culinaire */
     .ms-services-line-indicator{left: 30%;top: 40%;}
     #ms-services-line-indicator-rigth{left:50%;}

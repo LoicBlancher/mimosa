@@ -970,10 +970,11 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-last-section-home-yl{padding: 10px 0;}
     .ms-wrapper-member-name{top: -100px;left: 60%;}
     #ms-team-section{margin-top:-5%;}
-    #ms-eyelash-selector li a{font-size: 0.9em;}
+    #ms-eyelash-selector li a{font-size: 0.9em;}demo-culinaire
     footer{padding: 50px 0;}
-    .home footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
-
+    .home footer #mg-newsletter-form-main #sib_signup_form_2,
+    .demo-culinaire footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
+    #mg-newsletter-main-menu #mg-newsletter-form-main #sib_signup_form_2{left:-16%;}
     /* Demo culinaire */
     .ms-services-line-indicator{left: 30%;top: 40%;}
     #ms-services-line-indicator-rigth{left:50%;}

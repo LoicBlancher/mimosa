@@ -533,7 +533,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-no-padding-bottom{}
 #ms-concept-second-first-column{float: left;width: 100%;}
 #ms-concept-second-second-column{float: left;width: 100%;}
-#ms-title-notre-second-section{float: left;width: 30%;word-break: break-all;}
+#ms-title-notre-second-section{float: left;width: 30%;}
 #ms-subtitle-notre-second-section{float: left;width: 70%;padding: 40px 90px;}
 #ms-concept-second-img{width: 40%;float: left;padding: 10px;}
 #ms-concept-second-img img{width: 500px;height: 500px;}
@@ -2248,7 +2248,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-skill-three-fork h3,
       #ms-skill-fourth-fork{margin:0 0;}
       #ms-title-notre-second-section{width: 40%;}
-      #ms-title-notre-second-section h2{font-size: 45px!important;}
+      #ms-title-notre-second-section h2{font-size: 41px!important;margin-bottom:15%;}
       #ms-subtitle-notre-second-section{width: 60%;padding: 40px 90px 60px 90px;}
       #ms-concept-third-section-text-column h2{margin-top:2%;}
       #ms-notre-concept-gallery-header-title h2{font-size: 45px!important;}

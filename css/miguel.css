@@ -608,6 +608,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   .ms-primary-btn-oylb a{border:none;padding-bottom:20px 30px;background: var(--mimosa-yellow);border-radius: 50px; }
   #ms-btn-cta-cp{display: table;margin: 0 auto;padding: 20px 60px;box-shadow: 1px -1px 15px 2px rgba(0, 0, 0, 0.1);}
   #ms-contactpage-socials-largest h2{margin-bottom: 30px;}
+  #ms-wrapper-img-contact-info img{width: 100%;}
 /*------------------------------------*\
     End Contact Page
 \*------------------------------------*/
@@ -1044,11 +1045,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-12{top:78%;}
     #ms-indicator-last-log{left:98%;}
 
-    /* Devis */
+    /* Devis - Contact */
     .ms-footer-pts{padding: 10% 10%;}
     #ms-wrapper-checkbox-devis{padding: 0;margin-left:5%;}
     #mg-newsletter-form-main .sib_signup_box_inside_2{left:13%;}
-    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 21%;}
+    #ms-wrapper-img-contact-info img{width: 230px;}
+    #ms-wrapper-img-contact-info{margin-top: 28%!important;position: relative;left: -25%;}
 
   }
 
@@ -3223,7 +3225,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 \*------------------------------------*/  
   /* Contact Page */
   #responsiveContact{display: none;}
-  #ms-wrapper-img-contact-info{margin-top:20%;}
+  #ms-wrapper-img-contact-info{margin-top:15%;}
   #ms-contactInfo-contactP{padding: 50px 10px;} 
   #ms-contactInfo-contactP a{display: flex;padding: 7px 0;}
   #ms-contactInfo-contactP p{color:var(--mimosa-black-semi-dark);font-size:14px;display: inline;font-weight: bold;letter-spacing: 0.06em;margin:2% 0 0 0;}  

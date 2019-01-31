@@ -2756,7 +2756,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-slider-team-members .slick-list.draggable{padding: 40px 0!important;}
       #ms-team-section{margin-top:0;}
       #ms-responsive-onion-home{width: 130%;position: relative;left: 50%;transform: translateX(-50%);}
-      
+      #ms-paginator-right a{padding: 6px 11px;}
+      #ms-paginator-right{margin-right: 5%;}
+      #ms-wrapper-paginator{bottom:55px;}
+      #ms-img-carousel-with-pagination{margin-left:0;}
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}

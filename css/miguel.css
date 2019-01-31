@@ -1045,7 +1045,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-indicator-last-log{left:98%;}
 
     /* Devis */
+    .ms-footer-pts{padding: 10% 10%;}
     #ms-wrapper-checkbox-devis{padding: 0;margin-left:5%;}
+    #mg-newsletter-form-main .sib_signup_box_inside_2{left:13%;}
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 21%;}
 
   }
 

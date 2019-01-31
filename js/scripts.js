@@ -54,7 +54,6 @@ jQuery(function ($) {
      });
 
 
-     let animate
      
       $('#ms-slider-clients').slick({
         slidesToShow: 3,

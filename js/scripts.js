@@ -111,7 +111,7 @@ jQuery(function ($) {
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 200,
-        infinite:false,
+        infinite:true,
         arrows:false,
         responsive: [
               {
@@ -230,7 +230,7 @@ jQuery(function ($) {
        }) 
 
 
-      $('#ms-scroll-tab,#pgc-30-4-1').hover(function(){
+      $('#ms-scroll-tab').hover(function(){
         $('#ms-scroll-ingredients').slick('slickPlay');
       },function(){
         $('#ms-scroll-ingredients').slick('slickPause');

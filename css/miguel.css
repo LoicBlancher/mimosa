@@ -972,6 +972,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-team-section{margin-top:-5%;}
     #ms-eyelash-selector li a{font-size: 0.9em;}
     footer{padding: 50px 0;}
+    .home footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
 
     /* Demo culinaire */
     .ms-services-line-indicator{left: 30%;top: 40%;}
@@ -1051,6 +1052,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #mg-newsletter-form-main .sib_signup_box_inside_2{left:13%;}
     #ms-wrapper-img-contact-info img{width: 230px;}
     #ms-wrapper-img-contact-info{margin-top: 28%!important;position: relative;left: -25%;}
+    .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: 21%;}
 
   }
 

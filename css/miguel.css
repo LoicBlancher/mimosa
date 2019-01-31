@@ -2266,6 +2266,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{width: 100%;}
       .ms-footer-pts #mg-newsletter-form-main .sib_signup_box_inside_2{left:7.2%;}
       .ms-footer-pts .copyright{text-align: center;}
+      .ms-left-section-fixed img{height: 100%;}
     }
 
     @media only screen  and (min-width : 1280px) {

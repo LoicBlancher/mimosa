@@ -62,10 +62,10 @@ jQuery(function ($) {
            let $header = $('header');
            let $button = $('header a.yellowBtn');
            if (wS > (hT+hH-wH)){
-            $header.removeClass('ms-yellow-background-btns');
-            $button.removeClass('hvr-ripple-out-wt');
-            $header.addClass('ms-white-background-social-icons');
-            $button.addClass('hvr-ripple-out');
+            $header.removeClass('ms-white-background-social-icons');
+            $button.removeClass('hvr-ripple-out');
+            $header.addClass('ms-yellow-background-btns');
+            $button.addClass('hvr-ripple-out-wt');
            }
         }); 
 

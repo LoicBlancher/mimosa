@@ -985,10 +985,10 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     /* Notre concept */
     .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
     .ms-no-padding-bottom h3{font-size: 22px!important;margin: 2px;}
-    #ms-title-notre-second-section{width: 30%;transform: translateX(20%);}
+    #ms-title-notre-second-section{width: 40%;transform: translateX(10%) translateY(6%);}
     #ms-title-notre-second-section h2{font-size: 30px;}
-    #ms-subtitle-notre-second-section{width: 70%;}
-    #ms-fork-notre-concept{width: 90%;}
+    #ms-subtitle-notre-second-section{width: 60%;padding: 0 90px;transform: translateY(15%);}
+    #ms-fork-notre-concept{width: 90%;left:1%;}
     #ms-skill-three-fork #ms-bullet-point-roller{margin-left:35%;}
     #ms-skill-fourth-fork #ms-bullet-point-spoon{margin-left:35%;}
     #ms-skill-one-fork,
@@ -2247,7 +2247,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-skill-two-fork h3,
       #ms-skill-three-fork h3,
       #ms-skill-fourth-fork{margin:0 0;}
-      #ms-title-notre-second-section{width: 40%;}
+      #ms-title-notre-second-section{width: 40%;transform:translateX(5%);}
       #ms-title-notre-second-section h2{font-size: 41px!important;margin-bottom:15%;}
       #ms-subtitle-notre-second-section{width: 60%;padding: 40px 90px 60px 90px;}
       #ms-concept-third-section-text-column h2{margin-top:2%;}

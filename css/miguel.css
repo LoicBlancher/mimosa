@@ -1357,6 +1357,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-wrapper-cta-nine-section-atelier{display: table;margin: 30px auto;position: initial;width: 100%;}
   .ms-img-icon-services-card img{width: 120px;}
   .ms-atelier-services-card{max-height: 320px;}
+  #ms-wrapper-paginator{bottom:70px;}
+  #ms-paginator-right{margin-right: 5%;}
   /* Notre concept */
   .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
   .ms-no-padding-bottom h3{font-size: 22px!important}
@@ -2065,6 +2067,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-footer-pts #mg-newsletter-subtitle {text-align: center;}
     .ms-footer-pts #mg-newsletter-form-main .input-email-newsletter{position: relative;left: 12%;width: 100%;} 
     .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -30px;}
+    /*Qui sommes */
+    #ms-wrapper-paginator{bottom:70px;}
+    #ms-paginator-right{margin-right: 5%;}
   }
 
     @media only screen and (min-width: 555px) and (max-width: 736px){
@@ -2155,6 +2160,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       /* Footer */
       footer #mg-newsletter-form-main{display: table;margin:0 auto;}
       #mg-footer-menu-terms{margin-left: 0;}
+      /* Qui sommes */
     }
   /*------------------------------------*\
       End Intervals Responsive

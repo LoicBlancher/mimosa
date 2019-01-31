@@ -254,8 +254,8 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
 /*------------------------------------*\
     FOOTER'S
 \*------------------------------------*/
-  .home footer,.qui-sommes-nous footer, .notre-concept footer{position: absolute;width: 100%;}
-  footer{background:#353535;padding: 120px 0; }
+  .home footer,.qui-sommes-nous footer, .notre-concept footer{position: absolute;width: 100%;padding: 7% 0;}
+  footer{background:#353535;padding: 4% 0; }
     /* Footer First Row */
     .ms-footer-menu-items{color:#736f6f;}
     #mg-footer-first h6{color:white;font-family: 'Gotham';font-weight: 700;text-align: center;text-transform: uppercase;font-size: 13px;letter-spacing: 0.15em;text-align: left;}
@@ -564,8 +564,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-item-list-notre-concept{position: relative;}
 .ms-item-list-notre-concept:before{content: "\25A2";font-size: 30px;margin-right: 10px;}
 .ms-item-list-notre-concept:after{content: "\2713";font-size: 27px;color: var(--mimosa-yellow);position: absolute;font-weight: bold;left: 3px;bottom: 7px;}
-
-#ms-concept-second-subsection{}
 #ms-container-plants-notre-concept{position: relative;}
 #ms-fork-notre-concept{position: absolute;top:0;left:7%;}
 #ms-skill-one-fork{padding: 10px;width: 380px;}
@@ -2211,7 +2209,6 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #mg-footer-menu-terms ul{position: relative;left: 14%;}
       #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0 20px 0;}
       #mg-newsletter-main-menu{margin-top:7%;width: 70%;position: relative;left:18%;}
-      footer{padding: 140px 0;}
       #mg-wrapper-main-menu #mg-main-menu-content nav{width: 30%;}
 
       /* Qui sommes nous */
@@ -2249,7 +2246,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-skill-one-fork h3,
       #ms-skill-two-fork h3,
       #ms-skill-three-fork h3,
-      #ms-skill-fourth-fork{font-size: 35px!important;margin:0 0;}
+      #ms-skill-fourth-fork{margin:0 0;}
       #ms-title-notre-second-section{width: 40%;}
       #ms-title-notre-second-section h2{font-size: 45px!important;}
       #ms-subtitle-notre-second-section{width: 60%;padding: 40px 90px 60px 90px;}

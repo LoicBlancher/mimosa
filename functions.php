@@ -923,13 +923,13 @@ add_shortcode('carousel_with_pagination','img_carousel_with_pagination');
 function img_carousel_with_pagination(){?>    
   <div id="ms-img-carousel-with-pagination">
     <div id="ms-content-img1" class="active-img-qs">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_1.jpg" alt="">
+        <img class="img-carrousel-qs" src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_1.jpg" alt="">
     </div>
     <div id="ms-content-img2" class="inactive-img-qs">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_2.jpg" alt="">
+        <img class="img-carrousel-qs" src="<?php echo get_template_directory_uri(); ?>/img/2-qui-sommes.jpg" alt="">
     </div>
     <div id="ms-content-img3" class="inactive-img-qs">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_3.jpg" alt="">
+        <img class="img-carrousel-qs" src="<?php echo get_template_directory_uri(); ?>/img/qui_sommes_3.jpg" alt="">
     </div>
     <div id="ms-wrapper-paginator">
         <div id="ms-paginator-right">

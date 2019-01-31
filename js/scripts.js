@@ -111,7 +111,7 @@ jQuery(function ($) {
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 200,
-        infinite:true,
+        infinite:false,
         arrows:false,
         responsive: [
               {

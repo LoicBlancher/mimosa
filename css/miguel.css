@@ -511,13 +511,14 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-title-tmembers{margin:0;}
 .ms-title-services-separator{border-bottom: 1px solid #e9e9e9;width: 50%;}
 /* Paginator */
-#ms-img-carousel-with-pagination{position: relative: ;margin-top: 10%;margin-left: 10%;}
+#ms-img-carousel-with-pagination{position: relative;margin-top: 10%;margin-left: 10%;}
 #ms-wrapper-paginator{position: relative;bottom: 50px;width: 100%;float: left;}
 #ms-paginator-right{float: right;width: auto;padding: 3px;background: #fafafa;border-radius: 50px;}
 #ms-paginator-right a{cursor: pointer;position: relative;z-index: 99;float: left;width: auto;padding: 11px 16px;margin-left: 2px;margin-right: 2px;-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px;}
 .round-active{background: #ffcf01;}
 .active-img-qs{display: block;}
 .inactive-img-qs{display: none;}
+.img-carrousel-qs{width: 100%;}
 /*------------------------------------*\
     End Qui sommes nous
 \*------------------------------------*/
@@ -916,6 +917,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   /*------------------------------------*\
       Begin Intervals Responsive
   \*------------------------------------*/
+
   @media only screen and (min-width: 1200px) and (max-width: 1480px){
     /* Home */
     .ms-logo-mimosa-main{top: -10px;left:-71px;}
@@ -973,6 +975,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .home footer #mg-newsletter-form-main #sib_signup_form_2,
     .demo-culinaire footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
     #mg-newsletter-main-menu #mg-newsletter-form-main #sib_signup_form_2{left:-16%;}
+    #ms-wrapper-paginator{bottom:80px;}
+    #ms-paginator-right{margin-right: 5%;}
     /* Demo culinaire */
     .ms-services-line-indicator{left: 30%;top: 40%;}
     #ms-services-line-indicator-rigth{left:50%;}
@@ -2226,8 +2230,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-member-description{font-size: 17px;}
       .ms-box-content{padding:10px 60px;}
       .ms-box-container{width: 27%!important;margin:0 30px!important;}
-      #ms-wrapper-paginator{bottom:70px;}
-      #ms-paginator-right{margin-right: 29%;}
+      #ms-wrapper-paginator{bottom:80px;}
+      #ms-paginator-right{margin-right: 4%;}
       /* Atelier */
       #ms-atelier-pot1{top: 82.9%;z-index: 999;right:10%;}
       #ms-elementAt9-ser1{left:68%;}
@@ -2752,7 +2756,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-slider-team-members .slick-list.draggable{padding: 40px 0!important;}
       #ms-team-section{margin-top:0;}
       #ms-responsive-onion-home{width: 130%;position: relative;left: 50%;transform: translateX(-50%);}
-     
+      
       /* Responsive Footer Mobile */
       #mg-footer-first h6{text-align: center;}
       #mg-footer-first ul{text-align: center;}

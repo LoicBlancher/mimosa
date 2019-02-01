@@ -382,6 +382,94 @@ jQuery(function ($) {
                });  
             } 
           }); 
+
+
+          installMediaQueryWatcher("(min-width: 1200px) and (max-width: 1480px)", function(matches) { 
+            if (matches) {
+               $(window).scroll(function() {
+                  var hT = $('#ms-atelier-nine-section').offset().top,
+                      hH = $('#ms-atelier-nine-section').outerHeight(),
+                      wH = $(window).height(),
+                      wS = $(this).scrollTop();
+                  if (wS > (hT+hH-wH)){
+                    $body = $('body');
+                    $body.css("overflow","hidden");
+                    let img1 = document.getElementById("ms-image-header-nine-section-1");
+                    let img2 = document.getElementById("ms-image-header-nine-section-2");
+                    let img3 = document.getElementById("ms-image-header-nine-section-3");            
+                    let img4 = document.getElementById("ms-image-header-nine-section-4");  
+                    let img5 = document.getElementById("ms-image-header-nine-section-5");
+                    let img6 = document.getElementById("ms-image-header-nine-section-6");
+                    let img7 = document.getElementById("ms-image-header-nine-section-7");                                                                                        
+                    let img8 = document.getElementById("ms-image-header-nine-section-8");
+                    let img9 = document.getElementById("ms-image-header-nine-section-9");
+                    let img10 = document.getElementById("ms-image-header-nine-section-10");
+                    let img11 = document.getElementById("ms-image-header-nine-section-11");                                                                                                                                                                                                                                                                                                                                                                
+                    let img12 = document.getElementById("ms-image-header-nine-section-12");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                    let pathImg1 = [{x:"200",y:"100"},
+                        {x:"100",y:"300"},
+                        {x:"-850",y:"0"}
+                        ];
+                    let pathImg2 = [{x:"200",y:"100"},
+                        {x:"300",y:"500"},
+                        {x:"-850",y:"-5"}
+                        ];
+                    let pathImg3 = [{x:"200",y:"100"},
+                        {x:"-200",y:"300"},
+                        {x:"-920",y:"5"}
+                        ];
+                    let pathImg4 = [{x:"200",y:"100"},
+                        {x:"-100",y:"300"},
+                        {x:"-1020",y:"14"}
+                        ];
+                    let pathImg5 = [{x:"200",y:"100"},
+                        {x:"-100",y:"300"},
+                        {x:"-940",y:"14"}
+                        ];
+                    let pathImg6 = [{x:"200",y:"100"},
+                        {x:"200",y:"600"},
+                        {x:"-1040",y:"14"}
+                        ];
+                    let pathImg7 = [{x:"200",y:"100"},
+                        {x:"100",y:"300"},
+                        {x:"-1150",y:"8"}
+                        ];
+                    let pathImg8 = [{x:"200",y:"100"},
+                        {x:"100",y:"300"},
+                        {x:"-1235",y:"14"}
+                        ];
+                    let pathImg9 = [{x:"200",y:"100"},
+                        {x:"-100",y:"300"},
+                        {x:"-1340",y:"14"}
+                        ];
+                    let pathImg10 = [{x:"300",y:"200"},
+                        {x:"-200",y:"400"},
+                        {x:"-1230",y:"14"}
+                        ];
+                    let pathImg11 = [{x:"300",y:"200"},
+                        {x:"-100",y:"400"},
+                        {x:"-1330",y:"14"}
+                        ];
+                    let pathImg12 = [{x:"300",y:"200"},
+                        {x:"-100",y:"400"},
+                        {x:"-1280",y:"10"}
+                        ];                                                      
+                    TweenMax.to(img1,3,{bezier:{curviness:4,values:pathImg1}},"");
+                    TweenMax.to(img2,3.2,{bezier:{curviness:4,values:pathImg2}},"");
+                    TweenMax.to(img3,3.5,{bezier:{curviness:3,values:pathImg3}},"");  
+                    TweenMax.to(img4,4,{bezier:{curviness:3,values:pathImg4}},"");
+                    TweenMax.to(img5,5,{bezier:{curviness:3,values:pathImg5}},"");    
+                    TweenMax.to(img6,5.5,{bezier:{curviness:3,values:pathImg6}},"");
+                    TweenMax.to(img7,5.8,{bezier:{curviness:5,values:pathImg7}},"");        
+                    TweenMax.to(img8,6,{bezier:{curviness:6,values:pathImg8}},""); 
+                    TweenMax.to(img9,6.5,{bezier:{curviness:6,values:pathImg9}},"");
+                    TweenMax.to(img10,7,{bezier:{curviness:5,values:pathImg10}},"");                
+                    TweenMax.to(img11,8,{bezier:{curviness:6,values:pathImg11}},"");
+                    TweenMax.to(img12,8.5,{bezier:{curviness:6,values:pathImg12}},"");              
+                  }
+               });  
+            } 
+          }); 
           
         })();
        

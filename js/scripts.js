@@ -111,7 +111,7 @@ jQuery(function ($) {
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 200,
-        infinite:false,
+        infinite:true,
         arrows:false,
         responsive: [
               {
@@ -167,10 +167,10 @@ jQuery(function ($) {
       $('#ms-slider-team-members').slick({
         autoplay:true,
         autoplaySpeed:4000,
-        slidesToShow:3,
+        /*slidesToShow:3,*/
         slidesToScroll:1,
-        centerMode:true,
         centerPadding:'0',
+        centerMode:true,
         infinite:true,
         responsive: [
               {

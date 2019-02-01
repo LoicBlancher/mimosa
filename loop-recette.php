@@ -3,17 +3,22 @@
         <?php  $loop = new WP_Query( array( 'post_type' => 'recette'));
          if ( $loop->have_posts() ) :
             while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                 <div id="ms-ingredients-card">
+                 <div class="card slide-up">
                      <?php 
                      $image = get_field('image_ingredient');
                      if( !empty($image) ): ?>
-                      <img src="<?php echo $image['url']; ?>" id="ms-ingredients-image" alt="<?php echo $image['alt']; ?>" />
+                      <img src="<?php echo $image['url']; ?>" class="image" alt="<?php echo $image['alt']; ?>" />
                      <?php endif; ?>
-                     <div id="ms-footer-ingredients-card">
-                       <span id="ms-text-footer"><?php the_title()?></span>
-                       <div class="ms-recette-overlay">
-                            <div class="ms-recette-description"><?php the_field('description') ;?></div>
-                            </div>  
+                     <div class="title-footer">
+                         <span><?php the_title()?></span>
+                     </div>
+                     <div class="caption">
+                         <p class="caption-content">
+                             <?php the_field('description') ;?>
+                         </p>
+                         <h3 class="cardTitle text-center">
+                             <?php the_title()?>
+                         </h3>
                      </div>
                  </div>  
             <?php endwhile;

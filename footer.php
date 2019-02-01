@@ -7,6 +7,7 @@
 						<ul>
 							<?php $address_mimosa= get_option('address');?>
 							<li><a href=""><?php echo $address_mimosa?></a></li>
+							<li><a href="">Nos chefs</a></li>
 							<?php $phone_mimosa= get_option('phone');?>
 							<li><a href="tel:<?php echo $phone_mimosa?>">Tel:<?php echo $phone_mimosa?></a></li>
 							<?php $mail_mimosa= get_option('mail');?>

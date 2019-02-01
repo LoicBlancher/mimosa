@@ -93,33 +93,55 @@ jQuery(function ($) {
       \*------------------------------------*/
         
         /* IF Scroll ID == ms-demo-fourth-section */
-        $(window).scroll(function() {
-           var hT = $('#ms-loguistique-third-section').offset().top,
-               hH = $('#ms-loguistique-third-section').outerHeight(),
-               wH = $(window).height(),
-               wS = $(this).scrollTop();
-           if (wS > (hT+hH-wH)){
+        var animateCar = $(() => {
+          $(window).scroll(function() {
+             var hT = $('#ms-loguistique-third-section').offset().top,
+                 hH = $('#ms-loguistique-third-section').outerHeight(),
+                 wH = $(window).height(),
+                 wS = $(this).scrollTop();
+             if (wS > (hT+hH-wH)){
 
-              installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
-                if (matches) {
-                  (function animateCarSmoke(){
-                    let car = document.getElementById("ms-camion-logistique");
-                    let smokeCar = document.querySelector(".ms-container-smoke-car");
-                    TweenMax.to(car, 3, {
-                          x: -770,
-                          ease: Power0.easeNone
-                        });
-                    TweenMax.to(smokeCar, 3, {
-                          x: -930,
-                          ease: Power0.easeNone
-                        });
-                  })();
+                installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
+                  if (matches) {
+                    (function animateCarSmoke(){
+                      let car = document.getElementById("ms-camion-logistique");
+                      let smokeCar = document.querySelector(".ms-container-smoke-car");
+                      TweenMax.to(car, 3, {
+                            x: -770,
+                            ease: Power0.easeNone
+                          });
+                      TweenMax.to(smokeCar, 3, {
+                            x: -930,
+                            ease: Power0.easeNone
+                          });
+                    })();
 
-                } else {
-                 
-                }
-              }); 
-           }
+                  } else {
+                   
+                  }
+                });
+
+                installMediaQueryWatcher("(min-width: 1200px) and (max-width: 1480px)", function(matches) { 
+                  if (matches) {
+                    (function animateCarSmoke(){
+                      let car = document.getElementById("ms-camion-logistique");
+                      let smokeCar = document.querySelector(".ms-container-smoke-car");
+                      TweenMax.to(car, 3, {
+                            x: -510,
+                            ease: Power0.easeNone
+                          });
+                      TweenMax.to(smokeCar, 3, {
+                            x: -670,
+                            ease: Power0.easeNone
+                          });
+                    })();
+
+                  } else {
+                   
+                  }
+                });  
+             }
+          });
         });
 
         $(window).scroll(function() {
@@ -233,9 +255,6 @@ jQuery(function ($) {
 
 */
         (function animationPlantsLastSection(){
-          
-
-
           installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
             if (matches) {
                $(window).scroll(function() {

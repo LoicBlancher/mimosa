@@ -144,52 +144,93 @@ jQuery(function ($) {
           });
         });
 
-        $(window).scroll(function() {
-           var hT = $('#ms-loguistique-fourth-section').offset().top,
-               hH = $('#ms-loguistique-fourth-section').outerHeight(),
-               wH = $(window).height(),
-               wS = $(this).scrollTop();
-           if (wS > (hT+hH-wH)){
+        var animate02Logistique = $(() => {
+          $(window).scroll(function() {
+             var hT = $('#ms-loguistique-fourth-section').offset().top,
+                 hH = $('#ms-loguistique-fourth-section').outerHeight(),
+                 wH = $(window).height(),
+                 wS = $(this).scrollTop();
+             if (wS > (hT+hH-wH)){
 
-              installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
-                if (matches) {
-                  (function animate02Logistique(){
-                    let el = document.getElementById("ms-logistique-ser2-tool1");
-                    TweenMax.to(el, 1, {
-                          x: 650,
-                          ease: Sine.easeOut
-                        });
-                    let el1 = document.getElementById("ms-logistique-ser2-tool3");
-                    TweenMax.to(el1, 3,{
-                          delay:2,
-                          x: 430,
-                          rotation:360,
-                          ease: Sine.easeOut
-                        });
-                    let el2 = document.getElementById("ms-logistique-ser2-tool4");
-                    TweenMax.to(el2, 3, {
-                          delay:2,
-                          x: -190,
-                          ease: Sine.easeOut
-                        });
-                    let el3 = document.getElementById("ms-logistique-ser2-tool5");
-                    TweenMax.to(el3, 3, {
-                          delay:2,
-                          rotation: 0,
-                          ease: Sine.easeOut
-                        });
-                    let el4 = document.getElementById("ms-logistique-ser2-tool2");
-                    TweenMax.to(el4, 1, {
-                          y:140,
-                          rotation: 0,
-                          ease: Sine.easeOut
-                        });
-                  })();   
-                } else {
-                 
-                }
-              }); 
-           }
+                installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
+                  if (matches) {
+                    (function animate02Logistique(){
+                      let el = document.getElementById("ms-logistique-ser2-tool1");
+                      TweenMax.to(el, 1, {
+                            x: 650,
+                            ease: Sine.easeOut
+                          });
+                      let el1 = document.getElementById("ms-logistique-ser2-tool3");
+                      TweenMax.to(el1, 3,{
+                            delay:2,
+                            x: 430,
+                            rotation:360,
+                            ease: Sine.easeOut
+                          });
+                      let el2 = document.getElementById("ms-logistique-ser2-tool4");
+                      TweenMax.to(el2, 3, {
+                            delay:2,
+                            x: -190,
+                            ease: Sine.easeOut
+                          });
+                      let el3 = document.getElementById("ms-logistique-ser2-tool5");
+                      TweenMax.to(el3, 3, {
+                            delay:2,
+                            rotation: 0,
+                            ease: Sine.easeOut
+                          });
+                      let el4 = document.getElementById("ms-logistique-ser2-tool2");
+                      TweenMax.to(el4, 1, {
+                            y:140,
+                            rotation: 0,
+                            ease: Sine.easeOut
+                          });
+                    })();   
+                  } else {
+                   
+                  }
+                });
+
+                installMediaQueryWatcher("(min-width: 1200px) and (max-width: 1480px)", function(matches) { 
+                  if (matches) {
+                    (function animate02Logistique(){
+                      let el = document.getElementById("ms-logistique-ser2-tool1");
+                      TweenMax.to(el, 1, {
+                            x: 520,
+                            ease: Sine.easeOut
+                          });
+                      let el1 = document.getElementById("ms-logistique-ser2-tool3");
+                      TweenMax.to(el1, 3,{
+                            delay:2,
+                            x: 300,
+                            rotation:360,
+                            ease: Sine.easeOut
+                          });
+                      let el2 = document.getElementById("ms-logistique-ser2-tool4");
+                      TweenMax.to(el2, 3, {
+                            delay:2,
+                            x: -140,
+                            ease: Sine.easeOut
+                          });
+                      let el3 = document.getElementById("ms-logistique-ser2-tool5");
+                      TweenMax.to(el3, 3, {
+                            delay:2,
+                            rotation: 0,
+                            ease: Sine.easeOut
+                          });
+                      let el4 = document.getElementById("ms-logistique-ser2-tool2");
+                      TweenMax.to(el4, 1, {
+                            y:140,
+                            rotation: 0,
+                            ease: Sine.easeOut
+                          });
+                    })();   
+                  } else {
+                   
+                  }
+                });  
+             }
+          });
         });
 
         

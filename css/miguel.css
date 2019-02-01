@@ -977,11 +977,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .ms-wrapper-member-name{top: -100px;left: 60%;}
     #ms-team-section{margin-top:-5%;}
     #ms-eyelash-selector li a{font-size: 0.9em;}demo-culinaire
-    footer{padding: 50px 0;}
+    footer{padding: 50px 0;}logistique-culinaire
     .home footer #mg-newsletter-form-main #sib_signup_form_2,
     .demo-culinaire footer #mg-newsletter-form-main #sib_signup_form_2,
-    .atelier-formation footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
-    #mg-newsletter-main-menu #mg-newsletter-form-main #sib_signup_form_2{left:-16%;}
+    .atelier-formation footer #mg-newsletter-form-main #sib_signup_form_2,
+    .logistique-culinaire footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
+    #mg-newsletter-main-menu #mg-newsletter-form-main #sib_signup_form_2,{left:-16%;}
     #ms-wrapper-paginator{bottom:80px;}
     #ms-paginator-right{margin-right: 5%;}
 

@@ -196,15 +196,17 @@ jQuery(function ($) {
           let ctaControlez = document.getElementById("ms-cta-atelier-btn");
           ctaControlez.addEventListener("mouseover",function(){
             let light = document.getElementById("ms-avocado-demo");
-            TweenLite.fromTo(light, 0.3, {
-              x:-1}, {
-                x:1, 
+            let tl = new TimelineMax({repeatDelay:1});
+            tl.fromTo(light, 0.7, {
+              x:-1,
+              yoyo:true}, {
+                x:1,
                 ease:RoughEase.ease.config({
                   strength:8, 
                   points:20, 
                   template:Linear.easeNone, 
-                  randomize:false}) , 
-              clearProps:"x"})
+                  randomize:false})
+              });
           }); 
         })();
 /*

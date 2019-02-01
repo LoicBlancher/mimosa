@@ -1054,6 +1054,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-elementAt7-ser1{left:63%;}
     #ms-elementAt1-ser2{top:2%;}
     #ms-elementAt2-ser2{top:5%;}
+    #ms-elementAt9-ser3{background-size: 1150%;width: 100px;height: 120px;}
+    #ms-elementAt5-ser3{background-size:2100%;}
+    #ms-elementAt3-ser3{background-size: 1500%;width: 70px;height: 100px;}
     /* Logistique */
     
     #ms-services-logistique-3{width: 90%;}

@@ -415,25 +415,54 @@ jQuery(function ($) {
         });
         
         (function animateAtelier03(){
-          let plate = document.getElementById("ms-plate-atelier-ser");
-          let el1 = document.getElementById("ms-elementAt1-ser3");
-          let el2 = document.getElementById("ms-elementAt2-ser3");
-          let el3 = document.getElementById("ms-elementAt3-ser3");
-          let el4 = document.getElementById("ms-elementAt4-ser3");
-          let el5 = document.getElementById("ms-elementAt5-ser3");
-          let el6 = document.getElementById("ms-elementAt6-ser3");
-          let el7 = document.getElementById("ms-elementAt7-ser3");
-          let el8 = document.getElementById("ms-elementAt8-ser3");
-          let el9 = document.getElementById("ms-elementAt9-ser3");
-          let R = 400; 
-          let dur = 8; 
+          installMediaQueryWatcher("(min-width: 1800px)", function(matches) { 
+            if (matches) { 
+              let plate = document.getElementById("ms-plate-atelier-ser");
+              let el1 = document.getElementById("ms-elementAt1-ser3");
+              let el2 = document.getElementById("ms-elementAt2-ser3");
+              let el3 = document.getElementById("ms-elementAt3-ser3");
+              let el4 = document.getElementById("ms-elementAt4-ser3");
+              let el5 = document.getElementById("ms-elementAt5-ser3");
+              let el6 = document.getElementById("ms-elementAt6-ser3");
+              let el7 = document.getElementById("ms-elementAt7-ser3");
+              let el8 = document.getElementById("ms-elementAt8-ser3");
+              let el9 = document.getElementById("ms-elementAt9-ser3");
+              let R = 400; 
+              let dur = 8; 
 
-          var tl = new TimelineLite()
-          .staggerTo([el2,el3,el4,el5,el7,el9], dur ,{
-          bezier:{curviness:1.5,values:[{x:0,y:0},{x:R/2,y:R/2},{x:0,y:R},{x:-R/2,y:R/2},{x:0,y:0}]}
-          ,rotation:-720,repeat:-1,ease:Power0.easeNone},dur/6)
-          .to(".main_cookie", dur ,{rotation:-360,ease:Power0.easeNone,repeat:-1},0)
-          .time(dur);
+              var tl = new TimelineLite()
+              .staggerTo([el2,el3,el4,el5,el7,el9], dur ,{
+              bezier:{curviness:1.5,values:[{x:0,y:0},{x:R/2,y:R/2},{x:0,y:R},{x:-R/2,y:R/2},{x:0,y:0}]}
+              ,rotation:-720,repeat:-1,ease:Power0.easeNone},dur/6)
+              .to(".main_cookie", dur ,{rotation:-360,ease:Power0.easeNone,repeat:-1},0)
+              .time(dur);
+            }
+          });  
+
+          installMediaQueryWatcher("(min-width: 1200px) and (max-width: 1480px)", function(matches) { 
+            if (matches) { 
+              let plate = document.getElementById("ms-plate-atelier-ser");
+              let el1 = document.getElementById("ms-elementAt1-ser3");
+              let el2 = document.getElementById("ms-elementAt2-ser3");
+              let el3 = document.getElementById("ms-elementAt3-ser3");
+              let el4 = document.getElementById("ms-elementAt4-ser3");
+              let el5 = document.getElementById("ms-elementAt5-ser3");
+              let el6 = document.getElementById("ms-elementAt6-ser3");
+              let el7 = document.getElementById("ms-elementAt7-ser3");
+              let el8 = document.getElementById("ms-elementAt8-ser3");
+              let el9 = document.getElementById("ms-elementAt9-ser3");
+              let R = 400; 
+              let dur = 8; 
+
+              var tl = new TimelineLite()
+              .staggerTo([el2,el3,el4,el5,el7,el9], dur ,{
+              bezier:{curviness:1.5,values:[{x:0,y:0},{x:R/2,y:R/2},{x:0,y:R},{x:-R/2,y:R/2},{x:0,y:0}]}
+              ,rotation:-710,repeat:-1,ease:Power0.easeNone},dur/6)
+              .to(".main_cookie", dur ,{rotation:-350,ease:Power0.easeNone,repeat:-1},0)
+              .time(dur);
+            }
+          });  
+          
         })();
 
         let ctaControlez = document.getElementById("ms-cta-atelier-btn");

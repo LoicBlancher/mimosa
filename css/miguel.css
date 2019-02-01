@@ -995,6 +995,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-title-header-eigth-section h2{font-size: 51px;margin-left:18%;}
     #ms-el-dem-serv6{top:4%;}
     #ms-galerie-lightbox img{max-width: 640px;}
+    .ms-testimonials-title-header{margin-bottom:0;padding: 10% 0 0 0;}
+    #ms-testi-des{font-size: 14px;}
+
     /* Notre concept */
     .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
     .ms-no-padding-bottom h3{font-size: 22px!important;margin: 2px;}
@@ -2288,7 +2291,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-box-offres{margin-top:70px;padding:0 0 0 70px;}
       #ms-sommes-seven-section h2{margin-top:50px;}
       #mg-wrapper-main-menu #mg-main-menu-content ul li{line-height: 2.7em;}
-      
+      .card .cardTitle{font-size: 26px!important;}
       /* Contact */
 
       .ms-footer-pts #mg-newsletter-subtitle{font-size: 14px;}

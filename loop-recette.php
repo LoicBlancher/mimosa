@@ -16,9 +16,9 @@
                          <p class="caption-content">
                              <?php the_field('description') ;?>
                          </p>
-                         <h3 class="cardTitle text-center">
+                         <h4 class="cardTitle text-center">
                              <?php the_title()?>
-                         </h3>
+                         </h4>
                      </div>
                  </div>  
             <?php endwhile;

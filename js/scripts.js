@@ -108,7 +108,7 @@ jQuery(function ($) {
 
       $('#ms-scroll-ingredients').slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        /*slidesToScroll: 1,*/
         autoplay: false,
         autoplaySpeed: 200,
         infinite:true,
@@ -167,7 +167,7 @@ jQuery(function ($) {
       $('#ms-slider-team-members').slick({
         autoplay:true,
         autoplaySpeed:4000,
-        /*slidesToShow:3,*/
+        slidesToShow:3,
         slidesToScroll:1,
         centerPadding:'0',
         centerMode:true,
@@ -176,6 +176,7 @@ jQuery(function ($) {
               {
                   breakpoint: 1400,
                   settings: {
+                      autoplay:false,
                       slidesToShow: 3,
                       centerPadding: '400px'
                   }

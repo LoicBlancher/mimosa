@@ -975,7 +975,7 @@ function galerie_images_mimosa($atts){
             ) )
         ) );?>
         <?php 
-            if ($atts['name'] == 'atelier' || $atts['name'] == 'qui-sommes' ) {?>
+            if ($atts['name'] != 'notre-concept' ) {?>
                 <div id="ms-container-galerie">
                            <?php 
                             if ( $loop->have_posts() ) :

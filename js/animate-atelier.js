@@ -6,84 +6,84 @@ jQuery(function ($) {
         layoutChangedCallback(mql.matches);
       }
 
-      /* Header transition Atelier */
-      (function transitionMenuAtelier(){
-        $(window).scroll(function() {
-           var hT = $('#ms-atelier-second-section').offset().top,
-               hH = $('#ms-atelier-second-section').outerHeight(),
-               wH = $(window).height(),
-               wS = $(this).scrollTop();
-           let $header = $('header');
-           let $button = $('header a.yellowBtn');
-           if (wS > (hT+hH-wH)){
-            $header.removeClass('ms-yellow-background-btns');
-            $button.removeClass('hvr-ripple-out-wt');
-            $header.addClass('ms-white-background-social-icons');
-            $button.addClass('hvr-ripple-out');
-           }
-        }); 
+     /* Header transition Demo Atelier */
+     (function transitionMenuDemo(){
+       $(window).scroll(function() {
+          var hT = $('#ms-atelier-second-section').offset().top,
+              hH = $('#ms-atelier-second-section').outerHeight(),
+              wH = $(window).height(),
+              wS = $(this).scrollTop();
+          let $header = $('header');
+          let $button = $('header a.yellowBtn');
+          if (wS > (hT+hH-wH)){
+           $header.removeClass('ms-yellow-background-btns');
+           $button.removeClass('hvr-ripple-out-wt');
+           $header.addClass('ms-white-background-social-icons');
+           $button.addClass('hvr-ripple-out');
+          }
+       }); 
 
-        $(window).scroll(function() {
-           var hT = $('#ms-atelier-six-section').offset().top,
-               hH = $('#ms-atelier-six-section').outerHeight(),
-               wH = $(window).height(),
-               wS = $(this).scrollTop();
-           let $header = $('header');
-           let $button = $('header a.yellowBtn');
-           if (wS > (hT+hH-wH)){
-            $header.removeClass('ms-white-background-social-icons');
-            $button.removeClass('hvr-ripple-out');
-            $header.addClass('ms-yellow-background-btns');
-            $button.addClass('hvr-ripple-out-wt');
-           }
-        }); 
+       $(window).scroll(function() {
+          var hT = $('#ms-atelier-six-section').offset().top,
+              hH = $('#ms-atelier-six-section').outerHeight(),
+              wH = $(window).height(),
+              wS = $(this).scrollTop();
+          let $header = $('header');
+          let $button = $('header a.yellowBtn');
+          if (wS > (hT+hH-wH)){
+           $header.removeClass('ms-white-background-social-icons');
+           $button.removeClass('hvr-ripple-out');
+           $header.addClass('ms-yellow-background-btns');
+           $button.addClass('hvr-ripple-out-wt');
+          }
+       }); 
 
 
-        $(window).scroll(function() {
-           var hT = $('#ms-atelier-seven-section').offset().top,
-               hH = $('#ms-atelier-seven-section').outerHeight(),
-               wH = $(window).height(),
-               wS = $(this).scrollTop();
-           let $header = $('header');
-           let $button = $('header a.yellowBtn');
-           if (wS > (hT+hH-wH)){
-            $header.removeClass('ms-yellow-background-btns');
-            $button.removeClass('hvr-ripple-out-wt');
-            $header.addClass('ms-white-background-social-icons');
-            $button.addClass('hvr-ripple-out');
-           }
-        }); 
+       $(window).scroll(function() {
+          var hT = $('#ms-atelier-seven-section').offset().top,
+              hH = $('#ms-atelier-seven-section').outerHeight(),
+              wH = $(window).height(),
+              wS = $(this).scrollTop();
+          let $header = $('header');
+          let $button = $('header a.yellowBtn');
+          if (wS > (hT+hH-wH)){
+           $header.removeClass('ms-yellow-background-btns');
+           $button.removeClass('hvr-ripple-out-wt');
+           $header.addClass('ms-white-background-social-icons');
+           $button.addClass('hvr-ripple-out');
+          }
+       }); 
 
-        $(window).scroll(function() {
-           var hT = $('#ms-atelier-eight-section').offset().top,
-               hH = $('#ms-atelier-eight-section').outerHeight(),
-               wH = $(window).height(),
-               wS = $(this).scrollTop();
-           let $header = $('header');
-           let $button = $('header a.yellowBtn');
-           if (wS > (hT+hH-wH)){
-            $header.removeClass('ms-yellow-background-btns');
-            $button.removeClass('hvr-ripple-out-wt');
-            $header.addClass('ms-white-background-social-icons');
-            $button.addClass('hvr-ripple-out');
-           }
-        }); 
+       $(window).scroll(function() {
+          var hT = $('#ms-atelier-gallery-section').offset().top,
+              hH = $('#ms-atelier-gallery-section').outerHeight(),
+              wH = $(window).height(),
+              wS = $(this).scrollTop();
+          let $header = $('header');
+          let $button = $('header a.yellowBtn');
+          if (wS > (hT+hH-wH)){
+           $header.removeClass('ms-white-background-social-icons');
+           $button.removeClass('hvr-ripple-out');
+           $header.addClass('ms-yellow-background-btns');
+           $button.addClass('hvr-ripple-out-wt');
+          }
+       }); 
 
-        $(window).scroll(function() {
-           var hT = $('#ms-atelier-nine-section').offset().top,
-               hH = $('#ms-atelier-nine-section').outerHeight(),
-               wH = $(window).height(),
-               wS = $(this).scrollTop();
-           let $header = $('header');
-           let $button = $('header a.yellowBtn');
-           if (wS > (hT+hH-wH)){
-            $header.removeClass('ms-yellow-background-btns');
-            $button.removeClass('hvr-ripple-out-wt');
-            $header.addClass('ms-white-background-social-icons');
-            $button.addClass('hvr-ripple-out');
-           }
-        }); 
-      })();
+       $(window).scroll(function() {
+          var hT = $('#ms-atelier-nine-section').offset().top,
+              hH = $('#ms-atelier-nine-section').outerHeight(),
+              wH = $(window).height(),
+              wS = $(this).scrollTop();
+          let $header = $('header');
+          let $button = $('header a.yellowBtn');
+          if (wS > (hT+hH-wH)){
+           $header.removeClass('ms-yellow-background-btns');
+           $button.removeClass('hvr-ripple-out-wt');
+           $header.addClass('ms-white-background-social-icons');
+           $button.addClass('hvr-ripple-out');
+          }
+       }); 
+     })();
       /*------------------------------------*\
           BEGIN Animations Demo Culinaire
       \*------------------------------------*/
@@ -296,7 +296,7 @@ jQuery(function ($) {
             });
         }); 
 
-
+/*
         let imageTopCta = document.getElementById("ms-img-header-left-seven-section");
         let radiusImageTop = 20;
         TweenLite.set(imageTopCta,{ 
@@ -314,45 +314,71 @@ jQuery(function ($) {
           ease: Sine.easeInOut,
           repeat: -1,
           yoyo: true
-        }).progress(0.5);
+        }).progress(0.5);*/
 
         (function animateCtaDemo(){
           let devisCtaDemo = document.getElementById("ms-cta-devis-atelier");
           let contactCtaDemo = document.getElementById("ms-cta-contact-atelier");
-          devisCtaDemo.addEventListener("mouseover",function(event){
+          devisCtaDemo.addEventListener("mouseover",function(){
             let el2 = document.getElementById("ms-image-header-nine-section-atelier-2");
             let el3 = document.getElementById("ms-image-header-nine-section-atelier-3");
             TweenMax.to(el2, 6, {
                   y:-4,
                   x:23,
                   ease: Elastic.easeOut.config(1, 0.3),
+                  onComplete:returnBegin()
                 });
-            TweenMax.to(el3, 6, {
+            TweenMax.to(el3, 6, { 
                   y:-10,
                   x:32,
                   ease: Elastic.easeOut.config(1, 0.3),
+                  onComplete:returnBegin()
                 });
+              function returnBegin(){
+                devisCtaDemo.addEventListener("mouseout",function(){
+                  TweenMax.to(el2, 4, {
+                      x:0,
+                      y:0,
+                      ease: SlowMo.ease.config(0.7, 0.7, false)
+                      });
+                  TweenMax.to(el3, 4, {
+                      x:0,
+                      y:0,
+                      ease: SlowMo.ease.config(0.7, 0.7, false)
+                      });
+                });
+              };
           });
 
-          contactCtaDemo.addEventListener("mouseover",function(event){
+          contactCtaDemo.addEventListener("mouseover",function(){
             let el2 = document.getElementById("ms-image-header-nine-section-atelier-2");
             let el3 = document.getElementById("ms-image-header-nine-section-atelier-3");
-            TweenMax.fromTo(el2, 6, {
-                  y:0,
-                  x:0
-                },{
+            TweenMax.to(el2, 6, {
                   y:-4,
                   x:23,
-                  ease: Elastic.easeOut.config(1, 0.3)
+                  ease: Elastic.easeOut.config(1, 0.3),
+                  onComplete:returnBegin()
                 });
-            TweenMax.fromTo(el3, 6, {
-                  y:0,
-                  x:0,
-                },{
+            TweenMax.to(el3, 6, { 
                   y:-10,
                   x:32,
-                  ease: Elastic.easeOut.config(1, 0.3)
+                  ease: Elastic.easeOut.config(1, 0.3),
+                  onComplete:returnBegin()
                 });
+              function returnBegin(){
+                contactCtaDemo.addEventListener("mouseout",function(){
+                  TweenMax.to(el2, 4, {
+                      x:0,
+                      y:0,
+                      ease: SlowMo.ease.config(0.7, 0.7, false)
+                      });
+                  TweenMax.to(el3, 4, {
+                      x:0,
+                      y:0,
+                      ease: SlowMo.ease.config(0.7, 0.7, false)
+                      });
+                });
+              };
           });
         })();      
 

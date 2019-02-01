@@ -55,8 +55,8 @@ jQuery(function ($) {
         }); 
 
         $(window).scroll(function() {
-           var hT = $('#ms-atelier-eight-section').offset().top,
-               hH = $('#ms-atelier-eight-section').outerHeight(),
+           var hT = $('#ms-atelier-gallery-section').offset().top,
+               hH = $('#ms-atelier-gallery-section').outerHeight(),
                wH = $(window).height(),
                wS = $(this).scrollTop();
            let $header = $('header');
@@ -257,7 +257,7 @@ jQuery(function ($) {
                 randomize:false})
             });
         }); 
-
+/*
         let imageTopCta = document.getElementById("ms-img-header-left-seven-section");
         let radiusImageTop = 20;
         TweenLite.set(imageTopCta,{ 
@@ -276,7 +276,7 @@ jQuery(function ($) {
           repeat: -1,
           yoyo: true
         }).progress(0.5); 
-        
+        */
         (function animateCtaDemo(){
           let devisCtaDemo = document.getElementById("ms-cta-devis-demo");
           let contactCtaDemo = document.getElementById("ms-cta-contact-demo");

@@ -684,7 +684,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   }
 }
 
-/* Smoke Pot Atelier */
+/* Smoke Car */
 .ms-container-smoke-car{position: absolute;bottom: 40%;right: -35%;margin: 0;padding: 0;transform: rotate(80deg);z-index: 14;}
 .ms-smoke-point-car{position: absolute;list-style: none;width: 50px;height: 30px;background: #a0a0a0;border-radius: 60%;}
 .ms-smoke-point-car:nth-child(even){animation:animateEvenCar 2.8s linear infinite;}
@@ -829,7 +829,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-demo-culinaire-serv-1{display: none;}
 #ms-vegetables-demo{display: none;}
 #ms-cta-contact-demo{margin-left:2%;}
-
+.ms-wrapper-img-atouts img{width: 55%;}
 
 /*Atelier Images **/
 #ms-atelier-pot1{position: absolute;top: 80%;right: 14%}

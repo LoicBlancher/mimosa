@@ -169,7 +169,91 @@ jQuery(function ($) {
                           y:-580,
                           x:-300,
                           ease: Elastic.easeOut.config(1, 0.3),
-                        });          
+                        });  
+
+
+                             
+                } else {
+                 
+                }
+              });
+
+              installMediaQueryWatcher("(min-width: 1200px) and (max-width: 1480px)", function(matches) { 
+                if (matches) {
+                   let pot = document.getElementById("ms-atelier-pot1");
+                   TweenLite.fromTo(pot, 0.8, {
+                     x:-1}, {
+                       x:1, 
+                       ease:RoughEase.ease.config({
+                         strength:8, 
+                         points:20, 
+                         template:Linear.easeNone, 
+                         randomize:false}) , 
+                     clearProps:"x"})
+                   let el1 = document.getElementById("ms-elementAt9-ser1");
+                   TweenMax.to(el1, 6, {
+                         y:-135,
+                         x:0,
+                         ease: Elastic.easeOut.config(1, 0.3),
+                       });
+                   let el2 = document.getElementById("ms-elementAt8-ser1");
+                   TweenMax.to(el2, 6, {
+                         delay:2,
+                         y:-585,
+                         x:210,
+                         ease: Elastic.easeOut.config(1, 0.3),
+                       });     
+                    let el3 = document.getElementById("ms-elementAt7-ser1");
+                    TweenMax.to(el3, 6, {
+                          delay:2,
+                          y:-660,
+                          x:5,
+                          ease: Elastic.easeOut.config(1, 0.3),
+                        });     
+                    let el4 = document.getElementById("ms-elementAt6-ser1");
+                    TweenMax.to(el4, 6, {
+                          delay:2,
+                          y:-580,
+                          x:-230,
+                          ease: Elastic.easeOut.config(1, 0.3),
+                        });
+                    let el5 = document.getElementById("ms-elementAt5-ser1");
+                    TweenMax.to(el5, 6, {
+                          delay:2,
+                          y:-830,
+                          x:280,
+                          ease: Elastic.easeOut.config(1, 0.3),
+                        }); 
+                    let el6 = document.getElementById("ms-elementAt4-ser1");
+                    TweenMax.to(el6, 6, {
+                          delay:2,
+                          y:-690,
+                          x:110,
+                          ease: Elastic.easeOut.config(1, 0.3),
+                        });
+                    let el7 = document.getElementById("ms-elementAt3-ser1");
+                    TweenMax.to(el7, 6, {
+                          delay:2,
+                          y:-530,
+                          x:-30,
+                          ease: Elastic.easeOut.config(1, 0.3),
+                        });
+                    let el8 = document.getElementById("ms-elementAt2-ser1");
+                    TweenMax.to(el8, 6, {
+                          delay:2,
+                          y:-710,
+                          x:-140,
+                          ease: Elastic.easeOut.config(1, 0.3),
+                        });
+                    let el9 = document.getElementById("ms-elementAt1-ser1");
+                    TweenMax.to(el9, 6, {
+                          delay:2,
+                          y:-570,
+                          x:-300,
+                          ease: Elastic.easeOut.config(1, 0.3),
+                        });  
+
+                                
                              
                 } else {
                  

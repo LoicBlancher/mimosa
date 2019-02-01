@@ -899,8 +899,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 
 
 
-
-
+#ms-atelier-pot1{position: relative!important;
+}
+  
 
   
 /*------------------------------------*\
@@ -1027,6 +1028,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-image-header-nine-section-atelier-2{top: 17%;left: 39%;}
     #ms-image-header-nine-section-atelier-3{top: 10%;left: 40%;}
     .ms-box-container{margin:0 10px;}
+    #ms-atelier-pot1{right: 5%!important;}
+    #ms-elementAt9-ser1{right: 28%;}
   
     /* Logistique */
     

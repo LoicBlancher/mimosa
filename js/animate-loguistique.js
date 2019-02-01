@@ -436,23 +436,23 @@ jQuery(function ($) {
                         ];
                     let pathImg8 = [{x:"200",y:"100"},
                         {x:"100",y:"300"},
-                        {x:"-1235",y:"14"}
+                        {x:"-90",y:"14"}
                         ];
                     let pathImg9 = [{x:"200",y:"100"},
                         {x:"-100",y:"300"},
-                        {x:"-1340",y:"14"}
+                        {x:"-120",y:"14"}
                         ];
                     let pathImg10 = [{x:"300",y:"200"},
                         {x:"-200",y:"400"},
-                        {x:"-1230",y:"14"}
+                        {x:"-1130",y:"14"}
                         ];
                     let pathImg11 = [{x:"300",y:"200"},
                         {x:"-100",y:"400"},
-                        {x:"-1330",y:"14"}
+                        {x:"-1230",y:"14"}
                         ];
                     let pathImg12 = [{x:"300",y:"200"},
                         {x:"-100",y:"400"},
-                        {x:"-1280",y:"10"}
+                        {x:"-980",y:"3"}
                         ];                                                      
                     TweenMax.to(img1,3,{bezier:{curviness:4,values:pathImg1}},"");
                     TweenMax.to(img2,3.2,{bezier:{curviness:4,values:pathImg2}},"");

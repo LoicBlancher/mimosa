@@ -899,6 +899,11 @@ function footer_home_template() {
     get_template_part('partial','footer');
 }
 
+add_shortcode('footer_nc','footer_nc_template');
+function footer_nc_template() {
+    get_template_part('partial','footernc');
+}
+
 add_shortcode('contactinfo','contact_info_mimosa');
 function contact_info_mimosa(){
     get_template_part('partial','contactinfo');    

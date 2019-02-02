@@ -160,7 +160,9 @@ jQuery(function ($) {
       });
 
       $('#ms-slider-testimonials').slick({
-        waitForAnimate:true  
+        infinite:true,
+        autoplay:true,
+        autoplaySpeed:6000  
       });
 
 

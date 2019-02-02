@@ -476,11 +476,12 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 #ms-notre-reseau-qui-sommes .ms-primary-btn-bl{color: white;font-family: 'Gotham';letter-spacing: 0.3em;margin:10px 0;}
 .slick-list{width: 98%;left: 1%;}
 #ms-slider-testimonials .slick-prev, #ms-slider-testimonials .slick-next{display: none!important;}
-#ms_content_testi{margin-top: 20px;}
-#ms-slider-testimonials #ms_content_testi .ms-yellow-line{margin:10px auto;}
-#ms-testi-des{text-align: center;font-size: 17px;}
-#ms-quotes-testi:before{content: "\275B";color: var(--mimosa-yellow);display: inline-block;position: relative;left: 50%;font-size: 36px;transform: translateX(-50%);}
-#ms-image-testimonials{display: table;margin: 0 auto;}
+.ms_content_testi{margin-top: 20px;}
+.ms_content_testi p.largest{text-align: center;}
+#ms-slider-testimonials .ms_content_testi .ms-yellow-line{margin:10px auto;}
+.ms-testi-des{text-align: center;font-size: 17px;}
+.ms-quotes-testi:before{content: "\275B";color: var(--mimosa-yellow);display: inline-block;position: relative;left: 50%;font-size: 36px;transform: translateX(-50%);}
+.ms-image-testimonials{display: table;margin: 0 auto;}
 .ms-title-testimonial{display: block;text-align: center;color: var(--mimosa-black-semi-dark);font-size: 12px;font-weight: bold;letter-spacing: 0.2em;}
 .ms-position-testimonial{text-align: center;display: block;line-height: 3em;color: var(--mimosa-gray-dark);text-transform: uppercase;font-family: 'Gotham';letter-spacing: 0.2em;font-size: 10px;}
 #ms-wrapper-text-six-section-qui-sommes{padding: 30px 10px;}
@@ -967,7 +968,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-map-qui-sommes img{max-width: 90%!important;}
     #ms-sommes-fourth-section #ms-eyelash-selector li{margin:0 50px 0 10px;}
     #ms-map-qui-sommes{padding:unset;}
-    .qui-sommes-nous #ms-testi-des{font-size: 14px;margin-top:0;}
+    .qui-sommes-nous .ms-testi-des{font-size: 14px;margin-top:0;}
     .qui-sommes-nous .ms-position-testimonial{line-height: 1.5em;}
     .qui-sommes-nous #ms-sommes-five-section h2{text-align: center;margin-bottom: 0;margin-top:30%;}
     #ms-cela-vous-qui-sommes{padding:10px;}
@@ -999,7 +1000,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-el-dem-serv6{top:4%;}
     #ms-galerie-lightbox img{max-width: 640px;}
     .ms-testimonials-title-header{margin-bottom:0;padding: 10% 0 0 0;}
-    #ms-testi-des{font-size: 14px;}
+    .ms-testi-des{font-size: 14px;}
 
     /* Notre concept */
     .ms-no-padding-bottom{padding: 110px 70px 0 70px!important;}
@@ -1347,7 +1348,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{font-size: inherit;display: block;}
     #ms-cta-team{padding: 15px 22px;font-size: 0.6em;}
     #ms-sommes-second-section .ms-divider-gray{margin:15px 0;}
-    #ms-testi-des{font-size: 15px!important;}
+    .ms-testi-des{font-size: 15px!important;}
     #ms-wrapper-text-six-section-qui-sommes h3{font-size: 24px;margin: 10px 0;}
     /* Atelier */
     #ms-indicator-first-left-atelier{left: 33%;top: 45%;}
@@ -1928,7 +1929,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
   #ms-first-column-second-sec .ms-list-notre-concept .ms-item-list-notre-concept{display: table;margin: 0 auto;font-size:13px;}
   .ms-name-tposition{font-size: 12px;}
   .ms-name-tmember{font-size: 23px;}
-  #ms-testi-des{font-size: 18px;}
+  .ms-testi-des{font-size: 18px;}
   .ms-item-list-notre-concept:before{font-size: 25px;}
   .ms-item-list-notre-concept:after{font-size: 22px;}
   #ms-first-column-second-sec p.gray{display:block!important;}
@@ -2255,7 +2256,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-name-tposition{font-size: 16px;}
       .ms-name-tmember{font-size: 45px!important;}
       #ms-cta-team{margin:30px auto;}
-      #ms-testi-des{font-size: 21px!important;}
+      .ms-testi-des{font-size: 21px!important;}
       .ms-testimonials-title-header{margin-top:140px;}
       .ms-title-footer{font-size: 15px;}
       .ms-member-description{font-size: 17px;}
@@ -3130,7 +3131,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
         .ms-member-description{margin:0 auto;text-align: center;font-size: 12px;}
         #ms-slider-team-members .slick-prev{left:-10px;}
         #ms-notre-reseau-qui-sommes ul li{font-size: 12.8px;display: inline-flex;margin-top: 10px;}
-        #ms-testi-des{font-size: 16px;}
+        .ms-testi-des{font-size: 16px;}
         /* Responsive contact page */
         .ms-right-section-scroll h1{font-size: 42px;margin:40px 0 20px 0;}
         .ms-wrapper-contact-form label{font-size: 10px;}

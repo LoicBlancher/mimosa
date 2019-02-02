@@ -24,8 +24,46 @@ jQuery(function ($) {
  		  }
  		};
 
-    /* Nav Footer Menu */
-    
+    /* Nav Footer Menu 
+    home-nc
+    philosophie-nc
+    logistique-nc
+    chefs-nc
+    recette-nc
+    */
+    let animateFooterMenuNc = $(() => {
+      let $home = $('.home-nc');
+      $home.click(function(){
+       $(this).moveTo(1);
+      });
+
+      let $philosophy = $('.philosophie-nc');
+      $philosophy.click(function(){
+       $(this).moveTo(2);
+      });
+
+      let $logistique = $('.logistique-nc');
+      $logistique.click(function(){
+       $(this).moveTo(3);
+      });
+
+      let $chefs = $('.chefs-nc');
+      $chefs.click(function(){
+       $(this).moveTo(4);
+      });
+
+      let $reccete = $('.recette_nc');
+      $reccete.click(function(){
+       $(this).moveTo(5);
+      });
+
+      let $offres = $('.offres-nc');
+      $offres.click(function(){
+       $(this).moveTo(6);
+      });
+
+    });
+
 
  		function animation03Concept(id){
       if(id==3){

@@ -7,7 +7,7 @@
                      <?php 
                      $image = get_field('image_ingredient');
                      if( !empty($image) ): ?>
-                      <img src="<?php echo $image['url']; ?>" class="image" alt="<?php echo $image['alt']; ?>" />
+                      <img src="<?php echo $image['url']; ?>" class="image-recette" alt="<?php echo $image['alt']; ?>" />
                      <?php endif; ?>
                      <div class="title-footer">
                          <span><?php the_title()?></span>

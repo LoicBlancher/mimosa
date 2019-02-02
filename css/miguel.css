@@ -560,9 +560,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .caption-link {color: #fff;text-decoration: none;opacity: 1;-webkit-transition-property: opacity;transition-property: opacity;-webkit-transition-duration: 0.15s;transition-duration: 0.15s;-webkit-transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);}
 .slide-up:hover .image {-webkit-transform: translateY(0);transform: translateY(0px);}
 .slide-up:hover .caption {text-align: center;opacity: 1;-webkit-transform: translateY(0px);transform: translateY(0px);-webkit-transition: opacity 0.1s, -webkit-transform 0.4s;transition: opacity 0.1s, -webkit-transform 0.4s;transition: transform 0.4s, opacity 0.1s;transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;}
-.card .cardTitle{width: 100%;text-align: center;position:absolute;top:33%;transition: top 0.4s ease-in-out;color: black;line-height: 2.4rem;}
-.card:hover .cardTitle {top:0%;-webkit-transform: translateY(0px);transform: translateY(0px);transition: top 0.4s ease-in-out;transition-delay: 20ms;}
-.card:hover ..title-footer{visibility: hidden;}
+.card .cardTitle{width: 100%;text-align: center;position:absolute;top:33%;color: black;line-height: 2.4rem;}
+.card:hover .cardTitle {top:0%;}
+.card:hover .title-footer{visibility: hidden;}
 .title-footer span{display: inline-block;text-align: center;}
 #ms-scroll-tab{display: block;text-align: right;font-size: 20px;font-weight: bold;color: white;letter-spacing: 0.1em;}
 #ms-scroll-tab:after{content:'\279C';margin-left:15px;font-size:15px;color:white;}
@@ -2291,8 +2291,9 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       #ms-box-offres{margin-top:70px;padding:0 0 0 70px;}
       #ms-sommes-seven-section h2{margin-top:50px;}
       #mg-wrapper-main-menu #mg-main-menu-content ul li{line-height: 2.7em;}
-      .card .cardTitle{font-size: 26px!important;}
-      .ms-gallery-notre-concept .ms-galerie-lightbox #ms-galerie-lightbox img{margin-top:10%;}
+      .ms-gallery-notre-concept #ms-galerie-lightbox img{margin-top:10%!important;}
+      .card .cardTitle{font-size: 23px!important;}
+      #ms-scroll-ingredients{width: 75%;margin-left:10%;margin-top:10%;}
       /* Contact */
 
       .ms-footer-pts #mg-newsletter-subtitle{font-size: 14px;}

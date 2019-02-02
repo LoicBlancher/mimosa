@@ -67,7 +67,7 @@ jQuery(function ($) {
         let $header = $('header');
         $header.removeClass('ms-white-background-social-icons');
         if( id==2 || id == 4 || id == 7 ){
-          $header.addClass("ms-white-background-social-icons");
+          $header.addClass("ms-white-background-social-icons").fadeIn("slow");
         }
       }
 
@@ -80,7 +80,7 @@ jQuery(function ($) {
         if( id==3 || id == 8 ){
           $button.addClass('hvr-ripple-out-wt');
           $button.removeClass('hvr-ripple-out');
-          $header.addClass('ms-yellow-background-btns');
+          $header.addClass('ms-yellow-background-btns').fadeIn("slow");
         }
       }
 
@@ -1083,6 +1083,7 @@ jQuery(function ($) {
           }); 
         })();
 
+/*
         $(() => {
           var tl = new TimelineMax({repeat:-1,repeatDelay:0.3,yoyo:true})
           MorphSVGPlugin.convertToPath("circle , rect , polygon");
@@ -1091,7 +1092,7 @@ jQuery(function ($) {
             .to(eggMimosa, 0.3,{morphSVG:"#mimosa-spoon"},"+=1")
             .to(eggMimosa, 0.3,{morphSVG:eggMimosa},"+=1");
         });
-   
+ */  
         
 
        $(".main").onepage_scroll({

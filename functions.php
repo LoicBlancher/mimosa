@@ -222,6 +222,30 @@ function lastsection_nc_mimosaMenu()
 }
 
 
+function lastsection_qs_mimosaMenu()
+{
+    wp_nav_menu(
+    array(
+        'theme_location'  => 'qs-last-section',
+        'menu'            => '',
+        'container'       => 'div',
+        'container_class' => 'menu-{menu slug}-container',
+        'container_id'    => '',
+        'menu_class'      => '',
+        'menu_id'         => '',
+        'echo'            => true,
+        'fallback_cb'     => 'wp_page_menu',
+        'before'          => '',
+        'after'           => '',
+        'link_before'     => '',
+        'link_after'      => '',
+        'items_wrap'      => '<ul>%3$s</ul>',
+        'depth'           => 0,
+        'walker'          => ''
+        )
+    );
+}
+
 /* Add Menu Class for menus 
 add_filter( 'nav_menu_link_attributes', function($atts) {
         $atts['class'] = "hvr-underline-from-left";
@@ -380,6 +404,7 @@ function register_html5_menu()
         'footer-mimosa'=> __('Footer mimosa', 'html5blank'),
         'home-last-section'=> __('Last section Home', 'html5blank'),
         'nc-last-section'=>__('Last Section Notre Concept','html5blank'),
+        'qs-last-section'=>__('Last Section Qui Sommes Nous','html5blank'),
     ));
 }
 
@@ -929,6 +954,13 @@ add_shortcode('footernc','footer_nc_template');
 function footer_nc_template() {
     get_template_part('partial','footernc');
 }
+
+
+add_shortcode('footerqs','footer_qs_template');
+function footer_qs_template() {
+    get_template_part('partial','footerqs');
+}
+
 
 add_shortcode('contactinfo','contact_info_mimosa');
 function contact_info_mimosa(){

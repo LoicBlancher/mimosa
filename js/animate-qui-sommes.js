@@ -24,6 +24,54 @@ jQuery(function ($) {
       };
 
 
+      /* Nav Footer Qui Sommes 
+      home-qs
+      agence-qs
+      equipe-qs
+      map-qs
+      confiance-qs
+      devis-qs
+      */
+      let animationMenuFooterQuiS = $(() => {
+        let $home = $('.home-qs');
+        $home.click(function(){
+         $(this).moveTo(1);
+        });
+
+        let $agence = $('.agence-qs');
+        $agence.click(function(){
+         $(this).moveTo(2);
+        });
+
+        let $equipe = $('.equipe-qs');
+        $equipe.click(function(){
+         $(this).moveTo(3);
+        });
+
+        let $map = $('.map-qs');
+        $map.click(function(){
+         $(this).moveTo(4);
+        });
+
+        let $confiance = $('.confiance-qs');
+        $confiance.click(function(){
+         $(this).moveTo(5);
+        });
+
+        let $devis = $('.devis-qs');
+        $devis.click(function(){
+         $(this).moveTo(6);
+        });
+
+        let $offres = $('.offres-qs');
+        $offres.click(function(){
+         $(this).moveTo(7);
+        });
+
+
+      });
+
+
 
 
 

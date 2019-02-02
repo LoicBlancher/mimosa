@@ -24,13 +24,7 @@ jQuery(function ($) {
  		  }
  		};
 
-    /* Nav Footer Menu 
-    home-nc
-    philosophie-nc
-    logistique-nc
-    chefs-nc
-    recette-nc
-    */
+    /* Nav Footer Menu */
     let animateFooterMenuNc = $(() => {
       let $home = $('.home-nc');
       $home.click(function(){

@@ -1037,8 +1037,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #ms-part6-force-notrec{top: 70px;left: 10%;}
     #ms-part12-force-notrec{top:-10px;}
     #ms-scroll-ingredients{margin-top:15%;}
-    .card{width: 210px!important;margin:5rem 3px;}
-    .caption{width: 210px;}
+    .card{width: 223px!important;margin:5rem 3px;}
+    .caption{width: 223px;}
     /* Atelier */
     #ms-indicator-first-left-atelier{top: 48%;left: 38%;}
     #ms-indicator-right-atelier{left:45%;}

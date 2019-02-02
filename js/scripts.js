@@ -176,7 +176,7 @@ jQuery(function ($) {
               {
                   breakpoint: 1400,
                   settings: {
-                      autoplay:false,
+                      autoplay:true,
                       slidesToShow: 3,
                       centerPadding: '400px'
                   }

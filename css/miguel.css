@@ -960,7 +960,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     /* Qui sommes */
     #ms-sommes-second-section h2{font-size: 46px;margin-top: 30px;line-height: 1em;}
     .ms-name-tmember{font-size: 27px;}
-    #ms-wrapper-header-tmembers{top:-40px;}
+    #ms-wrapper-header-tmembers{top: -80px;width: 60%;}
     .ms-image-team-member{width: 150px!important;}
     #ms-cta-team{top:65px;}
     #ms-map-qui-sommes img{max-width: 90%!important;}
@@ -981,7 +981,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     .home footer #mg-newsletter-form-main #sib_signup_form_2,
     .demo-culinaire footer #mg-newsletter-form-main #sib_signup_form_2,
     .atelier-formation footer #mg-newsletter-form-main #sib_signup_form_2,
-    .logistique-culinaire footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
+    .logistique-culinaire footer #mg-newsletter-form-main #sib_signup_form_2,
+    .qui-sommes-nous footer #mg-newsletter-form-main #sib_signup_form_2{left:-15%;}
     #mg-newsletter-main-menu #mg-newsletter-form-main #sib_signup_form_2,{left:-16%;}
     #ms-wrapper-paginator{bottom:80px;}
     #ms-paginator-right{margin-right: 5%;}

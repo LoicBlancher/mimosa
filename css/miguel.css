@@ -956,7 +956,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #mg-wrapper-main-menu #mg-main-menu-content ul li{margin:10px 0 10px 0;}
     #mg-wrapper-main-menu #mg-main-menu-content nav{width: 34%;}
     #mg-newsletter-main-menu{width: 66%;position: relative;left: 8%;}
-
+    #mg-wrapper-main-menu #mg-newsletter-form-main{margin-left:14%;}
+    .home footer div#mg-newsletter-form-main{margin-left:-18%;}
     /* Qui sommes */
     #ms-sommes-second-section h2{font-size: 46px;margin-top: 30px;line-height: 1em;}
     .ms-name-tmember{font-size: 27px;}
@@ -986,6 +987,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
     #mg-newsletter-main-menu #mg-newsletter-form-main #sib_signup_form_2,{left:-16%;}
     #ms-wrapper-paginator{bottom:80px;}
     #ms-paginator-right{margin-right: 5%;}
+    .notre-concept footer div#mg-newsletter-form-main{margin-left:-18%;}
 
     /* Demo culinaire */
     .ms-services-line-indicator{left: 30%;top: 40%;}

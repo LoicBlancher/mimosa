@@ -2,6 +2,35 @@ jQuery(function ($) {
  $(document).ready(function () {
             
  	
+     function header_section_white_qs(id){
+       let $header = $('header');
+       $header.removeClass('ms-white-background-social-icons');
+       if( id==2 || id == 4 || id == 5 || id == 6 || id == 7){
+         $header.addClass("ms-white-background-social-icons");
+       }
+     }        
+
+      function header_section_yellow_qs(id){
+        let $header = $('header');
+        let $button = $('header a.yellowBtn');
+        $button.removeClass('hvr-ripple-out-wt');
+        $button.addClass('hvr-ripple-out');
+        $header.removeClass('ms-yellow-background-btns');
+        if( id==3 || id == 8 ){
+          $button.addClass('hvr-ripple-out-wt');
+          $button.removeClass('hvr-ripple-out');
+          $header.addClass('ms-yellow-background-btns');
+        }
+      };
+
+
+
+
+
+
+
+
+
   (function paginator_second_section(){
     let $imgQs1 = $('#ms-content-img1');
     let $imgQs2 = $('#ms-content-img2');
@@ -69,7 +98,8 @@ jQuery(function ($) {
  	    pagination: true,                
  	    updateURL: false,                
  	    beforeMove: function(index) {
- 	      
+ 	      header_section_white_qs(index);
+        header_section_yellow_qs(index);
  	    },  
  	    afterMove: function(index) {
  	    },   

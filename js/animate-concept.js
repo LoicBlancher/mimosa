@@ -3,13 +3,13 @@ jQuery(function ($) {
             
 
 
-        function header_section_white_concept(id){
-          let $header = $('header');
-          $header.removeClass('ms-white-background-social-icons');
-          if( id==2 || id == 3 || id == 4 || id == 6 ){
-            $header.addClass("ms-white-background-social-icons");
-          }
-        }    
+    function header_section_white_concept(id){
+      let $header = $('header');
+      $header.removeClass('ms-white-background-social-icons');
+      if( id==2 || id == 3 || id == 4 || id == 6 ){
+        $header.addClass("ms-white-background-social-icons");
+      }
+    }        
 
  		function header_section_yellow_concept(id){
  		  let $header = $('header');

@@ -4,7 +4,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/mimosa-transparent-yellow.png" alt="" class="" id="ms-logo-last-section-home">
     </div>
     <div class="col-12 col-md-10 col-lg-10 offset-md-1 offset-lg-1" id="ms-last-section-home-menu">
-      <?php lastsection_home_mimosaMenu();?>
+      <?php lastsection_nc_mimosaMenu();?>
     </div>
   </div>
 </div>        

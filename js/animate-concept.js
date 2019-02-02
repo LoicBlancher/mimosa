@@ -24,7 +24,8 @@ jQuery(function ($) {
  		  }
  		};
 
-
+    /* Nav Footer Menu */
+    
 
  		function animation03Concept(id){
       if(id==3){

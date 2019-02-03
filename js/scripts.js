@@ -286,9 +286,6 @@ jQuery(function ($) {
       $("#ms-last-section-home-menu ul li a").addClass("hvr-underline-from-left-last-section");
     })();
 
-
-
-
-      
+    
  }); 
 });

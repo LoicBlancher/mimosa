@@ -56,6 +56,8 @@ p.gray{color:var(--mimosa-gray-clear);}
 p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 .ms-yellow-text{color:var(--mimosa-yellow);}
 /* Contact Form Styles */
+div.wpcf7-response-output{display: none!important;}
+div.wpcf7 .ajax-loader{display: none!important;}
 .ms-wrapper-contact-form{width: 100%;}
 .ms-wrapper-contact-form .ms-black-label{color: var(--mimosa-black-dark);font-size: 14px;width: 50%;}
 .ms-wrapper-contact-form #ms-wrapper-checkbox-services{width: 100%;float: left;margin-bottom: 30px;}

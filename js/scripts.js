@@ -162,7 +162,7 @@ jQuery(function ($) {
       $('#ms-slider-testimonials').slick({
         infinite:true,
         autoplay:true,
-        autoplaySpeed:6000  
+        autoplaySpeed:5000  
       });
 
 
@@ -301,18 +301,19 @@ jQuery(function ($) {
       */
     
     /* Return to top Pages */
-    // ===== Scroll to Top ==== 
     $(window).scroll(function() {
-        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-            $('#ms-return-to-top').fadeIn(200);    // Fade in the arrow
+        if ($(this).scrollTop() >= 50) {
+            $('#ms-return-to-top').fadeIn(200); 
         } else {
-            $('#ms-return-to-top').fadeOut(200);   // Else fade out the arrow
+            $('#ms-return-to-top').fadeOut(200); 
         }
     });
-    $('#ms-return-to-top').click(function() {      // When arrow is clicked
+    $('#ms-return-to-top').click(function() { 
         $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
+            scrollTop : 0 
         }, 500);
     });  
+
+
  }); 
 });

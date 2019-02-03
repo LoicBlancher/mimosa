@@ -286,6 +286,18 @@ jQuery(function ($) {
       $("#ms-last-section-home-menu ul li a").addClass("hvr-underline-from-left-last-section");
     })();
 
-    
+      /* Politiques and terms 
+      (function politiques_terms_scroll(){
+        $header = $('header');
+        $button.removeClass('hvr-ripple-out-wt');
+        $button.addClass('hvr-ripple-out');
+        $header.removeClass('ms-yellow-background-btns');
+        $(window).scroll(function(){
+          $button.addClass('hvr-ripple-out-wt');
+          $button.removeClass('hvr-ripple-out');
+          $header.addClass('ms-yellow-background-btns').fadeIn("slow");
+        });
+      })();
+      */
  }); 
 });

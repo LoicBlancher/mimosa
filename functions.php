@@ -366,7 +366,7 @@ add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_qui_sommes' );
 
 
 function ms_enqueue_animations_politiques() {
-  if ( is_page( 'politique-de-confidentialite'))  {
+  if ( is_page( 'politique-de-confidentialite') || is_page('terms-conditions'))  {
     // Animations Qui Sommes
     wp_register_script('animationsPolitique', get_template_directory_uri() . '/js/politique.js', array('jquery'), '1.0.0',true); 
     wp_enqueue_script('animationsPolitique');

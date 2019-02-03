@@ -17,7 +17,7 @@
           <a href="<?php echo $linkedin_mimosa?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
           <?php $pinterest_mimosa= get_option('pinterest');?>
           <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></i></a>
-        </div>
+        </di  v>
         <?php footer_terms(); ?>
       </div>    
 

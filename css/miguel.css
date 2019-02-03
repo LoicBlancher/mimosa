@@ -156,6 +156,46 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
 .icon::before {display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;-webkit-font-smoothing: antialiased;}
 /* Paginator One Page Bubble */
 .ms-bubble-paginator{position: absolute;left: 25%;display: none;}
+#ms-return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(255, 208, 0, 0.45);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#ms-return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#ms-return-to-top:hover {
+    background: rgba(255, 208, 0, 0.69);
+}
+#ms-return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
 /*------------------------------------*\
    End Styles Site
 \*------------------------------------*/

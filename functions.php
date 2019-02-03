@@ -364,7 +364,6 @@ function ms_enqueue_animations_qui_sommes() {
 }
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_qui_sommes' );
 
-
 function ms_enqueue_animations_politiques() {
   if ( is_page( 'politique-de-confidentialite') || is_page('terms-conditions'))  {
     // Animations Qui Sommes
@@ -373,8 +372,6 @@ function ms_enqueue_animations_politiques() {
   } 
 }
 add_action( 'wp_enqueue_scripts', 'ms_enqueue_animations_politiques' );
-
-
 
 
 

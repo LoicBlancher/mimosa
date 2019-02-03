@@ -637,6 +637,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-footerTyPage{position: absolute;width: 100%;bottom:10%;left:3%;}
 .ms-footerTyPage #mg-menu-terms-main ul li a{font-size:13px;}
 .ms-footerTyPage #mg-menu-terms-main #mg-social-main-menu{font-size:13px;}
+#mg-footer-second ul li a:hover{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);-o-transform: scale(1.05);transform: scale(1.05);color:white;}
+.thank-you-contact footer{display: none;}
 /*------------------------------------*\
     End Thank You Page
 \*------------------------------------*/

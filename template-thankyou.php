@@ -9,7 +9,7 @@
     <div class="ms-footerTyPage">
       <div id="mg-menu-terms-main">
         <div id="mg-social-main-menu">
-         <?php $facebook_mimosa= get_option('facebook');?>
+          <?php $facebook_mimosa= get_option('facebook');?>
           <a href="<?php echo $facebook_mimosa?>"><i class="fab fa-facebook-f fa-lg"></i></a>
           <?php $twitter_mimosa= get_option('twitter');?>
           <a href="<?php echo $twitter_mimosa?>"><i class="fab fa-twitter fa-lg"></i></a>
@@ -17,8 +17,9 @@
           <a href="<?php echo $linkedin_mimosa?>"><i class="fab fa-linkedin-in fa-lg"></i></a>
           <?php $pinterest_mimosa= get_option('pinterest');?>
           <a href="<?php echo $pinterest_mimosa?>"><i class="fab fa-pinterest-p fa-lg"></i></a>
-        </di  v>
+        </div>
         <?php footer_terms(); ?>
       </div>    
 
     </div>
+<script type="text/javascript" src="http://mimosa.graditest.com/wp-content/themes/mimosa/js/lib/all.js"></script>

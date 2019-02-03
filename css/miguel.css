@@ -176,8 +176,8 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-#ms-return-to-top i {
-    color: #fff;
+#ms-return-to-top svg {
+    color: black;
     margin: 0;
     position: relative;
     left: 16px;
@@ -192,8 +192,8 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
 #ms-return-to-top:hover {
     background: rgba(255, 208, 0, 0.69);
 }
-#ms-return-to-top:hover i {
-    color: #fff;
+#ms-return-to-top:hover svg {
+    color: #212121;
     top: 5px;
 }
 /*------------------------------------*\

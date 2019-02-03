@@ -2872,6 +2872,7 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
       .ms-footer-pts #mg-newsletter-form-main .btn-newsletter{right: -2px;}
       #ms-wrapper-img-contact-info{margin-top: 5%;display: table;margin: 0 auto;}
       /* Responsive  Atelier */
+      .ms-wrapper-img-atouts img{width: 100%;}
       #ms-indicator-first-left-atelier{top:14%;}
       #ms-indicator-second-responsive-atelier{top: 12%;left: 40%;}
       #ms-indicator-last-atelier{top: 14%;left: 50%;}

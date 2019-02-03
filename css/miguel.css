@@ -226,6 +226,7 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
     #mimosa-fork,
     #mimosa-spoon{visibility: hidden;}
     #mg-menu-logo-main .mg-logo-img-menu{max-width: 100px;position: relative;float: right;right: 25%;bottom: 30px;}
+    .page-template-template-contact-php header #mg-info-header #socialHeader svg{color:#ffcf01;} 
     /*------------------------------------*\
                  END MAIN MENU
     \*------------------------------------*/
@@ -916,7 +917,8 @@ div#ms-bullet-first:after{position: absolute;bottom: 0;left: 15%;content: "";dis
 .ms-politique-terms-header{margin-top:10%;}
 .ms-pol-body{background-image: url(http://mimosa.graditest.com/wp-content/uploads/2019/02/Yellow-Strip.png);background-size: auto;background-position: 100% -13%;background-repeat: no-repeat;}
 .ms-container-politiques{margin-bottom:10%;}
-.politique-de-confidentialite .mg-newsletter-form-main form#sib_signup_form_2{left:-14%;}
+.politique-de-confidentialite .mg-newsletter-form-main form#sib_signup_form_2,
+.terms-conditions footer #mg-newsletter-form-main #sib_signup_form_2{left:-14%;}
 
 
 

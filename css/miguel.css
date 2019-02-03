@@ -59,6 +59,7 @@ p.largest{color:var(--mimosa-black-dark);font-size: 16px;}
 div.wpcf7-response-output{display: none!important;}
 div.wpcf7 .ajax-loader{display: none!important;}
 .ms-wrapper-contact-form{width: 100%;}
+.ms-wrapper-contact-form #ms-services-textbox:focus{outline: none;border:1px solid #ffcf01;}
 .ms-wrapper-contact-form .ms-black-label{color: var(--mimosa-black-dark);font-size: 14px;width: 50%;}
 .ms-wrapper-contact-form #ms-wrapper-checkbox-services{width: 100%;float: left;margin-bottom: 30px;}
 .ms-wrapper-contact-form #ms-wrapper-checkbox-services #ms-label-checkbox-services{width: 40%;float: left;}
@@ -66,7 +67,7 @@ div.wpcf7 .ajax-loader{display: none!important;}
 .ms-wrapper-contact-form #ms-checkbox-services input[type="checkbox"]{width: 20px;height: 20px;}*/
 .ms-wrapper-contact-form .wpcf7-form-control-wrap.services-int{width: 60%;float: left;}
 .ms-wrapper-contact-form #ms-services-textbox{margin: 30px 0 60px 150px;width: 70%;background: #f6f6f6;overflow-x: hidden;border: 1px solid #e0e0e0;border-radius: 5px;resize: none;}
-.ms-wrapper-contact-form #ms-services-textbox::placeholder{font-size:11px;color:var(--mimosa-gray-dark);position: relative;top:8px;left:5px;}
+.ms-wrapper-contact-form #ms-services-textbox::placeholder{font-size:11px;color:var(--mimosa-gray-dark);position: relative;top:1px;left:4px;}
 /*[acceptance accepte class:ms-form-mimosa-contact-checkbox "J'accepte le traitement de mes données"]*/
 .ms-wrapper-contact-form label{font-size: 12px;float:left;text-transform: uppercase;color:var(--mimosa-gray-dark);font-family: 'Gotham';font-weight:bold;margin-bottom: 10px;}
 .ms-wrapper-contact-form .ms-form-mimosa-contact-text,.ms-form-mimosa-contact-email{letter-spacing: 0.1em;margin-top:19px;position:relative;left:15%;bottom:44px;width: 80%;border:none;border-bottom: 1px solid var(--mimosa-gray-clear);font-weight: bold;font-size: 13px;outline: none;}

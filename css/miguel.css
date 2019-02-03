@@ -226,7 +226,8 @@ select:-webkit-autofill:focus {border: 1px solid #ffcf01;-webkit-text-fill-color
     #mimosa-fork,
     #mimosa-spoon{visibility: hidden;}
     #mg-menu-logo-main .mg-logo-img-menu{max-width: 100px;position: relative;float: right;right: 25%;bottom: 30px;}
-    .page-template-template-contact-php header #mg-info-header #socialHeader svg{color:#ffcf01;} 
+    .contact header #mg-info-header #socialHeader svg,
+    .devis header #mg-info-header #socialHeader svg{color:#ffcf01;} 
     /*------------------------------------*\
                  END MAIN MENU
     \*------------------------------------*/
